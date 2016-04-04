@@ -49,11 +49,14 @@ public class StartOptions : MonoBehaviour {
 		{
 			GameStateManager.Instance.ChallengeTimer = 11;
 			showPanels.outOfTimeText.SetActive(false);
-			cubeManager.cubeLayerMask.value = 8192;
+			cubeManager.cubeLayerMask.value = 8192;	
+			showPanels.liveChallengeTime.SetActive(true);
 			//updateScore.TimerChallege();
 		}
 
+	
 //		GameStateManager.Instance.NumBerOfGame = 0;
+	
 		showPanels.gameTitleText.SetActive(false);
 		GameStateManager.Instance.IsStarted = true;						//keep loading the starting scene
 		GameStateManager.Instance.StartGame();
@@ -101,6 +104,8 @@ public class StartOptions : MonoBehaviour {
 			cubeManager.cubeLayerMask.value = 8192;
 			//updateScore.TimerChallege();
 		}
+
+		showPanels.outOfTimeText.SetActive(false);
 
 		//showPanels.HideMenu();
 		if(GameStateManager.Instance.SceneMaterialNum < 5 && GameStateManager.Instance.NumBerOfGame%3 == 0)

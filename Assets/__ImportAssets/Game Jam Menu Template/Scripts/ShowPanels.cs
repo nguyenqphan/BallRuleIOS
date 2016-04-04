@@ -30,6 +30,7 @@ public class ShowPanels : MonoBehaviour {
 	//Call this function to activate and display the Options panel during the main menu
 	public void ShowOptionsPanel()
 	{
+		Time.timeScale = 0;
 		optionsPanel.SetActive(true);
 		optionsTint.SetActive(true);
 	}

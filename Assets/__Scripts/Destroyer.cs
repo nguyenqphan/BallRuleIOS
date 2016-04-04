@@ -78,6 +78,11 @@ public class Destroyer : MonoBehaviour {
 
 	}
 
+	public void StopTimerChallenge()
+	{
+		StopCoroutine("TimerChallengeCounter");
+	}
+
 
 	public void ResetTimerChallenge(){
 		StopCoroutine("TimerChallengeCounter");
