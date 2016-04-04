@@ -79,6 +79,7 @@
      <Compile Include="Assets\__Scripts\EventManager.cs" />
      <Compile Include="Assets\__Scripts\GPSManager.cs" />
      <Compile Include="Assets\__Scripts\GameStateManager.cs" />
+     <Compile Include="Assets\__Scripts\Gamemanager.cs" />
      <Compile Include="Assets\__Scripts\GroundEffect.cs" />
      <Compile Include="Assets\__Scripts\MainCube.cs" />
      <Compile Include="Assets\__Scripts\Notes\Ideas.cs" />

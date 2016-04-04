@@ -48,6 +48,8 @@ public class StartOptions : MonoBehaviour {
 		if(GameStateManager.Instance.IsChallenged)
 		{
 			GameStateManager.Instance.ChallengeTimer = 11;
+			showPanels.outOfTimeText.SetActive(false);
+			cubeManager.cubeLayerMask.value = 8192;
 			//updateScore.TimerChallege();
 		}
 
@@ -154,6 +156,7 @@ public class StartOptions : MonoBehaviour {
 
 		//Load the selected scene, by scene index number in build settings
 		SceneManager.LoadScene (sceneToStart);
+//		Time.timeScale = 1;
 	}
 
 	public void HideDelayed()
