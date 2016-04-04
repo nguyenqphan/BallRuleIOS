@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A128E061-8EF3-19A1-34AB-ED03F954D898}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BallManager.cs" />
+     <Compile Include="Assets\GPSTest.cs" />
+     <Compile Include="Assets\__ImportAssets\Fantasy Skybox FREE\Scripts\FSPlayer.cs" />
+     <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\EventSystemChecker.cs" />
+     <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\Pause.cs" />
+     <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\PlayMusic.cs" />
+     <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\QuitApplication.cs" />
+     <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\SetAudioLevels.cs" />
+     <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\ShowPanels.cs" />
+     <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\StartOptions.cs" />
+     <Compile Include="Assets\__ImportAssets\GemExample\Scripts\DemoTimeOfDay.cs" />
+     <Compile Include="Assets\__ImportAssets\GemExample\Scripts\Orbit.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\DragMe.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\DropMe.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\__Scripts\Ball.cs" />
+     <Compile Include="Assets\__Scripts\CameraTracker.cs" />
+     <Compile Include="Assets\__Scripts\Deactivator.cs" />
+     <Compile Include="Assets\__Scripts\Destroyer.cs" />
+     <Compile Include="Assets\__Scripts\Diamond.cs" />
+     <Compile Include="Assets\__Scripts\DiamondDeactivate.cs" />
+     <Compile Include="Assets\__Scripts\DisplayTime.cs" />
+     <Compile Include="Assets\__Scripts\EventManager.cs" />
+     <Compile Include="Assets\__Scripts\GPSManager.cs" />
+     <Compile Include="Assets\__Scripts\GameStateManager.cs" />
+     <Compile Include="Assets\__Scripts\GroundEffect.cs" />
+     <Compile Include="Assets\__Scripts\MainCube.cs" />
+     <Compile Include="Assets\__Scripts\Notes\Ideas.cs" />
+     <Compile Include="Assets\__Scripts\ParticeDeactivate.cs" />
+     <Compile Include="Assets\__Scripts\PlayerMaterials.cs" />
+     <Compile Include="Assets\__Scripts\PlayerScaler.cs" />
+     <Compile Include="Assets\__Scripts\SetFrameRate.cs" />
+     <Compile Include="Assets\__Scripts\SkyboxMaterials.cs" />
+     <Compile Include="Assets\__Scripts\SoundBreaking.cs" />
+     <Compile Include="Assets\__Scripts\SpawnerChallenge.cs" />
+     <Compile Include="Assets\__Scripts\SpawnerManager.cs" />
+     <Compile Include="Assets\__Scripts\TestingScripts\AddTorgueTest.cs" />
+     <Compile Include="Assets\__Scripts\TestingScripts\EventListenerTest.cs" />
+     <Compile Include="Assets\__Scripts\TestingScripts\GravityTest.cs" />
+     <Compile Include="Assets\__Scripts\TestingScripts\MoveTowadsTest.cs" />
+     <Compile Include="Assets\__Scripts\TestingScripts\TranPosTest.cs" />
+     <Compile Include="Assets\__Scripts\TextColor.cs" />
+     <Compile Include="Assets\__Scripts\UpdateScore.cs" />
+     <Compile Include="Assets\__Scripts\WaterLerp.cs" />
+     <Compile Include="Assets\__Scripts\WaterMaterials.cs" />
+     <Compile Include="Assets\__Scripts\WeatherDetecter.cs" />
+     <Compile Include="Assets\__Scripts\WeatherMan.cs" />
+     <Compile Include="Assets\__Scripts\_Cube\Cube.cs" />
+     <Compile Include="Assets\__Scripts\_Cube\CubeController.cs" />
+     <Compile Include="Assets\__Scripts\_Cube\CubeManager.cs" />
+     <Compile Include="Assets\__Scripts\_Cube\CubeMaterials.cs" />
+     <Compile Include="Assets\__Scripts\_Cube\Flashing.cs" />
+     <Compile Include="Assets\__Scripts\_Cube\GetIndexCube.cs" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\__Shaders\Gem.shader" />
+     <None Include="Assets\__Shaders\Skybox-Procedural.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{215CD100-0782-895A-3315-60CF3DBC17FB}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
