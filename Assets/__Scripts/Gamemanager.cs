@@ -4,18 +4,18 @@ using System.Collections;
 public class Gamemanager : MonoBehaviour {
 
 //	private StartOptions startOption;
-	private ShowPanels showPanell;
+//	private ShowPanels showPanell;
 	private Pause pause;
 	private CubeManager cubeManager;
-	private Destroyer destroyer;
+//	private Destroyer destroyer;
 
 	void Awake()
 	{
 //		startOption = GameObject.FindWithTag("UI").GetComponent<StartOptions>();
-		showPanell = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
+//		showPanell = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
 		pause = GameObject.FindWithTag("UI").GetComponent<Pause>();
 		cubeManager = GetComponent<CubeManager>();
-		destroyer = GameObject.FindWithTag("DestroyerBall").GetComponent<Destroyer>();
+//		destroyer = GameObject.FindWithTag("DestroyerBall").GetComponent<Destroyer>();
 	}
 
 	// Use this for initialization

@@ -134,7 +134,7 @@ public class GameStateManager : MonoBehaviour {
 		set{isStarted = value;}
 	}
 
-	private bool isChallened = true;
+	private bool isChallened = false;
 	public bool IsChallenged
 	{
 		get{return isChallened;}

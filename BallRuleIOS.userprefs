@@ -1,23 +1,6 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__ImportAssets/Game Jam Menu Template/Scripts/StartOptions.cs">
-    <Files>
-      <File FileName="Assets/__Scripts/GameStateManager.cs" Line="137" Column="33" />
-      <File FileName="Assets/__ImportAssets/Game Jam Menu Template/Scripts/StartOptions.cs" Line="108" Column="45" />
-      <File FileName="Assets/__Scripts/PlayerScaler.cs" Line="87" Column="92" />
-      <File FileName="Assets/__Scripts/UpdateScore.cs" Line="26" Column="3" />
-      <File FileName="Assets/__ImportAssets/Game Jam Menu Template/Scripts/ShowPanels.cs" Line="33" Column="22" />
-      <File FileName="Assets/__Scripts/Destroyer.cs" Line="83" Column="1" />
-      <File FileName="Assets/__Scripts/SpawnerManager.cs" Line="394" Column="47" />
-      <File FileName="Assets/BallManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/__Scripts/CameraTracker.cs" Line="67" Column="3" />
-      <File FileName="Assets/__Scripts/_Cube/CubeManager.cs" Line="29" Column="96" />
-      <File FileName="Assets/__Scripts/Diamond.cs" Line="39" Column="2" />
-      <File FileName="Assets/__Scripts/EventManager.cs" Line="28" Column="1" />
-      <File FileName="Assets/__Scripts/Gamemanager.cs" Line="14" Column="5" />
-      <File FileName="Assets/__ImportAssets/Game Jam Menu Template/Scripts/Pause.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

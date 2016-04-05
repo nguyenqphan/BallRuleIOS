@@ -58,7 +58,6 @@ public class Diamond : MonoBehaviour {
 				GameStateManager.Instance.ChallengeTimer = 10;
 				diamondP.destroyer.ResetTimerChallenge();
 				diamondP.updateScore.TimerChallenge();
-
 			}
 
 			Pickup();

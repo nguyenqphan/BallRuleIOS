@@ -10,6 +10,7 @@ public class Destroyer : MonoBehaviour {
 	private SoundBreaking soundBallDrop;
 	private UpdateScore updateScore;
 	private CubeManager cubeManager;
+	private bool isTimeRunging;
 
 	void Awake()
 	{
@@ -49,6 +50,7 @@ public class Destroyer : MonoBehaviour {
 
 			if (!GameStateManager.Instance.IsChallenged)
 			{
+				
 				if (GameStateManager.Instance.BestScore < GameStateManager.HighScore) 
 				{
 					GameStateManager.Instance.BestScore = GameStateManager.HighScore;
@@ -56,7 +58,12 @@ public class Destroyer : MonoBehaviour {
 				}
 			}else{
 				UpdateBestChallengeScore ();
+				if(isTimeRunging)
+				{
+					StopTimerChallenge();
+				}
 				showUI.liveChallengeTime.SetActive(false);
+
 			}
 		
 			updateScore.EndGameScore();
@@ -66,12 +73,15 @@ public class Destroyer : MonoBehaviour {
 
 	IEnumerator TimerChallengeCounter()
 	{
+		isTimeRunging = true;
 		while(GameStateManager.Instance.ChallengeTimer > 0)
 		{
 			yield return new WaitForSeconds(1f);
 			GameStateManager.Instance.ChallengeTimer--;
 			updateScore.TimerChallenge();
 		}
+
+		isTimeRunging = false;
 		cubeManager.cubeLayerMask = 2;
 		showUI.outOfTimeText.SetActive(true);
 		GameStateManager.Instance.IsOutOfTime = true;

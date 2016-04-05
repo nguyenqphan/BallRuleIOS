@@ -357,9 +357,7 @@ public class SpawnerManager : MonoBehaviour {
 	{
 		return Random.Range(8, 12);
 	}
-
-
-
+		
 	private int RandomCubeNum()
 	{
 		return Random.Range(0, 2);

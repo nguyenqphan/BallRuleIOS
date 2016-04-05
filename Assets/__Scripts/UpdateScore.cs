@@ -12,7 +12,14 @@ public class UpdateScore : MonoBehaviour {
 
 	public void TimerChallenge()
 	{
+		if(GameStateManager.Instance.ChallengeTimer < 4){
+			timerChallenge.color = Color.red;
+		}
+		else{
+			timerChallenge.color = Color.white;
+		}
 		timerChallenge.text = FormatTime(GameStateManager.Instance.ChallengeTimer);
+
 	}
 
 	public void LiveTime()
@@ -35,8 +42,7 @@ public class UpdateScore : MonoBehaviour {
 		}
 
 	}
-
-
+		
 	private string FormatTime(float timeInSeconds)
 	{
 		return string.Format("{0}:{1:00}", Mathf.FloorToInt(timeInSeconds/60), Mathf.FloorToInt(timeInSeconds%60)); 
