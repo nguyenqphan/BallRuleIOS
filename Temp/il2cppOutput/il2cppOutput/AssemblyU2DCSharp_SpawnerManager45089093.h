@@ -41,22 +41,26 @@ struct  SpawnerManager_t45089093  : public MonoBehaviour_t3012272455
 	GameObject_t4012695102 * ___smallCube_10;
 	// UnityEngine.GameObject SpawnerManager::mallestCube
 	GameObject_t4012695102 * ___mallestCube_11;
+	// UnityEngine.GameObject SpawnerManager::star
+	GameObject_t4012695102 * ___star_12;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::cubeList
-	List_1_t514686775 * ___cubeList_12;
+	List_1_t514686775 * ___cubeList_13;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::particleList
-	List_1_t514686775 * ___particleList_13;
+	List_1_t514686775 * ___particleList_14;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::diamondList
-	List_1_t514686775 * ___diamondList_14;
+	List_1_t514686775 * ___diamondList_15;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::diaEmissiveList
-	List_1_t514686775 * ___diaEmissiveList_15;
+	List_1_t514686775 * ___diaEmissiveList_16;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::diaBreakingList
-	List_1_t514686775 * ___diaBreakingList_16;
+	List_1_t514686775 * ___diaBreakingList_17;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::ballList
-	List_1_t514686775 * ___ballList_17;
+	List_1_t514686775 * ___ballList_18;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::ballExplodeList
-	List_1_t514686775 * ___ballExplodeList_18;
+	List_1_t514686775 * ___ballExplodeList_19;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::smallCubeList
-	List_1_t514686775 * ___smallCubeList_19;
+	List_1_t514686775 * ___smallCubeList_20;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::smallestCubeList
-	List_1_t514686775 * ___smallestCubeList_20;
+	List_1_t514686775 * ___smallestCubeList_21;
+	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::starList
+	List_1_t514686775 * ___starList_22;
 };

@@ -47,7 +47,7 @@ public class StartOptions : MonoBehaviour {
 		System.GC.Collect();
 		if(GameStateManager.Instance.IsChallenged)
 		{
-			GameStateManager.Instance.ChallengeTimer = 11;
+			GameStateManager.Instance.ChallengeTimer = 15;
 			showPanels.outOfTimeText.SetActive(false);
 			cubeManager.cubeLayerMask.value = 8192;	
 			showPanels.liveChallengeTime.SetActive(true);
@@ -97,7 +97,7 @@ public class StartOptions : MonoBehaviour {
 		if(GameStateManager.Instance.IsChallenged)
 		{
 			GameStateManager.Instance.IsOutOfTime = false;
-			GameStateManager.Instance.ChallengeTimer = 10;
+			GameStateManager.Instance.ChallengeTimer = 15;
 			showPanels.liveChallengeTime.SetActive(true);
 			updateScore.TimerChallenge();
 			showPanels.outOfTimeText.SetActive(false);

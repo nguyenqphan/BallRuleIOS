@@ -13,26 +13,36 @@
 #include <limits>
 #include <assert.h>
 
-// SpawnerManager/<InstantiateBallExplode>c__Iterator18
-struct U3CInstantiateBallExplodeU3Ec__Iterator18_t1524620398;
+// SpawnerManager
+struct SpawnerManager_t45089093;
 // System.Object
 struct Object_t;
-// SpawnerManager/<InstantiateCube>c__Iterator1A
-struct U3CInstantiateCubeU3Ec__Iterator1A_t1100421286;
+// UnityEngine.GameObject
+struct GameObject_t4012695102;
+// System.Collections.IEnumerator
+struct IEnumerator_t287207039;
+// SpawnerManager/<InstantiateBall>c__Iterator1E
+struct U3CInstantiateBallU3Ec__Iterator1E_t1953657076;
+// Ball
+struct Ball_t2062879;
+// SpawnerManager/<InstantiateBallExplode>c__Iterator1A
+struct U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407;
+// SpawnerManager/<InstantiateCube>c__Iterator1C
+struct U3CInstantiateCubeU3Ec__Iterator1C_t1100421288;
 // MainCube
 struct MainCube_t55713198;
 // Cube
 struct Cube_t2111573;
-// SpawnerManager/<InstantiateDiamond>c__Iterator1B
-struct U3CInstantiateDiamondU3Ec__Iterator1B_t2257946986;
+// SpawnerManager/<InstantiateDiamond>c__Iterator1D
+struct U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988;
 // Diamond
 struct Diamond_t3319707956;
-// SpawnerManager/<InstantiateDiamondBreaking>c__Iterator19
-struct U3CInstantiateDiamondBreakingU3Ec__Iterator19_t2380724420;
-// SpawnerManager/<InstantiateDiamondEmissive>c__Iterator17
-struct U3CInstantiateDiamondEmissiveU3Ec__Iterator17_t1952760214;
-// SpawnerManager/<InstantiateEffect>c__Iterator16
-struct U3CInstantiateEffectU3Ec__Iterator16_t1005504887;
+// SpawnerManager/<InstantiateDiamondBreaking>c__Iterator1B
+struct U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429;
+// SpawnerManager/<InstantiateDiamondEmissive>c__Iterator19
+struct U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216;
+// SpawnerManager/<InstantiateEffect>c__Iterator18
+struct U3CInstantiateEffectU3Ec__Iterator18_t1005504889;
 // StartOptions
 struct StartOptions_t3075365884;
 // ShowPanels
@@ -61,68 +71,88 @@ struct WaterMaterials_t3313381621;
 struct WeatherDetecter_t2833725060;
 // WeatherMan
 struct WeatherMan_t2413190374;
-// System.Collections.IEnumerator
-struct IEnumerator_t287207039;
 // UnityEngine.Collider
 struct Collider_t955670625;
-// WeatherDetecter/<deactivateWeatherDetector>c__Iterator1E
-struct U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505;
+// WeatherDetecter/<deactivateWeatherDetector>c__Iterator20
+struct U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array2840145358.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1524620398.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1524620398MethodDeclarations.h"
-#include "mscorlib_System_Void2779279689.h"
-#include "mscorlib_System_Object837106420MethodDeclarations.h"
-#include "mscorlib_System_Object837106420.h"
-#include "mscorlib_System_Boolean211005341.h"
-#include "UnityEngine_UnityEngine_GameObject4012695102MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Transform284553113MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_WaitForFixedUpdate896427542MethodDeclarations.h"
-#include "mscorlib_System_UInt32985925326.h"
-#include "mscorlib_System_Int322847414787.h"
 #include "AssemblyU2DCSharp_SpawnerManager45089093.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen514686775.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen514686775MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerManager45089093MethodDeclarations.h"
+#include "mscorlib_System_Void2779279689.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour3012272455MethodDeclarations.h"
+#include "AssemblyU2DCSharp_EventManager_EventAction1244047696MethodDeclarations.h"
+#include "AssemblyU2DCSharp_EventManager1907836883MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Deactivator_EffectAction3544139591MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Deactivator4192724884MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Diamond_EmissiveAction997068685MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Diamond3319707956MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Diamond_ActionBreaking3455992569MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Ball_ActionExplode878049707MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Ball2062879MethodDeclarations.h"
+#include "AssemblyU2DCSharp_EventManager_EventAction1244047696.h"
+#include "mscorlib_System_Object837106420.h"
+#include "mscorlib_System_IntPtr676692020.h"
 #include "UnityEngine_UnityEngine_GameObject4012695102.h"
+#include "AssemblyU2DCSharp_Deactivator_EffectAction3544139591.h"
+#include "AssemblyU2DCSharp_Diamond_EmissiveAction997068685.h"
+#include "AssemblyU2DCSharp_Diamond_ActionBreaking3455992569.h"
+#include "AssemblyU2DCSharp_Ball_ActionExplode878049707.h"
+#include "UnityEngine_UnityEngine_Component2126946602MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerP2130838536.h"
+#include "UnityEngine_UnityEngine_Component2126946602.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen514686775MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform284553113MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Quaternion1891715979MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Object3878351788MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject4012695102MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GameStateManager648042254MethodDeclarations.h"
+#include "mscorlib_System_Int322847414787.h"
+#include "mscorlib_System_Single958209021.h"
+#include "mscorlib_System_Boolean211005341.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen514686775.h"
 #include "UnityEngine_UnityEngine_Transform284553113.h"
 #include "UnityEngine_UnityEngine_Vector33525329789.h"
 #include "UnityEngine_UnityEngine_Quaternion1891715979.h"
+#include "UnityEngine_UnityEngine_Object3878351788.h"
+#include "AssemblyU2DCSharp_GameStateManager648042254.h"
+#include "UnityEngine_UnityEngine_Coroutine2246592261.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateEff1005504889MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateEff1005504889.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia1952760216MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia1952760216.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1524620407MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1524620407.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2380724429MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2380724429.h"
+#include "UnityEngine_UnityEngine_Vector33525329789MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Random3963434288MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateCub1100421288MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateCub1100421288.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2257946988MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2257946988.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1953657076MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1953657076.h"
+#include "UnityEngine_UnityEngine_Physics2601443956MethodDeclarations.h"
+#include "mscorlib_System_Object837106420MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds1291133240MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WaitForFixedUpdate896427542MethodDeclarations.h"
+#include "mscorlib_System_UInt32985925326.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds1291133240.h"
+#include "AssemblyU2DCSharp_Ball2062879.h"
 #include "UnityEngine_UnityEngine_WaitForFixedUpdate896427542.h"
 #include "mscorlib_System_NotSupportedException1374155497MethodDeclarations.h"
 #include "mscorlib_System_NotSupportedException1374155497.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateCub1100421286.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateCub1100421286MethodDeclarations.h"
-#include "AssemblyU2DCSharp_SpawnerManager45089093MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_MonoBehaviour3012272455MethodDeclarations.h"
-#include "AssemblyU2DCSharp_GameStateManager648042254MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_WaitForSeconds1291133240MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Component2126946602MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Quaternion1891715979MethodDeclarations.h"
 #include "AssemblyU2DCSharp_MainCube55713198MethodDeclarations.h"
-#include "AssemblyU2DCSharp_SpawnerP2130838536.h"
-#include "UnityEngine_UnityEngine_Coroutine2246592261.h"
-#include "AssemblyU2DCSharp_GameStateManager648042254.h"
-#include "UnityEngine_UnityEngine_WaitForSeconds1291133240.h"
-#include "mscorlib_System_Single958209021.h"
 #include "AssemblyU2DCSharp_MainCube55713198.h"
 #include "AssemblyU2DCSharp_Cube2111573.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2257946986.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2257946986MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Diamond3319707956MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Diamond3319707956.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2380724420.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2380724420MethodDeclarations.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia1952760214.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia1952760214MethodDeclarations.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateEff1005504887.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateEff1005504887MethodDeclarations.h"
 #include "AssemblyU2DCSharp_SpawnerP2130838536MethodDeclarations.h"
 #include "AssemblyU2DCSharp_StartOptions3075365884.h"
 #include "AssemblyU2DCSharp_StartOptions3075365884MethodDeclarations.h"
 #include "AssemblyU2DCSharp_ShowPanels2673010796.h"
-#include "UnityEngine_UnityEngine_Component2126946602.h"
 #include "AssemblyU2DCSharp_PlayMusic109867825.h"
 #include "AssemblyU2DCSharp_TextColor940396054.h"
 #include "AssemblyU2DCSharp_UpdateScore1082839849.h"
@@ -155,7 +185,6 @@ struct U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505;
 #include "UnityEngine_UnityEngine_Time1525492538MethodDeclarations.h"
 #include "AssemblyU2DCSharp_TranPosTest3225884475.h"
 #include "AssemblyU2DCSharp_TranPosTest3225884475MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Vector33525329789MethodDeclarations.h"
 #include "UnityEngine_UI_UnityEngine_UI_Text3286458198MethodDeclarations.h"
 #include "mscorlib_System_Int322847414787MethodDeclarations.h"
 #include "mscorlib_System_String968488902MethodDeclarations.h"
@@ -175,16 +204,21 @@ struct U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505;
 #include "AssemblyU2DCSharp_WeatherDetecter2833725060.h"
 #include "AssemblyU2DCSharp_WeatherDetecter2833725060MethodDeclarations.h"
 #include "AssemblyU2DCSharp_WeatherMan2413190374.h"
-#include "AssemblyU2DCSharp_WeatherDetecter_U3CdeactivateWea3524863505MethodDeclarations.h"
-#include "AssemblyU2DCSharp_WeatherDetecter_U3CdeactivateWea3524863505.h"
+#include "AssemblyU2DCSharp_WeatherDetecter_U3CdeactivateWea3524863515MethodDeclarations.h"
+#include "AssemblyU2DCSharp_WeatherDetecter_U3CdeactivateWea3524863515.h"
 #include "UnityEngine_UnityEngine_Collider955670625.h"
 #include "AssemblyU2DCSharp_WeatherMan2413190374MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Object3878351788MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Object3878351788.h"
 
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Object_t * Component_GetComponent_TisObject_t_m267839954_gshared (Component_t2126946602 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisObject_t_m267839954(__this, method) ((  Object_t * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<SpawnerManager>()
+#define Component_GetComponent_TisSpawnerManager_t45089093_m2625400480(__this, method) ((  SpawnerManager_t45089093 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
 extern "C"  Object_t * GameObject_GetComponent_TisObject_t_m2447772384_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
 #define GameObject_GetComponent_TisObject_t_m2447772384(__this, method) ((  Object_t * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<Ball>()
+#define GameObject_GetComponent_TisBall_t2062879_m3020420446(__this, method) ((  Ball_t2062879 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<MainCube>()
 #define GameObject_GetComponent_TisMainCube_t55713198_m3794875503(__this, method) ((  MainCube_t55713198 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponentInChildren<System.Object>()
@@ -194,9 +228,6 @@ extern "C"  Object_t * GameObject_GetComponentInChildren_TisObject_t_m782999868_
 #define GameObject_GetComponentInChildren_TisCube_t2111573_m2983726412(__this, method) ((  Cube_t2111573 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m782999868_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<Diamond>()
 #define GameObject_GetComponent_TisDiamond_t3319707956_m178647341(__this, method) ((  Diamond_t3319707956 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
-// !!0 UnityEngine.Component::GetComponent<System.Object>()
-extern "C"  Object_t * Component_GetComponent_TisObject_t_m267839954_gshared (Component_t2126946602 * __this, const MethodInfo* method);
-#define Component_GetComponent_TisObject_t_m267839954(__this, method) ((  Object_t * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<ShowPanels>()
 #define Component_GetComponent_TisShowPanels_t2673010796_m873919769(__this, method) ((  ShowPanels_t2673010796 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<PlayMusic>()
@@ -216,39 +247,1384 @@ extern "C"  Object_t * Component_GetComponent_TisObject_t_m267839954_gshared (Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void SpawnerManager/<InstantiateBallExplode>c__Iterator18::.ctor()
-extern "C"  void U3CInstantiateBallExplodeU3Ec__Iterator18__ctor_m593281015 (U3CInstantiateBallExplodeU3Ec__Iterator18_t1524620398 * __this, const MethodInfo* method)
+// System.Void SpawnerManager::.ctor()
+extern "C"  void SpawnerManager__ctor_m2325899510 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpawnerManager::OnEnable()
+extern TypeInfo* EventAction_t1244047696_il2cpp_TypeInfo_var;
+extern TypeInfo* EffectAction_t3544139591_il2cpp_TypeInfo_var;
+extern TypeInfo* EmissiveAction_t997068685_il2cpp_TypeInfo_var;
+extern TypeInfo* ActionBreaking_t3455992569_il2cpp_TypeInfo_var;
+extern TypeInfo* ActionExplode_t878049707_il2cpp_TypeInfo_var;
+extern const MethodInfo* SpawnerManager_StartSpawnCube_m4152759772_MethodInfo_var;
+extern const MethodInfo* SpawnerManager_PlayCubeEffect_m142571712_MethodInfo_var;
+extern const MethodInfo* SpawnerManager_PlayerDiamondEmissive_m3751467318_MethodInfo_var;
+extern const MethodInfo* SpawnerManager_PlayDiamondBreaking_m3939813999_MethodInfo_var;
+extern const MethodInfo* SpawnerManager_PlayExplodeBall_m2334700920_MethodInfo_var;
+extern const uint32_t SpawnerManager_OnEnable_m2236494544_MetadataUsageId;
+extern "C"  void SpawnerManager_OnEnable_m2236494544 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_OnEnable_m2236494544_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IntPtr_t L_0 = { (void*)SpawnerManager_StartSpawnCube_m4152759772_MethodInfo_var };
+		EventAction_t1244047696 * L_1 = (EventAction_t1244047696 *)il2cpp_codegen_object_new(EventAction_t1244047696_il2cpp_TypeInfo_var);
+		EventAction__ctor_m2473161659(L_1, __this, L_0, /*hidden argument*/NULL);
+		EventManager_add_OnPlayerEnter_m1897001388(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		IntPtr_t L_2 = { (void*)SpawnerManager_PlayCubeEffect_m142571712_MethodInfo_var };
+		EffectAction_t3544139591 * L_3 = (EffectAction_t3544139591 *)il2cpp_codegen_object_new(EffectAction_t3544139591_il2cpp_TypeInfo_var);
+		EffectAction__ctor_m709885321(L_3, __this, L_2, /*hidden argument*/NULL);
+		Deactivator_add_Emissive_m1540344416(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IntPtr_t L_4 = { (void*)SpawnerManager_PlayerDiamondEmissive_m3751467318_MethodInfo_var };
+		EmissiveAction_t997068685 * L_5 = (EmissiveAction_t997068685 *)il2cpp_codegen_object_new(EmissiveAction_t997068685_il2cpp_TypeInfo_var);
+		EmissiveAction__ctor_m783311983(L_5, __this, L_4, /*hidden argument*/NULL);
+		Diamond_add_EmissiveDiamond_m243321708(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		IntPtr_t L_6 = { (void*)SpawnerManager_PlayDiamondBreaking_m3939813999_MethodInfo_var };
+		ActionBreaking_t3455992569 * L_7 = (ActionBreaking_t3455992569 *)il2cpp_codegen_object_new(ActionBreaking_t3455992569_il2cpp_TypeInfo_var);
+		ActionBreaking__ctor_m1932546523(L_7, __this, L_6, /*hidden argument*/NULL);
+		Diamond_add_BreakingDiamond_m3378285524(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		IntPtr_t L_8 = { (void*)SpawnerManager_PlayExplodeBall_m2334700920_MethodInfo_var };
+		ActionExplode_t878049707 * L_9 = (ActionExplode_t878049707 *)il2cpp_codegen_object_new(ActionExplode_t878049707_il2cpp_TypeInfo_var);
+		ActionExplode__ctor_m3611125474(L_9, __this, L_8, /*hidden argument*/NULL);
+		Ball_add_ExplodeBall_m2520872833(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpawnerManager::OnDisable()
+extern TypeInfo* EventAction_t1244047696_il2cpp_TypeInfo_var;
+extern TypeInfo* EffectAction_t3544139591_il2cpp_TypeInfo_var;
+extern TypeInfo* EmissiveAction_t997068685_il2cpp_TypeInfo_var;
+extern TypeInfo* ActionBreaking_t3455992569_il2cpp_TypeInfo_var;
+extern TypeInfo* ActionExplode_t878049707_il2cpp_TypeInfo_var;
+extern const MethodInfo* SpawnerManager_StartSpawnCube_m4152759772_MethodInfo_var;
+extern const MethodInfo* SpawnerManager_PlayCubeEffect_m142571712_MethodInfo_var;
+extern const MethodInfo* SpawnerManager_PlayerDiamondEmissive_m3751467318_MethodInfo_var;
+extern const MethodInfo* SpawnerManager_PlayDiamondBreaking_m3939813999_MethodInfo_var;
+extern const MethodInfo* SpawnerManager_PlayExplodeBall_m2334700920_MethodInfo_var;
+extern const uint32_t SpawnerManager_OnDisable_m1052791389_MetadataUsageId;
+extern "C"  void SpawnerManager_OnDisable_m1052791389 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_OnDisable_m1052791389_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IntPtr_t L_0 = { (void*)SpawnerManager_StartSpawnCube_m4152759772_MethodInfo_var };
+		EventAction_t1244047696 * L_1 = (EventAction_t1244047696 *)il2cpp_codegen_object_new(EventAction_t1244047696_il2cpp_TypeInfo_var);
+		EventAction__ctor_m2473161659(L_1, __this, L_0, /*hidden argument*/NULL);
+		EventManager_remove_OnPlayerEnter_m3222210725(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		IntPtr_t L_2 = { (void*)SpawnerManager_PlayCubeEffect_m142571712_MethodInfo_var };
+		EffectAction_t3544139591 * L_3 = (EffectAction_t3544139591 *)il2cpp_codegen_object_new(EffectAction_t3544139591_il2cpp_TypeInfo_var);
+		EffectAction__ctor_m709885321(L_3, __this, L_2, /*hidden argument*/NULL);
+		Deactivator_remove_Emissive_m821156421(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IntPtr_t L_4 = { (void*)SpawnerManager_PlayerDiamondEmissive_m3751467318_MethodInfo_var };
+		EmissiveAction_t997068685 * L_5 = (EmissiveAction_t997068685 *)il2cpp_codegen_object_new(EmissiveAction_t997068685_il2cpp_TypeInfo_var);
+		EmissiveAction__ctor_m783311983(L_5, __this, L_4, /*hidden argument*/NULL);
+		Diamond_remove_EmissiveDiamond_m4164008423(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		IntPtr_t L_6 = { (void*)SpawnerManager_PlayDiamondBreaking_m3939813999_MethodInfo_var };
+		ActionBreaking_t3455992569 * L_7 = (ActionBreaking_t3455992569 *)il2cpp_codegen_object_new(ActionBreaking_t3455992569_il2cpp_TypeInfo_var);
+		ActionBreaking__ctor_m1932546523(L_7, __this, L_6, /*hidden argument*/NULL);
+		Diamond_remove_BreakingDiamond_m3004004943(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		IntPtr_t L_8 = { (void*)SpawnerManager_PlayExplodeBall_m2334700920_MethodInfo_var };
+		ActionExplode_t878049707 * L_9 = (ActionExplode_t878049707 *)il2cpp_codegen_object_new(ActionExplode_t878049707_il2cpp_TypeInfo_var);
+		ActionExplode__ctor_m3611125474(L_9, __this, L_8, /*hidden argument*/NULL);
+		Ball_remove_ExplodeBall_m3528773778(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpawnerManager::Awake()
+extern const MethodInfo* Component_GetComponent_TisSpawnerManager_t45089093_m2625400480_MethodInfo_var;
+extern const uint32_t SpawnerManager_Awake_m2563504729_MetadataUsageId;
+extern "C"  void SpawnerManager_Awake_m2563504729 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_Awake_m2563504729_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		SpawnerManager_t45089093 * L_1 = Component_GetComponent_TisSpawnerManager_t45089093_m2625400480(__this, /*hidden argument*/Component_GetComponent_TisSpawnerManager_t45089093_m2625400480_MethodInfo_var);
+		L_0->___spawnManager_18 = L_1;
+		return;
+	}
+}
+// System.Void SpawnerManager::Start()
+extern TypeInfo* List_1_t514686775_il2cpp_TypeInfo_var;
+extern TypeInfo* GameObject_t4012695102_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2397334390_MethodInfo_var;
+extern const uint32_t SpawnerManager_Start_m1273037302_MetadataUsageId;
+extern "C"  void SpawnerManager_Start_m1273037302 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_Start_m1273037302_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	GameObject_t4012695102 * V_1 = {0};
+	GameObject_t4012695102 * V_2 = {0};
+	GameObject_t4012695102 * V_3 = {0};
+	GameObject_t4012695102 * V_4 = {0};
+	int32_t V_5 = 0;
+	GameObject_t4012695102 * V_6 = {0};
+	GameObject_t4012695102 * V_7 = {0};
+	GameObject_t4012695102 * V_8 = {0};
+	int32_t V_9 = 0;
+	GameObject_t4012695102 * V_10 = {0};
+	GameObject_t4012695102 * V_11 = {0};
+	GameObject_t4012695102 * G_B7_0 = {0};
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		L_0->___pooledAmount_2 = 4;
+		SpawnerP_t2130838536 * L_1 = &(__this->___spawnP_2);
+		L_1->___ballAmount_3 = 2;
+		SpawnerP_t2130838536 * L_2 = &(__this->___spawnP_2);
+		L_2->___diamondAmount_4 = 8;
+		SpawnerP_t2130838536 * L_3 = &(__this->___spawnP_2);
+		L_3->___indexSwitch_6 = 1;
+		SpawnerP_t2130838536 * L_4 = &(__this->___spawnP_2);
+		L_4->___fixedY_8 = (4.0f);
+		SpawnerP_t2130838536 * L_5 = &(__this->___spawnP_2);
+		L_5->___speedTime_10 = (1.0f);
+		SpawnerP_t2130838536 * L_6 = &(__this->___spawnP_2);
+		L_6->___firstSpawn_11 = (bool)1;
+		SpawnerP_t2130838536 * L_7 = &(__this->___spawnP_2);
+		L_7->___spawnNumber_12 = 0;
+		SpawnerP_t2130838536 * L_8 = &(__this->___spawnP_2);
+		L_8->___randomCubeNum_5 = 0;
+		SpawnerP_t2130838536 * L_9 = &(__this->___spawnP_2);
+		L_9->___smallestNum_0 = 0;
+		List_1_t514686775 * L_10 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_10, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___cubeList_13 = L_10;
+		List_1_t514686775 * L_11 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_11, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___particleList_14 = L_11;
+		List_1_t514686775 * L_12 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_12, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___diamondList_15 = L_12;
+		List_1_t514686775 * L_13 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_13, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___diaEmissiveList_16 = L_13;
+		List_1_t514686775 * L_14 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_14, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___diaBreakingList_17 = L_14;
+		List_1_t514686775 * L_15 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_15, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___ballList_18 = L_15;
+		List_1_t514686775 * L_16 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_16, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___ballExplodeList_19 = L_16;
+		List_1_t514686775 * L_17 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_17, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___smallCubeList_20 = L_17;
+		List_1_t514686775 * L_18 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_18, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___smallestCubeList_21 = L_18;
+		List_1_t514686775 * L_19 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_19, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->___starList_22 = L_19;
+		V_0 = 0;
+		goto IL_01cc;
+	}
+
+IL_00f5:
+	{
+		GameObject_t4012695102 * L_20 = (__this->___cubeToInstantiate_3);
+		Transform_t284553113 * L_21 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Vector3_t3525329789  L_22 = Transform_get_position_m2211398607(L_21, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_23 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_24 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_20, L_22, L_23, /*hidden argument*/NULL);
+		V_1 = ((GameObject_t4012695102 *)IsInstSealed(L_24, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_25 = (__this->___smallCube_10);
+		Transform_t284553113 * L_26 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		Vector3_t3525329789  L_27 = Transform_get_position_m2211398607(L_26, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_28 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_29 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_25, L_27, L_28, /*hidden argument*/NULL);
+		V_2 = ((GameObject_t4012695102 *)IsInstSealed(L_29, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_30 = (__this->___mallestCube_11);
+		Transform_t284553113 * L_31 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Vector3_t3525329789  L_32 = Transform_get_position_m2211398607(L_31, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_33 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_34 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_30, L_32, L_33, /*hidden argument*/NULL);
+		V_3 = ((GameObject_t4012695102 *)IsInstSealed(L_34, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_35 = (__this->___cubeParticle_4);
+		Transform_t284553113 * L_36 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_36);
+		Vector3_t3525329789  L_37 = Transform_get_position_m2211398607(L_36, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_38 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_39 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_35, L_37, L_38, /*hidden argument*/NULL);
+		V_4 = ((GameObject_t4012695102 *)IsInstSealed(L_39, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_40 = V_1;
+		NullCheck(L_40);
+		GameObject_SetActive_m3538205401(L_40, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_41 = V_2;
+		NullCheck(L_41);
+		GameObject_SetActive_m3538205401(L_41, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_42 = V_3;
+		NullCheck(L_42);
+		GameObject_SetActive_m3538205401(L_42, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_43 = V_4;
+		NullCheck(L_43);
+		GameObject_SetActive_m3538205401(L_43, (bool)0, /*hidden argument*/NULL);
+		List_1_t514686775 * L_44 = (__this->___cubeList_13);
+		GameObject_t4012695102 * L_45 = V_1;
+		NullCheck(L_44);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_44, L_45);
+		List_1_t514686775 * L_46 = (__this->___smallCubeList_20);
+		GameObject_t4012695102 * L_47 = V_2;
+		NullCheck(L_46);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_46, L_47);
+		List_1_t514686775 * L_48 = (__this->___smallestCubeList_21);
+		GameObject_t4012695102 * L_49 = V_3;
+		NullCheck(L_48);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_48, L_49);
+		List_1_t514686775 * L_50 = (__this->___particleList_14);
+		GameObject_t4012695102 * L_51 = V_4;
+		NullCheck(L_50);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_50, L_51);
+		int32_t L_52 = V_0;
+		V_0 = ((int32_t)((int32_t)L_52+(int32_t)1));
+	}
+
+IL_01cc:
+	{
+		int32_t L_53 = V_0;
+		SpawnerP_t2130838536 * L_54 = &(__this->___spawnP_2);
+		int32_t L_55 = (L_54->___pooledAmount_2);
+		if ((((int32_t)L_53) < ((int32_t)L_55)))
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		V_5 = 0;
+		goto IL_02aa;
+	}
+
+IL_01e5:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_56 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_56);
+		bool L_57 = GameStateManager_get_IsChallenged_m3135670911(L_56, /*hidden argument*/NULL);
+		if (!L_57)
+		{
+			goto IL_01ff;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_58 = (__this->___star_12);
+		G_B7_0 = L_58;
+		goto IL_0205;
+	}
+
+IL_01ff:
+	{
+		GameObject_t4012695102 * L_59 = (__this->___diamond_5);
+		G_B7_0 = L_59;
+	}
+
+IL_0205:
+	{
+		Transform_t284553113 * L_60 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		Vector3_t3525329789  L_61 = Transform_get_position_m2211398607(L_60, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_62 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_63 = Object_Instantiate_m2255090103(NULL /*static, unused*/, G_B7_0, L_61, L_62, /*hidden argument*/NULL);
+		V_6 = ((GameObject_t4012695102 *)IsInstSealed(L_63, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_64 = (__this->___diaEmissive_6);
+		Transform_t284553113 * L_65 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_65);
+		Vector3_t3525329789  L_66 = Transform_get_position_m2211398607(L_65, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_67 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_68 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_64, L_66, L_67, /*hidden argument*/NULL);
+		V_7 = ((GameObject_t4012695102 *)IsInstSealed(L_68, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_69 = (__this->___diaBreaking_7);
+		Transform_t284553113 * L_70 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_70);
+		Vector3_t3525329789  L_71 = Transform_get_position_m2211398607(L_70, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_72 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_73 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_69, L_71, L_72, /*hidden argument*/NULL);
+		V_8 = ((GameObject_t4012695102 *)IsInstSealed(L_73, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_74 = V_6;
+		NullCheck(L_74);
+		GameObject_SetActive_m3538205401(L_74, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_75 = V_7;
+		NullCheck(L_75);
+		GameObject_SetActive_m3538205401(L_75, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_76 = V_8;
+		NullCheck(L_76);
+		GameObject_SetActive_m3538205401(L_76, (bool)0, /*hidden argument*/NULL);
+		List_1_t514686775 * L_77 = (__this->___diamondList_15);
+		GameObject_t4012695102 * L_78 = V_6;
+		NullCheck(L_77);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_77, L_78);
+		List_1_t514686775 * L_79 = (__this->___diaEmissiveList_16);
+		GameObject_t4012695102 * L_80 = V_7;
+		NullCheck(L_79);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_79, L_80);
+		List_1_t514686775 * L_81 = (__this->___diaBreakingList_17);
+		GameObject_t4012695102 * L_82 = V_8;
+		NullCheck(L_81);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_81, L_82);
+		int32_t L_83 = V_5;
+		V_5 = ((int32_t)((int32_t)L_83+(int32_t)1));
+	}
+
+IL_02aa:
+	{
+		int32_t L_84 = V_5;
+		SpawnerP_t2130838536 * L_85 = &(__this->___spawnP_2);
+		int32_t L_86 = (L_85->___diamondAmount_4);
+		if ((((int32_t)L_84) < ((int32_t)L_86)))
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_87 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_87);
+		bool L_88 = GameStateManager_get_IsChallenged_m3135670911(L_87, /*hidden argument*/NULL);
+		if (L_88)
+		{
+			goto IL_0359;
+		}
+	}
+	{
+		V_9 = 0;
+		goto IL_0347;
+	}
+
+IL_02d3:
+	{
+		GameObject_t4012695102 * L_89 = (__this->___ball_8);
+		Transform_t284553113 * L_90 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_90);
+		Vector3_t3525329789  L_91 = Transform_get_position_m2211398607(L_90, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_92 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_93 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_89, L_91, L_92, /*hidden argument*/NULL);
+		V_10 = ((GameObject_t4012695102 *)IsInstSealed(L_93, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_94 = (__this->___ballExplode_9);
+		Transform_t284553113 * L_95 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_95);
+		Vector3_t3525329789  L_96 = Transform_get_position_m2211398607(L_95, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_97 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_98 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_94, L_96, L_97, /*hidden argument*/NULL);
+		V_11 = ((GameObject_t4012695102 *)IsInstSealed(L_98, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_99 = V_10;
+		NullCheck(L_99);
+		GameObject_SetActive_m3538205401(L_99, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_100 = V_11;
+		NullCheck(L_100);
+		GameObject_SetActive_m3538205401(L_100, (bool)0, /*hidden argument*/NULL);
+		List_1_t514686775 * L_101 = (__this->___ballList_18);
+		GameObject_t4012695102 * L_102 = V_10;
+		NullCheck(L_101);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_101, L_102);
+		List_1_t514686775 * L_103 = (__this->___ballExplodeList_19);
+		GameObject_t4012695102 * L_104 = V_11;
+		NullCheck(L_103);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_103, L_104);
+		int32_t L_105 = V_9;
+		V_9 = ((int32_t)((int32_t)L_105+(int32_t)1));
+	}
+
+IL_0347:
+	{
+		int32_t L_106 = V_9;
+		SpawnerP_t2130838536 * L_107 = &(__this->___spawnP_2);
+		int32_t L_108 = (L_107->___ballAmount_3);
+		if ((((int32_t)L_106) < ((int32_t)L_108)))
+		{
+			goto IL_02d3;
+		}
+	}
+
+IL_0359:
+	{
+		return;
+	}
+}
+// System.Void SpawnerManager::PlayCubeEffect(UnityEngine.GameObject)
+extern "C"  void SpawnerManager_PlayCubeEffect_m142571712 (SpawnerManager_t45089093 * __this, GameObject_t4012695102 * ___o, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = ___o;
+		Object_t * L_1 = SpawnerManager_InstantiateEffect_m3716465887(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator SpawnerManager::InstantiateEffect(UnityEngine.GameObject)
+extern TypeInfo* U3CInstantiateEffectU3Ec__Iterator18_t1005504889_il2cpp_TypeInfo_var;
+extern const uint32_t SpawnerManager_InstantiateEffect_m3716465887_MetadataUsageId;
+extern "C"  Object_t * SpawnerManager_InstantiateEffect_m3716465887 (SpawnerManager_t45089093 * __this, GameObject_t4012695102 * ___o, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_InstantiateEffect_m3716465887_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * V_0 = {0};
+	{
+		U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * L_0 = (U3CInstantiateEffectU3Ec__Iterator18_t1005504889 *)il2cpp_codegen_object_new(U3CInstantiateEffectU3Ec__Iterator18_t1005504889_il2cpp_TypeInfo_var);
+		U3CInstantiateEffectU3Ec__Iterator18__ctor_m1742885320(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * L_1 = V_0;
+		GameObject_t4012695102 * L_2 = ___o;
+		NullCheck(L_1);
+		L_1->___o_1 = L_2;
+		U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * L_3 = V_0;
+		GameObject_t4012695102 * L_4 = ___o;
+		NullCheck(L_3);
+		L_3->___U3CU24U3Eo_4 = L_4;
+		U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_5 = __this;
+		U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void SpawnerManager::PlayerDiamondEmissive(UnityEngine.GameObject)
+extern "C"  void SpawnerManager_PlayerDiamondEmissive_m3751467318 (SpawnerManager_t45089093 * __this, GameObject_t4012695102 * ___o, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = ___o;
+		Object_t * L_1 = SpawnerManager_InstantiateDiamondEmissive_m3132308367(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator SpawnerManager::InstantiateDiamondEmissive(UnityEngine.GameObject)
+extern TypeInfo* U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216_il2cpp_TypeInfo_var;
+extern const uint32_t SpawnerManager_InstantiateDiamondEmissive_m3132308367_MetadataUsageId;
+extern "C"  Object_t * SpawnerManager_InstantiateDiamondEmissive_m3132308367 (SpawnerManager_t45089093 * __this, GameObject_t4012695102 * ___o, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_InstantiateDiamondEmissive_m3132308367_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * V_0 = {0};
+	{
+		U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * L_0 = (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 *)il2cpp_codegen_object_new(U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216_il2cpp_TypeInfo_var);
+		U3CInstantiateDiamondEmissiveU3Ec__Iterator19__ctor_m1605970189(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * L_1 = V_0;
+		GameObject_t4012695102 * L_2 = ___o;
+		NullCheck(L_1);
+		L_1->___o_1 = L_2;
+		U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * L_3 = V_0;
+		GameObject_t4012695102 * L_4 = ___o;
+		NullCheck(L_3);
+		L_3->___U3CU24U3Eo_4 = L_4;
+		U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_5 = __this;
+		U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void SpawnerManager::PlayExplodeBall(UnityEngine.GameObject)
+extern "C"  void SpawnerManager_PlayExplodeBall_m2334700920 (SpawnerManager_t45089093 * __this, GameObject_t4012695102 * ___o, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = ___o;
+		Object_t * L_1 = SpawnerManager_InstantiateBallExplode_m2685458982(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator SpawnerManager::InstantiateBallExplode(UnityEngine.GameObject)
+extern TypeInfo* U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407_il2cpp_TypeInfo_var;
+extern const uint32_t SpawnerManager_InstantiateBallExplode_m2685458982_MetadataUsageId;
+extern "C"  Object_t * SpawnerManager_InstantiateBallExplode_m2685458982 (SpawnerManager_t45089093 * __this, GameObject_t4012695102 * ___o, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_InstantiateBallExplode_m2685458982_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * V_0 = {0};
+	{
+		U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * L_0 = (U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 *)il2cpp_codegen_object_new(U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407_il2cpp_TypeInfo_var);
+		U3CInstantiateBallExplodeU3Ec__Iterator1A__ctor_m3119626766(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * L_1 = V_0;
+		GameObject_t4012695102 * L_2 = ___o;
+		NullCheck(L_1);
+		L_1->___o_1 = L_2;
+		U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * L_3 = V_0;
+		GameObject_t4012695102 * L_4 = ___o;
+		NullCheck(L_3);
+		L_3->___U3CU24U3Eo_4 = L_4;
+		U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_5 = __this;
+		U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void SpawnerManager::PlayDiamondBreaking(UnityEngine.GameObject)
+extern "C"  void SpawnerManager_PlayDiamondBreaking_m3939813999 (SpawnerManager_t45089093 * __this, GameObject_t4012695102 * ___o, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = ___o;
+		Object_t * L_1 = SpawnerManager_InstantiateDiamondBreaking_m325807035(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator SpawnerManager::InstantiateDiamondBreaking(UnityEngine.GameObject)
+extern TypeInfo* U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429_il2cpp_TypeInfo_var;
+extern const uint32_t SpawnerManager_InstantiateDiamondBreaking_m325807035_MetadataUsageId;
+extern "C"  Object_t * SpawnerManager_InstantiateDiamondBreaking_m325807035 (SpawnerManager_t45089093 * __this, GameObject_t4012695102 * ___o, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_InstantiateDiamondBreaking_m325807035_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * V_0 = {0};
+	{
+		U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * L_0 = (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 *)il2cpp_codegen_object_new(U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429_il2cpp_TypeInfo_var);
+		U3CInstantiateDiamondBreakingU3Ec__Iterator1B__ctor_m855195000(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * L_1 = V_0;
+		GameObject_t4012695102 * L_2 = ___o;
+		NullCheck(L_1);
+		L_1->___o_1 = L_2;
+		U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * L_3 = V_0;
+		GameObject_t4012695102 * L_4 = ___o;
+		NullCheck(L_3);
+		L_3->___U3CU24U3Eo_4 = L_4;
+		U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_5 = __this;
+		U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void SpawnerManager::StartSpawnCube()
+extern "C"  void SpawnerManager_StartSpawnCube_m4152759772 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		int32_t L_1 = (L_0->___indexSwitch_6);
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_2 = &(__this->___spawnP_2);
+		L_2->___indexSwitch_6 = 0;
+		SpawnerP_t2130838536 * L_3 = &(__this->___spawnP_2);
+		L_3->___fixedX_9 = (2.5f);
+		goto IL_005e;
+	}
+
+IL_0032:
+	{
+		SpawnerP_t2130838536 * L_4 = &(__this->___spawnP_2);
+		int32_t L_5 = (L_4->___indexSwitch_6);
+		if (L_5)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_6 = &(__this->___spawnP_2);
+		L_6->___indexSwitch_6 = 1;
+	}
+
+IL_004e:
+	{
+		SpawnerP_t2130838536 * L_7 = &(__this->___spawnP_2);
+		L_7->___fixedX_9 = (-2.5f);
+	}
+
+IL_005e:
+	{
+		SpawnerP_t2130838536 * L_8 = &(__this->___spawnP_2);
+		SpawnerP_t2130838536 * L_9 = L_8;
+		int32_t L_10 = (L_9->___spawnNumber_12);
+		L_9->___spawnNumber_12 = ((int32_t)((int32_t)L_10+(int32_t)1));
+		SpawnerP_t2130838536 * L_11 = &(__this->___spawnP_2);
+		int32_t L_12 = (L_11->___spawnNumber_12);
+		if (((int32_t)((int32_t)L_12%(int32_t)((int32_t)50))))
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		SpawnerManager_ChangeGravity_m1760842770(__this, /*hidden argument*/NULL);
+	}
+
+IL_008a:
+	{
+		Object_t * L_13 = SpawnerManager_InstantiateCube_m2329272203(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Vector3 SpawnerManager::targetPosition()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t SpawnerManager_targetPosition_m75385346_MetadataUsageId;
+extern "C"  Vector3_t3525329789  SpawnerManager_targetPosition_m75385346 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_targetPosition_m75385346_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = GameStateManager_get_IsStarted_m545514757(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_2 = &(__this->___spawnP_2);
+		SpawnerP_t2130838536 * L_3 = L_2;
+		float L_4 = (L_3->___fixedY_8);
+		int32_t L_5 = SpawnerManager_randomFixedY_m2696925700(__this, /*hidden argument*/NULL);
+		L_3->___fixedY_8 = ((float)((float)L_4+(float)(((float)((float)((-L_5)))))));
+		goto IL_0045;
+	}
+
+IL_002e:
+	{
+		SpawnerP_t2130838536 * L_6 = &(__this->___spawnP_2);
+		SpawnerP_t2130838536 * L_7 = L_6;
+		float L_8 = (L_7->___fixedY_8);
+		L_7->___fixedY_8 = ((float)((float)L_8+(float)(-5.5f)));
+	}
+
+IL_0045:
+	{
+		SpawnerP_t2130838536 * L_9 = &(__this->___spawnP_2);
+		float L_10 = (L_9->___fixedX_9);
+		SpawnerP_t2130838536 * L_11 = &(__this->___spawnP_2);
+		float L_12 = (L_11->___fixedY_8);
+		Vector3_t3525329789  L_13 = {0};
+		Vector3__ctor_m2926210380(&L_13, L_10, L_12, (0.0f), /*hidden argument*/NULL);
+		return L_13;
+	}
+}
+// UnityEngine.Vector3 SpawnerManager::diamondPos()
+extern "C"  Vector3_t3525329789  SpawnerManager_diamondPos_m1260455560 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		float L_1 = (L_0->___fixedX_9);
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_2 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_3 = (L_2->___position_7);
+		Vector3_t3525329789  L_4 = {0};
+		Vector3__ctor_m2926210380(&L_4, (1.5f), (2.5f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_003a:
+	{
+		SpawnerP_t2130838536 * L_6 = &(__this->___spawnP_2);
+		float L_7 = (L_6->___fixedX_9);
+		if ((!(((float)L_7) < ((float)(0.0f)))))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_8 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_9 = (L_8->___position_7);
+		Vector3_t3525329789  L_10 = {0};
+		Vector3__ctor_m2926210380(&L_10, (-1.5f), (2.5f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_11 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_0074:
+	{
+		Vector3_t3525329789  L_12 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// UnityEngine.Vector3 SpawnerManager::diamondPos2()
+extern "C"  Vector3_t3525329789  SpawnerManager_diamondPos2_m419426316 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		float L_1 = (L_0->___fixedX_9);
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_2 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_3 = (L_2->___position_7);
+		Vector3_t3525329789  L_4 = {0};
+		Vector3__ctor_m2926210380(&L_4, (2.5f), (3.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_003a:
+	{
+		SpawnerP_t2130838536 * L_6 = &(__this->___spawnP_2);
+		float L_7 = (L_6->___fixedX_9);
+		if ((!(((float)L_7) < ((float)(0.0f)))))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_8 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_9 = (L_8->___position_7);
+		Vector3_t3525329789  L_10 = {0};
+		Vector3__ctor_m2926210380(&L_10, (-2.5f), (3.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_11 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_0074:
+	{
+		Vector3_t3525329789  L_12 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// UnityEngine.Vector3 SpawnerManager::diamondPos3()
+extern "C"  Vector3_t3525329789  SpawnerManager_diamondPos3_m419427277 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		float L_1 = (L_0->___fixedX_9);
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_2 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_3 = (L_2->___position_7);
+		Vector3_t3525329789  L_4 = {0};
+		Vector3__ctor_m2926210380(&L_4, (1.0f), (2.5f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_003a:
+	{
+		SpawnerP_t2130838536 * L_6 = &(__this->___spawnP_2);
+		float L_7 = (L_6->___fixedX_9);
+		if ((!(((float)L_7) < ((float)(0.0f)))))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_8 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_9 = (L_8->___position_7);
+		Vector3_t3525329789  L_10 = {0};
+		Vector3__ctor_m2926210380(&L_10, (-1.0f), (2.5f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_11 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_0074:
+	{
+		Vector3_t3525329789  L_12 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// UnityEngine.Vector3 SpawnerManager::diamondPos4()
+extern "C"  Vector3_t3525329789  SpawnerManager_diamondPos4_m419428238 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		float L_1 = (L_0->___fixedX_9);
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_2 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_3 = (L_2->___position_7);
+		Vector3_t3525329789  L_4 = {0};
+		Vector3__ctor_m2926210380(&L_4, (2.0f), (3.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_003a:
+	{
+		SpawnerP_t2130838536 * L_6 = &(__this->___spawnP_2);
+		float L_7 = (L_6->___fixedX_9);
+		if ((!(((float)L_7) < ((float)(0.0f)))))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_8 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_9 = (L_8->___position_7);
+		Vector3_t3525329789  L_10 = {0};
+		Vector3__ctor_m2926210380(&L_10, (-2.0f), (3.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_11 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_0074:
+	{
+		Vector3_t3525329789  L_12 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// UnityEngine.Vector3 SpawnerManager::diamondPos5()
+extern "C"  Vector3_t3525329789  SpawnerManager_diamondPos5_m419429199 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		float L_1 = (L_0->___fixedX_9);
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_2 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_3 = (L_2->___position_7);
+		Vector3_t3525329789  L_4 = {0};
+		Vector3__ctor_m2926210380(&L_4, (0.5f), (2.5f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_003a:
+	{
+		SpawnerP_t2130838536 * L_6 = &(__this->___spawnP_2);
+		float L_7 = (L_6->___fixedX_9);
+		if ((!(((float)L_7) < ((float)(0.0f)))))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_8 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_9 = (L_8->___position_7);
+		Vector3_t3525329789  L_10 = {0};
+		Vector3__ctor_m2926210380(&L_10, (-0.5f), (2.5f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_11 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_0074:
+	{
+		Vector3_t3525329789  L_12 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// UnityEngine.Vector3 SpawnerManager::diamondPos6()
+extern "C"  Vector3_t3525329789  SpawnerManager_diamondPos6_m419430160 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		float L_1 = (L_0->___fixedX_9);
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_2 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_3 = (L_2->___position_7);
+		Vector3_t3525329789  L_4 = {0};
+		Vector3__ctor_m2926210380(&L_4, (1.5f), (3.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_003a:
+	{
+		SpawnerP_t2130838536 * L_6 = &(__this->___spawnP_2);
+		float L_7 = (L_6->___fixedX_9);
+		if ((!(((float)L_7) < ((float)(0.0f)))))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_8 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_9 = (L_8->___position_7);
+		Vector3_t3525329789  L_10 = {0};
+		Vector3__ctor_m2926210380(&L_10, (-1.5f), (3.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_11 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_0074:
+	{
+		Vector3_t3525329789  L_12 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// UnityEngine.Vector3 SpawnerManager::ballPos()
+extern "C"  Vector3_t3525329789  SpawnerManager_ballPos_m1551588303 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		SpawnerP_t2130838536 * L_0 = &(__this->___spawnP_2);
+		Vector3_t3525329789  L_1 = (L_0->___position_7);
+		Vector3_t3525329789  L_2 = {0};
+		Vector3__ctor_m2926210380(&L_2, (0.0f), (1.5f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_3 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// UnityEngine.Vector3 SpawnerManager::camPos()
+extern "C"  Vector3_t3525329789  SpawnerManager_camPos_m1519462509 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		Vector3_t3525329789  L_0 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 SpawnerManager::randomFixedY()
+extern "C"  int32_t SpawnerManager_randomFixedY_m2696925700 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = Random_Range_m75452833(NULL /*static, unused*/, 5, ((int32_t)10), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 SpawnerManager::RandomSmallestNum()
+extern "C"  int32_t SpawnerManager_RandomSmallestNum_m3076581098 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = Random_Range_m75452833(NULL /*static, unused*/, 0, 5, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Single SpawnerManager::randonDegree()
+extern "C"  float SpawnerManager_randonDegree_m2571470058 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = Random_Range_m3362417303(NULL /*static, unused*/, (-40.0f), (40.0f), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 SpawnerManager::RandomSpawnNum()
+extern "C"  int32_t SpawnerManager_RandomSpawnNum_m654313418 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = Random_Range_m75452833(NULL /*static, unused*/, 8, ((int32_t)12), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 SpawnerManager::RandomCubeNum()
+extern "C"  int32_t SpawnerManager_RandomCubeNum_m3499922580 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = Random_Range_m75452833(NULL /*static, unused*/, 0, 2, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Collections.IEnumerator SpawnerManager::InstantiateCube()
+extern TypeInfo* U3CInstantiateCubeU3Ec__Iterator1C_t1100421288_il2cpp_TypeInfo_var;
+extern const uint32_t SpawnerManager_InstantiateCube_m2329272203_MetadataUsageId;
+extern "C"  Object_t * SpawnerManager_InstantiateCube_m2329272203 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_InstantiateCube_m2329272203_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * V_0 = {0};
+	{
+		U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * L_0 = (U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 *)il2cpp_codegen_object_new(U3CInstantiateCubeU3Ec__Iterator1C_t1100421288_il2cpp_TypeInfo_var);
+		U3CInstantiateCubeU3Ec__Iterator1C__ctor_m3766007545(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3Ef__this_5 = __this;
+		U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Collections.IEnumerator SpawnerManager::InstantiateDiamond()
+extern TypeInfo* U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988_il2cpp_TypeInfo_var;
+extern const uint32_t SpawnerManager_InstantiateDiamond_m19475872_MetadataUsageId;
+extern "C"  Object_t * SpawnerManager_InstantiateDiamond_m19475872 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_InstantiateDiamond_m19475872_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * V_0 = {0};
+	{
+		U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * L_0 = (U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 *)il2cpp_codegen_object_new(U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988_il2cpp_TypeInfo_var);
+		U3CInstantiateDiamondU3Ec__Iterator1D__ctor_m3701223865(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3Ef__this_4 = __this;
+		U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Collections.IEnumerator SpawnerManager::InstantiateBall()
+extern TypeInfo* U3CInstantiateBallU3Ec__Iterator1E_t1953657076_il2cpp_TypeInfo_var;
+extern const uint32_t SpawnerManager_InstantiateBall_m2282477269_MetadataUsageId;
+extern "C"  Object_t * SpawnerManager_InstantiateBall_m2282477269 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpawnerManager_InstantiateBall_m2282477269_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * V_0 = {0};
+	{
+		U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * L_0 = (U3CInstantiateBallU3Ec__Iterator1E_t1953657076 *)il2cpp_codegen_object_new(U3CInstantiateBallU3Ec__Iterator1E_t1953657076_il2cpp_TypeInfo_var);
+		U3CInstantiateBallU3Ec__Iterator1E__ctor_m2024666157(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3Ef__this_3 = __this;
+		U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void SpawnerManager::ChangeGravity()
+extern "C"  void SpawnerManager_ChangeGravity_m1760842770 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	{
+		Vector3_t3525329789  L_0 = {0};
+		Vector3__ctor_m2926210380(&L_0, (0.0f), (-15.0f), (0.0f), /*hidden argument*/NULL);
+		Physics_set_gravity_m2814881048(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpawnerManager/<InstantiateBall>c__Iterator1E::.ctor()
+extern "C"  void U3CInstantiateBallU3Ec__Iterator1E__ctor_m2024666157 (U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Object SpawnerManager/<InstantiateBallExplode>c__Iterator18::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Object_t * U3CInstantiateBallExplodeU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1021467077 (U3CInstantiateBallExplodeU3Ec__Iterator18_t1524620398 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateBall>c__Iterator1E::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CInstantiateBallU3Ec__Iterator1E_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2764564997 (U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * __this, const MethodInfo* method)
 {
 	{
-		Object_t * L_0 = (__this->___U24current_3);
+		Object_t * L_0 = (__this->___U24current_2);
 		return L_0;
 	}
 }
-// System.Object SpawnerManager/<InstantiateBallExplode>c__Iterator18::System.Collections.IEnumerator.get_Current()
-extern "C"  Object_t * U3CInstantiateBallExplodeU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3133310809 (U3CInstantiateBallExplodeU3Ec__Iterator18_t1524620398 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateBall>c__Iterator1E::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CInstantiateBallU3Ec__Iterator1E_System_Collections_IEnumerator_get_Current_m911251353 (U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * __this, const MethodInfo* method)
 {
 	{
-		Object_t * L_0 = (__this->___U24current_3);
+		Object_t * L_0 = (__this->___U24current_2);
 		return L_0;
 	}
 }
-// System.Boolean SpawnerManager/<InstantiateBallExplode>c__Iterator18::MoveNext()
+// System.Boolean SpawnerManager/<InstantiateBall>c__Iterator1E::MoveNext()
+extern TypeInfo* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
 extern TypeInfo* WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateBallExplodeU3Ec__Iterator18_MoveNext_m1664756869_MetadataUsageId;
-extern "C"  bool U3CInstantiateBallExplodeU3Ec__Iterator18_MoveNext_m1664756869 (U3CInstantiateBallExplodeU3Ec__Iterator18_t1524620398 * __this, const MethodInfo* method)
+extern const MethodInfo* GameObject_GetComponent_TisBall_t2062879_m3020420446_MethodInfo_var;
+extern const uint32_t U3CInstantiateBallU3Ec__Iterator1E_MoveNext_m4223977895_MetadataUsageId;
+extern "C"  bool U3CInstantiateBallU3Ec__Iterator1E_MoveNext_m4223977895 (U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateBallExplodeU3Ec__Iterator18_MoveNext_m1664756869_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateBallU3Ec__Iterator1E_MoveNext_m4223977895_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_1);
+		V_0 = L_0;
+		__this->___U24PC_1 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0025;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0041;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_01d8;
+		}
+	}
+	{
+		goto IL_01df;
+	}
+
+IL_0025:
+	{
+		WaitForSeconds_t1291133240 * L_2 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_2, (1.0f), /*hidden argument*/NULL);
+		__this->___U24current_2 = L_2;
+		__this->___U24PC_1 = 1;
+		goto IL_01e1;
+	}
+
+IL_0041:
+	{
+		__this->___U3CiU3E__0_0 = 0;
+		goto IL_01a6;
+	}
+
+IL_004d:
+	{
+		SpawnerManager_t45089093 * L_3 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_3);
+		List_1_t514686775 * L_4 = (L_3->___ballList_18);
+		int32_t L_5 = (__this->___U3CiU3E__0_0);
+		NullCheck(L_4);
+		GameObject_t4012695102 * L_6 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_4, L_5);
+		NullCheck(L_6);
+		bool L_7 = GameObject_get_activeInHierarchy_m612450965(L_6, /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_0198;
+		}
+	}
+	{
+		SpawnerManager_t45089093 * L_8 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_8);
+		List_1_t514686775 * L_9 = (L_8->___ballList_18);
+		int32_t L_10 = (__this->___U3CiU3E__0_0);
+		NullCheck(L_9);
+		GameObject_t4012695102 * L_11 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_9, L_10);
+		NullCheck(L_11);
+		Transform_t284553113 * L_12 = GameObject_get_transform_m1278640159(L_11, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_13 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_13);
+		Transform_t284553113 * L_14 = Component_get_transform_m4257140443(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Vector3_t3525329789  L_15 = Transform_get_position_m2211398607(L_14, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Transform_set_position_m3111394108(L_12, L_15, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_16 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_16);
+		List_1_t514686775 * L_17 = (L_16->___ballList_18);
+		int32_t L_18 = (__this->___U3CiU3E__0_0);
+		NullCheck(L_17);
+		GameObject_t4012695102 * L_19 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_17, L_18);
+		NullCheck(L_19);
+		Transform_t284553113 * L_20 = GameObject_get_transform_m1278640159(L_19, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_21 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_21);
+		Transform_t284553113 * L_22 = Component_get_transform_m4257140443(L_21, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		Quaternion_t1891715979  L_23 = Transform_get_rotation_m11483428(L_22, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		Transform_set_rotation_m1525803229(L_20, L_23, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_24 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_24);
+		List_1_t514686775 * L_25 = (L_24->___ballList_18);
+		int32_t L_26 = (__this->___U3CiU3E__0_0);
+		NullCheck(L_25);
+		GameObject_t4012695102 * L_27 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_25, L_26);
+		NullCheck(L_27);
+		Transform_t284553113 * L_28 = GameObject_get_transform_m1278640159(L_27, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_29 = {0};
+		Vector3__ctor_m2926210380(&L_29, (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		NullCheck(L_28);
+		Transform_set_localScale_m310756934(L_28, L_29, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_30 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_30);
+		List_1_t514686775 * L_31 = (L_30->___ballList_18);
+		int32_t L_32 = (__this->___U3CiU3E__0_0);
+		NullCheck(L_31);
+		GameObject_t4012695102 * L_33 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_31, L_32);
+		NullCheck(L_33);
+		GameObject_SetActive_m3538205401(L_33, (bool)1, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_34 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_34);
+		SpawnerP_t2130838536 * L_35 = &(L_34->___spawnP_2);
+		SpawnerManager_t45089093 * L_36 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_36);
+		List_1_t514686775 * L_37 = (L_36->___ballList_18);
+		int32_t L_38 = (__this->___U3CiU3E__0_0);
+		NullCheck(L_37);
+		GameObject_t4012695102 * L_39 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_37, L_38);
+		NullCheck(L_39);
+		Ball_t2062879 * L_40 = GameObject_GetComponent_TisBall_t2062879_m3020420446(L_39, /*hidden argument*/GameObject_GetComponent_TisBall_t2062879_m3020420446_MethodInfo_var);
+		L_35->___ballScript_17 = L_40;
+		SpawnerManager_t45089093 * L_41 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_41);
+		SpawnerP_t2130838536 * L_42 = &(L_41->___spawnP_2);
+		Ball_t2062879 * L_43 = (L_42->___ballScript_17);
+		SpawnerManager_t45089093 * L_44 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_44);
+		Vector3_t3525329789  L_45 = SpawnerManager_ballPos_m1551588303(L_44, /*hidden argument*/NULL);
+		NullCheck(L_43);
+		Ball_MoveBall_m816043137(L_43, L_45, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_46 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_46);
+		SpawnerP_t2130838536 * L_47 = &(L_46->___spawnP_2);
+		Ball_t2062879 * L_48 = (L_47->___ballScript_17);
+		SpawnerManager_t45089093 * L_49 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_49);
+		List_1_t514686775 * L_50 = (L_49->___ballList_18);
+		int32_t L_51 = (__this->___U3CiU3E__0_0);
+		NullCheck(L_50);
+		GameObject_t4012695102 * L_52 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_50, L_51);
+		NullCheck(L_48);
+		Ball_SetBallInactive_m2642021950(L_48, L_52, /*hidden argument*/NULL);
+		goto IL_01c1;
+	}
+
+IL_0198:
+	{
+		int32_t L_53 = (__this->___U3CiU3E__0_0);
+		__this->___U3CiU3E__0_0 = ((int32_t)((int32_t)L_53+(int32_t)1));
+	}
+
+IL_01a6:
+	{
+		int32_t L_54 = (__this->___U3CiU3E__0_0);
+		SpawnerManager_t45089093 * L_55 = (__this->___U3CU3Ef__this_3);
+		NullCheck(L_55);
+		List_1_t514686775 * L_56 = (L_55->___ballList_18);
+		NullCheck(L_56);
+		int32_t L_57 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_56);
+		if ((((int32_t)L_54) < ((int32_t)L_57)))
+		{
+			goto IL_004d;
+		}
+	}
+
+IL_01c1:
+	{
+		WaitForFixedUpdate_t896427542 * L_58 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
+		WaitForFixedUpdate__ctor_m2916734308(L_58, /*hidden argument*/NULL);
+		__this->___U24current_2 = L_58;
+		__this->___U24PC_1 = 2;
+		goto IL_01e1;
+	}
+
+IL_01d8:
+	{
+		__this->___U24PC_1 = (-1);
+	}
+
+IL_01df:
+	{
+		return (bool)0;
+	}
+
+IL_01e1:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_01e3: ldloc.1
+}
+// System.Void SpawnerManager/<InstantiateBall>c__Iterator1E::Dispose()
+extern "C"  void U3CInstantiateBallU3Ec__Iterator1E_Dispose_m4277242154 (U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_1 = (-1);
+		return;
+	}
+}
+// System.Void SpawnerManager/<InstantiateBall>c__Iterator1E::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CInstantiateBallU3Ec__Iterator1E_Reset_m3966066394_MetadataUsageId;
+extern "C"  void U3CInstantiateBallU3Ec__Iterator1E_Reset_m3966066394 (U3CInstantiateBallU3Ec__Iterator1E_t1953657076 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CInstantiateBallU3Ec__Iterator1E_Reset_m3966066394_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void SpawnerManager/<InstantiateBallExplode>c__Iterator1A::.ctor()
+extern "C"  void U3CInstantiateBallExplodeU3Ec__Iterator1A__ctor_m3119626766 (U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object SpawnerManager/<InstantiateBallExplode>c__Iterator1A::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CInstantiateBallExplodeU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3438149646 (U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_3);
+		return L_0;
+	}
+}
+// System.Object SpawnerManager/<InstantiateBallExplode>c__Iterator1A::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CInstantiateBallExplodeU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m3691896738 (U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_3);
+		return L_0;
+	}
+}
+// System.Boolean SpawnerManager/<InstantiateBallExplode>c__Iterator1A::MoveNext()
+extern TypeInfo* WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var;
+extern const uint32_t U3CInstantiateBallExplodeU3Ec__Iterator1A_MoveNext_m3319097102_MetadataUsageId;
+extern "C"  bool U3CInstantiateBallExplodeU3Ec__Iterator1A_MoveNext_m3319097102 (U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CInstantiateBallExplodeU3Ec__Iterator1A_MoveNext_m3319097102_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -281,7 +1657,7 @@ IL_002d:
 	{
 		SpawnerManager_t45089093 * L_2 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_2);
-		List_1_t514686775 * L_3 = (L_2->___ballExplodeList_18);
+		List_1_t514686775 * L_3 = (L_2->___ballExplodeList_19);
 		int32_t L_4 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_3);
 		GameObject_t4012695102 * L_5 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_3, L_4);
@@ -295,7 +1671,7 @@ IL_002d:
 	{
 		SpawnerManager_t45089093 * L_7 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_7);
-		List_1_t514686775 * L_8 = (L_7->___ballExplodeList_18);
+		List_1_t514686775 * L_8 = (L_7->___ballExplodeList_19);
 		int32_t L_9 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_8);
 		GameObject_t4012695102 * L_10 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_8, L_9);
@@ -310,7 +1686,7 @@ IL_002d:
 		Transform_set_position_m3111394108(L_11, L_14, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_15 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_15);
-		List_1_t514686775 * L_16 = (L_15->___ballExplodeList_18);
+		List_1_t514686775 * L_16 = (L_15->___ballExplodeList_19);
 		int32_t L_17 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_16);
 		GameObject_t4012695102 * L_18 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_16, L_17);
@@ -325,7 +1701,7 @@ IL_002d:
 		Transform_set_rotation_m1525803229(L_19, L_22, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_23 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_23);
-		List_1_t514686775 * L_24 = (L_23->___ballExplodeList_18);
+		List_1_t514686775 * L_24 = (L_23->___ballExplodeList_19);
 		int32_t L_25 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_24);
 		GameObject_t4012695102 * L_26 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_24, L_25);
@@ -345,7 +1721,7 @@ IL_00dc:
 		int32_t L_28 = (__this->___U3CiU3E__0_0);
 		SpawnerManager_t45089093 * L_29 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_29);
-		List_1_t514686775 * L_30 = (L_29->___ballExplodeList_18);
+		List_1_t514686775 * L_30 = (L_29->___ballExplodeList_19);
 		NullCheck(L_30);
 		int32_t L_31 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_30);
 		if ((((int32_t)L_28) < ((int32_t)L_31)))
@@ -379,23 +1755,23 @@ IL_0117:
 	}
 	// Dead block : IL_0119: ldloc.1
 }
-// System.Void SpawnerManager/<InstantiateBallExplode>c__Iterator18::Dispose()
-extern "C"  void U3CInstantiateBallExplodeU3Ec__Iterator18_Dispose_m3105655412 (U3CInstantiateBallExplodeU3Ec__Iterator18_t1524620398 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateBallExplode>c__Iterator1A::Dispose()
+extern "C"  void U3CInstantiateBallExplodeU3Ec__Iterator1A_Dispose_m4267399883 (U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * __this, const MethodInfo* method)
 {
 	{
 		__this->___U24PC_2 = (-1);
 		return;
 	}
 }
-// System.Void SpawnerManager/<InstantiateBallExplode>c__Iterator18::Reset()
+// System.Void SpawnerManager/<InstantiateBallExplode>c__Iterator1A::Reset()
 extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateBallExplodeU3Ec__Iterator18_Reset_m2534681252_MetadataUsageId;
-extern "C"  void U3CInstantiateBallExplodeU3Ec__Iterator18_Reset_m2534681252 (U3CInstantiateBallExplodeU3Ec__Iterator18_t1524620398 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateBallExplodeU3Ec__Iterator1A_Reset_m766059707_MetadataUsageId;
+extern "C"  void U3CInstantiateBallExplodeU3Ec__Iterator1A_Reset_m766059707 (U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateBallExplodeU3Ec__Iterator18_Reset_m2534681252_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateBallExplodeU3Ec__Iterator1A_Reset_m766059707_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -404,43 +1780,43 @@ extern "C"  void U3CInstantiateBallExplodeU3Ec__Iterator18_Reset_m2534681252 (U3
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void SpawnerManager/<InstantiateCube>c__Iterator1A::.ctor()
-extern "C"  void U3CInstantiateCubeU3Ec__Iterator1A__ctor_m4159034555 (U3CInstantiateCubeU3Ec__Iterator1A_t1100421286 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateCube>c__Iterator1C::.ctor()
+extern "C"  void U3CInstantiateCubeU3Ec__Iterator1C__ctor_m3766007545 (U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Object SpawnerManager/<InstantiateCube>c__Iterator1A::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Object_t * U3CInstantiateCubeU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1140606519 (U3CInstantiateCubeU3Ec__Iterator1A_t1100421286 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateCube>c__Iterator1C::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CInstantiateCubeU3Ec__Iterator1C_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m723209913 (U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_4);
 		return L_0;
 	}
 }
-// System.Object SpawnerManager/<InstantiateCube>c__Iterator1A::System.Collections.IEnumerator.get_Current()
-extern "C"  Object_t * U3CInstantiateCubeU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m39294923 (U3CInstantiateCubeU3Ec__Iterator1A_t1100421286 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateCube>c__Iterator1C::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CInstantiateCubeU3Ec__Iterator1C_System_Collections_IEnumerator_get_Current_m3981173837 (U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_4);
 		return L_0;
 	}
 }
-// System.Boolean SpawnerManager/<InstantiateCube>c__Iterator1A::MoveNext()
+// System.Boolean SpawnerManager/<InstantiateCube>c__Iterator1C::MoveNext()
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
 extern TypeInfo* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
 extern TypeInfo* WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var;
 extern const MethodInfo* GameObject_GetComponent_TisMainCube_t55713198_m3794875503_MethodInfo_var;
 extern const MethodInfo* GameObject_GetComponentInChildren_TisCube_t2111573_m2983726412_MethodInfo_var;
-extern const uint32_t U3CInstantiateCubeU3Ec__Iterator1A_MoveNext_m2202105433_MetadataUsageId;
-extern "C"  bool U3CInstantiateCubeU3Ec__Iterator1A_MoveNext_m2202105433 (U3CInstantiateCubeU3Ec__Iterator1A_t1100421286 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateCubeU3Ec__Iterator1C_MoveNext_m1615299419_MetadataUsageId;
+extern "C"  bool U3CInstantiateCubeU3Ec__Iterator1C_MoveNext_m1615299419 (U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateCubeU3Ec__Iterator1A_MoveNext_m2202105433_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateCubeU3Ec__Iterator1C_MoveNext_m1615299419_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -609,7 +1985,7 @@ IL_0174:
 	{
 		SpawnerManager_t45089093 * L_42 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_42);
-		List_1_t514686775 * L_43 = (L_42->___cubeList_12);
+		List_1_t514686775 * L_43 = (L_42->___cubeList_13);
 		int32_t L_44 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_43);
 		GameObject_t4012695102 * L_45 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_43, L_44);
@@ -623,7 +1999,7 @@ IL_0174:
 	{
 		SpawnerManager_t45089093 * L_47 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_47);
-		List_1_t514686775 * L_48 = (L_47->___cubeList_12);
+		List_1_t514686775 * L_48 = (L_47->___cubeList_13);
 		int32_t L_49 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_48);
 		GameObject_t4012695102 * L_50 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_48, L_49);
@@ -638,7 +2014,7 @@ IL_0174:
 		Transform_set_position_m3111394108(L_51, L_54, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_55 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_55);
-		List_1_t514686775 * L_56 = (L_55->___cubeList_12);
+		List_1_t514686775 * L_56 = (L_55->___cubeList_13);
 		int32_t L_57 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_56);
 		GameObject_t4012695102 * L_58 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_56, L_57);
@@ -653,7 +2029,7 @@ IL_0174:
 		Transform_set_rotation_m1525803229(L_59, L_62, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_63 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_63);
-		List_1_t514686775 * L_64 = (L_63->___cubeList_12);
+		List_1_t514686775 * L_64 = (L_63->___cubeList_13);
 		int32_t L_65 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_64);
 		GameObject_t4012695102 * L_66 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_64, L_65);
@@ -664,7 +2040,7 @@ IL_0174:
 		SpawnerP_t2130838536 * L_68 = &(L_67->___spawnP_2);
 		SpawnerManager_t45089093 * L_69 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_69);
-		List_1_t514686775 * L_70 = (L_69->___cubeList_12);
+		List_1_t514686775 * L_70 = (L_69->___cubeList_13);
 		int32_t L_71 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_70);
 		GameObject_t4012695102 * L_72 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_70, L_71);
@@ -676,7 +2052,7 @@ IL_0174:
 		SpawnerP_t2130838536 * L_75 = &(L_74->___spawnP_2);
 		SpawnerManager_t45089093 * L_76 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_76);
-		List_1_t514686775 * L_77 = (L_76->___cubeList_12);
+		List_1_t514686775 * L_77 = (L_76->___cubeList_13);
 		int32_t L_78 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_77);
 		GameObject_t4012695102 * L_79 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_77, L_78);
@@ -736,7 +2112,7 @@ IL_0306:
 		int32_t L_104 = (__this->___U3CiU3E__0_0);
 		SpawnerManager_t45089093 * L_105 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_105);
-		List_1_t514686775 * L_106 = (L_105->___cubeList_12);
+		List_1_t514686775 * L_106 = (L_105->___cubeList_13);
 		NullCheck(L_106);
 		int32_t L_107 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_106);
 		if ((((int32_t)L_104) < ((int32_t)L_107)))
@@ -760,7 +2136,7 @@ IL_0332:
 	{
 		SpawnerManager_t45089093 * L_108 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_108);
-		List_1_t514686775 * L_109 = (L_108->___smallCubeList_19);
+		List_1_t514686775 * L_109 = (L_108->___smallCubeList_20);
 		int32_t L_110 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_109);
 		GameObject_t4012695102 * L_111 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_109, L_110);
@@ -774,7 +2150,7 @@ IL_0332:
 	{
 		SpawnerManager_t45089093 * L_113 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_113);
-		List_1_t514686775 * L_114 = (L_113->___smallCubeList_19);
+		List_1_t514686775 * L_114 = (L_113->___smallCubeList_20);
 		int32_t L_115 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_114);
 		GameObject_t4012695102 * L_116 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_114, L_115);
@@ -789,7 +2165,7 @@ IL_0332:
 		Transform_set_position_m3111394108(L_117, L_120, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_121 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_121);
-		List_1_t514686775 * L_122 = (L_121->___smallCubeList_19);
+		List_1_t514686775 * L_122 = (L_121->___smallCubeList_20);
 		int32_t L_123 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_122);
 		GameObject_t4012695102 * L_124 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_122, L_123);
@@ -804,7 +2180,7 @@ IL_0332:
 		Transform_set_rotation_m1525803229(L_125, L_128, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_129 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_129);
-		List_1_t514686775 * L_130 = (L_129->___smallCubeList_19);
+		List_1_t514686775 * L_130 = (L_129->___smallCubeList_20);
 		int32_t L_131 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_130);
 		GameObject_t4012695102 * L_132 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_130, L_131);
@@ -815,7 +2191,7 @@ IL_0332:
 		SpawnerP_t2130838536 * L_134 = &(L_133->___spawnP_2);
 		SpawnerManager_t45089093 * L_135 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_135);
-		List_1_t514686775 * L_136 = (L_135->___smallCubeList_19);
+		List_1_t514686775 * L_136 = (L_135->___smallCubeList_20);
 		int32_t L_137 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_136);
 		GameObject_t4012695102 * L_138 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_136, L_137);
@@ -827,7 +2203,7 @@ IL_0332:
 		SpawnerP_t2130838536 * L_141 = &(L_140->___spawnP_2);
 		SpawnerManager_t45089093 * L_142 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_142);
-		List_1_t514686775 * L_143 = (L_142->___smallCubeList_19);
+		List_1_t514686775 * L_143 = (L_142->___smallCubeList_20);
 		int32_t L_144 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_143);
 		GameObject_t4012695102 * L_145 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_143, L_144);
@@ -884,7 +2260,7 @@ IL_04be:
 		int32_t L_168 = (__this->___U3CiU3E__1_1);
 		SpawnerManager_t45089093 * L_169 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_169);
-		List_1_t514686775 * L_170 = (L_169->___smallCubeList_19);
+		List_1_t514686775 * L_170 = (L_169->___smallCubeList_20);
 		NullCheck(L_170);
 		int32_t L_171 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_170);
 		if ((((int32_t)L_168) < ((int32_t)L_171)))
@@ -908,7 +2284,7 @@ IL_04ea:
 	{
 		SpawnerManager_t45089093 * L_172 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_172);
-		List_1_t514686775 * L_173 = (L_172->___smallestCubeList_20);
+		List_1_t514686775 * L_173 = (L_172->___smallestCubeList_21);
 		int32_t L_174 = (__this->___U3CiU3E__2_2);
 		NullCheck(L_173);
 		GameObject_t4012695102 * L_175 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_173, L_174);
@@ -922,7 +2298,7 @@ IL_04ea:
 	{
 		SpawnerManager_t45089093 * L_177 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_177);
-		List_1_t514686775 * L_178 = (L_177->___smallestCubeList_20);
+		List_1_t514686775 * L_178 = (L_177->___smallestCubeList_21);
 		int32_t L_179 = (__this->___U3CiU3E__2_2);
 		NullCheck(L_178);
 		GameObject_t4012695102 * L_180 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_178, L_179);
@@ -937,7 +2313,7 @@ IL_04ea:
 		Transform_set_position_m3111394108(L_181, L_184, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_185 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_185);
-		List_1_t514686775 * L_186 = (L_185->___smallestCubeList_20);
+		List_1_t514686775 * L_186 = (L_185->___smallestCubeList_21);
 		int32_t L_187 = (__this->___U3CiU3E__2_2);
 		NullCheck(L_186);
 		GameObject_t4012695102 * L_188 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_186, L_187);
@@ -952,7 +2328,7 @@ IL_04ea:
 		Transform_set_rotation_m1525803229(L_189, L_192, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_193 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_193);
-		List_1_t514686775 * L_194 = (L_193->___smallestCubeList_20);
+		List_1_t514686775 * L_194 = (L_193->___smallestCubeList_21);
 		int32_t L_195 = (__this->___U3CiU3E__2_2);
 		NullCheck(L_194);
 		GameObject_t4012695102 * L_196 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_194, L_195);
@@ -963,7 +2339,7 @@ IL_04ea:
 		SpawnerP_t2130838536 * L_198 = &(L_197->___spawnP_2);
 		SpawnerManager_t45089093 * L_199 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_199);
-		List_1_t514686775 * L_200 = (L_199->___smallestCubeList_20);
+		List_1_t514686775 * L_200 = (L_199->___smallestCubeList_21);
 		int32_t L_201 = (__this->___U3CiU3E__2_2);
 		NullCheck(L_200);
 		GameObject_t4012695102 * L_202 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_200, L_201);
@@ -975,7 +2351,7 @@ IL_04ea:
 		SpawnerP_t2130838536 * L_205 = &(L_204->___spawnP_2);
 		SpawnerManager_t45089093 * L_206 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_206);
-		List_1_t514686775 * L_207 = (L_206->___smallestCubeList_20);
+		List_1_t514686775 * L_207 = (L_206->___smallestCubeList_21);
 		int32_t L_208 = (__this->___U3CiU3E__2_2);
 		NullCheck(L_207);
 		GameObject_t4012695102 * L_209 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_207, L_208);
@@ -1032,7 +2408,7 @@ IL_0676:
 		int32_t L_232 = (__this->___U3CiU3E__2_2);
 		SpawnerManager_t45089093 * L_233 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_233);
-		List_1_t514686775 * L_234 = (L_233->___smallestCubeList_20);
+		List_1_t514686775 * L_234 = (L_233->___smallestCubeList_21);
 		NullCheck(L_234);
 		int32_t L_235 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_234);
 		if ((((int32_t)L_232) < ((int32_t)L_235)))
@@ -1066,23 +2442,23 @@ IL_06b1:
 	}
 	// Dead block : IL_06b3: ldloc.1
 }
-// System.Void SpawnerManager/<InstantiateCube>c__Iterator1A::Dispose()
-extern "C"  void U3CInstantiateCubeU3Ec__Iterator1A_Dispose_m2410905144 (U3CInstantiateCubeU3Ec__Iterator1A_t1100421286 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateCube>c__Iterator1C::Dispose()
+extern "C"  void U3CInstantiateCubeU3Ec__Iterator1C_Dispose_m2669070582 (U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * __this, const MethodInfo* method)
 {
 	{
 		__this->___U24PC_3 = (-1);
 		return;
 	}
 }
-// System.Void SpawnerManager/<InstantiateCube>c__Iterator1A::Reset()
+// System.Void SpawnerManager/<InstantiateCube>c__Iterator1C::Reset()
 extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateCubeU3Ec__Iterator1A_Reset_m1805467496_MetadataUsageId;
-extern "C"  void U3CInstantiateCubeU3Ec__Iterator1A_Reset_m1805467496 (U3CInstantiateCubeU3Ec__Iterator1A_t1100421286 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateCubeU3Ec__Iterator1C_Reset_m1412440486_MetadataUsageId;
+extern "C"  void U3CInstantiateCubeU3Ec__Iterator1C_Reset_m1412440486 (U3CInstantiateCubeU3Ec__Iterator1C_t1100421288 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateCubeU3Ec__Iterator1A_Reset_m1805467496_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateCubeU3Ec__Iterator1C_Reset_m1412440486_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1091,41 +2467,41 @@ extern "C"  void U3CInstantiateCubeU3Ec__Iterator1A_Reset_m1805467496 (U3CInstan
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void SpawnerManager/<InstantiateDiamond>c__Iterator1B::.ctor()
-extern "C"  void U3CInstantiateDiamondU3Ec__Iterator1B__ctor_m4094250875 (U3CInstantiateDiamondU3Ec__Iterator1B_t2257946986 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateDiamond>c__Iterator1D::.ctor()
+extern "C"  void U3CInstantiateDiamondU3Ec__Iterator1D__ctor_m3701223865 (U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Object SpawnerManager/<InstantiateDiamond>c__Iterator1B::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Object_t * U3CInstantiateDiamondU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2325313345 (U3CInstantiateDiamondU3Ec__Iterator1B_t2257946986 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateDiamond>c__Iterator1D::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CInstantiateDiamondU3Ec__Iterator1D_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1907916739 (U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_3);
 		return L_0;
 	}
 }
-// System.Object SpawnerManager/<InstantiateDiamond>c__Iterator1B::System.Collections.IEnumerator.get_Current()
-extern "C"  Object_t * U3CInstantiateDiamondU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m2851871957 (U3CInstantiateDiamondU3Ec__Iterator1B_t2257946986 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateDiamond>c__Iterator1D::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CInstantiateDiamondU3Ec__Iterator1D_System_Collections_IEnumerator_get_Current_m2498783575 (U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_3);
 		return L_0;
 	}
 }
-// System.Boolean SpawnerManager/<InstantiateDiamond>c__Iterator1B::MoveNext()
+// System.Boolean SpawnerManager/<InstantiateDiamond>c__Iterator1D::MoveNext()
 extern TypeInfo* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
 extern TypeInfo* WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var;
 extern const MethodInfo* GameObject_GetComponent_TisDiamond_t3319707956_m178647341_MethodInfo_var;
-extern const uint32_t U3CInstantiateDiamondU3Ec__Iterator1B_MoveNext_m1317451905_MetadataUsageId;
-extern "C"  bool U3CInstantiateDiamondU3Ec__Iterator1B_MoveNext_m1317451905 (U3CInstantiateDiamondU3Ec__Iterator1B_t2257946986 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateDiamondU3Ec__Iterator1D_MoveNext_m730645891_MetadataUsageId;
+extern "C"  bool U3CInstantiateDiamondU3Ec__Iterator1D_MoveNext_m730645891 (U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateDiamondU3Ec__Iterator1B_MoveNext_m1317451905_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateDiamondU3Ec__Iterator1D_MoveNext_m730645891_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -1166,7 +2542,7 @@ IL_0035:
 	{
 		SpawnerManager_t45089093 * L_2 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_2);
-		List_1_t514686775 * L_3 = (L_2->___diamondList_14);
+		List_1_t514686775 * L_3 = (L_2->___diamondList_15);
 		int32_t L_4 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_3);
 		GameObject_t4012695102 * L_5 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_3, L_4);
@@ -1180,7 +2556,7 @@ IL_0035:
 	{
 		SpawnerManager_t45089093 * L_7 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_7);
-		List_1_t514686775 * L_8 = (L_7->___diamondList_14);
+		List_1_t514686775 * L_8 = (L_7->___diamondList_15);
 		int32_t L_9 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_8);
 		GameObject_t4012695102 * L_10 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_8, L_9);
@@ -1195,7 +2571,7 @@ IL_0035:
 		Transform_set_position_m3111394108(L_11, L_14, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_15 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_15);
-		List_1_t514686775 * L_16 = (L_15->___diamondList_14);
+		List_1_t514686775 * L_16 = (L_15->___diamondList_15);
 		int32_t L_17 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_16);
 		GameObject_t4012695102 * L_18 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_16, L_17);
@@ -1206,7 +2582,7 @@ IL_0035:
 		Transform_set_rotation_m1525803229(L_19, L_20, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_21 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_21);
-		List_1_t514686775 * L_22 = (L_21->___diamondList_14);
+		List_1_t514686775 * L_22 = (L_21->___diamondList_15);
 		int32_t L_23 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_22);
 		GameObject_t4012695102 * L_24 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_22, L_23);
@@ -1217,7 +2593,7 @@ IL_0035:
 		SpawnerP_t2130838536 * L_26 = &(L_25->___spawnP_2);
 		SpawnerManager_t45089093 * L_27 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_27);
-		List_1_t514686775 * L_28 = (L_27->___diamondList_14);
+		List_1_t514686775 * L_28 = (L_27->___diamondList_15);
 		int32_t L_29 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_28);
 		GameObject_t4012695102 * L_30 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_28, L_29);
@@ -1295,7 +2671,7 @@ IL_0194:
 		Diamond_t3319707956 * L_55 = (L_54->___diamondScript_16);
 		SpawnerManager_t45089093 * L_56 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_56);
-		List_1_t514686775 * L_57 = (L_56->___diamondList_14);
+		List_1_t514686775 * L_57 = (L_56->___diamondList_15);
 		int32_t L_58 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_57);
 		GameObject_t4012695102 * L_59 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_57, L_58);
@@ -1315,7 +2691,7 @@ IL_01d2:
 		int32_t L_61 = (__this->___U3CiU3E__0_0);
 		SpawnerManager_t45089093 * L_62 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_62);
-		List_1_t514686775 * L_63 = (L_62->___diamondList_14);
+		List_1_t514686775 * L_63 = (L_62->___diamondList_15);
 		NullCheck(L_63);
 		int32_t L_64 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_63);
 		if ((((int32_t)L_61) < ((int32_t)L_64)))
@@ -1352,7 +2728,7 @@ IL_022c:
 	{
 		SpawnerManager_t45089093 * L_67 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_67);
-		List_1_t514686775 * L_68 = (L_67->___diamondList_14);
+		List_1_t514686775 * L_68 = (L_67->___diamondList_15);
 		int32_t L_69 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_68);
 		GameObject_t4012695102 * L_70 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_68, L_69);
@@ -1366,7 +2742,7 @@ IL_022c:
 	{
 		SpawnerManager_t45089093 * L_72 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_72);
-		List_1_t514686775 * L_73 = (L_72->___diamondList_14);
+		List_1_t514686775 * L_73 = (L_72->___diamondList_15);
 		int32_t L_74 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_73);
 		GameObject_t4012695102 * L_75 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_73, L_74);
@@ -1381,7 +2757,7 @@ IL_022c:
 		Transform_set_position_m3111394108(L_76, L_79, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_80 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_80);
-		List_1_t514686775 * L_81 = (L_80->___diamondList_14);
+		List_1_t514686775 * L_81 = (L_80->___diamondList_15);
 		int32_t L_82 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_81);
 		GameObject_t4012695102 * L_83 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_81, L_82);
@@ -1392,7 +2768,7 @@ IL_022c:
 		Transform_set_rotation_m1525803229(L_84, L_85, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_86 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_86);
-		List_1_t514686775 * L_87 = (L_86->___diamondList_14);
+		List_1_t514686775 * L_87 = (L_86->___diamondList_15);
 		int32_t L_88 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_87);
 		GameObject_t4012695102 * L_89 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_87, L_88);
@@ -1403,7 +2779,7 @@ IL_022c:
 		SpawnerP_t2130838536 * L_91 = &(L_90->___spawnP_2);
 		SpawnerManager_t45089093 * L_92 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_92);
-		List_1_t514686775 * L_93 = (L_92->___diamondList_14);
+		List_1_t514686775 * L_93 = (L_92->___diamondList_15);
 		int32_t L_94 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_93);
 		GameObject_t4012695102 * L_95 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_93, L_94);
@@ -1481,7 +2857,7 @@ IL_038b:
 		Diamond_t3319707956 * L_120 = (L_119->___diamondScript_16);
 		SpawnerManager_t45089093 * L_121 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_121);
-		List_1_t514686775 * L_122 = (L_121->___diamondList_14);
+		List_1_t514686775 * L_122 = (L_121->___diamondList_15);
 		int32_t L_123 = (__this->___U3CiU3E__1_1);
 		NullCheck(L_122);
 		GameObject_t4012695102 * L_124 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_122, L_123);
@@ -1501,7 +2877,7 @@ IL_03c9:
 		int32_t L_126 = (__this->___U3CiU3E__1_1);
 		SpawnerManager_t45089093 * L_127 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_127);
-		List_1_t514686775 * L_128 = (L_127->___diamondList_14);
+		List_1_t514686775 * L_128 = (L_127->___diamondList_15);
 		NullCheck(L_128);
 		int32_t L_129 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_128);
 		if ((((int32_t)L_126) < ((int32_t)L_129)))
@@ -1535,23 +2911,23 @@ IL_0404:
 	}
 	// Dead block : IL_0406: ldloc.1
 }
-// System.Void SpawnerManager/<InstantiateDiamond>c__Iterator1B::Dispose()
-extern "C"  void U3CInstantiateDiamondU3Ec__Iterator1B_Dispose_m283330808 (U3CInstantiateDiamondU3Ec__Iterator1B_t2257946986 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateDiamond>c__Iterator1D::Dispose()
+extern "C"  void U3CInstantiateDiamondU3Ec__Iterator1D_Dispose_m541496246 (U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * __this, const MethodInfo* method)
 {
 	{
 		__this->___U24PC_2 = (-1);
 		return;
 	}
 }
-// System.Void SpawnerManager/<InstantiateDiamond>c__Iterator1B::Reset()
+// System.Void SpawnerManager/<InstantiateDiamond>c__Iterator1D::Reset()
 extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateDiamondU3Ec__Iterator1B_Reset_m1740683816_MetadataUsageId;
-extern "C"  void U3CInstantiateDiamondU3Ec__Iterator1B_Reset_m1740683816 (U3CInstantiateDiamondU3Ec__Iterator1B_t2257946986 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateDiamondU3Ec__Iterator1D_Reset_m1347656806_MetadataUsageId;
+extern "C"  void U3CInstantiateDiamondU3Ec__Iterator1D_Reset_m1347656806 (U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateDiamondU3Ec__Iterator1B_Reset_m1740683816_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateDiamondU3Ec__Iterator1D_Reset_m1347656806_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1560,39 +2936,39 @@ extern "C"  void U3CInstantiateDiamondU3Ec__Iterator1B_Reset_m1740683816 (U3CIns
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void SpawnerManager/<InstantiateDiamondBreaking>c__Iterator19::.ctor()
-extern "C"  void U3CInstantiateDiamondBreakingU3Ec__Iterator19__ctor_m2623816545 (U3CInstantiateDiamondBreakingU3Ec__Iterator19_t2380724420 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateDiamondBreaking>c__Iterator1B::.ctor()
+extern "C"  void U3CInstantiateDiamondBreakingU3Ec__Iterator1B__ctor_m855195000 (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Object SpawnerManager/<InstantiateDiamondBreaking>c__Iterator19::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Object_t * U3CInstantiateDiamondBreakingU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1421042203 (U3CInstantiateDiamondBreakingU3Ec__Iterator19_t2380724420 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateDiamondBreaking>c__Iterator1B::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CInstantiateDiamondBreakingU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3837724772 (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_3);
 		return L_0;
 	}
 }
-// System.Object SpawnerManager/<InstantiateDiamondBreaking>c__Iterator19::System.Collections.IEnumerator.get_Current()
-extern "C"  Object_t * U3CInstantiateDiamondBreakingU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m283835311 (U3CInstantiateDiamondBreakingU3Ec__Iterator19_t2380724420 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateDiamondBreaking>c__Iterator1B::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CInstantiateDiamondBreakingU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m842421240 (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_3);
 		return L_0;
 	}
 }
-// System.Boolean SpawnerManager/<InstantiateDiamondBreaking>c__Iterator19::MoveNext()
+// System.Boolean SpawnerManager/<InstantiateDiamondBreaking>c__Iterator1B::MoveNext()
 extern TypeInfo* WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateDiamondBreakingU3Ec__Iterator19_MoveNext_m1218543323_MetadataUsageId;
-extern "C"  bool U3CInstantiateDiamondBreakingU3Ec__Iterator19_MoveNext_m1218543323 (U3CInstantiateDiamondBreakingU3Ec__Iterator19_t2380724420 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateDiamondBreakingU3Ec__Iterator1B_MoveNext_m2872883556_MetadataUsageId;
+extern "C"  bool U3CInstantiateDiamondBreakingU3Ec__Iterator1B_MoveNext_m2872883556 (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateDiamondBreakingU3Ec__Iterator19_MoveNext_m1218543323_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_MoveNext_m2872883556_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -1625,7 +3001,7 @@ IL_002d:
 	{
 		SpawnerManager_t45089093 * L_2 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_2);
-		List_1_t514686775 * L_3 = (L_2->___diaBreakingList_16);
+		List_1_t514686775 * L_3 = (L_2->___diaBreakingList_17);
 		int32_t L_4 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_3);
 		GameObject_t4012695102 * L_5 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_3, L_4);
@@ -1639,7 +3015,7 @@ IL_002d:
 	{
 		SpawnerManager_t45089093 * L_7 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_7);
-		List_1_t514686775 * L_8 = (L_7->___diaBreakingList_16);
+		List_1_t514686775 * L_8 = (L_7->___diaBreakingList_17);
 		int32_t L_9 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_8);
 		GameObject_t4012695102 * L_10 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_8, L_9);
@@ -1654,7 +3030,7 @@ IL_002d:
 		Transform_set_position_m3111394108(L_11, L_14, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_15 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_15);
-		List_1_t514686775 * L_16 = (L_15->___diaBreakingList_16);
+		List_1_t514686775 * L_16 = (L_15->___diaBreakingList_17);
 		int32_t L_17 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_16);
 		GameObject_t4012695102 * L_18 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_16, L_17);
@@ -1669,7 +3045,7 @@ IL_002d:
 		Transform_set_rotation_m1525803229(L_19, L_22, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_23 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_23);
-		List_1_t514686775 * L_24 = (L_23->___diaBreakingList_16);
+		List_1_t514686775 * L_24 = (L_23->___diaBreakingList_17);
 		int32_t L_25 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_24);
 		GameObject_t4012695102 * L_26 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_24, L_25);
@@ -1689,7 +3065,7 @@ IL_00dc:
 		int32_t L_28 = (__this->___U3CiU3E__0_0);
 		SpawnerManager_t45089093 * L_29 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_29);
-		List_1_t514686775 * L_30 = (L_29->___diaBreakingList_16);
+		List_1_t514686775 * L_30 = (L_29->___diaBreakingList_17);
 		NullCheck(L_30);
 		int32_t L_31 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_30);
 		if ((((int32_t)L_28) < ((int32_t)L_31)))
@@ -1723,23 +3099,23 @@ IL_0117:
 	}
 	// Dead block : IL_0119: ldloc.1
 }
-// System.Void SpawnerManager/<InstantiateDiamondBreaking>c__Iterator19::Dispose()
-extern "C"  void U3CInstantiateDiamondBreakingU3Ec__Iterator19_Dispose_m240180062 (U3CInstantiateDiamondBreakingU3Ec__Iterator19_t2380724420 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateDiamondBreaking>c__Iterator1B::Dispose()
+extern "C"  void U3CInstantiateDiamondBreakingU3Ec__Iterator1B_Dispose_m1401924533 (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * __this, const MethodInfo* method)
 {
 	{
 		__this->___U24PC_2 = (-1);
 		return;
 	}
 }
-// System.Void SpawnerManager/<InstantiateDiamondBreaking>c__Iterator19::Reset()
+// System.Void SpawnerManager/<InstantiateDiamondBreaking>c__Iterator1B::Reset()
 extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateDiamondBreakingU3Ec__Iterator19_Reset_m270249486_MetadataUsageId;
-extern "C"  void U3CInstantiateDiamondBreakingU3Ec__Iterator19_Reset_m270249486 (U3CInstantiateDiamondBreakingU3Ec__Iterator19_t2380724420 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateDiamondBreakingU3Ec__Iterator1B_Reset_m2796595237_MetadataUsageId;
+extern "C"  void U3CInstantiateDiamondBreakingU3Ec__Iterator1B_Reset_m2796595237 (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateDiamondBreakingU3Ec__Iterator19_Reset_m270249486_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_Reset_m2796595237_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1748,39 +3124,39 @@ extern "C"  void U3CInstantiateDiamondBreakingU3Ec__Iterator19_Reset_m270249486 
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void SpawnerManager/<InstantiateDiamondEmissive>c__Iterator17::.ctor()
-extern "C"  void U3CInstantiateDiamondEmissiveU3Ec__Iterator17__ctor_m1998997199 (U3CInstantiateDiamondEmissiveU3Ec__Iterator17_t1952760214 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateDiamondEmissive>c__Iterator19::.ctor()
+extern "C"  void U3CInstantiateDiamondEmissiveU3Ec__Iterator19__ctor_m1605970189 (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Object SpawnerManager/<InstantiateDiamondEmissive>c__Iterator17::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Object_t * U3CInstantiateDiamondEmissiveU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m964536173 (U3CInstantiateDiamondEmissiveU3Ec__Iterator17_t1952760214 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateDiamondEmissive>c__Iterator19::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CInstantiateDiamondEmissiveU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m547139567 (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_3);
 		return L_0;
 	}
 }
-// System.Object SpawnerManager/<InstantiateDiamondEmissive>c__Iterator17::System.Collections.IEnumerator.get_Current()
-extern "C"  Object_t * U3CInstantiateDiamondEmissiveU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m4038993153 (U3CInstantiateDiamondEmissiveU3Ec__Iterator17_t1952760214 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateDiamondEmissive>c__Iterator19::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CInstantiateDiamondEmissiveU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3685904771 (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_3);
 		return L_0;
 	}
 }
-// System.Boolean SpawnerManager/<InstantiateDiamondEmissive>c__Iterator17::MoveNext()
+// System.Boolean SpawnerManager/<InstantiateDiamondEmissive>c__Iterator19::MoveNext()
 extern TypeInfo* WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateDiamondEmissiveU3Ec__Iterator17_MoveNext_m1613667501_MetadataUsageId;
-extern "C"  bool U3CInstantiateDiamondEmissiveU3Ec__Iterator17_MoveNext_m1613667501 (U3CInstantiateDiamondEmissiveU3Ec__Iterator17_t1952760214 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateDiamondEmissiveU3Ec__Iterator19_MoveNext_m1026861487_MetadataUsageId;
+extern "C"  bool U3CInstantiateDiamondEmissiveU3Ec__Iterator19_MoveNext_m1026861487 (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateDiamondEmissiveU3Ec__Iterator17_MoveNext_m1613667501_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_MoveNext_m1026861487_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -1813,7 +3189,7 @@ IL_002d:
 	{
 		SpawnerManager_t45089093 * L_2 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_2);
-		List_1_t514686775 * L_3 = (L_2->___diaEmissiveList_15);
+		List_1_t514686775 * L_3 = (L_2->___diaEmissiveList_16);
 		int32_t L_4 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_3);
 		GameObject_t4012695102 * L_5 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_3, L_4);
@@ -1827,7 +3203,7 @@ IL_002d:
 	{
 		SpawnerManager_t45089093 * L_7 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_7);
-		List_1_t514686775 * L_8 = (L_7->___diaEmissiveList_15);
+		List_1_t514686775 * L_8 = (L_7->___diaEmissiveList_16);
 		int32_t L_9 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_8);
 		GameObject_t4012695102 * L_10 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_8, L_9);
@@ -1842,7 +3218,7 @@ IL_002d:
 		Transform_set_position_m3111394108(L_11, L_14, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_15 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_15);
-		List_1_t514686775 * L_16 = (L_15->___diaEmissiveList_15);
+		List_1_t514686775 * L_16 = (L_15->___diaEmissiveList_16);
 		int32_t L_17 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_16);
 		GameObject_t4012695102 * L_18 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_16, L_17);
@@ -1857,7 +3233,7 @@ IL_002d:
 		Transform_set_rotation_m1525803229(L_19, L_22, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_23 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_23);
-		List_1_t514686775 * L_24 = (L_23->___diaEmissiveList_15);
+		List_1_t514686775 * L_24 = (L_23->___diaEmissiveList_16);
 		int32_t L_25 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_24);
 		GameObject_t4012695102 * L_26 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_24, L_25);
@@ -1877,7 +3253,7 @@ IL_00dc:
 		int32_t L_28 = (__this->___U3CiU3E__0_0);
 		SpawnerManager_t45089093 * L_29 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_29);
-		List_1_t514686775 * L_30 = (L_29->___diaEmissiveList_15);
+		List_1_t514686775 * L_30 = (L_29->___diaEmissiveList_16);
 		NullCheck(L_30);
 		int32_t L_31 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_30);
 		if ((((int32_t)L_28) < ((int32_t)L_31)))
@@ -1911,23 +3287,23 @@ IL_0117:
 	}
 	// Dead block : IL_0119: ldloc.1
 }
-// System.Void SpawnerManager/<InstantiateDiamondEmissive>c__Iterator17::Dispose()
-extern "C"  void U3CInstantiateDiamondEmissiveU3Ec__Iterator17_Dispose_m1084209996 (U3CInstantiateDiamondEmissiveU3Ec__Iterator17_t1952760214 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateDiamondEmissive>c__Iterator19::Dispose()
+extern "C"  void U3CInstantiateDiamondEmissiveU3Ec__Iterator19_Dispose_m1342375434 (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * __this, const MethodInfo* method)
 {
 	{
 		__this->___U24PC_2 = (-1);
 		return;
 	}
 }
-// System.Void SpawnerManager/<InstantiateDiamondEmissive>c__Iterator17::Reset()
+// System.Void SpawnerManager/<InstantiateDiamondEmissive>c__Iterator19::Reset()
 extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateDiamondEmissiveU3Ec__Iterator17_Reset_m3940397436_MetadataUsageId;
-extern "C"  void U3CInstantiateDiamondEmissiveU3Ec__Iterator17_Reset_m3940397436 (U3CInstantiateDiamondEmissiveU3Ec__Iterator17_t1952760214 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateDiamondEmissiveU3Ec__Iterator19_Reset_m3547370426_MetadataUsageId;
+extern "C"  void U3CInstantiateDiamondEmissiveU3Ec__Iterator19_Reset_m3547370426 (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateDiamondEmissiveU3Ec__Iterator17_Reset_m3940397436_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_Reset_m3547370426_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1936,39 +3312,39 @@ extern "C"  void U3CInstantiateDiamondEmissiveU3Ec__Iterator17_Reset_m3940397436
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void SpawnerManager/<InstantiateEffect>c__Iterator16::.ctor()
-extern "C"  void U3CInstantiateEffectU3Ec__Iterator16__ctor_m2135912330 (U3CInstantiateEffectU3Ec__Iterator16_t1005504887 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateEffect>c__Iterator18::.ctor()
+extern "C"  void U3CInstantiateEffectU3Ec__Iterator18__ctor_m1742885320 (U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Object SpawnerManager/<InstantiateEffect>c__Iterator16::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Object_t * U3CInstantiateEffectU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m83357704 (U3CInstantiateEffectU3Ec__Iterator16_t1005504887 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateEffect>c__Iterator18::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CInstantiateEffectU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3960928394 (U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_3);
 		return L_0;
 	}
 }
-// System.Object SpawnerManager/<InstantiateEffect>c__Iterator16::System.Collections.IEnumerator.get_Current()
-extern "C"  Object_t * U3CInstantiateEffectU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m1322976156 (U3CInstantiateEffectU3Ec__Iterator16_t1005504887 * __this, const MethodInfo* method)
+// System.Object SpawnerManager/<InstantiateEffect>c__Iterator18::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CInstantiateEffectU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m969887774 (U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_3);
 		return L_0;
 	}
 }
-// System.Boolean SpawnerManager/<InstantiateEffect>c__Iterator16::MoveNext()
+// System.Boolean SpawnerManager/<InstantiateEffect>c__Iterator18::MoveNext()
 extern TypeInfo* WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateEffectU3Ec__Iterator16_MoveNext_m1029829162_MetadataUsageId;
-extern "C"  bool U3CInstantiateEffectU3Ec__Iterator16_MoveNext_m1029829162 (U3CInstantiateEffectU3Ec__Iterator16_t1005504887 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateEffectU3Ec__Iterator18_MoveNext_m443023148_MetadataUsageId;
+extern "C"  bool U3CInstantiateEffectU3Ec__Iterator18_MoveNext_m443023148 (U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateEffectU3Ec__Iterator16_MoveNext_m1029829162_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateEffectU3Ec__Iterator18_MoveNext_m443023148_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -2001,7 +3377,7 @@ IL_002d:
 	{
 		SpawnerManager_t45089093 * L_2 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_2);
-		List_1_t514686775 * L_3 = (L_2->___particleList_13);
+		List_1_t514686775 * L_3 = (L_2->___particleList_14);
 		int32_t L_4 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_3);
 		GameObject_t4012695102 * L_5 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_3, L_4);
@@ -2015,7 +3391,7 @@ IL_002d:
 	{
 		SpawnerManager_t45089093 * L_7 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_7);
-		List_1_t514686775 * L_8 = (L_7->___particleList_13);
+		List_1_t514686775 * L_8 = (L_7->___particleList_14);
 		int32_t L_9 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_8);
 		GameObject_t4012695102 * L_10 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_8, L_9);
@@ -2030,7 +3406,7 @@ IL_002d:
 		Transform_set_position_m3111394108(L_11, L_14, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_15 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_15);
-		List_1_t514686775 * L_16 = (L_15->___particleList_13);
+		List_1_t514686775 * L_16 = (L_15->___particleList_14);
 		int32_t L_17 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_16);
 		GameObject_t4012695102 * L_18 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_16, L_17);
@@ -2045,7 +3421,7 @@ IL_002d:
 		Transform_set_rotation_m1525803229(L_19, L_22, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_23 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_23);
-		List_1_t514686775 * L_24 = (L_23->___particleList_13);
+		List_1_t514686775 * L_24 = (L_23->___particleList_14);
 		int32_t L_25 = (__this->___U3CiU3E__0_0);
 		NullCheck(L_24);
 		GameObject_t4012695102 * L_26 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_24, L_25);
@@ -2065,7 +3441,7 @@ IL_00dc:
 		int32_t L_28 = (__this->___U3CiU3E__0_0);
 		SpawnerManager_t45089093 * L_29 = (__this->___U3CU3Ef__this_5);
 		NullCheck(L_29);
-		List_1_t514686775 * L_30 = (L_29->___particleList_13);
+		List_1_t514686775 * L_30 = (L_29->___particleList_14);
 		NullCheck(L_30);
 		int32_t L_31 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_30);
 		if ((((int32_t)L_28) < ((int32_t)L_31)))
@@ -2099,23 +3475,23 @@ IL_0117:
 	}
 	// Dead block : IL_0119: ldloc.1
 }
-// System.Void SpawnerManager/<InstantiateEffect>c__Iterator16::Dispose()
-extern "C"  void U3CInstantiateEffectU3Ec__Iterator16_Dispose_m3810632007 (U3CInstantiateEffectU3Ec__Iterator16_t1005504887 * __this, const MethodInfo* method)
+// System.Void SpawnerManager/<InstantiateEffect>c__Iterator18::Dispose()
+extern "C"  void U3CInstantiateEffectU3Ec__Iterator18_Dispose_m4068797445 (U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * __this, const MethodInfo* method)
 {
 	{
 		__this->___U24PC_2 = (-1);
 		return;
 	}
 }
-// System.Void SpawnerManager/<InstantiateEffect>c__Iterator16::Reset()
+// System.Void SpawnerManager/<InstantiateEffect>c__Iterator18::Reset()
 extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern const uint32_t U3CInstantiateEffectU3Ec__Iterator16_Reset_m4077312567_MetadataUsageId;
-extern "C"  void U3CInstantiateEffectU3Ec__Iterator16_Reset_m4077312567 (U3CInstantiateEffectU3Ec__Iterator16_t1005504887 * __this, const MethodInfo* method)
+extern const uint32_t U3CInstantiateEffectU3Ec__Iterator18_Reset_m3684285557_MetadataUsageId;
+extern "C"  void U3CInstantiateEffectU3Ec__Iterator18_Reset_m3684285557 (U3CInstantiateEffectU3Ec__Iterator18_t1005504889 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CInstantiateEffectU3Ec__Iterator16_Reset_m4077312567_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CInstantiateEffectU3Ec__Iterator18_Reset_m3684285557_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2195,7 +3571,7 @@ extern "C"  void StartOptions_StartButtonClicked_m1487358680 (StartOptions_t3075
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
 		GameStateManager_t648042254 * L_2 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		GameStateManager_set_ChallengeTimer_m1343732871(L_2, ((int32_t)11), /*hidden argument*/NULL);
+		GameStateManager_set_ChallengeTimer_m1343732871(L_2, ((int32_t)15), /*hidden argument*/NULL);
 		ShowPanels_t2673010796 * L_3 = (__this->___showPanels_12);
 		NullCheck(L_3);
 		GameObject_t4012695102 * L_4 = (L_3->___outOfTimeText_16);
@@ -2313,7 +3689,7 @@ extern "C"  void StartOptions_RefleshButtonClicked_m2548469689 (StartOptions_t30
 		GameStateManager_set_IsOutOfTime_m1803604973(L_5, (bool)0, /*hidden argument*/NULL);
 		GameStateManager_t648042254 * L_6 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		GameStateManager_set_ChallengeTimer_m1343732871(L_6, ((int32_t)10), /*hidden argument*/NULL);
+		GameStateManager_set_ChallengeTimer_m1343732871(L_6, ((int32_t)15), /*hidden argument*/NULL);
 		ShowPanels_t2673010796 * L_7 = (__this->___showPanels_12);
 		NullCheck(L_7);
 		GameObject_t4012695102 * L_8 = (L_7->___liveChallengeTime_15);
@@ -2939,14 +4315,41 @@ extern "C"  void UpdateScore_TimerChallenge_m2979733632 (UpdateScore_t1082839849
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Text_t3286458198 * L_0 = (__this->___timerChallenge_6);
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_1 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		int32_t L_2 = GameStateManager_get_ChallengeTimer_m1504953168(L_1, /*hidden argument*/NULL);
-		String_t* L_3 = UpdateScore_FormatTime_m3150762760(__this, (((float)((float)L_2))), /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_3);
+		int32_t L_1 = GameStateManager_get_ChallengeTimer_m1504953168(L_0, /*hidden argument*/NULL);
+		if ((((int32_t)L_1) >= ((int32_t)4)))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		Text_t3286458198 * L_2 = (__this->___timerChallenge_6);
+		Color_t1588175760  L_3 = Color_get_red_m4288945411(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Graphic_set_color_m1311501487(L_2, L_3, /*hidden argument*/NULL);
+		goto IL_0035;
+	}
+
+IL_0025:
+	{
+		Text_t3286458198 * L_4 = (__this->___timerChallenge_6);
+		Color_t1588175760  L_5 = Color_get_white_m3038282331(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Graphic_set_color_m1311501487(L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_0035:
+	{
+		Text_t3286458198 * L_6 = (__this->___timerChallenge_6);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_7 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		int32_t L_8 = GameStateManager_get_ChallengeTimer_m1504953168(L_7, /*hidden argument*/NULL);
+		String_t* L_9 = UpdateScore_FormatTime_m3150762760(__this, (((float)((float)L_8))), /*hidden argument*/NULL);
+		NullCheck(L_6);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_6, L_9);
 		return;
 	}
 }
@@ -3265,7 +4668,7 @@ extern "C"  void WeatherDetecter_Start_m1914322535 (WeatherDetecter_t2833725060 
 	}
 }
 // System.Collections.IEnumerator WeatherDetecter::deactivateWeatherDetector()
-extern TypeInfo* U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505_il2cpp_TypeInfo_var;
+extern TypeInfo* U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515_il2cpp_TypeInfo_var;
 extern const uint32_t WeatherDetecter_deactivateWeatherDetector_m4138353203_MetadataUsageId;
 extern "C"  Object_t * WeatherDetecter_deactivateWeatherDetector_m4138353203 (WeatherDetecter_t2833725060 * __this, const MethodInfo* method)
 {
@@ -3275,15 +4678,15 @@ extern "C"  Object_t * WeatherDetecter_deactivateWeatherDetector_m4138353203 (We
 		il2cpp_codegen_initialize_method (WeatherDetecter_deactivateWeatherDetector_m4138353203_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
-	U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * V_0 = {0};
+	U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * V_0 = {0};
 	{
-		U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * L_0 = (U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 *)il2cpp_codegen_object_new(U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505_il2cpp_TypeInfo_var);
-		U3CdeactivateWeatherDetectorU3Ec__Iterator1E__ctor_m3840137439(L_0, /*hidden argument*/NULL);
+		U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * L_0 = (U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 *)il2cpp_codegen_object_new(U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515_il2cpp_TypeInfo_var);
+		U3CdeactivateWeatherDetectorU3Ec__Iterator20__ctor_m1875002389(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
-		U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * L_1 = V_0;
+		U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * L_1 = V_0;
 		NullCheck(L_1);
 		L_1->___U3CU3Ef__this_2 = __this;
-		U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * L_2 = V_0;
+		U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * L_2 = V_0;
 		return L_2;
 	}
 }
@@ -3427,39 +4830,39 @@ IL_009e:
 		return;
 	}
 }
-// System.Void WeatherDetecter/<deactivateWeatherDetector>c__Iterator1E::.ctor()
-extern "C"  void U3CdeactivateWeatherDetectorU3Ec__Iterator1E__ctor_m3840137439 (U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * __this, const MethodInfo* method)
+// System.Void WeatherDetecter/<deactivateWeatherDetector>c__Iterator20::.ctor()
+extern "C"  void U3CdeactivateWeatherDetectorU3Ec__Iterator20__ctor_m1875002389 (U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Object WeatherDetecter/<deactivateWeatherDetector>c__Iterator1E::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Object_t * U3CdeactivateWeatherDetectorU3Ec__Iterator1E_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3083812701 (U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * __this, const MethodInfo* method)
+// System.Object WeatherDetecter/<deactivateWeatherDetector>c__Iterator20::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CdeactivateWeatherDetectorU3Ec__Iterator20_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m996829671 (U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_1);
 		return L_0;
 	}
 }
-// System.Object WeatherDetecter/<deactivateWeatherDetector>c__Iterator1E::System.Collections.IEnumerator.get_Current()
-extern "C"  Object_t * U3CdeactivateWeatherDetectorU3Ec__Iterator1E_System_Collections_IEnumerator_get_Current_m2006818033 (U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * __this, const MethodInfo* method)
+// System.Object WeatherDetecter/<deactivateWeatherDetector>c__Iterator20::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CdeactivateWeatherDetectorU3Ec__Iterator20_System_Collections_IEnumerator_get_Current_m241376123 (U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___U24current_1);
 		return L_0;
 	}
 }
-// System.Boolean WeatherDetecter/<deactivateWeatherDetector>c__Iterator1E::MoveNext()
+// System.Boolean WeatherDetecter/<deactivateWeatherDetector>c__Iterator20::MoveNext()
 extern TypeInfo* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
-extern const uint32_t U3CdeactivateWeatherDetectorU3Ec__Iterator1E_MoveNext_m4290187421_MetadataUsageId;
-extern "C"  bool U3CdeactivateWeatherDetectorU3Ec__Iterator1E_MoveNext_m4290187421 (U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * __this, const MethodInfo* method)
+extern const uint32_t U3CdeactivateWeatherDetectorU3Ec__Iterator20_MoveNext_m1356157351_MetadataUsageId;
+extern "C"  bool U3CdeactivateWeatherDetectorU3Ec__Iterator20_MoveNext_m1356157351 (U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CdeactivateWeatherDetectorU3Ec__Iterator1E_MoveNext_m4290187421_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CdeactivateWeatherDetectorU3Ec__Iterator20_MoveNext_m1356157351_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -3527,23 +4930,23 @@ IL_006c:
 	}
 	// Dead block : IL_006e: ldloc.1
 }
-// System.Void WeatherDetecter/<deactivateWeatherDetector>c__Iterator1E::Dispose()
-extern "C"  void U3CdeactivateWeatherDetectorU3Ec__Iterator1E_Dispose_m893454684 (U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * __this, const MethodInfo* method)
+// System.Void WeatherDetecter/<deactivateWeatherDetector>c__Iterator20::Dispose()
+extern "C"  void U3CdeactivateWeatherDetectorU3Ec__Iterator20_Dispose_m2184281874 (U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * __this, const MethodInfo* method)
 {
 	{
 		__this->___U24PC_0 = (-1);
 		return;
 	}
 }
-// System.Void WeatherDetecter/<deactivateWeatherDetector>c__Iterator1E::Reset()
+// System.Void WeatherDetecter/<deactivateWeatherDetector>c__Iterator20::Reset()
 extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern const uint32_t U3CdeactivateWeatherDetectorU3Ec__Iterator1E_Reset_m1486570380_MetadataUsageId;
-extern "C"  void U3CdeactivateWeatherDetectorU3Ec__Iterator1E_Reset_m1486570380 (U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505 * __this, const MethodInfo* method)
+extern const uint32_t U3CdeactivateWeatherDetectorU3Ec__Iterator20_Reset_m3816402626_MetadataUsageId;
+extern "C"  void U3CdeactivateWeatherDetectorU3Ec__Iterator20_Reset_m3816402626 (U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CdeactivateWeatherDetectorU3Ec__Iterator1E_Reset_m1486570380_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CdeactivateWeatherDetectorU3Ec__Iterator20_Reset_m3816402626_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{

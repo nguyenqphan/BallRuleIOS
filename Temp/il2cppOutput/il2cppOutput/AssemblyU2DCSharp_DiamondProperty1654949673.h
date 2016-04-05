@@ -16,6 +16,8 @@ struct SoundBreaking_t2714241170;
 struct UpdateScore_t1082839849;
 // Destroyer
 struct Destroyer_t3990730247;
+// UnityEngine.Transform
+struct Transform_t284553113;
 
 #include "mscorlib_System_ValueType4014882752.h"
 
@@ -44,4 +46,6 @@ struct  DiamondProperty_t1654949673
 	UpdateScore_t1082839849 * ___updateScore_9;
 	// Destroyer DiamondProperty::destroyer
 	Destroyer_t3990730247 * ___destroyer_10;
+	// UnityEngine.Transform DiamondProperty::transformD
+	Transform_t284553113 * ___transformD_11;
 };

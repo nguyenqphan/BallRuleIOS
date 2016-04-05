@@ -40,6 +40,7 @@ public class SpawnerManager : MonoBehaviour {
 	public GameObject ballExplode;
 	public GameObject smallCube;
 	public GameObject mallestCube;
+	public GameObject star;
 
 	private List<GameObject> cubeList;
 	private List<GameObject> particleList;
@@ -50,6 +51,7 @@ public class SpawnerManager : MonoBehaviour {
 	private List<GameObject> ballExplodeList;
 	private List<GameObject> smallCubeList;
 	private List<GameObject> smallestCubeList;
+	private List<GameObject> starList;
 
 	void OnEnable()
 	{
@@ -101,6 +103,7 @@ public class SpawnerManager : MonoBehaviour {
 		ballExplodeList = new List<GameObject>();
 		smallCubeList = new List<GameObject>();
 		smallestCubeList = new List<GameObject>();
+		starList = new List<GameObject>();
 
 		for(int i = 0; i < spawnP.pooledAmount; i++)
 		{
@@ -122,7 +125,7 @@ public class SpawnerManager : MonoBehaviour {
 
 		for(int i = 0; i < spawnP.diamondAmount; i++)
 		{
-			GameObject newDiamond = Instantiate(diamond, transform.position, Quaternion.identity) as GameObject;
+			GameObject newDiamond = Instantiate(GameStateManager.Instance.IsChallenged ? star :diamond , transform.position, Quaternion.identity) as GameObject;
 			GameObject newDiaEmissive = Instantiate(diaEmissive, transform.position, Quaternion.identity) as GameObject;
 			GameObject newDiaBreaking = Instantiate(diaBreaking, transform.position, Quaternion.identity) as GameObject;
 

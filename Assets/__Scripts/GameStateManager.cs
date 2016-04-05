@@ -92,7 +92,7 @@ public class GameStateManager : MonoBehaviour {
 		set{ballTimer = value;}
 	}
 
-	private int challengeTimer = 10;
+	private int challengeTimer = 15;
 
 	public int ChallengeTimer
 	{

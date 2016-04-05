@@ -52,6 +52,10 @@ extern "C"  void Diamond_OnTriggerEnter_m570362401 (Diamond_t3319707956 * __this
 extern "C"  void Diamond_Pickup_m2333182505 (Diamond_t3319707956 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Diamond::Spin()
 extern "C"  Object_t * Diamond_Spin_m1119011367 (Diamond_t3319707956 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IEnumerator Diamond::Spin2()
+extern "C"  Object_t * Diamond_Spin2_m329623629 (Diamond_t3319707956 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IEnumerator Diamond::Float2()
+extern "C"  Object_t * Diamond_Float2_m1353397563 (Diamond_t3319707956 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Diamond::Float()
 extern "C"  Object_t * Diamond_Float_m1567678329 (Diamond_t3319707956 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Diamond::MoveDiamond(UnityEngine.Vector3)

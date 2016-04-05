@@ -32,4 +32,6 @@ struct  Destroyer_t3990730247  : public MonoBehaviour_t3012272455
 	UpdateScore_t1082839849 * ___updateScore_4;
 	// CubeManager Destroyer::cubeManager
 	CubeManager_t4034287000 * ___cubeManager_5;
+	// System.Boolean Destroyer::isTimeRunging
+	bool ___isTimeRunging_6;
 };
