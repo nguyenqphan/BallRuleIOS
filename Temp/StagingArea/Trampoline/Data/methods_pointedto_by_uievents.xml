@@ -1,0 +1,30 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="SetAudioLevels">
+			<method name="SetMusicLevel"/>
+			<method name="SetMusicLevel"/>
+			<method name="SetSfxLevel"/>
+			<method name="SetSfxLevel"/>
+		</type>
+		<type fullname="StartOptions">
+			<method name="StartButtonClicked"/>
+			<method name="RefleshButtonClicked"/>
+		</type>
+		<type fullname="Pause">
+			<method name="UnPause"/>
+			<method name="UnPause"/>
+		</type>
+		<type fullname="ShowPanels">
+			<method name="ShowOptionsPanel"/>
+			<method name="HideOptionsPanel"/>
+		</type>
+		<type fullname="QuitApplication">
+			<method name="Quit"/>
+			<method name="Quit"/>
+		</type>
+		<type fullname="Gamemanager">
+			<method name="ChallengeMode"/>
+			<method name="UniversalMode"/>
+		</type>
+	</assembly>
+</linker>

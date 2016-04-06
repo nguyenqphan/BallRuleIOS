@@ -31,7 +31,7 @@ public class Gamemanager : MonoBehaviour {
 	public void UniversalMode()
 	{
 		GameStateManager.Instance.IsChallenged = false;
-		cubeManager.cubeLayerMask = 8192;
+//		cubeManager.cubeLayerMask = 8192;
 //		destroyer.StopTimerChallenge();
 		pause.UnPause();
 
@@ -45,6 +45,6 @@ public class Gamemanager : MonoBehaviour {
 	{
 		GameStateManager.Instance.IsChallenged = true;
 		pause.UnPause();
-		cubeManager.cubeLayerMask = 8192;
+//		cubeManager.cubeLayerMask = 8192;
 	}
 }

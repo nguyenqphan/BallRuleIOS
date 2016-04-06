@@ -18,6 +18,12 @@ public class ShowPanels : MonoBehaviour {
 	public GameObject gameTitleText;
 	public GameObject liveChallengeTime;
 	public GameObject outOfTimeText;
+	private CubeManager cubeManager;
+
+	void Awake()
+	{
+		cubeManager = GameObject.FindWithTag("GameManager").GetComponent<CubeManager>();
+	}
 
 	void Start()
 	{
@@ -30,6 +36,7 @@ public class ShowPanels : MonoBehaviour {
 	//Call this function to activate and display the Options panel during the main menu
 	public void ShowOptionsPanel()
 	{
+		cubeManager.cubeLayerMask.value = 2;
 		Time.timeScale = 0;
 		optionsPanel.SetActive(true);
 		optionsTint.SetActive(true);
@@ -45,6 +52,7 @@ public class ShowPanels : MonoBehaviour {
 	//Call this function to activate and display the main menu panel during the main menu
 	public void ShowMenu()
 	{
+		cubeManager.cubeLayerMask.value = 2;
 		menuPanel.SetActive (true);
 		if(GameStateManager.Instance.IsStarted)
 		{

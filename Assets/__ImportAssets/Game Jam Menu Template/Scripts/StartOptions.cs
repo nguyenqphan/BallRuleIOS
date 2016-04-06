@@ -93,6 +93,7 @@ public class StartOptions : MonoBehaviour {
 
 	public void RefleshButtonClicked()
 	{
+		cubeManager.cubeLayerMask.value = 8192;	
 		GameStateManager.Instance.NumBerOfGame++;
 		if(GameStateManager.Instance.IsChallenged)
 		{
@@ -101,7 +102,6 @@ public class StartOptions : MonoBehaviour {
 			showPanels.liveChallengeTime.SetActive(true);
 			updateScore.TimerChallenge();
 			showPanels.outOfTimeText.SetActive(false);
-			cubeManager.cubeLayerMask.value = 8192;
 			//updateScore.TimerChallege();
 		}
 
