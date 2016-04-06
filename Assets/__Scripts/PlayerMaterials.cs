@@ -5,6 +5,7 @@ public class PlayerMaterials : MonoBehaviour {
 
 	public Material[] materials;
 	private Renderer renderMaterial;
+	private int matIndex = 0;
 
 	void Awake()
 	{
@@ -13,7 +14,14 @@ public class PlayerMaterials : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		renderMaterial.material = materials[GameStateManager.Instance.SceneMaterialNum];
+		if(GameStateManager.Instance.IsChallenged){
+			matIndex = 6;
+		}
+		else{
+			matIndex = 0;
+		}
+
+		renderMaterial.material = materials[GameStateManager.Instance.SceneMaterialNum + matIndex];
 	}
 
 }

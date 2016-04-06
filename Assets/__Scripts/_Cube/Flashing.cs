@@ -41,7 +41,8 @@ public class Flashing : MonoBehaviour {
 			flashingP.timeFlashing += Time.deltaTime * flashingP.speedFlashing;
 				if (GameStateManager.Instance.SceneMaterialNum < 2) {
 				if (flashingP.timeFlashing < 0.4 && flashingP.countFlashing < 3) {
-					flashingP.mesh.material.SetColor ("_Emission", new Color (1f, 1f, 1f, 1f));
+//					flashingP.mesh.material.SetColor ("_Emission", new Color (1f, 1f, 1f, 1f));
+					flashingP.mesh.material.SetColor ("_Emission", new Color (0.2f, 0.2f, 0.2f, 0.2f));
 				} else if (flashingP.timeFlashing >= 0.4f) {
 					flashingP.mesh.material.SetColor ("_Emission", new Color (0f, 0f, 0f, 0f));
 					if (flashingP.timeFlashing >= 1) {
