@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Obstacle : MonoBehaviour {
 
+//	sprivate 
 
 	void Awake()
 	{
