@@ -31,6 +31,9 @@ public class SpawnerManager : MonoBehaviour {
 
 	SpawnerP spawnP;
 
+	public Transform obstacleLeftPos;
+	public Transform obstacleRightPos;
+
 	public GameObject cubeToInstantiate;
 	public GameObject cubeParticle;
 	public GameObject diamond;
@@ -41,6 +44,7 @@ public class SpawnerManager : MonoBehaviour {
 	public GameObject smallCube;
 	public GameObject mallestCube;
 	public GameObject star;
+	public GameObject ballObstacle;
 
 	private List<GameObject> cubeList;
 	private List<GameObject> particleList;
@@ -52,6 +56,7 @@ public class SpawnerManager : MonoBehaviour {
 	private List<GameObject> smallCubeList;
 	private List<GameObject> smallestCubeList;
 	private List<GameObject> starList;
+	private List<GameObject> ballObstacleList;
 
 	void OnEnable()
 	{
@@ -105,13 +110,26 @@ public class SpawnerManager : MonoBehaviour {
 		smallestCubeList = new List<GameObject>();
 		starList = new List<GameObject>();
 
+
+		if(GameStateManager.Instance.IsAdvanced)
+		{
+			ballObstacleList = new List<GameObject>();
+			for(int i = 0; i < 10; i++)
+			{
+				GameObject newballObstacle = Instantiate(ballObstacle, transform.position, Quaternion.identity) as GameObject;
+				newballObstacle.SetActive(false);
+				ballObstacleList.Add(newballObstacle);
+			}
+		}
+
+
 		for(int i = 0; i < spawnP.pooledAmount; i++)
 		{
 			GameObject newCube = Instantiate(cubeToInstantiate, transform.position, Quaternion.identity) as GameObject;
 			GameObject newSmallCube = Instantiate(smallCube, transform.position, Quaternion.identity) as GameObject;
 			GameObject newSmallestCube = Instantiate(mallestCube, transform.position, Quaternion.identity) as GameObject;
 			GameObject newParticle = Instantiate(cubeParticle, transform.position, Quaternion.identity) as GameObject;
-
+		
 			newCube.SetActive(false);
 			newSmallCube.SetActive(false);
 			newSmallestCube.SetActive(false);
@@ -121,6 +139,7 @@ public class SpawnerManager : MonoBehaviour {
 			smallCubeList.Add(newSmallCube);
 			smallestCubeList.Add(newSmallestCube);
 			particleList.Add(newParticle);
+	
 		}
 
 		for(int i = 0; i < spawnP.diamondAmount; i++)
@@ -380,6 +399,9 @@ public class SpawnerManager : MonoBehaviour {
 			spawnP.matchSmallestNum = true;
 		}
 
+		if (GameStateManager.Instance.IsAdvanced) {
+			StartCoroutine (InstantiateObstacle ());
+		}
 		StartCoroutine(InstantiateDiamond());
 
 		//Condition to instantiate a scalling ball
@@ -534,6 +556,32 @@ public class SpawnerManager : MonoBehaviour {
 		yield return new WaitForFixedUpdate();
 	}
 
+	private IEnumerator InstantiateObstacle()
+	{
+		for(int i = 0; i < ballObstacleList.Count; i++)
+		{
+			if(!ballObstacleList[i].activeInHierarchy)
+			{
+				if(spawnP.fixedX > 0){
+					ballObstacleList[i].transform.position = obstacleLeftPos.transform.position;
+					ballObstacleList[i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+					ballObstacleList[i].SetActive(true);
+
+					break;
+				}
+				else{
+					ballObstacleList[i].transform.position = obstacleRightPos.transform.position;
+					ballObstacleList[i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+					ballObstacleList[i].SetActive(true);
+
+
+					break;
+				}
+			}
+		}
+		
+		yield return new WaitForFixedUpdate();
+	}
 
 	private void ChangeGravity()
 	{

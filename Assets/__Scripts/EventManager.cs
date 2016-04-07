@@ -23,8 +23,9 @@ public class EventManager : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collider)
 	{
-		if (!isCollided) {
-			if (collider.gameObject.tag == "Player") {
+//		if (!isCollided)
+//		{
+			if (collider.gameObject.tag == "Player" && !isCollided) {
 				soundDropBall.PlayDropBall ();
 				GameStateManager.HighScore++;
 				updateScore.ChangeLiveScore ();
@@ -36,10 +37,11 @@ public class EventManager : MonoBehaviour {
 				if (OnPlayerEnter != null) {
 					OnPlayerEnter ();	
 				}	
+				isCollided = true;
 			}
 
-			isCollided = true;
-		}
+//			isCollided = true;
+//		}
 	}
 		
 }

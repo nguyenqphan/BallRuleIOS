@@ -141,6 +141,13 @@ public class GameStateManager : MonoBehaviour {
 		set{isChallened = value;}
 	}
 
+	private bool isAdvanced = true;
+
+	public bool IsAdvanced{
+		get{return isAdvanced;}
+		set{isAdvanced = value;}
+	}
+
 	private bool isOutOfTime = false;
 	public bool IsOutOfTime{
 		get{return isOutOfTime;}

@@ -60,7 +60,7 @@ public class Ball : MonoBehaviour {
 				Scalling(gameObject);
 
 			}
-		}else if(other.gameObject.CompareTag("ComboCube")){
+		}else if(other.gameObject.CompareTag("ComboCube") || other.gameObject.CompareTag("Obstacle") ){
 			if(ExplodeBall != null)
 			{
 				gameObject.SetActive(false);
