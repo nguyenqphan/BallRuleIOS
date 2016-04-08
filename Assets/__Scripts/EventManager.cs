@@ -38,9 +38,10 @@ public class EventManager : MonoBehaviour {
 					OnPlayerEnter ();	
 				}	
 				isCollided = true;
-		}else if(collider.gameObject.CompareTag("Obstacle")){
-			soundDropBall.PlayLowDropBall();
 		}
+//		else if(collider.gameObject.CompareTag("Obstacle")){
+//			soundDropBall.PlayLowDropBall();
+//		}
 
 //			isCollided = true;
 //		}
