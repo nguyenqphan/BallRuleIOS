@@ -2,11 +2,11 @@
 using System.Collections;
 
 public struct FlashingP{
-	public bool isFlashing;
-	public float timeFlashing;
-	public float speedFlashing;
-	public int countFlashing;
-	public Renderer mesh;
+	public bool isFlashing;								//The Cube is flashing
+	public float timeFlashing;							//Time to flash the cube
+	public float speedFlashing;							//Speed of flashing
+	public int countFlashing;							//Number of times to flash
+	public Renderer mesh;								//Reference to the Renderer
 }
 
 public class Flashing : MonoBehaviour {
@@ -15,55 +15,48 @@ public class Flashing : MonoBehaviour {
 
 	void Awake()
 	{
-		flashingP.mesh = gameObject.GetComponentInChildren<Renderer> ();
-//		 mesh.material.shader = Shader.Find("Legacy Shaders/VertexLit");
+		flashingP.mesh = gameObject.GetComponentInChildren<Renderer> ();				//Get the renderer of the cube to change its color later
 	}
 
 	void Start()
 	{
-		flashingP.timeFlashing = 0f;
-		flashingP.speedFlashing = 1f;
+		flashingP.timeFlashing = 0f;					//Initialize flashing time
+		flashingP.speedFlashing = 1f;					//Initialize flashing speed
 	}
-
+		
 	public void StartFlashing()
 	{
-		flashingP.countFlashing = 0;
+		//Reset initial values 
+		flashingP.countFlashing = 0;													
 		flashingP.isFlashing = true;
 		flashingP.timeFlashing = 0;
 		StopAllCoroutines();
 		StartCoroutine(FlashingCube());
 	}
 
+
 	private IEnumerator FlashingCube()
 	{
 		while (flashingP.isFlashing) 
 		{
-			flashingP.timeFlashing += Time.deltaTime * flashingP.speedFlashing;
-				if (GameStateManager.Instance.SceneMaterialNum < 2) {
-				if (flashingP.timeFlashing < 0.4 && flashingP.countFlashing < 3) {
-//					flashingP.mesh.material.SetColor ("_Emission", new Color (1f, 1f, 1f, 1f));
-					flashingP.mesh.material.SetColor ("_Emission", new Color (0.2f, 0.2f, 0.2f, 0.2f));
-				} else if (flashingP.timeFlashing >= 0.4f) {
-					flashingP.mesh.material.SetColor ("_Emission", new Color (0f, 0f, 0f, 0f));
-					if (flashingP.timeFlashing >= 1) {
-						flashingP.timeFlashing = 0f;	
-						flashingP.countFlashing++;
-						}
-					}
-				}
-				else
-				{
-				if (flashingP.timeFlashing < 0.4 &&flashingP.countFlashing < 3) {
-					flashingP.mesh.material.SetColor ("_Emission", new Color (0.2f, 0.2f, 0.2f, 0.2f));
-				} else if (flashingP.timeFlashing >= 0.4f) {
-					flashingP.mesh.material.SetColor ("_Emission", new Color (0f, 0f, 0f, 0f));
-					if (flashingP.timeFlashing >= 1) {
-						flashingP.timeFlashing = 0f;	
-						flashingP.countFlashing++;
-						}
-					}
-				}
+			flashingP.timeFlashing += Time.deltaTime * flashingP.speedFlashing;									//Increase flashing time
 
+				if (flashingP.timeFlashing < 0.4 && flashingP.countFlashing < 3) 
+				{
+//					flashingP.mesh.material.SetColor ("_Emission", new Color (1f, 1f, 1f, 1f));
+					flashingP.mesh.material.SetColor ("_Emission", new Color (0.2f, 0.2f, 0.2f, 0.2f));			//Set the color for the renderer
+				} 
+				else if (flashingP.timeFlashing >= 0.4f) 
+				{
+					flashingP.mesh.material.SetColor ("_Emission", new Color (0f, 0f, 0f, 0f));						//Sett the color for the rendere
+					
+					//Safe condition. Make sure the the cube does not falsh more than three times
+					if (flashingP.timeFlashing >= 1) {
+						flashingP.timeFlashing = 0f;	
+						flashingP.countFlashing++;
+						}
+					}
+		
 			yield return 0;
 		}
 	

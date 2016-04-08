@@ -4,13 +4,15 @@ using System.Collections;
 
 //F6938FB14437B26D61E4DE240EF670B5C216AAFC
 
+
+//Attach to the Destroyer gameobject to set all objects, that collides with it, to inactive
 public class Destroyer : MonoBehaviour {
 
-	private ShowPanels showUI;
-	private SoundBreaking soundBallDrop;
-	private UpdateScore updateScore;
-	private CubeManager cubeManager;
-	private bool isTimeRunging;
+	private ShowPanels showUI;							//Reference to the ShowPanels in UI
+	private SoundBreaking soundBallDrop;				//Reference to the SoundBreaking class in GameManager
+	private UpdateScore updateScore;					//reference to the UpdateScore class
+	private CubeManager cubeManager;					//Reference to the Cubemanager;
+	private bool isTimeRunning;							//If the challenge time is running
 
 	void Awake()
 	{
@@ -23,11 +25,14 @@ public class Destroyer : MonoBehaviour {
 
 	void Start()
 	{
+
+		//Call TimeChallengeCounter if the challenge mode is on
 		if(GameStateManager.Instance.IsChallenged){
 			StartCoroutine("TimerChallengeCounter");
 		}
 	}
 
+	//Update the best score in challenge mode
 	void UpdateBestChallengeScore ()
 	{
 		if (GameStateManager.Instance.BestChallengeScore < GameStateManager.HighScore) {
@@ -36,29 +41,33 @@ public class Destroyer : MonoBehaviour {
 		}
 	}
 
+	void UpdateUniversalScore()
+	{
+		if (GameStateManager.Instance.BestScore < GameStateManager.HighScore) 			
+		{
+			GameStateManager.Instance.BestScore = GameStateManager.HighScore;
+			GameStateManager.Instance.Save ();
+		}
+	}
+		
 	void OnTriggerEnter(Collider collider)
 	{
 		if(collider.gameObject.CompareTag("Player"))
 		{
-			soundBallDrop.PlayWaterSound();
-			GameStateManager.Instance.IsStarted = true;
-			collider.gameObject.SetActive(false);
+			soundBallDrop.PlayWaterSound();														//Play sound effect
+			GameStateManager.Instance.IsStarted = true;											
+			collider.gameObject.SetActive(false);												//Deactivate the gameobject that collides with the Destroyer
 
-			showUI.ShowMenu();
-			showUI.scaleText.SetActive(false);
-			GameStateManager.Instance.Load();
+			showUI.ShowMenu();																	//Show the Menu
+			showUI.scaleText.SetActive(false);													//set the scale time text inactive
+			GameStateManager.Instance.Load();				
 
 			if (!GameStateManager.Instance.IsChallenged)
 			{
-				
-				if (GameStateManager.Instance.BestScore < GameStateManager.HighScore) 
-				{
-					GameStateManager.Instance.BestScore = GameStateManager.HighScore;
-					GameStateManager.Instance.Save ();
-				}
+				UpdateUniversalScore();
 			}else{
 				UpdateBestChallengeScore ();
-				if(isTimeRunging)
+				if(isTimeRunning)
 				{
 					StopTimerChallenge();
 				}
@@ -77,7 +86,7 @@ public class Destroyer : MonoBehaviour {
 
 	IEnumerator TimerChallengeCounter()
 	{
-		isTimeRunging = true;
+		isTimeRunning = true;
 		while(GameStateManager.Instance.ChallengeTimer > 0)
 		{
 			yield return new WaitForSeconds(1f);
@@ -85,7 +94,7 @@ public class Destroyer : MonoBehaviour {
 			updateScore.TimerChallenge();
 		}
 
-		isTimeRunging = false;
+		isTimeRunning = false;
 		cubeManager.cubeLayerMask = 2;
 		showUI.outOfTimeText.SetActive(true);
 		GameStateManager.Instance.IsOutOfTime = true;

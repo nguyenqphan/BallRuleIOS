@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+//In charge the materials of the cubes
 public class CubeMaterials : MonoBehaviour {
 
-	private int matIndex = 0;
+	private int matIndex = 0;								
 	public Material[] cubeMats;
 
 	private Renderer renderMaterial;
@@ -17,14 +19,15 @@ public class CubeMaterials : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+		//if Challenge mode is enableb, change the material set.
 		if(GameStateManager.Instance.IsChallenged){
 			matIndex = 6;
 		}
 		else{
 			matIndex = 0;
 		}
-			
-	
+
 		renderMaterial.material = cubeMats[GameStateManager.Instance.SceneMaterialNum + matIndex];
 	}
 }

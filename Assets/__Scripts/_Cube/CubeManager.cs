@@ -5,17 +5,17 @@ using System.Collections;
 //Use struct to store varbales to reduce garbage collection
 public struct CubeManagerP
 {
-	public SoundBreaking soundCubeClick;			
-	public bool getInput;
-	public RaycastHit hit;
+	public SoundBreaking soundCubeClick;			//reference to SoundBreaking class
+	public bool getInput;							//mouse click detection
+	public RaycastHit hit;							
 	public Ray ray;
-	public Cube cube;
+	public Cube cube;								//refence to Cube class
 }
 
 public class CubeManager : MonoBehaviour {
 
 	CubeManagerP cubeManagerP;
-	public LayerMask cubeLayerMask;	
+	public LayerMask cubeLayerMask;					//Choose a layerMask for Shooting a ray
 
 	void Awake()
 	{
@@ -32,10 +32,10 @@ public class CubeManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-	
 
 //		#if UNITY_STANDALONE || UNITY_WEBPLAYER
 
+		//Get Input from update, but execute it in FixedUpdate
 		if(Input.GetButtonDown("Fire1"))
 		{
 			cubeManagerP.getInput = true;
@@ -86,6 +86,8 @@ public class CubeManager : MonoBehaviour {
 				cubeManagerP.cube = cubeManagerP.hit.collider.GetComponentInChildren<Cube>();					//Get the cube component of the parent
 				//				Debug.Log(cube.transform.position);
 
+
+				//Rotate the cube based on the returing hit point
 				if(cubeManagerP.hit.point.x < -2.5f)
 				{
 					cubeManagerP.cube.RotateCube(1f);

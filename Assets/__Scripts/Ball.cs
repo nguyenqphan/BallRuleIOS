@@ -1,15 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+//A struct to store the variable of the ScalingBall
 public struct BallP
 {
-	public float movingSpeed;
-	public float scale;
-	public float startScale;
-	public bool isBigger;
-	public float scaleSpeed;
-	public float newScale;
-	public SoundBreaking ballExplodeClip;
+	public float movingSpeed;					//The Speed of the ball
+	public float scale;							//The scale of the ball
+	public float startScale;					//The initile scaling value of the ball
+	public bool isBigger;						//Is the ball scaling bigger
+	public float scaleSpeed;					//The speed of scaling	
+	public float newScale;						//new scale value
+	public SoundBreaking ballExplodeClip;		//Play this Sound when colliding with Player	
 }
 
 public class Ball : MonoBehaviour {
@@ -28,7 +30,7 @@ public class Ball : MonoBehaviour {
 
 	void Start()
 	{
-		
+		//Initialize ball variables
 		ballP.movingSpeed = 20f;
 		ballP.scale = 0.5f;
 		ballP.isBigger = true;
@@ -40,16 +42,17 @@ public class Ball : MonoBehaviour {
 
 		if(other.gameObject.CompareTag("Player"))
 		{
-			ballP.ballExplodeClip.PlayExplodeBall();
-			gameObject.SetActive(false);
+			ballP.ballExplodeClip.PlayExplodeBall();					//Play sound effect
+			gameObject.SetActive(false);								//Set Ball inactive in the scene
 			if(ExplodeBall!= null)
 			{
-				ExplodeBall(gameObject);
+				ExplodeBall(gameObject);								//Play ball exploding effect
 			}
 				
 			if(Scalling != null)
-			{
-				if(gameObject.CompareTag("OneHalf"))
+			{	
+				//Alternatively change Scaling Ball tag to Onehalf or DoubleSize
+				if(gameObject.CompareTag("OneHalf"))					
 				{
 					gameObject.tag = "DoubleSize";
 				}else if(gameObject.CompareTag("DoubleSize"))
@@ -74,6 +77,8 @@ public class Ball : MonoBehaviour {
 		StartCoroutine(moving(targetPos));
 	}
 
+
+	//Move the Ball to a target position
 	private IEnumerator moving(Vector3 targetPos)
 	{
 		while(transform.position != targetPos)
@@ -82,7 +87,7 @@ public class Ball : MonoBehaviour {
 			yield return 0;
 		}
 
-		StartCoroutine(pulse());
+		StartCoroutine(pulse());			//Pulse the scaling ball after it gets to the target position
 
 	}
 
@@ -116,7 +121,7 @@ public class Ball : MonoBehaviour {
 
 	private IEnumerator BallInactive(GameObject o)
 	{
-		yield return new WaitForSeconds(45f);
+		yield return new WaitForSeconds(45f);							//deactivate the scalling ball if it does not get deactivated  by the player
 		if(o.activeInHierarchy)
 		{
 			gameObject.SetActive(false);

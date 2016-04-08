@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
+
+//Deactivate attached gameobject after 12 seconds
 public class Deactivator : MonoBehaviour {
 	
 	public delegate void EffectAction(GameObject gameObject);
@@ -27,22 +29,22 @@ public class Deactivator : MonoBehaviour {
 		{
 			resetTime += Time.deltaTime * time;
 
+			//after 9 seconds, flash the cube for 3 seconds.
 			if(resetTime > 9f && !isFlashing)
 			{
 				flashing.StartFlashing();
 				isFlashing = true;
-
 			}
-
+				
 			if(resetTime >= 12f)
 			{
-				resetTime = 0f;
-				isFlashing = false;	
-				eventManager.isCollided = false;
-				gameObject.SetActive(false);
+				resetTime = 0f;								//reset time for the cube before deactivate it
+				isFlashing = false;							//ready to flash again
+				eventManager.isCollided = false;			//Only detect collision one
+				gameObject.SetActive(false);				//set the Cube inactive
 				if(Emissive != null)
 				{
-					Emissive(gameObject);
+					Emissive(gameObject);					//Play Cube Deactivation Effect
 				}
 
 			}

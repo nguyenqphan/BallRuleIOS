@@ -43,25 +43,22 @@ public class CameraTracker : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		cameraP.velocity = Vector3.down;
-		cameraP.smoothTime = 0.7f;
+		cameraP.velocity = Vector3.down;						//The Direction for the camera to move
+		cameraP.smoothTime = 0.7f;								//Smooth the movement
 
-		cameraP.playerStartPos = player.transform.position;				// Get the postion of the player when the game just starts
+		cameraP.playerStartPos = player.transform.position;		// Get the postion of the player when the game just starts
 	}
 		
 	void PlayerLand() 
 	{
-		
-		cameraP.playerPosNext = player.transform.position;																	// 
-		cameraP.distanceY = Vector3.Distance(new Vector3(0f, cameraP.playerStartPos.y, 0f), new Vector3(0f, cameraP.playerPosNext.y, 0f )); //
-		cameraP.playerStartPos = cameraP.playerPosNext;
-		MoveCamera();
-	
+		cameraP.playerPosNext = player.transform.position;																						//Store the positionof player when it enters the cube
+		cameraP.distanceY = Vector3.Distance(new Vector3(0f, cameraP.playerStartPos.y, 0f), new Vector3(0f, cameraP.playerPosNext.y, 0f )); 	//Find the y distance that player has moved
+		cameraP.playerStartPos = cameraP.playerPosNext;																							//Reset the position of the player
+		MoveCamera();																															//Move the camera with the y distance
 	}
 
 	public void MoveCamera()
 	{
-		
 		StopAllCoroutines();
 		StartCoroutine(CameraToMove());
 	}
