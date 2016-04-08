@@ -111,7 +111,7 @@ public class SpawnerManager : MonoBehaviour {
 		starList = new List<GameObject>();
 
 
-		if(GameStateManager.Instance.IsAdvanced)
+		if(GameStateManager.Instance.IsObstacle)
 		{
 			ballObstacleList = new List<GameObject>();
 			for(int i = 0; i < 10; i++)
@@ -399,7 +399,7 @@ public class SpawnerManager : MonoBehaviour {
 			spawnP.matchSmallestNum = true;
 		}
 
-		if (GameStateManager.Instance.IsAdvanced) {
+		if (GameStateManager.Instance.IsObstacle) {
 			StartCoroutine (InstantiateObstacle ());
 		}
 		StartCoroutine(InstantiateDiamond());

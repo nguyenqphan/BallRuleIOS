@@ -101,7 +101,7 @@ public class CubeManager : MonoBehaviour {
 					cubeManagerP.cube.RotateCube(1f);
 			}
 
-			cubeManagerP.getInput = false;
+			cubeManagerP.getInput = false;	
 		}
 	}
 

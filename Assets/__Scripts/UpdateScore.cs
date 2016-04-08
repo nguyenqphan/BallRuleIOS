@@ -35,10 +35,15 @@ public class UpdateScore : MonoBehaviour {
 	public void EndGameScore()
 	{
 		scoreLabel.text = GameStateManager.HighScore.ToString();
-		if (!GameStateManager.Instance.IsChallenged) {
-			bestScoreLabel.text = GameStateManager.Instance.BestScore.ToString ();
-		}else{
-			bestScoreLabel.text = GameStateManager.Instance.BestChallengeScore.ToString();
+		if (!GameStateManager.Instance.IsObstacle) {
+			if (!GameStateManager.Instance.IsChallenged) {
+				bestScoreLabel.text = GameStateManager.Instance.BestScore.ToString ();
+			} else {
+				bestScoreLabel.text = GameStateManager.Instance.BestChallengeScore.ToString ();
+			}
+		}
+		else{
+			bestScoreLabel.text = GameStateManager.Instance.BestObstacleScore.ToString();
 		}
 
 	}

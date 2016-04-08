@@ -49,6 +49,15 @@ public class Destroyer : MonoBehaviour {
 			GameStateManager.Instance.Save ();
 		}
 	}
+
+	void UpdateObstacleScore()
+	{
+		if(GameStateManager.Instance.BestObstacleScore < GameStateManager.HighScore)
+		{
+			GameStateManager.Instance.BestObstacleScore = GameStateManager.HighScore;
+			GameStateManager.Instance.Save();
+		}
+	}
 		
 	void OnTriggerEnter(Collider collider)
 	{
@@ -62,26 +71,29 @@ public class Destroyer : MonoBehaviour {
 			showUI.scaleText.SetActive(false);													//set the scale time text inactive
 			GameStateManager.Instance.Load();				
 
-			if (!GameStateManager.Instance.IsChallenged)
-			{
-				UpdateUniversalScore();
-			}else{
-				UpdateBestChallengeScore ();
-				if(isTimeRunning)
-				{
-					StopTimerChallenge();
+			if (!GameStateManager.Instance.IsObstacle) {
+				if (!GameStateManager.Instance.IsChallenged) {
+					UpdateUniversalScore ();
+				} else {
+					UpdateBestChallengeScore ();
+					if (isTimeRunning) {
+						StopTimerChallenge ();
+					}
+					showUI.liveChallengeTime.SetActive (false);
+				
 				}
-				showUI.liveChallengeTime.SetActive(false);
-
+			}
+			else{
+				UpdateObstacleScore();
 			}
 		
 			updateScore.EndGameScore();
 			
 		}
-		else{
-			soundBallDrop.PlayLowWaterSound();
-			collider.gameObject.SetActive(false);
-		}
+//		else{
+//			soundBallDrop.PlayLowWaterSound();
+//			collider.gameObject.SetActive(false);
+//		}
 	}
 
 	IEnumerator TimerChallengeCounter()

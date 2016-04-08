@@ -30,8 +30,6 @@ public class GameStateManager : MonoBehaviour {
 		DontDestroyOnLoad(this);						// Persist through Scene loading
 	}
 
-
-
 	public static readonly int StartingLives = 3;
 
 
@@ -82,6 +80,12 @@ public class GameStateManager : MonoBehaviour {
 		set{bestChallengeScore = value;}
 	}
 
+	private int bestObstacleScore = 0;
+	public int BestObstacleScore
+	{
+		get{return bestObstacleScore;}
+		set{bestObstacleScore = value;}
+	}
 
 	//The time life after the ball gets scaled
 	private int ballTimer = 15;
@@ -141,11 +145,11 @@ public class GameStateManager : MonoBehaviour {
 		set{isChallened = value;}
 	}
 
-	private bool isAdvanced = true;
+	private bool isObstacle = false;
 
-	public bool IsAdvanced{
-		get{return isAdvanced;}
-		set{isAdvanced = value;}
+	public bool IsObstacle{
+		get{return isObstacle;}
+		set{isObstacle = value;}
 	}
 
 	private bool isOutOfTime = false;
@@ -191,6 +195,7 @@ public class GameStateManager : MonoBehaviour {
 		PlayerData data = new PlayerData();
 		data.playerScore = GameStateManager.Instance.BestScore;
 		data.challengeScore = GameStateManager.Instance.BestChallengeScore;
+		data.obstacleScore = GameStateManager.Instance.BestObstacleScore;
 
 		bf.Serialize(file, data);
 		file.Close();
@@ -203,8 +208,9 @@ public class GameStateManager : MonoBehaviour {
 			BinaryFormatter bf = new BinaryFormatter();
 			FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);
 			PlayerData data = (PlayerData)bf.Deserialize(file);
-			GameStateManager.instance.BestScore = data.playerScore;
-			GameStateManager.instance.BestChallengeScore = data.challengeScore;
+			GameStateManager.Instance.BestScore = data.playerScore;
+			GameStateManager.Instance.BestChallengeScore = data.challengeScore;
+			GameStateManager.Instance.BestObstacleScore = data.obstacleScore;
 			file.Close();
 
 		}
@@ -215,5 +221,6 @@ public class GameStateManager : MonoBehaviour {
 	{
 		public int playerScore;
 		public int challengeScore;
+		public int obstacleScore;
 	}
 }
