@@ -34,8 +34,6 @@ public class Diamond : MonoBehaviour {
 		diamondP.soundBreakingDiamond = GameObject.FindWithTag("GameManager").GetComponent<SoundBreaking>();
 		diamondP.updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 		diamondP.destroyer = GameObject.FindWithTag("DestroyerBall").GetComponent<Destroyer>();
-
-
 	}
 		
 
@@ -71,13 +69,13 @@ public class Diamond : MonoBehaviour {
 			}
 
 		}
-		else if(collider.gameObject.CompareTag("ComboCube")){
+		else if(collider.gameObject.CompareTag("ComboCube") || collider.gameObject.CompareTag("Obstacle")){
 			
 			if(BreakingDiamond != null)
 			{
-//				diaDeactivate.resetTime = 0f;
-				gameObject.SetActive(false);
+				diamondP.soundBreakingDiamond.PlayBreakingDimond();
 				BreakingDiamond(gameObject);
+				gameObject.SetActive(false);
 			}
 		}
 	}

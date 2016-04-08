@@ -25,7 +25,7 @@ public class EventManager : MonoBehaviour {
 	{
 //		if (!isCollided)
 //		{
-			if (collider.gameObject.tag == "Player" && !isCollided) {
+		if (collider.gameObject.CompareTag("Player") && !isCollided) {
 				soundDropBall.PlayDropBall ();
 				GameStateManager.HighScore++;
 				updateScore.ChangeLiveScore ();
@@ -38,7 +38,9 @@ public class EventManager : MonoBehaviour {
 					OnPlayerEnter ();	
 				}	
 				isCollided = true;
-			}
+		}else if(collider.gameObject.CompareTag("Obstacle")){
+			soundDropBall.PlayLowDropBall();
+		}
 
 //			isCollided = true;
 //		}

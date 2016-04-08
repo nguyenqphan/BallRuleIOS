@@ -19,8 +19,8 @@ public class SoundBreaking : MonoBehaviour {
 	public AudioClip waterClip;
 	private AudioSource waterSource;
 
-	public AudioClip obstacleDropClip;
-	private AudioSource obstacleDropSource;
+//	public AudioClip obstacleDropClip;
+//	private AudioSource obstacleDropSource;
 
 	void Awake()
 	{
@@ -29,14 +29,14 @@ public class SoundBreaking : MonoBehaviour {
 		cubeClickSource = GetComponent<AudioSource>();
 		ballDropSource = GetComponent<AudioSource>();
 		waterSource = GetComponent<AudioSource>();
-		obstacleDropSource = GetComponent<AudioSource>();
+//		obstacleDropSource = GetComponent<AudioSource>();
 
 	}
-
-	public void PlayObastacleDrop()
-	{
-		obstacleDropSource.PlayOneShot(obstacleDropClip, 0.7f);
-	}
+//
+//	public void PlayObastacleDrop()
+//	{
+////		obstacleDropSource.PlayOneShot(obstacleDropClip, 1f);
+//	}
 
 	public void PlayBreakingDimond()
 	{
@@ -50,12 +50,17 @@ public class SoundBreaking : MonoBehaviour {
 
 	public void PlayCubeClick()
 	{
-		cubeClickSource.PlayOneShot(cubeClick, 0.3f);
+		cubeClickSource.PlayOneShot(cubeClick, 0.5f);
 	}
 
 	public void PlayDropBall()
 	{
-		ballDropSource.PlayOneShot(ballDropClip, 0.3f);
+		ballDropSource.PlayOneShot(ballDropClip, 0.5f);
+	}
+
+	public void PlayLowDropBall()
+	{
+		ballDropSource.PlayOneShot(ballDropClip, 0.1f);
 	}
 
 	public void PlayWaterSound()
@@ -63,4 +68,9 @@ public class SoundBreaking : MonoBehaviour {
 		waterSource.PlayOneShot(waterClip, 0.5f);
 	}
 
+
+	public void PlayLowWaterSound()
+	{
+		waterSource.PlayOneShot(waterClip, 0.2f);
+	}
 }

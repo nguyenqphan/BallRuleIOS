@@ -79,7 +79,7 @@ public class Destroyer : MonoBehaviour {
 			
 		}
 		else{
-			soundBallDrop.PlayWaterSound();
+			soundBallDrop.PlayLowWaterSound();
 			collider.gameObject.SetActive(false);
 		}
 	}

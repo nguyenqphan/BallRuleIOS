@@ -1,22 +1,21 @@
-﻿using UnityEngine;
-using System.Collections;
-
-public class Obstacle : MonoBehaviour {
-
-//	sprivate 
-
-	void Awake()
-	{
-		
-	}
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-}
+﻿//using UnityEngine;
+//using System.Collections;
+//
+//public class Obstacle : MonoBehaviour {
+//
+//	private SoundBreaking soundBreaking;
+//	private bool isCollidedPlayer = false;
+//
+//	void Awake()
+//	{
+//		soundBreaking = GameObject.FindWithTag("GameManager").GetComponent<SoundBreaking>();
+//	}
+//
+//	void OnCollisionEnter(Collision collider)
+//	{
+//		if(collider.gameObject.CompareTag("Player") && !isCollidedPlayer){
+//			soundBreaking.PlayObastacleDrop();
+//			isCollidedPlayer = false;
+//		}
+//	}
+//}
