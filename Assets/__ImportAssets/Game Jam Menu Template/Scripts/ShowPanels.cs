@@ -19,10 +19,12 @@ public class ShowPanels : MonoBehaviour {
 	public GameObject liveChallengeTime;
 	public GameObject outOfTimeText;
 	private CubeManager cubeManager;
+//	private PlayMusic playMusic;
 
 	void Awake()
 	{
 		cubeManager = GameObject.FindWithTag("GameManager").GetComponent<CubeManager>();
+//		playMusic = GetComponent<PlayMusic>();
 	}
 
 	void Start()

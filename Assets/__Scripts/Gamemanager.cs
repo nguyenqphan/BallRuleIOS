@@ -7,6 +7,7 @@ public class Gamemanager : MonoBehaviour {
 //	private ShowPanels showPanell;
 	private Pause pause;
 	private CubeManager cubeManager;
+	private PlayMusic playMusic;
 //	private Destroyer destroyer;
 
 	void Awake()
@@ -15,6 +16,7 @@ public class Gamemanager : MonoBehaviour {
 //		showPanell = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
 		pause = GameObject.FindWithTag("UI").GetComponent<Pause>();
 		cubeManager = GetComponent<CubeManager>();
+		playMusic = GameObject.FindWithTag("UI").GetComponent<PlayMusic>();
 //		destroyer = GameObject.FindWithTag("DestroyerBall").GetComponent<Destroyer>();
 	}
 
@@ -30,8 +32,12 @@ public class Gamemanager : MonoBehaviour {
 
 	public void UniversalMode()
 	{
+		
 		GameStateManager.Instance.IsChallenged = false;
 		GameStateManager.Instance.IsObstacle = false;
+		playMusic.FadeDown(1f);
+		playMusic.PlaySelectedMusic(1);
+		playMusic.FadeUp(1f);
 //		cubeManager.cubeLayerMask = 8192;
 //		destroyer.StopTimerChallenge();
 		pause.UnPause();
@@ -46,6 +52,9 @@ public class Gamemanager : MonoBehaviour {
 	{
 		GameStateManager.Instance.IsChallenged = true;
 		GameStateManager.Instance.IsObstacle = false;
+		playMusic.FadeDown(1f);
+		playMusic.PlaySelectedMusic(1);
+		playMusic.FadeUp(1f);
 		pause.UnPause();
 //		cubeManager.cubeLayerMask = 8192;
 	}
@@ -54,6 +63,9 @@ public class Gamemanager : MonoBehaviour {
 	{
 		GameStateManager.Instance.IsObstacle = true;
 		GameStateManager.Instance.IsChallenged = false;
+		playMusic.FadeDown(1f);
+		playMusic.PlaySelectedMusic(1);
+		playMusic.FadeUp(1f);
 		pause.UnPause();
 	}
 }

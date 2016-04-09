@@ -45,11 +45,15 @@ public class StartOptions : MonoBehaviour {
 	public void StartButtonClicked()
 	{
 		System.GC.Collect();
+//		playMusic.FadeDown(0.5f);
+//		playMusic.PlaySelectedMusic(1);
+//		playMusic.FadeUp(0.5f);
+		cubeManager.cubeLayerMask.value = 8192;	
 		if(GameStateManager.Instance.IsChallenged)
 		{
 			GameStateManager.Instance.ChallengeTimer = 15;
 			showPanels.outOfTimeText.SetActive(false);
-			cubeManager.cubeLayerMask.value = 8192;	
+		
 			showPanels.liveChallengeTime.SetActive(true);
 			//updateScore.TimerChallege();
 		}
@@ -93,6 +97,9 @@ public class StartOptions : MonoBehaviour {
 
 	public void RefleshButtonClicked()
 	{
+//		playMusic.FadeDown(0.1f);
+//		playMusic.PlaySelectedMusic(1);
+//		playMusic.FadeUp(0.1f);
 		cubeManager.cubeLayerMask.value = 8192;	
 		GameStateManager.Instance.NumBerOfGame++;
 		if(GameStateManager.Instance.IsChallenged)
@@ -146,7 +153,7 @@ public class StartOptions : MonoBehaviour {
 		//if changeMusicOnStart is true, call the PlayLevelMusic function of playMusic
 		if (changeMusicOnStart)
 		{
-			playMusic.PlayLevelMusic ();
+//			playMusic.PlayLevelMusic ();
 		}	
 	}
 

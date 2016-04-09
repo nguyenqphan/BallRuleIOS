@@ -11,6 +11,8 @@ public class PlayMusic : MonoBehaviour {
 	public AudioMixerSnapshot volumeDown;			//Reference to Audio mixer snapshot in which the master volume of main mixer is turned down
 	public AudioMixerSnapshot volumeUp;				//Reference to Audio mixer snapshot in which the master volume of main mixer is turned up
 
+	public AudioClip challengeMusic;
+	public AudioClip ObstacleMusic;
 
 	private AudioSource musicSource;				//Reference to the AudioSource which plays music
 	private float resetTime = .01f;					//Very short time used to fade in near instantly without a click
@@ -49,17 +51,31 @@ public class PlayMusic : MonoBehaviour {
 	{
 
 		//This switch looks at the integer parameter musicChoice to decide which music clip to play.
-		switch (musicChoice) 
+
+
+		if(GameStateManager.Instance.IsChallenged)
 		{
-		//if musicChoice is 0 assigns titleMusic to audio source
-		case 0:
-			musicSource.clip = titleMusic;
-			break;
-			//if musicChoice is 1 assigns mainMusic to audio source
-		case 1:
-			musicSource.clip = mainMusic;
-			break;
+			musicSource.clip = challengeMusic;
+		}else{
+			if(GameStateManager.Instance.IsObstacle)
+			{
+				musicSource.clip = ObstacleMusic;
+			}
+			else{
+				switch (musicChoice) 
+				{
+				//if musicChoice is 0 assigns titleMusic to audio source
+				case 0:
+					musicSource.clip = titleMusic;
+					break;
+					//if musicChoice is 1 assigns mainMusic to audio source
+				case 1:
+					musicSource.clip = mainMusic;
+					break;
+				}
+			}
 		}
+
 		//Play the selected clip
 		musicSource.Play ();
 	}
