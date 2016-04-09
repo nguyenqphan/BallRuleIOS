@@ -276,7 +276,7 @@ public class SpawnerManager : MonoBehaviour {
 			spawnP.spawnNumber++;
 			
 			//Condition to go check the gravity
-			if(spawnP.spawnNumber % 50 == 0)
+			if(spawnP.spawnNumber % 100 == 0)
 			{
 				ChangeGravity();
 			}

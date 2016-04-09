@@ -35,7 +35,7 @@ public class PlayerScaler : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		scallerP.ballTime = 10;
+		scallerP.ballTime = 30;
 		scallerP.scalingSpeed = 1f;
 		scallerP.doubleSize = 2f;
 		scallerP.oneHalf = 1.5f;
@@ -68,9 +68,10 @@ public class PlayerScaler : MonoBehaviour {
 	{
 		while(GameStateManager.Instance.BallTimer > 0  )
 		{
-			GameStateManager.Instance.BallTimer -= 1;
 			scallerP.updateScore.LiveTime();
 			yield return new WaitForSeconds(1f);
+			GameStateManager.Instance.BallTimer -= 1;
+
 
 		}
 		scallerP.showPanels.scaleText.SetActive(false);
