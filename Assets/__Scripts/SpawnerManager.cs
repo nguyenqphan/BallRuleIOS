@@ -6,7 +6,7 @@ public struct SpawnerP{
 
 	public int smallestNum;
 	public bool matchSmallestNum;
-
+//	public int randomIncrease;
 	public int pooledAmount;
 	public int ballAmount;
 	public int diamondAmount;
@@ -97,7 +97,6 @@ public class SpawnerManager : MonoBehaviour {
 		spawnP.spawnNumber = 0;
 		spawnP.randomCubeNum = 0;
 		spawnP.smallestNum = 0;
-
 
 		cubeList = new List<GameObject>();
 		particleList = new List<GameObject>();
@@ -375,9 +374,14 @@ public class SpawnerManager : MonoBehaviour {
 		return Random.Range(-40f, 40f);;
 	}
 
+	int RandomIncrease()
+	{
+		return Random.Range(0,2);
+	}
+
 	private int RandomSpawnNum()
 	{
-		return Random.Range(8, 12);
+		return Random.Range(5, 7);
 	}
 		
 	private int RandomCubeNum()
@@ -404,10 +408,13 @@ public class SpawnerManager : MonoBehaviour {
 		}
 		StartCoroutine(InstantiateDiamond());
 
+
+
 		//Condition to instantiate a scalling ball
-		if(spawnP.spawnNumber % 5 == 0 && !GameStateManager.Instance.IsChallenged)
+		if(spawnP.spawnNumber % 7 == 0 && !GameStateManager.Instance.IsChallenged)
 		{
 			StartCoroutine(InstantiateBall());
+			spawnP.spawnNumber += RandomIncrease();
 		}
 	
 		yield return new WaitForSeconds(3f);
