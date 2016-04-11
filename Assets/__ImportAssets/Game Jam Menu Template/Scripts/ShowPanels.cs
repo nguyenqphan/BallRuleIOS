@@ -18,7 +18,10 @@ public class ShowPanels : MonoBehaviour {
 	public GameObject gameTitleText;
 	public GameObject liveChallengeTime;
 	public GameObject outOfTimeText;
+	public GameObject challengeLockImage;
+	public GameObject obstacleLockImage;
 	private CubeManager cubeManager;
+
 //	private PlayMusic playMusic;
 
 	void Awake()
@@ -33,11 +36,21 @@ public class ShowPanels : MonoBehaviour {
 		{
 			liveChallengeTime.SetActive(true);
 		}
+
 	}
 
 	//Call this function to activate and display the Options panel during the main menu
 	public void ShowOptionsPanel()
 	{
+		GameStateManager.Instance.Load();
+		if(GameStateManager.Instance.BestScore > 10)
+		{
+			HideChallLockImage();
+		}
+		if(GameStateManager.Instance.BestChallengeScore > 10)
+		{
+			HideObsLockImage();
+		}
 		cubeManager.cubeLayerMask.value = 2;
 		Time.timeScale = 0;
 		optionsPanel.SetActive(true);
@@ -89,6 +102,8 @@ public class ShowPanels : MonoBehaviour {
 	{
 		pausePanel.SetActive (true);
 		optionsTint.SetActive(true);
+
+
 	}
 
 	//Call this function to deactivate and hide the Pause panel during game play
@@ -97,5 +112,15 @@ public class ShowPanels : MonoBehaviour {
 		pausePanel.SetActive (false);
 		optionsTint.SetActive(false);
 
+	}
+
+	public void HideChallLockImage()
+	{
+		challengeLockImage.SetActive(false);
+	}
+
+	public void HideObsLockImage()
+	{
+		obstacleLockImage.SetActive(false);
 	}
 }

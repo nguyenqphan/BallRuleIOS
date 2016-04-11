@@ -9,6 +9,9 @@ public class Gamemanager : MonoBehaviour {
 	private CubeManager cubeManager;
 	private PlayMusic playMusic;
 //	private Destroyer destroyer;
+//	public GameObject challengeLock;
+//	public GameObject obstacleLock;
+
 
 	void Awake()
 	{
@@ -22,7 +25,15 @@ public class Gamemanager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+//		if(GameStateManager.Instance.BestScore > 10)
+//		{
+//			challengeLock.SetActive(true);
+//		}
+//
+//		if(GameStateManager.Instance.BestChallengeScore > 10)
+//		{
+//			obstacleLock.SetActive(true);
+//		}
 	}
 	
 	// Update is called once per frame

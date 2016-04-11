@@ -80,7 +80,6 @@ public class SpawnerManager : MonoBehaviour {
 	void Awake()
 	{
 		spawnP.spawnManager = GetComponent<SpawnerManager>();
-
 	}
 
 	void Start()
