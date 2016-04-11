@@ -112,7 +112,7 @@ public class SpawnerManager : MonoBehaviour {
 		if(GameStateManager.Instance.IsObstacle)
 		{
 			ballObstacleList = new List<GameObject>();
-			for(int i = 0; i < 10; i++)
+			for(int i = 0; i < 6; i++)
 			{
 				GameObject newballObstacle = Instantiate(ballObstacle, transform.position, Quaternion.identity) as GameObject;
 				newballObstacle.SetActive(false);
