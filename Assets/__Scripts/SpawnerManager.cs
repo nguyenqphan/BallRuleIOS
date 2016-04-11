@@ -562,31 +562,41 @@ public class SpawnerManager : MonoBehaviour {
 		yield return new WaitForFixedUpdate();
 	}
 
+
+
 	private IEnumerator InstantiateObstacle()
 	{
-		for(int i = 0; i < ballObstacleList.Count; i++)
-		{
-			if(!ballObstacleList[i].activeInHierarchy)
-			{
-				if(spawnP.fixedX > 0){
-					ballObstacleList[i].transform.position = obstacleLeftPos.transform.position;
-					ballObstacleList[i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
-					ballObstacleList[i].SetActive(true);
+		FindObstacleBall ();
+		yield return new WaitForFixedUpdate();
 
+		//random from 0 to 2. It is 1, then instantiate a second obstacle ball
+//		if(RandomCubeNum() == 1)
+//		{
+//			FindBall();
+//		}
+//
+
+//		yield return new WaitForFixedUpdate();
+	}
+
+	void FindObstacleBall ()
+	{
+		for (int i = 0; i < ballObstacleList.Count; i++) {
+			if (!ballObstacleList [i].activeInHierarchy) {
+				if (spawnP.fixedX > 0) {
+					ballObstacleList [i].transform.position = obstacleLeftPos.transform.position;
+					ballObstacleList [i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+					ballObstacleList [i].SetActive (true);
 					break;
 				}
-				else{
-					ballObstacleList[i].transform.position = obstacleRightPos.transform.position;
-					ballObstacleList[i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
-					ballObstacleList[i].SetActive(true);
-
-
+				else {
+					ballObstacleList [i].transform.position = obstacleRightPos.transform.position;
+					ballObstacleList [i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+					ballObstacleList [i].SetActive (true);
 					break;
 				}
 			}
 		}
-		
-		yield return new WaitForFixedUpdate();
 	}
 
 	private void ChangeGravity()

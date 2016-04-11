@@ -23,19 +23,6 @@ public class Gamemanager : MonoBehaviour {
 //		destroyer = GameObject.FindWithTag("DestroyerBall").GetComponent<Destroyer>();
 	}
 
-	// Use this for initialization
-	void Start () {
-//		if(GameStateManager.Instance.BestScore > 10)
-//		{
-//			challengeLock.SetActive(true);
-//		}
-//
-//		if(GameStateManager.Instance.BestChallengeScore > 10)
-//		{
-//			obstacleLock.SetActive(true);
-//		}
-	}
-
 	public void UniversalMode()
 	{
 		

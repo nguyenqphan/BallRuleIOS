@@ -90,10 +90,10 @@ public class Destroyer : MonoBehaviour {
 			updateScore.EndGameScore();
 			
 		}
-//		else{
+		else{
 //			soundBallDrop.PlayLowWaterSound();
-//			collider.gameObject.SetActive(false);
-//		}
+			collider.gameObject.SetActive(false);
+		}
 	}
 
 	IEnumerator TimerChallengeCounter()
