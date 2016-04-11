@@ -35,11 +35,6 @@ public class Gamemanager : MonoBehaviour {
 //			obstacleLock.SetActive(true);
 //		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public void UniversalMode()
 	{
@@ -61,22 +56,26 @@ public class Gamemanager : MonoBehaviour {
 
 	public void ChallengeMode()
 	{
-		GameStateManager.Instance.IsChallenged = true;
-		GameStateManager.Instance.IsObstacle = false;
-		playMusic.FadeDown(1f);
-		playMusic.PlaySelectedMusic(1);
-		playMusic.FadeUp(1f);
-		pause.UnPause();
+		if (GameStateManager.Instance.BestScore > 10) {
+			GameStateManager.Instance.IsChallenged = true;
+			GameStateManager.Instance.IsObstacle = false;
+			playMusic.FadeDown (1f);
+			playMusic.PlaySelectedMusic (1);
+			playMusic.FadeUp (1f);
+			pause.UnPause ();
+		}
 //		cubeManager.cubeLayerMask = 8192;
 	}
 
 	public void ObstacleMode()
 	{
-		GameStateManager.Instance.IsObstacle = true;
-		GameStateManager.Instance.IsChallenged = false;
-		playMusic.FadeDown(1f);
-		playMusic.PlaySelectedMusic(1);
-		playMusic.FadeUp(1f);
-		pause.UnPause();
+		if (GameStateManager.Instance.BestChallengeScore > 10) {
+			GameStateManager.Instance.IsObstacle = true;
+			GameStateManager.Instance.IsChallenged = false;
+			playMusic.FadeDown (1f);
+			playMusic.PlaySelectedMusic (1);
+			playMusic.FadeUp (1f);
+			pause.UnPause ();
+		}
 	}
 }
