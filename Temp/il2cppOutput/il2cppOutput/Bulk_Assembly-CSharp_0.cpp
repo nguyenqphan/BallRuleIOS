@@ -2551,7 +2551,7 @@ extern "C"  void Cube_Start_m264207078 (Cube_t2111573 * __this, const MethodInfo
 		CubeP_t65458843 * L_1 = __this->get_address_of_cubeP_2();
 		L_1->set_isRotating_1((bool)1);
 		CubeP_t65458843 * L_2 = __this->get_address_of_cubeP_2();
-		L_2->set_floatSpeed_8((3.0f));
+		L_2->set_floatSpeed_8((5.0f));
 		CubeP_t65458843 * L_3 = __this->get_address_of_cubeP_2();
 		L_3->set_movementDistance_7((0.2f));
 		return;
@@ -2699,11 +2699,11 @@ extern "C"  bool U3CStartPulseU3Ec__Iterator23_MoveNext_m4250750894 (U3CStartPul
 		}
 		if (L_1 == 1)
 		{
-			goto IL_0069;
+			goto IL_0156;
 		}
 		if (L_1 == 2)
 		{
-			goto IL_0187;
+			goto IL_0276;
 		}
 	}
 	{
@@ -2728,87 +2728,83 @@ IL_0025:
 
 IL_0052:
 	{
-		WaitForFixedUpdate_t896427542 * L_8 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
-		WaitForFixedUpdate__ctor_m2916734308(L_8, /*hidden argument*/NULL);
-		__this->set_U24current_1(L_8);
-		__this->set_U24PC_0(1);
-		goto IL_0294;
-	}
-
-IL_0069:
-	{
-		Cube_t2111573 * L_9 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_9);
-		CubeP_t65458843 * L_10 = L_9->get_address_of_cubeP_2();
-		Cube_t2111573 * L_11 = __this->get_U3CU3Ef__this_2();
+		Cube_t2111573 * L_8 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_8);
+		CubeP_t65458843 * L_9 = L_8->get_address_of_cubeP_2();
+		Cube_t2111573 * L_10 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_10);
+		Transform_t284553113 * L_11 = Component_get_transform_m4257140443(L_10, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Transform_t284553113 * L_12 = Component_get_transform_m4257140443(L_11, /*hidden argument*/NULL);
-		NullCheck(L_12);
-		Vector3_t3525329789  L_13 = Transform_get_position_m2211398607(L_12, /*hidden argument*/NULL);
-		V_2 = L_13;
-		float L_14 = (&V_2)->get_y_2();
-		Cube_t2111573 * L_15 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_15);
-		CubeP_t65458843 * L_16 = L_15->get_address_of_cubeP_2();
-		float L_17 = L_16->get_movementDistance_7();
-		Cube_t2111573 * L_18 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_18);
-		CubeP_t65458843 * L_19 = L_18->get_address_of_cubeP_2();
-		float L_20 = L_19->get_floatSpeed_8();
-		float L_21 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
-		L_10->set_newY_4(((float)((float)L_14-(float)((float)((float)((float)((float)L_17*(float)L_20))*(float)L_21)))));
-		Cube_t2111573 * L_22 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_22);
-		CubeP_t65458843 * L_23 = L_22->get_address_of_cubeP_2();
-		float L_24 = L_23->get_newY_4();
-		Cube_t2111573 * L_25 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_25);
-		CubeP_t65458843 * L_26 = L_25->get_address_of_cubeP_2();
-		float L_27 = L_26->get_startingY_3();
-		Cube_t2111573 * L_28 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_28);
-		CubeP_t65458843 * L_29 = L_28->get_address_of_cubeP_2();
-		float L_30 = L_29->get_movementDistance_7();
-		if ((!(((float)L_24) < ((float)((float)((float)L_27-(float)L_30))))))
+		Vector3_t3525329789  L_12 = Transform_get_position_m2211398607(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+		float L_13 = (&V_2)->get_y_2();
+		Cube_t2111573 * L_14 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_14);
+		CubeP_t65458843 * L_15 = L_14->get_address_of_cubeP_2();
+		float L_16 = L_15->get_movementDistance_7();
+		Cube_t2111573 * L_17 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_17);
+		CubeP_t65458843 * L_18 = L_17->get_address_of_cubeP_2();
+		float L_19 = L_18->get_floatSpeed_8();
+		float L_20 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_9->set_newY_4(((float)((float)L_13-(float)((float)((float)((float)((float)L_16*(float)L_19))*(float)L_20)))));
+		Cube_t2111573 * L_21 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_21);
+		CubeP_t65458843 * L_22 = L_21->get_address_of_cubeP_2();
+		float L_23 = L_22->get_newY_4();
+		Cube_t2111573 * L_24 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_24);
+		CubeP_t65458843 * L_25 = L_24->get_address_of_cubeP_2();
+		float L_26 = L_25->get_startingY_3();
+		Cube_t2111573 * L_27 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_27);
+		CubeP_t65458843 * L_28 = L_27->get_address_of_cubeP_2();
+		float L_29 = L_28->get_movementDistance_7();
+		if ((!(((float)L_23) < ((float)((float)((float)L_26-(float)L_29))))))
 		{
-			goto IL_0100;
+			goto IL_00e9;
 		}
 	}
 	{
-		Cube_t2111573 * L_31 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_31);
-		CubeP_t65458843 * L_32 = L_31->get_address_of_cubeP_2();
-		L_32->set_isMovingDown_5((bool)0);
+		Cube_t2111573 * L_30 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_30);
+		CubeP_t65458843 * L_31 = L_30->get_address_of_cubeP_2();
+		L_31->set_isMovingDown_5((bool)0);
 	}
 
-IL_0100:
+IL_00e9:
 	{
-		Cube_t2111573 * L_33 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_33);
-		Transform_t284553113 * L_34 = Component_get_transform_m4257140443(L_33, /*hidden argument*/NULL);
-		Cube_t2111573 * L_35 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_35);
-		Transform_t284553113 * L_36 = Component_get_transform_m4257140443(L_35, /*hidden argument*/NULL);
-		NullCheck(L_36);
-		Vector3_t3525329789  L_37 = Transform_get_position_m2211398607(L_36, /*hidden argument*/NULL);
-		V_3 = L_37;
-		float L_38 = (&V_3)->get_x_1();
-		Cube_t2111573 * L_39 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_39);
-		CubeP_t65458843 * L_40 = L_39->get_address_of_cubeP_2();
-		float L_41 = L_40->get_newY_4();
-		Cube_t2111573 * L_42 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_42);
-		Transform_t284553113 * L_43 = Component_get_transform_m4257140443(L_42, /*hidden argument*/NULL);
-		NullCheck(L_43);
-		Vector3_t3525329789  L_44 = Transform_get_position_m2211398607(L_43, /*hidden argument*/NULL);
-		V_4 = L_44;
-		float L_45 = (&V_4)->get_z_3();
-		Vector3_t3525329789  L_46;
-		memset(&L_46, 0, sizeof(L_46));
-		Vector3__ctor_m2926210380(&L_46, L_38, L_41, L_45, /*hidden argument*/NULL);
+		Cube_t2111573 * L_32 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_32);
+		Transform_t284553113 * L_33 = Component_get_transform_m4257140443(L_32, /*hidden argument*/NULL);
+		Cube_t2111573 * L_34 = __this->get_U3CU3Ef__this_2();
 		NullCheck(L_34);
-		Transform_set_position_m3111394108(L_34, L_46, /*hidden argument*/NULL);
+		Transform_t284553113 * L_35 = Component_get_transform_m4257140443(L_34, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		Vector3_t3525329789  L_36 = Transform_get_position_m2211398607(L_35, /*hidden argument*/NULL);
+		V_3 = L_36;
+		float L_37 = (&V_3)->get_x_1();
+		Cube_t2111573 * L_38 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_38);
+		CubeP_t65458843 * L_39 = L_38->get_address_of_cubeP_2();
+		float L_40 = L_39->get_newY_4();
+		Cube_t2111573 * L_41 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_41);
+		Transform_t284553113 * L_42 = Component_get_transform_m4257140443(L_41, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		Vector3_t3525329789  L_43 = Transform_get_position_m2211398607(L_42, /*hidden argument*/NULL);
+		V_4 = L_43;
+		float L_44 = (&V_4)->get_z_3();
+		Vector3_t3525329789  L_45;
+		memset(&L_45, 0, sizeof(L_45));
+		Vector3__ctor_m2926210380(&L_45, L_37, L_40, L_44, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		Transform_set_position_m3111394108(L_33, L_45, /*hidden argument*/NULL);
+		WaitForFixedUpdate_t896427542 * L_46 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
+		WaitForFixedUpdate__ctor_m2916734308(L_46, /*hidden argument*/NULL);
+		__this->set_U24current_1(L_46);
+		__this->set_U24PC_0(1);
+		goto IL_0294;
 	}
 
 IL_0156:
@@ -2828,87 +2824,83 @@ IL_0156:
 
 IL_0170:
 	{
-		WaitForFixedUpdate_t896427542 * L_50 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
-		WaitForFixedUpdate__ctor_m2916734308(L_50, /*hidden argument*/NULL);
-		__this->set_U24current_1(L_50);
-		__this->set_U24PC_0(2);
-		goto IL_0294;
-	}
-
-IL_0187:
-	{
-		Cube_t2111573 * L_51 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_51);
-		CubeP_t65458843 * L_52 = L_51->get_address_of_cubeP_2();
-		Cube_t2111573 * L_53 = __this->get_U3CU3Ef__this_2();
+		Cube_t2111573 * L_50 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_50);
+		CubeP_t65458843 * L_51 = L_50->get_address_of_cubeP_2();
+		Cube_t2111573 * L_52 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_52);
+		Transform_t284553113 * L_53 = Component_get_transform_m4257140443(L_52, /*hidden argument*/NULL);
 		NullCheck(L_53);
-		Transform_t284553113 * L_54 = Component_get_transform_m4257140443(L_53, /*hidden argument*/NULL);
-		NullCheck(L_54);
-		Vector3_t3525329789  L_55 = Transform_get_position_m2211398607(L_54, /*hidden argument*/NULL);
-		V_5 = L_55;
-		float L_56 = (&V_5)->get_y_2();
-		Cube_t2111573 * L_57 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_57);
-		CubeP_t65458843 * L_58 = L_57->get_address_of_cubeP_2();
-		float L_59 = L_58->get_movementDistance_7();
-		Cube_t2111573 * L_60 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_60);
-		CubeP_t65458843 * L_61 = L_60->get_address_of_cubeP_2();
-		float L_62 = L_61->get_floatSpeed_8();
-		float L_63 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
-		L_52->set_newY_4(((float)((float)L_56+(float)((float)((float)((float)((float)L_59*(float)L_62))*(float)L_63)))));
-		Cube_t2111573 * L_64 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_64);
-		CubeP_t65458843 * L_65 = L_64->get_address_of_cubeP_2();
-		float L_66 = L_65->get_newY_4();
-		Cube_t2111573 * L_67 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_67);
-		CubeP_t65458843 * L_68 = L_67->get_address_of_cubeP_2();
-		float L_69 = L_68->get_startingY_3();
-		Cube_t2111573 * L_70 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_70);
-		CubeP_t65458843 * L_71 = L_70->get_address_of_cubeP_2();
-		float L_72 = L_71->get_movementDistance_7();
-		if ((!(((float)L_66) > ((float)((float)((float)L_69+(float)L_72))))))
+		Vector3_t3525329789  L_54 = Transform_get_position_m2211398607(L_53, /*hidden argument*/NULL);
+		V_5 = L_54;
+		float L_55 = (&V_5)->get_y_2();
+		Cube_t2111573 * L_56 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_56);
+		CubeP_t65458843 * L_57 = L_56->get_address_of_cubeP_2();
+		float L_58 = L_57->get_movementDistance_7();
+		Cube_t2111573 * L_59 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_59);
+		CubeP_t65458843 * L_60 = L_59->get_address_of_cubeP_2();
+		float L_61 = L_60->get_floatSpeed_8();
+		float L_62 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		L_51->set_newY_4(((float)((float)L_55+(float)((float)((float)((float)((float)L_58*(float)L_61))*(float)L_62)))));
+		Cube_t2111573 * L_63 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_63);
+		CubeP_t65458843 * L_64 = L_63->get_address_of_cubeP_2();
+		float L_65 = L_64->get_newY_4();
+		Cube_t2111573 * L_66 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_66);
+		CubeP_t65458843 * L_67 = L_66->get_address_of_cubeP_2();
+		float L_68 = L_67->get_startingY_3();
+		Cube_t2111573 * L_69 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_69);
+		CubeP_t65458843 * L_70 = L_69->get_address_of_cubeP_2();
+		float L_71 = L_70->get_movementDistance_7();
+		if ((!(((float)L_65) > ((float)((float)((float)L_68+(float)L_71))))))
 		{
-			goto IL_021f;
+			goto IL_0208;
 		}
 	}
 	{
-		Cube_t2111573 * L_73 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_73);
-		CubeP_t65458843 * L_74 = L_73->get_address_of_cubeP_2();
-		L_74->set_isMovingUp_6((bool)0);
+		Cube_t2111573 * L_72 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_72);
+		CubeP_t65458843 * L_73 = L_72->get_address_of_cubeP_2();
+		L_73->set_isMovingUp_6((bool)0);
 	}
 
-IL_021f:
+IL_0208:
 	{
-		Cube_t2111573 * L_75 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_75);
-		Transform_t284553113 * L_76 = Component_get_transform_m4257140443(L_75, /*hidden argument*/NULL);
-		Cube_t2111573 * L_77 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_77);
-		Transform_t284553113 * L_78 = Component_get_transform_m4257140443(L_77, /*hidden argument*/NULL);
-		NullCheck(L_78);
-		Vector3_t3525329789  L_79 = Transform_get_position_m2211398607(L_78, /*hidden argument*/NULL);
-		V_6 = L_79;
-		float L_80 = (&V_6)->get_x_1();
-		Cube_t2111573 * L_81 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_81);
-		CubeP_t65458843 * L_82 = L_81->get_address_of_cubeP_2();
-		float L_83 = L_82->get_newY_4();
-		Cube_t2111573 * L_84 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_84);
-		Transform_t284553113 * L_85 = Component_get_transform_m4257140443(L_84, /*hidden argument*/NULL);
-		NullCheck(L_85);
-		Vector3_t3525329789  L_86 = Transform_get_position_m2211398607(L_85, /*hidden argument*/NULL);
-		V_7 = L_86;
-		float L_87 = (&V_7)->get_z_3();
-		Vector3_t3525329789  L_88;
-		memset(&L_88, 0, sizeof(L_88));
-		Vector3__ctor_m2926210380(&L_88, L_80, L_83, L_87, /*hidden argument*/NULL);
+		Cube_t2111573 * L_74 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_74);
+		Transform_t284553113 * L_75 = Component_get_transform_m4257140443(L_74, /*hidden argument*/NULL);
+		Cube_t2111573 * L_76 = __this->get_U3CU3Ef__this_2();
 		NullCheck(L_76);
-		Transform_set_position_m3111394108(L_76, L_88, /*hidden argument*/NULL);
+		Transform_t284553113 * L_77 = Component_get_transform_m4257140443(L_76, /*hidden argument*/NULL);
+		NullCheck(L_77);
+		Vector3_t3525329789  L_78 = Transform_get_position_m2211398607(L_77, /*hidden argument*/NULL);
+		V_6 = L_78;
+		float L_79 = (&V_6)->get_x_1();
+		Cube_t2111573 * L_80 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_80);
+		CubeP_t65458843 * L_81 = L_80->get_address_of_cubeP_2();
+		float L_82 = L_81->get_newY_4();
+		Cube_t2111573 * L_83 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_83);
+		Transform_t284553113 * L_84 = Component_get_transform_m4257140443(L_83, /*hidden argument*/NULL);
+		NullCheck(L_84);
+		Vector3_t3525329789  L_85 = Transform_get_position_m2211398607(L_84, /*hidden argument*/NULL);
+		V_7 = L_85;
+		float L_86 = (&V_7)->get_z_3();
+		Vector3_t3525329789  L_87;
+		memset(&L_87, 0, sizeof(L_87));
+		Vector3__ctor_m2926210380(&L_87, L_79, L_82, L_86, /*hidden argument*/NULL);
+		NullCheck(L_75);
+		Transform_set_position_m3111394108(L_75, L_87, /*hidden argument*/NULL);
+		WaitForFixedUpdate_t896427542 * L_88 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
+		WaitForFixedUpdate__ctor_m2916734308(L_88, /*hidden argument*/NULL);
+		__this->set_U24current_1(L_88);
+		__this->set_U24PC_0(2);
+		goto IL_0294;
 	}
 
 IL_0276:

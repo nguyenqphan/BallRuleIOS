@@ -2,20 +2,21 @@
 using System.Collections;
 using System.Collections.Generic;
 
+//A struct to store the varibales
 public struct SpawnerP{
 
-	public int smallestNum;
+	public int smallestNum;				
 	public bool matchSmallestNum;
 //	public int randomIncrease;
-	public int pooledAmount;
-	public int ballAmount;
-	public int diamondAmount;
-	public int randomCubeNum;
-	public int indexSwitch;
-	public Vector3 position;
-	public float fixedY;
+	public int pooledAmount;					//The amount of cube 
+	public int ballAmount;						//the amount of ball
+	public int diamondAmount;					//The amount of diamond
+	public int randomCubeNum;					//Choose a cube to spawn based on a random value from 0 to 2
+	public int indexSwitch;						//Position for the cube(left or right)
+	public Vector3 position;					//position fo the cube 
+	public float fixedY;						
 	public float fixedX;
-	public float speedTime;
+//	public float speedTime;						//
 	public bool firstSpawn;
 	public int spawnNumber;
 	public bool matchNum;
@@ -91,7 +92,7 @@ public class SpawnerManager : MonoBehaviour {
 		spawnP.diamondAmount = 8;
 		spawnP.indexSwitch = 1;
 		spawnP.fixedY = 4f;
-		spawnP.speedTime = 1f;
+//		spawnP.speedTime = 1f;
 		spawnP.firstSpawn = true;
 		spawnP.spawnNumber = 0;
 		spawnP.randomCubeNum = 0;
