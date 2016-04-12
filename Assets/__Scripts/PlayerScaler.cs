@@ -58,7 +58,7 @@ public class PlayerScaler : MonoBehaviour {
 		{
 			scallerP.newScale = transform.localScale.x + Time.deltaTime * scallerP.scalingSpeed ;
 			transform.localScale = new Vector3(scallerP.newScale, scallerP.newScale, scallerP.newScale);
-			yield return 0;
+			yield return new WaitForFixedUpdate();
 		}
 			
 		StartCoroutine(TimeCounter(other));
@@ -86,7 +86,7 @@ public class PlayerScaler : MonoBehaviour {
 		{
 			scallerP.newScale = transform.localScale.x - Time.deltaTime * scallerP.scalingSpeed;
 			transform.localScale = new Vector3(scallerP.newScale, scallerP.newScale, scallerP.newScale);
-			yield return 0;
+			yield return null;
 		}
 	}
 

@@ -461,7 +461,7 @@ extern "C"  void SpawnerManager_Start_m1273037302 (SpawnerManager_t45089093 * __
 		bool L_21 = GameStateManager_get_IsObstacle_m1226902637(L_20, /*hidden argument*/NULL);
 		if (!L_21)
 		{
-			goto IL_014f;
+			goto IL_014e;
 		}
 	}
 	{
@@ -495,19 +495,19 @@ IL_010f:
 IL_0147:
 	{
 		int32_t L_32 = V_0;
-		if ((((int32_t)L_32) < ((int32_t)((int32_t)10))))
+		if ((((int32_t)L_32) < ((int32_t)6)))
 		{
 			goto IL_010f;
 		}
 	}
 
-IL_014f:
+IL_014e:
 	{
 		V_2 = 0;
-		goto IL_0233;
+		goto IL_0232;
 	}
 
-IL_0156:
+IL_0155:
 	{
 		GameObject_t4012695102 * L_33 = __this->get_cubeToInstantiate_5();
 		Transform_t284553113 * L_34 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
@@ -569,22 +569,22 @@ IL_0156:
 		V_2 = ((int32_t)((int32_t)L_65+(int32_t)1));
 	}
 
-IL_0233:
+IL_0232:
 	{
 		int32_t L_66 = V_2;
 		SpawnerP_t2130838536 * L_67 = __this->get_address_of_spawnP_2();
 		int32_t L_68 = L_67->get_pooledAmount_2();
 		if ((((int32_t)L_66) < ((int32_t)L_68)))
 		{
-			goto IL_0156;
+			goto IL_0155;
 		}
 	}
 	{
 		V_7 = 0;
-		goto IL_0311;
+		goto IL_0310;
 	}
 
-IL_024c:
+IL_024b:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
 		GameStateManager_t648042254 * L_69 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -592,22 +592,22 @@ IL_024c:
 		bool L_70 = GameStateManager_get_IsChallenged_m3135670911(L_69, /*hidden argument*/NULL);
 		if (!L_70)
 		{
-			goto IL_0266;
+			goto IL_0265;
 		}
 	}
 	{
 		GameObject_t4012695102 * L_71 = __this->get_star_14();
 		G_B11_0 = L_71;
-		goto IL_026c;
+		goto IL_026b;
 	}
 
-IL_0266:
+IL_0265:
 	{
 		GameObject_t4012695102 * L_72 = __this->get_diamond_7();
 		G_B11_0 = L_72;
 	}
 
-IL_026c:
+IL_026b:
 	{
 		Transform_t284553113 * L_73 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		NullCheck(L_73);
@@ -654,14 +654,14 @@ IL_026c:
 		V_7 = ((int32_t)((int32_t)L_96+(int32_t)1));
 	}
 
-IL_0311:
+IL_0310:
 	{
 		int32_t L_97 = V_7;
 		SpawnerP_t2130838536 * L_98 = __this->get_address_of_spawnP_2();
 		int32_t L_99 = L_98->get_diamondAmount_4();
 		if ((((int32_t)L_97) < ((int32_t)L_99)))
 		{
-			goto IL_024c;
+			goto IL_024b;
 		}
 	}
 	{
@@ -671,15 +671,15 @@ IL_0311:
 		bool L_101 = GameStateManager_get_IsChallenged_m3135670911(L_100, /*hidden argument*/NULL);
 		if (L_101)
 		{
-			goto IL_03c0;
+			goto IL_03bf;
 		}
 	}
 	{
 		V_11 = 0;
-		goto IL_03ae;
+		goto IL_03ad;
 	}
 
-IL_033a:
+IL_0339:
 	{
 		GameObject_t4012695102 * L_102 = __this->get_ball_10();
 		Transform_t284553113 * L_103 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
@@ -713,18 +713,18 @@ IL_033a:
 		V_11 = ((int32_t)((int32_t)L_118+(int32_t)1));
 	}
 
-IL_03ae:
+IL_03ad:
 	{
 		int32_t L_119 = V_11;
 		SpawnerP_t2130838536 * L_120 = __this->get_address_of_spawnP_2();
 		int32_t L_121 = L_120->get_ballAmount_3();
 		if ((((int32_t)L_119) < ((int32_t)L_121)))
 		{
-			goto IL_033a;
+			goto IL_0339;
 		}
 	}
 
-IL_03c0:
+IL_03bf:
 	{
 		return;
 	}
@@ -1438,9 +1438,127 @@ extern "C"  Il2CppObject * SpawnerManager_InstantiateObstacle_m1022086373 (Spawn
 		V_0 = L_0;
 		U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453 * L_1 = V_0;
 		NullCheck(L_1);
-		L_1->set_U3CU3Ef__this_3(__this);
+		L_1->set_U3CU3Ef__this_2(__this);
 		U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453 * L_2 = V_0;
 		return L_2;
+	}
+}
+// System.Void SpawnerManager::FindObstacleBall()
+extern "C"  void SpawnerManager_FindObstacleBall_m2138138069 (SpawnerManager_t45089093 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_0104;
+	}
+
+IL_0007:
+	{
+		List_1_t514686775 * L_0 = __this->get_ballObstacleList_26();
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		GameObject_t4012695102 * L_2 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_0, L_1);
+		NullCheck(L_2);
+		bool L_3 = GameObject_get_activeInHierarchy_m612450965(L_2, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_0100;
+		}
+	}
+	{
+		SpawnerP_t2130838536 * L_4 = __this->get_address_of_spawnP_2();
+		float L_5 = L_4->get_fixedX_9();
+		if ((!(((float)L_5) > ((float)(0.0f)))))
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		List_1_t514686775 * L_6 = __this->get_ballObstacleList_26();
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		GameObject_t4012695102 * L_8 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_6, L_7);
+		NullCheck(L_8);
+		Transform_t284553113 * L_9 = GameObject_get_transform_m1278640159(L_8, /*hidden argument*/NULL);
+		Transform_t284553113 * L_10 = __this->get_obstacleLeftPos_3();
+		NullCheck(L_10);
+		Transform_t284553113 * L_11 = Component_get_transform_m4257140443(L_10, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Vector3_t3525329789  L_12 = Transform_get_position_m2211398607(L_11, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_set_position_m3111394108(L_9, L_12, /*hidden argument*/NULL);
+		List_1_t514686775 * L_13 = __this->get_ballObstacleList_26();
+		int32_t L_14 = V_0;
+		NullCheck(L_13);
+		GameObject_t4012695102 * L_15 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_13, L_14);
+		NullCheck(L_15);
+		Transform_t284553113 * L_16 = GameObject_get_transform_m1278640159(L_15, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_17 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Transform_set_rotation_m1525803229(L_16, L_17, /*hidden argument*/NULL);
+		List_1_t514686775 * L_18 = __this->get_ballObstacleList_26();
+		int32_t L_19 = V_0;
+		NullCheck(L_18);
+		GameObject_t4012695102 * L_20 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_18, L_19);
+		NullCheck(L_20);
+		GameObject_SetActive_m3538205401(L_20, (bool)1, /*hidden argument*/NULL);
+		goto IL_0115;
+	}
+
+IL_0099:
+	{
+		List_1_t514686775 * L_21 = __this->get_ballObstacleList_26();
+		int32_t L_22 = V_0;
+		NullCheck(L_21);
+		GameObject_t4012695102 * L_23 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_21, L_22);
+		NullCheck(L_23);
+		Transform_t284553113 * L_24 = GameObject_get_transform_m1278640159(L_23, /*hidden argument*/NULL);
+		Transform_t284553113 * L_25 = __this->get_obstacleRightPos_4();
+		NullCheck(L_25);
+		Transform_t284553113 * L_26 = Component_get_transform_m4257140443(L_25, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		Vector3_t3525329789  L_27 = Transform_get_position_m2211398607(L_26, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		Transform_set_position_m3111394108(L_24, L_27, /*hidden argument*/NULL);
+		List_1_t514686775 * L_28 = __this->get_ballObstacleList_26();
+		int32_t L_29 = V_0;
+		NullCheck(L_28);
+		GameObject_t4012695102 * L_30 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_28, L_29);
+		NullCheck(L_30);
+		Transform_t284553113 * L_31 = GameObject_get_transform_m1278640159(L_30, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_32 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Transform_set_rotation_m1525803229(L_31, L_32, /*hidden argument*/NULL);
+		List_1_t514686775 * L_33 = __this->get_ballObstacleList_26();
+		int32_t L_34 = V_0;
+		NullCheck(L_33);
+		GameObject_t4012695102 * L_35 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_33, L_34);
+		NullCheck(L_35);
+		GameObject_SetActive_m3538205401(L_35, (bool)1, /*hidden argument*/NULL);
+		goto IL_0115;
+	}
+
+IL_0100:
+	{
+		int32_t L_36 = V_0;
+		V_0 = ((int32_t)((int32_t)L_36+(int32_t)1));
+	}
+
+IL_0104:
+	{
+		int32_t L_37 = V_0;
+		List_1_t514686775 * L_38 = __this->get_ballObstacleList_26();
+		NullCheck(L_38);
+		int32_t L_39 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_38);
+		if ((((int32_t)L_37) < ((int32_t)L_39)))
+		{
+			goto IL_0007;
+		}
+	}
+
+IL_0115:
+	{
+		return;
 	}
 }
 // System.Void SpawnerManager::ChangeGravity()
@@ -3652,7 +3770,7 @@ extern "C"  void U3CInstantiateObstacleU3Ec__Iterator1F__ctor_m2744123068 (U3CIn
 extern "C"  Il2CppObject * U3CInstantiateObstacleU3Ec__Iterator1F_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2940980566 (U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453 * __this, const MethodInfo* method)
 {
 	{
-		Il2CppObject * L_0 = __this->get_U24current_2();
+		Il2CppObject * L_0 = __this->get_U24current_1();
 		return L_0;
 	}
 }
@@ -3660,7 +3778,7 @@ extern "C"  Il2CppObject * U3CInstantiateObstacleU3Ec__Iterator1F_System_Collect
 extern "C"  Il2CppObject * U3CInstantiateObstacleU3Ec__Iterator1F_System_Collections_IEnumerator_get_Current_m1526676714 (U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453 * __this, const MethodInfo* method)
 {
 	{
-		Il2CppObject * L_0 = __this->get_U24current_2();
+		Il2CppObject * L_0 = __this->get_U24current_1();
 		return L_0;
 	}
 }
@@ -3678,9 +3796,9 @@ extern "C"  bool U3CInstantiateObstacleU3Ec__Iterator1F_MoveNext_m3362306744 (U3
 	uint32_t V_0 = 0;
 	bool V_1 = false;
 	{
-		int32_t L_0 = __this->get_U24PC_1();
+		int32_t L_0 = __this->get_U24PC_0();
 		V_0 = L_0;
-		__this->set_U24PC_1((-1));
+		__this->set_U24PC_0((-1));
 		uint32_t L_1 = V_0;
 		if (L_1 == 0)
 		{
@@ -3688,175 +3806,46 @@ extern "C"  bool U3CInstantiateObstacleU3Ec__Iterator1F_MoveNext_m3362306744 (U3
 		}
 		if (L_1 == 1)
 		{
-			goto IL_01bb;
+			goto IL_0043;
 		}
 	}
 	{
-		goto IL_01c2;
+		goto IL_004a;
 	}
 
 IL_0021:
 	{
-		__this->set_U3CiU3E__0_0(0);
-		goto IL_0189;
-	}
-
-IL_002d:
-	{
-		SpawnerManager_t45089093 * L_2 = __this->get_U3CU3Ef__this_3();
+		SpawnerManager_t45089093 * L_2 = __this->get_U3CU3Ef__this_2();
 		NullCheck(L_2);
-		List_1_t514686775 * L_3 = L_2->get_ballObstacleList_26();
-		int32_t L_4 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_3);
-		GameObject_t4012695102 * L_5 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_3, L_4);
-		NullCheck(L_5);
-		bool L_6 = GameObject_get_activeInHierarchy_m612450965(L_5, /*hidden argument*/NULL);
-		if (L_6)
-		{
-			goto IL_017b;
-		}
-	}
-	{
-		SpawnerManager_t45089093 * L_7 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_7);
-		SpawnerP_t2130838536 * L_8 = L_7->get_address_of_spawnP_2();
-		float L_9 = L_8->get_fixedX_9();
-		if ((!(((float)L_9) > ((float)(0.0f)))))
-		{
-			goto IL_00f1;
-		}
-	}
-	{
-		SpawnerManager_t45089093 * L_10 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_10);
-		List_1_t514686775 * L_11 = L_10->get_ballObstacleList_26();
-		int32_t L_12 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_11);
-		GameObject_t4012695102 * L_13 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_11, L_12);
-		NullCheck(L_13);
-		Transform_t284553113 * L_14 = GameObject_get_transform_m1278640159(L_13, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_15 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_15);
-		Transform_t284553113 * L_16 = L_15->get_obstacleLeftPos_3();
-		NullCheck(L_16);
-		Transform_t284553113 * L_17 = Component_get_transform_m4257140443(L_16, /*hidden argument*/NULL);
-		NullCheck(L_17);
-		Vector3_t3525329789  L_18 = Transform_get_position_m2211398607(L_17, /*hidden argument*/NULL);
-		NullCheck(L_14);
-		Transform_set_position_m3111394108(L_14, L_18, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_19 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_19);
-		List_1_t514686775 * L_20 = L_19->get_ballObstacleList_26();
-		int32_t L_21 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_20);
-		GameObject_t4012695102 * L_22 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_20, L_21);
-		NullCheck(L_22);
-		Transform_t284553113 * L_23 = GameObject_get_transform_m1278640159(L_22, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_24 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		NullCheck(L_23);
-		Transform_set_rotation_m1525803229(L_23, L_24, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_25 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_25);
-		List_1_t514686775 * L_26 = L_25->get_ballObstacleList_26();
-		int32_t L_27 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_26);
-		GameObject_t4012695102 * L_28 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_26, L_27);
-		NullCheck(L_28);
-		GameObject_SetActive_m3538205401(L_28, (bool)1, /*hidden argument*/NULL);
-		goto IL_01a4;
+		SpawnerManager_FindObstacleBall_m2138138069(L_2, /*hidden argument*/NULL);
+		WaitForFixedUpdate_t896427542 * L_3 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
+		WaitForFixedUpdate__ctor_m2916734308(L_3, /*hidden argument*/NULL);
+		__this->set_U24current_1(L_3);
+		__this->set_U24PC_0(1);
+		goto IL_004c;
 	}
 
-IL_00f1:
+IL_0043:
 	{
-		SpawnerManager_t45089093 * L_29 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_29);
-		List_1_t514686775 * L_30 = L_29->get_ballObstacleList_26();
-		int32_t L_31 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_30);
-		GameObject_t4012695102 * L_32 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_30, L_31);
-		NullCheck(L_32);
-		Transform_t284553113 * L_33 = GameObject_get_transform_m1278640159(L_32, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_34 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_34);
-		Transform_t284553113 * L_35 = L_34->get_obstacleRightPos_4();
-		NullCheck(L_35);
-		Transform_t284553113 * L_36 = Component_get_transform_m4257140443(L_35, /*hidden argument*/NULL);
-		NullCheck(L_36);
-		Vector3_t3525329789  L_37 = Transform_get_position_m2211398607(L_36, /*hidden argument*/NULL);
-		NullCheck(L_33);
-		Transform_set_position_m3111394108(L_33, L_37, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_38 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_38);
-		List_1_t514686775 * L_39 = L_38->get_ballObstacleList_26();
-		int32_t L_40 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_39);
-		GameObject_t4012695102 * L_41 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_39, L_40);
-		NullCheck(L_41);
-		Transform_t284553113 * L_42 = GameObject_get_transform_m1278640159(L_41, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_43 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		NullCheck(L_42);
-		Transform_set_rotation_m1525803229(L_42, L_43, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_44 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_44);
-		List_1_t514686775 * L_45 = L_44->get_ballObstacleList_26();
-		int32_t L_46 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_45);
-		GameObject_t4012695102 * L_47 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_45, L_46);
-		NullCheck(L_47);
-		GameObject_SetActive_m3538205401(L_47, (bool)1, /*hidden argument*/NULL);
-		goto IL_01a4;
+		__this->set_U24PC_0((-1));
 	}
 
-IL_017b:
-	{
-		int32_t L_48 = __this->get_U3CiU3E__0_0();
-		__this->set_U3CiU3E__0_0(((int32_t)((int32_t)L_48+(int32_t)1)));
-	}
-
-IL_0189:
-	{
-		int32_t L_49 = __this->get_U3CiU3E__0_0();
-		SpawnerManager_t45089093 * L_50 = __this->get_U3CU3Ef__this_3();
-		NullCheck(L_50);
-		List_1_t514686775 * L_51 = L_50->get_ballObstacleList_26();
-		NullCheck(L_51);
-		int32_t L_52 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_51);
-		if ((((int32_t)L_49) < ((int32_t)L_52)))
-		{
-			goto IL_002d;
-		}
-	}
-
-IL_01a4:
-	{
-		WaitForFixedUpdate_t896427542 * L_53 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
-		WaitForFixedUpdate__ctor_m2916734308(L_53, /*hidden argument*/NULL);
-		__this->set_U24current_2(L_53);
-		__this->set_U24PC_1(1);
-		goto IL_01c4;
-	}
-
-IL_01bb:
-	{
-		__this->set_U24PC_1((-1));
-	}
-
-IL_01c2:
+IL_004a:
 	{
 		return (bool)0;
 	}
 
-IL_01c4:
+IL_004c:
 	{
 		return (bool)1;
 	}
-	// Dead block : IL_01c6: ldloc.1
+	// Dead block : IL_004e: ldloc.1
 }
 // System.Void SpawnerManager/<InstantiateObstacle>c__Iterator1F::Dispose()
 extern "C"  void U3CInstantiateObstacleU3Ec__Iterator1F_Dispose_m4185598969 (U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453 * __this, const MethodInfo* method)
 {
 	{
-		__this->set_U24PC_1((-1));
+		__this->set_U24PC_0((-1));
 		return;
 	}
 }

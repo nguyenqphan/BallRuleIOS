@@ -11345,8 +11345,6 @@ extern "C" void FSPlayer_HelpWindow_m4220905081 ();
 extern "C" void FSPlayer_InfoWindow_m1603961702 ();
 extern "C" void Gamemanager__ctor_m660085360 ();
 extern "C" void Gamemanager_Awake_m897690579 ();
-extern "C" void Gamemanager_Start_m3902190448 ();
-extern "C" void Gamemanager_Update_m714671773 ();
 extern "C" void Gamemanager_UniversalMode_m2621883804 ();
 extern "C" void Gamemanager_ChallengeMode_m13193652 ();
 extern "C" void Gamemanager_ObstacleMode_m1374524966 ();
@@ -11536,6 +11534,8 @@ extern "C" void ShowPanels_ShowMenu_m994731697 ();
 extern "C" void ShowPanels_HideMenu_m562684214 ();
 extern "C" void ShowPanels_ShowPausePanel_m789489280 ();
 extern "C" void ShowPanels_HidePausePanel_m1575446853 ();
+extern "C" void ShowPanels_HideChallLockImage_m1068688971 ();
+extern "C" void ShowPanels_HideObsLockImage_m3535669095 ();
 extern "C" void ShowSliderValue__ctor_m3360276248 ();
 extern "C" void ShowSliderValue_UpdateLabel_m3686347242 ();
 extern "C" void SkyboxMaterials__ctor_m40045449 ();
@@ -11658,6 +11658,7 @@ extern "C" void SpawnerManager_InstantiateCube_m2329272203 ();
 extern "C" void SpawnerManager_InstantiateDiamond_m19475872 ();
 extern "C" void SpawnerManager_InstantiateBall_m2282477269 ();
 extern "C" void SpawnerManager_InstantiateObstacle_m1022086373 ();
+extern "C" void SpawnerManager_FindObstacleBall_m2138138069 ();
 extern "C" void SpawnerManager_ChangeGravity_m1760842770 ();
 extern "C" void U3CInstantiateBallU3Ec__Iterator1E__ctor_m2024666157 ();
 extern "C" void U3CInstantiateBallU3Ec__Iterator1E_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2764564997 ();
@@ -12083,7 +12084,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[12072] = 
+extern const methodPointerType g_MethodPointers[12073] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -23419,8 +23420,6 @@ extern const methodPointerType g_MethodPointers[12072] =
 	FSPlayer_InfoWindow_m1603961702,
 	Gamemanager__ctor_m660085360,
 	Gamemanager_Awake_m897690579,
-	Gamemanager_Start_m3902190448,
-	Gamemanager_Update_m714671773,
 	Gamemanager_UniversalMode_m2621883804,
 	Gamemanager_ChallengeMode_m13193652,
 	Gamemanager_ObstacleMode_m1374524966,
@@ -23610,6 +23609,8 @@ extern const methodPointerType g_MethodPointers[12072] =
 	ShowPanels_HideMenu_m562684214,
 	ShowPanels_ShowPausePanel_m789489280,
 	ShowPanels_HidePausePanel_m1575446853,
+	ShowPanels_HideChallLockImage_m1068688971,
+	ShowPanels_HideObsLockImage_m3535669095,
 	ShowSliderValue__ctor_m3360276248,
 	ShowSliderValue_UpdateLabel_m3686347242,
 	SkyboxMaterials__ctor_m40045449,
@@ -23732,6 +23733,7 @@ extern const methodPointerType g_MethodPointers[12072] =
 	SpawnerManager_InstantiateDiamond_m19475872,
 	SpawnerManager_InstantiateBall_m2282477269,
 	SpawnerManager_InstantiateObstacle_m1022086373,
+	SpawnerManager_FindObstacleBall_m2138138069,
 	SpawnerManager_ChangeGravity_m1760842770,
 	U3CInstantiateBallU3Ec__Iterator1E__ctor_m2024666157,
 	U3CInstantiateBallU3Ec__Iterator1E_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2764564997,

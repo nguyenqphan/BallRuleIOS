@@ -89,5 +89,7 @@ extern "C"  Il2CppObject * SpawnerManager_InstantiateDiamond_m19475872 (SpawnerM
 extern "C"  Il2CppObject * SpawnerManager_InstantiateBall_m2282477269 (SpawnerManager_t45089093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator SpawnerManager::InstantiateObstacle()
 extern "C"  Il2CppObject * SpawnerManager_InstantiateObstacle_m1022086373 (SpawnerManager_t45089093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SpawnerManager::FindObstacleBall()
+extern "C"  void SpawnerManager_FindObstacleBall_m2138138069 (SpawnerManager_t45089093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SpawnerManager::ChangeGravity()
 extern "C"  void SpawnerManager_ChangeGravity_m1760842770 (SpawnerManager_t45089093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

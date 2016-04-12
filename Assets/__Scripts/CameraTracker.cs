@@ -71,7 +71,7 @@ public class CameraTracker : MonoBehaviour {
 		{	
 			transform.position = Vector3.SmoothDamp( transform.position, new Vector3(transform.position.x, cameraP.distanceToMove, transform.position.z), ref cameraP.velocity , cameraP.smoothTime);
 
-			yield return 0;
+			yield return null;
 		}
 	}
 

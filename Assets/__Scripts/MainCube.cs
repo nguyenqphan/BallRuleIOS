@@ -54,7 +54,7 @@ public class MainCube : MonoBehaviour {
 				cubeP.startTime = 0;
 			}
 
-			yield return 0;								
+			yield return null;								
 		}
 
 		cubeP.isRotating = !cubeP.isRotating;																					//set isRotating = true
@@ -71,7 +71,7 @@ public class MainCube : MonoBehaviour {
 		while (transform.position != targetPos) {
 			transform.position = Vector3.MoveTowards (transform.position, targetPos, cubeP.movingSpeed * Time.deltaTime);	//Moving to the target
 
-			yield return 0;	
+			yield return null;	
 		}
 
 //		if(gameObject.transform.position.x > 0)

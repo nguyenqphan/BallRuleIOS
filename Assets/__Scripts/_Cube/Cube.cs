@@ -23,7 +23,7 @@ public class Cube : MonoBehaviour {
 		///initialize the variables
 		cubeP.rotateSpeed = 30f;
 		cubeP.isRotating = true;
-		cubeP.floatSpeed = 5f;
+		cubeP.floatSpeed = 3f;
 		cubeP.movementDistance = 0.2f;
 	}
 
@@ -66,7 +66,8 @@ public class Cube : MonoBehaviour {
 	private IEnumerator StartPulse()
 	{
 		cubeP.startingY = transform.position.y;																				//Staring y position of the cube.
-		while (cubeP.isMovingDown) {																						//keep moving the cube down...
+		while (cubeP.isMovingDown) {	
+			yield return new WaitForFixedUpdate();//keep moving the cube down...
 			cubeP.newY = transform.position.y - cubeP.movementDistance * cubeP.floatSpeed * Time.deltaTime;
 
 			if (cubeP.newY < cubeP.startingY  - cubeP. movementDistance) {													//condition to stop moving the cube down
@@ -75,10 +76,11 @@ public class Cube : MonoBehaviour {
 //
 			transform.position = new Vector3 (transform.position.x, cubeP.newY, transform.position.z);						//new position the the cube
 
-			yield return new WaitForFixedUpdate();
+
 		}
 
-		while (cubeP.isMovingUp) {																							//...moving the cube back up again
+		while (cubeP.isMovingUp) {		
+			yield return new WaitForFixedUpdate();//...moving the cube back up again
 			cubeP.newY = transform.position.y + cubeP.movementDistance * cubeP.floatSpeed * Time.deltaTime;
 
 			if (cubeP.newY > cubeP.startingY  + cubeP. movementDistance) {													//condition to stop moving the cube up
@@ -87,7 +89,7 @@ public class Cube : MonoBehaviour {
 			//
 			transform.position = new Vector3 (transform.position.x, cubeP.newY, transform.position.z);						//new position for the cube
 
-			yield return new WaitForFixedUpdate();
+
 		}
 			
 	}

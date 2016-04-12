@@ -1703,7 +1703,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7525] = 
+extern const int32_t g_FieldOffsetTable[7526] = 
 {
 	0,
 	0,
@@ -8400,7 +8400,9 @@ extern const int32_t g_FieldOffsetTable[7525] =
 	ShowPanels_t2673010796::get_offset_of_gameTitleText_14(),
 	ShowPanels_t2673010796::get_offset_of_liveChallengeTime_15(),
 	ShowPanels_t2673010796::get_offset_of_outOfTimeText_16(),
-	ShowPanels_t2673010796::get_offset_of_cubeManager_17(),
+	ShowPanels_t2673010796::get_offset_of_challengeLockImage_17(),
+	ShowPanels_t2673010796::get_offset_of_obstacleLockImage_18(),
+	ShowPanels_t2673010796::get_offset_of_cubeManager_19(),
 	StartOptions_t3075365884::get_offset_of_sceneToStart_2(),
 	StartOptions_t3075365884::get_offset_of_changeScenes_3(),
 	StartOptions_t3075365884::get_offset_of_changeMusicOnStart_4(),
@@ -8811,10 +8813,9 @@ extern const int32_t g_FieldOffsetTable[7525] =
 	U3CInstantiateBallU3Ec__Iterator1E_t1953657076::get_offset_of_U24PC_1(),
 	U3CInstantiateBallU3Ec__Iterator1E_t1953657076::get_offset_of_U24current_2(),
 	U3CInstantiateBallU3Ec__Iterator1E_t1953657076::get_offset_of_U3CU3Ef__this_3(),
-	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U24PC_1(),
-	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U24current_2(),
-	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U3CU3Ef__this_3(),
+	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U24PC_0(),
+	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U24current_1(),
+	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U3CU3Ef__this_2(),
 	AddTorgueTest_t2215257235::get_offset_of_torque_2(),
 	AddTorgueTest_t2215257235::get_offset_of_rb_3(),
 	AddTorgueTest_t2215257235::get_offset_of_hit_4(),

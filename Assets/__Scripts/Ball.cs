@@ -84,7 +84,7 @@ public class Ball : MonoBehaviour {
 		while(transform.position != targetPos)
 		{
 			transform.position = Vector3.MoveTowards(transform.position, targetPos, ballP.movingSpeed * Time.deltaTime);
-			yield return 0;
+			yield return null;
 		}
 
 		StartCoroutine(pulse());			//Pulse the scaling ball after it gets to the target position

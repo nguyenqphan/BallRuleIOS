@@ -57,8 +57,12 @@ public:
 	GameObject_t4012695102 * ___liveChallengeTime_15;
 	// UnityEngine.GameObject ShowPanels::outOfTimeText
 	GameObject_t4012695102 * ___outOfTimeText_16;
+	// UnityEngine.GameObject ShowPanels::challengeLockImage
+	GameObject_t4012695102 * ___challengeLockImage_17;
+	// UnityEngine.GameObject ShowPanels::obstacleLockImage
+	GameObject_t4012695102 * ___obstacleLockImage_18;
 	// CubeManager ShowPanels::cubeManager
-	CubeManager_t4034287000 * ___cubeManager_17;
+	CubeManager_t4034287000 * ___cubeManager_19;
 
 public:
 	inline static int32_t get_offset_of_optionsPanel_2() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___optionsPanel_2)); }
@@ -196,13 +200,31 @@ public:
 		Il2CppCodeGenWriteBarrier(&___outOfTimeText_16, value);
 	}
 
-	inline static int32_t get_offset_of_cubeManager_17() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___cubeManager_17)); }
-	inline CubeManager_t4034287000 * get_cubeManager_17() const { return ___cubeManager_17; }
-	inline CubeManager_t4034287000 ** get_address_of_cubeManager_17() { return &___cubeManager_17; }
-	inline void set_cubeManager_17(CubeManager_t4034287000 * value)
+	inline static int32_t get_offset_of_challengeLockImage_17() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___challengeLockImage_17)); }
+	inline GameObject_t4012695102 * get_challengeLockImage_17() const { return ___challengeLockImage_17; }
+	inline GameObject_t4012695102 ** get_address_of_challengeLockImage_17() { return &___challengeLockImage_17; }
+	inline void set_challengeLockImage_17(GameObject_t4012695102 * value)
 	{
-		___cubeManager_17 = value;
-		Il2CppCodeGenWriteBarrier(&___cubeManager_17, value);
+		___challengeLockImage_17 = value;
+		Il2CppCodeGenWriteBarrier(&___challengeLockImage_17, value);
+	}
+
+	inline static int32_t get_offset_of_obstacleLockImage_18() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___obstacleLockImage_18)); }
+	inline GameObject_t4012695102 * get_obstacleLockImage_18() const { return ___obstacleLockImage_18; }
+	inline GameObject_t4012695102 ** get_address_of_obstacleLockImage_18() { return &___obstacleLockImage_18; }
+	inline void set_obstacleLockImage_18(GameObject_t4012695102 * value)
+	{
+		___obstacleLockImage_18 = value;
+		Il2CppCodeGenWriteBarrier(&___obstacleLockImage_18, value);
+	}
+
+	inline static int32_t get_offset_of_cubeManager_19() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___cubeManager_19)); }
+	inline CubeManager_t4034287000 * get_cubeManager_19() const { return ___cubeManager_19; }
+	inline CubeManager_t4034287000 ** get_address_of_cubeManager_19() { return &___cubeManager_19; }
+	inline void set_cubeManager_19(CubeManager_t4034287000 * value)
+	{
+		___cubeManager_19 = value;
+		Il2CppCodeGenWriteBarrier(&___cubeManager_19, value);
 	}
 };
 
