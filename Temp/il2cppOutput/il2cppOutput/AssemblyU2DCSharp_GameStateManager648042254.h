@@ -36,40 +36,42 @@ public:
 	int32_t ___lives_7;
 	// System.Int32 GameStateManager::numberOfGame
 	int32_t ___numberOfGame_10;
+	// System.Int32 GameStateManager::numOfPlay
+	int32_t ___numOfPlay_11;
 	// System.Int32 GameStateManager::sceneMaterialNum
-	int32_t ___sceneMaterialNum_11;
+	int32_t ___sceneMaterialNum_12;
 	// System.Int32 GameStateManager::score
-	int32_t ___score_12;
+	int32_t ___score_13;
 	// System.Int32 GameStateManager::StartingScore
-	int32_t ___StartingScore_13;
+	int32_t ___StartingScore_14;
 	// System.Nullable`1<System.Int32> GameStateManager::highScore
-	Nullable_1_t1438485399  ___highScore_14;
+	Nullable_1_t1438485399  ___highScore_15;
 	// System.Int32 GameStateManager::bestScore
-	int32_t ___bestScore_17;
+	int32_t ___bestScore_18;
 	// System.Int32 GameStateManager::bestChallengeScore
-	int32_t ___bestChallengeScore_18;
+	int32_t ___bestChallengeScore_19;
 	// System.Int32 GameStateManager::bestObstacleScore
-	int32_t ___bestObstacleScore_19;
+	int32_t ___bestObstacleScore_20;
 	// System.Int32 GameStateManager::ballTimer
-	int32_t ___ballTimer_20;
+	int32_t ___ballTimer_21;
 	// System.Int32 GameStateManager::challengeTimer
-	int32_t ___challengeTimer_21;
+	int32_t ___challengeTimer_22;
 	// System.Int32 GameStateManager::numCoins
-	int32_t ___numCoins_22;
+	int32_t ___numCoins_23;
 	// System.Int32 GameStateManager::startCoints
-	int32_t ___startCoints_23;
+	int32_t ___startCoints_24;
 	// System.Int32 GameStateManager::indexMaterial
-	int32_t ___indexMaterial_24;
+	int32_t ___indexMaterial_25;
 	// UnityEngine.GameObject GameStateManager::cube
-	GameObject_t4012695102 * ___cube_25;
+	GameObject_t4012695102 * ___cube_26;
 	// System.Boolean GameStateManager::isStarted
-	bool ___isStarted_26;
+	bool ___isStarted_27;
 	// System.Boolean GameStateManager::isChallened
-	bool ___isChallened_27;
+	bool ___isChallened_28;
 	// System.Boolean GameStateManager::isObstacle
-	bool ___isObstacle_28;
+	bool ___isObstacle_29;
 	// System.Boolean GameStateManager::isOutOfTime
-	bool ___isOutOfTime_29;
+	bool ___isOutOfTime_30;
 
 public:
 	inline static int32_t get_offset_of_lives_7() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___lives_7)); }
@@ -88,141 +90,149 @@ public:
 		___numberOfGame_10 = value;
 	}
 
-	inline static int32_t get_offset_of_sceneMaterialNum_11() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___sceneMaterialNum_11)); }
-	inline int32_t get_sceneMaterialNum_11() const { return ___sceneMaterialNum_11; }
-	inline int32_t* get_address_of_sceneMaterialNum_11() { return &___sceneMaterialNum_11; }
-	inline void set_sceneMaterialNum_11(int32_t value)
+	inline static int32_t get_offset_of_numOfPlay_11() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___numOfPlay_11)); }
+	inline int32_t get_numOfPlay_11() const { return ___numOfPlay_11; }
+	inline int32_t* get_address_of_numOfPlay_11() { return &___numOfPlay_11; }
+	inline void set_numOfPlay_11(int32_t value)
 	{
-		___sceneMaterialNum_11 = value;
+		___numOfPlay_11 = value;
 	}
 
-	inline static int32_t get_offset_of_score_12() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___score_12)); }
-	inline int32_t get_score_12() const { return ___score_12; }
-	inline int32_t* get_address_of_score_12() { return &___score_12; }
-	inline void set_score_12(int32_t value)
+	inline static int32_t get_offset_of_sceneMaterialNum_12() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___sceneMaterialNum_12)); }
+	inline int32_t get_sceneMaterialNum_12() const { return ___sceneMaterialNum_12; }
+	inline int32_t* get_address_of_sceneMaterialNum_12() { return &___sceneMaterialNum_12; }
+	inline void set_sceneMaterialNum_12(int32_t value)
 	{
-		___score_12 = value;
+		___sceneMaterialNum_12 = value;
 	}
 
-	inline static int32_t get_offset_of_StartingScore_13() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___StartingScore_13)); }
-	inline int32_t get_StartingScore_13() const { return ___StartingScore_13; }
-	inline int32_t* get_address_of_StartingScore_13() { return &___StartingScore_13; }
-	inline void set_StartingScore_13(int32_t value)
+	inline static int32_t get_offset_of_score_13() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___score_13)); }
+	inline int32_t get_score_13() const { return ___score_13; }
+	inline int32_t* get_address_of_score_13() { return &___score_13; }
+	inline void set_score_13(int32_t value)
 	{
-		___StartingScore_13 = value;
+		___score_13 = value;
 	}
 
-	inline static int32_t get_offset_of_highScore_14() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___highScore_14)); }
-	inline Nullable_1_t1438485399  get_highScore_14() const { return ___highScore_14; }
-	inline Nullable_1_t1438485399 * get_address_of_highScore_14() { return &___highScore_14; }
-	inline void set_highScore_14(Nullable_1_t1438485399  value)
+	inline static int32_t get_offset_of_StartingScore_14() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___StartingScore_14)); }
+	inline int32_t get_StartingScore_14() const { return ___StartingScore_14; }
+	inline int32_t* get_address_of_StartingScore_14() { return &___StartingScore_14; }
+	inline void set_StartingScore_14(int32_t value)
 	{
-		___highScore_14 = value;
+		___StartingScore_14 = value;
 	}
 
-	inline static int32_t get_offset_of_bestScore_17() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___bestScore_17)); }
-	inline int32_t get_bestScore_17() const { return ___bestScore_17; }
-	inline int32_t* get_address_of_bestScore_17() { return &___bestScore_17; }
-	inline void set_bestScore_17(int32_t value)
+	inline static int32_t get_offset_of_highScore_15() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___highScore_15)); }
+	inline Nullable_1_t1438485399  get_highScore_15() const { return ___highScore_15; }
+	inline Nullable_1_t1438485399 * get_address_of_highScore_15() { return &___highScore_15; }
+	inline void set_highScore_15(Nullable_1_t1438485399  value)
 	{
-		___bestScore_17 = value;
+		___highScore_15 = value;
 	}
 
-	inline static int32_t get_offset_of_bestChallengeScore_18() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___bestChallengeScore_18)); }
-	inline int32_t get_bestChallengeScore_18() const { return ___bestChallengeScore_18; }
-	inline int32_t* get_address_of_bestChallengeScore_18() { return &___bestChallengeScore_18; }
-	inline void set_bestChallengeScore_18(int32_t value)
+	inline static int32_t get_offset_of_bestScore_18() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___bestScore_18)); }
+	inline int32_t get_bestScore_18() const { return ___bestScore_18; }
+	inline int32_t* get_address_of_bestScore_18() { return &___bestScore_18; }
+	inline void set_bestScore_18(int32_t value)
 	{
-		___bestChallengeScore_18 = value;
+		___bestScore_18 = value;
 	}
 
-	inline static int32_t get_offset_of_bestObstacleScore_19() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___bestObstacleScore_19)); }
-	inline int32_t get_bestObstacleScore_19() const { return ___bestObstacleScore_19; }
-	inline int32_t* get_address_of_bestObstacleScore_19() { return &___bestObstacleScore_19; }
-	inline void set_bestObstacleScore_19(int32_t value)
+	inline static int32_t get_offset_of_bestChallengeScore_19() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___bestChallengeScore_19)); }
+	inline int32_t get_bestChallengeScore_19() const { return ___bestChallengeScore_19; }
+	inline int32_t* get_address_of_bestChallengeScore_19() { return &___bestChallengeScore_19; }
+	inline void set_bestChallengeScore_19(int32_t value)
 	{
-		___bestObstacleScore_19 = value;
+		___bestChallengeScore_19 = value;
 	}
 
-	inline static int32_t get_offset_of_ballTimer_20() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___ballTimer_20)); }
-	inline int32_t get_ballTimer_20() const { return ___ballTimer_20; }
-	inline int32_t* get_address_of_ballTimer_20() { return &___ballTimer_20; }
-	inline void set_ballTimer_20(int32_t value)
+	inline static int32_t get_offset_of_bestObstacleScore_20() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___bestObstacleScore_20)); }
+	inline int32_t get_bestObstacleScore_20() const { return ___bestObstacleScore_20; }
+	inline int32_t* get_address_of_bestObstacleScore_20() { return &___bestObstacleScore_20; }
+	inline void set_bestObstacleScore_20(int32_t value)
 	{
-		___ballTimer_20 = value;
+		___bestObstacleScore_20 = value;
 	}
 
-	inline static int32_t get_offset_of_challengeTimer_21() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___challengeTimer_21)); }
-	inline int32_t get_challengeTimer_21() const { return ___challengeTimer_21; }
-	inline int32_t* get_address_of_challengeTimer_21() { return &___challengeTimer_21; }
-	inline void set_challengeTimer_21(int32_t value)
+	inline static int32_t get_offset_of_ballTimer_21() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___ballTimer_21)); }
+	inline int32_t get_ballTimer_21() const { return ___ballTimer_21; }
+	inline int32_t* get_address_of_ballTimer_21() { return &___ballTimer_21; }
+	inline void set_ballTimer_21(int32_t value)
 	{
-		___challengeTimer_21 = value;
+		___ballTimer_21 = value;
 	}
 
-	inline static int32_t get_offset_of_numCoins_22() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___numCoins_22)); }
-	inline int32_t get_numCoins_22() const { return ___numCoins_22; }
-	inline int32_t* get_address_of_numCoins_22() { return &___numCoins_22; }
-	inline void set_numCoins_22(int32_t value)
+	inline static int32_t get_offset_of_challengeTimer_22() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___challengeTimer_22)); }
+	inline int32_t get_challengeTimer_22() const { return ___challengeTimer_22; }
+	inline int32_t* get_address_of_challengeTimer_22() { return &___challengeTimer_22; }
+	inline void set_challengeTimer_22(int32_t value)
 	{
-		___numCoins_22 = value;
+		___challengeTimer_22 = value;
 	}
 
-	inline static int32_t get_offset_of_startCoints_23() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___startCoints_23)); }
-	inline int32_t get_startCoints_23() const { return ___startCoints_23; }
-	inline int32_t* get_address_of_startCoints_23() { return &___startCoints_23; }
-	inline void set_startCoints_23(int32_t value)
+	inline static int32_t get_offset_of_numCoins_23() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___numCoins_23)); }
+	inline int32_t get_numCoins_23() const { return ___numCoins_23; }
+	inline int32_t* get_address_of_numCoins_23() { return &___numCoins_23; }
+	inline void set_numCoins_23(int32_t value)
 	{
-		___startCoints_23 = value;
+		___numCoins_23 = value;
 	}
 
-	inline static int32_t get_offset_of_indexMaterial_24() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___indexMaterial_24)); }
-	inline int32_t get_indexMaterial_24() const { return ___indexMaterial_24; }
-	inline int32_t* get_address_of_indexMaterial_24() { return &___indexMaterial_24; }
-	inline void set_indexMaterial_24(int32_t value)
+	inline static int32_t get_offset_of_startCoints_24() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___startCoints_24)); }
+	inline int32_t get_startCoints_24() const { return ___startCoints_24; }
+	inline int32_t* get_address_of_startCoints_24() { return &___startCoints_24; }
+	inline void set_startCoints_24(int32_t value)
 	{
-		___indexMaterial_24 = value;
+		___startCoints_24 = value;
 	}
 
-	inline static int32_t get_offset_of_cube_25() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___cube_25)); }
-	inline GameObject_t4012695102 * get_cube_25() const { return ___cube_25; }
-	inline GameObject_t4012695102 ** get_address_of_cube_25() { return &___cube_25; }
-	inline void set_cube_25(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_indexMaterial_25() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___indexMaterial_25)); }
+	inline int32_t get_indexMaterial_25() const { return ___indexMaterial_25; }
+	inline int32_t* get_address_of_indexMaterial_25() { return &___indexMaterial_25; }
+	inline void set_indexMaterial_25(int32_t value)
 	{
-		___cube_25 = value;
-		Il2CppCodeGenWriteBarrier(&___cube_25, value);
+		___indexMaterial_25 = value;
 	}
 
-	inline static int32_t get_offset_of_isStarted_26() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___isStarted_26)); }
-	inline bool get_isStarted_26() const { return ___isStarted_26; }
-	inline bool* get_address_of_isStarted_26() { return &___isStarted_26; }
-	inline void set_isStarted_26(bool value)
+	inline static int32_t get_offset_of_cube_26() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___cube_26)); }
+	inline GameObject_t4012695102 * get_cube_26() const { return ___cube_26; }
+	inline GameObject_t4012695102 ** get_address_of_cube_26() { return &___cube_26; }
+	inline void set_cube_26(GameObject_t4012695102 * value)
 	{
-		___isStarted_26 = value;
+		___cube_26 = value;
+		Il2CppCodeGenWriteBarrier(&___cube_26, value);
 	}
 
-	inline static int32_t get_offset_of_isChallened_27() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___isChallened_27)); }
-	inline bool get_isChallened_27() const { return ___isChallened_27; }
-	inline bool* get_address_of_isChallened_27() { return &___isChallened_27; }
-	inline void set_isChallened_27(bool value)
+	inline static int32_t get_offset_of_isStarted_27() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___isStarted_27)); }
+	inline bool get_isStarted_27() const { return ___isStarted_27; }
+	inline bool* get_address_of_isStarted_27() { return &___isStarted_27; }
+	inline void set_isStarted_27(bool value)
 	{
-		___isChallened_27 = value;
+		___isStarted_27 = value;
 	}
 
-	inline static int32_t get_offset_of_isObstacle_28() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___isObstacle_28)); }
-	inline bool get_isObstacle_28() const { return ___isObstacle_28; }
-	inline bool* get_address_of_isObstacle_28() { return &___isObstacle_28; }
-	inline void set_isObstacle_28(bool value)
+	inline static int32_t get_offset_of_isChallened_28() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___isChallened_28)); }
+	inline bool get_isChallened_28() const { return ___isChallened_28; }
+	inline bool* get_address_of_isChallened_28() { return &___isChallened_28; }
+	inline void set_isChallened_28(bool value)
 	{
-		___isObstacle_28 = value;
+		___isChallened_28 = value;
 	}
 
-	inline static int32_t get_offset_of_isOutOfTime_29() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___isOutOfTime_29)); }
-	inline bool get_isOutOfTime_29() const { return ___isOutOfTime_29; }
-	inline bool* get_address_of_isOutOfTime_29() { return &___isOutOfTime_29; }
-	inline void set_isOutOfTime_29(bool value)
+	inline static int32_t get_offset_of_isObstacle_29() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___isObstacle_29)); }
+	inline bool get_isObstacle_29() const { return ___isObstacle_29; }
+	inline bool* get_address_of_isObstacle_29() { return &___isObstacle_29; }
+	inline void set_isObstacle_29(bool value)
 	{
-		___isOutOfTime_29 = value;
+		___isObstacle_29 = value;
+	}
+
+	inline static int32_t get_offset_of_isOutOfTime_30() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254, ___isOutOfTime_30)); }
+	inline bool get_isOutOfTime_30() const { return ___isOutOfTime_30; }
+	inline bool* get_address_of_isOutOfTime_30() { return &___isOutOfTime_30; }
+	inline void set_isOutOfTime_30(bool value)
+	{
+		___isOutOfTime_30 = value;
 	}
 };
 
@@ -244,13 +254,13 @@ public:
 	// System.Collections.Generic.List`1<System.Object> GameStateManager::scores
 	List_1_t1634065389 * ___scores_9;
 	// System.Boolean GameStateManager::ScoringLockout
-	bool ___ScoringLockout_15;
+	bool ___ScoringLockout_16;
 	// System.Boolean GameStateManager::highScorePending
-	bool ___highScorePending_16;
-	// GameStateManager/InstanceStep GameStateManager::<>f__am$cache1C
-	InstanceStep_t3721597217 * ___U3CU3Ef__amU24cache1C_30;
+	bool ___highScorePending_17;
 	// GameStateManager/InstanceStep GameStateManager::<>f__am$cache1D
 	InstanceStep_t3721597217 * ___U3CU3Ef__amU24cache1D_31;
+	// GameStateManager/InstanceStep GameStateManager::<>f__am$cache1E
+	InstanceStep_t3721597217 * ___U3CU3Ef__amU24cache1E_32;
 
 public:
 	inline static int32_t get_offset_of_instance_2() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254_StaticFields, ___instance_2)); }
@@ -314,29 +324,20 @@ public:
 		Il2CppCodeGenWriteBarrier(&___scores_9, value);
 	}
 
-	inline static int32_t get_offset_of_ScoringLockout_15() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254_StaticFields, ___ScoringLockout_15)); }
-	inline bool get_ScoringLockout_15() const { return ___ScoringLockout_15; }
-	inline bool* get_address_of_ScoringLockout_15() { return &___ScoringLockout_15; }
-	inline void set_ScoringLockout_15(bool value)
+	inline static int32_t get_offset_of_ScoringLockout_16() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254_StaticFields, ___ScoringLockout_16)); }
+	inline bool get_ScoringLockout_16() const { return ___ScoringLockout_16; }
+	inline bool* get_address_of_ScoringLockout_16() { return &___ScoringLockout_16; }
+	inline void set_ScoringLockout_16(bool value)
 	{
-		___ScoringLockout_15 = value;
+		___ScoringLockout_16 = value;
 	}
 
-	inline static int32_t get_offset_of_highScorePending_16() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254_StaticFields, ___highScorePending_16)); }
-	inline bool get_highScorePending_16() const { return ___highScorePending_16; }
-	inline bool* get_address_of_highScorePending_16() { return &___highScorePending_16; }
-	inline void set_highScorePending_16(bool value)
+	inline static int32_t get_offset_of_highScorePending_17() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254_StaticFields, ___highScorePending_17)); }
+	inline bool get_highScorePending_17() const { return ___highScorePending_17; }
+	inline bool* get_address_of_highScorePending_17() { return &___highScorePending_17; }
+	inline void set_highScorePending_17(bool value)
 	{
-		___highScorePending_16 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3Ef__amU24cache1C_30() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254_StaticFields, ___U3CU3Ef__amU24cache1C_30)); }
-	inline InstanceStep_t3721597217 * get_U3CU3Ef__amU24cache1C_30() const { return ___U3CU3Ef__amU24cache1C_30; }
-	inline InstanceStep_t3721597217 ** get_address_of_U3CU3Ef__amU24cache1C_30() { return &___U3CU3Ef__amU24cache1C_30; }
-	inline void set_U3CU3Ef__amU24cache1C_30(InstanceStep_t3721597217 * value)
-	{
-		___U3CU3Ef__amU24cache1C_30 = value;
-		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__amU24cache1C_30, value);
+		___highScorePending_17 = value;
 	}
 
 	inline static int32_t get_offset_of_U3CU3Ef__amU24cache1D_31() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254_StaticFields, ___U3CU3Ef__amU24cache1D_31)); }
@@ -346,6 +347,15 @@ public:
 	{
 		___U3CU3Ef__amU24cache1D_31 = value;
 		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__amU24cache1D_31, value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__amU24cache1E_32() { return static_cast<int32_t>(offsetof(GameStateManager_t648042254_StaticFields, ___U3CU3Ef__amU24cache1E_32)); }
+	inline InstanceStep_t3721597217 * get_U3CU3Ef__amU24cache1E_32() const { return ___U3CU3Ef__amU24cache1E_32; }
+	inline InstanceStep_t3721597217 ** get_address_of_U3CU3Ef__amU24cache1E_32() { return &___U3CU3Ef__amU24cache1E_32; }
+	inline void set_U3CU3Ef__amU24cache1E_32(InstanceStep_t3721597217 * value)
+	{
+		___U3CU3Ef__amU24cache1E_32 = value;
+		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__amU24cache1E_32, value);
 	}
 };
 

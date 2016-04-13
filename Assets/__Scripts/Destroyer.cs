@@ -66,9 +66,9 @@ public class Destroyer : MonoBehaviour {
 
 			showUI.ShowMenu();																	//Show the Menu
 			showUI.scaleText.SetActive(false);													//set the scale time text inactive
-			GameStateManager.Instance.Save();													//Save the number of Play first
+//			GameStateManager.Instance.Save();													//Save the number of Play first
 			GameStateManager.Instance.Load();				
-
+			GameStateManager.Instance.NumOfPlay++;
 
 			if (!GameStateManager.Instance.IsObstacle) {
 				if (!GameStateManager.Instance.IsChallenged) {

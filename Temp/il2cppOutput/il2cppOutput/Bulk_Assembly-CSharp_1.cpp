@@ -3942,12 +3942,12 @@ extern "C"  void StartOptions_StartButtonClicked_m1487358680 (StartOptions_t3075
 		GameStateManager_set_ChallengeTimer_m1343732871(L_4, ((int32_t)15), /*hidden argument*/NULL);
 		ShowPanels_t2673010796 * L_5 = __this->get_showPanels_12();
 		NullCheck(L_5);
-		GameObject_t4012695102 * L_6 = L_5->get_outOfTimeText_16();
+		GameObject_t4012695102 * L_6 = L_5->get_outOfTimeText_17();
 		NullCheck(L_6);
 		GameObject_SetActive_m3538205401(L_6, (bool)0, /*hidden argument*/NULL);
 		ShowPanels_t2673010796 * L_7 = __this->get_showPanels_12();
 		NullCheck(L_7);
-		GameObject_t4012695102 * L_8 = L_7->get_liveChallengeTime_15();
+		GameObject_t4012695102 * L_8 = L_7->get_liveChallengeTime_16();
 		NullCheck(L_8);
 		GameObject_SetActive_m3538205401(L_8, (bool)1, /*hidden argument*/NULL);
 	}
@@ -3956,7 +3956,7 @@ IL_0057:
 	{
 		ShowPanels_t2673010796 * L_9 = __this->get_showPanels_12();
 		NullCheck(L_9);
-		GameObject_t4012695102 * L_10 = L_9->get_gameTitleText_14();
+		GameObject_t4012695102 * L_10 = L_9->get_gameTitleText_15();
 		NullCheck(L_10);
 		GameObject_SetActive_m3538205401(L_10, (bool)0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
@@ -4060,7 +4060,7 @@ extern "C"  void StartOptions_RefleshButtonClicked_m2548469689 (StartOptions_t30
 		GameStateManager_set_ChallengeTimer_m1343732871(L_8, ((int32_t)15), /*hidden argument*/NULL);
 		ShowPanels_t2673010796 * L_9 = __this->get_showPanels_12();
 		NullCheck(L_9);
-		GameObject_t4012695102 * L_10 = L_9->get_liveChallengeTime_15();
+		GameObject_t4012695102 * L_10 = L_9->get_liveChallengeTime_16();
 		NullCheck(L_10);
 		GameObject_SetActive_m3538205401(L_10, (bool)1, /*hidden argument*/NULL);
 		UpdateScore_t1082839849 * L_11 = __this->get_updateScore_14();
@@ -4068,7 +4068,7 @@ extern "C"  void StartOptions_RefleshButtonClicked_m2548469689 (StartOptions_t30
 		UpdateScore_TimerChallenge_m2979733632(L_11, /*hidden argument*/NULL);
 		ShowPanels_t2673010796 * L_12 = __this->get_showPanels_12();
 		NullCheck(L_12);
-		GameObject_t4012695102 * L_13 = L_12->get_outOfTimeText_16();
+		GameObject_t4012695102 * L_13 = L_12->get_outOfTimeText_17();
 		NullCheck(L_13);
 		GameObject_SetActive_m3538205401(L_13, (bool)0, /*hidden argument*/NULL);
 	}
@@ -4077,7 +4077,7 @@ IL_007a:
 	{
 		ShowPanels_t2673010796 * L_14 = __this->get_showPanels_12();
 		NullCheck(L_14);
-		GameObject_t4012695102 * L_15 = L_14->get_outOfTimeText_16();
+		GameObject_t4012695102 * L_15 = L_14->get_outOfTimeText_17();
 		NullCheck(L_15);
 		GameObject_SetActive_m3538205401(L_15, (bool)0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
@@ -4135,12 +4135,12 @@ IL_00de:
 		TextColor_ChooseTextColor_m2437960914(L_26, /*hidden argument*/NULL);
 		ShowPanels_t2673010796 * L_27 = __this->get_showPanels_12();
 		NullCheck(L_27);
-		GameObject_t4012695102 * L_28 = L_27->get_liveScore_12();
+		GameObject_t4012695102 * L_28 = L_27->get_liveScore_13();
 		NullCheck(L_28);
 		GameObject_SetActive_m3538205401(L_28, (bool)1, /*hidden argument*/NULL);
 		ShowPanels_t2673010796 * L_29 = __this->get_showPanels_12();
 		NullCheck(L_29);
-		GameObject_t4012695102 * L_30 = L_29->get_scaleText_13();
+		GameObject_t4012695102 * L_30 = L_29->get_scaleText_14();
 		NullCheck(L_30);
 		GameObject_SetActive_m3538205401(L_30, (bool)0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);

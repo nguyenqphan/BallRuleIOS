@@ -4100,7 +4100,7 @@ extern "C"  void Destroyer_UpdateBestChallengeScore_m3148243100 (Destroyer_t3990
 		int32_t L_2 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) >= ((int32_t)L_2)))
 		{
-			goto IL_002d;
+			goto IL_0023;
 		}
 	}
 	{
@@ -4109,12 +4109,9 @@ extern "C"  void Destroyer_UpdateBestChallengeScore_m3148243100 (Destroyer_t3990
 		int32_t L_4 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		GameStateManager_set_BestChallengeScore_m113595288(L_3, L_4, /*hidden argument*/NULL);
-		GameStateManager_t648042254 * L_5 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		GameStateManager_Save_m2100463252(L_5, /*hidden argument*/NULL);
 	}
 
-IL_002d:
+IL_0023:
 	{
 		return;
 	}
@@ -4138,7 +4135,7 @@ extern "C"  void Destroyer_UpdateUniversalScore_m3999681456 (Destroyer_t39907302
 		int32_t L_2 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) >= ((int32_t)L_2)))
 		{
-			goto IL_002d;
+			goto IL_0023;
 		}
 	}
 	{
@@ -4147,12 +4144,9 @@ extern "C"  void Destroyer_UpdateUniversalScore_m3999681456 (Destroyer_t39907302
 		int32_t L_4 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		GameStateManager_set_BestScore_m4053641453(L_3, L_4, /*hidden argument*/NULL);
-		GameStateManager_t648042254 * L_5 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		GameStateManager_Save_m2100463252(L_5, /*hidden argument*/NULL);
 	}
 
-IL_002d:
+IL_0023:
 	{
 		return;
 	}
@@ -4176,7 +4170,7 @@ extern "C"  void Destroyer_UpdateObstacleScore_m1860234012 (Destroyer_t399073024
 		int32_t L_2 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) >= ((int32_t)L_2)))
 		{
-			goto IL_002d;
+			goto IL_0023;
 		}
 	}
 	{
@@ -4185,12 +4179,9 @@ extern "C"  void Destroyer_UpdateObstacleScore_m1860234012 (Destroyer_t399073024
 		int32_t L_4 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		GameStateManager_set_BestObstacleScore_m2059085022(L_3, L_4, /*hidden argument*/NULL);
-		GameStateManager_t648042254 * L_5 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		GameStateManager_Save_m2100463252(L_5, /*hidden argument*/NULL);
 	}
 
-IL_002d:
+IL_0023:
 	{
 		return;
 	}
@@ -4215,7 +4206,7 @@ extern "C"  void Destroyer_OnTriggerEnter_m596421300 (Destroyer_t3990730247 * __
 		bool L_2 = GameObject_CompareTag_m3153977471(L_1, _stringLiteral2393081601, /*hidden argument*/NULL);
 		if (!L_2)
 		{
-			goto IL_00c9;
+			goto IL_00e5;
 		}
 	}
 	{
@@ -4236,85 +4227,95 @@ extern "C"  void Destroyer_OnTriggerEnter_m596421300 (Destroyer_t3990730247 * __
 		ShowPanels_ShowMenu_m994731697(L_7, /*hidden argument*/NULL);
 		ShowPanels_t2673010796 * L_8 = __this->get_showUI_2();
 		NullCheck(L_8);
-		GameObject_t4012695102 * L_9 = L_8->get_scaleText_13();
+		GameObject_t4012695102 * L_9 = L_8->get_scaleText_14();
 		NullCheck(L_9);
 		GameObject_SetActive_m3538205401(L_9, (bool)0, /*hidden argument*/NULL);
 		GameStateManager_t648042254 * L_10 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_10);
 		GameStateManager_Load_m1912361917(L_10, /*hidden argument*/NULL);
 		GameStateManager_t648042254 * L_11 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_11);
-		bool L_12 = GameStateManager_get_IsObstacle_m1226902637(L_11, /*hidden argument*/NULL);
-		if (L_12)
+		GameStateManager_t648042254 * L_12 = L_11;
+		NullCheck(L_12);
+		int32_t L_13 = GameStateManager_get_NumOfPlay_m1443517253(L_12, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		GameStateManager_set_NumOfPlay_m3550164336(L_12, ((int32_t)((int32_t)L_13+(int32_t)1)), /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_14 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		bool L_15 = GameStateManager_get_IsObstacle_m1226902637(L_14, /*hidden argument*/NULL);
+		if (L_15)
 		{
-			goto IL_00b3;
+			goto IL_00c5;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_13 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_13);
-		bool L_14 = GameStateManager_get_IsChallenged_m3135670911(L_13, /*hidden argument*/NULL);
-		if (L_14)
+		GameStateManager_t648042254 * L_16 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		bool L_17 = GameStateManager_get_IsChallenged_m3135670911(L_16, /*hidden argument*/NULL);
+		if (L_17)
 		{
-			goto IL_0086;
+			goto IL_0098;
 		}
 	}
 	{
 		Destroyer_UpdateUniversalScore_m3999681456(__this, /*hidden argument*/NULL);
-		goto IL_00ae;
+		goto IL_00c0;
 	}
 
-IL_0086:
+IL_0098:
 	{
 		Destroyer_UpdateBestChallengeScore_m3148243100(__this, /*hidden argument*/NULL);
-		bool L_15 = __this->get_isTimeRunning_6();
-		if (!L_15)
+		bool L_18 = __this->get_isTimeRunning_6();
+		if (!L_18)
 		{
-			goto IL_009d;
+			goto IL_00af;
 		}
 	}
 	{
 		Destroyer_StopTimerChallenge_m43974272(__this, /*hidden argument*/NULL);
 	}
 
-IL_009d:
+IL_00af:
 	{
-		ShowPanels_t2673010796 * L_16 = __this->get_showUI_2();
-		NullCheck(L_16);
-		GameObject_t4012695102 * L_17 = L_16->get_liveChallengeTime_15();
-		NullCheck(L_17);
-		GameObject_SetActive_m3538205401(L_17, (bool)0, /*hidden argument*/NULL);
-	}
-
-IL_00ae:
-	{
-		goto IL_00b9;
-	}
-
-IL_00b3:
-	{
-		Destroyer_UpdateObstacleScore_m1860234012(__this, /*hidden argument*/NULL);
-	}
-
-IL_00b9:
-	{
-		UpdateScore_t1082839849 * L_18 = __this->get_updateScore_4();
-		NullCheck(L_18);
-		UpdateScore_EndGameScore_m64082823(L_18, /*hidden argument*/NULL);
-		goto IL_00d5;
-	}
-
-IL_00c9:
-	{
-		Collider_t955670625 * L_19 = ___collider;
+		ShowPanels_t2673010796 * L_19 = __this->get_showUI_2();
 		NullCheck(L_19);
-		GameObject_t4012695102 * L_20 = Component_get_gameObject_m1170635899(L_19, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_20 = L_19->get_liveChallengeTime_16();
 		NullCheck(L_20);
 		GameObject_SetActive_m3538205401(L_20, (bool)0, /*hidden argument*/NULL);
 	}
 
-IL_00d5:
+IL_00c0:
+	{
+		goto IL_00cb;
+	}
+
+IL_00c5:
+	{
+		Destroyer_UpdateObstacleScore_m1860234012(__this, /*hidden argument*/NULL);
+	}
+
+IL_00cb:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_21 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		GameStateManager_Save_m2100463252(L_21, /*hidden argument*/NULL);
+		UpdateScore_t1082839849 * L_22 = __this->get_updateScore_4();
+		NullCheck(L_22);
+		UpdateScore_EndGameScore_m64082823(L_22, /*hidden argument*/NULL);
+		goto IL_00f1;
+	}
+
+IL_00e5:
+	{
+		Collider_t955670625 * L_23 = ___collider;
+		NullCheck(L_23);
+		GameObject_t4012695102 * L_24 = Component_get_gameObject_m1170635899(L_23, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		GameObject_SetActive_m3538205401(L_24, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_00f1:
 	{
 		return;
 	}
@@ -4489,7 +4490,7 @@ IL_0070:
 		NullCheck(L_15);
 		ShowPanels_t2673010796 * L_16 = L_15->get_showUI_2();
 		NullCheck(L_16);
-		GameObject_t4012695102 * L_17 = L_16->get_outOfTimeText_16();
+		GameObject_t4012695102 * L_17 = L_16->get_outOfTimeText_17();
 		NullCheck(L_17);
 		GameObject_SetActive_m3538205401(L_17, (bool)1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
@@ -8401,8 +8402,8 @@ IL_005e:
 extern "C"  void GameStateManager__ctor_m2267733837 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		__this->set_ballTimer_20(2);
-		__this->set_challengeTimer_21(((int32_t)15));
+		__this->set_ballTimer_21(2);
+		__this->set_challengeTimer_22(((int32_t)15));
 		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -8422,7 +8423,7 @@ extern "C"  void GameStateManager__cctor_m1098176000 (Il2CppObject * __this /* s
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		InstanceStep_t3721597217 * L_0 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1C_30();
+		InstanceStep_t3721597217 * L_0 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1D_31();
 		if (L_0)
 		{
 			goto IL_0018;
@@ -8433,14 +8434,14 @@ extern "C"  void GameStateManager__cctor_m1098176000 (Il2CppObject * __this /* s
 		L_1.set_m_value_0((void*)GameStateManager_U3CinitU3Em__6_m636915041_MethodInfo_var);
 		InstanceStep_t3721597217 * L_2 = (InstanceStep_t3721597217 *)il2cpp_codegen_object_new(InstanceStep_t3721597217_il2cpp_TypeInfo_var);
 		InstanceStep__ctor_m1886435673(L_2, NULL, L_1, /*hidden argument*/NULL);
-		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1C_30(L_2);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1D_31(L_2);
 	}
 
 IL_0018:
 	{
-		InstanceStep_t3721597217 * L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1C_30();
+		InstanceStep_t3721597217 * L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1D_31();
 		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_init_3(L_3);
-		InstanceStep_t3721597217 * L_4 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1D_31();
+		InstanceStep_t3721597217 * L_4 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1E_32();
 		if (L_4)
 		{
 			goto IL_003a;
@@ -8451,12 +8452,12 @@ IL_0018:
 		L_5.set_m_value_0((void*)GameStateManager_U3CfinalU3Em__7_m1775340746_MethodInfo_var);
 		InstanceStep_t3721597217 * L_6 = (InstanceStep_t3721597217 *)il2cpp_codegen_object_new(InstanceStep_t3721597217_il2cpp_TypeInfo_var);
 		InstanceStep__ctor_m1886435673(L_6, NULL, L_5, /*hidden argument*/NULL);
-		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1D_31(L_6);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1E_32(L_6);
 	}
 
 IL_003a:
 	{
-		InstanceStep_t3721597217 * L_7 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1D_31();
+		InstanceStep_t3721597217 * L_7 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1E_32();
 		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_final_4(L_7);
 		InstanceStep_t3721597217 * L_8 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_init_3();
 		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_current_5(L_8);
@@ -8563,11 +8564,28 @@ extern "C"  void GameStateManager_set_NumBerOfGame_m4062883735 (GameStateManager
 		return;
 	}
 }
+// System.Int32 GameStateManager::get_NumOfPlay()
+extern "C"  int32_t GameStateManager_get_NumOfPlay_m1443517253 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_numOfPlay_11();
+		return L_0;
+	}
+}
+// System.Void GameStateManager::set_NumOfPlay(System.Int32)
+extern "C"  void GameStateManager_set_NumOfPlay_m3550164336 (GameStateManager_t648042254 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->set_numOfPlay_11(L_0);
+		return;
+	}
+}
 // System.Int32 GameStateManager::get_SceneMaterialNum()
 extern "C"  int32_t GameStateManager_get_SceneMaterialNum_m1026470881 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_sceneMaterialNum_11();
+		int32_t L_0 = __this->get_sceneMaterialNum_12();
 		return L_0;
 	}
 }
@@ -8576,7 +8594,7 @@ extern "C"  void GameStateManager_set_SceneMaterialNum_m564263448 (GameStateMana
 {
 	{
 		int32_t L_0 = ___value;
-		__this->set_sceneMaterialNum_11(L_0);
+		__this->set_sceneMaterialNum_12(L_0);
 		return;
 	}
 }
@@ -8595,7 +8613,7 @@ extern "C"  int32_t GameStateManager_get_Score_m1514295878 (Il2CppObject * __thi
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
 		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		int32_t L_1 = L_0->get_score_12();
+		int32_t L_1 = L_0->get_score_13();
 		return L_1;
 	}
 }
@@ -8617,7 +8635,7 @@ extern "C"  int32_t GameStateManager_get_HighScore_m1143406788 (Il2CppObject * _
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
 		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Nullable_1_t1438485399 * L_1 = L_0->get_address_of_highScore_14();
+		Nullable_1_t1438485399 * L_1 = L_0->get_address_of_highScore_15();
 		bool L_2 = Nullable_1_get_HasValue_m1686547625(L_1, /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
 		if (!L_2)
 		{
@@ -8628,7 +8646,7 @@ extern "C"  int32_t GameStateManager_get_HighScore_m1143406788 (Il2CppObject * _
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
 		GameStateManager_t648042254 * L_3 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Nullable_1_t1438485399 * L_4 = L_3->get_address_of_highScore_14();
+		Nullable_1_t1438485399 * L_4 = L_3->get_address_of_highScore_15();
 		int32_t L_5 = Nullable_1_get_Value_m844974555(L_4, /*hidden argument*/Nullable_1_get_Value_m844974555_MethodInfo_var);
 		G_B3_0 = L_5;
 		goto IL_0029;
@@ -8664,7 +8682,7 @@ extern "C"  void GameStateManager_set_HighScore_m1444715631 (Il2CppObject * __th
 		memset(&L_2, 0, sizeof(L_2));
 		Nullable_1__ctor_m944559736(&L_2, L_1, /*hidden argument*/Nullable_1__ctor_m944559736_MethodInfo_var);
 		NullCheck(L_0);
-		L_0->set_highScore_14(L_2);
+		L_0->set_highScore_15(L_2);
 		return;
 	}
 }
@@ -8672,7 +8690,7 @@ extern "C"  void GameStateManager_set_HighScore_m1444715631 (Il2CppObject * __th
 extern "C"  int32_t GameStateManager_get_BestScore_m3345504834 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_bestScore_17();
+		int32_t L_0 = __this->get_bestScore_18();
 		return L_0;
 	}
 }
@@ -8681,7 +8699,7 @@ extern "C"  void GameStateManager_set_BestScore_m4053641453 (GameStateManager_t6
 {
 	{
 		int32_t L_0 = ___value;
-		__this->set_bestScore_17(L_0);
+		__this->set_bestScore_18(L_0);
 		return;
 	}
 }
@@ -8689,7 +8707,7 @@ extern "C"  void GameStateManager_set_BestScore_m4053641453 (GameStateManager_t6
 extern "C"  int32_t GameStateManager_get_BestChallengeScore_m2460978913 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_bestChallengeScore_18();
+		int32_t L_0 = __this->get_bestChallengeScore_19();
 		return L_0;
 	}
 }
@@ -8698,7 +8716,7 @@ extern "C"  void GameStateManager_set_BestChallengeScore_m113595288 (GameStateMa
 {
 	{
 		int32_t L_0 = ___value;
-		__this->set_bestChallengeScore_18(L_0);
+		__this->set_bestChallengeScore_19(L_0);
 		return;
 	}
 }
@@ -8706,7 +8724,7 @@ extern "C"  void GameStateManager_set_BestChallengeScore_m113595288 (GameStateMa
 extern "C"  int32_t GameStateManager_get_BestObstacleScore_m1094152627 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_bestObstacleScore_19();
+		int32_t L_0 = __this->get_bestObstacleScore_20();
 		return L_0;
 	}
 }
@@ -8715,7 +8733,7 @@ extern "C"  void GameStateManager_set_BestObstacleScore_m2059085022 (GameStateMa
 {
 	{
 		int32_t L_0 = ___value;
-		__this->set_bestObstacleScore_19(L_0);
+		__this->set_bestObstacleScore_20(L_0);
 		return;
 	}
 }
@@ -8723,7 +8741,7 @@ extern "C"  void GameStateManager_set_BestObstacleScore_m2059085022 (GameStateMa
 extern "C"  int32_t GameStateManager_get_BallTimer_m3898314170 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_ballTimer_20();
+		int32_t L_0 = __this->get_ballTimer_21();
 		return L_0;
 	}
 }
@@ -8732,7 +8750,7 @@ extern "C"  void GameStateManager_set_BallTimer_m633825381 (GameStateManager_t64
 {
 	{
 		int32_t L_0 = ___value;
-		__this->set_ballTimer_20(L_0);
+		__this->set_ballTimer_21(L_0);
 		return;
 	}
 }
@@ -8740,7 +8758,7 @@ extern "C"  void GameStateManager_set_BallTimer_m633825381 (GameStateManager_t64
 extern "C"  int32_t GameStateManager_get_ChallengeTimer_m1504953168 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_challengeTimer_21();
+		int32_t L_0 = __this->get_challengeTimer_22();
 		return L_0;
 	}
 }
@@ -8749,7 +8767,7 @@ extern "C"  void GameStateManager_set_ChallengeTimer_m1343732871 (GameStateManag
 {
 	{
 		int32_t L_0 = ___value;
-		__this->set_challengeTimer_21(L_0);
+		__this->set_challengeTimer_22(L_0);
 		return;
 	}
 }
@@ -8757,7 +8775,7 @@ extern "C"  void GameStateManager_set_ChallengeTimer_m1343732871 (GameStateManag
 extern "C"  int32_t GameStateManager_get_NumCoins_m3254984202 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_numCoins_22();
+		int32_t L_0 = __this->get_numCoins_23();
 		return L_0;
 	}
 }
@@ -8766,7 +8784,7 @@ extern "C"  void GameStateManager_set_NumCoins_m939472065 (GameStateManager_t648
 {
 	{
 		int32_t L_0 = ___value;
-		__this->set_numCoins_22(L_0);
+		__this->set_numCoins_23(L_0);
 		return;
 	}
 }
@@ -8774,7 +8792,7 @@ extern "C"  void GameStateManager_set_NumCoins_m939472065 (GameStateManager_t648
 extern "C"  int32_t GameStateManager_get_IndexMaterial_m2160061197 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_indexMaterial_24();
+		int32_t L_0 = __this->get_indexMaterial_25();
 		return L_0;
 	}
 }
@@ -8783,7 +8801,7 @@ extern "C"  void GameStateManager_set_IndexMaterial_m2107745336 (GameStateManage
 {
 	{
 		int32_t L_0 = ___value;
-		__this->set_indexMaterial_24(L_0);
+		__this->set_indexMaterial_25(L_0);
 		return;
 	}
 }
@@ -8791,7 +8809,7 @@ extern "C"  void GameStateManager_set_IndexMaterial_m2107745336 (GameStateManage
 extern "C"  bool GameStateManager_get_IsStarted_m545514757 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = __this->get_isStarted_26();
+		bool L_0 = __this->get_isStarted_27();
 		return L_0;
 	}
 }
@@ -8800,7 +8818,7 @@ extern "C"  void GameStateManager_set_IsStarted_m1939308796 (GameStateManager_t6
 {
 	{
 		bool L_0 = ___value;
-		__this->set_isStarted_26(L_0);
+		__this->set_isStarted_27(L_0);
 		return;
 	}
 }
@@ -8808,7 +8826,7 @@ extern "C"  void GameStateManager_set_IsStarted_m1939308796 (GameStateManager_t6
 extern "C"  bool GameStateManager_get_IsChallenged_m3135670911 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = __this->get_isChallened_27();
+		bool L_0 = __this->get_isChallened_28();
 		return L_0;
 	}
 }
@@ -8817,7 +8835,7 @@ extern "C"  void GameStateManager_set_IsChallenged_m3208977014 (GameStateManager
 {
 	{
 		bool L_0 = ___value;
-		__this->set_isChallened_27(L_0);
+		__this->set_isChallened_28(L_0);
 		return;
 	}
 }
@@ -8825,7 +8843,7 @@ extern "C"  void GameStateManager_set_IsChallenged_m3208977014 (GameStateManager
 extern "C"  bool GameStateManager_get_IsObstacle_m1226902637 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = __this->get_isObstacle_28();
+		bool L_0 = __this->get_isObstacle_29();
 		return L_0;
 	}
 }
@@ -8834,7 +8852,7 @@ extern "C"  void GameStateManager_set_IsObstacle_m833147876 (GameStateManager_t6
 {
 	{
 		bool L_0 = ___value;
-		__this->set_isObstacle_28(L_0);
+		__this->set_isObstacle_29(L_0);
 		return;
 	}
 }
@@ -8842,7 +8860,7 @@ extern "C"  void GameStateManager_set_IsObstacle_m833147876 (GameStateManager_t6
 extern "C"  bool GameStateManager_get_IsOutOfTime_m2079166902 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = __this->get_isOutOfTime_29();
+		bool L_0 = __this->get_isOutOfTime_30();
 		return L_0;
 	}
 }
@@ -8851,7 +8869,7 @@ extern "C"  void GameStateManager_set_IsOutOfTime_m1803604973 (GameStateManager_
 {
 	{
 		bool L_0 = ___value;
-		__this->set_isOutOfTime_29(L_0);
+		__this->set_isOutOfTime_30(L_0);
 		return;
 	}
 }
@@ -8867,20 +8885,20 @@ extern "C"  void GameStateManager_StartGame_m3277387231 (GameStateManager_t64804
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		int32_t L_0 = __this->get_StartingScore_13();
+		int32_t L_0 = __this->get_StartingScore_14();
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
 		GameStateManager_set_HighScore_m1444715631(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		int32_t L_1 = __this->get_ballTimer_20();
+		int32_t L_1 = __this->get_ballTimer_21();
 		GameStateManager_set_BallTimer_m633825381(__this, L_1, /*hidden argument*/NULL);
-		int32_t L_2 = __this->get_challengeTimer_21();
+		int32_t L_2 = __this->get_challengeTimer_22();
 		GameStateManager_set_ChallengeTimer_m1343732871(__this, L_2, /*hidden argument*/NULL);
-		int32_t L_3 = __this->get_startCoints_23();
+		int32_t L_3 = __this->get_startCoints_24();
 		GameStateManager_set_NumCoins_m939472065(__this, L_3, /*hidden argument*/NULL);
 		int32_t L_4 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_StartingLives_6();
 		__this->set_lives_7(L_4);
-		int32_t L_5 = __this->get_StartingScore_13();
-		__this->set_score_12(L_5);
-		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_ScoringLockout_15((bool)0);
+		int32_t L_5 = __this->get_StartingScore_14();
+		__this->set_score_13(L_5);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_ScoringLockout_16((bool)0);
 		Time_set_timeScale_m1848691981(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
 		return;
 	}
@@ -8889,7 +8907,7 @@ extern "C"  void GameStateManager_StartGame_m3277387231 (GameStateManager_t64804
 extern "C"  void GameStateManager_Restart_m3827787834 (GameStateManager_t648042254 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_numCoins_22();
+		int32_t L_0 = __this->get_numCoins_23();
 		GameStateManager_set_NumCoins_m939472065(__this, L_0, /*hidden argument*/NULL);
 		int32_t L_1 = GameStateManager_get_IndexMaterial_m2160061197(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) > ((int32_t)5)))
@@ -8969,14 +8987,20 @@ extern "C"  void GameStateManager_Save_m2100463252 (GameStateManager_t648042254 
 		int32_t L_13 = GameStateManager_get_BestObstacleScore_m1094152627(L_12, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		L_11->set_obstacleScore_2(L_13);
-		BinaryFormatter_t341659722 * L_14 = V_0;
-		FileStream_t1527309539 * L_15 = V_1;
-		PlayerData_t4088824395 * L_16 = V_2;
+		PlayerData_t4088824395 * L_14 = V_2;
+		GameStateManager_t648042254 * L_15 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		int32_t L_16 = GameStateManager_get_NumOfPlay_m1443517253(L_15, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		BinaryFormatter_Serialize_m2138605799(L_14, L_15, L_16, /*hidden argument*/NULL);
-		FileStream_t1527309539 * L_17 = V_1;
+		L_14->set_numberOfPlay_3(L_16);
+		BinaryFormatter_t341659722 * L_17 = V_0;
+		FileStream_t1527309539 * L_18 = V_1;
+		PlayerData_t4088824395 * L_19 = V_2;
 		NullCheck(L_17);
-		VirtActionInvoker0::Invoke(12 /* System.Void System.IO.Stream::Close() */, L_17);
+		BinaryFormatter_Serialize_m2138605799(L_17, L_18, L_19, /*hidden argument*/NULL);
+		FileStream_t1527309539 * L_20 = V_1;
+		NullCheck(L_20);
+		VirtActionInvoker0::Invoke(12 /* System.Void System.IO.Stream::Close() */, L_20);
 		return;
 	}
 }
@@ -9005,7 +9029,7 @@ extern "C"  void GameStateManager_Load_m1912361917 (GameStateManager_t648042254 
 		bool L_2 = File_Exists_m1326262381(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
-			goto IL_0078;
+			goto IL_0088;
 		}
 	}
 	{
@@ -9041,12 +9065,18 @@ extern "C"  void GameStateManager_Load_m1912361917 (GameStateManager_t648042254 
 		int32_t L_18 = L_17->get_obstacleScore_2();
 		NullCheck(L_16);
 		GameStateManager_set_BestObstacleScore_m2059085022(L_16, L_18, /*hidden argument*/NULL);
-		FileStream_t1527309539 * L_19 = V_1;
+		GameStateManager_t648042254 * L_19 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerData_t4088824395 * L_20 = V_2;
+		NullCheck(L_20);
+		int32_t L_21 = L_20->get_numberOfPlay_3();
 		NullCheck(L_19);
-		VirtActionInvoker0::Invoke(12 /* System.Void System.IO.Stream::Close() */, L_19);
+		GameStateManager_set_NumOfPlay_m3550164336(L_19, L_21, /*hidden argument*/NULL);
+		FileStream_t1527309539 * L_22 = V_1;
+		NullCheck(L_22);
+		VirtActionInvoker0::Invoke(12 /* System.Void System.IO.Stream::Close() */, L_22);
 	}
 
-IL_0078:
+IL_0088:
 	{
 		return;
 	}
@@ -9082,7 +9112,7 @@ extern "C"  GameStateManager_t648042254 * GameStateManager_U3CinitU3Em__6_m63691
 		Initobj (Nullable_1_t1438485399_il2cpp_TypeInfo_var, (&V_1));
 		Nullable_1_t1438485399  L_4 = V_1;
 		NullCheck(L_3);
-		L_3->set_highScore_14(L_4);
+		L_3->set_highScore_15(L_4);
 		InstanceStep_t3721597217 * L_5 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_final_4();
 		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->set_current_5(L_5);
 		GameStateManager_t648042254 * L_6 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
@@ -11616,7 +11646,7 @@ IL_0021:
 		ScallerP_t3467974258 * L_3 = L_2->get_address_of_scallerP_2();
 		ShowPanels_t2673010796 * L_4 = L_3->get_showPanels_1();
 		NullCheck(L_4);
-		GameObject_t4012695102 * L_5 = L_4->get_scaleText_13();
+		GameObject_t4012695102 * L_5 = L_4->get_scaleText_14();
 		NullCheck(L_5);
 		GameObject_SetActive_m3538205401(L_5, (bool)1, /*hidden argument*/NULL);
 		goto IL_00dc;
@@ -11866,7 +11896,7 @@ IL_0069:
 		ScallerP_t3467974258 * L_12 = L_11->get_address_of_scallerP_2();
 		ShowPanels_t2673010796 * L_13 = L_12->get_showPanels_1();
 		NullCheck(L_13);
-		GameObject_t4012695102 * L_14 = L_13->get_scaleText_13();
+		GameObject_t4012695102 * L_14 = L_13->get_scaleText_14();
 		NullCheck(L_14);
 		GameObject_SetActive_m3538205401(L_14, (bool)0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
@@ -12579,7 +12609,7 @@ extern "C"  void ShowPanels_Awake_m3294821138 (ShowPanels_t2673010796 * __this, 
 		GameObject_t4012695102 * L_0 = GameObject_FindWithTag_m3162815092(NULL /*static, unused*/, _stringLiteral2369589051, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		CubeManager_t4034287000 * L_1 = GameObject_GetComponent_TisCubeManager_t4034287000_m3818973513(L_0, /*hidden argument*/GameObject_GetComponent_TisCubeManager_t4034287000_m3818973513_MethodInfo_var);
-		__this->set_cubeManager_20(L_1);
+		__this->set_cubeManager_21(L_1);
 		return;
 	}
 }
@@ -12605,12 +12635,35 @@ extern "C"  void ShowPanels_Start_m2004353711 (ShowPanels_t2673010796 * __this, 
 		}
 	}
 	{
-		GameObject_t4012695102 * L_2 = __this->get_liveChallengeTime_15();
+		GameObject_t4012695102 * L_2 = __this->get_liveChallengeTime_16();
 		NullCheck(L_2);
 		GameObject_SetActive_m3538205401(L_2, (bool)1, /*hidden argument*/NULL);
 	}
 
 IL_001b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_3 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		GameStateManager_Load_m1912361917(L_3, /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_4 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		int32_t L_5 = GameStateManager_get_NumOfPlay_m1443517253(L_4, /*hidden argument*/NULL);
+		if ((((int32_t)L_5) <= ((int32_t)3)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_6 = __this->get_askButton_9();
+		NullCheck(L_6);
+		GameObject_SetActive_m3538205401(L_6, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_7 = __this->get_rateButton_10();
+		NullCheck(L_7);
+		GameObject_SetActive_m3538205401(L_7, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_004d:
 	{
 		return;
 	}
@@ -12660,7 +12713,7 @@ IL_0021:
 
 IL_0038:
 	{
-		CubeManager_t4034287000 * L_5 = __this->get_cubeManager_20();
+		CubeManager_t4034287000 * L_5 = __this->get_cubeManager_21();
 		NullCheck(L_5);
 		LayerMask_t1862190090 * L_6 = L_5->get_address_of_cubeLayerMask_3();
 		LayerMask_set_value_m3553706239(L_6, 2, /*hidden argument*/NULL);
@@ -12699,7 +12752,7 @@ extern "C"  void ShowPanels_ShowMenu_m994731697 (ShowPanels_t2673010796 * __this
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		CubeManager_t4034287000 * L_0 = __this->get_cubeManager_20();
+		CubeManager_t4034287000 * L_0 = __this->get_cubeManager_21();
 		NullCheck(L_0);
 		LayerMask_t1862190090 * L_1 = L_0->get_address_of_cubeLayerMask_3();
 		LayerMask_set_value_m3553706239(L_1, 2, /*hidden argument*/NULL);
@@ -12712,7 +12765,7 @@ extern "C"  void ShowPanels_ShowMenu_m994731697 (ShowPanels_t2673010796 * __this
 		bool L_4 = GameStateManager_get_IsStarted_m545514757(L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
-			goto IL_0085;
+			goto IL_0079;
 		}
 	}
 	{
@@ -12725,47 +12778,41 @@ extern "C"  void ShowPanels_ShowMenu_m994731697 (ShowPanels_t2673010796 * __this
 		GameObject_t4012695102 * L_7 = __this->get_noAdsButton_8();
 		NullCheck(L_7);
 		GameObject_SetActive_m3538205401(L_7, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_8 = __this->get_askButton_9();
+		GameObject_t4012695102 * L_8 = __this->get_fBshareButton_11();
 		NullCheck(L_8);
-		GameObject_SetActive_m3538205401(L_8, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_9 = __this->get_fBshareButton_10();
+		GameObject_SetActive_m3538205401(L_8, (bool)1, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_9 = __this->get_scorePanel_12();
 		NullCheck(L_9);
 		GameObject_SetActive_m3538205401(L_9, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_10 = __this->get_scorePanel_11();
+		GameObject_t4012695102 * L_10 = __this->get_liveScore_13();
 		NullCheck(L_10);
-		GameObject_SetActive_m3538205401(L_10, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_11 = __this->get_liveScore_12();
-		NullCheck(L_11);
-		GameObject_SetActive_m3538205401(L_11, (bool)0, /*hidden argument*/NULL);
-		goto IL_00d9;
+		GameObject_SetActive_m3538205401(L_10, (bool)0, /*hidden argument*/NULL);
+		goto IL_00c1;
 	}
 
-IL_0085:
+IL_0079:
 	{
-		GameObject_t4012695102 * L_12 = __this->get_startButton_6();
+		GameObject_t4012695102 * L_11 = __this->get_startButton_6();
+		NullCheck(L_11);
+		GameObject_SetActive_m3538205401(L_11, (bool)1, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_12 = __this->get_refreshButton_7();
 		NullCheck(L_12);
-		GameObject_SetActive_m3538205401(L_12, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_13 = __this->get_refreshButton_7();
+		GameObject_SetActive_m3538205401(L_12, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_13 = __this->get_noAdsButton_8();
 		NullCheck(L_13);
 		GameObject_SetActive_m3538205401(L_13, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_14 = __this->get_askButton_9();
+		GameObject_t4012695102 * L_14 = __this->get_fBshareButton_11();
 		NullCheck(L_14);
-		GameObject_SetActive_m3538205401(L_14, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_15 = __this->get_noAdsButton_8();
+		GameObject_SetActive_m3538205401(L_14, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_15 = __this->get_scorePanel_12();
 		NullCheck(L_15);
 		GameObject_SetActive_m3538205401(L_15, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_16 = __this->get_fBshareButton_10();
+		GameObject_t4012695102 * L_16 = __this->get_liveScore_13();
 		NullCheck(L_16);
-		GameObject_SetActive_m3538205401(L_16, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_17 = __this->get_scorePanel_11();
-		NullCheck(L_17);
-		GameObject_SetActive_m3538205401(L_17, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_18 = __this->get_liveScore_12();
-		NullCheck(L_18);
-		GameObject_SetActive_m3538205401(L_18, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_16, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_00d9:
+IL_00c1:
 	{
 		return;
 	}
@@ -12810,7 +12857,7 @@ extern "C"  void ShowPanels_HidePausePanel_m1575446853 (ShowPanels_t2673010796 *
 extern "C"  void ShowPanels_HideChallLockImage_m1068688971 (ShowPanels_t2673010796 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t4012695102 * L_0 = __this->get_challengeLockImage_17();
+		GameObject_t4012695102 * L_0 = __this->get_challengeLockImage_18();
 		NullCheck(L_0);
 		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
 		return;
@@ -12820,7 +12867,7 @@ extern "C"  void ShowPanels_HideChallLockImage_m1068688971 (ShowPanels_t26730107
 extern "C"  void ShowPanels_HideObsLockImage_m3535669095 (ShowPanels_t2673010796 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t4012695102 * L_0 = __this->get_obstacleLockImage_18();
+		GameObject_t4012695102 * L_0 = __this->get_obstacleLockImage_19();
 		NullCheck(L_0);
 		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
 		return;
@@ -12830,7 +12877,7 @@ extern "C"  void ShowPanels_HideObsLockImage_m3535669095 (ShowPanels_t2673010796
 extern "C"  void ShowPanels_ShowInstruction_m1526716638 (ShowPanels_t2673010796 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t4012695102 * L_0 = __this->get_instructionPanel_19();
+		GameObject_t4012695102 * L_0 = __this->get_instructionPanel_20();
 		NullCheck(L_0);
 		GameObject_SetActive_m3538205401(L_0, (bool)1, /*hidden argument*/NULL);
 		return;
@@ -12840,7 +12887,7 @@ extern "C"  void ShowPanels_ShowInstruction_m1526716638 (ShowPanels_t2673010796 
 extern "C"  void ShowPanels_HideInstruction_m121597625 (ShowPanels_t2673010796 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t4012695102 * L_0 = __this->get_instructionPanel_19();
+		GameObject_t4012695102 * L_0 = __this->get_instructionPanel_20();
 		NullCheck(L_0);
 		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
 		return;

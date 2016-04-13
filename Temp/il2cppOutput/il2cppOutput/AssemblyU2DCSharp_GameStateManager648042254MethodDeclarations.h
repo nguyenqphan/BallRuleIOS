@@ -37,6 +37,10 @@ extern "C"  void GameStateManager_set_Scores_m662854871 (Il2CppObject * __this /
 extern "C"  int32_t GameStateManager_get_NumBerOfGame_m3132017888 (GameStateManager_t648042254 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameStateManager::set_NumBerOfGame(System.Int32)
 extern "C"  void GameStateManager_set_NumBerOfGame_m4062883735 (GameStateManager_t648042254 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 GameStateManager::get_NumOfPlay()
+extern "C"  int32_t GameStateManager_get_NumOfPlay_m1443517253 (GameStateManager_t648042254 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void GameStateManager::set_NumOfPlay(System.Int32)
+extern "C"  void GameStateManager_set_NumOfPlay_m3550164336 (GameStateManager_t648042254 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 GameStateManager::get_SceneMaterialNum()
 extern "C"  int32_t GameStateManager_get_SceneMaterialNum_m1026470881 (GameStateManager_t648042254 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameStateManager::set_SceneMaterialNum(System.Int32)

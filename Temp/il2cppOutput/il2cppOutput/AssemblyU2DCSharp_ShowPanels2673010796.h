@@ -43,28 +43,30 @@ public:
 	GameObject_t4012695102 * ___noAdsButton_8;
 	// UnityEngine.GameObject ShowPanels::askButton
 	GameObject_t4012695102 * ___askButton_9;
+	// UnityEngine.GameObject ShowPanels::rateButton
+	GameObject_t4012695102 * ___rateButton_10;
 	// UnityEngine.GameObject ShowPanels::fBshareButton
-	GameObject_t4012695102 * ___fBshareButton_10;
+	GameObject_t4012695102 * ___fBshareButton_11;
 	// UnityEngine.GameObject ShowPanels::scorePanel
-	GameObject_t4012695102 * ___scorePanel_11;
+	GameObject_t4012695102 * ___scorePanel_12;
 	// UnityEngine.GameObject ShowPanels::liveScore
-	GameObject_t4012695102 * ___liveScore_12;
+	GameObject_t4012695102 * ___liveScore_13;
 	// UnityEngine.GameObject ShowPanels::scaleText
-	GameObject_t4012695102 * ___scaleText_13;
+	GameObject_t4012695102 * ___scaleText_14;
 	// UnityEngine.GameObject ShowPanels::gameTitleText
-	GameObject_t4012695102 * ___gameTitleText_14;
+	GameObject_t4012695102 * ___gameTitleText_15;
 	// UnityEngine.GameObject ShowPanels::liveChallengeTime
-	GameObject_t4012695102 * ___liveChallengeTime_15;
+	GameObject_t4012695102 * ___liveChallengeTime_16;
 	// UnityEngine.GameObject ShowPanels::outOfTimeText
-	GameObject_t4012695102 * ___outOfTimeText_16;
+	GameObject_t4012695102 * ___outOfTimeText_17;
 	// UnityEngine.GameObject ShowPanels::challengeLockImage
-	GameObject_t4012695102 * ___challengeLockImage_17;
+	GameObject_t4012695102 * ___challengeLockImage_18;
 	// UnityEngine.GameObject ShowPanels::obstacleLockImage
-	GameObject_t4012695102 * ___obstacleLockImage_18;
+	GameObject_t4012695102 * ___obstacleLockImage_19;
 	// UnityEngine.GameObject ShowPanels::instructionPanel
-	GameObject_t4012695102 * ___instructionPanel_19;
+	GameObject_t4012695102 * ___instructionPanel_20;
 	// CubeManager ShowPanels::cubeManager
-	CubeManager_t4034287000 * ___cubeManager_20;
+	CubeManager_t4034287000 * ___cubeManager_21;
 
 public:
 	inline static int32_t get_offset_of_optionsPanel_2() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___optionsPanel_2)); }
@@ -139,103 +141,112 @@ public:
 		Il2CppCodeGenWriteBarrier(&___askButton_9, value);
 	}
 
-	inline static int32_t get_offset_of_fBshareButton_10() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___fBshareButton_10)); }
-	inline GameObject_t4012695102 * get_fBshareButton_10() const { return ___fBshareButton_10; }
-	inline GameObject_t4012695102 ** get_address_of_fBshareButton_10() { return &___fBshareButton_10; }
-	inline void set_fBshareButton_10(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_rateButton_10() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___rateButton_10)); }
+	inline GameObject_t4012695102 * get_rateButton_10() const { return ___rateButton_10; }
+	inline GameObject_t4012695102 ** get_address_of_rateButton_10() { return &___rateButton_10; }
+	inline void set_rateButton_10(GameObject_t4012695102 * value)
 	{
-		___fBshareButton_10 = value;
-		Il2CppCodeGenWriteBarrier(&___fBshareButton_10, value);
+		___rateButton_10 = value;
+		Il2CppCodeGenWriteBarrier(&___rateButton_10, value);
 	}
 
-	inline static int32_t get_offset_of_scorePanel_11() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___scorePanel_11)); }
-	inline GameObject_t4012695102 * get_scorePanel_11() const { return ___scorePanel_11; }
-	inline GameObject_t4012695102 ** get_address_of_scorePanel_11() { return &___scorePanel_11; }
-	inline void set_scorePanel_11(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_fBshareButton_11() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___fBshareButton_11)); }
+	inline GameObject_t4012695102 * get_fBshareButton_11() const { return ___fBshareButton_11; }
+	inline GameObject_t4012695102 ** get_address_of_fBshareButton_11() { return &___fBshareButton_11; }
+	inline void set_fBshareButton_11(GameObject_t4012695102 * value)
 	{
-		___scorePanel_11 = value;
-		Il2CppCodeGenWriteBarrier(&___scorePanel_11, value);
+		___fBshareButton_11 = value;
+		Il2CppCodeGenWriteBarrier(&___fBshareButton_11, value);
 	}
 
-	inline static int32_t get_offset_of_liveScore_12() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___liveScore_12)); }
-	inline GameObject_t4012695102 * get_liveScore_12() const { return ___liveScore_12; }
-	inline GameObject_t4012695102 ** get_address_of_liveScore_12() { return &___liveScore_12; }
-	inline void set_liveScore_12(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_scorePanel_12() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___scorePanel_12)); }
+	inline GameObject_t4012695102 * get_scorePanel_12() const { return ___scorePanel_12; }
+	inline GameObject_t4012695102 ** get_address_of_scorePanel_12() { return &___scorePanel_12; }
+	inline void set_scorePanel_12(GameObject_t4012695102 * value)
 	{
-		___liveScore_12 = value;
-		Il2CppCodeGenWriteBarrier(&___liveScore_12, value);
+		___scorePanel_12 = value;
+		Il2CppCodeGenWriteBarrier(&___scorePanel_12, value);
 	}
 
-	inline static int32_t get_offset_of_scaleText_13() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___scaleText_13)); }
-	inline GameObject_t4012695102 * get_scaleText_13() const { return ___scaleText_13; }
-	inline GameObject_t4012695102 ** get_address_of_scaleText_13() { return &___scaleText_13; }
-	inline void set_scaleText_13(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_liveScore_13() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___liveScore_13)); }
+	inline GameObject_t4012695102 * get_liveScore_13() const { return ___liveScore_13; }
+	inline GameObject_t4012695102 ** get_address_of_liveScore_13() { return &___liveScore_13; }
+	inline void set_liveScore_13(GameObject_t4012695102 * value)
 	{
-		___scaleText_13 = value;
-		Il2CppCodeGenWriteBarrier(&___scaleText_13, value);
+		___liveScore_13 = value;
+		Il2CppCodeGenWriteBarrier(&___liveScore_13, value);
 	}
 
-	inline static int32_t get_offset_of_gameTitleText_14() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___gameTitleText_14)); }
-	inline GameObject_t4012695102 * get_gameTitleText_14() const { return ___gameTitleText_14; }
-	inline GameObject_t4012695102 ** get_address_of_gameTitleText_14() { return &___gameTitleText_14; }
-	inline void set_gameTitleText_14(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_scaleText_14() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___scaleText_14)); }
+	inline GameObject_t4012695102 * get_scaleText_14() const { return ___scaleText_14; }
+	inline GameObject_t4012695102 ** get_address_of_scaleText_14() { return &___scaleText_14; }
+	inline void set_scaleText_14(GameObject_t4012695102 * value)
 	{
-		___gameTitleText_14 = value;
-		Il2CppCodeGenWriteBarrier(&___gameTitleText_14, value);
+		___scaleText_14 = value;
+		Il2CppCodeGenWriteBarrier(&___scaleText_14, value);
 	}
 
-	inline static int32_t get_offset_of_liveChallengeTime_15() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___liveChallengeTime_15)); }
-	inline GameObject_t4012695102 * get_liveChallengeTime_15() const { return ___liveChallengeTime_15; }
-	inline GameObject_t4012695102 ** get_address_of_liveChallengeTime_15() { return &___liveChallengeTime_15; }
-	inline void set_liveChallengeTime_15(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_gameTitleText_15() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___gameTitleText_15)); }
+	inline GameObject_t4012695102 * get_gameTitleText_15() const { return ___gameTitleText_15; }
+	inline GameObject_t4012695102 ** get_address_of_gameTitleText_15() { return &___gameTitleText_15; }
+	inline void set_gameTitleText_15(GameObject_t4012695102 * value)
 	{
-		___liveChallengeTime_15 = value;
-		Il2CppCodeGenWriteBarrier(&___liveChallengeTime_15, value);
+		___gameTitleText_15 = value;
+		Il2CppCodeGenWriteBarrier(&___gameTitleText_15, value);
 	}
 
-	inline static int32_t get_offset_of_outOfTimeText_16() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___outOfTimeText_16)); }
-	inline GameObject_t4012695102 * get_outOfTimeText_16() const { return ___outOfTimeText_16; }
-	inline GameObject_t4012695102 ** get_address_of_outOfTimeText_16() { return &___outOfTimeText_16; }
-	inline void set_outOfTimeText_16(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_liveChallengeTime_16() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___liveChallengeTime_16)); }
+	inline GameObject_t4012695102 * get_liveChallengeTime_16() const { return ___liveChallengeTime_16; }
+	inline GameObject_t4012695102 ** get_address_of_liveChallengeTime_16() { return &___liveChallengeTime_16; }
+	inline void set_liveChallengeTime_16(GameObject_t4012695102 * value)
 	{
-		___outOfTimeText_16 = value;
-		Il2CppCodeGenWriteBarrier(&___outOfTimeText_16, value);
+		___liveChallengeTime_16 = value;
+		Il2CppCodeGenWriteBarrier(&___liveChallengeTime_16, value);
 	}
 
-	inline static int32_t get_offset_of_challengeLockImage_17() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___challengeLockImage_17)); }
-	inline GameObject_t4012695102 * get_challengeLockImage_17() const { return ___challengeLockImage_17; }
-	inline GameObject_t4012695102 ** get_address_of_challengeLockImage_17() { return &___challengeLockImage_17; }
-	inline void set_challengeLockImage_17(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_outOfTimeText_17() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___outOfTimeText_17)); }
+	inline GameObject_t4012695102 * get_outOfTimeText_17() const { return ___outOfTimeText_17; }
+	inline GameObject_t4012695102 ** get_address_of_outOfTimeText_17() { return &___outOfTimeText_17; }
+	inline void set_outOfTimeText_17(GameObject_t4012695102 * value)
 	{
-		___challengeLockImage_17 = value;
-		Il2CppCodeGenWriteBarrier(&___challengeLockImage_17, value);
+		___outOfTimeText_17 = value;
+		Il2CppCodeGenWriteBarrier(&___outOfTimeText_17, value);
 	}
 
-	inline static int32_t get_offset_of_obstacleLockImage_18() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___obstacleLockImage_18)); }
-	inline GameObject_t4012695102 * get_obstacleLockImage_18() const { return ___obstacleLockImage_18; }
-	inline GameObject_t4012695102 ** get_address_of_obstacleLockImage_18() { return &___obstacleLockImage_18; }
-	inline void set_obstacleLockImage_18(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_challengeLockImage_18() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___challengeLockImage_18)); }
+	inline GameObject_t4012695102 * get_challengeLockImage_18() const { return ___challengeLockImage_18; }
+	inline GameObject_t4012695102 ** get_address_of_challengeLockImage_18() { return &___challengeLockImage_18; }
+	inline void set_challengeLockImage_18(GameObject_t4012695102 * value)
 	{
-		___obstacleLockImage_18 = value;
-		Il2CppCodeGenWriteBarrier(&___obstacleLockImage_18, value);
+		___challengeLockImage_18 = value;
+		Il2CppCodeGenWriteBarrier(&___challengeLockImage_18, value);
 	}
 
-	inline static int32_t get_offset_of_instructionPanel_19() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___instructionPanel_19)); }
-	inline GameObject_t4012695102 * get_instructionPanel_19() const { return ___instructionPanel_19; }
-	inline GameObject_t4012695102 ** get_address_of_instructionPanel_19() { return &___instructionPanel_19; }
-	inline void set_instructionPanel_19(GameObject_t4012695102 * value)
+	inline static int32_t get_offset_of_obstacleLockImage_19() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___obstacleLockImage_19)); }
+	inline GameObject_t4012695102 * get_obstacleLockImage_19() const { return ___obstacleLockImage_19; }
+	inline GameObject_t4012695102 ** get_address_of_obstacleLockImage_19() { return &___obstacleLockImage_19; }
+	inline void set_obstacleLockImage_19(GameObject_t4012695102 * value)
 	{
-		___instructionPanel_19 = value;
-		Il2CppCodeGenWriteBarrier(&___instructionPanel_19, value);
+		___obstacleLockImage_19 = value;
+		Il2CppCodeGenWriteBarrier(&___obstacleLockImage_19, value);
 	}
 
-	inline static int32_t get_offset_of_cubeManager_20() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___cubeManager_20)); }
-	inline CubeManager_t4034287000 * get_cubeManager_20() const { return ___cubeManager_20; }
-	inline CubeManager_t4034287000 ** get_address_of_cubeManager_20() { return &___cubeManager_20; }
-	inline void set_cubeManager_20(CubeManager_t4034287000 * value)
+	inline static int32_t get_offset_of_instructionPanel_20() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___instructionPanel_20)); }
+	inline GameObject_t4012695102 * get_instructionPanel_20() const { return ___instructionPanel_20; }
+	inline GameObject_t4012695102 ** get_address_of_instructionPanel_20() { return &___instructionPanel_20; }
+	inline void set_instructionPanel_20(GameObject_t4012695102 * value)
 	{
-		___cubeManager_20 = value;
-		Il2CppCodeGenWriteBarrier(&___cubeManager_20, value);
+		___instructionPanel_20 = value;
+		Il2CppCodeGenWriteBarrier(&___instructionPanel_20, value);
+	}
+
+	inline static int32_t get_offset_of_cubeManager_21() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___cubeManager_21)); }
+	inline CubeManager_t4034287000 * get_cubeManager_21() const { return ___cubeManager_21; }
+	inline CubeManager_t4034287000 ** get_address_of_cubeManager_21() { return &___cubeManager_21; }
+	inline void set_cubeManager_21(CubeManager_t4034287000 * value)
+	{
+		___cubeManager_21 = value;
+		Il2CppCodeGenWriteBarrier(&___cubeManager_21, value);
 	}
 };
 

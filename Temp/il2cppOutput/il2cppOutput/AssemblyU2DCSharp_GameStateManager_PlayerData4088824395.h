@@ -29,6 +29,8 @@ public:
 	int32_t ___challengeScore_1;
 	// System.Int32 GameStateManager/PlayerData::obstacleScore
 	int32_t ___obstacleScore_2;
+	// System.Int32 GameStateManager/PlayerData::numberOfPlay
+	int32_t ___numberOfPlay_3;
 
 public:
 	inline static int32_t get_offset_of_playerScore_0() { return static_cast<int32_t>(offsetof(PlayerData_t4088824395, ___playerScore_0)); }
@@ -53,6 +55,14 @@ public:
 	inline void set_obstacleScore_2(int32_t value)
 	{
 		___obstacleScore_2 = value;
+	}
+
+	inline static int32_t get_offset_of_numberOfPlay_3() { return static_cast<int32_t>(offsetof(PlayerData_t4088824395, ___numberOfPlay_3)); }
+	inline int32_t get_numberOfPlay_3() const { return ___numberOfPlay_3; }
+	inline int32_t* get_address_of_numberOfPlay_3() { return &___numberOfPlay_3; }
+	inline void set_numberOfPlay_3(int32_t value)
+	{
+		___numberOfPlay_3 = value;
 	}
 };
 

@@ -11357,6 +11357,8 @@ extern "C" void GameStateManager_get_Scores_m1522763744 ();
 extern "C" void GameStateManager_set_Scores_m662854871 ();
 extern "C" void GameStateManager_get_NumBerOfGame_m3132017888 ();
 extern "C" void GameStateManager_set_NumBerOfGame_m4062883735 ();
+extern "C" void GameStateManager_get_NumOfPlay_m1443517253 ();
+extern "C" void GameStateManager_set_NumOfPlay_m3550164336 ();
 extern "C" void GameStateManager_get_SceneMaterialNum_m1026470881 ();
 extern "C" void GameStateManager_set_SceneMaterialNum_m564263448 ();
 extern "C" void GameStateManager_get_Score_m1514295878 ();
@@ -12086,7 +12088,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[12075] = 
+extern const methodPointerType g_MethodPointers[12077] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -23434,6 +23436,8 @@ extern const methodPointerType g_MethodPointers[12075] =
 	GameStateManager_set_Scores_m662854871,
 	GameStateManager_get_NumBerOfGame_m3132017888,
 	GameStateManager_set_NumBerOfGame_m4062883735,
+	GameStateManager_get_NumOfPlay_m1443517253,
+	GameStateManager_set_NumOfPlay_m3550164336,
 	GameStateManager_get_SceneMaterialNum_m1026470881,
 	GameStateManager_set_SceneMaterialNum_m564263448,
 	GameStateManager_get_Score_m1514295878,

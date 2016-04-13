@@ -30,6 +30,7 @@ public class ShowPanels : MonoBehaviour {
 	void Awake()
 	{
 		cubeManager = GameObject.FindWithTag("GameManager").GetComponent<CubeManager>();
+
 //		playMusic = GetComponent<PlayMusic>();
 	}
 
@@ -39,6 +40,8 @@ public class ShowPanels : MonoBehaviour {
 		{
 			liveChallengeTime.SetActive(true);
 		}
+
+		ShowMenu();
 
 	}
 
@@ -76,7 +79,7 @@ public class ShowPanels : MonoBehaviour {
 		{
 			startButton.SetActive(false);
 			refreshButton.SetActive(true);
-			noAdsButton.SetActive(true);
+//			noAdsButton.SetActive(true);
 //			askButton.SetActive(false);
 			fBshareButton.SetActive(true);
 			scorePanel.SetActive(true);
@@ -87,14 +90,15 @@ public class ShowPanels : MonoBehaviour {
 			startButton.SetActive(true);
 			refreshButton.SetActive(false);
 //			askButton.SetActive(true);
-			noAdsButton.SetActive(false);
+//			noAdsButton.SetActive(true);
 			fBshareButton.SetActive(false);
 			scorePanel.SetActive(false);
 			liveScore.SetActive(true);
 		}
 
+		GameStateManager.Instance.Load();
 		Debug.Log(GameStateManager.Instance.NumOfPlay);
-		if(GameStateManager.Instance.NumOfPlay > 3)
+		if(GameStateManager.Instance.NumOfPlay > 40)
 		{
 			askButton.SetActive(false);
 			rateButton.SetActive(true);
