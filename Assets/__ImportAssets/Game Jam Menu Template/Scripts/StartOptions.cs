@@ -100,8 +100,10 @@ public class StartOptions : MonoBehaviour {
 //		playMusic.FadeDown(0.1f);
 //		playMusic.PlaySelectedMusic(1);
 //		playMusic.FadeUp(0.1f);
+		GameStateManager.Instance.Load();
 		cubeManager.cubeLayerMask.value = 8192;	
 		GameStateManager.Instance.NumBerOfGame++;
+		GameStateManager.Instance.NumOfPlay++;
 		if(GameStateManager.Instance.IsChallenged)
 		{
 			GameStateManager.Instance.IsOutOfTime = false;

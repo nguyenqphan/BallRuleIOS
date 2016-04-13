@@ -61,8 +61,10 @@ public:
 	GameObject_t4012695102 * ___challengeLockImage_17;
 	// UnityEngine.GameObject ShowPanels::obstacleLockImage
 	GameObject_t4012695102 * ___obstacleLockImage_18;
+	// UnityEngine.GameObject ShowPanels::instructionPanel
+	GameObject_t4012695102 * ___instructionPanel_19;
 	// CubeManager ShowPanels::cubeManager
-	CubeManager_t4034287000 * ___cubeManager_19;
+	CubeManager_t4034287000 * ___cubeManager_20;
 
 public:
 	inline static int32_t get_offset_of_optionsPanel_2() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___optionsPanel_2)); }
@@ -218,13 +220,22 @@ public:
 		Il2CppCodeGenWriteBarrier(&___obstacleLockImage_18, value);
 	}
 
-	inline static int32_t get_offset_of_cubeManager_19() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___cubeManager_19)); }
-	inline CubeManager_t4034287000 * get_cubeManager_19() const { return ___cubeManager_19; }
-	inline CubeManager_t4034287000 ** get_address_of_cubeManager_19() { return &___cubeManager_19; }
-	inline void set_cubeManager_19(CubeManager_t4034287000 * value)
+	inline static int32_t get_offset_of_instructionPanel_19() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___instructionPanel_19)); }
+	inline GameObject_t4012695102 * get_instructionPanel_19() const { return ___instructionPanel_19; }
+	inline GameObject_t4012695102 ** get_address_of_instructionPanel_19() { return &___instructionPanel_19; }
+	inline void set_instructionPanel_19(GameObject_t4012695102 * value)
 	{
-		___cubeManager_19 = value;
-		Il2CppCodeGenWriteBarrier(&___cubeManager_19, value);
+		___instructionPanel_19 = value;
+		Il2CppCodeGenWriteBarrier(&___instructionPanel_19, value);
+	}
+
+	inline static int32_t get_offset_of_cubeManager_20() { return static_cast<int32_t>(offsetof(ShowPanels_t2673010796, ___cubeManager_20)); }
+	inline CubeManager_t4034287000 * get_cubeManager_20() const { return ___cubeManager_20; }
+	inline CubeManager_t4034287000 ** get_address_of_cubeManager_20() { return &___cubeManager_20; }
+	inline void set_cubeManager_20(CubeManager_t4034287000 * value)
+	{
+		___cubeManager_20 = value;
+		Il2CppCodeGenWriteBarrier(&___cubeManager_20, value);
 	}
 };
 

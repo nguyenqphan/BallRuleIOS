@@ -37,7 +37,6 @@ public class Destroyer : MonoBehaviour {
 	{
 		if (GameStateManager.Instance.BestChallengeScore < GameStateManager.HighScore) {
 			GameStateManager.Instance.BestChallengeScore = GameStateManager.HighScore;
-			GameStateManager.Instance.Save ();
 		}
 	}
 
@@ -46,7 +45,6 @@ public class Destroyer : MonoBehaviour {
 		if (GameStateManager.Instance.BestScore < GameStateManager.HighScore) 			
 		{
 			GameStateManager.Instance.BestScore = GameStateManager.HighScore;
-			GameStateManager.Instance.Save ();
 		}
 	}
 
@@ -55,7 +53,6 @@ public class Destroyer : MonoBehaviour {
 		if(GameStateManager.Instance.BestObstacleScore < GameStateManager.HighScore)
 		{
 			GameStateManager.Instance.BestObstacleScore = GameStateManager.HighScore;
-			GameStateManager.Instance.Save();
 		}
 	}
 		
@@ -69,7 +66,9 @@ public class Destroyer : MonoBehaviour {
 
 			showUI.ShowMenu();																	//Show the Menu
 			showUI.scaleText.SetActive(false);													//set the scale time text inactive
+			GameStateManager.Instance.Save();													//Save the number of Play first
 			GameStateManager.Instance.Load();				
+
 
 			if (!GameStateManager.Instance.IsObstacle) {
 				if (!GameStateManager.Instance.IsChallenged) {
@@ -86,7 +85,8 @@ public class Destroyer : MonoBehaviour {
 			else{
 				UpdateObstacleScore();
 			}
-		
+
+			GameStateManager.Instance.Save ();
 			updateScore.EndGameScore();
 			
 		}

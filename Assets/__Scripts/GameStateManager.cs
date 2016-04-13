@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 //using Facebook.Unity;
@@ -47,6 +47,12 @@ public class GameStateManager : MonoBehaviour {
 	public int NumBerOfGame{
 		get{return numberOfGame;}
 		set{numberOfGame = value;}
+	}
+
+	private int numOfPlay = 0;
+	public int NumOfPlay{
+		get{return numOfPlay;}
+		set{numOfPlay = value;}
 	}
 
 	private int sceneMaterialNum = 0;
@@ -128,6 +134,8 @@ public class GameStateManager : MonoBehaviour {
 		get{return indexMaterial;}
 		set{indexMaterial = value;}
 	}
+		
+
 
 	private GameObject cube;
 
@@ -196,6 +204,7 @@ public class GameStateManager : MonoBehaviour {
 		data.playerScore = GameStateManager.Instance.BestScore;
 		data.challengeScore = GameStateManager.Instance.BestChallengeScore;
 		data.obstacleScore = GameStateManager.Instance.BestObstacleScore;
+		data.numberOfPlay = GameStateManager.Instance.NumOfPlay;
 
 		bf.Serialize(file, data);
 		file.Close();
@@ -211,6 +220,8 @@ public class GameStateManager : MonoBehaviour {
 			GameStateManager.Instance.BestScore = data.playerScore;
 			GameStateManager.Instance.BestChallengeScore = data.challengeScore;
 			GameStateManager.Instance.BestObstacleScore = data.obstacleScore;
+			GameStateManager.Instance.NumOfPlay = data.numberOfPlay;
+
 			file.Close();
 
 		}
@@ -222,5 +233,6 @@ public class GameStateManager : MonoBehaviour {
 		public int playerScore;
 		public int challengeScore;
 		public int obstacleScore;
+		public int numberOfPlay;
 	}
 }

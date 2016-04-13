@@ -11536,6 +11536,8 @@ extern "C" void ShowPanels_ShowPausePanel_m789489280 ();
 extern "C" void ShowPanels_HidePausePanel_m1575446853 ();
 extern "C" void ShowPanels_HideChallLockImage_m1068688971 ();
 extern "C" void ShowPanels_HideObsLockImage_m3535669095 ();
+extern "C" void ShowPanels_ShowInstruction_m1526716638 ();
+extern "C" void ShowPanels_HideInstruction_m121597625 ();
 extern "C" void ShowSliderValue__ctor_m3360276248 ();
 extern "C" void ShowSliderValue_UpdateLabel_m3686347242 ();
 extern "C" void SkyboxMaterials__ctor_m40045449 ();
@@ -12084,7 +12086,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[12073] = 
+extern const methodPointerType g_MethodPointers[12075] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -23611,6 +23613,8 @@ extern const methodPointerType g_MethodPointers[12073] =
 	ShowPanels_HidePausePanel_m1575446853,
 	ShowPanels_HideChallLockImage_m1068688971,
 	ShowPanels_HideObsLockImage_m3535669095,
+	ShowPanels_ShowInstruction_m1526716638,
+	ShowPanels_HideInstruction_m121597625,
 	ShowSliderValue__ctor_m3360276248,
 	ShowSliderValue_UpdateLabel_m3686347242,
 	SkyboxMaterials__ctor_m40045449,

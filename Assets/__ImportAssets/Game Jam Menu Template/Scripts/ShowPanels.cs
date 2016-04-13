@@ -11,6 +11,7 @@ public class ShowPanels : MonoBehaviour {
 	public GameObject refreshButton;
 	public GameObject noAdsButton;
 	public GameObject askButton;
+	public GameObject rateButton;
 	public GameObject fBshareButton;
 	public GameObject scorePanel;
 	public GameObject liveScore;
@@ -20,6 +21,8 @@ public class ShowPanels : MonoBehaviour {
 	public GameObject outOfTimeText;
 	public GameObject challengeLockImage;
 	public GameObject obstacleLockImage;
+	public GameObject instructionPanel;
+
 	private CubeManager cubeManager;
 
 //	private PlayMusic playMusic;
@@ -74,7 +77,7 @@ public class ShowPanels : MonoBehaviour {
 			startButton.SetActive(false);
 			refreshButton.SetActive(true);
 			noAdsButton.SetActive(true);
-			askButton.SetActive(false);
+//			askButton.SetActive(false);
 			fBshareButton.SetActive(true);
 			scorePanel.SetActive(true);
 			liveScore.SetActive(false);
@@ -83,11 +86,18 @@ public class ShowPanels : MonoBehaviour {
 		else{
 			startButton.SetActive(true);
 			refreshButton.SetActive(false);
-			askButton.SetActive(true);
+//			askButton.SetActive(true);
 			noAdsButton.SetActive(false);
 			fBshareButton.SetActive(false);
 			scorePanel.SetActive(false);
 			liveScore.SetActive(true);
+		}
+
+		Debug.Log(GameStateManager.Instance.NumOfPlay);
+		if(GameStateManager.Instance.NumOfPlay > 3)
+		{
+			askButton.SetActive(false);
+			rateButton.SetActive(true);
 		}
 	}
 
@@ -122,5 +132,15 @@ public class ShowPanels : MonoBehaviour {
 	public void HideObsLockImage()
 	{
 		obstacleLockImage.SetActive(false);
+	}
+
+	public void ShowInstruction()
+	{
+		instructionPanel.SetActive(true);
+	}
+
+	public void HideInstruction()
+	{
+		instructionPanel.SetActive(false);
 	}
 }

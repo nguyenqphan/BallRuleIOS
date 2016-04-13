@@ -12579,7 +12579,7 @@ extern "C"  void ShowPanels_Awake_m3294821138 (ShowPanels_t2673010796 * __this, 
 		GameObject_t4012695102 * L_0 = GameObject_FindWithTag_m3162815092(NULL /*static, unused*/, _stringLiteral2369589051, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		CubeManager_t4034287000 * L_1 = GameObject_GetComponent_TisCubeManager_t4034287000_m3818973513(L_0, /*hidden argument*/GameObject_GetComponent_TisCubeManager_t4034287000_m3818973513_MethodInfo_var);
-		__this->set_cubeManager_19(L_1);
+		__this->set_cubeManager_20(L_1);
 		return;
 	}
 }
@@ -12660,7 +12660,7 @@ IL_0021:
 
 IL_0038:
 	{
-		CubeManager_t4034287000 * L_5 = __this->get_cubeManager_19();
+		CubeManager_t4034287000 * L_5 = __this->get_cubeManager_20();
 		NullCheck(L_5);
 		LayerMask_t1862190090 * L_6 = L_5->get_address_of_cubeLayerMask_3();
 		LayerMask_set_value_m3553706239(L_6, 2, /*hidden argument*/NULL);
@@ -12699,7 +12699,7 @@ extern "C"  void ShowPanels_ShowMenu_m994731697 (ShowPanels_t2673010796 * __this
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		CubeManager_t4034287000 * L_0 = __this->get_cubeManager_19();
+		CubeManager_t4034287000 * L_0 = __this->get_cubeManager_20();
 		NullCheck(L_0);
 		LayerMask_t1862190090 * L_1 = L_0->get_address_of_cubeLayerMask_3();
 		LayerMask_set_value_m3553706239(L_1, 2, /*hidden argument*/NULL);
@@ -12821,6 +12821,26 @@ extern "C"  void ShowPanels_HideObsLockImage_m3535669095 (ShowPanels_t2673010796
 {
 	{
 		GameObject_t4012695102 * L_0 = __this->get_obstacleLockImage_18();
+		NullCheck(L_0);
+		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ShowPanels::ShowInstruction()
+extern "C"  void ShowPanels_ShowInstruction_m1526716638 (ShowPanels_t2673010796 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = __this->get_instructionPanel_19();
+		NullCheck(L_0);
+		GameObject_SetActive_m3538205401(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ShowPanels::HideInstruction()
+extern "C"  void ShowPanels_HideInstruction_m121597625 (ShowPanels_t2673010796 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = __this->get_instructionPanel_19();
 		NullCheck(L_0);
 		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
 		return;

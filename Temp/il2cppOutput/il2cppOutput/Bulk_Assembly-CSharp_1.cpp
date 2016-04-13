@@ -371,7 +371,7 @@ extern "C"  void SpawnerManager_Awake_m2563504729 (SpawnerManager_t45089093 * __
 	{
 		SpawnerP_t2130838536 * L_0 = __this->get_address_of_spawnP_2();
 		SpawnerManager_t45089093 * L_1 = Component_GetComponent_TisSpawnerManager_t45089093_m2625400480(__this, /*hidden argument*/Component_GetComponent_TisSpawnerManager_t45089093_m2625400480_MethodInfo_var);
-		L_0->set_spawnManager_18(L_1);
+		L_0->set_spawnManager_17(L_1);
 		return;
 	}
 }
@@ -416,315 +416,313 @@ extern "C"  void SpawnerManager_Start_m1273037302 (SpawnerManager_t45089093 * __
 		SpawnerP_t2130838536 * L_4 = __this->get_address_of_spawnP_2();
 		L_4->set_fixedY_8((4.0f));
 		SpawnerP_t2130838536 * L_5 = __this->get_address_of_spawnP_2();
-		L_5->set_speedTime_10((1.0f));
+		L_5->set_firstSpawn_10((bool)1);
 		SpawnerP_t2130838536 * L_6 = __this->get_address_of_spawnP_2();
-		L_6->set_firstSpawn_11((bool)1);
+		L_6->set_spawnNumber_11(0);
 		SpawnerP_t2130838536 * L_7 = __this->get_address_of_spawnP_2();
-		L_7->set_spawnNumber_12(0);
+		L_7->set_randomCubeNum_5(0);
 		SpawnerP_t2130838536 * L_8 = __this->get_address_of_spawnP_2();
-		L_8->set_randomCubeNum_5(0);
-		SpawnerP_t2130838536 * L_9 = __this->get_address_of_spawnP_2();
-		L_9->set_smallestNum_0(0);
+		L_8->set_smallestNum_0(0);
+		List_1_t514686775 * L_9 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_9, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->set_cubeList_16(L_9);
 		List_1_t514686775 * L_10 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
 		List_1__ctor_m2397334390(L_10, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_cubeList_16(L_10);
+		__this->set_particleList_17(L_10);
 		List_1_t514686775 * L_11 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
 		List_1__ctor_m2397334390(L_11, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_particleList_17(L_11);
+		__this->set_diamondList_18(L_11);
 		List_1_t514686775 * L_12 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
 		List_1__ctor_m2397334390(L_12, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_diamondList_18(L_12);
+		__this->set_diaEmissiveList_19(L_12);
 		List_1_t514686775 * L_13 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
 		List_1__ctor_m2397334390(L_13, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_diaEmissiveList_19(L_13);
+		__this->set_diaBreakingList_20(L_13);
 		List_1_t514686775 * L_14 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
 		List_1__ctor_m2397334390(L_14, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_diaBreakingList_20(L_14);
+		__this->set_ballList_21(L_14);
 		List_1_t514686775 * L_15 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
 		List_1__ctor_m2397334390(L_15, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_ballList_21(L_15);
+		__this->set_ballExplodeList_22(L_15);
 		List_1_t514686775 * L_16 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
 		List_1__ctor_m2397334390(L_16, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_ballExplodeList_22(L_16);
+		__this->set_smallCubeList_23(L_16);
 		List_1_t514686775 * L_17 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
 		List_1__ctor_m2397334390(L_17, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_smallCubeList_23(L_17);
+		__this->set_smallestCubeList_24(L_17);
 		List_1_t514686775 * L_18 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
 		List_1__ctor_m2397334390(L_18, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_smallestCubeList_24(L_18);
-		List_1_t514686775 * L_19 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
-		List_1__ctor_m2397334390(L_19, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_starList_25(L_19);
+		__this->set_starList_25(L_18);
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_20 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_20);
-		bool L_21 = GameStateManager_get_IsObstacle_m1226902637(L_20, /*hidden argument*/NULL);
-		if (!L_21)
+		GameStateManager_t648042254 * L_19 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		bool L_20 = GameStateManager_get_IsObstacle_m1226902637(L_19, /*hidden argument*/NULL);
+		if (!L_20)
 		{
-			goto IL_014e;
+			goto IL_013e;
 		}
 	}
 	{
-		List_1_t514686775 * L_22 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
-		List_1__ctor_m2397334390(L_22, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
-		__this->set_ballObstacleList_26(L_22);
+		List_1_t514686775 * L_21 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_21, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->set_ballObstacleList_26(L_21);
 		V_0 = 0;
-		goto IL_0147;
+		goto IL_0137;
 	}
 
-IL_010f:
+IL_00ff:
 	{
-		GameObject_t4012695102 * L_23 = __this->get_ballObstacle_15();
-		Transform_t284553113 * L_24 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_24);
-		Vector3_t3525329789  L_25 = Transform_get_position_m2211398607(L_24, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_26 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_27 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_23, L_25, L_26, /*hidden argument*/NULL);
-		V_1 = ((GameObject_t4012695102 *)IsInstSealed(L_27, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_28 = V_1;
+		GameObject_t4012695102 * L_22 = __this->get_ballObstacle_15();
+		Transform_t284553113 * L_23 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Vector3_t3525329789  L_24 = Transform_get_position_m2211398607(L_23, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_25 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_26 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_22, L_24, L_25, /*hidden argument*/NULL);
+		V_1 = ((GameObject_t4012695102 *)IsInstSealed(L_26, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_27 = V_1;
+		NullCheck(L_27);
+		GameObject_SetActive_m3538205401(L_27, (bool)0, /*hidden argument*/NULL);
+		List_1_t514686775 * L_28 = __this->get_ballObstacleList_26();
+		GameObject_t4012695102 * L_29 = V_1;
 		NullCheck(L_28);
-		GameObject_SetActive_m3538205401(L_28, (bool)0, /*hidden argument*/NULL);
-		List_1_t514686775 * L_29 = __this->get_ballObstacleList_26();
-		GameObject_t4012695102 * L_30 = V_1;
-		NullCheck(L_29);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_29, L_30);
-		int32_t L_31 = V_0;
-		V_0 = ((int32_t)((int32_t)L_31+(int32_t)1));
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_28, L_29);
+		int32_t L_30 = V_0;
+		V_0 = ((int32_t)((int32_t)L_30+(int32_t)1));
 	}
 
-IL_0147:
+IL_0137:
 	{
-		int32_t L_32 = V_0;
-		if ((((int32_t)L_32) < ((int32_t)6)))
+		int32_t L_31 = V_0;
+		if ((((int32_t)L_31) < ((int32_t)6)))
 		{
-			goto IL_010f;
+			goto IL_00ff;
 		}
 	}
 
-IL_014e:
+IL_013e:
 	{
 		V_2 = 0;
-		goto IL_0232;
+		goto IL_0222;
 	}
 
-IL_0155:
+IL_0145:
 	{
-		GameObject_t4012695102 * L_33 = __this->get_cubeToInstantiate_5();
-		Transform_t284553113 * L_34 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_34);
-		Vector3_t3525329789  L_35 = Transform_get_position_m2211398607(L_34, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_36 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_37 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_33, L_35, L_36, /*hidden argument*/NULL);
-		V_3 = ((GameObject_t4012695102 *)IsInstSealed(L_37, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_38 = __this->get_smallCube_12();
-		Transform_t284553113 * L_39 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_39);
-		Vector3_t3525329789  L_40 = Transform_get_position_m2211398607(L_39, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_41 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_42 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_38, L_40, L_41, /*hidden argument*/NULL);
-		V_4 = ((GameObject_t4012695102 *)IsInstSealed(L_42, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_43 = __this->get_mallestCube_13();
-		Transform_t284553113 * L_44 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_44);
-		Vector3_t3525329789  L_45 = Transform_get_position_m2211398607(L_44, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_46 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_47 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_43, L_45, L_46, /*hidden argument*/NULL);
-		V_5 = ((GameObject_t4012695102 *)IsInstSealed(L_47, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_48 = __this->get_cubeParticle_6();
-		Transform_t284553113 * L_49 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_49);
-		Vector3_t3525329789  L_50 = Transform_get_position_m2211398607(L_49, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_51 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_52 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_48, L_50, L_51, /*hidden argument*/NULL);
-		V_6 = ((GameObject_t4012695102 *)IsInstSealed(L_52, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_53 = V_3;
+		GameObject_t4012695102 * L_32 = __this->get_cubeToInstantiate_5();
+		Transform_t284553113 * L_33 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		Vector3_t3525329789  L_34 = Transform_get_position_m2211398607(L_33, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_35 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_36 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_32, L_34, L_35, /*hidden argument*/NULL);
+		V_3 = ((GameObject_t4012695102 *)IsInstSealed(L_36, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_37 = __this->get_smallCube_12();
+		Transform_t284553113 * L_38 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_38);
+		Vector3_t3525329789  L_39 = Transform_get_position_m2211398607(L_38, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_40 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_41 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_37, L_39, L_40, /*hidden argument*/NULL);
+		V_4 = ((GameObject_t4012695102 *)IsInstSealed(L_41, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_42 = __this->get_mallestCube_13();
+		Transform_t284553113 * L_43 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_43);
+		Vector3_t3525329789  L_44 = Transform_get_position_m2211398607(L_43, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_45 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_46 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_42, L_44, L_45, /*hidden argument*/NULL);
+		V_5 = ((GameObject_t4012695102 *)IsInstSealed(L_46, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_47 = __this->get_cubeParticle_6();
+		Transform_t284553113 * L_48 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_48);
+		Vector3_t3525329789  L_49 = Transform_get_position_m2211398607(L_48, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_50 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_51 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_47, L_49, L_50, /*hidden argument*/NULL);
+		V_6 = ((GameObject_t4012695102 *)IsInstSealed(L_51, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_52 = V_3;
+		NullCheck(L_52);
+		GameObject_SetActive_m3538205401(L_52, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_53 = V_4;
 		NullCheck(L_53);
 		GameObject_SetActive_m3538205401(L_53, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_54 = V_4;
+		GameObject_t4012695102 * L_54 = V_5;
 		NullCheck(L_54);
 		GameObject_SetActive_m3538205401(L_54, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_55 = V_5;
+		GameObject_t4012695102 * L_55 = V_6;
 		NullCheck(L_55);
 		GameObject_SetActive_m3538205401(L_55, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_56 = V_6;
+		List_1_t514686775 * L_56 = __this->get_cubeList_16();
+		GameObject_t4012695102 * L_57 = V_3;
 		NullCheck(L_56);
-		GameObject_SetActive_m3538205401(L_56, (bool)0, /*hidden argument*/NULL);
-		List_1_t514686775 * L_57 = __this->get_cubeList_16();
-		GameObject_t4012695102 * L_58 = V_3;
-		NullCheck(L_57);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_57, L_58);
-		List_1_t514686775 * L_59 = __this->get_smallCubeList_23();
-		GameObject_t4012695102 * L_60 = V_4;
-		NullCheck(L_59);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_59, L_60);
-		List_1_t514686775 * L_61 = __this->get_smallestCubeList_24();
-		GameObject_t4012695102 * L_62 = V_5;
-		NullCheck(L_61);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_61, L_62);
-		List_1_t514686775 * L_63 = __this->get_particleList_17();
-		GameObject_t4012695102 * L_64 = V_6;
-		NullCheck(L_63);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_63, L_64);
-		int32_t L_65 = V_2;
-		V_2 = ((int32_t)((int32_t)L_65+(int32_t)1));
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_56, L_57);
+		List_1_t514686775 * L_58 = __this->get_smallCubeList_23();
+		GameObject_t4012695102 * L_59 = V_4;
+		NullCheck(L_58);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_58, L_59);
+		List_1_t514686775 * L_60 = __this->get_smallestCubeList_24();
+		GameObject_t4012695102 * L_61 = V_5;
+		NullCheck(L_60);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_60, L_61);
+		List_1_t514686775 * L_62 = __this->get_particleList_17();
+		GameObject_t4012695102 * L_63 = V_6;
+		NullCheck(L_62);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_62, L_63);
+		int32_t L_64 = V_2;
+		V_2 = ((int32_t)((int32_t)L_64+(int32_t)1));
 	}
 
-IL_0232:
+IL_0222:
 	{
-		int32_t L_66 = V_2;
-		SpawnerP_t2130838536 * L_67 = __this->get_address_of_spawnP_2();
-		int32_t L_68 = L_67->get_pooledAmount_2();
-		if ((((int32_t)L_66) < ((int32_t)L_68)))
+		int32_t L_65 = V_2;
+		SpawnerP_t2130838536 * L_66 = __this->get_address_of_spawnP_2();
+		int32_t L_67 = L_66->get_pooledAmount_2();
+		if ((((int32_t)L_65) < ((int32_t)L_67)))
 		{
-			goto IL_0155;
+			goto IL_0145;
 		}
 	}
 	{
 		V_7 = 0;
-		goto IL_0310;
+		goto IL_0300;
 	}
 
-IL_024b:
+IL_023b:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_69 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_69);
-		bool L_70 = GameStateManager_get_IsChallenged_m3135670911(L_69, /*hidden argument*/NULL);
-		if (!L_70)
+		GameStateManager_t648042254 * L_68 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_68);
+		bool L_69 = GameStateManager_get_IsChallenged_m3135670911(L_68, /*hidden argument*/NULL);
+		if (!L_69)
 		{
-			goto IL_0265;
+			goto IL_0255;
 		}
 	}
 	{
-		GameObject_t4012695102 * L_71 = __this->get_star_14();
+		GameObject_t4012695102 * L_70 = __this->get_star_14();
+		G_B11_0 = L_70;
+		goto IL_025b;
+	}
+
+IL_0255:
+	{
+		GameObject_t4012695102 * L_71 = __this->get_diamond_7();
 		G_B11_0 = L_71;
-		goto IL_026b;
 	}
 
-IL_0265:
+IL_025b:
 	{
-		GameObject_t4012695102 * L_72 = __this->get_diamond_7();
-		G_B11_0 = L_72;
-	}
-
-IL_026b:
-	{
-		Transform_t284553113 * L_73 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_73);
-		Vector3_t3525329789  L_74 = Transform_get_position_m2211398607(L_73, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_75 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_76 = Object_Instantiate_m2255090103(NULL /*static, unused*/, G_B11_0, L_74, L_75, /*hidden argument*/NULL);
-		V_8 = ((GameObject_t4012695102 *)IsInstSealed(L_76, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_77 = __this->get_diaEmissive_8();
-		Transform_t284553113 * L_78 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_78);
-		Vector3_t3525329789  L_79 = Transform_get_position_m2211398607(L_78, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_80 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_81 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_77, L_79, L_80, /*hidden argument*/NULL);
-		V_9 = ((GameObject_t4012695102 *)IsInstSealed(L_81, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_82 = __this->get_diaBreaking_9();
-		Transform_t284553113 * L_83 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_83);
-		Vector3_t3525329789  L_84 = Transform_get_position_m2211398607(L_83, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_85 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_86 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_82, L_84, L_85, /*hidden argument*/NULL);
-		V_10 = ((GameObject_t4012695102 *)IsInstSealed(L_86, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_87 = V_8;
+		Transform_t284553113 * L_72 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_72);
+		Vector3_t3525329789  L_73 = Transform_get_position_m2211398607(L_72, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_74 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_75 = Object_Instantiate_m2255090103(NULL /*static, unused*/, G_B11_0, L_73, L_74, /*hidden argument*/NULL);
+		V_8 = ((GameObject_t4012695102 *)IsInstSealed(L_75, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_76 = __this->get_diaEmissive_8();
+		Transform_t284553113 * L_77 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_77);
+		Vector3_t3525329789  L_78 = Transform_get_position_m2211398607(L_77, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_79 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_80 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_76, L_78, L_79, /*hidden argument*/NULL);
+		V_9 = ((GameObject_t4012695102 *)IsInstSealed(L_80, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_81 = __this->get_diaBreaking_9();
+		Transform_t284553113 * L_82 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_82);
+		Vector3_t3525329789  L_83 = Transform_get_position_m2211398607(L_82, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_84 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_85 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_81, L_83, L_84, /*hidden argument*/NULL);
+		V_10 = ((GameObject_t4012695102 *)IsInstSealed(L_85, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_86 = V_8;
+		NullCheck(L_86);
+		GameObject_SetActive_m3538205401(L_86, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_87 = V_9;
 		NullCheck(L_87);
 		GameObject_SetActive_m3538205401(L_87, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_88 = V_9;
+		GameObject_t4012695102 * L_88 = V_10;
 		NullCheck(L_88);
 		GameObject_SetActive_m3538205401(L_88, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_89 = V_10;
+		List_1_t514686775 * L_89 = __this->get_diamondList_18();
+		GameObject_t4012695102 * L_90 = V_8;
 		NullCheck(L_89);
-		GameObject_SetActive_m3538205401(L_89, (bool)0, /*hidden argument*/NULL);
-		List_1_t514686775 * L_90 = __this->get_diamondList_18();
-		GameObject_t4012695102 * L_91 = V_8;
-		NullCheck(L_90);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_90, L_91);
-		List_1_t514686775 * L_92 = __this->get_diaEmissiveList_19();
-		GameObject_t4012695102 * L_93 = V_9;
-		NullCheck(L_92);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_92, L_93);
-		List_1_t514686775 * L_94 = __this->get_diaBreakingList_20();
-		GameObject_t4012695102 * L_95 = V_10;
-		NullCheck(L_94);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_94, L_95);
-		int32_t L_96 = V_7;
-		V_7 = ((int32_t)((int32_t)L_96+(int32_t)1));
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_89, L_90);
+		List_1_t514686775 * L_91 = __this->get_diaEmissiveList_19();
+		GameObject_t4012695102 * L_92 = V_9;
+		NullCheck(L_91);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_91, L_92);
+		List_1_t514686775 * L_93 = __this->get_diaBreakingList_20();
+		GameObject_t4012695102 * L_94 = V_10;
+		NullCheck(L_93);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_93, L_94);
+		int32_t L_95 = V_7;
+		V_7 = ((int32_t)((int32_t)L_95+(int32_t)1));
 	}
 
-IL_0310:
+IL_0300:
 	{
-		int32_t L_97 = V_7;
-		SpawnerP_t2130838536 * L_98 = __this->get_address_of_spawnP_2();
-		int32_t L_99 = L_98->get_diamondAmount_4();
-		if ((((int32_t)L_97) < ((int32_t)L_99)))
+		int32_t L_96 = V_7;
+		SpawnerP_t2130838536 * L_97 = __this->get_address_of_spawnP_2();
+		int32_t L_98 = L_97->get_diamondAmount_4();
+		if ((((int32_t)L_96) < ((int32_t)L_98)))
 		{
-			goto IL_024b;
+			goto IL_023b;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_100 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_100);
-		bool L_101 = GameStateManager_get_IsChallenged_m3135670911(L_100, /*hidden argument*/NULL);
-		if (L_101)
+		GameStateManager_t648042254 * L_99 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_99);
+		bool L_100 = GameStateManager_get_IsChallenged_m3135670911(L_99, /*hidden argument*/NULL);
+		if (L_100)
 		{
-			goto IL_03bf;
+			goto IL_03af;
 		}
 	}
 	{
 		V_11 = 0;
-		goto IL_03ad;
+		goto IL_039d;
 	}
 
-IL_0339:
+IL_0329:
 	{
-		GameObject_t4012695102 * L_102 = __this->get_ball_10();
-		Transform_t284553113 * L_103 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_103);
-		Vector3_t3525329789  L_104 = Transform_get_position_m2211398607(L_103, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_105 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_106 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_102, L_104, L_105, /*hidden argument*/NULL);
-		V_12 = ((GameObject_t4012695102 *)IsInstSealed(L_106, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_107 = __this->get_ballExplode_11();
-		Transform_t284553113 * L_108 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
-		NullCheck(L_108);
-		Vector3_t3525329789  L_109 = Transform_get_position_m2211398607(L_108, /*hidden argument*/NULL);
-		Quaternion_t1891715979  L_110 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Object_t3878351788 * L_111 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_107, L_109, L_110, /*hidden argument*/NULL);
-		V_13 = ((GameObject_t4012695102 *)IsInstSealed(L_111, GameObject_t4012695102_il2cpp_TypeInfo_var));
-		GameObject_t4012695102 * L_112 = V_12;
+		GameObject_t4012695102 * L_101 = __this->get_ball_10();
+		Transform_t284553113 * L_102 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_102);
+		Vector3_t3525329789  L_103 = Transform_get_position_m2211398607(L_102, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_104 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_105 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_101, L_103, L_104, /*hidden argument*/NULL);
+		V_12 = ((GameObject_t4012695102 *)IsInstSealed(L_105, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_106 = __this->get_ballExplode_11();
+		Transform_t284553113 * L_107 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_107);
+		Vector3_t3525329789  L_108 = Transform_get_position_m2211398607(L_107, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_109 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_110 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_106, L_108, L_109, /*hidden argument*/NULL);
+		V_13 = ((GameObject_t4012695102 *)IsInstSealed(L_110, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_111 = V_12;
+		NullCheck(L_111);
+		GameObject_SetActive_m3538205401(L_111, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_112 = V_13;
 		NullCheck(L_112);
 		GameObject_SetActive_m3538205401(L_112, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_113 = V_13;
+		List_1_t514686775 * L_113 = __this->get_ballList_21();
+		GameObject_t4012695102 * L_114 = V_12;
 		NullCheck(L_113);
-		GameObject_SetActive_m3538205401(L_113, (bool)0, /*hidden argument*/NULL);
-		List_1_t514686775 * L_114 = __this->get_ballList_21();
-		GameObject_t4012695102 * L_115 = V_12;
-		NullCheck(L_114);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_114, L_115);
-		List_1_t514686775 * L_116 = __this->get_ballExplodeList_22();
-		GameObject_t4012695102 * L_117 = V_13;
-		NullCheck(L_116);
-		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_116, L_117);
-		int32_t L_118 = V_11;
-		V_11 = ((int32_t)((int32_t)L_118+(int32_t)1));
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_113, L_114);
+		List_1_t514686775 * L_115 = __this->get_ballExplodeList_22();
+		GameObject_t4012695102 * L_116 = V_13;
+		NullCheck(L_115);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_115, L_116);
+		int32_t L_117 = V_11;
+		V_11 = ((int32_t)((int32_t)L_117+(int32_t)1));
 	}
 
-IL_03ad:
+IL_039d:
 	{
-		int32_t L_119 = V_11;
-		SpawnerP_t2130838536 * L_120 = __this->get_address_of_spawnP_2();
-		int32_t L_121 = L_120->get_ballAmount_3();
-		if ((((int32_t)L_119) < ((int32_t)L_121)))
+		int32_t L_118 = V_11;
+		SpawnerP_t2130838536 * L_119 = __this->get_address_of_spawnP_2();
+		int32_t L_120 = L_119->get_ballAmount_3();
+		if ((((int32_t)L_118) < ((int32_t)L_120)))
 		{
-			goto IL_0339;
+			goto IL_0329;
 		}
 	}
 
-IL_03bf:
+IL_03af:
 	{
 		return;
 	}
@@ -936,10 +934,10 @@ IL_005e:
 	{
 		SpawnerP_t2130838536 * L_8 = __this->get_address_of_spawnP_2();
 		SpawnerP_t2130838536 * L_9 = L_8;
-		int32_t L_10 = L_9->get_spawnNumber_12();
-		L_9->set_spawnNumber_12(((int32_t)((int32_t)L_10+(int32_t)1)));
+		int32_t L_10 = L_9->get_spawnNumber_11();
+		L_9->set_spawnNumber_11(((int32_t)((int32_t)L_10+(int32_t)1)));
 		SpawnerP_t2130838536 * L_11 = __this->get_address_of_spawnP_2();
-		int32_t L_12 = L_11->get_spawnNumber_12();
+		int32_t L_12 = L_11->get_spawnNumber_11();
 		if (((int32_t)((int32_t)L_12%(int32_t)((int32_t)100))))
 		{
 			goto IL_008a;
@@ -1726,11 +1724,11 @@ IL_004d:
 		GameObject_t4012695102 * L_39 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_37, L_38);
 		NullCheck(L_39);
 		Ball_t2062879 * L_40 = GameObject_GetComponent_TisBall_t2062879_m3020420446(L_39, /*hidden argument*/GameObject_GetComponent_TisBall_t2062879_m3020420446_MethodInfo_var);
-		L_35->set_ballScript_17(L_40);
+		L_35->set_ballScript_16(L_40);
 		SpawnerManager_t45089093 * L_41 = __this->get_U3CU3Ef__this_3();
 		NullCheck(L_41);
 		SpawnerP_t2130838536 * L_42 = L_41->get_address_of_spawnP_2();
-		Ball_t2062879 * L_43 = L_42->get_ballScript_17();
+		Ball_t2062879 * L_43 = L_42->get_ballScript_16();
 		SpawnerManager_t45089093 * L_44 = __this->get_U3CU3Ef__this_3();
 		NullCheck(L_44);
 		Vector3_t3525329789  L_45 = SpawnerManager_ballPos_m1551588303(L_44, /*hidden argument*/NULL);
@@ -1739,7 +1737,7 @@ IL_004d:
 		SpawnerManager_t45089093 * L_46 = __this->get_U3CU3Ef__this_3();
 		NullCheck(L_46);
 		SpawnerP_t2130838536 * L_47 = L_46->get_address_of_spawnP_2();
-		Ball_t2062879 * L_48 = L_47->get_ballScript_17();
+		Ball_t2062879 * L_48 = L_47->get_ballScript_16();
 		SpawnerManager_t45089093 * L_49 = __this->get_U3CU3Ef__this_3();
 		NullCheck(L_49);
 		List_1_t514686775 * L_50 = L_49->get_ballList_21();
@@ -2114,7 +2112,7 @@ IL_0025:
 		SpawnerManager_t45089093 * L_18 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_18);
 		SpawnerP_t2130838536 * L_19 = L_18->get_address_of_spawnP_2();
-		L_19->set_matchNum_13((bool)1);
+		L_19->set_matchNum_12((bool)1);
 		goto IL_00b8;
 	}
 
@@ -2123,7 +2121,7 @@ IL_00a7:
 		SpawnerManager_t45089093 * L_20 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_20);
 		SpawnerP_t2130838536 * L_21 = L_20->get_address_of_spawnP_2();
-		L_21->set_matchNum_13((bool)0);
+		L_21->set_matchNum_12((bool)0);
 	}
 
 IL_00b8:
@@ -2170,7 +2168,7 @@ IL_00f4:
 		SpawnerManager_t45089093 * L_32 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_32);
 		SpawnerP_t2130838536 * L_33 = L_32->get_address_of_spawnP_2();
-		int32_t L_34 = L_33->get_spawnNumber_12();
+		int32_t L_34 = L_33->get_spawnNumber_11();
 		if (((int32_t)((int32_t)L_34%(int32_t)7)))
 		{
 			goto IL_016a;
@@ -2197,11 +2195,11 @@ IL_00f4:
 		NullCheck(L_40);
 		SpawnerP_t2130838536 * L_41 = L_40->get_address_of_spawnP_2();
 		SpawnerP_t2130838536 * L_42 = L_41;
-		int32_t L_43 = L_42->get_spawnNumber_12();
+		int32_t L_43 = L_42->get_spawnNumber_11();
 		SpawnerManager_t45089093 * L_44 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_44);
 		int32_t L_45 = SpawnerManager_RandomIncrease_m747309633(L_44, /*hidden argument*/NULL);
-		L_42->set_spawnNumber_12(((int32_t)((int32_t)L_43+(int32_t)L_45)));
+		L_42->set_spawnNumber_11(((int32_t)((int32_t)L_43+(int32_t)L_45)));
 	}
 
 IL_016a:
@@ -2228,7 +2226,7 @@ IL_0186:
 		SpawnerManager_t45089093 * L_50 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_50);
 		SpawnerP_t2130838536 * L_51 = L_50->get_address_of_spawnP_2();
-		bool L_52 = L_51->get_matchNum_13();
+		bool L_52 = L_51->get_matchNum_12();
 		if (L_52)
 		{
 			goto IL_036e;
@@ -2304,7 +2302,7 @@ IL_01bc:
 		GameObject_t4012695102 * L_83 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_81, L_82);
 		NullCheck(L_83);
 		MainCube_t55713198 * L_84 = GameObject_GetComponent_TisMainCube_t55713198_m3794875503(L_83, /*hidden argument*/GameObject_GetComponent_TisMainCube_t55713198_m3794875503_MethodInfo_var);
-		L_79->set_mainCube_14(L_84);
+		L_79->set_mainCube_13(L_84);
 		SpawnerManager_t45089093 * L_85 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_85);
 		SpawnerP_t2130838536 * L_86 = L_85->get_address_of_spawnP_2();
@@ -2316,11 +2314,11 @@ IL_01bc:
 		GameObject_t4012695102 * L_90 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_88, L_89);
 		NullCheck(L_90);
 		Cube_t2111573 * L_91 = GameObject_GetComponentInChildren_TisCube_t2111573_m2983726412(L_90, /*hidden argument*/GameObject_GetComponentInChildren_TisCube_t2111573_m2983726412_MethodInfo_var);
-		L_86->set_cube_15(L_91);
+		L_86->set_cube_14(L_91);
 		SpawnerManager_t45089093 * L_92 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_92);
 		SpawnerP_t2130838536 * L_93 = L_92->get_address_of_spawnP_2();
-		Cube_t2111573 * L_94 = L_93->get_cube_15();
+		Cube_t2111573 * L_94 = L_93->get_cube_14();
 		NullCheck(L_94);
 		GameObject_t4012695102 * L_95 = Component_get_gameObject_m1170635899(L_94, /*hidden argument*/NULL);
 		NullCheck(L_95);
@@ -2335,7 +2333,7 @@ IL_01bc:
 		SpawnerManager_t45089093 * L_100 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_100);
 		SpawnerP_t2130838536 * L_101 = L_100->get_address_of_spawnP_2();
-		Cube_t2111573 * L_102 = L_101->get_cube_15();
+		Cube_t2111573 * L_102 = L_101->get_cube_14();
 		NullCheck(L_102);
 		GameObject_t4012695102 * L_103 = Component_get_gameObject_m1170635899(L_102, /*hidden argument*/NULL);
 		NullCheck(L_103);
@@ -2349,7 +2347,7 @@ IL_01bc:
 		SpawnerManager_t45089093 * L_108 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_108);
 		SpawnerP_t2130838536 * L_109 = L_108->get_address_of_spawnP_2();
-		MainCube_t55713198 * L_110 = L_109->get_mainCube_14();
+		MainCube_t55713198 * L_110 = L_109->get_mainCube_13();
 		SpawnerManager_t45089093 * L_111 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_111);
 		SpawnerP_t2130838536 * L_112 = L_111->get_address_of_spawnP_2();
@@ -2455,7 +2453,7 @@ IL_037a:
 		GameObject_t4012695102 * L_149 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_147, L_148);
 		NullCheck(L_149);
 		MainCube_t55713198 * L_150 = GameObject_GetComponent_TisMainCube_t55713198_m3794875503(L_149, /*hidden argument*/GameObject_GetComponent_TisMainCube_t55713198_m3794875503_MethodInfo_var);
-		L_145->set_mainCube_14(L_150);
+		L_145->set_mainCube_13(L_150);
 		SpawnerManager_t45089093 * L_151 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_151);
 		SpawnerP_t2130838536 * L_152 = L_151->get_address_of_spawnP_2();
@@ -2467,11 +2465,11 @@ IL_037a:
 		GameObject_t4012695102 * L_156 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_154, L_155);
 		NullCheck(L_156);
 		Cube_t2111573 * L_157 = GameObject_GetComponentInChildren_TisCube_t2111573_m2983726412(L_156, /*hidden argument*/GameObject_GetComponentInChildren_TisCube_t2111573_m2983726412_MethodInfo_var);
-		L_152->set_cube_15(L_157);
+		L_152->set_cube_14(L_157);
 		SpawnerManager_t45089093 * L_158 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_158);
 		SpawnerP_t2130838536 * L_159 = L_158->get_address_of_spawnP_2();
-		Cube_t2111573 * L_160 = L_159->get_cube_15();
+		Cube_t2111573 * L_160 = L_159->get_cube_14();
 		NullCheck(L_160);
 		GameObject_t4012695102 * L_161 = Component_get_gameObject_m1170635899(L_160, /*hidden argument*/NULL);
 		NullCheck(L_161);
@@ -2486,7 +2484,7 @@ IL_037a:
 		SpawnerManager_t45089093 * L_166 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_166);
 		SpawnerP_t2130838536 * L_167 = L_166->get_address_of_spawnP_2();
-		Cube_t2111573 * L_168 = L_167->get_cube_15();
+		Cube_t2111573 * L_168 = L_167->get_cube_14();
 		NullCheck(L_168);
 		GameObject_t4012695102 * L_169 = Component_get_gameObject_m1170635899(L_168, /*hidden argument*/NULL);
 		NullCheck(L_169);
@@ -2497,7 +2495,7 @@ IL_037a:
 		SpawnerManager_t45089093 * L_172 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_172);
 		SpawnerP_t2130838536 * L_173 = L_172->get_address_of_spawnP_2();
-		MainCube_t55713198 * L_174 = L_173->get_mainCube_14();
+		MainCube_t55713198 * L_174 = L_173->get_mainCube_13();
 		SpawnerManager_t45089093 * L_175 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_175);
 		SpawnerP_t2130838536 * L_176 = L_175->get_address_of_spawnP_2();
@@ -2603,7 +2601,7 @@ IL_0532:
 		GameObject_t4012695102 * L_213 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_211, L_212);
 		NullCheck(L_213);
 		MainCube_t55713198 * L_214 = GameObject_GetComponent_TisMainCube_t55713198_m3794875503(L_213, /*hidden argument*/GameObject_GetComponent_TisMainCube_t55713198_m3794875503_MethodInfo_var);
-		L_209->set_mainCube_14(L_214);
+		L_209->set_mainCube_13(L_214);
 		SpawnerManager_t45089093 * L_215 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_215);
 		SpawnerP_t2130838536 * L_216 = L_215->get_address_of_spawnP_2();
@@ -2615,11 +2613,11 @@ IL_0532:
 		GameObject_t4012695102 * L_220 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_218, L_219);
 		NullCheck(L_220);
 		Cube_t2111573 * L_221 = GameObject_GetComponentInChildren_TisCube_t2111573_m2983726412(L_220, /*hidden argument*/GameObject_GetComponentInChildren_TisCube_t2111573_m2983726412_MethodInfo_var);
-		L_216->set_cube_15(L_221);
+		L_216->set_cube_14(L_221);
 		SpawnerManager_t45089093 * L_222 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_222);
 		SpawnerP_t2130838536 * L_223 = L_222->get_address_of_spawnP_2();
-		Cube_t2111573 * L_224 = L_223->get_cube_15();
+		Cube_t2111573 * L_224 = L_223->get_cube_14();
 		NullCheck(L_224);
 		GameObject_t4012695102 * L_225 = Component_get_gameObject_m1170635899(L_224, /*hidden argument*/NULL);
 		NullCheck(L_225);
@@ -2634,7 +2632,7 @@ IL_0532:
 		SpawnerManager_t45089093 * L_230 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_230);
 		SpawnerP_t2130838536 * L_231 = L_230->get_address_of_spawnP_2();
-		Cube_t2111573 * L_232 = L_231->get_cube_15();
+		Cube_t2111573 * L_232 = L_231->get_cube_14();
 		NullCheck(L_232);
 		GameObject_t4012695102 * L_233 = Component_get_gameObject_m1170635899(L_232, /*hidden argument*/NULL);
 		NullCheck(L_233);
@@ -2645,7 +2643,7 @@ IL_0532:
 		SpawnerManager_t45089093 * L_236 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_236);
 		SpawnerP_t2130838536 * L_237 = L_236->get_address_of_spawnP_2();
-		MainCube_t55713198 * L_238 = L_237->get_mainCube_14();
+		MainCube_t55713198 * L_238 = L_237->get_mainCube_13();
 		SpawnerManager_t45089093 * L_239 = __this->get_U3CU3Ef__this_5();
 		NullCheck(L_239);
 		SpawnerP_t2130838536 * L_240 = L_239->get_address_of_spawnP_2();
@@ -2857,7 +2855,7 @@ IL_0035:
 		GameObject_t4012695102 * L_30 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_28, L_29);
 		NullCheck(L_30);
 		Diamond_t3319707956 * L_31 = GameObject_GetComponent_TisDiamond_t3319707956_m178647341(L_30, /*hidden argument*/GameObject_GetComponent_TisDiamond_t3319707956_m178647341_MethodInfo_var);
-		L_26->set_diamondScript_16(L_31);
+		L_26->set_diamondScript_15(L_31);
 		SpawnerManager_t45089093 * L_32 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_32);
 		SpawnerP_t2130838536 * L_33 = L_32->get_address_of_spawnP_2();
@@ -2871,7 +2869,7 @@ IL_0035:
 		SpawnerManager_t45089093 * L_35 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_35);
 		SpawnerP_t2130838536 * L_36 = L_35->get_address_of_spawnP_2();
-		bool L_37 = L_36->get_matchNum_13();
+		bool L_37 = L_36->get_matchNum_12();
 		if (L_37)
 		{
 			goto IL_014f;
@@ -2881,7 +2879,7 @@ IL_0035:
 		SpawnerManager_t45089093 * L_38 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_38);
 		SpawnerP_t2130838536 * L_39 = L_38->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_40 = L_39->get_diamondScript_16();
+		Diamond_t3319707956 * L_40 = L_39->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_41 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_41);
 		Vector3_t3525329789  L_42 = SpawnerManager_diamondPos_m1260455560(L_41, /*hidden argument*/NULL);
@@ -2895,7 +2893,7 @@ IL_014f:
 		SpawnerManager_t45089093 * L_43 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_43);
 		SpawnerP_t2130838536 * L_44 = L_43->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_45 = L_44->get_diamondScript_16();
+		Diamond_t3319707956 * L_45 = L_44->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_46 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_46);
 		Vector3_t3525329789  L_47 = SpawnerManager_diamondPos3_m419427277(L_46, /*hidden argument*/NULL);
@@ -2913,7 +2911,7 @@ IL_0174:
 		SpawnerManager_t45089093 * L_48 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_48);
 		SpawnerP_t2130838536 * L_49 = L_48->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_50 = L_49->get_diamondScript_16();
+		Diamond_t3319707956 * L_50 = L_49->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_51 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_51);
 		Vector3_t3525329789  L_52 = SpawnerManager_diamondPos5_m419429199(L_51, /*hidden argument*/NULL);
@@ -2926,7 +2924,7 @@ IL_0194:
 		SpawnerManager_t45089093 * L_53 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_53);
 		SpawnerP_t2130838536 * L_54 = L_53->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_55 = L_54->get_diamondScript_16();
+		Diamond_t3319707956 * L_55 = L_54->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_56 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_56);
 		List_1_t514686775 * L_57 = L_56->get_diamondList_18();
@@ -3043,7 +3041,7 @@ IL_022c:
 		GameObject_t4012695102 * L_95 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_93, L_94);
 		NullCheck(L_95);
 		Diamond_t3319707956 * L_96 = GameObject_GetComponent_TisDiamond_t3319707956_m178647341(L_95, /*hidden argument*/GameObject_GetComponent_TisDiamond_t3319707956_m178647341_MethodInfo_var);
-		L_91->set_diamondScript_16(L_96);
+		L_91->set_diamondScript_15(L_96);
 		SpawnerManager_t45089093 * L_97 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_97);
 		SpawnerP_t2130838536 * L_98 = L_97->get_address_of_spawnP_2();
@@ -3057,7 +3055,7 @@ IL_022c:
 		SpawnerManager_t45089093 * L_100 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_100);
 		SpawnerP_t2130838536 * L_101 = L_100->get_address_of_spawnP_2();
-		bool L_102 = L_101->get_matchNum_13();
+		bool L_102 = L_101->get_matchNum_12();
 		if (L_102)
 		{
 			goto IL_0346;
@@ -3067,7 +3065,7 @@ IL_022c:
 		SpawnerManager_t45089093 * L_103 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_103);
 		SpawnerP_t2130838536 * L_104 = L_103->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_105 = L_104->get_diamondScript_16();
+		Diamond_t3319707956 * L_105 = L_104->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_106 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_106);
 		Vector3_t3525329789  L_107 = SpawnerManager_diamondPos2_m419426316(L_106, /*hidden argument*/NULL);
@@ -3081,7 +3079,7 @@ IL_0346:
 		SpawnerManager_t45089093 * L_108 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_108);
 		SpawnerP_t2130838536 * L_109 = L_108->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_110 = L_109->get_diamondScript_16();
+		Diamond_t3319707956 * L_110 = L_109->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_111 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_111);
 		Vector3_t3525329789  L_112 = SpawnerManager_diamondPos4_m419428238(L_111, /*hidden argument*/NULL);
@@ -3099,7 +3097,7 @@ IL_036b:
 		SpawnerManager_t45089093 * L_113 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_113);
 		SpawnerP_t2130838536 * L_114 = L_113->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_115 = L_114->get_diamondScript_16();
+		Diamond_t3319707956 * L_115 = L_114->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_116 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_116);
 		Vector3_t3525329789  L_117 = SpawnerManager_diamondPos6_m419430160(L_116, /*hidden argument*/NULL);
@@ -3112,7 +3110,7 @@ IL_038b:
 		SpawnerManager_t45089093 * L_118 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_118);
 		SpawnerP_t2130838536 * L_119 = L_118->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_120 = L_119->get_diamondScript_16();
+		Diamond_t3319707956 * L_120 = L_119->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_121 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_121);
 		List_1_t514686775 * L_122 = L_121->get_diamondList_18();

@@ -39,3 +39,7 @@ extern "C"  void ShowPanels_HidePausePanel_m1575446853 (ShowPanels_t2673010796 *
 extern "C"  void ShowPanels_HideChallLockImage_m1068688971 (ShowPanels_t2673010796 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ShowPanels::HideObsLockImage()
 extern "C"  void ShowPanels_HideObsLockImage_m3535669095 (ShowPanels_t2673010796 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void ShowPanels::ShowInstruction()
+extern "C"  void ShowPanels_ShowInstruction_m1526716638 (ShowPanels_t2673010796 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void ShowPanels::HideInstruction()
+extern "C"  void ShowPanels_HideInstruction_m121597625 (ShowPanels_t2673010796 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
