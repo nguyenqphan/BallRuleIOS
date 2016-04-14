@@ -55,17 +55,6 @@
      <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\SetAudioLevels.cs" />
      <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\ShowPanels.cs" />
      <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\StartOptions.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\ActiveStateToggler.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\ApplicationManager.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\ChangeColor.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\DragMe.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\DragPanel.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\DropMe.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\PanelManager.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\ResizePanel.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\ScrollDetailTexture.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\ShowSliderValue.cs" />
-     <Compile Include="Assets\__ImportAssets\Scripts\TiltWindow.cs" />
      <Compile Include="Assets\__Scripts\Ball.cs" />
      <Compile Include="Assets\__Scripts\CameraTracker.cs" />
      <Compile Include="Assets\__Scripts\Deactivator.cs" />
