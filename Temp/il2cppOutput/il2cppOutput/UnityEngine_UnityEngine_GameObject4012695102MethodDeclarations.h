@@ -83,10 +83,6 @@ extern "C"  GameObject_t4012695102 * GameObject_FindGameObjectWithTag_m263556016
 extern "C"  GameObject_t4012695102 * GameObject_FindWithTag_m3162815092 (Il2CppObject * __this /* static, unused */, String_t* ___tag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 extern "C"  void GameObject_SendMessage_m423373689 (GameObject_t4012695102 * __this, String_t* ___methodName, Il2CppObject * ___value, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.GameObject::BroadcastMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
-extern "C"  void GameObject_BroadcastMessage_m3938245262 (GameObject_t4012695102 * __this, String_t* ___methodName, Il2CppObject * ___parameter, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.GameObject::BroadcastMessage(System.String)
-extern "C"  void GameObject_BroadcastMessage_m3644001332 (GameObject_t4012695102 * __this, String_t* ___methodName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::Internal_AddComponentWithType(System.Type)
 extern "C"  Component_t2126946602 * GameObject_Internal_AddComponentWithType_m2266369934 (GameObject_t4012695102 * __this, Type_t * ___componentType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::AddComponent(System.Type)

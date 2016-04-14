@@ -67,7 +67,7 @@
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.EventTrigger/Entry>::Contains(T)
 #define ReadOnlyCollection_1_Contains_m2085726124(__this, ___value, method) ((  bool (*) (ReadOnlyCollection_1_t3230260438 *, Entry_t67115090 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m687553276_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.EventTrigger/Entry>::CopyTo(T[],System.Int32)
-#define ReadOnlyCollection_1_CopyTo_m974456252(__this, ___array, ___index, method) ((  void (*) (ReadOnlyCollection_1_t3230260438 *, EntryU5BU5D_t864858664*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m475587820_gshared)(__this, ___array, ___index, method)
+#define ReadOnlyCollection_1_CopyTo_m974456252(__this, ___array, ___index, method) ((  void (*) (ReadOnlyCollection_1_t3230260438 *, EntryU5BU5D_t864858663*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m475587820_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.EventTrigger/Entry>::GetEnumerator()
 #define ReadOnlyCollection_1_GetEnumerator_m3848383503(__this, method) ((  Il2CppObject* (*) (ReadOnlyCollection_1_t3230260438 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m809369055_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.EventTrigger/Entry>::IndexOf(T)

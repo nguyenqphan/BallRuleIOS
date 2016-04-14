@@ -386,10 +386,7 @@ extern "C" void MainCubeP_t1727109218_marshal_pinvoke_cleanup ();
 extern "C" void ParticleP_t203653738_marshal_pinvoke ();
 extern "C" void ParticleP_t203653738_marshal_pinvoke_back ();
 extern "C" void ParticleP_t203653738_marshal_pinvoke_cleanup ();
-extern "C" void RoutePoint_t2892207335_marshal_pinvoke ();
-extern "C" void RoutePoint_t2892207335_marshal_pinvoke_back ();
-extern "C" void RoutePoint_t2892207335_marshal_pinvoke_cleanup ();
-extern const Il2CppMarshalingFunctions g_MarshalingFunctions[127] = 
+extern const Il2CppMarshalingFunctions g_MarshalingFunctions[126] = 
 {
 	{ U24ArrayTypeU241024_t335950518_marshal_pinvoke, U24ArrayTypeU241024_t335950518_marshal_pinvoke_back, U24ArrayTypeU241024_t335950518_marshal_pinvoke_cleanup },
 	{ U24ArrayTypeU2412_t214874486_marshal_pinvoke, U24ArrayTypeU2412_t214874486_marshal_pinvoke_back, U24ArrayTypeU2412_t214874486_marshal_pinvoke_cleanup },
@@ -516,6 +513,5 @@ extern const Il2CppMarshalingFunctions g_MarshalingFunctions[127] =
 	{ CubeP_t65458843_marshal_pinvoke, CubeP_t65458843_marshal_pinvoke_back, CubeP_t65458843_marshal_pinvoke_cleanup },
 	{ MainCubeP_t1727109218_marshal_pinvoke, MainCubeP_t1727109218_marshal_pinvoke_back, MainCubeP_t1727109218_marshal_pinvoke_cleanup },
 	{ ParticleP_t203653738_marshal_pinvoke, ParticleP_t203653738_marshal_pinvoke_back, ParticleP_t203653738_marshal_pinvoke_cleanup },
-	{ RoutePoint_t2892207335_marshal_pinvoke, RoutePoint_t2892207335_marshal_pinvoke_back, RoutePoint_t2892207335_marshal_pinvoke_cleanup },
 	NULL,
 };

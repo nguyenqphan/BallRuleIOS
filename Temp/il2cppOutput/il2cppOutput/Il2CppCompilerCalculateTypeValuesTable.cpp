@@ -841,7 +841,6 @@
 #include "UnityEngine_UnityEngine_Experimental_Director_Play3404354247.h"
 #include "UnityEngine_UnityEngine_SceneManagement_LoadSceneM2068802481.h"
 #include "UnityEngine_UnityEngine_SceneManagement_Scene2772977204.h"
-#include "UnityEngine_UnityEngine_ParticleSystem_EmissionMod1434063603.h"
 #include "UnityEngine_UnityEngine_ControllerColliderHit2693066224.h"
 #include "UnityEngine_UnityEngine_Collision1119538015.h"
 #include "UnityEngine_UnityEngine_QueryTriggerInteraction4085533775.h"
@@ -855,8 +854,6 @@
 #include "UnityEngine_UnityEngine_AudioClip3714538611.h"
 #include "UnityEngine_UnityEngine_AnimationEventSource2022798750.h"
 #include "UnityEngine_UnityEngine_AnimationEvent3344771555.h"
-#include "UnityEngine_UnityEngine_PlayMode3466086244.h"
-#include "UnityEngine_UnityEngine_Animation_Enumerator1072804836.h"
 #include "UnityEngine_UnityEngine_AnimatorClipInfo4255364242.h"
 #include "UnityEngine_UnityEngine_AnimatorStateInfo4162640357.h"
 #include "UnityEngine_UnityEngine_AnimatorTransitionInfo2791832279.h"
@@ -1073,33 +1070,25 @@
 #include "AssemblyU2DCSharp_SetAudioLevels1109142339.h"
 #include "AssemblyU2DCSharp_ShowPanels2673010796.h"
 #include "AssemblyU2DCSharp_StartOptions3075365884.h"
-#include "AssemblyU2DCSharp_DragMe2055054860.h"
-#include "AssemblyU2DCSharp_DragPanel1678257424.h"
-#include "AssemblyU2DCSharp_DropMe2055480583.h"
-#include "AssemblyU2DCSharp_PanelManager2965005609.h"
-#include "AssemblyU2DCSharp_PanelManager_U3CDisablePanelDele3135294679.h"
-#include "AssemblyU2DCSharp_ResizePanel788198800.h"
-#include "AssemblyU2DCSharp_ScrollDetailTexture3150826909.h"
-#include "AssemblyU2DCSharp_TiltWindow1575826733.h"
 #include "AssemblyU2DCSharp_BallP63949329.h"
 #include "AssemblyU2DCSharp_Ball2062879.h"
-#include "AssemblyU2DCSharp_Ball_U3CmovingU3Ec__Iterator13965976884.h"
-#include "AssemblyU2DCSharp_Ball_U3CpulseU3Ec__Iterator21526999746.h"
-#include "AssemblyU2DCSharp_Ball_U3CBallInactiveU3Ec__Iterat1575522394.h"
+#include "AssemblyU2DCSharp_Ball_U3CmovingU3Ec__Iterator03965976883.h"
+#include "AssemblyU2DCSharp_Ball_U3CpulseU3Ec__Iterator11526999745.h"
+#include "AssemblyU2DCSharp_Ball_U3CBallInactiveU3Ec__Iterat1575522393.h"
 #include "AssemblyU2DCSharp_CameraP2214017451.h"
 #include "AssemblyU2DCSharp_CameraTracker2740516915.h"
-#include "AssemblyU2DCSharp_CameraTracker_U3CCameraToMoveU3E2225327828.h"
+#include "AssemblyU2DCSharp_CameraTracker_U3CCameraToMoveU3E2225327827.h"
 #include "AssemblyU2DCSharp_Deactivator4192724884.h"
 #include "AssemblyU2DCSharp_Destroyer3990730247.h"
-#include "AssemblyU2DCSharp_Destroyer_U3CTimerChallengeCount3473037600.h"
+#include "AssemblyU2DCSharp_Destroyer_U3CTimerChallengeCount3473037599.h"
 #include "AssemblyU2DCSharp_DiamondProperty1654949673.h"
 #include "AssemblyU2DCSharp_Diamond3319707956.h"
-#include "AssemblyU2DCSharp_Diamond_U3CSpinU3Ec__Iterator62003123877.h"
-#include "AssemblyU2DCSharp_Diamond_U3CSpin2U3Ec__Iterator7503209904.h"
-#include "AssemblyU2DCSharp_Diamond_U3CFloat2U3Ec__Iterator81623143699.h"
-#include "AssemblyU2DCSharp_Diamond_U3CFloatU3Ec__Iterator93563271430.h"
-#include "AssemblyU2DCSharp_Diamond_U3CmovingU3Ec__IteratorA3965976900.h"
-#include "AssemblyU2DCSharp_Diamond_U3CDiaInactiveU3Ec__Iter2740340548.h"
+#include "AssemblyU2DCSharp_Diamond_U3CSpinU3Ec__Iterator52003123876.h"
+#include "AssemblyU2DCSharp_Diamond_U3CSpin2U3Ec__Iterator6503209903.h"
+#include "AssemblyU2DCSharp_Diamond_U3CFloat2U3Ec__Iterator71623143698.h"
+#include "AssemblyU2DCSharp_Diamond_U3CFloatU3Ec__Iterator83563271429.h"
+#include "AssemblyU2DCSharp_Diamond_U3CmovingU3Ec__Iterator93965976892.h"
+#include "AssemblyU2DCSharp_Diamond_U3CDiaInactiveU3Ec__Iter2740340547.h"
 #include "AssemblyU2DCSharp_EventManager1907836883.h"
 #include "AssemblyU2DCSharp_GPSManager1489257411.h"
 #include "AssemblyU2DCSharp_GameStateManager648042254.h"
@@ -1108,48 +1097,48 @@
 #include "AssemblyU2DCSharp_GroundEffect3883356696.h"
 #include "AssemblyU2DCSharp_MainCubeP1727109218.h"
 #include "AssemblyU2DCSharp_MainCube55713198.h"
-#include "AssemblyU2DCSharp_MainCube_U3CStartToRotateU3Ec__I2516511412.h"
-#include "AssemblyU2DCSharp_MainCube_U3CStartToMoveU3Ec__Ite3465779135.h"
+#include "AssemblyU2DCSharp_MainCube_U3CStartToRotateU3Ec__I2516511411.h"
+#include "AssemblyU2DCSharp_MainCube_U3CStartToMoveU3Ec__Ite3465779134.h"
 #include "AssemblyU2DCSharp_ParticleP203653738.h"
 #include "AssemblyU2DCSharp_ParticeDeactivate2500325420.h"
 #include "AssemblyU2DCSharp_PlayerMaterials2277059115.h"
 #include "AssemblyU2DCSharp_ScallerP3467974258.h"
 #include "AssemblyU2DCSharp_PlayerScaler4190867145.h"
-#include "AssemblyU2DCSharp_PlayerScaler_U3CScalePlayerU3Ec__478223875.h"
-#include "AssemblyU2DCSharp_PlayerScaler_U3CTimeCounterU3Ec_2311950048.h"
-#include "AssemblyU2DCSharp_PlayerScaler_U3CScaleBackU3Ec__I3914306343.h"
+#include "AssemblyU2DCSharp_PlayerScaler_U3CScalePlayerU3Ec__478223874.h"
+#include "AssemblyU2DCSharp_PlayerScaler_U3CTimeCounterU3Ec_2311950047.h"
+#include "AssemblyU2DCSharp_PlayerScaler_U3CScaleBackU3Ec__It126267966.h"
 #include "AssemblyU2DCSharp_SkyboxMaterials3915907618.h"
 #include "AssemblyU2DCSharp_SoundBreaking2714241170.h"
 #include "AssemblyU2DCSharp_SpawnerChallengeP1256298421.h"
 #include "AssemblyU2DCSharp_SpawnerChallenge2257283067.h"
-#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateE1005504882.h"
-#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateD1952760209.h"
-#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateB1524620393.h"
-#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateD2380724415.h"
-#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateC1100421274.h"
-#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateD2257946974.h"
-#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateB1953657062.h"
+#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateE1005504881.h"
+#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateD1952760208.h"
+#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateB1524620392.h"
+#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateD2380724414.h"
+#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateC1100421273.h"
+#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateD2257946973.h"
+#include "AssemblyU2DCSharp_SpawnerChallenge_U3CInstantiateB1953657061.h"
 #include "AssemblyU2DCSharp_SpawnerP2130838536.h"
 #include "AssemblyU2DCSharp_SpawnerManager45089093.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateEff1005504889.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia1952760216.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1524620407.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2380724429.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateCub1100421288.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2257946988.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1953657076.h"
-#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateObs3480312453.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateEff1005504888.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia1952760215.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1524620399.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2380724428.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateCub1100421287.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2257946987.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1953657075.h"
+#include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateObs3480312452.h"
 #include "AssemblyU2DCSharp_TextColor940396054.h"
 #include "AssemblyU2DCSharp_UpdateScore1082839849.h"
 #include "AssemblyU2DCSharp_WaterLerp1789564686.h"
 #include "AssemblyU2DCSharp_WaterMaterials3313381621.h"
 #include "AssemblyU2DCSharp_WeatherDetecter2833725060.h"
-#include "AssemblyU2DCSharp_WeatherDetecter_U3CdeactivateWea3524863515.h"
+#include "AssemblyU2DCSharp_WeatherDetecter_U3CdeactivateWea3524863506.h"
 #include "AssemblyU2DCSharp_WeatherMan2413190374.h"
 #include "AssemblyU2DCSharp_CubeP65458843.h"
 #include "AssemblyU2DCSharp_Cube2111573.h"
-#include "AssemblyU2DCSharp_Cube_U3CStartToRotateU3Ec__Iterat702441966.h"
-#include "AssemblyU2DCSharp_Cube_U3CStartPulseU3Ec__Iterator3736187910.h"
+#include "AssemblyU2DCSharp_Cube_U3CStartToRotateU3Ec__Iterat702441965.h"
+#include "AssemblyU2DCSharp_Cube_U3CStartPulseU3Ec__Iterator3736187909.h"
 #include "AssemblyU2DCSharp_CubeControllerP322988191.h"
 #include "AssemblyU2DCSharp_CubeController1811534289.h"
 #include "AssemblyU2DCSharp_CubeManagerP508845496.h"
@@ -1157,7 +1146,7 @@
 #include "AssemblyU2DCSharp_CubeMaterials4044142423.h"
 #include "AssemblyU2DCSharp_FlashingP857341054.h"
 #include "AssemblyU2DCSharp_Flashing1690224146.h"
-#include "AssemblyU2DCSharp_Flashing_U3CFlashingCubeU3Ec__It3584501239.h"
+#include "AssemblyU2DCSharp_Flashing_U3CFlashingCubeU3Ec__It3584501238.h"
 #include "AssemblyU2DCSharp_GetIndexCube3641666961.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1467159680.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1459654472.h"
@@ -1184,47 +1173,6 @@
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_W799476914.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2511321362.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2511865071.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_U716910918.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_Uti2403779.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2556558731.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3635855589.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3138179504.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_U426226643.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2911552671.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1770690465.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_U510508761.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3703829370.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2144809454.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_4132201347.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1216604340.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2266180588.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_U297169670.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2980733204.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3255037155.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2579283729.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_4233235528.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3416643858.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_U973508348.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2578584915.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_4138896572.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_U447783413.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1666997312.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1139253635.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2796365403.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1823522624.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_U172455584.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1955883606.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_Ut67115090.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_Ut73079920.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1062279060.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_U593812660.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3585593686.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3957868016.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2562636969.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3690633311.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2892207335.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2956721675.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1569058660.h"
 #include "mscorlib_U3CModuleU3E86524790.h"
 #include "mscorlib_System_Object837106420.h"
 #include "mscorlib_System_ValueType4014882752.h"
@@ -1533,13 +1481,11 @@
 #include "UnityEngine_UnityEngine_Screen3994030297.h"
 #include "UnityEngine_UnityEngine_GL1522887986.h"
 #include "UnityEngine_UnityEngine_GUIElement4113441198.h"
-#include "UnityEngine_UnityEngine_GUITexture63494093.h"
 #include "UnityEngine_UnityEngine_GUILayer999894339.h"
 #include "UnityEngine_UnityEngine_Texture1769722184.h"
 #include "UnityEngine_UnityEngine_Texture2D2509538522.h"
 #include "UnityEngine_UnityEngine_RenderTexture12905170.h"
 #include "UnityEngine_UnityEngine_CullingGroup_StateChanged1076524291.h"
-#include "UnityEngine_UnityEngine_Gizmos3656267942.h"
 #include "UnityEngine_UnityEngine_FlareLayer1330112144.h"
 #include "UnityEngine_UnityEngine_NetworkView1250184736.h"
 #include "UnityEngine_UnityEngine_RPC1522967058.h"
@@ -1562,7 +1508,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455.h"
 #include "UnityEngine_UnityEngine_Input1593691127.h"
 #include "UnityEngine_UnityEngine_Component2126946602.h"
-#include "UnityEngine_UnityEngine_Light1596303683.h"
 #include "UnityEngine_UnityEngine_GameObject4012695102.h"
 #include "UnityEngine_UnityEngine_Transform284553113.h"
 #include "UnityEngine_UnityEngine_Time1525492538.h"
@@ -1576,11 +1521,8 @@
 #include "UnityEngine_UnityEngine_iOS_ADInterstitialAd_Inters402653446.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Direc608261574.h"
 #include "UnityEngine_UnityEngine_SceneManagement_SceneManag1523288937.h"
-#include "UnityEngine_UnityEngine_ParticleSystem56787138.h"
 #include "UnityEngine_UnityEngine_Physics2601443956.h"
 #include "UnityEngine_UnityEngine_Rigidbody1972007546.h"
-#include "UnityEngine_UnityEngine_Joint1594637495.h"
-#include "UnityEngine_UnityEngine_SpringJoint2446926506.h"
 #include "UnityEngine_UnityEngine_Collider955670625.h"
 #include "UnityEngine_UnityEngine_CharacterController2029520850.h"
 #include "UnityEngine_UnityEngine_Rigidbody2D3632243084.h"
@@ -1592,13 +1534,11 @@
 #include "UnityEngine_UnityEngine_Audio_AudioMixer2872434200.h"
 #include "UnityEngine_UnityEngine_Audio_AudioMixerSnapshot3013571836.h"
 #include "UnityEngine_UnityEngine_AnimationClip57566497.h"
-#include "UnityEngine_UnityEngine_Animation350396337.h"
 #include "UnityEngine_UnityEngine_AnimationState3357637594.h"
 #include "UnityEngine_UnityEngine_Animator792326996.h"
 #include "UnityEngine_UnityEngine_RuntimeAnimatorController3860414472.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Anim3361204779.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Anim1023709642.h"
-#include "UnityEngine_UnityEngine_GUIText2614635829.h"
 #include "UnityEngine_UnityEngine_Font_FontTextureRebuildCall401089076.h"
 #include "UnityEngine_UnityEngine_Canvas_WillRenderCanvases1153522766.h"
 #include "UnityEngine_UnityEngine_CanvasGroup1295922228.h"
@@ -1659,10 +1599,6 @@
 #include "AssemblyU2DCSharp_DontDestroy1296137.h"
 #include "AssemblyU2DCSharp_EventSystemChecker4055823916.h"
 #include "AssemblyU2DCSharp_QuitApplication3105098593.h"
-#include "AssemblyU2DCSharp_ActiveStateToggler829858835.h"
-#include "AssemblyU2DCSharp_ApplicationManager3252667485.h"
-#include "AssemblyU2DCSharp_ChangeColor4282360179.h"
-#include "AssemblyU2DCSharp_ShowSliderValue1108427187.h"
 #include "AssemblyU2DCSharp_Ball_ActionScaling4098096209.h"
 #include "AssemblyU2DCSharp_Ball_ActionExplode878049707.h"
 #include "AssemblyU2DCSharp_Deactivator_EffectAction3544139591.h"
@@ -1678,11 +1614,8 @@
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1725072517.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3367880121.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_2577585142.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_W354635297.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1071783427.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3669890281.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_EventSystemChecker4055823916.h"
-#include "AssemblyU2DCSharpU2Dfirstpass_ForcedReset1662771670.h"
 
 
 
@@ -1691,7 +1624,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7498] = 
+extern const int32_t g_FieldOffsetTable[7243] = 
 {
 	0,
 	0,
@@ -6422,11 +6355,10 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	Color32_t4137084207::get_offset_of_g_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Color32_t4137084207::get_offset_of_b_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Color32_t4137084207::get_offset_of_a_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	Quaternion_t1891715979::get_offset_of_x_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Quaternion_t1891715979::get_offset_of_y_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Quaternion_t1891715979::get_offset_of_z_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Quaternion_t1891715979::get_offset_of_w_4() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Quaternion_t1891715979::get_offset_of_x_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Quaternion_t1891715979::get_offset_of_y_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Quaternion_t1891715979::get_offset_of_z_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Quaternion_t1891715979::get_offset_of_w_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Rect_t1525428817::get_offset_of_m_XMin_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Rect_t1525428817::get_offset_of_m_YMin_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Rect_t1525428817::get_offset_of_m_Width_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -6619,7 +6551,6 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	0,
 	0,
 	Scene_t2772977204::get_offset_of_m_Handle_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	EmissionModule_t1434063603::get_offset_of_m_ParticleSystem_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	ControllerColliderHit_t2693066224::get_offset_of_m_Controller_0(),
 	ControllerColliderHit_t2693066224::get_offset_of_m_Collider_1(),
 	ControllerColliderHit_t2693066224::get_offset_of_m_Point_2(),
@@ -6680,11 +6611,6 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	AnimationEvent_t3344771555::get_offset_of_m_StateSender_8(),
 	AnimationEvent_t3344771555::get_offset_of_m_AnimatorStateInfo_9(),
 	AnimationEvent_t3344771555::get_offset_of_m_AnimatorClipInfo_10(),
-	PlayMode_t3466086244::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	Enumerator_t1072804842::get_offset_of_m_Outer_0(),
-	Enumerator_t1072804842::get_offset_of_m_CurrentIndex_1(),
 	AnimatorClipInfo_t4255364242::get_offset_of_m_ClipInstanceID_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	AnimatorClipInfo_t4255364242::get_offset_of_m_Weight_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	AnimatorStateInfo_t4162640357::get_offset_of_m_Name_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -8397,46 +8323,6 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	StartOptions_t3075365884::get_offset_of_textColor_13(),
 	StartOptions_t3075365884::get_offset_of_updateScore_14(),
 	StartOptions_t3075365884::get_offset_of_cubeManager_15(),
-	DragMe_t2055054860::get_offset_of_dragOnSurfaces_2(),
-	DragMe_t2055054860::get_offset_of_m_DraggingIcons_3(),
-	DragMe_t2055054860::get_offset_of_m_DraggingPlanes_4(),
-	DragPanel_t1678257424::get_offset_of_originalLocalPointerPosition_2(),
-	DragPanel_t1678257424::get_offset_of_originalPanelLocalPosition_3(),
-	DragPanel_t1678257424::get_offset_of_panelRectTransform_4(),
-	DragPanel_t1678257424::get_offset_of_parentRectTransform_5(),
-	DropMe_t2055480583::get_offset_of_containerImage_2(),
-	DropMe_t2055480583::get_offset_of_receivingImage_3(),
-	DropMe_t2055480583::get_offset_of_normalColor_4(),
-	DropMe_t2055480583::get_offset_of_highlightColor_5(),
-	0,
-	0,
-	PanelManager_t2965005609::get_offset_of_initiallyOpen_4(),
-	PanelManager_t2965005609::get_offset_of_m_OpenParameterId_5(),
-	PanelManager_t2965005609::get_offset_of_m_Open_6(),
-	PanelManager_t2965005609::get_offset_of_m_PreviouslySelected_7(),
-	U3CDisablePanelDeleyedU3Ec__Iterator0_t3135294679::get_offset_of_U3CclosedStateReachedU3E__0_0(),
-	U3CDisablePanelDeleyedU3Ec__Iterator0_t3135294679::get_offset_of_U3CwantToCloseU3E__1_1(),
-	U3CDisablePanelDeleyedU3Ec__Iterator0_t3135294679::get_offset_of_anim_2(),
-	U3CDisablePanelDeleyedU3Ec__Iterator0_t3135294679::get_offset_of_U24PC_3(),
-	U3CDisablePanelDeleyedU3Ec__Iterator0_t3135294679::get_offset_of_U24current_4(),
-	U3CDisablePanelDeleyedU3Ec__Iterator0_t3135294679::get_offset_of_U3CU24U3Eanim_5(),
-	U3CDisablePanelDeleyedU3Ec__Iterator0_t3135294679::get_offset_of_U3CU3Ef__this_6(),
-	ResizePanel_t788198800::get_offset_of_minSize_2(),
-	ResizePanel_t788198800::get_offset_of_maxSize_3(),
-	ResizePanel_t788198800::get_offset_of_panelRectTransform_4(),
-	ResizePanel_t788198800::get_offset_of_originalLocalPointerPosition_5(),
-	ResizePanel_t788198800::get_offset_of_originalSizeDelta_6(),
-	ScrollDetailTexture_t3150826909::get_offset_of_uniqueMaterial_2(),
-	ScrollDetailTexture_t3150826909::get_offset_of_scrollPerSecond_3(),
-	ScrollDetailTexture_t3150826909::get_offset_of_m_Matrix_4(),
-	ScrollDetailTexture_t3150826909::get_offset_of_mCopy_5(),
-	ScrollDetailTexture_t3150826909::get_offset_of_mOriginal_6(),
-	ScrollDetailTexture_t3150826909::get_offset_of_mSprite_7(),
-	ScrollDetailTexture_t3150826909::get_offset_of_m_Mat_8(),
-	TiltWindow_t1575826733::get_offset_of_range_2(),
-	TiltWindow_t1575826733::get_offset_of_mTrans_3(),
-	TiltWindow_t1575826733::get_offset_of_mStart_4(),
-	TiltWindow_t1575826733::get_offset_of_mRot_5(),
 	BallP_t63949329::get_offset_of_movingSpeed_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	BallP_t63949329::get_offset_of_scale_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	BallP_t63949329::get_offset_of_startScale_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -8447,19 +8333,19 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	Ball_t2062879::get_offset_of_ballP_2(),
 	Ball_t2062879_StaticFields::get_offset_of_Scalling_3(),
 	Ball_t2062879_StaticFields::get_offset_of_ExplodeBall_4(),
-	U3CmovingU3Ec__Iterator1_t3965976884::get_offset_of_targetPos_0(),
-	U3CmovingU3Ec__Iterator1_t3965976884::get_offset_of_U24PC_1(),
-	U3CmovingU3Ec__Iterator1_t3965976884::get_offset_of_U24current_2(),
-	U3CmovingU3Ec__Iterator1_t3965976884::get_offset_of_U3CU24U3EtargetPos_3(),
-	U3CmovingU3Ec__Iterator1_t3965976884::get_offset_of_U3CU3Ef__this_4(),
-	U3CpulseU3Ec__Iterator2_t1526999746::get_offset_of_U24PC_0(),
-	U3CpulseU3Ec__Iterator2_t1526999746::get_offset_of_U24current_1(),
-	U3CpulseU3Ec__Iterator2_t1526999746::get_offset_of_U3CU3Ef__this_2(),
-	U3CBallInactiveU3Ec__Iterator3_t1575522394::get_offset_of_o_0(),
-	U3CBallInactiveU3Ec__Iterator3_t1575522394::get_offset_of_U24PC_1(),
-	U3CBallInactiveU3Ec__Iterator3_t1575522394::get_offset_of_U24current_2(),
-	U3CBallInactiveU3Ec__Iterator3_t1575522394::get_offset_of_U3CU24U3Eo_3(),
-	U3CBallInactiveU3Ec__Iterator3_t1575522394::get_offset_of_U3CU3Ef__this_4(),
+	U3CmovingU3Ec__Iterator0_t3965976883::get_offset_of_targetPos_0(),
+	U3CmovingU3Ec__Iterator0_t3965976883::get_offset_of_U24PC_1(),
+	U3CmovingU3Ec__Iterator0_t3965976883::get_offset_of_U24current_2(),
+	U3CmovingU3Ec__Iterator0_t3965976883::get_offset_of_U3CU24U3EtargetPos_3(),
+	U3CmovingU3Ec__Iterator0_t3965976883::get_offset_of_U3CU3Ef__this_4(),
+	U3CpulseU3Ec__Iterator1_t1526999745::get_offset_of_U24PC_0(),
+	U3CpulseU3Ec__Iterator1_t1526999745::get_offset_of_U24current_1(),
+	U3CpulseU3Ec__Iterator1_t1526999745::get_offset_of_U3CU3Ef__this_2(),
+	U3CBallInactiveU3Ec__Iterator2_t1575522393::get_offset_of_o_0(),
+	U3CBallInactiveU3Ec__Iterator2_t1575522393::get_offset_of_U24PC_1(),
+	U3CBallInactiveU3Ec__Iterator2_t1575522393::get_offset_of_U24current_2(),
+	U3CBallInactiveU3Ec__Iterator2_t1575522393::get_offset_of_U3CU24U3Eo_3(),
+	U3CBallInactiveU3Ec__Iterator2_t1575522393::get_offset_of_U3CU3Ef__this_4(),
 	CameraP_t2214017451::get_offset_of_velocity_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	CameraP_t2214017451::get_offset_of_smoothTime_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	CameraP_t2214017451::get_offset_of_playerPos_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -8469,9 +8355,9 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	CameraP_t2214017451::get_offset_of_distanceToMove_6() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	CameraTracker_t2740516915::get_offset_of_cameraP_2(),
 	CameraTracker_t2740516915::get_offset_of_player_3(),
-	U3CCameraToMoveU3Ec__Iterator4_t2225327828::get_offset_of_U24PC_0(),
-	U3CCameraToMoveU3Ec__Iterator4_t2225327828::get_offset_of_U24current_1(),
-	U3CCameraToMoveU3Ec__Iterator4_t2225327828::get_offset_of_U3CU3Ef__this_2(),
+	U3CCameraToMoveU3Ec__Iterator3_t2225327827::get_offset_of_U24PC_0(),
+	U3CCameraToMoveU3Ec__Iterator3_t2225327827::get_offset_of_U24current_1(),
+	U3CCameraToMoveU3Ec__Iterator3_t2225327827::get_offset_of_U3CU3Ef__this_2(),
 	Deactivator_t4192724884::get_offset_of_time_2(),
 	Deactivator_t4192724884::get_offset_of_resetTime_3(),
 	Deactivator_t4192724884::get_offset_of_flashing_4(),
@@ -8483,9 +8369,9 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	Destroyer_t3990730247::get_offset_of_updateScore_4(),
 	Destroyer_t3990730247::get_offset_of_cubeManager_5(),
 	Destroyer_t3990730247::get_offset_of_isTimeRunning_6(),
-	U3CTimerChallengeCounterU3Ec__Iterator5_t3473037600::get_offset_of_U24PC_0(),
-	U3CTimerChallengeCounterU3Ec__Iterator5_t3473037600::get_offset_of_U24current_1(),
-	U3CTimerChallengeCounterU3Ec__Iterator5_t3473037600::get_offset_of_U3CU3Ef__this_2(),
+	U3CTimerChallengeCounterU3Ec__Iterator4_t3473037599::get_offset_of_U24PC_0(),
+	U3CTimerChallengeCounterU3Ec__Iterator4_t3473037599::get_offset_of_U24current_1(),
+	U3CTimerChallengeCounterU3Ec__Iterator4_t3473037599::get_offset_of_U3CU3Ef__this_2(),
 	DiamondProperty_t1654949673::get_offset_of_isSpinning_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	DiamondProperty_t1654949673::get_offset_of_isFloating_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	DiamondProperty_t1654949673::get_offset_of_movingSpeed_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -8501,28 +8387,28 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	Diamond_t3319707956::get_offset_of_diamondP_2(),
 	Diamond_t3319707956_StaticFields::get_offset_of_BreakingDiamond_3(),
 	Diamond_t3319707956_StaticFields::get_offset_of_EmissiveDiamond_4(),
-	U3CSpinU3Ec__Iterator6_t2003123877::get_offset_of_U24PC_0(),
-	U3CSpinU3Ec__Iterator6_t2003123877::get_offset_of_U24current_1(),
-	U3CSpinU3Ec__Iterator6_t2003123877::get_offset_of_U3CU3Ef__this_2(),
-	U3CSpin2U3Ec__Iterator7_t503209904::get_offset_of_U24PC_0(),
-	U3CSpin2U3Ec__Iterator7_t503209904::get_offset_of_U24current_1(),
-	U3CSpin2U3Ec__Iterator7_t503209904::get_offset_of_U3CU3Ef__this_2(),
-	U3CFloat2U3Ec__Iterator8_t1623143699::get_offset_of_U24PC_0(),
-	U3CFloat2U3Ec__Iterator8_t1623143699::get_offset_of_U24current_1(),
-	U3CFloat2U3Ec__Iterator8_t1623143699::get_offset_of_U3CU3Ef__this_2(),
-	U3CFloatU3Ec__Iterator9_t3563271430::get_offset_of_U24PC_0(),
-	U3CFloatU3Ec__Iterator9_t3563271430::get_offset_of_U24current_1(),
-	U3CFloatU3Ec__Iterator9_t3563271430::get_offset_of_U3CU3Ef__this_2(),
-	U3CmovingU3Ec__IteratorA_t3965976900::get_offset_of_targetPos_0(),
-	U3CmovingU3Ec__IteratorA_t3965976900::get_offset_of_U24PC_1(),
-	U3CmovingU3Ec__IteratorA_t3965976900::get_offset_of_U24current_2(),
-	U3CmovingU3Ec__IteratorA_t3965976900::get_offset_of_U3CU24U3EtargetPos_3(),
-	U3CmovingU3Ec__IteratorA_t3965976900::get_offset_of_U3CU3Ef__this_4(),
-	U3CDiaInactiveU3Ec__IteratorB_t2740340548::get_offset_of_o_0(),
-	U3CDiaInactiveU3Ec__IteratorB_t2740340548::get_offset_of_U24PC_1(),
-	U3CDiaInactiveU3Ec__IteratorB_t2740340548::get_offset_of_U24current_2(),
-	U3CDiaInactiveU3Ec__IteratorB_t2740340548::get_offset_of_U3CU24U3Eo_3(),
-	U3CDiaInactiveU3Ec__IteratorB_t2740340548::get_offset_of_U3CU3Ef__this_4(),
+	U3CSpinU3Ec__Iterator5_t2003123876::get_offset_of_U24PC_0(),
+	U3CSpinU3Ec__Iterator5_t2003123876::get_offset_of_U24current_1(),
+	U3CSpinU3Ec__Iterator5_t2003123876::get_offset_of_U3CU3Ef__this_2(),
+	U3CSpin2U3Ec__Iterator6_t503209903::get_offset_of_U24PC_0(),
+	U3CSpin2U3Ec__Iterator6_t503209903::get_offset_of_U24current_1(),
+	U3CSpin2U3Ec__Iterator6_t503209903::get_offset_of_U3CU3Ef__this_2(),
+	U3CFloat2U3Ec__Iterator7_t1623143698::get_offset_of_U24PC_0(),
+	U3CFloat2U3Ec__Iterator7_t1623143698::get_offset_of_U24current_1(),
+	U3CFloat2U3Ec__Iterator7_t1623143698::get_offset_of_U3CU3Ef__this_2(),
+	U3CFloatU3Ec__Iterator8_t3563271429::get_offset_of_U24PC_0(),
+	U3CFloatU3Ec__Iterator8_t3563271429::get_offset_of_U24current_1(),
+	U3CFloatU3Ec__Iterator8_t3563271429::get_offset_of_U3CU3Ef__this_2(),
+	U3CmovingU3Ec__Iterator9_t3965976892::get_offset_of_targetPos_0(),
+	U3CmovingU3Ec__Iterator9_t3965976892::get_offset_of_U24PC_1(),
+	U3CmovingU3Ec__Iterator9_t3965976892::get_offset_of_U24current_2(),
+	U3CmovingU3Ec__Iterator9_t3965976892::get_offset_of_U3CU24U3EtargetPos_3(),
+	U3CmovingU3Ec__Iterator9_t3965976892::get_offset_of_U3CU3Ef__this_4(),
+	U3CDiaInactiveU3Ec__IteratorA_t2740340547::get_offset_of_o_0(),
+	U3CDiaInactiveU3Ec__IteratorA_t2740340547::get_offset_of_U24PC_1(),
+	U3CDiaInactiveU3Ec__IteratorA_t2740340547::get_offset_of_U24current_2(),
+	U3CDiaInactiveU3Ec__IteratorA_t2740340547::get_offset_of_U3CU24U3Eo_3(),
+	U3CDiaInactiveU3Ec__IteratorA_t2740340547::get_offset_of_U3CU3Ef__this_4(),
 	EventManager_t1907836883::get_offset_of_soundDropBall_2(),
 	EventManager_t1907836883::get_offset_of_updateScore_3(),
 	EventManager_t1907836883::get_offset_of_cube_4(),
@@ -8579,16 +8465,16 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	MainCubeP_t1727109218::get_offset_of_startTime_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	MainCubeP_t1727109218::get_offset_of_movingSpeed_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	MainCube_t55713198::get_offset_of_cubeP_2(),
-	U3CStartToRotateU3Ec__IteratorC_t2516511412::get_offset_of_dirToRotate_0(),
-	U3CStartToRotateU3Ec__IteratorC_t2516511412::get_offset_of_U24PC_1(),
-	U3CStartToRotateU3Ec__IteratorC_t2516511412::get_offset_of_U24current_2(),
-	U3CStartToRotateU3Ec__IteratorC_t2516511412::get_offset_of_U3CU24U3EdirToRotate_3(),
-	U3CStartToRotateU3Ec__IteratorC_t2516511412::get_offset_of_U3CU3Ef__this_4(),
-	U3CStartToMoveU3Ec__IteratorD_t3465779135::get_offset_of_targetPos_0(),
-	U3CStartToMoveU3Ec__IteratorD_t3465779135::get_offset_of_U24PC_1(),
-	U3CStartToMoveU3Ec__IteratorD_t3465779135::get_offset_of_U24current_2(),
-	U3CStartToMoveU3Ec__IteratorD_t3465779135::get_offset_of_U3CU24U3EtargetPos_3(),
-	U3CStartToMoveU3Ec__IteratorD_t3465779135::get_offset_of_U3CU3Ef__this_4(),
+	U3CStartToRotateU3Ec__IteratorB_t2516511411::get_offset_of_dirToRotate_0(),
+	U3CStartToRotateU3Ec__IteratorB_t2516511411::get_offset_of_U24PC_1(),
+	U3CStartToRotateU3Ec__IteratorB_t2516511411::get_offset_of_U24current_2(),
+	U3CStartToRotateU3Ec__IteratorB_t2516511411::get_offset_of_U3CU24U3EdirToRotate_3(),
+	U3CStartToRotateU3Ec__IteratorB_t2516511411::get_offset_of_U3CU3Ef__this_4(),
+	U3CStartToMoveU3Ec__IteratorC_t3465779134::get_offset_of_targetPos_0(),
+	U3CStartToMoveU3Ec__IteratorC_t3465779134::get_offset_of_U24PC_1(),
+	U3CStartToMoveU3Ec__IteratorC_t3465779134::get_offset_of_U24current_2(),
+	U3CStartToMoveU3Ec__IteratorC_t3465779134::get_offset_of_U3CU24U3EtargetPos_3(),
+	U3CStartToMoveU3Ec__IteratorC_t3465779134::get_offset_of_U3CU3Ef__this_4(),
 	ParticleP_t203653738::get_offset_of_startTime_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	ParticleP_t203653738::get_offset_of_speedTime_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	ParticeDeactivate_t2500325420::get_offset_of_particleP_2(),
@@ -8603,19 +8489,19 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	ScallerP_t3467974258::get_offset_of_oneHalf_5() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	ScallerP_t3467974258::get_offset_of_newScale_6() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	PlayerScaler_t4190867145::get_offset_of_scallerP_2(),
-	U3CScalePlayerU3Ec__IteratorE_t478223875::get_offset_of_other_0(),
-	U3CScalePlayerU3Ec__IteratorE_t478223875::get_offset_of_U24PC_1(),
-	U3CScalePlayerU3Ec__IteratorE_t478223875::get_offset_of_U24current_2(),
-	U3CScalePlayerU3Ec__IteratorE_t478223875::get_offset_of_U3CU24U3Eother_3(),
-	U3CScalePlayerU3Ec__IteratorE_t478223875::get_offset_of_U3CU3Ef__this_4(),
-	U3CTimeCounterU3Ec__IteratorF_t2311950048::get_offset_of_other_0(),
-	U3CTimeCounterU3Ec__IteratorF_t2311950048::get_offset_of_U24PC_1(),
-	U3CTimeCounterU3Ec__IteratorF_t2311950048::get_offset_of_U24current_2(),
-	U3CTimeCounterU3Ec__IteratorF_t2311950048::get_offset_of_U3CU24U3Eother_3(),
-	U3CTimeCounterU3Ec__IteratorF_t2311950048::get_offset_of_U3CU3Ef__this_4(),
-	U3CScaleBackU3Ec__Iterator10_t3914306343::get_offset_of_U24PC_0(),
-	U3CScaleBackU3Ec__Iterator10_t3914306343::get_offset_of_U24current_1(),
-	U3CScaleBackU3Ec__Iterator10_t3914306343::get_offset_of_U3CU3Ef__this_2(),
+	U3CScalePlayerU3Ec__IteratorD_t478223874::get_offset_of_other_0(),
+	U3CScalePlayerU3Ec__IteratorD_t478223874::get_offset_of_U24PC_1(),
+	U3CScalePlayerU3Ec__IteratorD_t478223874::get_offset_of_U24current_2(),
+	U3CScalePlayerU3Ec__IteratorD_t478223874::get_offset_of_U3CU24U3Eother_3(),
+	U3CScalePlayerU3Ec__IteratorD_t478223874::get_offset_of_U3CU3Ef__this_4(),
+	U3CTimeCounterU3Ec__IteratorE_t2311950047::get_offset_of_other_0(),
+	U3CTimeCounterU3Ec__IteratorE_t2311950047::get_offset_of_U24PC_1(),
+	U3CTimeCounterU3Ec__IteratorE_t2311950047::get_offset_of_U24current_2(),
+	U3CTimeCounterU3Ec__IteratorE_t2311950047::get_offset_of_U3CU24U3Eother_3(),
+	U3CTimeCounterU3Ec__IteratorE_t2311950047::get_offset_of_U3CU3Ef__this_4(),
+	U3CScaleBackU3Ec__IteratorF_t126267966::get_offset_of_U24PC_0(),
+	U3CScaleBackU3Ec__IteratorF_t126267966::get_offset_of_U24current_1(),
+	U3CScaleBackU3Ec__IteratorF_t126267966::get_offset_of_U3CU3Ef__this_2(),
 	SkyboxMaterials_t3915907618::get_offset_of_materials_2(),
 	SkyboxMaterials_t3915907618::get_offset_of_skybox_3(),
 	SoundBreaking_t2714241170::get_offset_of_breakingDimond_2(),
@@ -8666,45 +8552,45 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	SpawnerChallenge_t2257283067::get_offset_of_ballExplodeList_18(),
 	SpawnerChallenge_t2257283067::get_offset_of_smallCubeList_19(),
 	SpawnerChallenge_t2257283067::get_offset_of_smallestCubeList_20(),
-	U3CInstantiateEffectU3Ec__Iterator11_t1005504882::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateEffectU3Ec__Iterator11_t1005504882::get_offset_of_o_1(),
-	U3CInstantiateEffectU3Ec__Iterator11_t1005504882::get_offset_of_U24PC_2(),
-	U3CInstantiateEffectU3Ec__Iterator11_t1005504882::get_offset_of_U24current_3(),
-	U3CInstantiateEffectU3Ec__Iterator11_t1005504882::get_offset_of_U3CU24U3Eo_4(),
-	U3CInstantiateEffectU3Ec__Iterator11_t1005504882::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator12_t1952760209::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator12_t1952760209::get_offset_of_o_1(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator12_t1952760209::get_offset_of_U24PC_2(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator12_t1952760209::get_offset_of_U24current_3(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator12_t1952760209::get_offset_of_U3CU24U3Eo_4(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator12_t1952760209::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateBallExplodeU3Ec__Iterator13_t1524620393::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateBallExplodeU3Ec__Iterator13_t1524620393::get_offset_of_o_1(),
-	U3CInstantiateBallExplodeU3Ec__Iterator13_t1524620393::get_offset_of_U24PC_2(),
-	U3CInstantiateBallExplodeU3Ec__Iterator13_t1524620393::get_offset_of_U24current_3(),
-	U3CInstantiateBallExplodeU3Ec__Iterator13_t1524620393::get_offset_of_U3CU24U3Eo_4(),
-	U3CInstantiateBallExplodeU3Ec__Iterator13_t1524620393::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator14_t2380724415::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator14_t2380724415::get_offset_of_o_1(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator14_t2380724415::get_offset_of_U24PC_2(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator14_t2380724415::get_offset_of_U24current_3(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator14_t2380724415::get_offset_of_U3CU24U3Eo_4(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator14_t2380724415::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateCubeU3Ec__Iterator15_t1100421274::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateCubeU3Ec__Iterator15_t1100421274::get_offset_of_U3CiU3E__1_1(),
-	U3CInstantiateCubeU3Ec__Iterator15_t1100421274::get_offset_of_U3CiU3E__2_2(),
-	U3CInstantiateCubeU3Ec__Iterator15_t1100421274::get_offset_of_U24PC_3(),
-	U3CInstantiateCubeU3Ec__Iterator15_t1100421274::get_offset_of_U24current_4(),
-	U3CInstantiateCubeU3Ec__Iterator15_t1100421274::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateDiamondU3Ec__Iterator16_t2257946974::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateDiamondU3Ec__Iterator16_t2257946974::get_offset_of_U3CiU3E__1_1(),
-	U3CInstantiateDiamondU3Ec__Iterator16_t2257946974::get_offset_of_U24PC_2(),
-	U3CInstantiateDiamondU3Ec__Iterator16_t2257946974::get_offset_of_U24current_3(),
-	U3CInstantiateDiamondU3Ec__Iterator16_t2257946974::get_offset_of_U3CU3Ef__this_4(),
-	U3CInstantiateBallU3Ec__Iterator17_t1953657062::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateBallU3Ec__Iterator17_t1953657062::get_offset_of_U24PC_1(),
-	U3CInstantiateBallU3Ec__Iterator17_t1953657062::get_offset_of_U24current_2(),
-	U3CInstantiateBallU3Ec__Iterator17_t1953657062::get_offset_of_U3CU3Ef__this_3(),
+	U3CInstantiateEffectU3Ec__Iterator10_t1005504881::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateEffectU3Ec__Iterator10_t1005504881::get_offset_of_o_1(),
+	U3CInstantiateEffectU3Ec__Iterator10_t1005504881::get_offset_of_U24PC_2(),
+	U3CInstantiateEffectU3Ec__Iterator10_t1005504881::get_offset_of_U24current_3(),
+	U3CInstantiateEffectU3Ec__Iterator10_t1005504881::get_offset_of_U3CU24U3Eo_4(),
+	U3CInstantiateEffectU3Ec__Iterator10_t1005504881::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator11_t1952760208::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator11_t1952760208::get_offset_of_o_1(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator11_t1952760208::get_offset_of_U24PC_2(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator11_t1952760208::get_offset_of_U24current_3(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator11_t1952760208::get_offset_of_U3CU24U3Eo_4(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator11_t1952760208::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateBallExplodeU3Ec__Iterator12_t1524620392::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateBallExplodeU3Ec__Iterator12_t1524620392::get_offset_of_o_1(),
+	U3CInstantiateBallExplodeU3Ec__Iterator12_t1524620392::get_offset_of_U24PC_2(),
+	U3CInstantiateBallExplodeU3Ec__Iterator12_t1524620392::get_offset_of_U24current_3(),
+	U3CInstantiateBallExplodeU3Ec__Iterator12_t1524620392::get_offset_of_U3CU24U3Eo_4(),
+	U3CInstantiateBallExplodeU3Ec__Iterator12_t1524620392::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator13_t2380724414::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator13_t2380724414::get_offset_of_o_1(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator13_t2380724414::get_offset_of_U24PC_2(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator13_t2380724414::get_offset_of_U24current_3(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator13_t2380724414::get_offset_of_U3CU24U3Eo_4(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator13_t2380724414::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateCubeU3Ec__Iterator14_t1100421273::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateCubeU3Ec__Iterator14_t1100421273::get_offset_of_U3CiU3E__1_1(),
+	U3CInstantiateCubeU3Ec__Iterator14_t1100421273::get_offset_of_U3CiU3E__2_2(),
+	U3CInstantiateCubeU3Ec__Iterator14_t1100421273::get_offset_of_U24PC_3(),
+	U3CInstantiateCubeU3Ec__Iterator14_t1100421273::get_offset_of_U24current_4(),
+	U3CInstantiateCubeU3Ec__Iterator14_t1100421273::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateDiamondU3Ec__Iterator15_t2257946973::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateDiamondU3Ec__Iterator15_t2257946973::get_offset_of_U3CiU3E__1_1(),
+	U3CInstantiateDiamondU3Ec__Iterator15_t2257946973::get_offset_of_U24PC_2(),
+	U3CInstantiateDiamondU3Ec__Iterator15_t2257946973::get_offset_of_U24current_3(),
+	U3CInstantiateDiamondU3Ec__Iterator15_t2257946973::get_offset_of_U3CU3Ef__this_4(),
+	U3CInstantiateBallU3Ec__Iterator16_t1953657061::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateBallU3Ec__Iterator16_t1953657061::get_offset_of_U24PC_1(),
+	U3CInstantiateBallU3Ec__Iterator16_t1953657061::get_offset_of_U24current_2(),
+	U3CInstantiateBallU3Ec__Iterator16_t1953657061::get_offset_of_U3CU3Ef__this_3(),
 	SpawnerP_t2130838536::get_offset_of_smallestNum_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	SpawnerP_t2130838536::get_offset_of_matchSmallestNum_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	SpawnerP_t2130838536::get_offset_of_pooledAmount_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -8748,48 +8634,48 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	SpawnerManager_t45089093::get_offset_of_smallestCubeList_24(),
 	SpawnerManager_t45089093::get_offset_of_starList_25(),
 	SpawnerManager_t45089093::get_offset_of_ballObstacleList_26(),
-	U3CInstantiateEffectU3Ec__Iterator18_t1005504889::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateEffectU3Ec__Iterator18_t1005504889::get_offset_of_o_1(),
-	U3CInstantiateEffectU3Ec__Iterator18_t1005504889::get_offset_of_U24PC_2(),
-	U3CInstantiateEffectU3Ec__Iterator18_t1005504889::get_offset_of_U24current_3(),
-	U3CInstantiateEffectU3Ec__Iterator18_t1005504889::get_offset_of_U3CU24U3Eo_4(),
-	U3CInstantiateEffectU3Ec__Iterator18_t1005504889::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216::get_offset_of_o_1(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216::get_offset_of_U24PC_2(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216::get_offset_of_U24current_3(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216::get_offset_of_U3CU24U3Eo_4(),
-	U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407::get_offset_of_o_1(),
-	U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407::get_offset_of_U24PC_2(),
-	U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407::get_offset_of_U24current_3(),
-	U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407::get_offset_of_U3CU24U3Eo_4(),
-	U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429::get_offset_of_o_1(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429::get_offset_of_U24PC_2(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429::get_offset_of_U24current_3(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429::get_offset_of_U3CU24U3Eo_4(),
-	U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateCubeU3Ec__Iterator1C_t1100421288::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateCubeU3Ec__Iterator1C_t1100421288::get_offset_of_U3CiU3E__1_1(),
-	U3CInstantiateCubeU3Ec__Iterator1C_t1100421288::get_offset_of_U3CiU3E__2_2(),
-	U3CInstantiateCubeU3Ec__Iterator1C_t1100421288::get_offset_of_U24PC_3(),
-	U3CInstantiateCubeU3Ec__Iterator1C_t1100421288::get_offset_of_U24current_4(),
-	U3CInstantiateCubeU3Ec__Iterator1C_t1100421288::get_offset_of_U3CU3Ef__this_5(),
-	U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988::get_offset_of_U3CiU3E__1_1(),
-	U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988::get_offset_of_U24PC_2(),
-	U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988::get_offset_of_U24current_3(),
-	U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988::get_offset_of_U3CU3Ef__this_4(),
-	U3CInstantiateBallU3Ec__Iterator1E_t1953657076::get_offset_of_U3CiU3E__0_0(),
-	U3CInstantiateBallU3Ec__Iterator1E_t1953657076::get_offset_of_U24PC_1(),
-	U3CInstantiateBallU3Ec__Iterator1E_t1953657076::get_offset_of_U24current_2(),
-	U3CInstantiateBallU3Ec__Iterator1E_t1953657076::get_offset_of_U3CU3Ef__this_3(),
-	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U24PC_0(),
-	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U24current_1(),
-	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U3CU3Ef__this_2(),
+	U3CInstantiateEffectU3Ec__Iterator17_t1005504888::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateEffectU3Ec__Iterator17_t1005504888::get_offset_of_o_1(),
+	U3CInstantiateEffectU3Ec__Iterator17_t1005504888::get_offset_of_U24PC_2(),
+	U3CInstantiateEffectU3Ec__Iterator17_t1005504888::get_offset_of_U24current_3(),
+	U3CInstantiateEffectU3Ec__Iterator17_t1005504888::get_offset_of_U3CU24U3Eo_4(),
+	U3CInstantiateEffectU3Ec__Iterator17_t1005504888::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator18_t1952760215::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator18_t1952760215::get_offset_of_o_1(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator18_t1952760215::get_offset_of_U24PC_2(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator18_t1952760215::get_offset_of_U24current_3(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator18_t1952760215::get_offset_of_U3CU24U3Eo_4(),
+	U3CInstantiateDiamondEmissiveU3Ec__Iterator18_t1952760215::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateBallExplodeU3Ec__Iterator19_t1524620399::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateBallExplodeU3Ec__Iterator19_t1524620399::get_offset_of_o_1(),
+	U3CInstantiateBallExplodeU3Ec__Iterator19_t1524620399::get_offset_of_U24PC_2(),
+	U3CInstantiateBallExplodeU3Ec__Iterator19_t1524620399::get_offset_of_U24current_3(),
+	U3CInstantiateBallExplodeU3Ec__Iterator19_t1524620399::get_offset_of_U3CU24U3Eo_4(),
+	U3CInstantiateBallExplodeU3Ec__Iterator19_t1524620399::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator1A_t2380724428::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator1A_t2380724428::get_offset_of_o_1(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator1A_t2380724428::get_offset_of_U24PC_2(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator1A_t2380724428::get_offset_of_U24current_3(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator1A_t2380724428::get_offset_of_U3CU24U3Eo_4(),
+	U3CInstantiateDiamondBreakingU3Ec__Iterator1A_t2380724428::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateCubeU3Ec__Iterator1B_t1100421287::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateCubeU3Ec__Iterator1B_t1100421287::get_offset_of_U3CiU3E__1_1(),
+	U3CInstantiateCubeU3Ec__Iterator1B_t1100421287::get_offset_of_U3CiU3E__2_2(),
+	U3CInstantiateCubeU3Ec__Iterator1B_t1100421287::get_offset_of_U24PC_3(),
+	U3CInstantiateCubeU3Ec__Iterator1B_t1100421287::get_offset_of_U24current_4(),
+	U3CInstantiateCubeU3Ec__Iterator1B_t1100421287::get_offset_of_U3CU3Ef__this_5(),
+	U3CInstantiateDiamondU3Ec__Iterator1C_t2257946987::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateDiamondU3Ec__Iterator1C_t2257946987::get_offset_of_U3CiU3E__1_1(),
+	U3CInstantiateDiamondU3Ec__Iterator1C_t2257946987::get_offset_of_U24PC_2(),
+	U3CInstantiateDiamondU3Ec__Iterator1C_t2257946987::get_offset_of_U24current_3(),
+	U3CInstantiateDiamondU3Ec__Iterator1C_t2257946987::get_offset_of_U3CU3Ef__this_4(),
+	U3CInstantiateBallU3Ec__Iterator1D_t1953657075::get_offset_of_U3CiU3E__0_0(),
+	U3CInstantiateBallU3Ec__Iterator1D_t1953657075::get_offset_of_U24PC_1(),
+	U3CInstantiateBallU3Ec__Iterator1D_t1953657075::get_offset_of_U24current_2(),
+	U3CInstantiateBallU3Ec__Iterator1D_t1953657075::get_offset_of_U3CU3Ef__this_3(),
+	U3CInstantiateObstacleU3Ec__Iterator1E_t3480312452::get_offset_of_U24PC_0(),
+	U3CInstantiateObstacleU3Ec__Iterator1E_t3480312452::get_offset_of_U24current_1(),
+	U3CInstantiateObstacleU3Ec__Iterator1E_t3480312452::get_offset_of_U3CU3Ef__this_2(),
 	TextColor_t940396054::get_offset_of_scoreTextColor_2(),
 	TextColor_t940396054::get_offset_of_bestTextColor_3(),
 	TextColor_t940396054::get_offset_of_scoreDisplay_4(),
@@ -8806,9 +8692,9 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	WaterMaterials_t3313381621::get_offset_of_materials_2(),
 	WaterMaterials_t3313381621::get_offset_of_renderMaterial_3(),
 	WeatherDetecter_t2833725060::get_offset_of_weatherMan_2(),
-	U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515::get_offset_of_U24PC_0(),
-	U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515::get_offset_of_U24current_1(),
-	U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515::get_offset_of_U3CU3Ef__this_2(),
+	U3CdeactivateWeatherDetectorU3Ec__Iterator1F_t3524863506::get_offset_of_U24PC_0(),
+	U3CdeactivateWeatherDetectorU3Ec__Iterator1F_t3524863506::get_offset_of_U24current_1(),
+	U3CdeactivateWeatherDetectorU3Ec__Iterator1F_t3524863506::get_offset_of_U3CU3Ef__this_2(),
 	WeatherMan_t2413190374::get_offset_of_rainToInstantiate_2(),
 	WeatherMan_t2413190374::get_offset_of_snowToInstantiate_3(),
 	WeatherMan_t2413190374::get_offset_of_rainList_4(),
@@ -8825,14 +8711,14 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	CubeP_t65458843::get_offset_of_floatSpeed_8() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	CubeP_t65458843::get_offset_of_isOneRound_9() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Cube_t2111573::get_offset_of_cubeP_2(),
-	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_dirToRotate_0(),
-	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_U24PC_1(),
-	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_U24current_2(),
-	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_U3CU24U3EdirToRotate_3(),
-	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_U3CU3Ef__this_4(),
-	U3CStartPulseU3Ec__Iterator22_t3736187910::get_offset_of_U24PC_0(),
-	U3CStartPulseU3Ec__Iterator22_t3736187910::get_offset_of_U24current_1(),
-	U3CStartPulseU3Ec__Iterator22_t3736187910::get_offset_of_U3CU3Ef__this_2(),
+	U3CStartToRotateU3Ec__Iterator20_t702441965::get_offset_of_dirToRotate_0(),
+	U3CStartToRotateU3Ec__Iterator20_t702441965::get_offset_of_U24PC_1(),
+	U3CStartToRotateU3Ec__Iterator20_t702441965::get_offset_of_U24current_2(),
+	U3CStartToRotateU3Ec__Iterator20_t702441965::get_offset_of_U3CU24U3EdirToRotate_3(),
+	U3CStartToRotateU3Ec__Iterator20_t702441965::get_offset_of_U3CU3Ef__this_4(),
+	U3CStartPulseU3Ec__Iterator21_t3736187909::get_offset_of_U24PC_0(),
+	U3CStartPulseU3Ec__Iterator21_t3736187909::get_offset_of_U24current_1(),
+	U3CStartPulseU3Ec__Iterator21_t3736187909::get_offset_of_U3CU3Ef__this_2(),
 	CubeControllerP_t322988191::get_offset_of_rotateSpeed_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	CubeControllerP_t322988191::get_offset_of_startTime_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	CubeControllerP_t322988191::get_offset_of_rotating_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -8858,9 +8744,9 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	FlashingP_t857341054::get_offset_of_countFlashing_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	FlashingP_t857341054::get_offset_of_mesh_4() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Flashing_t1690224146::get_offset_of_flashingP_2(),
-	U3CFlashingCubeU3Ec__Iterator23_t3584501239::get_offset_of_U24PC_0(),
-	U3CFlashingCubeU3Ec__Iterator23_t3584501239::get_offset_of_U24current_1(),
-	U3CFlashingCubeU3Ec__Iterator23_t3584501239::get_offset_of_U3CU3Ef__this_2(),
+	U3CFlashingCubeU3Ec__Iterator22_t3584501238::get_offset_of_U24PC_0(),
+	U3CFlashingCubeU3Ec__Iterator22_t3584501238::get_offset_of_U24current_1(),
+	U3CFlashingCubeU3Ec__Iterator22_t3584501238::get_offset_of_U3CU3Ef__this_2(),
 	GetIndexCube_t3641666961::get_offset_of_index_2(),
 	AxisTouchButton_t1467159680::get_offset_of_axisName_2(),
 	AxisTouchButton_t1467159680::get_offset_of_axisValue_3(),
@@ -8983,219 +8869,11 @@ extern const int32_t g_FieldOffsetTable[7498] =
 	WaterBase_t2511321362::get_offset_of_edgeBlend_4(),
 	WaterTile_t2511865071::get_offset_of_reflection_2(),
 	WaterTile_t2511865071::get_offset_of_waterBase_3(),
-	ActivateTrigger_t716910918::get_offset_of_action_2(),
-	ActivateTrigger_t716910918::get_offset_of_target_3(),
-	ActivateTrigger_t716910918::get_offset_of_source_4(),
-	ActivateTrigger_t716910918::get_offset_of_triggerCount_5(),
-	ActivateTrigger_t716910918::get_offset_of_repeatTrigger_6(),
-	Mode_t2403781::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	AutoMobileShaderSwitch_t2556558731::get_offset_of_m_ReplacementList_2(),
-	ReplacementDefinition_t3635855589::get_offset_of_original_0(),
-	ReplacementDefinition_t3635855589::get_offset_of_replacement_1(),
-	ReplacementList_t3138179504::get_offset_of_items_0(),
-	AutoMoveAndRotate_t426226643::get_offset_of_moveUnitsPerSecond_2(),
-	AutoMoveAndRotate_t426226643::get_offset_of_rotateDegreesPerSecond_3(),
-	AutoMoveAndRotate_t426226643::get_offset_of_ignoreTimescale_4(),
-	AutoMoveAndRotate_t426226643::get_offset_of_m_LastRealTime_5(),
-	Vector3andSpace_t2911552671::get_offset_of_value_0(),
-	Vector3andSpace_t2911552671::get_offset_of_space_1(),
-	CameraRefocus_t1770690465::get_offset_of_Camera_0(),
-	CameraRefocus_t1770690465::get_offset_of_Lookatpoint_1(),
-	CameraRefocus_t1770690465::get_offset_of_Parent_2(),
-	CameraRefocus_t1770690465::get_offset_of_m_OrigCameraPos_3(),
-	CameraRefocus_t1770690465::get_offset_of_m_Refocus_4(),
-	CurveControlledBob_t510508761::get_offset_of_HorizontalBobRange_0(),
-	CurveControlledBob_t510508761::get_offset_of_VerticalBobRange_1(),
-	CurveControlledBob_t510508761::get_offset_of_Bobcurve_2(),
-	CurveControlledBob_t510508761::get_offset_of_VerticaltoHorizontalRatio_3(),
-	CurveControlledBob_t510508761::get_offset_of_m_CyclePositionX_4(),
-	CurveControlledBob_t510508761::get_offset_of_m_CyclePositionY_5(),
-	CurveControlledBob_t510508761::get_offset_of_m_BobBaseInterval_6(),
-	CurveControlledBob_t510508761::get_offset_of_m_OriginalCameraPosition_7(),
-	CurveControlledBob_t510508761::get_offset_of_m_Time_8(),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	DragRigidbody_t3703829370::get_offset_of_m_SpringJoint_8(),
-	U3CDragObjectU3Ec__Iterator0_t2144809454::get_offset_of_U3ColdDragU3E__0_0(),
-	U3CDragObjectU3Ec__Iterator0_t2144809454::get_offset_of_U3ColdAngularDragU3E__1_1(),
-	U3CDragObjectU3Ec__Iterator0_t2144809454::get_offset_of_U3CmainCameraU3E__2_2(),
-	U3CDragObjectU3Ec__Iterator0_t2144809454::get_offset_of_U3CrayU3E__3_3(),
-	U3CDragObjectU3Ec__Iterator0_t2144809454::get_offset_of_distance_4(),
-	U3CDragObjectU3Ec__Iterator0_t2144809454::get_offset_of_U24PC_5(),
-	U3CDragObjectU3Ec__Iterator0_t2144809454::get_offset_of_U24current_6(),
-	U3CDragObjectU3Ec__Iterator0_t2144809454::get_offset_of_U3CU24U3Edistance_7(),
-	U3CDragObjectU3Ec__Iterator0_t2144809454::get_offset_of_U3CU3Ef__this_8(),
-	DynamicShadowSettings_t4132201347::get_offset_of_sunLight_2(),
-	DynamicShadowSettings_t4132201347::get_offset_of_minHeight_3(),
-	DynamicShadowSettings_t4132201347::get_offset_of_minShadowDistance_4(),
-	DynamicShadowSettings_t4132201347::get_offset_of_minShadowBias_5(),
-	DynamicShadowSettings_t4132201347::get_offset_of_maxHeight_6(),
-	DynamicShadowSettings_t4132201347::get_offset_of_maxShadowDistance_7(),
-	DynamicShadowSettings_t4132201347::get_offset_of_maxShadowBias_8(),
-	DynamicShadowSettings_t4132201347::get_offset_of_adaptTime_9(),
-	DynamicShadowSettings_t4132201347::get_offset_of_m_SmoothHeight_10(),
-	DynamicShadowSettings_t4132201347::get_offset_of_m_ChangeSpeed_11(),
-	DynamicShadowSettings_t4132201347::get_offset_of_m_OriginalStrength_12(),
-	FOVKick_t1216604340::get_offset_of_Camera_0(),
-	FOVKick_t1216604340::get_offset_of_originalFov_1(),
-	FOVKick_t1216604340::get_offset_of_FOVIncrease_2(),
-	FOVKick_t1216604340::get_offset_of_TimeToIncrease_3(),
-	FOVKick_t1216604340::get_offset_of_TimeToDecrease_4(),
-	FOVKick_t1216604340::get_offset_of_IncreaseCurve_5(),
-	U3CFOVKickUpU3Ec__Iterator1_t2266180588::get_offset_of_U3CtU3E__0_0(),
-	U3CFOVKickUpU3Ec__Iterator1_t2266180588::get_offset_of_U24PC_1(),
-	U3CFOVKickUpU3Ec__Iterator1_t2266180588::get_offset_of_U24current_2(),
-	U3CFOVKickUpU3Ec__Iterator1_t2266180588::get_offset_of_U3CU3Ef__this_3(),
-	U3CFOVKickDownU3Ec__Iterator2_t297169670::get_offset_of_U3CtU3E__0_0(),
-	U3CFOVKickDownU3Ec__Iterator2_t297169670::get_offset_of_U24PC_1(),
-	U3CFOVKickDownU3Ec__Iterator2_t297169670::get_offset_of_U24current_2(),
-	U3CFOVKickDownU3Ec__Iterator2_t297169670::get_offset_of_U3CU3Ef__this_3(),
-	0,
-	0,
-	FPSCounter_t2980733204::get_offset_of_m_FpsAccumulator_4(),
-	FPSCounter_t2980733204::get_offset_of_m_FpsNextPeriod_5(),
-	FPSCounter_t2980733204::get_offset_of_m_CurrentFps_6(),
-	FPSCounter_t2980733204::get_offset_of_m_Text_7(),
-	FollowTarget_t3255037155::get_offset_of_target_2(),
-	FollowTarget_t3255037155::get_offset_of_offset_3(),
-	LerpControlledBob_t2579283729::get_offset_of_BobDuration_0(),
-	LerpControlledBob_t2579283729::get_offset_of_BobAmount_1(),
-	LerpControlledBob_t2579283729::get_offset_of_m_Offset_2(),
-	U3CDoBobCycleU3Ec__Iterator3_t4233235528::get_offset_of_U3CtU3E__0_0(),
-	U3CDoBobCycleU3Ec__Iterator3_t4233235528::get_offset_of_U24PC_1(),
-	U3CDoBobCycleU3Ec__Iterator3_t4233235528::get_offset_of_U24current_2(),
-	U3CDoBobCycleU3Ec__Iterator3_t4233235528::get_offset_of_U3CU3Ef__this_3(),
-	ObjectResetter_t3416643858::get_offset_of_originalPosition_2(),
-	ObjectResetter_t3416643858::get_offset_of_originalRotation_3(),
-	ObjectResetter_t3416643858::get_offset_of_originalStructure_4(),
-	ObjectResetter_t3416643858::get_offset_of_Rigidbody_5(),
-	U3CResetCoroutineU3Ec__Iterator4_t973508348::get_offset_of_delay_0(),
-	U3CResetCoroutineU3Ec__Iterator4_t973508348::get_offset_of_U3CU24s_8U3E__0_1(),
-	U3CResetCoroutineU3Ec__Iterator4_t973508348::get_offset_of_U3CU24s_9U3E__1_2(),
-	U3CResetCoroutineU3Ec__Iterator4_t973508348::get_offset_of_U3CtU3E__2_3(),
-	U3CResetCoroutineU3Ec__Iterator4_t973508348::get_offset_of_U24PC_4(),
-	U3CResetCoroutineU3Ec__Iterator4_t973508348::get_offset_of_U24current_5(),
-	U3CResetCoroutineU3Ec__Iterator4_t973508348::get_offset_of_U3CU24U3Edelay_6(),
-	U3CResetCoroutineU3Ec__Iterator4_t973508348::get_offset_of_U3CU3Ef__this_7(),
-	ParticleSystemDestroyer_t2578584915::get_offset_of_minDuration_2(),
-	ParticleSystemDestroyer_t2578584915::get_offset_of_maxDuration_3(),
-	ParticleSystemDestroyer_t2578584915::get_offset_of_m_MaxLifetime_4(),
-	ParticleSystemDestroyer_t2578584915::get_offset_of_m_EarlyStop_5(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CsystemsU3E__0_0(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CU24s_10U3E__1_1(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CU24s_11U3E__2_2(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CsystemU3E__3_3(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CstopTimeU3E__4_4(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CU24s_12U3E__5_5(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CU24s_13U3E__6_6(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CsystemU3E__7_7(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CemissionU3E__8_8(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U24PC_9(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U24current_10(),
-	U3CStartU3Ec__Iterator5_t4138896572::get_offset_of_U3CU3Ef__this_11(),
-	PlatformSpecificContent_t447783413::get_offset_of_m_BuildTargetGroup_2(),
-	PlatformSpecificContent_t447783413::get_offset_of_m_Content_3(),
-	PlatformSpecificContent_t447783413::get_offset_of_m_MonoBehaviours_4(),
-	PlatformSpecificContent_t447783413::get_offset_of_m_ChildrenOfThisObject_5(),
-	BuildTargetGroup_t1666997312::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	SimpleActivatorMenu_t1139253635::get_offset_of_camSwitchButton_2(),
-	SimpleActivatorMenu_t1139253635::get_offset_of_objects_3(),
-	SimpleActivatorMenu_t1139253635::get_offset_of_m_CurrentActiveObject_4(),
-	SimpleMouseRotator_t2796365403::get_offset_of_rotationRange_2(),
-	SimpleMouseRotator_t2796365403::get_offset_of_rotationSpeed_3(),
-	SimpleMouseRotator_t2796365403::get_offset_of_dampingTime_4(),
-	SimpleMouseRotator_t2796365403::get_offset_of_autoZeroVerticalOnMobile_5(),
-	SimpleMouseRotator_t2796365403::get_offset_of_autoZeroHorizontalOnMobile_6(),
-	SimpleMouseRotator_t2796365403::get_offset_of_relative_7(),
-	SimpleMouseRotator_t2796365403::get_offset_of_m_TargetAngles_8(),
-	SimpleMouseRotator_t2796365403::get_offset_of_m_FollowAngles_9(),
-	SimpleMouseRotator_t2796365403::get_offset_of_m_FollowVelocity_10(),
-	SimpleMouseRotator_t2796365403::get_offset_of_m_OriginalRotation_11(),
-	SmoothFollow_t1823522624::get_offset_of_target_2(),
-	SmoothFollow_t1823522624::get_offset_of_distance_3(),
-	SmoothFollow_t1823522624::get_offset_of_height_4(),
-	SmoothFollow_t1823522624::get_offset_of_rotationDamping_5(),
-	SmoothFollow_t1823522624::get_offset_of_heightDamping_6(),
-	TimedObjectActivator_t172455584::get_offset_of_entries_2(),
-	Action_t1955883606::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	Entry_t67115091::get_offset_of_target_0(),
-	Entry_t67115091::get_offset_of_action_1(),
-	Entry_t67115091::get_offset_of_delay_2(),
-	Entries_t73079920::get_offset_of_entries_0(),
-	U3CActivateU3Ec__Iterator6_t1062279060::get_offset_of_entry_0(),
-	U3CActivateU3Ec__Iterator6_t1062279060::get_offset_of_U24PC_1(),
-	U3CActivateU3Ec__Iterator6_t1062279060::get_offset_of_U24current_2(),
-	U3CActivateU3Ec__Iterator6_t1062279060::get_offset_of_U3CU24U3Eentry_3(),
-	U3CDeactivateU3Ec__Iterator7_t593812660::get_offset_of_entry_0(),
-	U3CDeactivateU3Ec__Iterator7_t593812660::get_offset_of_U24PC_1(),
-	U3CDeactivateU3Ec__Iterator7_t593812660::get_offset_of_U24current_2(),
-	U3CDeactivateU3Ec__Iterator7_t593812660::get_offset_of_U3CU24U3Eentry_3(),
-	U3CReloadLevelU3Ec__Iterator8_t3585593686::get_offset_of_entry_0(),
-	U3CReloadLevelU3Ec__Iterator8_t3585593686::get_offset_of_U24PC_1(),
-	U3CReloadLevelU3Ec__Iterator8_t3585593686::get_offset_of_U24current_2(),
-	U3CReloadLevelU3Ec__Iterator8_t3585593686::get_offset_of_U3CU24U3Eentry_3(),
-	TimedObjectDestructor_t3957868016::get_offset_of_m_TimeOut_2(),
-	TimedObjectDestructor_t3957868016::get_offset_of_m_DetachChildren_3(),
-	WaypointCircuit_t2562636969::get_offset_of_waypointList_2(),
-	WaypointCircuit_t2562636969::get_offset_of_smoothRoute_3(),
-	WaypointCircuit_t2562636969::get_offset_of_numPoints_4(),
-	WaypointCircuit_t2562636969::get_offset_of_points_5(),
-	WaypointCircuit_t2562636969::get_offset_of_distances_6(),
-	WaypointCircuit_t2562636969::get_offset_of_editorVisualisationSubsteps_7(),
-	WaypointCircuit_t2562636969::get_offset_of_p0n_8(),
-	WaypointCircuit_t2562636969::get_offset_of_p1n_9(),
-	WaypointCircuit_t2562636969::get_offset_of_p2n_10(),
-	WaypointCircuit_t2562636969::get_offset_of_p3n_11(),
-	WaypointCircuit_t2562636969::get_offset_of_i_12(),
-	WaypointCircuit_t2562636969::get_offset_of_P0_13(),
-	WaypointCircuit_t2562636969::get_offset_of_P1_14(),
-	WaypointCircuit_t2562636969::get_offset_of_P2_15(),
-	WaypointCircuit_t2562636969::get_offset_of_P3_16(),
-	WaypointCircuit_t2562636969::get_offset_of_U3CLengthU3Ek__BackingField_17(),
-	WaypointList_t3690633311::get_offset_of_circuit_0(),
-	WaypointList_t3690633311::get_offset_of_items_1(),
-	RoutePoint_t2892207335::get_offset_of_position_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	RoutePoint_t2892207335::get_offset_of_direction_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	WaypointProgressTracker_t2956721675::get_offset_of_circuit_2(),
-	WaypointProgressTracker_t2956721675::get_offset_of_lookAheadForTargetOffset_3(),
-	WaypointProgressTracker_t2956721675::get_offset_of_lookAheadForTargetFactor_4(),
-	WaypointProgressTracker_t2956721675::get_offset_of_lookAheadForSpeedOffset_5(),
-	WaypointProgressTracker_t2956721675::get_offset_of_lookAheadForSpeedFactor_6(),
-	WaypointProgressTracker_t2956721675::get_offset_of_progressStyle_7(),
-	WaypointProgressTracker_t2956721675::get_offset_of_pointToPointThreshold_8(),
-	WaypointProgressTracker_t2956721675::get_offset_of_target_9(),
-	WaypointProgressTracker_t2956721675::get_offset_of_progressDistance_10(),
-	WaypointProgressTracker_t2956721675::get_offset_of_progressNum_11(),
-	WaypointProgressTracker_t2956721675::get_offset_of_lastPosition_12(),
-	WaypointProgressTracker_t2956721675::get_offset_of_speed_13(),
-	WaypointProgressTracker_t2956721675::get_offset_of_U3CtargetPointU3Ek__BackingField_14(),
-	WaypointProgressTracker_t2956721675::get_offset_of_U3CspeedPointU3Ek__BackingField_15(),
-	WaypointProgressTracker_t2956721675::get_offset_of_U3CprogressPointU3Ek__BackingField_16(),
-	ProgressStyle_t1569058660::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] = 
+extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1815] = 
 {
 	sizeof (U3CModuleU3E_t86524790), -1, 0, 0,
 	sizeof (Il2CppObject), -1, 0, 0,
@@ -10426,7 +10104,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (GL_t1522887986), -1, 0, 0,
 	sizeof (RectOffset_t3394170884), -1, 0, 0,
 	sizeof (GUIElement_t4113441198), -1, 0, 0,
-	sizeof (GUITexture_t63494093), -1, 0, 0,
 	sizeof (GUILayer_t999894339), -1, 0, 0,
 	sizeof (Texture_t1769722184), -1, 0, 0,
 	sizeof (Texture2D_t2509538522), -1, 0, 0,
@@ -10438,7 +10115,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (TouchScreenKeyboard_InternalConstructorHelperArguments_t3502143717)+ sizeof (Il2CppObject), sizeof(TouchScreenKeyboard_InternalConstructorHelperArguments_t3502143717_marshaled_pinvoke), 0, 0,
 	sizeof (TouchScreenKeyboardType_t1816994841)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (TouchScreenKeyboard_t2269718975), -1, 0, 0,
-	sizeof (Gizmos_t3656267942), -1, 0, 0,
 	sizeof (FlareLayer_t1330112144), -1, 0, 0,
 	sizeof (LayerMask_t1862190090)+ sizeof (Il2CppObject), sizeof(LayerMask_t1862190090_marshaled_pinvoke), 0, 0,
 	sizeof (Vector2_t3525329788)+ sizeof (Il2CppObject), sizeof(Vector2_t3525329788_marshaled_pinvoke), 0, 0,
@@ -10499,7 +10175,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (HideFlags_t62234258)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (Object_t3878351788), sizeof(Object_t3878351788_marshaled_pinvoke), 0, 0,
 	sizeof (Component_t2126946602), -1, 0, 0,
-	sizeof (Light_t1596303683), -1, 0, 0,
 	sizeof (GameObject_t4012695102), -1, 0, 0,
 	sizeof (Transform_t284553113), -1, 0, 0,
 	sizeof (Enumerator_t1072804841), -1, 0, 0,
@@ -10524,16 +10199,12 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (LoadSceneMode_t2068802481)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (SceneManager_t1523288937), -1, 0, 0,
 	sizeof (Scene_t2772977204)+ sizeof (Il2CppObject), sizeof(Scene_t2772977204_marshaled_pinvoke), 0, 0,
-	sizeof (ParticleSystem_t56787138), -1, 0, 0,
-	sizeof (EmissionModule_t1434063603)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (ControllerColliderHit_t2693066224), -1, 0, 0,
 	sizeof (Collision_t1119538015), -1, 0, 0,
 	sizeof (QueryTriggerInteraction_t4085533775)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (Physics_t2601443956), -1, 0, 0,
 	sizeof (ContactPoint_t2951122365)+ sizeof (Il2CppObject), sizeof(ContactPoint_t2951122365_marshaled_pinvoke), 0, 0,
 	sizeof (Rigidbody_t1972007546), -1, 0, 0,
-	sizeof (Joint_t1594637495), -1, 0, 0,
-	sizeof (SpringJoint_t2446926506), -1, 0, 0,
 	sizeof (Collider_t955670625), -1, 0, 0,
 	sizeof (RaycastHit_t46221527)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (CharacterController_t2029520850), -1, 0, 0,
@@ -10554,9 +10225,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (AnimationEventSource_t2022798750)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (AnimationEvent_t3344771555), -1, 0, 0,
 	sizeof (AnimationClip_t57566497), -1, 0, 0,
-	sizeof (PlayMode_t3466086244)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
-	sizeof (Animation_t350396337), -1, 0, 0,
-	sizeof (Enumerator_t1072804842), -1, 0, 0,
 	sizeof (AnimationState_t3357637594), -1, 0, 0,
 	sizeof (AnimatorClipInfo_t4255364242)+ sizeof (Il2CppObject), sizeof(AnimatorClipInfo_t4255364242_marshaled_pinvoke), 0, 0,
 	sizeof (AnimatorStateInfo_t4162640357)+ sizeof (Il2CppObject), sizeof(AnimatorStateInfo_t4162640357_marshaled_pinvoke), 0, 0,
@@ -10574,7 +10242,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (TextAnchor_t551935663)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (HorizontalWrapMode_t1685321150)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (VerticalWrapMode_t2656823056)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
-	sizeof (GUIText_t2614635829), -1, 0, 0,
 	sizeof (Font_t1525081276), -1, sizeof(Font_t1525081276_StaticFields), 0,
 	sizeof (FontTextureRebuildCallback_t401089076), sizeof(methodPointerType), 0, 0,
 	sizeof (UICharInfo_t403820581)+ sizeof (Il2CppObject), sizeof(UICharInfo_t403820581_marshaled_pinvoke), 0, 0,
@@ -10903,42 +10570,30 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (SetAudioLevels_t1109142339), -1, 0, 0,
 	sizeof (ShowPanels_t2673010796), -1, 0, 0,
 	sizeof (StartOptions_t3075365884), -1, 0, 0,
-	sizeof (ActiveStateToggler_t829858835), -1, 0, 0,
-	sizeof (ApplicationManager_t3252667485), -1, 0, 0,
-	sizeof (ChangeColor_t4282360179), -1, 0, 0,
-	sizeof (DragMe_t2055054860), -1, 0, 0,
-	sizeof (DragPanel_t1678257424), -1, 0, 0,
-	sizeof (DropMe_t2055480583), -1, 0, 0,
-	sizeof (PanelManager_t2965005609), -1, 0, 0,
-	sizeof (U3CDisablePanelDeleyedU3Ec__Iterator0_t3135294679), -1, 0, 0,
-	sizeof (ResizePanel_t788198800), -1, 0, 0,
-	sizeof (ScrollDetailTexture_t3150826909), -1, 0, 0,
-	sizeof (ShowSliderValue_t1108427187), -1, 0, 0,
-	sizeof (TiltWindow_t1575826733), -1, 0, 0,
 	sizeof (BallP_t63949329)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (Ball_t2062879), -1, sizeof(Ball_t2062879_StaticFields), 0,
 	sizeof (ActionScaling_t4098096209), sizeof(methodPointerType), 0, 0,
 	sizeof (ActionExplode_t878049707), sizeof(methodPointerType), 0, 0,
-	sizeof (U3CmovingU3Ec__Iterator1_t3965976884), -1, 0, 0,
-	sizeof (U3CpulseU3Ec__Iterator2_t1526999746), -1, 0, 0,
-	sizeof (U3CBallInactiveU3Ec__Iterator3_t1575522394), -1, 0, 0,
+	sizeof (U3CmovingU3Ec__Iterator0_t3965976883), -1, 0, 0,
+	sizeof (U3CpulseU3Ec__Iterator1_t1526999745), -1, 0, 0,
+	sizeof (U3CBallInactiveU3Ec__Iterator2_t1575522393), -1, 0, 0,
 	sizeof (CameraP_t2214017451)+ sizeof (Il2CppObject), sizeof(CameraP_t2214017451_marshaled_pinvoke), 0, 0,
 	sizeof (CameraTracker_t2740516915), -1, 0, 0,
-	sizeof (U3CCameraToMoveU3Ec__Iterator4_t2225327828), -1, 0, 0,
+	sizeof (U3CCameraToMoveU3Ec__Iterator3_t2225327827), -1, 0, 0,
 	sizeof (Deactivator_t4192724884), -1, sizeof(Deactivator_t4192724884_StaticFields), 0,
 	sizeof (EffectAction_t3544139591), sizeof(methodPointerType), 0, 0,
 	sizeof (Destroyer_t3990730247), -1, 0, 0,
-	sizeof (U3CTimerChallengeCounterU3Ec__Iterator5_t3473037600), -1, 0, 0,
+	sizeof (U3CTimerChallengeCounterU3Ec__Iterator4_t3473037599), -1, 0, 0,
 	sizeof (DiamondProperty_t1654949673)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (Diamond_t3319707956), -1, sizeof(Diamond_t3319707956_StaticFields), 0,
 	sizeof (ActionBreaking_t3455992569), sizeof(methodPointerType), 0, 0,
 	sizeof (EmissiveAction_t997068685), sizeof(methodPointerType), 0, 0,
-	sizeof (U3CSpinU3Ec__Iterator6_t2003123877), -1, 0, 0,
-	sizeof (U3CSpin2U3Ec__Iterator7_t503209904), -1, 0, 0,
-	sizeof (U3CFloat2U3Ec__Iterator8_t1623143699), -1, 0, 0,
-	sizeof (U3CFloatU3Ec__Iterator9_t3563271430), -1, 0, 0,
-	sizeof (U3CmovingU3Ec__IteratorA_t3965976900), -1, 0, 0,
-	sizeof (U3CDiaInactiveU3Ec__IteratorB_t2740340548), -1, 0, 0,
+	sizeof (U3CSpinU3Ec__Iterator5_t2003123876), -1, 0, 0,
+	sizeof (U3CSpin2U3Ec__Iterator6_t503209903), -1, 0, 0,
+	sizeof (U3CFloat2U3Ec__Iterator7_t1623143698), -1, 0, 0,
+	sizeof (U3CFloatU3Ec__Iterator8_t3563271429), -1, 0, 0,
+	sizeof (U3CmovingU3Ec__Iterator9_t3965976892), -1, 0, 0,
+	sizeof (U3CDiaInactiveU3Ec__IteratorA_t2740340547), -1, 0, 0,
 	sizeof (DiamondDeactivate_t198014152), -1, 0, 0,
 	sizeof (DisplayTime_t3382204047), -1, 0, 0,
 	sizeof (EventManager_t1907836883), -1, sizeof(EventManager_t1907836883_StaticFields), 0,
@@ -10951,50 +10606,50 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (GroundEffect_t3883356696), -1, 0, 0,
 	sizeof (MainCubeP_t1727109218)+ sizeof (Il2CppObject), sizeof(MainCubeP_t1727109218_marshaled_pinvoke), 0, 0,
 	sizeof (MainCube_t55713198), -1, 0, 0,
-	sizeof (U3CStartToRotateU3Ec__IteratorC_t2516511412), -1, 0, 0,
-	sizeof (U3CStartToMoveU3Ec__IteratorD_t3465779135), -1, 0, 0,
+	sizeof (U3CStartToRotateU3Ec__IteratorB_t2516511411), -1, 0, 0,
+	sizeof (U3CStartToMoveU3Ec__IteratorC_t3465779134), -1, 0, 0,
 	sizeof (Ideas_t70496316), -1, 0, 0,
 	sizeof (ParticleP_t203653738)+ sizeof (Il2CppObject), sizeof(ParticleP_t203653738_marshaled_pinvoke), 0, 0,
 	sizeof (ParticeDeactivate_t2500325420), -1, 0, 0,
 	sizeof (PlayerMaterials_t2277059115), -1, 0, 0,
 	sizeof (ScallerP_t3467974258)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (PlayerScaler_t4190867145), -1, 0, 0,
-	sizeof (U3CScalePlayerU3Ec__IteratorE_t478223875), -1, 0, 0,
-	sizeof (U3CTimeCounterU3Ec__IteratorF_t2311950048), -1, 0, 0,
-	sizeof (U3CScaleBackU3Ec__Iterator10_t3914306343), -1, 0, 0,
+	sizeof (U3CScalePlayerU3Ec__IteratorD_t478223874), -1, 0, 0,
+	sizeof (U3CTimeCounterU3Ec__IteratorE_t2311950047), -1, 0, 0,
+	sizeof (U3CScaleBackU3Ec__IteratorF_t126267966), -1, 0, 0,
 	sizeof (SetFrameRate_t2248765899), -1, 0, 0,
 	sizeof (SkyboxMaterials_t3915907618), -1, 0, 0,
 	sizeof (SoundBreaking_t2714241170), -1, 0, 0,
 	sizeof (SpawnerChallengeP_t1256298421)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (SpawnerChallenge_t2257283067), -1, 0, 0,
-	sizeof (U3CInstantiateEffectU3Ec__Iterator11_t1005504882), -1, 0, 0,
-	sizeof (U3CInstantiateDiamondEmissiveU3Ec__Iterator12_t1952760209), -1, 0, 0,
-	sizeof (U3CInstantiateBallExplodeU3Ec__Iterator13_t1524620393), -1, 0, 0,
-	sizeof (U3CInstantiateDiamondBreakingU3Ec__Iterator14_t2380724415), -1, 0, 0,
-	sizeof (U3CInstantiateCubeU3Ec__Iterator15_t1100421274), -1, 0, 0,
-	sizeof (U3CInstantiateDiamondU3Ec__Iterator16_t2257946974), -1, 0, 0,
-	sizeof (U3CInstantiateBallU3Ec__Iterator17_t1953657062), -1, 0, 0,
+	sizeof (U3CInstantiateEffectU3Ec__Iterator10_t1005504881), -1, 0, 0,
+	sizeof (U3CInstantiateDiamondEmissiveU3Ec__Iterator11_t1952760208), -1, 0, 0,
+	sizeof (U3CInstantiateBallExplodeU3Ec__Iterator12_t1524620392), -1, 0, 0,
+	sizeof (U3CInstantiateDiamondBreakingU3Ec__Iterator13_t2380724414), -1, 0, 0,
+	sizeof (U3CInstantiateCubeU3Ec__Iterator14_t1100421273), -1, 0, 0,
+	sizeof (U3CInstantiateDiamondU3Ec__Iterator15_t2257946973), -1, 0, 0,
+	sizeof (U3CInstantiateBallU3Ec__Iterator16_t1953657061), -1, 0, 0,
 	sizeof (SpawnerP_t2130838536)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (SpawnerManager_t45089093), -1, 0, 0,
-	sizeof (U3CInstantiateEffectU3Ec__Iterator18_t1005504889), -1, 0, 0,
-	sizeof (U3CInstantiateDiamondEmissiveU3Ec__Iterator19_t1952760216), -1, 0, 0,
-	sizeof (U3CInstantiateBallExplodeU3Ec__Iterator1A_t1524620407), -1, 0, 0,
-	sizeof (U3CInstantiateDiamondBreakingU3Ec__Iterator1B_t2380724429), -1, 0, 0,
-	sizeof (U3CInstantiateCubeU3Ec__Iterator1C_t1100421288), -1, 0, 0,
-	sizeof (U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988), -1, 0, 0,
-	sizeof (U3CInstantiateBallU3Ec__Iterator1E_t1953657076), -1, 0, 0,
-	sizeof (U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453), -1, 0, 0,
+	sizeof (U3CInstantiateEffectU3Ec__Iterator17_t1005504888), -1, 0, 0,
+	sizeof (U3CInstantiateDiamondEmissiveU3Ec__Iterator18_t1952760215), -1, 0, 0,
+	sizeof (U3CInstantiateBallExplodeU3Ec__Iterator19_t1524620399), -1, 0, 0,
+	sizeof (U3CInstantiateDiamondBreakingU3Ec__Iterator1A_t2380724428), -1, 0, 0,
+	sizeof (U3CInstantiateCubeU3Ec__Iterator1B_t1100421287), -1, 0, 0,
+	sizeof (U3CInstantiateDiamondU3Ec__Iterator1C_t2257946987), -1, 0, 0,
+	sizeof (U3CInstantiateBallU3Ec__Iterator1D_t1953657075), -1, 0, 0,
+	sizeof (U3CInstantiateObstacleU3Ec__Iterator1E_t3480312452), -1, 0, 0,
 	sizeof (TextColor_t940396054), -1, 0, 0,
 	sizeof (UpdateScore_t1082839849), -1, 0, 0,
 	sizeof (WaterLerp_t1789564686), -1, 0, 0,
 	sizeof (WaterMaterials_t3313381621), -1, 0, 0,
 	sizeof (WeatherDetecter_t2833725060), -1, 0, 0,
-	sizeof (U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515), -1, 0, 0,
+	sizeof (U3CdeactivateWeatherDetectorU3Ec__Iterator1F_t3524863506), -1, 0, 0,
 	sizeof (WeatherMan_t2413190374), -1, 0, 0,
 	sizeof (CubeP_t65458843)+ sizeof (Il2CppObject), sizeof(CubeP_t65458843_marshaled_pinvoke), 0, 0,
 	sizeof (Cube_t2111573), -1, 0, 0,
-	sizeof (U3CStartToRotateU3Ec__Iterator21_t702441966), -1, 0, 0,
-	sizeof (U3CStartPulseU3Ec__Iterator22_t3736187910), -1, 0, 0,
+	sizeof (U3CStartToRotateU3Ec__Iterator20_t702441965), -1, 0, 0,
+	sizeof (U3CStartPulseU3Ec__Iterator21_t3736187909), -1, 0, 0,
 	sizeof (CubeControllerP_t322988191)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (CubeController_t1811534289), -1, 0, 0,
 	sizeof (CubeManagerP_t508845496)+ sizeof (Il2CppObject), -1, 0, 0,
@@ -11002,7 +10657,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (CubeMaterials_t4044142423), -1, 0, 0,
 	sizeof (FlashingP_t857341054)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (Flashing_t1690224146), -1, 0, 0,
-	sizeof (U3CFlashingCubeU3Ec__Iterator23_t3584501239), -1, 0, 0,
+	sizeof (U3CFlashingCubeU3Ec__Iterator22_t3584501238), -1, 0, 0,
 	sizeof (GetIndexCube_t3641666961), -1, 0, 0,
 	sizeof (U3CModuleU3E_t86524798), -1, 0, 0,
 	sizeof (AxisTouchButton_t1467159680), -1, 0, 0,
@@ -11025,7 +10680,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (AxisOption_t1924217751)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (ControlStyle_t2825252468)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (VirtualInput_t2483683151), -1, 0, 0,
-	sizeof (WaterBasic_t354635297), -1, 0, 0,
 	sizeof (Displace_t1071783427), -1, 0, 0,
 	sizeof (GerstnerDisplace_t3669890281), -1, 0, 0,
 	sizeof (MeshContainer_t1896783262), -1, 0, 0,
@@ -11036,47 +10690,4 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] =
 	sizeof (WaterQuality_t799476914)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (WaterBase_t2511321362), -1, 0, 0,
 	sizeof (WaterTile_t2511865071), -1, 0, 0,
-	sizeof (ActivateTrigger_t716910918), -1, 0, 0,
-	sizeof (Mode_t2403781)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
-	sizeof (AutoMobileShaderSwitch_t2556558731), -1, 0, 0,
-	sizeof (ReplacementDefinition_t3635855589), -1, 0, 0,
-	sizeof (ReplacementList_t3138179504), -1, 0, 0,
-	sizeof (AutoMoveAndRotate_t426226643), -1, 0, 0,
-	sizeof (Vector3andSpace_t2911552671), -1, 0, 0,
-	sizeof (CameraRefocus_t1770690465), -1, 0, 0,
-	sizeof (CurveControlledBob_t510508761), -1, 0, 0,
-	sizeof (DragRigidbody_t3703829370), -1, 0, 0,
-	sizeof (U3CDragObjectU3Ec__Iterator0_t2144809454), -1, 0, 0,
-	sizeof (DynamicShadowSettings_t4132201347), -1, 0, 0,
-	sizeof (EventSystemChecker_t4055823917), -1, 0, 0,
-	sizeof (FOVKick_t1216604340), -1, 0, 0,
-	sizeof (U3CFOVKickUpU3Ec__Iterator1_t2266180588), -1, 0, 0,
-	sizeof (U3CFOVKickDownU3Ec__Iterator2_t297169670), -1, 0, 0,
-	sizeof (FPSCounter_t2980733204), -1, 0, 0,
-	sizeof (FollowTarget_t3255037155), -1, 0, 0,
-	sizeof (ForcedReset_t1662771670), -1, 0, 0,
-	sizeof (LerpControlledBob_t2579283729), -1, 0, 0,
-	sizeof (U3CDoBobCycleU3Ec__Iterator3_t4233235528), -1, 0, 0,
-	sizeof (ObjectResetter_t3416643858), -1, 0, 0,
-	sizeof (U3CResetCoroutineU3Ec__Iterator4_t973508348), -1, 0, 0,
-	sizeof (ParticleSystemDestroyer_t2578584915), -1, 0, 0,
-	sizeof (U3CStartU3Ec__Iterator5_t4138896572), -1, 0, 0,
-	sizeof (PlatformSpecificContent_t447783413), -1, 0, 0,
-	sizeof (BuildTargetGroup_t1666997312)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
-	sizeof (SimpleActivatorMenu_t1139253635), -1, 0, 0,
-	sizeof (SimpleMouseRotator_t2796365403), -1, 0, 0,
-	sizeof (SmoothFollow_t1823522624), -1, 0, 0,
-	sizeof (TimedObjectActivator_t172455584), -1, 0, 0,
-	sizeof (Action_t1955883606)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
-	sizeof (Entry_t67115091), -1, 0, 0,
-	sizeof (Entries_t73079920), -1, 0, 0,
-	sizeof (U3CActivateU3Ec__Iterator6_t1062279060), -1, 0, 0,
-	sizeof (U3CDeactivateU3Ec__Iterator7_t593812660), -1, 0, 0,
-	sizeof (U3CReloadLevelU3Ec__Iterator8_t3585593686), -1, 0, 0,
-	sizeof (TimedObjectDestructor_t3957868016), -1, 0, 0,
-	sizeof (WaypointCircuit_t2562636969), -1, 0, 0,
-	sizeof (WaypointList_t3690633311), -1, 0, 0,
-	sizeof (RoutePoint_t2892207335)+ sizeof (Il2CppObject), sizeof(RoutePoint_t2892207335_marshaled_pinvoke), 0, 0,
-	sizeof (WaypointProgressTracker_t2956721675), -1, 0, 0,
-	sizeof (ProgressStyle_t1569058660)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 };

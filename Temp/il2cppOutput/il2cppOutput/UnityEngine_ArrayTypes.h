@@ -30,8 +30,6 @@ struct GcLeaderboard_t3894999172;
 struct Achievement_t581285621;
 // UnityEngine.SocialPlatforms.Impl.Score
 struct Score_t1540476504;
-// UnityEngine.Material
-struct Material_t1886596500;
 // UnityEngine.Camera
 struct Camera_t3533968274;
 // UnityEngine.Behaviour
@@ -76,12 +74,10 @@ struct Font_t1525081276;
 struct CanvasGroup_t1295922228;
 // UnityEngine.RectTransform
 struct RectTransform_t3317474837;
+// UnityEngine.Material
+struct Material_t1886596500;
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t3012272455;
-// UnityEngine.Renderer
-struct Renderer_t1092684080;
-// UnityEngine.ParticleSystem
-struct ParticleSystem_t56787138;
 
 #include "mscorlib_System_Array2840145358.h"
 #include "UnityEngine_UnityEngine_Object3878351788.h"
@@ -96,7 +92,6 @@ struct ParticleSystem_t56787138;
 #include "UnityEngine_UnityEngine_Vector43525329790.h"
 #include "UnityEngine_UnityEngine_Vector23525329788.h"
 #include "UnityEngine_UnityEngine_Color324137084207.h"
-#include "UnityEngine_UnityEngine_Material1886596500.h"
 #include "UnityEngine_UnityEngine_Keyframe2095052507.h"
 #include "UnityEngine_UnityEngine_Camera3533968274.h"
 #include "UnityEngine_UnityEngine_Behaviour3120504042.h"
@@ -129,9 +124,8 @@ struct ParticleSystem_t56787138;
 #include "UnityEngine_UnityEngine_Font1525081276.h"
 #include "UnityEngine_UnityEngine_CanvasGroup1295922228.h"
 #include "UnityEngine_UnityEngine_RectTransform3317474837.h"
+#include "UnityEngine_UnityEngine_Material1886596500.h"
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455.h"
-#include "UnityEngine_UnityEngine_Renderer1092684080.h"
-#include "UnityEngine_UnityEngine_ParticleSystem56787138.h"
 
 #pragma once
 // UnityEngine.Object[]
@@ -366,21 +360,6 @@ public:
 	inline void SetAt(il2cpp_array_size_t index, Color32_t4137084207  value)
 	{
 		m_Items[index] = value;
-	}
-};
-// UnityEngine.Material[]
-struct MaterialU5BU5D_t3353847197  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Material_t1886596500 * m_Items[1];
-
-public:
-	inline Material_t1886596500 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Material_t1886596500 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Material_t1886596500 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
 // UnityEngine.Keyframe[]
@@ -853,6 +832,21 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
+// UnityEngine.Material[]
+struct MaterialU5BU5D_t3353847197  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Material_t1886596500 * m_Items[1];
+
+public:
+	inline Material_t1886596500 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Material_t1886596500 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Material_t1886596500 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // UnityEngine.MonoBehaviour[]
 struct MonoBehaviourU5BU5D_t936895934  : public Il2CppArray
 {
@@ -863,36 +857,6 @@ public:
 	inline MonoBehaviour_t3012272455 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline MonoBehaviour_t3012272455 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, MonoBehaviour_t3012272455 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.Renderer[]
-struct RendererU5BU5D_t3623042065  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Renderer_t1092684080 * m_Items[1];
-
-public:
-	inline Renderer_t1092684080 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Renderer_t1092684080 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Renderer_t1092684080 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.ParticleSystem[]
-struct ParticleSystemU5BU5D_t808643063  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) ParticleSystem_t56787138 * m_Items[1];
-
-public:
-	inline ParticleSystem_t56787138 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline ParticleSystem_t56787138 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, ParticleSystem_t56787138 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

@@ -11,7 +11,7 @@ public class WeatherMan : MonoBehaviour {
 	private List<GameObject> rainList;
 	private List<GameObject> snowList;
 
-	private int amount = 2;
+	private int amount = 1;
 
 	// Use this for initialization
 	void Start () {

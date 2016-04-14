@@ -14,8 +14,6 @@
 
 // System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>
 struct List_1_t1115694098;
-// System.Collections.Generic.IEnumerable`1<System.Reflection.CustomAttributeNamedArgument>
-struct IEnumerable_1_t3190889485;
 // System.Collections.Generic.IEnumerator`1<System.Reflection.CustomAttributeNamedArgument>
 struct IEnumerator_1_t1801841577;
 // System.Array
@@ -26,6 +24,8 @@ struct IEnumerator_t287207039;
 struct Il2CppObject;
 // System.Collections.Generic.ICollection`1<System.Reflection.CustomAttributeNamedArgument>
 struct ICollection_1_t784566515;
+// System.Collections.Generic.IEnumerable`1<System.Reflection.CustomAttributeNamedArgument>
+struct IEnumerable_1_t3190889485;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>
 struct ReadOnlyCollection_1_t3481880477;
 // System.Reflection.CustomAttributeNamedArgument[]
@@ -44,9 +44,6 @@ struct Comparison_1_t3022410005;
 // System.Void System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>::.ctor()
 extern "C"  void List_1__ctor_m3182785955_gshared (List_1_t1115694098 * __this, const MethodInfo* method);
 #define List_1__ctor_m3182785955(__this, method) ((  void (*) (List_1_t1115694098 *, const MethodInfo*))List_1__ctor_m3182785955_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1__ctor_m2518707964_gshared (List_1_t1115694098 * __this, Il2CppObject* ___collection, const MethodInfo* method);
-#define List_1__ctor_m2518707964(__this, ___collection, method) ((  void (*) (List_1_t1115694098 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m2518707964_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>::.ctor(System.Int32)
 extern "C"  void List_1__ctor_m2888355444_gshared (List_1_t1115694098 * __this, int32_t ___capacity, const MethodInfo* method);
 #define List_1__ctor_m2888355444(__this, ___capacity, method) ((  void (*) (List_1_t1115694098 *, int32_t, const MethodInfo*))List_1__ctor_m2888355444_gshared)(__this, ___capacity, method)

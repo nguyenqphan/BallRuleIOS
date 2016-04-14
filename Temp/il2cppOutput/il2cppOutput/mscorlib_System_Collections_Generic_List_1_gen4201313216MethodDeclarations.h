@@ -18,8 +18,6 @@
 
 // System.Void System.Collections.Generic.List`1<UnityEngine.Experimental.Director.Playable>::.ctor()
 #define List_1__ctor_m1969150421(__this, method) ((  void (*) (List_1_t4201313216 *, const MethodInfo*))List_1__ctor_m3048469268_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.Experimental.Director.Playable>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m2049777546(__this, ___collection, method) ((  void (*) (List_1_t4201313216 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m1160795371_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Experimental.Director.Playable>::.ctor(System.Int32)
 #define List_1__ctor_m4067653542(__this, ___capacity, method) ((  void (*) (List_1_t4201313216 *, int32_t, const MethodInfo*))List_1__ctor_m3643386469_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Experimental.Director.Playable>::.cctor()

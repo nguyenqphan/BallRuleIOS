@@ -20,8 +20,6 @@ struct String_t;
 #include "mscorlib_System_String968488902.h"
 #include "UnityEngine_UnityEngine_LogType3529269451.h"
 
-// System.Void UnityEngine.Application::Quit()
-extern "C"  void Application_Quit_m1187862186 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Application::get_isPlaying()
 extern "C"  bool Application_get_isPlaying_m987993960 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Application::get_isEditor()

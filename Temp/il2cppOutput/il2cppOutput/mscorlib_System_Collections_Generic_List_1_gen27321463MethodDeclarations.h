@@ -14,8 +14,6 @@
 
 // System.Collections.Generic.List`1<UnityEngine.Vector4>
 struct List_1_t27321463;
-// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector4>
-struct IEnumerable_1_t2102516850;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.Vector4>
 struct IEnumerator_1_t713468942;
 // System.Array
@@ -26,6 +24,8 @@ struct IEnumerator_t287207039;
 struct Il2CppObject;
 // System.Collections.Generic.ICollection`1<UnityEngine.Vector4>
 struct ICollection_1_t3991161176;
+// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector4>
+struct IEnumerable_1_t2102516850;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector4>
 struct ReadOnlyCollection_1_t2393507842;
 // UnityEngine.Vector4[]
@@ -44,9 +44,6 @@ struct Comparison_1_t1934037370;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Vector4>::.ctor()
 extern "C"  void List_1__ctor_m1160444336_gshared (List_1_t27321463 * __this, const MethodInfo* method);
 #define List_1__ctor_m1160444336(__this, method) ((  void (*) (List_1_t27321463 *, const MethodInfo*))List_1__ctor_m1160444336_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector4>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1__ctor_m2749482191_gshared (List_1_t27321463 * __this, Il2CppObject* ___collection, const MethodInfo* method);
-#define List_1__ctor_m2749482191(__this, ___collection, method) ((  void (*) (List_1_t27321463 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m2749482191_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Vector4>::.ctor(System.Int32)
 extern "C"  void List_1__ctor_m1478469377_gshared (List_1_t27321463 * __this, int32_t ___capacity, const MethodInfo* method);
 #define List_1__ctor_m1478469377(__this, ___capacity, method) ((  void (*) (List_1_t27321463 *, int32_t, const MethodInfo*))List_1__ctor_m1478469377_gshared)(__this, ___capacity, method)

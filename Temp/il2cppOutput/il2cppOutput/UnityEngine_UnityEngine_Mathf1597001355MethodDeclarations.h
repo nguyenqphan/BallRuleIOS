@@ -61,14 +61,10 @@ extern "C"  int32_t Mathf_Clamp_m510460741 (Il2CppObject * __this /* static, unu
 extern "C"  float Mathf_Clamp01_m2272733930 (Il2CppObject * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::Lerp(System.Single,System.Single,System.Single)
 extern "C"  float Mathf_Lerp_m3257777633 (Il2CppObject * __this /* static, unused */, float ___a, float ___b, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Single UnityEngine.Mathf::LerpAngle(System.Single,System.Single,System.Single)
-extern "C"  float Mathf_LerpAngle_m1852538964 (Il2CppObject * __this /* static, unused */, float ___a, float ___b, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::MoveTowards(System.Single,System.Single,System.Single)
 extern "C"  float Mathf_MoveTowards_m2701916357 (Il2CppObject * __this /* static, unused */, float ___current, float ___target, float ___maxDelta, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Mathf::Approximately(System.Single,System.Single)
 extern "C"  bool Mathf_Approximately_m1395529776 (Il2CppObject * __this /* static, unused */, float ___a, float ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Single UnityEngine.Mathf::SmoothDamp(System.Single,System.Single,System.Single&,System.Single)
-extern "C"  float Mathf_SmoothDamp_m488292903 (Il2CppObject * __this /* static, unused */, float ___current, float ___target, float* ___currentVelocity, float ___smoothTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::SmoothDamp(System.Single,System.Single,System.Single&,System.Single,System.Single,System.Single)
 extern "C"  float Mathf_SmoothDamp_m779170481 (Il2CppObject * __this /* static, unused */, float ___current, float ___target, float* ___currentVelocity, float ___smoothTime, float ___maxSpeed, float ___deltaTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::Repeat(System.Single,System.Single)

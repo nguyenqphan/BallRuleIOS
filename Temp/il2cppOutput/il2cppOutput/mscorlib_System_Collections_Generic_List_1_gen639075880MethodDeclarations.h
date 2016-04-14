@@ -14,8 +14,6 @@
 
 // System.Collections.Generic.List`1<UnityEngine.Color32>
 struct List_1_t639075880;
-// System.Collections.Generic.IEnumerable`1<UnityEngine.Color32>
-struct IEnumerable_1_t2714271267;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.Color32>
 struct IEnumerator_1_t1325223359;
 // System.Array
@@ -26,6 +24,8 @@ struct IEnumerator_t287207039;
 struct Il2CppObject;
 // System.Collections.Generic.ICollection`1<UnityEngine.Color32>
 struct ICollection_1_t307948297;
+// System.Collections.Generic.IEnumerable`1<UnityEngine.Color32>
+struct IEnumerable_1_t2714271267;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>
 struct ReadOnlyCollection_1_t3005262259;
 // UnityEngine.Color32[]
@@ -44,9 +44,6 @@ struct Comparison_1_t2545791787;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::.ctor()
 extern "C"  void List_1__ctor_m2494296609_gshared (List_1_t639075880 * __this, const MethodInfo* method);
 #define List_1__ctor_m2494296609(__this, method) ((  void (*) (List_1_t639075880 *, const MethodInfo*))List_1__ctor_m2494296609_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1__ctor_m3033550782_gshared (List_1_t639075880 * __this, Il2CppObject* ___collection, const MethodInfo* method);
-#define List_1__ctor_m3033550782(__this, ___collection, method) ((  void (*) (List_1_t639075880 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m3033550782_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::.ctor(System.Int32)
 extern "C"  void List_1__ctor_m2646769138_gshared (List_1_t639075880 * __this, int32_t ___capacity, const MethodInfo* method);
 #define List_1__ctor_m2646769138(__this, ___capacity, method) ((  void (*) (List_1_t639075880 *, int32_t, const MethodInfo*))List_1__ctor_m2646769138_gshared)(__this, ___capacity, method)

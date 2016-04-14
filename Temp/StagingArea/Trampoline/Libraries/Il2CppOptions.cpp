@@ -1,1 +1,1 @@
-bool il2cpp_no_exceptions = false;
+bool il2cpp_no_exceptions = true;

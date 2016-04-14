@@ -7,7 +7,6 @@
 <type fullname="UnityStandardAssets.CrossPlatformInput.MobileControlRig" preserve="all"/>
 <type fullname="UnityStandardAssets.CrossPlatformInput.TiltInput" preserve="all"/>
 <type fullname="UnityStandardAssets.CrossPlatformInput.TouchPad" preserve="all"/>
-<type fullname="UnityStandardAssets.Water.WaterBasic" preserve="all"/>
 <type fullname="UnityStandardAssets.Water.Displace" preserve="all"/>
 <type fullname="UnityStandardAssets.Water.GerstnerDisplace" preserve="all"/>
 <type fullname="UnityStandardAssets.Water.PlanarReflection" preserve="all"/>
@@ -15,25 +14,6 @@
 <type fullname="UnityStandardAssets.Water.Water" preserve="all"/>
 <type fullname="UnityStandardAssets.Water.WaterBase" preserve="all"/>
 <type fullname="UnityStandardAssets.Water.WaterTile" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.ActivateTrigger" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.AutoMobileShaderSwitch" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.AutoMoveAndRotate" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.DragRigidbody" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.DynamicShadowSettings" preserve="all"/>
-<type fullname="EventSystemChecker" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.FPSCounter" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.FollowTarget" preserve="all"/>
-<type fullname="ForcedReset" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.ObjectResetter" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.ParticleSystemDestroyer" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.PlatformSpecificContent" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.SimpleActivatorMenu" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.SimpleMouseRotator" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.SmoothFollow" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.TimedObjectActivator" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.TimedObjectDestructor" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.WaypointCircuit" preserve="all"/>
-<type fullname="UnityStandardAssets.Utility.WaypointProgressTracker" preserve="all"/>
 </assembly>
 <assembly fullname="Assembly-CSharp">
 <type fullname="DontDestroy" preserve="all"/>
@@ -44,17 +24,6 @@
 <type fullname="SetAudioLevels" preserve="all"/>
 <type fullname="ShowPanels" preserve="all"/>
 <type fullname="StartOptions" preserve="all"/>
-<type fullname="ActiveStateToggler" preserve="all"/>
-<type fullname="ApplicationManager" preserve="all"/>
-<type fullname="ChangeColor" preserve="all"/>
-<type fullname="DragMe" preserve="all"/>
-<type fullname="DragPanel" preserve="all"/>
-<type fullname="DropMe" preserve="all"/>
-<type fullname="PanelManager" preserve="all"/>
-<type fullname="ResizePanel" preserve="all"/>
-<type fullname="ScrollDetailTexture" preserve="all"/>
-<type fullname="ShowSliderValue" preserve="all"/>
-<type fullname="TiltWindow" preserve="all"/>
 <type fullname="Ball" preserve="all"/>
 <type fullname="CameraTracker" preserve="all"/>
 <type fullname="Deactivator" preserve="all"/>

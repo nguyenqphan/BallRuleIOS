@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.EventTrigger/Entry[]
-struct EntryU5BU5D_t864858664;
+struct EntryU5BU5D_t864858663;
 
 #include "mscorlib_System_Object837106420.h"
 
@@ -26,7 +26,7 @@ struct  List_1_t864074059  : public Il2CppObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
-	EntryU5BU5D_t864858664* ____items_1;
+	EntryU5BU5D_t864858663* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
@@ -34,9 +34,9 @@ public:
 
 public:
 	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t864074059, ____items_1)); }
-	inline EntryU5BU5D_t864858664* get__items_1() const { return ____items_1; }
-	inline EntryU5BU5D_t864858664** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(EntryU5BU5D_t864858664* value)
+	inline EntryU5BU5D_t864858663* get__items_1() const { return ____items_1; }
+	inline EntryU5BU5D_t864858663** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(EntryU5BU5D_t864858663* value)
 	{
 		____items_1 = value;
 		Il2CppCodeGenWriteBarrier(&____items_1, value);
@@ -63,13 +63,13 @@ struct List_1_t864074059_StaticFields
 {
 public:
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	EntryU5BU5D_t864858664* ___EmptyArray_4;
+	EntryU5BU5D_t864858663* ___EmptyArray_4;
 
 public:
 	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t864074059_StaticFields, ___EmptyArray_4)); }
-	inline EntryU5BU5D_t864858664* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline EntryU5BU5D_t864858664** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(EntryU5BU5D_t864858664* value)
+	inline EntryU5BU5D_t864858663* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline EntryU5BU5D_t864858663** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(EntryU5BU5D_t864858663* value)
 	{
 		___EmptyArray_4 = value;
 		Il2CppCodeGenWriteBarrier(&___EmptyArray_4, value);

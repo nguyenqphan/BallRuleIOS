@@ -21,5 +21,3 @@ extern "C"  float Random_Range_m3362417303 (Il2CppObject * __this /* static, unu
 extern "C"  int32_t Random_Range_m75452833 (Il2CppObject * __this /* static, unused */, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Random::RandomRangeInt(System.Int32,System.Int32)
 extern "C"  int32_t Random_RandomRangeInt_m1203631415 (Il2CppObject * __this /* static, unused */, int32_t ___min, int32_t ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Single UnityEngine.Random::get_value()
-extern "C"  float Random_get_value_m2402066692 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

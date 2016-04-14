@@ -18,8 +18,6 @@
 
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.IClipper>::.ctor()
 #define List_1__ctor_m270276253(__this, method) ((  void (*) (List_1_t687552070 *, const MethodInfo*))List_1__ctor_m3048469268_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.IClipper>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m481605058(__this, ___collection, method) ((  void (*) (List_1_t687552070 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m1160795371_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.IClipper>::.ctor(System.Int32)
 #define List_1__ctor_m1704183918(__this, ___capacity, method) ((  void (*) (List_1_t687552070 *, int32_t, const MethodInfo*))List_1__ctor_m3643386469_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.IClipper>::.cctor()

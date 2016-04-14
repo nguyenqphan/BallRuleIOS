@@ -18,8 +18,6 @@
 
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::.ctor()
 #define List_1__ctor_m1043861288(__this, method) ((  void (*) (List_1_t4163512024 *, const MethodInfo*))List_1__ctor_m3048469268_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m443777617(__this, ___collection, method) ((  void (*) (List_1_t4163512024 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m1160795371_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::.ctor(System.Int32)
 #define List_1__ctor_m3117420991(__this, ___capacity, method) ((  void (*) (List_1_t4163512024 *, int32_t, const MethodInfo*))List_1__ctor_m3643386469_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::.cctor()

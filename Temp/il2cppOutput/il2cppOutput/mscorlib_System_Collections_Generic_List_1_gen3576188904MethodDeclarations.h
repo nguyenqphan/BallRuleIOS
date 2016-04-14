@@ -18,8 +18,6 @@
 
 // System.Void System.Collections.Generic.List`1<System.Type>::.ctor()
 #define List_1__ctor_m3115358433(__this, method) ((  void (*) (List_1_t3576188904 *, const MethodInfo*))List_1__ctor_m3048469268_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Type>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m1881541584(__this, ___collection, method) ((  void (*) (List_1_t3576188904 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m1160795371_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.Type>::.ctor(System.Int32)
 #define List_1__ctor_m936934432(__this, ___capacity, method) ((  void (*) (List_1_t3576188904 *, int32_t, const MethodInfo*))List_1__ctor_m3643386469_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<System.Type>::.cctor()

@@ -12,8 +12,6 @@
 #include <assert.h>
 #include <exception>
 
-// System.String
-struct String_t;
 // System.Object
 struct Il2CppObject;
 
@@ -23,16 +21,12 @@ struct Il2CppObject;
 
 // System.Int32 UnityEngine.SceneManagement.Scene::get_handle()
 extern "C"  int32_t Scene_get_handle_m2277248521 (Scene_t2772977204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String UnityEngine.SceneManagement.Scene::get_path()
-extern "C"  String_t* Scene_get_path_m952061379 (Scene_t2772977204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.SceneManagement.Scene::get_buildIndex()
 extern "C"  int32_t Scene_get_buildIndex_m3533090789 (Scene_t2772977204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.SceneManagement.Scene::GetHashCode()
 extern "C"  int32_t Scene_GetHashCode_m2000109307 (Scene_t2772977204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SceneManagement.Scene::Equals(System.Object)
 extern "C"  bool Scene_Equals_m93578403 (Scene_t2772977204 * __this, Il2CppObject * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String UnityEngine.SceneManagement.Scene::GetPathInternal(System.Int32)
-extern "C"  String_t* Scene_GetPathInternal_m1528723926 (Il2CppObject * __this /* static, unused */, int32_t ___sceneHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.SceneManagement.Scene::GetBuildIndexInternal(System.Int32)
 extern "C"  int32_t Scene_GetBuildIndexInternal_m76376146 (Il2CppObject * __this /* static, unused */, int32_t ___sceneHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 

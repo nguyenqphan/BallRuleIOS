@@ -24,9 +24,9 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Material1886596500.h"
 #include "UnityEngine_UnityEngine_Shader3998140498.h"
-#include "UnityEngine_UnityEngine_Color1588175760.h"
 #include "UnityEngine_UnityEngine_Vector23525329788.h"
 #include "mscorlib_System_String968488902.h"
+#include "UnityEngine_UnityEngine_Color1588175760.h"
 #include "UnityEngine_UnityEngine_Vector43525329790.h"
 #include "UnityEngine_UnityEngine_Texture1769722184.h"
 
@@ -36,10 +36,6 @@ extern "C"  void Material__ctor_m2546967560 (Material_t1886596500 * __this, Mate
 extern "C"  Shader_t3998140498 * Material_get_shader_m2881845503 (Material_t1886596500 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::set_shader(UnityEngine.Shader)
 extern "C"  void Material_set_shader_m3742529604 (Material_t1886596500 * __this, Shader_t3998140498 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Color UnityEngine.Material::get_color()
-extern "C"  Color_t1588175760  Material_get_color_m2268945527 (Material_t1886596500 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Material::set_color(UnityEngine.Color)
-extern "C"  void Material_set_color_m3296857020 (Material_t1886596500 * __this, Color_t1588175760  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture UnityEngine.Material::get_mainTexture()
 extern "C"  Texture_t1769722184 * Material_get_mainTexture_m1012267054 (Material_t1886596500 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::set_mainTextureOffset(UnityEngine.Vector2)

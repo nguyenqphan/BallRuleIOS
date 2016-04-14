@@ -344,8 +344,6 @@ struct List_1_t3057020574;
 #include "mscorlib_System_Collections_Generic_List_1_gen27321463.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen3644373756.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen3057020574.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_23992037183.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_23296816918.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_21801882110.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_21914802895.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_23133764595.h"
@@ -2808,34 +2806,6 @@ public:
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GameObject>[]
-struct KeyValuePair_2U5BU5D_t2971005158  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) KeyValuePair_2_t3992037183  m_Items[1];
-
-public:
-	inline KeyValuePair_2_t3992037183  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline KeyValuePair_2_t3992037183 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t3992037183  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.RectTransform>[]
-struct KeyValuePair_2U5BU5D_t3867276243  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) KeyValuePair_2_t3296816918  m_Items[1];
-
-public:
-	inline KeyValuePair_2_t3296816918  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline KeyValuePair_2_t3296816918 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t3296816918  value)
-	{
-		m_Items[index] = value;
 	}
 };
 // System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>[]

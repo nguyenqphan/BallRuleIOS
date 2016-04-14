@@ -20,7 +20,5 @@
 extern "C"  int32_t QualitySettings_get_pixelLightCount_m516387691 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.QualitySettings::set_pixelLightCount(System.Int32)
 extern "C"  void QualitySettings_set_pixelLightCount_m751067080 (Il2CppObject * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.QualitySettings::set_shadowDistance(System.Single)
-extern "C"  void QualitySettings_set_shadowDistance_m3102645484 (Il2CppObject * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.ColorSpace UnityEngine.QualitySettings::get_activeColorSpace()
 extern "C"  int32_t QualitySettings_get_activeColorSpace_m2993616266 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

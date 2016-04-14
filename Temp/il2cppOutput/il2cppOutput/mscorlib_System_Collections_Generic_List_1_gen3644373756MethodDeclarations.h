@@ -14,8 +14,6 @@
 
 // System.Collections.Generic.List`1<System.Int32>
 struct List_1_t3644373756;
-// System.Collections.Generic.IEnumerable`1<System.Int32>
-struct IEnumerable_1_t1424601847;
 // System.Collections.Generic.IEnumerator`1<System.Int32>
 struct IEnumerator_1_t35553939;
 // System.Array
@@ -26,6 +24,8 @@ struct IEnumerator_t287207039;
 struct Il2CppObject;
 // System.Collections.Generic.ICollection`1<System.Int32>
 struct ICollection_1_t3313246173;
+// System.Collections.Generic.IEnumerable`1<System.Int32>
+struct IEnumerable_1_t1424601847;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32>
 struct ReadOnlyCollection_1_t1715592839;
 // System.Int32[]
@@ -43,9 +43,6 @@ struct Comparison_1_t1256122367;
 // System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
 extern "C"  void List_1__ctor_m3653696643_gshared (List_1_t3644373756 * __this, const MethodInfo* method);
 #define List_1__ctor_m3653696643(__this, method) ((  void (*) (List_1_t3644373756 *, const MethodInfo*))List_1__ctor_m3653696643_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.Int32>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1__ctor_m1198742556_gshared (List_1_t3644373756 * __this, Il2CppObject* ___collection, const MethodInfo* method);
-#define List_1__ctor_m1198742556(__this, ___collection, method) ((  void (*) (List_1_t3644373756 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m1198742556_gshared)(__this, ___collection, method)
 // System.Void System.Collections.Generic.List`1<System.Int32>::.ctor(System.Int32)
 extern "C"  void List_1__ctor_m2126972244_gshared (List_1_t3644373756 * __this, int32_t ___capacity, const MethodInfo* method);
 #define List_1__ctor_m2126972244(__this, ___capacity, method) ((  void (*) (List_1_t3644373756 *, int32_t, const MethodInfo*))List_1__ctor_m2126972244_gshared)(__this, ___capacity, method)

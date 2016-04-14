@@ -28,8 +28,6 @@ extern "C"  void Vector2__ctor_m1517109030 (Vector2_t3525329788 * __this, float 
 extern "C"  float Vector2_get_Item_m2185542843 (Vector2_t3525329788 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Vector2::set_Item(System.Int32,System.Single)
 extern "C"  void Vector2_set_Item_m2767519328 (Vector2_t3525329788 * __this, int32_t ___index, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Vector2 UnityEngine.Vector2::Lerp(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
-extern "C"  Vector2_t3525329788  Vector2_Lerp_m235172797 (Il2CppObject * __this /* static, unused */, Vector2_t3525329788  ___a, Vector2_t3525329788  ___b, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::Scale(UnityEngine.Vector2,UnityEngine.Vector2)
 extern "C"  Vector2_t3525329788  Vector2_Scale_m1743563745 (Il2CppObject * __this /* static, unused */, Vector2_t3525329788  ___a, Vector2_t3525329788  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Vector2::Normalize()
