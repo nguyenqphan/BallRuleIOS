@@ -9,6 +9,8 @@ public struct CameraP{
 	public float distanceY;
 	public Vector3 playerStartPos;
 	public float distanceToMove;
+//	public Transform camTransform;
+//	public Transform playerTransform;
 }
 
 public class CameraTracker : MonoBehaviour {
@@ -40,12 +42,15 @@ public class CameraTracker : MonoBehaviour {
 
 	}
 
+
+
 	// Use this for initialization
 	void Start () 
 	{
 		cameraP.velocity = Vector3.down;						//The Direction for the camera to move
 		cameraP.smoothTime = 0.7f;								//Smooth the movement
 
+//		cameraP.playerTransform = player.transform.position;
 		cameraP.playerStartPos = player.transform.position;		// Get the postion of the player when the game just starts
 	}
 		

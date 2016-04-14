@@ -5,7 +5,7 @@ public class SetFrameRate : MonoBehaviour {
 
 	void Awake() {
 		Application.targetFrameRate = 30;
-
+		useGUILayout = false;
 	
 	
 	}

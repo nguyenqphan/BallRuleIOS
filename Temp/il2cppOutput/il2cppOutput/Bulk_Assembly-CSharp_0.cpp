@@ -12642,29 +12642,7 @@ extern "C"  void ShowPanels_Start_m2004353711 (ShowPanels_t2673010796 * __this, 
 
 IL_001b:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_3 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		GameStateManager_Load_m1912361917(L_3, /*hidden argument*/NULL);
-		GameStateManager_t648042254 * L_4 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		int32_t L_5 = GameStateManager_get_NumOfPlay_m1443517253(L_4, /*hidden argument*/NULL);
-		if ((((int32_t)L_5) <= ((int32_t)3)))
-		{
-			goto IL_004d;
-		}
-	}
-	{
-		GameObject_t4012695102 * L_6 = __this->get_askButton_9();
-		NullCheck(L_6);
-		GameObject_SetActive_m3538205401(L_6, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_7 = __this->get_rateButton_10();
-		NullCheck(L_7);
-		GameObject_SetActive_m3538205401(L_7, (bool)1, /*hidden argument*/NULL);
-	}
-
-IL_004d:
-	{
+		ShowPanels_ShowMenu_m994731697(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12742,6 +12720,8 @@ extern "C"  void ShowPanels_HideOptionsPanel_m3221507613 (ShowPanels_t2673010796
 }
 // System.Void ShowPanels::ShowMenu()
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern const uint32_t ShowPanels_ShowMenu_m994731697_MetadataUsageId;
 extern "C"  void ShowPanels_ShowMenu_m994731697 (ShowPanels_t2673010796 * __this, const MethodInfo* method)
 {
@@ -12765,7 +12745,7 @@ extern "C"  void ShowPanels_ShowMenu_m994731697 (ShowPanels_t2673010796 * __this
 		bool L_4 = GameStateManager_get_IsStarted_m545514757(L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
-			goto IL_0079;
+			goto IL_006d;
 		}
 	}
 	{
@@ -12775,44 +12755,68 @@ extern "C"  void ShowPanels_ShowMenu_m994731697 (ShowPanels_t2673010796 * __this
 		GameObject_t4012695102 * L_6 = __this->get_refreshButton_7();
 		NullCheck(L_6);
 		GameObject_SetActive_m3538205401(L_6, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_7 = __this->get_noAdsButton_8();
+		GameObject_t4012695102 * L_7 = __this->get_fBshareButton_11();
 		NullCheck(L_7);
 		GameObject_SetActive_m3538205401(L_7, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_8 = __this->get_fBshareButton_11();
+		GameObject_t4012695102 * L_8 = __this->get_scorePanel_12();
 		NullCheck(L_8);
 		GameObject_SetActive_m3538205401(L_8, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_9 = __this->get_scorePanel_12();
+		GameObject_t4012695102 * L_9 = __this->get_liveScore_13();
 		NullCheck(L_9);
-		GameObject_SetActive_m3538205401(L_9, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_10 = __this->get_liveScore_13();
-		NullCheck(L_10);
-		GameObject_SetActive_m3538205401(L_10, (bool)0, /*hidden argument*/NULL);
-		goto IL_00c1;
+		GameObject_SetActive_m3538205401(L_9, (bool)0, /*hidden argument*/NULL);
+		goto IL_00a9;
 	}
 
-IL_0079:
+IL_006d:
 	{
-		GameObject_t4012695102 * L_11 = __this->get_startButton_6();
+		GameObject_t4012695102 * L_10 = __this->get_startButton_6();
+		NullCheck(L_10);
+		GameObject_SetActive_m3538205401(L_10, (bool)1, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_11 = __this->get_refreshButton_7();
 		NullCheck(L_11);
-		GameObject_SetActive_m3538205401(L_11, (bool)1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_12 = __this->get_refreshButton_7();
+		GameObject_SetActive_m3538205401(L_11, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_12 = __this->get_fBshareButton_11();
 		NullCheck(L_12);
 		GameObject_SetActive_m3538205401(L_12, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_13 = __this->get_noAdsButton_8();
+		GameObject_t4012695102 * L_13 = __this->get_scorePanel_12();
 		NullCheck(L_13);
 		GameObject_SetActive_m3538205401(L_13, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_14 = __this->get_fBshareButton_11();
+		GameObject_t4012695102 * L_14 = __this->get_liveScore_13();
 		NullCheck(L_14);
-		GameObject_SetActive_m3538205401(L_14, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_15 = __this->get_scorePanel_12();
-		NullCheck(L_15);
-		GameObject_SetActive_m3538205401(L_15, (bool)0, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_16 = __this->get_liveScore_13();
-		NullCheck(L_16);
-		GameObject_SetActive_m3538205401(L_16, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_14, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_00c1:
+IL_00a9:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_15 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		GameStateManager_Load_m1912361917(L_15, /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_16 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		int32_t L_17 = GameStateManager_get_NumOfPlay_m1443517253(L_16, /*hidden argument*/NULL);
+		int32_t L_18 = L_17;
+		Il2CppObject * L_19 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_18);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_20 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		int32_t L_21 = GameStateManager_get_NumOfPlay_m1443517253(L_20, /*hidden argument*/NULL);
+		if ((((int32_t)L_21) <= ((int32_t)((int32_t)40))))
+		{
+			goto IL_00f0;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_22 = __this->get_askButton_9();
+		NullCheck(L_22);
+		GameObject_SetActive_m3538205401(L_22, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_23 = __this->get_rateButton_10();
+		NullCheck(L_23);
+		GameObject_SetActive_m3538205401(L_23, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_00f0:
 	{
 		return;
 	}

@@ -166,10 +166,10 @@ public class Diamond : MonoBehaviour {
 			yield return new WaitForFixedUpdate();
 		}
 
-		StartCoroutine(Spin());
+		StartCoroutine(Spin2());
 
 		if (!GameStateManager.Instance.IsChallenged) {
-			StartCoroutine (Float ());
+			StartCoroutine (Float2 ());
 		}
 	}
 
