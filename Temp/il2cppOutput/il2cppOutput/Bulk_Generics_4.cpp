@@ -31478,6 +31478,2241 @@ extern "C"  Il2CppObject * ReadOnlyCollection_1_get_Item_m2421641197_gshared (Re
 		return L_2;
 	}
 }
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::.ctor(System.Collections.Generic.IList`1<T>)
+extern TypeInfo* ArgumentNullException_t3214793280_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3322014;
+extern const uint32_t ReadOnlyCollection_1__ctor_m3466118433_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1__ctor_m3466118433_gshared (ReadOnlyCollection_1_t3481880477 * __this, Il2CppObject* ___list, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m3466118433_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NullCheck((Il2CppObject *)__this);
+		Object__ctor_m1772956182((Il2CppObject *)__this, /*hidden argument*/NULL);
+		Il2CppObject* L_0 = ___list;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t3214793280 * L_1 = (ArgumentNullException_t3214793280 *)il2cpp_codegen_object_new(ArgumentNullException_t3214793280_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m135444188(L_1, (String_t*)_stringLiteral3322014, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		Il2CppObject* L_2 = ___list;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.Generic.ICollection<T>.Add(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2455993995_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2455993995_gshared (ReadOnlyCollection_1_t3481880477 * __this, CustomAttributeNamedArgument_t318735129  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2455993995_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.Generic.ICollection<T>.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m833093535_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m833093535_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m833093535_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1011322802_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1011322802_gshared (ReadOnlyCollection_1_t3481880477 * __this, int32_t ___index, CustomAttributeNamedArgument_t318735129  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1011322802_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1374717388_MetadataUsageId;
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1374717388_gshared (ReadOnlyCollection_1_t3481880477 * __this, CustomAttributeNamedArgument_t318735129  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1374717388_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3180142968_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3180142968_gshared (ReadOnlyCollection_1_t3481880477 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3180142968_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  CustomAttributeNamedArgument_t318735129  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m2735326366_gshared (ReadOnlyCollection_1_t3481880477 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___index;
+		NullCheck((ReadOnlyCollection_1_t3481880477 *)__this);
+		CustomAttributeNamedArgument_t318735129  L_1 = VirtFuncInvoker1< CustomAttributeNamedArgument_t318735129 , int32_t >::Invoke(33 /* T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::get_Item(System.Int32) */, (ReadOnlyCollection_1_t3481880477 *)__this, (int32_t)L_0);
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3028200457_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3028200457_gshared (ReadOnlyCollection_1_t3481880477 * __this, int32_t ___index, CustomAttributeNamedArgument_t318735129  ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3028200457_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m3502725699_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern TypeInfo* ICollection_t3761522009_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m58572112_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m58572112_gshared (ReadOnlyCollection_1_t3481880477 * __this, Il2CppArray * ___array, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m58572112_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		Il2CppArray * L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< Il2CppArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3761522009_il2cpp_TypeInfo_var, (Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)), (Il2CppArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IEnumerable.GetEnumerator()
+extern TypeInfo* IEnumerable_t287189635_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m3974072671_MetadataUsageId;
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m3974072671_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m3974072671_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject *)L_0);
+		Il2CppObject * L_1 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t287189635_il2cpp_TypeInfo_var, (Il2CppObject *)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.Add(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2157369662_MetadataUsageId;
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2157369662_gshared (ReadOnlyCollection_1_t3481880477 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m2157369662_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m1270090846_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m1270090846_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m1270090846_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m4167890114_gshared (ReadOnlyCollection_1_t3481880477 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, CustomAttributeNamedArgument_t318735129  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<System.Reflection.CustomAttributeNamedArgument>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_2, (CustomAttributeNamedArgument_t318735129 )((*(CustomAttributeNamedArgument_t318735129 *)((CustomAttributeNamedArgument_t318735129 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m3928768662_gshared (ReadOnlyCollection_1_t3481880477 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, CustomAttributeNamedArgument_t318735129  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<System.Reflection.CustomAttributeNamedArgument>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_2, (CustomAttributeNamedArgument_t318735129 )((*(CustomAttributeNamedArgument_t318735129 *)((CustomAttributeNamedArgument_t318735129 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m3096196361_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m3096196361_gshared (ReadOnlyCollection_1_t3481880477 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m3096196361_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.Remove(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m1439234431_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m1439234431_gshared (ReadOnlyCollection_1_t3481880477 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m1439234431_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3251950105_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3251950105_gshared (ReadOnlyCollection_1_t3481880477 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3251950105_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m2399802202_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m4281934668_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m3044269489_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m1799137064_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m1426158035_gshared (ReadOnlyCollection_1_t3481880477 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		CustomAttributeNamedArgument_t318735129  L_2 = InterfaceFuncInvoker1< CustomAttributeNamedArgument_t318735129 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<System.Reflection.CustomAttributeNamedArgument>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		CustomAttributeNamedArgument_t318735129  L_3 = L_2;
+		Il2CppObject * L_4 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m3941286560_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m3941286560_gshared (ReadOnlyCollection_1_t3481880477 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m3941286560_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m3072511761_gshared (ReadOnlyCollection_1_t3481880477 * __this, CustomAttributeNamedArgument_t318735129  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		CustomAttributeNamedArgument_t318735129  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, CustomAttributeNamedArgument_t318735129  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<System.Reflection.CustomAttributeNamedArgument>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (CustomAttributeNamedArgument_t318735129 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m2591949499_gshared (ReadOnlyCollection_1_t3481880477 * __this, CustomAttributeNamedArgumentU5BU5D_t3019176036* ___array, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		CustomAttributeNamedArgumentU5BU5D_t3019176036* L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		InterfaceActionInvoker2< CustomAttributeNamedArgumentU5BU5D_t3019176036*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<System.Reflection.CustomAttributeNamedArgument>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (CustomAttributeNamedArgumentU5BU5D_t3019176036*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::GetEnumerator()
+extern "C"  Il2CppObject* ReadOnlyCollection_1_GetEnumerator_m2795667688_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		Il2CppObject* L_1 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Reflection.CustomAttributeNamedArgument>::GetEnumerator() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m2162782663_gshared (ReadOnlyCollection_1_t3481880477 * __this, CustomAttributeNamedArgument_t318735129  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		CustomAttributeNamedArgument_t318735129  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, CustomAttributeNamedArgument_t318735129  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<System.Reflection.CustomAttributeNamedArgument>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (CustomAttributeNamedArgument_t318735129 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m2439060628_gshared (ReadOnlyCollection_1_t3481880477 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Reflection.CustomAttributeNamedArgument>::get_Count() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>::get_Item(System.Int32)
+extern "C"  CustomAttributeNamedArgument_t318735129  ReadOnlyCollection_1_get_Item_m719412574_gshared (ReadOnlyCollection_1_t3481880477 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		CustomAttributeNamedArgument_t318735129  L_2 = InterfaceFuncInvoker1< CustomAttributeNamedArgument_t318735129 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<System.Reflection.CustomAttributeNamedArgument>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::.ctor(System.Collections.Generic.IList`1<T>)
+extern TypeInfo* ArgumentNullException_t3214793280_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3322014;
+extern const uint32_t ReadOnlyCollection_1__ctor_m713162960_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1__ctor_m713162960_gshared (ReadOnlyCollection_1_t3723560910 * __this, Il2CppObject* ___list, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m713162960_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NullCheck((Il2CppObject *)__this);
+		Object__ctor_m1772956182((Il2CppObject *)__this, /*hidden argument*/NULL);
+		Il2CppObject* L_0 = ___list;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t3214793280 * L_1 = (ArgumentNullException_t3214793280 *)il2cpp_codegen_object_new(ArgumentNullException_t3214793280_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m135444188(L_1, (String_t*)_stringLiteral3322014, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		Il2CppObject* L_2 = ___list;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.Generic.ICollection<T>.Add(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m450448058_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m450448058_gshared (ReadOnlyCollection_1_t3723560910 * __this, CustomAttributeTypedArgument_t560415562  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m450448058_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.Generic.ICollection<T>.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3085678928_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3085678928_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3085678928_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m183184673_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m183184673_gshared (ReadOnlyCollection_1_t3723560910 * __this, int32_t ___index, CustomAttributeTypedArgument_t560415562  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m183184673_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1445762877_MetadataUsageId;
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1445762877_gshared (ReadOnlyCollection_1_t3723560910 * __this, CustomAttributeTypedArgument_t560415562  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1445762877_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2352004839_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2352004839_gshared (ReadOnlyCollection_1_t3723560910 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2352004839_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  CustomAttributeTypedArgument_t560415562  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m1907188237_gshared (ReadOnlyCollection_1_t3723560910 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___index;
+		NullCheck((ReadOnlyCollection_1_t3723560910 *)__this);
+		CustomAttributeTypedArgument_t560415562  L_1 = VirtFuncInvoker1< CustomAttributeTypedArgument_t560415562 , int32_t >::Invoke(33 /* T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::get_Item(System.Int32) */, (ReadOnlyCollection_1_t3723560910 *)__this, (int32_t)L_0);
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1756408248_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1756408248_gshared (ReadOnlyCollection_1_t3723560910 * __this, int32_t ___index, CustomAttributeTypedArgument_t560415562  ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1756408248_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2674587570_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern TypeInfo* ICollection_t3761522009_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m772492159_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m772492159_gshared (ReadOnlyCollection_1_t3723560910 * __this, Il2CppArray * ___array, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m772492159_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		Il2CppArray * L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< Il2CppArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3761522009_il2cpp_TypeInfo_var, (Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)), (Il2CppArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IEnumerable.GetEnumerator()
+extern TypeInfo* IEnumerable_t287189635_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m4083717454_MetadataUsageId;
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m4083717454_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m4083717454_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject *)L_0);
+		Il2CppObject * L_1 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t287189635_il2cpp_TypeInfo_var, (Il2CppObject *)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.Add(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2345659311_MetadataUsageId;
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2345659311_gshared (ReadOnlyCollection_1_t3723560910 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m2345659311_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m3595441805_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m3595441805_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m3595441805_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m2162344177_gshared (ReadOnlyCollection_1_t3723560910 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, CustomAttributeTypedArgument_t560415562  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<System.Reflection.CustomAttributeTypedArgument>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_2, (CustomAttributeTypedArgument_t560415562 )((*(CustomAttributeTypedArgument_t560415562 *)((CustomAttributeTypedArgument_t560415562 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m3032789639_gshared (ReadOnlyCollection_1_t3723560910 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, CustomAttributeTypedArgument_t560415562  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_2, (CustomAttributeTypedArgument_t560415562 )((*(CustomAttributeTypedArgument_t560415562 *)((CustomAttributeTypedArgument_t560415562 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m3193718138_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m3193718138_gshared (ReadOnlyCollection_1_t3723560910 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m3193718138_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.Remove(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m1548879214_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m1548879214_gshared (ReadOnlyCollection_1_t3723560910 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m1548879214_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2355971082_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2355971082_gshared (ReadOnlyCollection_1_t3723560910 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2355971082_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m2470847691_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m544693629_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m2357606688_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m3855196633_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m530179012_gshared (ReadOnlyCollection_1_t3723560910 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		CustomAttributeTypedArgument_t560415562  L_2 = InterfaceFuncInvoker1< CustomAttributeTypedArgument_t560415562 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		CustomAttributeTypedArgument_t560415562  L_3 = L_2;
+		Il2CppObject * L_4 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m3170433745_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m3170433745_gshared (ReadOnlyCollection_1_t3723560910 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m3170433745_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m3355043202_gshared (ReadOnlyCollection_1_t3723560910 * __this, CustomAttributeTypedArgument_t560415562  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		CustomAttributeTypedArgument_t560415562  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, CustomAttributeTypedArgument_t560415562  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<System.Reflection.CustomAttributeTypedArgument>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (CustomAttributeTypedArgument_t560415562 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m2705370090_gshared (ReadOnlyCollection_1_t3723560910 * __this, CustomAttributeTypedArgumentU5BU5D_t3123668047* ___array, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		CustomAttributeTypedArgumentU5BU5D_t3123668047* L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		InterfaceActionInvoker2< CustomAttributeTypedArgumentU5BU5D_t3123668047*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<System.Reflection.CustomAttributeTypedArgument>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (CustomAttributeTypedArgumentU5BU5D_t3123668047*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::GetEnumerator()
+extern "C"  Il2CppObject* ReadOnlyCollection_1_GetEnumerator_m2956392153_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		Il2CppObject* L_1 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Reflection.CustomAttributeTypedArgument>::GetEnumerator() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m3834464566_gshared (ReadOnlyCollection_1_t3723560910 * __this, CustomAttributeTypedArgument_t560415562  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		CustomAttributeTypedArgument_t560415562  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, CustomAttributeTypedArgument_t560415562  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (CustomAttributeTypedArgument_t560415562 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m2721592069_gshared (ReadOnlyCollection_1_t3723560910 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Reflection.CustomAttributeTypedArgument>::get_Count() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>::get_Item(System.Int32)
+extern "C"  CustomAttributeTypedArgument_t560415562  ReadOnlyCollection_1_get_Item_m2806679117_gshared (ReadOnlyCollection_1_t3723560910 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		CustomAttributeTypedArgument_t560415562  L_2 = InterfaceFuncInvoker1< CustomAttributeTypedArgument_t560415562 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::.ctor(System.Collections.Generic.IList`1<T>)
+extern TypeInfo* ArgumentNullException_t3214793280_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3322014;
+extern const uint32_t ReadOnlyCollection_1__ctor_m3590109477_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1__ctor_m3590109477_gshared (ReadOnlyCollection_1_t3005262259 * __this, Il2CppObject* ___list, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m3590109477_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NullCheck((Il2CppObject *)__this);
+		Object__ctor_m1772956182((Il2CppObject *)__this, /*hidden argument*/NULL);
+		Il2CppObject* L_0 = ___list;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t3214793280 * L_1 = (ArgumentNullException_t3214793280 *)il2cpp_codegen_object_new(ArgumentNullException_t3214793280_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m135444188(L_1, (String_t*)_stringLiteral3322014, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		Il2CppObject* L_2 = ___list;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.ICollection<T>.Add(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2665861263_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2665861263_gshared (ReadOnlyCollection_1_t3005262259 * __this, Color32_t4137084207  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2665861263_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.ICollection<T>.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3044011547_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3044011547_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3044011547_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2736663734_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2736663734_gshared (ReadOnlyCollection_1_t3005262259 * __this, int32_t ___index, Color32_t4137084207  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2736663734_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m3138706564_MetadataUsageId;
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m3138706564_gshared (ReadOnlyCollection_1_t3005262259 * __this, Color32_t4137084207  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m3138706564_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m610516604_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m610516604_gshared (ReadOnlyCollection_1_t3005262259 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m610516604_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  Color32_t4137084207  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m1962952576_gshared (ReadOnlyCollection_1_t3005262259 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___index;
+		NullCheck((ReadOnlyCollection_1_t3005262259 *)__this);
+		Color32_t4137084207  L_1 = VirtFuncInvoker1< Color32_t4137084207 , int32_t >::Invoke(33 /* T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::get_Item(System.Int32) */, (ReadOnlyCollection_1_t3005262259 *)__this, (int32_t)L_0);
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3223459853_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3223459853_gshared (ReadOnlyCollection_1_t3005262259 * __this, int32_t ___index, Color32_t4137084207  ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3223459853_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m3859711115_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern TypeInfo* ICollection_t3761522009_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2009302868_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2009302868_gshared (ReadOnlyCollection_1_t3005262259 * __this, Il2CppArray * ___array, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2009302868_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		Il2CppArray * L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< Il2CppArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3761522009_il2cpp_TypeInfo_var, (Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)), (Il2CppArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IEnumerable.GetEnumerator()
+extern TypeInfo* IEnumerable_t287189635_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m386262863_MetadataUsageId;
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m386262863_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m386262863_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject *)L_0);
+		Il2CppObject * L_1 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t287189635_il2cpp_TypeInfo_var, (Il2CppObject *)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Add(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m1790496258_MetadataUsageId;
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m1790496258_gshared (ReadOnlyCollection_1_t3005262259 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m1790496258_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m3397576290_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m3397576290_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m3397576290_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m2339297546_gshared (ReadOnlyCollection_1_t3005262259 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, Color32_t4137084207  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.Color32>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_2, (Color32_t4137084207 )((*(Color32_t4137084207 *)((Color32_t4137084207 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m1425945434_gshared (ReadOnlyCollection_1_t3005262259 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, Color32_t4137084207  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.Color32>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_2, (Color32_t4137084207 )((*(Color32_t4137084207 *)((Color32_t4137084207 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m747190405_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m747190405_gshared (ReadOnlyCollection_1_t3005262259 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m747190405_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Remove(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m335543427_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m335543427_gshared (ReadOnlyCollection_1_t3005262259 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m335543427_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3397267349_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3397267349_gshared (ReadOnlyCollection_1_t3005262259 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3397267349_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m4163791378_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m1856626302_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m2544408569_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m3722675168_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m2872060037_gshared (ReadOnlyCollection_1_t3005262259 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		Color32_t4137084207  L_2 = InterfaceFuncInvoker1< Color32_t4137084207 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.Color32>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		Color32_t4137084207  L_3 = L_2;
+		Il2CppObject * L_4 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m1404393244_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m1404393244_gshared (ReadOnlyCollection_1_t3005262259 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m1404393244_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m3786292681_gshared (ReadOnlyCollection_1_t3005262259 * __this, Color32_t4137084207  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		Color32_t4137084207  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, Color32_t4137084207  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.Color32>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (Color32_t4137084207 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m2922979519_gshared (ReadOnlyCollection_1_t3005262259 * __this, Color32U5BU5D_t1677970742* ___array, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		Color32U5BU5D_t1677970742* L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		InterfaceActionInvoker2< Color32U5BU5D_t1677970742*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.Color32>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (Color32U5BU5D_t1677970742*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::GetEnumerator()
+extern "C"  Il2CppObject* ReadOnlyCollection_1_GetEnumerator_m1406369196_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		Il2CppObject* L_1 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.Color32>::GetEnumerator() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m2272117891_gshared (ReadOnlyCollection_1_t3005262259 * __this, Color32_t4137084207  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		Color32_t4137084207  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, Color32_t4137084207  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.Color32>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (Color32_t4137084207 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m1533485400_gshared (ReadOnlyCollection_1_t3005262259 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.Color32>::get_Count() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::get_Item(System.Int32)
+extern "C"  Color32_t4137084207  ReadOnlyCollection_1_get_Item_m2537072960_gshared (ReadOnlyCollection_1_t3005262259 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		Color32_t4137084207  L_2 = InterfaceFuncInvoker1< Color32_t4137084207 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.Color32>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::.ctor(System.Collections.Generic.IList`1<T>)
+extern TypeInfo* ArgumentNullException_t3214793280_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3322014;
+extern const uint32_t ReadOnlyCollection_1__ctor_m538698583_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1__ctor_m538698583_gshared (ReadOnlyCollection_1_t4123044037 * __this, Il2CppObject* ___list, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m538698583_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NullCheck((Il2CppObject *)__this);
+		Object__ctor_m1772956182((Il2CppObject *)__this, /*hidden argument*/NULL);
+		Il2CppObject* L_0 = ___list;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t3214793280 * L_1 = (ArgumentNullException_t3214793280 *)il2cpp_codegen_object_new(ArgumentNullException_t3214793280_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m135444188(L_1, (String_t*)_stringLiteral3322014, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		Il2CppObject* L_2 = ___list;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.ICollection<T>.Add(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m337678785_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m337678785_gshared (ReadOnlyCollection_1_t4123044037 * __this, RaycastResult_t959898689  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m337678785_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.ICollection<T>.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3884798761_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3884798761_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3884798761_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3611727720_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3611727720_gshared (ReadOnlyCollection_1_t4123044037 * __this, int32_t ___index, RaycastResult_t959898689  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3611727720_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2037465302_MetadataUsageId;
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2037465302_gshared (ReadOnlyCollection_1_t4123044037 * __this, RaycastResult_t959898689  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2037465302_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m1485580590_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m1485580590_gshared (ReadOnlyCollection_1_t4123044037 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m1485580590_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  RaycastResult_t959898689  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m3211836756_gshared (ReadOnlyCollection_1_t4123044037 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___index;
+		NullCheck((ReadOnlyCollection_1_t4123044037 *)__this);
+		RaycastResult_t959898689  L_1 = VirtFuncInvoker1< RaycastResult_t959898689 , int32_t >::Invoke(33 /* T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32) */, (ReadOnlyCollection_1_t4123044037 *)__this, (int32_t)L_0);
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m2346360383_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m2346360383_gshared (ReadOnlyCollection_1_t4123044037 * __this, int32_t ___index, RaycastResult_t959898689  ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m2346360383_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m3285843961_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern TypeInfo* ICollection_t3761522009_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m176792710_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m176792710_gshared (ReadOnlyCollection_1_t4123044037 * __this, Il2CppArray * ___array, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m176792710_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		Il2CppArray * L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< Il2CppArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3761522009_il2cpp_TypeInfo_var, (Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)), (Il2CppArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IEnumerable.GetEnumerator()
+extern TypeInfo* IEnumerable_t287189635_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m1347894293_MetadataUsageId;
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m1347894293_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m1347894293_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject *)L_0);
+		Il2CppObject * L_1 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t287189635_il2cpp_TypeInfo_var, (Il2CppObject *)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Add(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2336225352_MetadataUsageId;
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2336225352_gshared (ReadOnlyCollection_1_t4123044037 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m2336225352_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m1207585684_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m1207585684_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m1207585684_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m1250633208_gshared (ReadOnlyCollection_1_t4123044037 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, RaycastResult_t959898689  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.EventSystems.RaycastResult>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_2, (RaycastResult_t959898689 )((*(RaycastResult_t959898689 *)((RaycastResult_t959898689 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m767216288_gshared (ReadOnlyCollection_1_t4123044037 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, RaycastResult_t959898689  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_2, (RaycastResult_t959898689 )((*(RaycastResult_t959898689 *)((RaycastResult_t959898689 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m2104370195_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m2104370195_gshared (ReadOnlyCollection_1_t4123044037 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m2104370195_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Remove(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m1392337461_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m1392337461_gshared (ReadOnlyCollection_1_t4123044037 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m1392337461_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m1798144035_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m1798144035_gshared (ReadOnlyCollection_1_t4123044037 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m1798144035_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m3062550116_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m233754838_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m3246698343_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m697288370_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m2365711581_gshared (ReadOnlyCollection_1_t4123044037 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		RaycastResult_t959898689  L_2 = InterfaceFuncInvoker1< RaycastResult_t959898689 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		RaycastResult_t959898689  L_3 = L_2;
+		Il2CppObject * L_4 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m4279080746_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m4279080746_gshared (ReadOnlyCollection_1_t4123044037 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m4279080746_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m2385697819_gshared (ReadOnlyCollection_1_t4123044037 * __this, RaycastResult_t959898689  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		RaycastResult_t959898689  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, RaycastResult_t959898689  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.EventSystems.RaycastResult>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (RaycastResult_t959898689 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m184145905_gshared (ReadOnlyCollection_1_t4123044037 * __this, RaycastResultU5BU5D_t2984273308* ___array, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		RaycastResultU5BU5D_t2984273308* L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		InterfaceActionInvoker2< RaycastResultU5BU5D_t2984273308*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.EventSystems.RaycastResult>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (RaycastResultU5BU5D_t2984273308*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::GetEnumerator()
+extern "C"  Il2CppObject* ReadOnlyCollection_1_GetEnumerator_m1982771954_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		Il2CppObject* L_1 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.EventSystems.RaycastResult>::GetEnumerator() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m2375524733_gshared (ReadOnlyCollection_1_t4123044037 * __this, RaycastResult_t959898689  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		RaycastResult_t959898689  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, RaycastResult_t959898689  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (RaycastResult_t959898689 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m444130206_gshared (ReadOnlyCollection_1_t4123044037 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.EventSystems.RaycastResult>::get_Count() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32)
+extern "C"  RaycastResult_t959898689  ReadOnlyCollection_1_get_Item_m3735648532_gshared (ReadOnlyCollection_1_t4123044037 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		RaycastResult_t959898689  L_2 = InterfaceFuncInvoker1< RaycastResult_t959898689 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::.ctor(System.Collections.Generic.IList`1<T>)
+extern TypeInfo* ArgumentNullException_t3214793280_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3322014;
+extern const uint32_t ReadOnlyCollection_1__ctor_m1049934817_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1__ctor_m1049934817_gshared (ReadOnlyCollection_1_t3566965929 * __this, Il2CppObject* ___list, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m1049934817_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NullCheck((Il2CppObject *)__this);
+		Object__ctor_m1772956182((Il2CppObject *)__this, /*hidden argument*/NULL);
+		Il2CppObject* L_0 = ___list;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t3214793280 * L_1 = (ArgumentNullException_t3214793280 *)il2cpp_codegen_object_new(ArgumentNullException_t3214793280_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m135444188(L_1, (String_t*)_stringLiteral3322014, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		Il2CppObject* L_2 = ___list;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.ICollection<T>.Add(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m570824011_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m570824011_gshared (ReadOnlyCollection_1_t3566965929 * __this, UICharInfo_t403820581  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m570824011_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.ICollection<T>.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m2522366175_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m2522366175_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m2522366175_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3584865906_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3584865906_gshared (ReadOnlyCollection_1_t3566965929 * __this, int32_t ___index, UICharInfo_t403820581  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3584865906_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m3594640652_MetadataUsageId;
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m3594640652_gshared (ReadOnlyCollection_1_t3566965929 * __this, UICharInfo_t403820581  ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m3594640652_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m1458718776_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m1458718776_gshared (ReadOnlyCollection_1_t3566965929 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m1458718776_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  UICharInfo_t403820581  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m3291070046_gshared (ReadOnlyCollection_1_t3566965929 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___index;
+		NullCheck((ReadOnlyCollection_1_t3566965929 *)__this);
+		UICharInfo_t403820581  L_1 = VirtFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(33 /* T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, (ReadOnlyCollection_1_t3566965929 *)__this, (int32_t)L_0);
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m2301960905_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m2301960905_gshared (ReadOnlyCollection_1_t3566965929 * __this, int32_t ___index, UICharInfo_t403820581  ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m2301960905_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2111920899_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern TypeInfo* ICollection_t3761522009_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m379245584_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m379245584_gshared (ReadOnlyCollection_1_t3566965929 * __this, Il2CppArray * ___array, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m379245584_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		Il2CppArray * L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< Il2CppArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3761522009_il2cpp_TypeInfo_var, (Il2CppObject *)((Il2CppObject *)Castclass(L_0, ICollection_t3761522009_il2cpp_TypeInfo_var)), (Il2CppArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IEnumerable.GetEnumerator()
+extern TypeInfo* IEnumerable_t287189635_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m692104735_MetadataUsageId;
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m692104735_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m692104735_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject *)L_0);
+		Il2CppObject * L_1 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t287189635_il2cpp_TypeInfo_var, (Il2CppObject *)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Add(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m3141574270_MetadataUsageId;
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m3141574270_gshared (ReadOnlyCollection_1_t3566965929 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m3141574270_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Clear()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m316416798_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m316416798_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m316416798_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m892134786_gshared (ReadOnlyCollection_1_t3566965929 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, UICharInfo_t403820581  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.UICharInfo>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_2, (UICharInfo_t403820581 )((*(UICharInfo_t403820581 *)((UICharInfo_t403820581 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m2213635542_gshared (ReadOnlyCollection_1_t3566965929 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___value;
+		bool L_1 = ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Il2CppObject* L_2 = (Il2CppObject*)__this->get_list_0();
+		Il2CppObject * L_3 = ___value;
+		NullCheck((Il2CppObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, UICharInfo_t403820581  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_2, (UICharInfo_t403820581 )((*(UICharInfo_t403820581 *)((UICharInfo_t403820581 *)UnBox (L_3, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m1271653961_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m1271653961_gshared (ReadOnlyCollection_1_t3566965929 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m1271653961_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Remove(System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m3064086591_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m3064086591_gshared (ReadOnlyCollection_1_t3566965929 * __this, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m3064086591_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.RemoveAt(System.Int32)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2082759513_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2082759513_gshared (ReadOnlyCollection_1_t3566965929 * __this, int32_t ___index, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2082759513_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m324758170_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m2662994828_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m3123142257_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m3048607336_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  Il2CppObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m403132947_gshared (ReadOnlyCollection_1_t3566965929 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		UICharInfo_t403820581  L_2 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		UICharInfo_t403820581  L_3 = L_2;
+		Il2CppObject * L_4 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m2902696928_MetadataUsageId;
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m2902696928_gshared (ReadOnlyCollection_1_t3566965929 * __this, int32_t ___index, Il2CppObject * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m2902696928_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m1997301329_gshared (ReadOnlyCollection_1_t3566965929 * __this, UICharInfo_t403820581  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		UICharInfo_t403820581  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, UICharInfo_t403820581  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.UICharInfo>::Contains(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (UICharInfo_t403820581 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m2743654779_gshared (ReadOnlyCollection_1_t3566965929 * __this, UICharInfoU5BU5D_t756447656* ___array, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		UICharInfoU5BU5D_t756447656* L_1 = ___array;
+		int32_t L_2 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		InterfaceActionInvoker2< UICharInfoU5BU5D_t756447656*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.UICharInfo>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0, (UICharInfoU5BU5D_t756447656*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::GetEnumerator()
+extern "C"  Il2CppObject* ReadOnlyCollection_1_GetEnumerator_m1555408424_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		Il2CppObject* L_1 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.UICharInfo>::GetEnumerator() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m1951204487_gshared (ReadOnlyCollection_1_t3566965929 * __this, UICharInfo_t403820581  ___value, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		UICharInfo_t403820581  L_1 = ___value;
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, UICharInfo_t403820581  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::IndexOf(T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (UICharInfo_t403820581 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m175104468_gshared (ReadOnlyCollection_1_t3566965929 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		NullCheck((Il2CppObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.UICharInfo>::get_Count() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (Il2CppObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::get_Item(System.Int32)
+extern "C"  UICharInfo_t403820581  ReadOnlyCollection_1_get_Item_m3562747678_gshared (ReadOnlyCollection_1_t3566965929 * __this, int32_t ___index, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = (Il2CppObject*)__this->get_list_0();
+		int32_t L_1 = ___index;
+		NullCheck((Il2CppObject*)L_0);
+		UICharInfo_t403820581  L_2 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (Il2CppObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

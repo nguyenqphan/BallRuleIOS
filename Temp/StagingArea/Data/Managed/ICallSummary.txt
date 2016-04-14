@@ -152,7 +152,6 @@ UnityEngine.CullingGroup::FinalizerFailure
 UnityEngine.Debug::INTERNAL_CALL_DrawLine
 UnityEngine.DebugLogHandler::Internal_Log
 UnityEngine.DebugLogHandler::Internal_LogException
-UnityEngine.DynamicGI::UpdateEnvironment
 UnityEngine.Event::PopEvent
 UnityEngine.Event::get_character
 UnityEngine.Event::get_commandName
@@ -217,8 +216,6 @@ UnityEngine.GL::get_invertCulling
 UnityEngine.GL::set_invertCulling
 UnityEngine.Gradient::Cleanup
 UnityEngine.Gradient::Init
-UnityEngine.GUI::INTERNAL_CALL_DoLabel
-UnityEngine.GUI::INTERNAL_CALL_DoWindow
 UnityEngine.GUI::set_changed
 UnityEngine.GUILayer::INTERNAL_CALL_HitTest
 UnityEngine.GUILayoutUtility::INTERNAL_CALL_Internal_GetWindowRect
@@ -294,7 +291,6 @@ UnityEngine.GUIUtility::Internal_GetDefaultSkin
 UnityEngine.Input::GetButton
 UnityEngine.Input::GetButtonDown
 UnityEngine.Input::GetButtonUp
-UnityEngine.Input::GetKeyUpInt
 UnityEngine.Input::GetMouseButton
 UnityEngine.Input::GetMouseButtonDown
 UnityEngine.Input::GetMouseButtonUp
@@ -346,11 +342,9 @@ UnityEngine.Joint::INTERNAL_set_anchor
 UnityEngine.Joint::set_connectedBody
 UnityEngine.Joint::get_connectedBody
 UnityEngine.LayerMask::NameToLayer
-UnityEngine.Light::get_intensity
 UnityEngine.Light::get_shadowStrength
 UnityEngine.Light::INTERNAL_get_color
 UnityEngine.Light::INTERNAL_set_color
-UnityEngine.Light::set_intensity
 UnityEngine.Light::set_shadowBias
 UnityEngine.Light::set_shadowStrength
 UnityEngine.Material::HasProperty
@@ -443,7 +437,6 @@ UnityEngine.QualitySettings::get_pixelLightCount
 UnityEngine.QualitySettings::set_pixelLightCount
 UnityEngine.QualitySettings::set_shadowDistance
 UnityEngine.QualitySettings::get_activeColorSpace
-UnityEngine.Quaternion::INTERNAL_CALL_AngleAxis
 UnityEngine.Quaternion::INTERNAL_CALL_Internal_FromEulerRad
 UnityEngine.Quaternion::INTERNAL_CALL_Internal_ToEulerRad
 UnityEngine.Quaternion::INTERNAL_CALL_Inverse
@@ -486,10 +479,6 @@ UnityEngine.Renderer::get_material
 UnityEngine.Renderer::get_sharedMaterial
 UnityEngine.Renderer::get_materials
 UnityEngine.Renderer::get_sharedMaterials
-UnityEngine.RenderSettings::INTERNAL_set_ambientLight
-UnityEngine.RenderSettings::INTERNAL_set_fogColor
-UnityEngine.RenderSettings::set_fog
-UnityEngine.RenderSettings::set_skybox
 UnityEngine.RenderTexture::Internal_GetHeight
 UnityEngine.RenderTexture::Internal_GetWidth
 UnityEngine.RenderTexture::Internal_CreateRenderTexture
@@ -503,7 +492,6 @@ UnityEngine.Resources::Load
 UnityEngine.Rigidbody::get_isKinematic
 UnityEngine.Rigidbody::get_angularDrag
 UnityEngine.Rigidbody::get_drag
-UnityEngine.Rigidbody::INTERNAL_CALL_AddTorque
 UnityEngine.Rigidbody::INTERNAL_set_angularVelocity
 UnityEngine.Rigidbody::INTERNAL_set_velocity
 UnityEngine.Rigidbody::set_angularDrag

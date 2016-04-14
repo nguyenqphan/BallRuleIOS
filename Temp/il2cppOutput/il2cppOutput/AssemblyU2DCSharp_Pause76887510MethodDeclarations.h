@@ -21,8 +21,6 @@ struct Pause_t76887510;
 extern "C"  void Pause__ctor_m3838886997 (Pause_t76887510 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Pause::Awake()
 extern "C"  void Pause_Awake_m4076492216 (Pause_t76887510 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void Pause::Update()
-extern "C"  void Pause_Update_m473274712 (Pause_t76887510 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Pause::DoPause()
 extern "C"  void Pause_DoPause_m136953438 (Pause_t76887510 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Pause::UnPause()

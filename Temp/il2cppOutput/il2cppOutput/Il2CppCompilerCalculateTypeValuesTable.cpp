@@ -842,7 +842,6 @@
 #include "UnityEngine_UnityEngine_SceneManagement_LoadSceneM2068802481.h"
 #include "UnityEngine_UnityEngine_SceneManagement_Scene2772977204.h"
 #include "UnityEngine_UnityEngine_ParticleSystem_EmissionMod1434063603.h"
-#include "UnityEngine_UnityEngine_ForceMode759713627.h"
 #include "UnityEngine_UnityEngine_ControllerColliderHit2693066224.h"
 #include "UnityEngine_UnityEngine_Collision1119538015.h"
 #include "UnityEngine_UnityEngine_QueryTriggerInteraction4085533775.h"
@@ -1069,14 +1068,11 @@
 #include "UnityEngine_UI_U3CPrivateImplementationDetailsU3E3053238933.h"
 #include "AssemblyU2DUnityScript_ScrollUV3957446222.h"
 #include "AssemblyU2DCSharp_GPSTest957839420.h"
-#include "AssemblyU2DCSharp_FSPlayer484114958.h"
 #include "AssemblyU2DCSharp_Pause76887510.h"
 #include "AssemblyU2DCSharp_PlayMusic109867825.h"
 #include "AssemblyU2DCSharp_SetAudioLevels1109142339.h"
 #include "AssemblyU2DCSharp_ShowPanels2673010796.h"
 #include "AssemblyU2DCSharp_StartOptions3075365884.h"
-#include "AssemblyU2DCSharp_DemoTimeOfDay768954549.h"
-#include "AssemblyU2DCSharp_Orbit76451882.h"
 #include "AssemblyU2DCSharp_DragMe2055054860.h"
 #include "AssemblyU2DCSharp_DragPanel1678257424.h"
 #include "AssemblyU2DCSharp_DropMe2055480583.h"
@@ -1143,21 +1139,17 @@
 #include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2257946988.h"
 #include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1953657076.h"
 #include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateObs3480312453.h"
-#include "AssemblyU2DCSharp_AddTorgueTest2215257235.h"
-#include "AssemblyU2DCSharp_MoveTowadsTest477145943.h"
-#include "AssemblyU2DCSharp_MoveTowadsTest_U3CMoveU3Ec__Iter3571380990.h"
-#include "AssemblyU2DCSharp_TranPosTest3225884475.h"
 #include "AssemblyU2DCSharp_TextColor940396054.h"
 #include "AssemblyU2DCSharp_UpdateScore1082839849.h"
 #include "AssemblyU2DCSharp_WaterLerp1789564686.h"
 #include "AssemblyU2DCSharp_WaterMaterials3313381621.h"
 #include "AssemblyU2DCSharp_WeatherDetecter2833725060.h"
-#include "AssemblyU2DCSharp_WeatherDetecter_U3CdeactivateWea3524863516.h"
+#include "AssemblyU2DCSharp_WeatherDetecter_U3CdeactivateWea3524863515.h"
 #include "AssemblyU2DCSharp_WeatherMan2413190374.h"
 #include "AssemblyU2DCSharp_CubeP65458843.h"
 #include "AssemblyU2DCSharp_Cube2111573.h"
-#include "AssemblyU2DCSharp_Cube_U3CStartToRotateU3Ec__Iterat702441967.h"
-#include "AssemblyU2DCSharp_Cube_U3CStartPulseU3Ec__Iterator3736187911.h"
+#include "AssemblyU2DCSharp_Cube_U3CStartToRotateU3Ec__Iterat702441966.h"
+#include "AssemblyU2DCSharp_Cube_U3CStartPulseU3Ec__Iterator3736187910.h"
 #include "AssemblyU2DCSharp_CubeControllerP322988191.h"
 #include "AssemblyU2DCSharp_CubeController1811534289.h"
 #include "AssemblyU2DCSharp_CubeManagerP508845496.h"
@@ -1165,7 +1157,7 @@
 #include "AssemblyU2DCSharp_CubeMaterials4044142423.h"
 #include "AssemblyU2DCSharp_FlashingP857341054.h"
 #include "AssemblyU2DCSharp_Flashing1690224146.h"
-#include "AssemblyU2DCSharp_Flashing_U3CFlashingCubeU3Ec__It3584501240.h"
+#include "AssemblyU2DCSharp_Flashing_U3CFlashingCubeU3Ec__It3584501239.h"
 #include "AssemblyU2DCSharp_GetIndexCube3641666961.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1467159680.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1459654472.h"
@@ -1534,7 +1526,6 @@
 #include "UnityEngine_UnityEngine_WaitForEndOfFrame1917318876.h"
 #include "UnityEngine_UnityEngine_ScriptableObject184905905.h"
 #include "UnityEngine_UnityEngine_UnhandledExceptionHandler991098059.h"
-#include "UnityEngine_UnityEngine_RenderSettings100441158.h"
 #include "UnityEngine_UnityEngine_QualitySettings3538980463.h"
 #include "UnityEngine_UnityEngine_Mesh1525280346.h"
 #include "UnityEngine_UnityEngine_Renderer1092684080.h"
@@ -1585,7 +1576,6 @@
 #include "UnityEngine_UnityEngine_iOS_ADInterstitialAd_Inters402653446.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Direc608261574.h"
 #include "UnityEngine_UnityEngine_SceneManagement_SceneManag1523288937.h"
-#include "UnityEngine_UnityEngine_DynamicGI1023793550.h"
 #include "UnityEngine_UnityEngine_ParticleSystem56787138.h"
 #include "UnityEngine_UnityEngine_Physics2601443956.h"
 #include "UnityEngine_UnityEngine_Rigidbody1972007546.h"
@@ -1684,8 +1674,6 @@
 #include "AssemblyU2DCSharp_GameStateManager_InstanceStep3721597217.h"
 #include "AssemblyU2DCSharp_Ideas70496316.h"
 #include "AssemblyU2DCSharp_SetFrameRate2248765899.h"
-#include "AssemblyU2DCSharp_EventListenerTest4216845056.h"
-#include "AssemblyU2DCSharp_GravityTest2735471584.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_U3CModuleU3E86524790.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_1725072517.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3367880121.h"
@@ -1703,7 +1691,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7529] = 
+extern const int32_t g_FieldOffsetTable[7498] = 
 {
 	0,
 	0,
@@ -6632,11 +6620,6 @@ extern const int32_t g_FieldOffsetTable[7529] =
 	0,
 	Scene_t2772977204::get_offset_of_m_Handle_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	EmissionModule_t1434063603::get_offset_of_m_ParticleSystem_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	ForceMode_t759713627::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
 	ControllerColliderHit_t2693066224::get_offset_of_m_Controller_0(),
 	ControllerColliderHit_t2693066224::get_offset_of_m_Collider_1(),
 	ControllerColliderHit_t2693066224::get_offset_of_m_Point_2(),
@@ -8368,11 +8351,6 @@ extern const int32_t g_FieldOffsetTable[7529] =
 	0,
 	0,
 	0,
-	FSPlayer_t484114958::get_offset_of_m_LightList_2(),
-	FSPlayer_t484114958::get_offset_of_m_SkyboxList_3(),
-	FSPlayer_t484114958::get_offset_of_FogColorList_4(),
-	FSPlayer_t484114958::get_offset_of_AmbientLightList_5(),
-	FSPlayer_t484114958::get_offset_of_m_CurrentSkyBox_6(),
 	Pause_t76887510::get_offset_of_showPanels_2(),
 	Pause_t76887510::get_offset_of_isPaused_3(),
 	Pause_t76887510::get_offset_of_startScript_4(),
@@ -8419,13 +8397,6 @@ extern const int32_t g_FieldOffsetTable[7529] =
 	StartOptions_t3075365884::get_offset_of_textColor_13(),
 	StartOptions_t3075365884::get_offset_of_updateScore_14(),
 	StartOptions_t3075365884::get_offset_of_cubeManager_15(),
-	DemoTimeOfDay_t768954549::get_offset_of_lightSource_2(),
-	DemoTimeOfDay_t768954549::get_offset_of_minAngle_3(),
-	DemoTimeOfDay_t768954549::get_offset_of_cycleDuration_4(),
-	DemoTimeOfDay_t768954549::get_offset_of_maxAngle_5(),
-	DemoTimeOfDay_t768954549::get_offset_of_yAngle_6(),
-	DemoTimeOfDay_t768954549::get_offset_of_maxIntensity_7(),
-	Orbit_t76451882::get_offset_of_degreesPerSecond_2(),
 	DragMe_t2055054860::get_offset_of_dragOnSurfaces_2(),
 	DragMe_t2055054860::get_offset_of_m_DraggingIcons_3(),
 	DragMe_t2055054860::get_offset_of_m_DraggingPlanes_4(),
@@ -8819,20 +8790,6 @@ extern const int32_t g_FieldOffsetTable[7529] =
 	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U24PC_0(),
 	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U24current_1(),
 	U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453::get_offset_of_U3CU3Ef__this_2(),
-	AddTorgueTest_t2215257235::get_offset_of_torque_2(),
-	AddTorgueTest_t2215257235::get_offset_of_rb_3(),
-	AddTorgueTest_t2215257235::get_offset_of_hit_4(),
-	AddTorgueTest_t2215257235::get_offset_of_cube_5(),
-	AddTorgueTest_t2215257235::get_offset_of_mousePress_6(),
-	MoveTowadsTest_t477145943::get_offset_of_currentPos_2(),
-	MoveTowadsTest_t477145943::get_offset_of_speed_3(),
-	U3CMoveU3Ec__Iterator20_t3571380990::get_offset_of_targetPos_0(),
-	U3CMoveU3Ec__Iterator20_t3571380990::get_offset_of_U24PC_1(),
-	U3CMoveU3Ec__Iterator20_t3571380990::get_offset_of_U24current_2(),
-	U3CMoveU3Ec__Iterator20_t3571380990::get_offset_of_U3CU24U3EtargetPos_3(),
-	U3CMoveU3Ec__Iterator20_t3571380990::get_offset_of_U3CU3Ef__this_4(),
-	TranPosTest_t3225884475::get_offset_of_cam_2(),
-	TranPosTest_t3225884475::get_offset_of_startTime_3(),
 	TextColor_t940396054::get_offset_of_scoreTextColor_2(),
 	TextColor_t940396054::get_offset_of_bestTextColor_3(),
 	TextColor_t940396054::get_offset_of_scoreDisplay_4(),
@@ -8849,9 +8806,9 @@ extern const int32_t g_FieldOffsetTable[7529] =
 	WaterMaterials_t3313381621::get_offset_of_materials_2(),
 	WaterMaterials_t3313381621::get_offset_of_renderMaterial_3(),
 	WeatherDetecter_t2833725060::get_offset_of_weatherMan_2(),
-	U3CdeactivateWeatherDetectorU3Ec__Iterator21_t3524863516::get_offset_of_U24PC_0(),
-	U3CdeactivateWeatherDetectorU3Ec__Iterator21_t3524863516::get_offset_of_U24current_1(),
-	U3CdeactivateWeatherDetectorU3Ec__Iterator21_t3524863516::get_offset_of_U3CU3Ef__this_2(),
+	U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515::get_offset_of_U24PC_0(),
+	U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515::get_offset_of_U24current_1(),
+	U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515::get_offset_of_U3CU3Ef__this_2(),
 	WeatherMan_t2413190374::get_offset_of_rainToInstantiate_2(),
 	WeatherMan_t2413190374::get_offset_of_snowToInstantiate_3(),
 	WeatherMan_t2413190374::get_offset_of_rainList_4(),
@@ -8868,14 +8825,14 @@ extern const int32_t g_FieldOffsetTable[7529] =
 	CubeP_t65458843::get_offset_of_floatSpeed_8() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	CubeP_t65458843::get_offset_of_isOneRound_9() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Cube_t2111573::get_offset_of_cubeP_2(),
-	U3CStartToRotateU3Ec__Iterator22_t702441967::get_offset_of_dirToRotate_0(),
-	U3CStartToRotateU3Ec__Iterator22_t702441967::get_offset_of_U24PC_1(),
-	U3CStartToRotateU3Ec__Iterator22_t702441967::get_offset_of_U24current_2(),
-	U3CStartToRotateU3Ec__Iterator22_t702441967::get_offset_of_U3CU24U3EdirToRotate_3(),
-	U3CStartToRotateU3Ec__Iterator22_t702441967::get_offset_of_U3CU3Ef__this_4(),
-	U3CStartPulseU3Ec__Iterator23_t3736187911::get_offset_of_U24PC_0(),
-	U3CStartPulseU3Ec__Iterator23_t3736187911::get_offset_of_U24current_1(),
-	U3CStartPulseU3Ec__Iterator23_t3736187911::get_offset_of_U3CU3Ef__this_2(),
+	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_dirToRotate_0(),
+	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_U24PC_1(),
+	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_U24current_2(),
+	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_U3CU24U3EdirToRotate_3(),
+	U3CStartToRotateU3Ec__Iterator21_t702441966::get_offset_of_U3CU3Ef__this_4(),
+	U3CStartPulseU3Ec__Iterator22_t3736187910::get_offset_of_U24PC_0(),
+	U3CStartPulseU3Ec__Iterator22_t3736187910::get_offset_of_U24current_1(),
+	U3CStartPulseU3Ec__Iterator22_t3736187910::get_offset_of_U3CU3Ef__this_2(),
 	CubeControllerP_t322988191::get_offset_of_rotateSpeed_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	CubeControllerP_t322988191::get_offset_of_startTime_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	CubeControllerP_t322988191::get_offset_of_rotating_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -8901,9 +8858,9 @@ extern const int32_t g_FieldOffsetTable[7529] =
 	FlashingP_t857341054::get_offset_of_countFlashing_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	FlashingP_t857341054::get_offset_of_mesh_4() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Flashing_t1690224146::get_offset_of_flashingP_2(),
-	U3CFlashingCubeU3Ec__Iterator24_t3584501240::get_offset_of_U24PC_0(),
-	U3CFlashingCubeU3Ec__Iterator24_t3584501240::get_offset_of_U24current_1(),
-	U3CFlashingCubeU3Ec__Iterator24_t3584501240::get_offset_of_U3CU3Ef__this_2(),
+	U3CFlashingCubeU3Ec__Iterator23_t3584501239::get_offset_of_U24PC_0(),
+	U3CFlashingCubeU3Ec__Iterator23_t3584501239::get_offset_of_U24current_1(),
+	U3CFlashingCubeU3Ec__Iterator23_t3584501239::get_offset_of_U3CU3Ef__this_2(),
 	GetIndexCube_t3641666961::get_offset_of_index_2(),
 	AxisTouchButton_t1467159680::get_offset_of_axisName_2(),
 	AxisTouchButton_t1467159680::get_offset_of_axisValue_3(),
@@ -9238,7 +9195,7 @@ extern const int32_t g_FieldOffsetTable[7529] =
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1894] = 
+extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1882] = 
 {
 	sizeof (U3CModuleU3E_t86524790), -1, 0, 0,
 	sizeof (Il2CppObject), -1, 0, 0,
@@ -10461,7 +10418,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1894] =
 	sizeof (UnhandledExceptionHandler_t991098059), -1, 0, 0,
 	sizeof (GameCenterPlatform_t899915837), -1, sizeof(GameCenterPlatform_t899915837_StaticFields), 0,
 	sizeof (GcLeaderboard_t3894999172), -1, 0, 0,
-	sizeof (RenderSettings_t100441158), -1, 0, 0,
 	sizeof (QualitySettings_t3538980463), -1, 0, 0,
 	sizeof (Mesh_t1525280346), -1, 0, 0,
 	sizeof (Renderer_t1092684080), -1, 0, 0,
@@ -10568,10 +10524,8 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1894] =
 	sizeof (LoadSceneMode_t2068802481)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (SceneManager_t1523288937), -1, 0, 0,
 	sizeof (Scene_t2772977204)+ sizeof (Il2CppObject), sizeof(Scene_t2772977204_marshaled_pinvoke), 0, 0,
-	sizeof (DynamicGI_t1023793550), -1, 0, 0,
 	sizeof (ParticleSystem_t56787138), -1, 0, 0,
 	sizeof (EmissionModule_t1434063603)+ sizeof (Il2CppObject), -1, 0, 0,
-	sizeof (ForceMode_t759713627)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (ControllerColliderHit_t2693066224), -1, 0, 0,
 	sizeof (Collision_t1119538015), -1, 0, 0,
 	sizeof (QueryTriggerInteraction_t4085533775)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
@@ -10941,7 +10895,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1894] =
 	sizeof (ScrollUV_t3957446222), -1, 0, 0,
 	sizeof (U3CModuleU3E_t86524797), -1, 0, 0,
 	sizeof (GPSTest_t957839420), -1, 0, 0,
-	sizeof (FSPlayer_t484114958), -1, 0, 0,
 	sizeof (DontDestroy_t1296137), -1, 0, 0,
 	sizeof (EventSystemChecker_t4055823916), -1, 0, 0,
 	sizeof (Pause_t76887510), -1, 0, 0,
@@ -10950,8 +10903,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1894] =
 	sizeof (SetAudioLevels_t1109142339), -1, 0, 0,
 	sizeof (ShowPanels_t2673010796), -1, 0, 0,
 	sizeof (StartOptions_t3075365884), -1, 0, 0,
-	sizeof (DemoTimeOfDay_t768954549), -1, 0, 0,
-	sizeof (Orbit_t76451882), -1, 0, 0,
 	sizeof (ActiveStateToggler_t829858835), -1, 0, 0,
 	sizeof (ApplicationManager_t3252667485), -1, 0, 0,
 	sizeof (ChangeColor_t4282360179), -1, 0, 0,
@@ -11033,23 +10984,17 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1894] =
 	sizeof (U3CInstantiateDiamondU3Ec__Iterator1D_t2257946988), -1, 0, 0,
 	sizeof (U3CInstantiateBallU3Ec__Iterator1E_t1953657076), -1, 0, 0,
 	sizeof (U3CInstantiateObstacleU3Ec__Iterator1F_t3480312453), -1, 0, 0,
-	sizeof (AddTorgueTest_t2215257235), -1, 0, 0,
-	sizeof (EventListenerTest_t4216845056), -1, 0, 0,
-	sizeof (GravityTest_t2735471584), -1, 0, 0,
-	sizeof (MoveTowadsTest_t477145943), -1, 0, 0,
-	sizeof (U3CMoveU3Ec__Iterator20_t3571380990), -1, 0, 0,
-	sizeof (TranPosTest_t3225884475), -1, 0, 0,
 	sizeof (TextColor_t940396054), -1, 0, 0,
 	sizeof (UpdateScore_t1082839849), -1, 0, 0,
 	sizeof (WaterLerp_t1789564686), -1, 0, 0,
 	sizeof (WaterMaterials_t3313381621), -1, 0, 0,
 	sizeof (WeatherDetecter_t2833725060), -1, 0, 0,
-	sizeof (U3CdeactivateWeatherDetectorU3Ec__Iterator21_t3524863516), -1, 0, 0,
+	sizeof (U3CdeactivateWeatherDetectorU3Ec__Iterator20_t3524863515), -1, 0, 0,
 	sizeof (WeatherMan_t2413190374), -1, 0, 0,
 	sizeof (CubeP_t65458843)+ sizeof (Il2CppObject), sizeof(CubeP_t65458843_marshaled_pinvoke), 0, 0,
 	sizeof (Cube_t2111573), -1, 0, 0,
-	sizeof (U3CStartToRotateU3Ec__Iterator22_t702441967), -1, 0, 0,
-	sizeof (U3CStartPulseU3Ec__Iterator23_t3736187911), -1, 0, 0,
+	sizeof (U3CStartToRotateU3Ec__Iterator21_t702441966), -1, 0, 0,
+	sizeof (U3CStartPulseU3Ec__Iterator22_t3736187910), -1, 0, 0,
 	sizeof (CubeControllerP_t322988191)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (CubeController_t1811534289), -1, 0, 0,
 	sizeof (CubeManagerP_t508845496)+ sizeof (Il2CppObject), -1, 0, 0,
@@ -11057,7 +11002,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1894] =
 	sizeof (CubeMaterials_t4044142423), -1, 0, 0,
 	sizeof (FlashingP_t857341054)+ sizeof (Il2CppObject), -1, 0, 0,
 	sizeof (Flashing_t1690224146), -1, 0, 0,
-	sizeof (U3CFlashingCubeU3Ec__Iterator24_t3584501240), -1, 0, 0,
+	sizeof (U3CFlashingCubeU3Ec__Iterator23_t3584501239), -1, 0, 0,
 	sizeof (GetIndexCube_t3641666961), -1, 0, 0,
 	sizeof (U3CModuleU3E_t86524798), -1, 0, 0,
 	sizeof (AxisTouchButton_t1467159680), -1, 0, 0,

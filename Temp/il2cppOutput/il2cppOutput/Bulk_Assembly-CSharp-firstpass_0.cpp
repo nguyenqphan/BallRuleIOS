@@ -528,7 +528,7 @@ extern "C"  ObjectU5BU5D_t11523773* Component_GetComponentsInChildren_TisIl2CppO
 // !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Transform>()
 #define Component_GetComponentsInChildren_TisTransform_t284553113_m3266096615(__this, method) ((  TransformU5BU5D_t3681339876* (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m2041133694_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody>()
-#define Component_GetComponent_TisRigidbody_t1972007546_m2174365699(__this, method) ((  Rigidbody_t1972007546 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+#define Component_GetComponent_TisRigidbody_t1972007546_m2213165263(__this, method) ((  Rigidbody_t1972007546 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.ParticleSystem>()
 #define Component_GetComponentsInChildren_TisParticleSystem_t56787138_m660282038(__this, method) ((  ParticleSystemU5BU5D_t808643063* (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m2041133694_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Camera>()
@@ -6270,7 +6270,7 @@ extern "C"  void ObjectResetter__ctor_m781083459 (ObjectResetter_t3416643858 * _
 extern TypeInfo* List_1_t1081512082_il2cpp_TypeInfo_var;
 extern const MethodInfo* Component_GetComponentsInChildren_TisTransform_t284553113_m3266096615_MethodInfo_var;
 extern const MethodInfo* List_1__ctor_m491930946_MethodInfo_var;
-extern const MethodInfo* Component_GetComponent_TisRigidbody_t1972007546_m2174365699_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody_t1972007546_m2213165263_MethodInfo_var;
 extern const uint32_t ObjectResetter_Start_m4023188547_MetadataUsageId;
 extern "C"  void ObjectResetter_Start_m4023188547 (ObjectResetter_t3416643858 * __this, const MethodInfo* method)
 {
@@ -6293,7 +6293,7 @@ extern "C"  void ObjectResetter_Start_m4023188547 (ObjectResetter_t3416643858 * 
 		NullCheck(L_4);
 		Quaternion_t1891715979  L_5 = Transform_get_rotation_m11483428(L_4, /*hidden argument*/NULL);
 		__this->set_originalRotation_3(L_5);
-		Rigidbody_t1972007546 * L_6 = Component_GetComponent_TisRigidbody_t1972007546_m2174365699(__this, /*hidden argument*/Component_GetComponent_TisRigidbody_t1972007546_m2174365699_MethodInfo_var);
+		Rigidbody_t1972007546 * L_6 = Component_GetComponent_TisRigidbody_t1972007546_m2213165263(__this, /*hidden argument*/Component_GetComponent_TisRigidbody_t1972007546_m2213165263_MethodInfo_var);
 		__this->set_Rigidbody_5(L_6);
 		return;
 	}

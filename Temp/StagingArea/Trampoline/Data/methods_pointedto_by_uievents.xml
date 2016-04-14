@@ -1,33 +1,33 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="ShowPanels">
-			<method name="ShowOptionsPanel"/>
-			<method name="HideInstruction"/>
-			<method name="HideOptionsPanel"/>
-			<method name="ShowInstruction"/>
-		</type>
-		<type fullname="Gamemanager">
-			<method name="ChallengeMode"/>
-			<method name="UniversalMode"/>
-			<method name="ObstacleMode"/>
-		</type>
 		<type fullname="SetAudioLevels">
-			<method name="SetSfxLevel"/>
+			<method name="SetMusicLevel"/>
 			<method name="SetSfxLevel"/>
 			<method name="SetMusicLevel"/>
-			<method name="SetMusicLevel"/>
+			<method name="SetSfxLevel"/>
 		</type>
 		<type fullname="StartOptions">
 			<method name="RefleshButtonClicked"/>
 			<method name="StartButtonClicked"/>
 		</type>
-		<type fullname="Pause">
-			<method name="UnPause"/>
-			<method name="UnPause"/>
+		<type fullname="ShowPanels">
+			<method name="ShowOptionsPanel"/>
+			<method name="ShowInstruction"/>
+			<method name="HideInstruction"/>
+			<method name="HideOptionsPanel"/>
+		</type>
+		<type fullname="Gamemanager">
+			<method name="UniversalMode"/>
+			<method name="ObstacleMode"/>
+			<method name="ChallengeMode"/>
 		</type>
 		<type fullname="QuitApplication">
 			<method name="Quit"/>
 			<method name="Quit"/>
+		</type>
+		<type fullname="Pause">
+			<method name="UnPause"/>
+			<method name="UnPause"/>
 		</type>
 	</assembly>
 </linker>

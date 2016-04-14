@@ -19,7 +19,6 @@ struct TouchU5BU5D_t376223077;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_String968488902.h"
-#include "UnityEngine_UnityEngine_KeyCode2371581209.h"
 #include "UnityEngine_UnityEngine_Vector33525329789.h"
 #include "UnityEngine_UnityEngine_Vector23525329788.h"
 #include "UnityEngine_UnityEngine_Touch1603883884.h"
@@ -27,8 +26,6 @@ struct TouchU5BU5D_t376223077;
 
 // System.Void UnityEngine.Input::.cctor()
 extern "C"  void Input__cctor_m1327041086 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Input::GetKeyUpInt(System.Int32)
-extern "C"  bool Input_GetKeyUpInt_m3424539023 (Il2CppObject * __this /* static, unused */, int32_t ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Input::GetAxis(System.String)
 extern "C"  float Input_GetAxis_m2027668530 (Il2CppObject * __this /* static, unused */, String_t* ___axisName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
@@ -39,8 +36,6 @@ extern "C"  bool Input_GetButton_m4226175975 (Il2CppObject * __this /* static, u
 extern "C"  bool Input_GetButtonDown_m1879002085 (Il2CppObject * __this /* static, unused */, String_t* ___buttonName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetButtonUp(System.String)
 extern "C"  bool Input_GetButtonUp_m2712347212 (Il2CppObject * __this /* static, unused */, String_t* ___buttonName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Input::GetKeyUp(UnityEngine.KeyCode)
-extern "C"  bool Input_GetKeyUp_m2739135306 (Il2CppObject * __this /* static, unused */, int32_t ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 extern "C"  bool Input_GetMouseButton_m4080958081 (Il2CppObject * __this /* static, unused */, int32_t ___button, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetMouseButtonDown(System.Int32)

@@ -139,8 +139,6 @@ struct IEnumerator_1_t2469031774;
 struct IEnumerator_1_t2469031869;
 // System.Collections.Generic.IEnumerator`1<System.Uri/UriScheme>
 struct IEnumerator_1_t454667937;
-// System.Collections.Generic.IEnumerator`1<UnityEngine.Color>
-struct IEnumerator_1_t3071282208;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.Color32>
 struct IEnumerator_1_t1325223359;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.ContactPoint>
@@ -285,8 +283,6 @@ struct UInt32U5BU5D_t2133601851;
 struct UInt64U5BU5D_t1076796800;
 // System.Uri/UriScheme[]
 struct UriSchemeU5BU5D_t1246605964;
-// UnityEngine.Color[]
-struct ColorU5BU5D_t3477081137;
 // UnityEngine.ContactPoint[]
 struct ContactPointU5BU5D_t1988025008;
 // UnityEngine.ContactPoint2D[]
@@ -460,8 +456,6 @@ struct Converter_2_t113996300;
 #include "mscorlib_System_UInt64985925421.h"
 #include "mscorlib_System_UInt64985925421MethodDeclarations.h"
 #include "System_System_Uri_UriScheme3266528785.h"
-#include "UnityEngine_UnityEngine_Color1588175760.h"
-#include "UnityEngine_UnityEngine_Color1588175760MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_ContactPoint2951122365.h"
 #include "UnityEngine_UnityEngine_ContactPoint2D3963746319.h"
 #include "UnityEngine_UnityEngine_Keyframe2095052507.h"
@@ -607,8 +601,6 @@ struct Converter_2_t113996300;
 #include "mscorlib_System_Array_InternalEnumerator_1_gen893415924MethodDeclarations.h"
 #include "mscorlib_System_Array_InternalEnumerator_1_gen3174019288.h"
 #include "mscorlib_System_Array_InternalEnumerator_1_gen3174019288MethodDeclarations.h"
-#include "mscorlib_System_Array_InternalEnumerator_1_gen1495666263.h"
-#include "mscorlib_System_Array_InternalEnumerator_1_gen1495666263MethodDeclarations.h"
 #include "mscorlib_System_Array_InternalEnumerator_1_gen4044574710.h"
 #include "mscorlib_System_Array_InternalEnumerator_1_gen4044574710MethodDeclarations.h"
 #include "mscorlib_System_Array_InternalEnumerator_1_gen2858612868.h"
@@ -764,6 +756,7 @@ struct Converter_2_t113996300;
 #include "UnityEngine_UnityEngine_GameObject4012695102MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Events_BaseInvokableCall1733537956.h"
 #include "UnityEngine_UnityEngine_UnityString963216403MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color1588175760.h"
 #include "UnityEngine_UI_UnityEngine_UI_ListPool_1_gen1740961763MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen2923905571.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen2923905571MethodDeclarations.h"
@@ -1069,12 +1062,6 @@ extern "C"  bool Array_InternalArray__ICollection_Contains_TisUriScheme_t3266528
 // System.Void System.Array::GetGenericValueImpl<System.Uri/UriScheme>(System.Int32,!!0&)
 extern "C"  void Array_GetGenericValueImpl_TisUriScheme_t3266528785_m4227749606_gshared (Il2CppArray * __this, int32_t p0, UriScheme_t3266528785 * p1, const MethodInfo* method);
 #define Array_GetGenericValueImpl_TisUriScheme_t3266528785_m4227749606(__this, p0, p1, method) ((  void (*) (Il2CppArray *, int32_t, UriScheme_t3266528785 *, const MethodInfo*))Array_GetGenericValueImpl_TisUriScheme_t3266528785_m4227749606_gshared)(__this, p0, p1, method)
-// System.Boolean System.Array::InternalArray__ICollection_Contains<UnityEngine.Color>(T)
-extern "C"  bool Array_InternalArray__ICollection_Contains_TisColor_t1588175760_m207472885_gshared (Il2CppArray * __this, Color_t1588175760  ___item, const MethodInfo* method);
-#define Array_InternalArray__ICollection_Contains_TisColor_t1588175760_m207472885(__this, ___item, method) ((  bool (*) (Il2CppArray *, Color_t1588175760 , const MethodInfo*))Array_InternalArray__ICollection_Contains_TisColor_t1588175760_m207472885_gshared)(__this, ___item, method)
-// System.Void System.Array::GetGenericValueImpl<UnityEngine.Color>(System.Int32,!!0&)
-extern "C"  void Array_GetGenericValueImpl_TisColor_t1588175760_m855411061_gshared (Il2CppArray * __this, int32_t p0, Color_t1588175760 * p1, const MethodInfo* method);
-#define Array_GetGenericValueImpl_TisColor_t1588175760_m855411061(__this, p0, p1, method) ((  void (*) (Il2CppArray *, int32_t, Color_t1588175760 *, const MethodInfo*))Array_GetGenericValueImpl_TisColor_t1588175760_m855411061_gshared)(__this, p0, p1, method)
 // System.Boolean System.Array::InternalArray__ICollection_Contains<UnityEngine.Color32>(T)
 extern "C"  bool Array_InternalArray__ICollection_Contains_TisColor32_t4137084207_m1506607700_gshared (Il2CppArray * __this, Color32_t4137084207  ___item, const MethodInfo* method);
 #define Array_InternalArray__ICollection_Contains_TisColor32_t4137084207_m1506607700(__this, ___item, method) ((  bool (*) (Il2CppArray *, Color32_t4137084207 , const MethodInfo*))Array_InternalArray__ICollection_Contains_TisColor32_t4137084207_m1506607700_gshared)(__this, ___item, method)
@@ -1303,9 +1290,6 @@ extern "C"  bool Array_InternalArray__ICollection_Remove_TisUInt64_t985925421_m1
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Uri/UriScheme>(T)
 extern "C"  bool Array_InternalArray__ICollection_Remove_TisUriScheme_t3266528785_m879912959_gshared (Il2CppArray * __this, UriScheme_t3266528785  ___item, const MethodInfo* method);
 #define Array_InternalArray__ICollection_Remove_TisUriScheme_t3266528785_m879912959(__this, ___item, method) ((  bool (*) (Il2CppArray *, UriScheme_t3266528785 , const MethodInfo*))Array_InternalArray__ICollection_Remove_TisUriScheme_t3266528785_m879912959_gshared)(__this, ___item, method)
-// System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.Color>(T)
-extern "C"  bool Array_InternalArray__ICollection_Remove_TisColor_t1588175760_m559531866_gshared (Il2CppArray * __this, Color_t1588175760  ___item, const MethodInfo* method);
-#define Array_InternalArray__ICollection_Remove_TisColor_t1588175760_m559531866(__this, ___item, method) ((  bool (*) (Il2CppArray *, Color_t1588175760 , const MethodInfo*))Array_InternalArray__ICollection_Remove_TisColor_t1588175760_m559531866_gshared)(__this, ___item, method)
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.Color32>(T)
 extern "C"  bool Array_InternalArray__ICollection_Remove_TisColor32_t4137084207_m532872057_gshared (Il2CppArray * __this, Color32_t4137084207  ___item, const MethodInfo* method);
 #define Array_InternalArray__ICollection_Remove_TisColor32_t4137084207_m532872057(__this, ___item, method) ((  bool (*) (Il2CppArray *, Color32_t4137084207 , const MethodInfo*))Array_InternalArray__ICollection_Remove_TisColor32_t4137084207_m532872057_gshared)(__this, ___item, method)
@@ -1564,9 +1548,6 @@ extern "C"  Il2CppObject* Array_InternalArray__IEnumerable_GetEnumerator_TisUInt
 // System.Collections.Generic.IEnumerator`1<T> System.Array::InternalArray__IEnumerable_GetEnumerator<System.Uri/UriScheme>()
 extern "C"  Il2CppObject* Array_InternalArray__IEnumerable_GetEnumerator_TisUriScheme_t3266528785_m1636451147_gshared (Il2CppArray * __this, const MethodInfo* method);
 #define Array_InternalArray__IEnumerable_GetEnumerator_TisUriScheme_t3266528785_m1636451147(__this, method) ((  Il2CppObject* (*) (Il2CppArray *, const MethodInfo*))Array_InternalArray__IEnumerable_GetEnumerator_TisUriScheme_t3266528785_m1636451147_gshared)(__this, method)
-// System.Collections.Generic.IEnumerator`1<T> System.Array::InternalArray__IEnumerable_GetEnumerator<UnityEngine.Color>()
-extern "C"  Il2CppObject* Array_InternalArray__IEnumerable_GetEnumerator_TisColor_t1588175760_m1537715192_gshared (Il2CppArray * __this, const MethodInfo* method);
-#define Array_InternalArray__IEnumerable_GetEnumerator_TisColor_t1588175760_m1537715192(__this, method) ((  Il2CppObject* (*) (Il2CppArray *, const MethodInfo*))Array_InternalArray__IEnumerable_GetEnumerator_TisColor_t1588175760_m1537715192_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Array::InternalArray__IEnumerable_GetEnumerator<UnityEngine.Color32>()
 extern "C"  Il2CppObject* Array_InternalArray__IEnumerable_GetEnumerator_TisColor32_t4137084207_m265710329_gshared (Il2CppArray * __this, const MethodInfo* method);
 #define Array_InternalArray__IEnumerable_GetEnumerator_TisColor32_t4137084207_m265710329(__this, method) ((  Il2CppObject* (*) (Il2CppArray *, const MethodInfo*))Array_InternalArray__IEnumerable_GetEnumerator_TisColor32_t4137084207_m265710329_gshared)(__this, method)
@@ -1870,9 +1851,6 @@ extern "C"  int32_t Array_InternalArray__IndexOf_TisUInt64_t985925421_m125547463
 // System.Int32 System.Array::InternalArray__IndexOf<System.Uri/UriScheme>(T)
 extern "C"  int32_t Array_InternalArray__IndexOf_TisUriScheme_t3266528785_m4017860342_gshared (Il2CppArray * __this, UriScheme_t3266528785  ___item, const MethodInfo* method);
 #define Array_InternalArray__IndexOf_TisUriScheme_t3266528785_m4017860342(__this, ___item, method) ((  int32_t (*) (Il2CppArray *, UriScheme_t3266528785 , const MethodInfo*))Array_InternalArray__IndexOf_TisUriScheme_t3266528785_m4017860342_gshared)(__this, ___item, method)
-// System.Int32 System.Array::InternalArray__IndexOf<UnityEngine.Color>(T)
-extern "C"  int32_t Array_InternalArray__IndexOf_TisColor_t1588175760_m4090215363_gshared (Il2CppArray * __this, Color_t1588175760  ___item, const MethodInfo* method);
-#define Array_InternalArray__IndexOf_TisColor_t1588175760_m4090215363(__this, ___item, method) ((  int32_t (*) (Il2CppArray *, Color_t1588175760 , const MethodInfo*))Array_InternalArray__IndexOf_TisColor_t1588175760_m4090215363_gshared)(__this, ___item, method)
 // System.Int32 System.Array::InternalArray__IndexOf<UnityEngine.Color32>(T)
 extern "C"  int32_t Array_InternalArray__IndexOf_TisColor32_t4137084207_m495548834_gshared (Il2CppArray * __this, Color32_t4137084207  ___item, const MethodInfo* method);
 #define Array_InternalArray__IndexOf_TisColor32_t4137084207_m495548834(__this, ___item, method) ((  int32_t (*) (Il2CppArray *, Color32_t4137084207 , const MethodInfo*))Array_InternalArray__IndexOf_TisColor32_t4137084207_m495548834_gshared)(__this, ___item, method)
@@ -2065,9 +2043,6 @@ extern "C"  void Array_InternalArray__ICollection_Add_TisUInt64_t985925421_m1632
 // System.Void System.Array::InternalArray__ICollection_Add<System.Uri/UriScheme>(T)
 extern "C"  void Array_InternalArray__ICollection_Add_TisUriScheme_t3266528785_m127047346_gshared (Il2CppArray * __this, UriScheme_t3266528785  ___item, const MethodInfo* method);
 #define Array_InternalArray__ICollection_Add_TisUriScheme_t3266528785_m127047346(__this, ___item, method) ((  void (*) (Il2CppArray *, UriScheme_t3266528785 , const MethodInfo*))Array_InternalArray__ICollection_Add_TisUriScheme_t3266528785_m127047346_gshared)(__this, ___item, method)
-// System.Void System.Array::InternalArray__ICollection_Add<UnityEngine.Color>(T)
-extern "C"  void Array_InternalArray__ICollection_Add_TisColor_t1588175760_m242765191_gshared (Il2CppArray * __this, Color_t1588175760  ___item, const MethodInfo* method);
-#define Array_InternalArray__ICollection_Add_TisColor_t1588175760_m242765191(__this, ___item, method) ((  void (*) (Il2CppArray *, Color_t1588175760 , const MethodInfo*))Array_InternalArray__ICollection_Add_TisColor_t1588175760_m242765191_gshared)(__this, ___item, method)
 // System.Void System.Array::InternalArray__ICollection_Add<UnityEngine.Color32>(T)
 extern "C"  void Array_InternalArray__ICollection_Add_TisColor32_t4137084207_m1062775398_gshared (Il2CppArray * __this, Color32_t4137084207  ___item, const MethodInfo* method);
 #define Array_InternalArray__ICollection_Add_TisColor32_t4137084207_m1062775398(__this, ___item, method) ((  void (*) (Il2CppArray *, Color32_t4137084207 , const MethodInfo*))Array_InternalArray__ICollection_Add_TisColor32_t4137084207_m1062775398_gshared)(__this, ___item, method)
@@ -2242,9 +2217,6 @@ extern "C"  void Array_InternalArray__ICollection_CopyTo_TisUInt64_t985925421_m2
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Uri/UriScheme>(T[],System.Int32)
 extern "C"  void Array_InternalArray__ICollection_CopyTo_TisUriScheme_t3266528785_m630562344_gshared (Il2CppArray * __this, UriSchemeU5BU5D_t1246605964* ___array, int32_t ___index, const MethodInfo* method);
 #define Array_InternalArray__ICollection_CopyTo_TisUriScheme_t3266528785_m630562344(__this, ___array, ___index, method) ((  void (*) (Il2CppArray *, UriSchemeU5BU5D_t1246605964*, int32_t, const MethodInfo*))Array_InternalArray__ICollection_CopyTo_TisUriScheme_t3266528785_m630562344_gshared)(__this, ___array, ___index, method)
-// System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Color>(T[],System.Int32)
-extern "C"  void Array_InternalArray__ICollection_CopyTo_TisColor_t1588175760_m1472642321_gshared (Il2CppArray * __this, ColorU5BU5D_t3477081137* ___array, int32_t ___index, const MethodInfo* method);
-#define Array_InternalArray__ICollection_CopyTo_TisColor_t1588175760_m1472642321(__this, ___array, ___index, method) ((  void (*) (Il2CppArray *, ColorU5BU5D_t3477081137*, int32_t, const MethodInfo*))Array_InternalArray__ICollection_CopyTo_TisColor_t1588175760_m1472642321_gshared)(__this, ___array, ___index, method)
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Color32>(T[],System.Int32)
 extern "C"  void Array_InternalArray__ICollection_CopyTo_TisColor32_t4137084207_m1932157586_gshared (Il2CppArray * __this, Color32U5BU5D_t1677970742* ___array, int32_t ___index, const MethodInfo* method);
 #define Array_InternalArray__ICollection_CopyTo_TisColor32_t4137084207_m1932157586(__this, ___array, ___index, method) ((  void (*) (Il2CppArray *, Color32U5BU5D_t1677970742*, int32_t, const MethodInfo*))Array_InternalArray__ICollection_CopyTo_TisColor32_t4137084207_m1932157586_gshared)(__this, ___array, ___index, method)
@@ -2419,9 +2391,6 @@ extern "C"  void Array_InternalArray__Insert_TisUInt64_t985925421_m958571299_gsh
 // System.Void System.Array::InternalArray__Insert<System.Uri/UriScheme>(System.Int32,T)
 extern "C"  void Array_InternalArray__Insert_TisUriScheme_t3266528785_m1211202023_gshared (Il2CppArray * __this, int32_t ___index, UriScheme_t3266528785  ___item, const MethodInfo* method);
 #define Array_InternalArray__Insert_TisUriScheme_t3266528785_m1211202023(__this, ___index, ___item, method) ((  void (*) (Il2CppArray *, int32_t, UriScheme_t3266528785 , const MethodInfo*))Array_InternalArray__Insert_TisUriScheme_t3266528785_m1211202023_gshared)(__this, ___index, ___item, method)
-// System.Void System.Array::InternalArray__Insert<UnityEngine.Color>(System.Int32,T)
-extern "C"  void Array_InternalArray__Insert_TisColor_t1588175760_m225738318_gshared (Il2CppArray * __this, int32_t ___index, Color_t1588175760  ___item, const MethodInfo* method);
-#define Array_InternalArray__Insert_TisColor_t1588175760_m225738318(__this, ___index, ___item, method) ((  void (*) (Il2CppArray *, int32_t, Color_t1588175760 , const MethodInfo*))Array_InternalArray__Insert_TisColor_t1588175760_m225738318_gshared)(__this, ___index, ___item, method)
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Color32>(System.Int32,T)
 extern "C"  void Array_InternalArray__Insert_TisColor32_t4137084207_m1091612751_gshared (Il2CppArray * __this, int32_t ___index, Color32_t4137084207  ___item, const MethodInfo* method);
 #define Array_InternalArray__Insert_TisColor32_t4137084207_m1091612751(__this, ___index, ___item, method) ((  void (*) (Il2CppArray *, int32_t, Color32_t4137084207 , const MethodInfo*))Array_InternalArray__Insert_TisColor32_t4137084207_m1091612751_gshared)(__this, ___index, ___item, method)
@@ -2716,12 +2685,6 @@ extern "C"  void Array_InternalArray__set_Item_TisUriScheme_t3266528785_m8533489
 // System.Void System.Array::SetGenericValueImpl<System.Uri/UriScheme>(System.Int32,!!0&)
 extern "C"  void Array_SetGenericValueImpl_TisUriScheme_t3266528785_m1143725914_gshared (Il2CppArray * __this, int32_t p0, UriScheme_t3266528785 * p1, const MethodInfo* method);
 #define Array_SetGenericValueImpl_TisUriScheme_t3266528785_m1143725914(__this, p0, p1, method) ((  void (*) (Il2CppArray *, int32_t, UriScheme_t3266528785 *, const MethodInfo*))Array_SetGenericValueImpl_TisUriScheme_t3266528785_m1143725914_gshared)(__this, p0, p1, method)
-// System.Void System.Array::InternalArray__set_Item<UnityEngine.Color>(System.Int32,T)
-extern "C"  void Array_InternalArray__set_Item_TisColor_t1588175760_m1033798935_gshared (Il2CppArray * __this, int32_t ___index, Color_t1588175760  ___item, const MethodInfo* method);
-#define Array_InternalArray__set_Item_TisColor_t1588175760_m1033798935(__this, ___index, ___item, method) ((  void (*) (Il2CppArray *, int32_t, Color_t1588175760 , const MethodInfo*))Array_InternalArray__set_Item_TisColor_t1588175760_m1033798935_gshared)(__this, ___index, ___item, method)
-// System.Void System.Array::SetGenericValueImpl<UnityEngine.Color>(System.Int32,!!0&)
-extern "C"  void Array_SetGenericValueImpl_TisColor_t1588175760_m4125947265_gshared (Il2CppArray * __this, int32_t p0, Color_t1588175760 * p1, const MethodInfo* method);
-#define Array_SetGenericValueImpl_TisColor_t1588175760_m4125947265(__this, p0, p1, method) ((  void (*) (Il2CppArray *, int32_t, Color_t1588175760 *, const MethodInfo*))Array_SetGenericValueImpl_TisColor_t1588175760_m4125947265_gshared)(__this, p0, p1, method)
 // System.Void System.Array::InternalArray__set_Item<UnityEngine.Color32>(System.Int32,T)
 extern "C"  void Array_InternalArray__set_Item_TisColor32_t4137084207_m248785112_gshared (Il2CppArray * __this, int32_t ___index, Color32_t4137084207  ___item, const MethodInfo* method);
 #define Array_InternalArray__set_Item_TisColor32_t4137084207_m248785112(__this, ___index, ___item, method) ((  void (*) (Il2CppArray *, int32_t, Color32_t4137084207 , const MethodInfo*))Array_InternalArray__set_Item_TisColor32_t4137084207_m248785112_gshared)(__this, ___index, ___item, method)
@@ -3468,9 +3431,6 @@ extern "C"  uint64_t Array_InternalArray__get_Item_TisUInt64_t985925421_m8267865
 // T System.Array::InternalArray__get_Item<System.Uri/UriScheme>(System.Int32)
 extern "C"  UriScheme_t3266528785  Array_InternalArray__get_Item_TisUriScheme_t3266528785_m2328943123_gshared (Il2CppArray * __this, int32_t ___index, const MethodInfo* method);
 #define Array_InternalArray__get_Item_TisUriScheme_t3266528785_m2328943123(__this, ___index, method) ((  UriScheme_t3266528785  (*) (Il2CppArray *, int32_t, const MethodInfo*))Array_InternalArray__get_Item_TisUriScheme_t3266528785_m2328943123_gshared)(__this, ___index, method)
-// T System.Array::InternalArray__get_Item<UnityEngine.Color>(System.Int32)
-extern "C"  Color_t1588175760  Array_InternalArray__get_Item_TisColor_t1588175760_m3851996850_gshared (Il2CppArray * __this, int32_t ___index, const MethodInfo* method);
-#define Array_InternalArray__get_Item_TisColor_t1588175760_m3851996850(__this, ___index, method) ((  Color_t1588175760  (*) (Il2CppArray *, int32_t, const MethodInfo*))Array_InternalArray__get_Item_TisColor_t1588175760_m3851996850_gshared)(__this, ___index, method)
 // T System.Array::InternalArray__get_Item<UnityEngine.Color32>(System.Int32)
 extern "C"  Color32_t4137084207  Array_InternalArray__get_Item_TisColor32_t4137084207_m2218876403_gshared (Il2CppArray * __this, int32_t ___index, const MethodInfo* method);
 #define Array_InternalArray__get_Item_TisColor32_t4137084207_m2218876403(__this, ___index, method) ((  Color32_t4137084207  (*) (Il2CppArray *, int32_t, const MethodInfo*))Array_InternalArray__get_Item_TisColor32_t4137084207_m2218876403_gshared)(__this, ___index, method)
@@ -8219,100 +8179,6 @@ IL_006b:
 		return (bool)0;
 	}
 }
-// System.Boolean System.Array::InternalArray__ICollection_Contains<UnityEngine.Color>(T)
-// System.Boolean System.Array::InternalArray__ICollection_Contains<UnityEngine.Color>(T)
-extern TypeInfo* RankException_t3665850616_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral3363540468;
-extern const uint32_t Array_InternalArray__ICollection_Contains_TisColor_t1588175760_m207472885_MetadataUsageId;
-extern "C"  bool Array_InternalArray__ICollection_Contains_TisColor_t1588175760_m207472885_gshared (Il2CppArray * __this, Color_t1588175760  ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__ICollection_Contains_TisColor_t1588175760_m207472885_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	Color_t1588175760  V_2;
-	memset(&V_2, 0, sizeof(V_2));
-	{
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_0 = Array_get_Rank_m1671008509((Il2CppArray *)__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_0) <= ((int32_t)1)))
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		String_t* L_1 = Locale_GetText_m2389348044(NULL /*static, unused*/, (String_t*)_stringLiteral3363540468, /*hidden argument*/NULL);
-		RankException_t3665850616 * L_2 = (RankException_t3665850616 *)il2cpp_codegen_object_new(RankException_t3665850616_il2cpp_TypeInfo_var);
-		RankException__ctor_m3451921812(L_2, (String_t*)L_1, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_001c:
-	{
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_3 = Array_get_Length_m1203127607((Il2CppArray *)__this, /*hidden argument*/NULL);
-		V_0 = (int32_t)L_3;
-		V_1 = (int32_t)0;
-		goto IL_006b;
-	}
-
-IL_002a:
-	{
-		int32_t L_4 = V_1;
-		NullCheck((Il2CppArray *)__this);
-		ArrayGetGenericValueImpl((Il2CppArray *)__this, (int32_t)L_4, (Color_t1588175760 *)(&V_2));
-		goto IL_004d;
-	}
-	{
-		goto IL_004b;
-	}
-	{
-		return (bool)1;
-	}
-
-IL_004b:
-	{
-		return (bool)0;
-	}
-
-IL_004d:
-	{
-		Color_t1588175760  L_7 = V_2;
-		Color_t1588175760  L_8 = L_7;
-		Il2CppObject * L_9 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_8);
-		bool L_10 = Color_Equals_m3016668205((Color_t1588175760 *)(&___item), (Il2CppObject *)L_9, /*hidden argument*/NULL);
-		if (!L_10)
-		{
-			goto IL_0067;
-		}
-	}
-	{
-		return (bool)1;
-	}
-
-IL_0067:
-	{
-		int32_t L_11 = V_1;
-		V_1 = (int32_t)((int32_t)((int32_t)L_11+(int32_t)1));
-	}
-
-IL_006b:
-	{
-		int32_t L_12 = V_1;
-		int32_t L_13 = V_0;
-		if ((((int32_t)L_12) < ((int32_t)L_13)))
-		{
-			goto IL_002a;
-		}
-	}
-	{
-		return (bool)0;
-	}
-}
 // System.Boolean System.Array::InternalArray__ICollection_Contains<UnityEngine.Color32>(T)
 // System.Boolean System.Array::InternalArray__ICollection_Contains<UnityEngine.Color32>(T)
 extern TypeInfo* RankException_t3665850616_il2cpp_TypeInfo_var;
@@ -10794,25 +10660,6 @@ extern "C"  bool Array_InternalArray__ICollection_Remove_TisUriScheme_t326652878
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.Color>(T)
-// System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.Color>(T)
-extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral615244847;
-extern const uint32_t Array_InternalArray__ICollection_Remove_TisColor_t1588175760_m559531866_MetadataUsageId;
-extern "C"  bool Array_InternalArray__ICollection_Remove_TisColor_t1588175760_m559531866_gshared (Il2CppArray * __this, Color_t1588175760  ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__ICollection_Remove_TisColor_t1588175760_m559531866_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m133757637(L_0, (String_t*)_stringLiteral615244847, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.Color32>(T)
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.Color32>(T)
 extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
@@ -12662,19 +12509,6 @@ extern "C"  Il2CppObject* Array_InternalArray__IEnumerable_GetEnumerator_TisUriS
 		memset(&L_0, 0, sizeof(L_0));
 		((  void (*) (InternalEnumerator_1_t3174019288 *, Il2CppArray *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1)->method)(&L_0, (Il2CppArray *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1));
 		InternalEnumerator_1_t3174019288  L_1 = L_0;
-		Il2CppObject * L_2 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_1);
-		return (Il2CppObject*)L_2;
-	}
-}
-// System.Collections.Generic.IEnumerator`1<T> System.Array::InternalArray__IEnumerable_GetEnumerator<UnityEngine.Color>()
-// System.Collections.Generic.IEnumerator`1<T> System.Array::InternalArray__IEnumerable_GetEnumerator<UnityEngine.Color>()
-extern "C"  Il2CppObject* Array_InternalArray__IEnumerable_GetEnumerator_TisColor_t1588175760_m1537715192_gshared (Il2CppArray * __this, const MethodInfo* method)
-{
-	{
-		InternalEnumerator_1_t1495666263  L_0;
-		memset(&L_0, 0, sizeof(L_0));
-		((  void (*) (InternalEnumerator_1_t1495666263 *, Il2CppArray *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1)->method)(&L_0, (Il2CppArray *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1));
-		InternalEnumerator_1_t1495666263  L_1 = L_0;
 		Il2CppObject * L_2 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_1);
 		return (Il2CppObject*)L_2;
 	}
@@ -21187,110 +21021,6 @@ IL_0083:
 		return ((int32_t)((int32_t)L_20-(int32_t)1));
 	}
 }
-// System.Int32 System.Array::InternalArray__IndexOf<UnityEngine.Color>(T)
-// System.Int32 System.Array::InternalArray__IndexOf<UnityEngine.Color>(T)
-extern TypeInfo* RankException_t3665850616_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral3363540468;
-extern const uint32_t Array_InternalArray__IndexOf_TisColor_t1588175760_m4090215363_MetadataUsageId;
-extern "C"  int32_t Array_InternalArray__IndexOf_TisColor_t1588175760_m4090215363_gshared (Il2CppArray * __this, Color_t1588175760  ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__IndexOf_TisColor_t1588175760_m4090215363_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	Color_t1588175760  V_2;
-	memset(&V_2, 0, sizeof(V_2));
-	{
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_0 = Array_get_Rank_m1671008509((Il2CppArray *)__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_0) <= ((int32_t)1)))
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		String_t* L_1 = Locale_GetText_m2389348044(NULL /*static, unused*/, (String_t*)_stringLiteral3363540468, /*hidden argument*/NULL);
-		RankException_t3665850616 * L_2 = (RankException_t3665850616 *)il2cpp_codegen_object_new(RankException_t3665850616_il2cpp_TypeInfo_var);
-		RankException__ctor_m3451921812(L_2, (String_t*)L_1, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_001c:
-	{
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_3 = Array_get_Length_m1203127607((Il2CppArray *)__this, /*hidden argument*/NULL);
-		V_0 = (int32_t)L_3;
-		V_1 = (int32_t)0;
-		goto IL_0083;
-	}
-
-IL_002a:
-	{
-		int32_t L_4 = V_1;
-		NullCheck((Il2CppArray *)__this);
-		ArrayGetGenericValueImpl((Il2CppArray *)__this, (int32_t)L_4, (Color_t1588175760 *)(&V_2));
-		goto IL_005d;
-	}
-	{
-		goto IL_0053;
-	}
-	{
-		int32_t L_7 = V_1;
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_8 = Array_GetLowerBound_m2369136542((Il2CppArray *)__this, (int32_t)0, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_7+(int32_t)L_8));
-	}
-
-IL_0053:
-	{
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_9 = Array_GetLowerBound_m2369136542((Il2CppArray *)__this, (int32_t)0, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_9-(int32_t)1));
-	}
-
-IL_005d:
-	{
-		Color_t1588175760  L_10 = ___item;
-		Color_t1588175760  L_11 = L_10;
-		Il2CppObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_11);
-		bool L_13 = Color_Equals_m3016668205((Color_t1588175760 *)(&V_2), (Il2CppObject *)L_12, /*hidden argument*/NULL);
-		if (!L_13)
-		{
-			goto IL_007f;
-		}
-	}
-	{
-		int32_t L_14 = V_1;
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_15 = Array_GetLowerBound_m2369136542((Il2CppArray *)__this, (int32_t)0, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_14+(int32_t)L_15));
-	}
-
-IL_007f:
-	{
-		int32_t L_16 = V_1;
-		V_1 = (int32_t)((int32_t)((int32_t)L_16+(int32_t)1));
-	}
-
-IL_0083:
-	{
-		int32_t L_17 = V_1;
-		int32_t L_18 = V_0;
-		if ((((int32_t)L_17) < ((int32_t)L_18)))
-		{
-			goto IL_002a;
-		}
-	}
-	{
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_19 = Array_GetLowerBound_m2369136542((Il2CppArray *)__this, (int32_t)0, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_19-(int32_t)1));
-	}
-}
 // System.Int32 System.Array::InternalArray__IndexOf<UnityEngine.Color32>(T)
 // System.Int32 System.Array::InternalArray__IndexOf<UnityEngine.Color32>(T)
 extern TypeInfo* RankException_t3665850616_il2cpp_TypeInfo_var;
@@ -23549,7 +23279,6 @@ IL_003e:
 // System.Void System.Array::GetGenericValueImpl<System.UInt32>(System.Int32,T&)
 // System.Void System.Array::GetGenericValueImpl<System.UInt64>(System.Int32,T&)
 // System.Void System.Array::GetGenericValueImpl<System.Uri/UriScheme>(System.Int32,T&)
-// System.Void System.Array::GetGenericValueImpl<UnityEngine.Color>(System.Int32,T&)
 // System.Void System.Array::GetGenericValueImpl<UnityEngine.Color32>(System.Int32,T&)
 // System.Void System.Array::GetGenericValueImpl<UnityEngine.ContactPoint>(System.Int32,T&)
 // System.Void System.Array::GetGenericValueImpl<UnityEngine.ContactPoint2D>(System.Int32,T&)
@@ -24320,25 +24049,6 @@ extern "C"  void Array_InternalArray__ICollection_Add_TisUriScheme_t3266528785_m
 	if (!s_Il2CppMethodIntialized)
 	{
 		il2cpp_codegen_initialize_method (Array_InternalArray__ICollection_Add_TisUriScheme_t3266528785_m127047346_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m133757637(L_0, (String_t*)_stringLiteral615244847, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void System.Array::InternalArray__ICollection_Add<UnityEngine.Color>(T)
-// System.Void System.Array::InternalArray__ICollection_Add<UnityEngine.Color>(T)
-extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral615244847;
-extern const uint32_t Array_InternalArray__ICollection_Add_TisColor_t1588175760_m242765191_MetadataUsageId;
-extern "C"  void Array_InternalArray__ICollection_Add_TisColor_t1588175760_m242765191_gshared (Il2CppArray * __this, Color_t1588175760  ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__ICollection_Add_TisColor_t1588175760_m242765191_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -29289,121 +28999,6 @@ IL_008d:
 		return;
 	}
 }
-// System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Color>(T[],System.Int32)
-// System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Color>(T[],System.Int32)
-extern TypeInfo* ArgumentNullException_t3214793280_il2cpp_TypeInfo_var;
-extern TypeInfo* RankException_t3665850616_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentException_t124305799_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t3479058991_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral93090393;
-extern Il2CppCodeGenString* _stringLiteral3363540468;
-extern Il2CppCodeGenString* _stringLiteral2331082323;
-extern Il2CppCodeGenString* _stringLiteral100346066;
-extern Il2CppCodeGenString* _stringLiteral2582657682;
-extern const uint32_t Array_InternalArray__ICollection_CopyTo_TisColor_t1588175760_m1472642321_MetadataUsageId;
-extern "C"  void Array_InternalArray__ICollection_CopyTo_TisColor_t1588175760_m1472642321_gshared (Il2CppArray * __this, ColorU5BU5D_t3477081137* ___array, int32_t ___index, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__ICollection_CopyTo_TisColor_t1588175760_m1472642321_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		ColorU5BU5D_t3477081137* L_0 = ___array;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ArgumentNullException_t3214793280 * L_1 = (ArgumentNullException_t3214793280 *)il2cpp_codegen_object_new(ArgumentNullException_t3214793280_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m135444188(L_1, (String_t*)_stringLiteral93090393, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0011:
-	{
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_2 = Array_get_Rank_m1671008509((Il2CppArray *)__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_2) <= ((int32_t)1)))
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		String_t* L_3 = Locale_GetText_m2389348044(NULL /*static, unused*/, (String_t*)_stringLiteral3363540468, /*hidden argument*/NULL);
-		RankException_t3665850616 * L_4 = (RankException_t3665850616 *)il2cpp_codegen_object_new(RankException_t3665850616_il2cpp_TypeInfo_var);
-		RankException__ctor_m3451921812(L_4, (String_t*)L_3, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4);
-	}
-
-IL_002d:
-	{
-		int32_t L_5 = ___index;
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_6 = Array_GetLength_m1450876743((Il2CppArray *)__this, (int32_t)0, /*hidden argument*/NULL);
-		ColorU5BU5D_t3477081137* L_7 = ___array;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_7);
-		int32_t L_8 = Array_GetLowerBound_m2369136542((Il2CppArray *)(Il2CppArray *)L_7, (int32_t)0, /*hidden argument*/NULL);
-		ColorU5BU5D_t3477081137* L_9 = ___array;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_9);
-		int32_t L_10 = Array_GetLength_m1450876743((Il2CppArray *)(Il2CppArray *)L_9, (int32_t)0, /*hidden argument*/NULL);
-		if ((((int32_t)((int32_t)((int32_t)L_5+(int32_t)L_6))) <= ((int32_t)((int32_t)((int32_t)L_8+(int32_t)L_10)))))
-		{
-			goto IL_0055;
-		}
-	}
-	{
-		ArgumentException_t124305799 * L_11 = (ArgumentException_t124305799 *)il2cpp_codegen_object_new(ArgumentException_t124305799_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3544856547(L_11, (String_t*)_stringLiteral2331082323, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
-	}
-
-IL_0055:
-	{
-		ColorU5BU5D_t3477081137* L_12 = ___array;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_12);
-		int32_t L_13 = Array_get_Rank_m1671008509((Il2CppArray *)(Il2CppArray *)L_12, /*hidden argument*/NULL);
-		if ((((int32_t)L_13) <= ((int32_t)1)))
-		{
-			goto IL_0071;
-		}
-	}
-	{
-		String_t* L_14 = Locale_GetText_m2389348044(NULL /*static, unused*/, (String_t*)_stringLiteral3363540468, /*hidden argument*/NULL);
-		RankException_t3665850616 * L_15 = (RankException_t3665850616 *)il2cpp_codegen_object_new(RankException_t3665850616_il2cpp_TypeInfo_var);
-		RankException__ctor_m3451921812(L_15, (String_t*)L_14, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_15);
-	}
-
-IL_0071:
-	{
-		int32_t L_16 = ___index;
-		if ((((int32_t)L_16) >= ((int32_t)0)))
-		{
-			goto IL_008d;
-		}
-	}
-	{
-		String_t* L_17 = Locale_GetText_m2389348044(NULL /*static, unused*/, (String_t*)_stringLiteral2582657682, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t3479058991 * L_18 = (ArgumentOutOfRangeException_t3479058991 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t3479058991_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m1193970951(L_18, (String_t*)_stringLiteral100346066, (String_t*)L_17, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_18);
-	}
-
-IL_008d:
-	{
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_19 = Array_GetLowerBound_m2369136542((Il2CppArray *)__this, (int32_t)0, /*hidden argument*/NULL);
-		ColorU5BU5D_t3477081137* L_20 = ___array;
-		int32_t L_21 = ___index;
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_22 = Array_GetLength_m1450876743((Il2CppArray *)__this, (int32_t)0, /*hidden argument*/NULL);
-		Array_Copy_m2598616668(NULL /*static, unused*/, (Il2CppArray *)__this, (int32_t)L_19, (Il2CppArray *)(Il2CppArray *)L_20, (int32_t)L_21, (int32_t)L_22, /*hidden argument*/NULL);
-		return;
-	}
-}
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Color32>(T[],System.Int32)
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Color32>(T[],System.Int32)
 extern TypeInfo* ArgumentNullException_t3214793280_il2cpp_TypeInfo_var;
@@ -32234,25 +31829,6 @@ extern "C"  void Array_InternalArray__Insert_TisUriScheme_t3266528785_m121120202
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void System.Array::InternalArray__Insert<UnityEngine.Color>(System.Int32,T)
-// System.Void System.Array::InternalArray__Insert<UnityEngine.Color>(System.Int32,T)
-extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral615244847;
-extern const uint32_t Array_InternalArray__Insert_TisColor_t1588175760_m225738318_MetadataUsageId;
-extern "C"  void Array_InternalArray__Insert_TisColor_t1588175760_m225738318_gshared (Il2CppArray * __this, int32_t ___index, Color_t1588175760  ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__Insert_TisColor_t1588175760_m225738318_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m133757637(L_0, (String_t*)_stringLiteral615244847, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Color32>(System.Int32,T)
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Color32>(System.Int32,T)
 extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
@@ -34990,66 +34566,6 @@ IL_002e:
 		int32_t L_9 = ___index;
 		NullCheck((Il2CppArray *)__this);
 		ArraySetGenericValueImpl((Il2CppArray *)__this, (int32_t)L_9, (UriScheme_t3266528785 *)(&___item));
-		return;
-	}
-}
-// System.Void System.Array::InternalArray__set_Item<UnityEngine.Color>(System.Int32,T)
-// System.Void System.Array::InternalArray__set_Item<UnityEngine.Color>(System.Int32,T)
-extern TypeInfo* ArgumentOutOfRangeException_t3479058991_il2cpp_TypeInfo_var;
-extern TypeInfo* ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral100346066;
-extern const uint32_t Array_InternalArray__set_Item_TisColor_t1588175760_m1033798935_MetadataUsageId;
-extern "C"  void Array_InternalArray__set_Item_TisColor_t1588175760_m1033798935_gshared (Il2CppArray * __this, int32_t ___index, Color_t1588175760  ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__set_Item_TisColor_t1588175760_m1033798935_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	ObjectU5BU5D_t11523773* V_0 = NULL;
-	{
-		int32_t L_0 = ___index;
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_1 = Array_get_Length_m1203127607((Il2CppArray *)__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_0) >= ((uint32_t)L_1))))
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t3479058991 * L_2 = (ArgumentOutOfRangeException_t3479058991 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t3479058991_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m2026296331(L_2, (String_t*)_stringLiteral100346066, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0017:
-	{
-		V_0 = (ObjectU5BU5D_t11523773*)((ObjectU5BU5D_t11523773*)IsInst(__this, ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var));
-		ObjectU5BU5D_t11523773* L_3 = V_0;
-		if (!L_3)
-		{
-			goto IL_002e;
-		}
-	}
-	{
-		ObjectU5BU5D_t11523773* L_4 = V_0;
-		int32_t L_5 = ___index;
-		Color_t1588175760  L_6 = ___item;
-		Color_t1588175760  L_7 = L_6;
-		Il2CppObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
-		NullCheck(L_4);
-		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
-		ArrayElementTypeCheck (L_4, L_8);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Il2CppObject *)L_8);
-		return;
-	}
-
-IL_002e:
-	{
-		int32_t L_9 = ___index;
-		NullCheck((Il2CppArray *)__this);
-		ArraySetGenericValueImpl((Il2CppArray *)__this, (int32_t)L_9, (Color_t1588175760 *)(&___item));
 		return;
 	}
 }
@@ -42050,7 +41566,6 @@ IL_0028:
 // System.Void System.Array::SetGenericValueImpl<System.UInt32>(System.Int32,T&)
 // System.Void System.Array::SetGenericValueImpl<System.UInt64>(System.Int32,T&)
 // System.Void System.Array::SetGenericValueImpl<System.Uri/UriScheme>(System.Int32,T&)
-// System.Void System.Array::SetGenericValueImpl<UnityEngine.Color>(System.Int32,T&)
 // System.Void System.Array::SetGenericValueImpl<UnityEngine.Color32>(System.Int32,T&)
 // System.Void System.Array::SetGenericValueImpl<UnityEngine.ContactPoint>(System.Int32,T&)
 // System.Void System.Array::SetGenericValueImpl<UnityEngine.ContactPoint2D>(System.Int32,T&)
@@ -53318,45 +52833,6 @@ IL_0017:
 		NullCheck((Il2CppArray *)__this);
 		ArrayGetGenericValueImpl((Il2CppArray *)__this, (int32_t)L_3, (UriScheme_t3266528785 *)(&V_0));
 		UriScheme_t3266528785  L_4 = V_0;
-		return L_4;
-	}
-}
-// T System.Array::InternalArray__get_Item<UnityEngine.Color>(System.Int32)
-// T System.Array::InternalArray__get_Item<UnityEngine.Color>(System.Int32)
-extern TypeInfo* ArgumentOutOfRangeException_t3479058991_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral100346066;
-extern const uint32_t Array_InternalArray__get_Item_TisColor_t1588175760_m3851996850_MetadataUsageId;
-extern "C"  Color_t1588175760  Array_InternalArray__get_Item_TisColor_t1588175760_m3851996850_gshared (Il2CppArray * __this, int32_t ___index, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__get_Item_TisColor_t1588175760_m3851996850_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	Color_t1588175760  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	{
-		int32_t L_0 = ___index;
-		NullCheck((Il2CppArray *)__this);
-		int32_t L_1 = Array_get_Length_m1203127607((Il2CppArray *)__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_0) >= ((uint32_t)L_1))))
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t3479058991 * L_2 = (ArgumentOutOfRangeException_t3479058991 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t3479058991_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m2026296331(L_2, (String_t*)_stringLiteral100346066, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0017:
-	{
-		int32_t L_3 = ___index;
-		NullCheck((Il2CppArray *)__this);
-		ArrayGetGenericValueImpl((Il2CppArray *)__this, (int32_t)L_3, (Color_t1588175760 *)(&V_0));
-		Color_t1588175760  L_4 = V_0;
 		return L_4;
 	}
 }

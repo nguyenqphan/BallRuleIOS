@@ -47,7 +47,6 @@
   <ItemGroup>
      <Compile Include="Assets\BallManager.cs" />
      <Compile Include="Assets\GPSTest.cs" />
-     <Compile Include="Assets\__ImportAssets\Fantasy Skybox FREE\Scripts\FSPlayer.cs" />
      <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\EventSystemChecker.cs" />
      <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\Pause.cs" />
@@ -56,8 +55,6 @@
      <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\SetAudioLevels.cs" />
      <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\ShowPanels.cs" />
      <Compile Include="Assets\__ImportAssets\Game Jam Menu Template\Scripts\StartOptions.cs" />
-     <Compile Include="Assets\__ImportAssets\GemExample\Scripts\DemoTimeOfDay.cs" />
-     <Compile Include="Assets\__ImportAssets\GemExample\Scripts\Orbit.cs" />
      <Compile Include="Assets\__ImportAssets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\__ImportAssets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\__ImportAssets\Scripts\ChangeColor.cs" />

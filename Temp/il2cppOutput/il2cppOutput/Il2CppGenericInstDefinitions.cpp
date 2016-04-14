@@ -902,9 +902,6 @@ extern const Il2CppGenericInst GenInst_List_1_t3644373756_0_0_0 = { 1, GenInst_L
 extern const Il2CppType List_1_t3057020574_0_0_0;
 static const Il2CppType* GenInst_List_1_t3057020574_0_0_0_Types[] = { &List_1_t3057020574_0_0_0 };
 extern const Il2CppGenericInst GenInst_List_1_t3057020574_0_0_0 = { 1, GenInst_List_1_t3057020574_0_0_0_Types };
-extern const Il2CppType Light_t1596303683_0_0_0;
-static const Il2CppType* GenInst_Light_t1596303683_0_0_0_Types[] = { &Light_t1596303683_0_0_0 };
-extern const Il2CppGenericInst GenInst_Light_t1596303683_0_0_0 = { 1, GenInst_Light_t1596303683_0_0_0_Types };
 static const Il2CppType* GenInst_Int32_t2847414787_0_0_0_GameObject_t4012695102_0_0_0_Types[] = { &Int32_t2847414787_0_0_0, &GameObject_t4012695102_0_0_0 };
 extern const Il2CppGenericInst GenInst_Int32_t2847414787_0_0_0_GameObject_t4012695102_0_0_0 = { 2, GenInst_Int32_t2847414787_0_0_0_GameObject_t4012695102_0_0_0_Types };
 static const Il2CppType* GenInst_Int32_t2847414787_0_0_0_GameObject_t4012695102_0_0_0_DictionaryEntry_t130027246_0_0_0_Types[] = { &Int32_t2847414787_0_0_0, &GameObject_t4012695102_0_0_0, &DictionaryEntry_t130027246_0_0_0 };
@@ -1500,12 +1497,12 @@ extern const Il2CppGenericInst GenInst_Animator_t792326996_0_0_0 = { 1, GenInst_
 extern const Il2CppType Direction_t1041377120_0_0_0;
 static const Il2CppType* GenInst_Direction_t1041377120_0_0_0_Types[] = { &Direction_t1041377120_0_0_0 };
 extern const Il2CppGenericInst GenInst_Direction_t1041377120_0_0_0 = { 1, GenInst_Direction_t1041377120_0_0_0_Types };
-extern const Il2CppType Rigidbody_t1972007546_0_0_0;
-static const Il2CppType* GenInst_Rigidbody_t1972007546_0_0_0_Types[] = { &Rigidbody_t1972007546_0_0_0 };
-extern const Il2CppGenericInst GenInst_Rigidbody_t1972007546_0_0_0 = { 1, GenInst_Rigidbody_t1972007546_0_0_0_Types };
 extern const Il2CppType SoundBreaking_t2714241170_0_0_0;
 static const Il2CppType* GenInst_SoundBreaking_t2714241170_0_0_0_Types[] = { &SoundBreaking_t2714241170_0_0_0 };
 extern const Il2CppGenericInst GenInst_SoundBreaking_t2714241170_0_0_0 = { 1, GenInst_SoundBreaking_t2714241170_0_0_0_Types };
+extern const Il2CppType Light_t1596303683_0_0_0;
+static const Il2CppType* GenInst_Light_t1596303683_0_0_0_Types[] = { &Light_t1596303683_0_0_0 };
+extern const Il2CppGenericInst GenInst_Light_t1596303683_0_0_0 = { 1, GenInst_Light_t1596303683_0_0_0_Types };
 extern const Il2CppType AudioSource_t3628549054_0_0_0;
 static const Il2CppType* GenInst_AudioSource_t3628549054_0_0_0_Types[] = { &AudioSource_t3628549054_0_0_0 };
 extern const Il2CppGenericInst GenInst_AudioSource_t3628549054_0_0_0 = { 1, GenInst_AudioSource_t3628549054_0_0_0_Types };
@@ -1572,6 +1569,9 @@ extern const Il2CppGenericInst GenInst_WeatherMan_t2413190374_0_0_0 = { 1, GenIn
 extern const Il2CppType Animation_t350396337_0_0_0;
 static const Il2CppType* GenInst_Animation_t350396337_0_0_0_Types[] = { &Animation_t350396337_0_0_0 };
 extern const Il2CppGenericInst GenInst_Animation_t350396337_0_0_0 = { 1, GenInst_Animation_t350396337_0_0_0_Types };
+extern const Il2CppType Rigidbody_t1972007546_0_0_0;
+static const Il2CppType* GenInst_Rigidbody_t1972007546_0_0_0_Types[] = { &Rigidbody_t1972007546_0_0_0 };
+extern const Il2CppGenericInst GenInst_Rigidbody_t1972007546_0_0_0 = { 1, GenInst_Rigidbody_t1972007546_0_0_0_Types };
 extern const Il2CppType SpringJoint_t2446926506_0_0_0;
 static const Il2CppType* GenInst_SpringJoint_t2446926506_0_0_0_Types[] = { &SpringJoint_t2446926506_0_0_0 };
 extern const Il2CppGenericInst GenInst_SpringJoint_t2446926506_0_0_0 = { 1, GenInst_SpringJoint_t2446926506_0_0_0_Types };
@@ -1937,7 +1937,6 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[562] =
 	&GenInst_List_1_t27321463_0_0_0,
 	&GenInst_List_1_t3644373756_0_0_0,
 	&GenInst_List_1_t3057020574_0_0_0,
-	&GenInst_Light_t1596303683_0_0_0,
 	&GenInst_Int32_t2847414787_0_0_0_GameObject_t4012695102_0_0_0,
 	&GenInst_Int32_t2847414787_0_0_0_GameObject_t4012695102_0_0_0_DictionaryEntry_t130027246_0_0_0,
 	&GenInst_KeyValuePair_2_t3992037183_0_0_0,
@@ -2141,8 +2140,8 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[562] =
 	&GenInst_AnimationTriggers_t513475400_0_0_0,
 	&GenInst_Animator_t792326996_0_0_0,
 	&GenInst_Direction_t1041377120_0_0_0,
-	&GenInst_Rigidbody_t1972007546_0_0_0,
 	&GenInst_SoundBreaking_t2714241170_0_0_0,
+	&GenInst_Light_t1596303683_0_0_0,
 	&GenInst_AudioSource_t3628549054_0_0_0,
 	&GenInst_Cube_t2111573_0_0_0,
 	&GenInst_Flashing_t1690224146_0_0_0,
@@ -2165,6 +2164,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[562] =
 	&GenInst_TextColor_t940396054_0_0_0,
 	&GenInst_WeatherMan_t2413190374_0_0_0,
 	&GenInst_Animation_t350396337_0_0_0,
+	&GenInst_Rigidbody_t1972007546_0_0_0,
 	&GenInst_SpringJoint_t2446926506_0_0_0,
 	&GenInst_FlareLayer_t1330112144_0_0_0,
 	&GenInst_PlanarReflection_t991663_0_0_0,

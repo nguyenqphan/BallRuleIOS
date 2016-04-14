@@ -17,8 +17,6 @@ struct Rigidbody_t1972007546;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Vector33525329789.h"
-#include "UnityEngine_UnityEngine_ForceMode759713627.h"
-#include "UnityEngine_UnityEngine_Rigidbody1972007546.h"
 
 // System.Void UnityEngine.Rigidbody::set_velocity(UnityEngine.Vector3)
 extern "C"  void Rigidbody_set_velocity_m799562119 (Rigidbody_t1972007546 * __this, Vector3_t3525329789  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -40,7 +38,3 @@ extern "C"  void Rigidbody_set_angularDrag_m2909317064 (Rigidbody_t1972007546 * 
 extern "C"  bool Rigidbody_get_isKinematic_m3963857442 (Rigidbody_t1972007546 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::set_isKinematic(System.Boolean)
 extern "C"  void Rigidbody_set_isKinematic_m294703295 (Rigidbody_t1972007546 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Rigidbody::AddTorque(UnityEngine.Vector3,UnityEngine.ForceMode)
-extern "C"  void Rigidbody_AddTorque_m3009708185 (Rigidbody_t1972007546 * __this, Vector3_t3525329789  ___torque, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
-extern "C"  void Rigidbody_INTERNAL_CALL_AddTorque_m4194065160 (Il2CppObject * __this /* static, unused */, Rigidbody_t1972007546 * ___self, Vector3_t3525329789 * ___torque, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;

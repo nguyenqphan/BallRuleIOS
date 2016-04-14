@@ -98,8 +98,6 @@ extern "C"  void Transform_RotateAroundInternal_m3394506018 (Transform_t28455311
 extern "C"  void Transform_INTERNAL_CALL_RotateAroundInternal_m4163317180 (Il2CppObject * __this /* static, unused */, Transform_t284553113 * ___self, Vector3_t3525329789 * ___axis, float ___angle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::Rotate(UnityEngine.Vector3,System.Single,UnityEngine.Space)
 extern "C"  void Transform_Rotate_m4229389705 (Transform_t284553113 * __this, Vector3_t3525329789  ___axis, float ___angle, int32_t ___relativeTo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Transform::RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern "C"  void Transform_RotateAround_m2745906802 (Transform_t284553113 * __this, Vector3_t3525329789  ___point, Vector3_t3525329789  ___axis, float ___angle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::LookAt(UnityEngine.Transform)
 extern "C"  void Transform_LookAt_m2663225588 (Transform_t284553113 * __this, Transform_t284553113 * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::LookAt(UnityEngine.Transform,UnityEngine.Vector3)

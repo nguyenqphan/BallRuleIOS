@@ -1644,16 +1644,6 @@ extern Il2CppGenericClass ListPool_1_t1874076766_GenericClass;
 extern Il2CppGenericClass ObjectPool_1_t879542160_GenericClass;
 extern Il2CppGenericClass Stack_1_t1332459313_GenericClass;
 extern Il2CppGenericClass UnityAction_1_t3037482479_GenericClass;
-extern Il2CppGenericClass IEnumerator_1_t3079410131_GenericClass;
-extern Il2CppGenericClass InternalEnumerator_1_t1503794186_GenericClass;
-extern Il2CppGenericClass ICollection_1_t2062135069_GenericClass;
-extern Il2CppGenericClass IList_1_t3762795997_GenericClass;
-extern Il2CppGenericClass IEnumerable_1_t173490743_GenericClass;
-extern Il2CppGenericClass IEnumerator_1_t3071282208_GenericClass;
-extern Il2CppGenericClass InternalEnumerator_1_t1495666263_GenericClass;
-extern Il2CppGenericClass ICollection_1_t2054007146_GenericClass;
-extern Il2CppGenericClass IEnumerable_1_t165362820_GenericClass;
-extern Il2CppGenericClass IList_1_t3754668074_GenericClass;
 extern Il2CppGenericClass Dictionary_2_t208538589_GenericClass;
 extern Il2CppGenericClass Transform_1_t2521329293_GenericClass;
 extern Il2CppGenericClass KeyValuePair_2_t3992037183_GenericClass;
@@ -1936,7 +1926,7 @@ extern Il2CppGenericClass IComparer_1_t3748649920_GenericClass;
 extern Il2CppGenericClass IComparer_1_t2848181420_GenericClass;
 extern Il2CppGenericClass IEqualityComparer_1_t3373209162_GenericClass;
 extern Il2CppGenericClass IEqualityComparer_1_t1858265296_GenericClass;
-extern Il2CppGenericClass* const s_Il2CppGenericTypes[1918] = 
+extern Il2CppGenericClass* const s_Il2CppGenericTypes[1908] = 
 {
 	&IEnumerator_1_t2320212868_GenericClass,
 	&InternalEnumerator_1_t744596923_GenericClass,
@@ -3564,16 +3554,6 @@ extern Il2CppGenericClass* const s_Il2CppGenericTypes[1918] =
 	&ObjectPool_1_t879542160_GenericClass,
 	&Stack_1_t1332459313_GenericClass,
 	&UnityAction_1_t3037482479_GenericClass,
-	&IEnumerator_1_t3079410131_GenericClass,
-	&InternalEnumerator_1_t1503794186_GenericClass,
-	&ICollection_1_t2062135069_GenericClass,
-	&IList_1_t3762795997_GenericClass,
-	&IEnumerable_1_t173490743_GenericClass,
-	&IEnumerator_1_t3071282208_GenericClass,
-	&InternalEnumerator_1_t1495666263_GenericClass,
-	&ICollection_1_t2054007146_GenericClass,
-	&IEnumerable_1_t165362820_GenericClass,
-	&IList_1_t3754668074_GenericClass,
 	&Dictionary_2_t208538589_GenericClass,
 	&Transform_1_t2521329293_GenericClass,
 	&KeyValuePair_2_t3992037183_GenericClass,

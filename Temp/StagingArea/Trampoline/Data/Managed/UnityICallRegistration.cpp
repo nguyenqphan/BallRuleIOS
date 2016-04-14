@@ -1,4 +1,4 @@
-//Generated on : 4/13/2016 12:30:18 AM
+//Generated on : 4/14/2016 12:31:32 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.Animation
@@ -713,14 +713,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.DebugLogHandler
 
-	//Start Registrations for type : UnityEngine.DynamicGI
-
-		//System.Void UnityEngine.DynamicGI::UpdateEnvironment()
-		void Register_UnityEngine_DynamicGI_UpdateEnvironment();
-		Register_UnityEngine_DynamicGI_UpdateEnvironment();
-
-	//End Registrations for type : UnityEngine.DynamicGI
-
 	//Start Registrations for type : UnityEngine.Event
 
 		//System.Boolean UnityEngine.Event::PopEvent(UnityEngine.Event)
@@ -1006,14 +998,6 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.Gradient
 
 	//Start Registrations for type : UnityEngine.GUI
-
-		//System.Void UnityEngine.GUI::INTERNAL_CALL_DoLabel(UnityEngine.Rect&,UnityEngine.GUIContent,System.IntPtr)
-		void Register_UnityEngine_GUI_INTERNAL_CALL_DoLabel();
-		Register_UnityEngine_GUI_INTERNAL_CALL_DoLabel();
-
-		//System.Void UnityEngine.GUI::INTERNAL_CALL_DoWindow(System.Int32,UnityEngine.Rect&,UnityEngine.GUI/WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUISkin,System.Boolean,UnityEngine.Rect&)
-		void Register_UnityEngine_GUI_INTERNAL_CALL_DoWindow();
-		Register_UnityEngine_GUI_INTERNAL_CALL_DoWindow();
 
 		//System.Void UnityEngine.GUI::set_changed(System.Boolean)
 		void Register_UnityEngine_GUI_set_changed();
@@ -1347,10 +1331,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_GetButtonUp();
 		Register_UnityEngine_Input_GetButtonUp();
 
-		//System.Boolean UnityEngine.Input::GetKeyUpInt(System.Int32)
-		void Register_UnityEngine_Input_GetKeyUpInt();
-		Register_UnityEngine_Input_GetKeyUpInt();
-
 		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButton();
 		Register_UnityEngine_Input_GetMouseButton();
@@ -1583,10 +1563,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Light
 
-		//System.Single UnityEngine.Light::get_intensity()
-		void Register_UnityEngine_Light_get_intensity();
-		Register_UnityEngine_Light_get_intensity();
-
 		//System.Single UnityEngine.Light::get_shadowStrength()
 		void Register_UnityEngine_Light_get_shadowStrength();
 		Register_UnityEngine_Light_get_shadowStrength();
@@ -1598,10 +1574,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Light::INTERNAL_set_color(UnityEngine.Color&)
 		void Register_UnityEngine_Light_INTERNAL_set_color();
 		Register_UnityEngine_Light_INTERNAL_set_color();
-
-		//System.Void UnityEngine.Light::set_intensity(System.Single)
-		void Register_UnityEngine_Light_set_intensity();
-		Register_UnityEngine_Light_set_intensity();
 
 		//System.Void UnityEngine.Light::set_shadowBias(System.Single)
 		void Register_UnityEngine_Light_set_shadowBias();
@@ -2031,10 +2003,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Quaternion
 
-		//System.Void UnityEngine.Quaternion::INTERNAL_CALL_AngleAxis(System.Single,UnityEngine.Vector3&,UnityEngine.Quaternion&)
-		void Register_UnityEngine_Quaternion_INTERNAL_CALL_AngleAxis();
-		Register_UnityEngine_Quaternion_INTERNAL_CALL_AngleAxis();
-
 		//System.Void UnityEngine.Quaternion::INTERNAL_CALL_Internal_FromEulerRad(UnityEngine.Vector3&,UnityEngine.Quaternion&)
 		void Register_UnityEngine_Quaternion_INTERNAL_CALL_Internal_FromEulerRad();
 		Register_UnityEngine_Quaternion_INTERNAL_CALL_Internal_FromEulerRad();
@@ -2225,26 +2193,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Renderer
 
-	//Start Registrations for type : UnityEngine.RenderSettings
-
-		//System.Void UnityEngine.RenderSettings::INTERNAL_set_ambientLight(UnityEngine.Color&)
-		void Register_UnityEngine_RenderSettings_INTERNAL_set_ambientLight();
-		Register_UnityEngine_RenderSettings_INTERNAL_set_ambientLight();
-
-		//System.Void UnityEngine.RenderSettings::INTERNAL_set_fogColor(UnityEngine.Color&)
-		void Register_UnityEngine_RenderSettings_INTERNAL_set_fogColor();
-		Register_UnityEngine_RenderSettings_INTERNAL_set_fogColor();
-
-		//System.Void UnityEngine.RenderSettings::set_fog(System.Boolean)
-		void Register_UnityEngine_RenderSettings_set_fog();
-		Register_UnityEngine_RenderSettings_set_fog();
-
-		//System.Void UnityEngine.RenderSettings::set_skybox(UnityEngine.Material)
-		void Register_UnityEngine_RenderSettings_set_skybox();
-		Register_UnityEngine_RenderSettings_set_skybox();
-
-	//End Registrations for type : UnityEngine.RenderSettings
-
 	//Start Registrations for type : UnityEngine.RenderTexture
 
 		//System.Int32 UnityEngine.RenderTexture::Internal_GetHeight(UnityEngine.RenderTexture)
@@ -2306,10 +2254,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Rigidbody::get_drag()
 		void Register_UnityEngine_Rigidbody_get_drag();
 		Register_UnityEngine_Rigidbody_get_drag();
-
-		//System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
-		void Register_UnityEngine_Rigidbody_INTERNAL_CALL_AddTorque();
-		Register_UnityEngine_Rigidbody_INTERNAL_CALL_AddTorque();
 
 		//System.Void UnityEngine.Rigidbody::INTERNAL_set_angularVelocity(UnityEngine.Vector3&)
 		void Register_UnityEngine_Rigidbody_INTERNAL_set_angularVelocity();

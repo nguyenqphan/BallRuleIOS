@@ -76,8 +76,6 @@ struct Font_t1525081276;
 struct CanvasGroup_t1295922228;
 // UnityEngine.RectTransform
 struct RectTransform_t3317474837;
-// UnityEngine.Light
-struct Light_t1596303683;
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t3012272455;
 // UnityEngine.Renderer
@@ -131,8 +129,6 @@ struct ParticleSystem_t56787138;
 #include "UnityEngine_UnityEngine_Font1525081276.h"
 #include "UnityEngine_UnityEngine_CanvasGroup1295922228.h"
 #include "UnityEngine_UnityEngine_RectTransform3317474837.h"
-#include "UnityEngine_UnityEngine_Light1596303683.h"
-#include "UnityEngine_UnityEngine_Color1588175760.h"
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455.h"
 #include "UnityEngine_UnityEngine_Renderer1092684080.h"
 #include "UnityEngine_UnityEngine_ParticleSystem56787138.h"
@@ -855,35 +851,6 @@ public:
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.Light[]
-struct LightU5BU5D_t3653382738  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Light_t1596303683 * m_Items[1];
-
-public:
-	inline Light_t1596303683 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Light_t1596303683 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Light_t1596303683 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.Color[]
-struct ColorU5BU5D_t3477081137  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Color_t1588175760  m_Items[1];
-
-public:
-	inline Color_t1588175760  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Color_t1588175760 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Color_t1588175760  value)
-	{
-		m_Items[index] = value;
 	}
 };
 // UnityEngine.MonoBehaviour[]

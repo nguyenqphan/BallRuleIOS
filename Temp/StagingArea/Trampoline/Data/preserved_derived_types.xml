@@ -36,7 +36,6 @@
 <type fullname="UnityStandardAssets.Utility.WaypointProgressTracker" preserve="all"/>
 </assembly>
 <assembly fullname="Assembly-CSharp">
-<type fullname="FSPlayer" preserve="all"/>
 <type fullname="DontDestroy" preserve="all"/>
 <type fullname="EventSystemChecker" preserve="all"/>
 <type fullname="Pause" preserve="all"/>
@@ -45,8 +44,6 @@
 <type fullname="SetAudioLevels" preserve="all"/>
 <type fullname="ShowPanels" preserve="all"/>
 <type fullname="StartOptions" preserve="all"/>
-<type fullname="DemoTimeOfDay" preserve="all"/>
-<type fullname="Orbit" preserve="all"/>
 <type fullname="ActiveStateToggler" preserve="all"/>
 <type fullname="ApplicationManager" preserve="all"/>
 <type fullname="ChangeColor" preserve="all"/>
@@ -80,11 +77,6 @@
 <type fullname="SoundBreaking" preserve="all"/>
 <type fullname="SpawnerChallenge" preserve="all"/>
 <type fullname="SpawnerManager" preserve="all"/>
-<type fullname="AddTorgueTest" preserve="all"/>
-<type fullname="EventListenerTest" preserve="all"/>
-<type fullname="GravityTest" preserve="all"/>
-<type fullname="MoveTowadsTest" preserve="all"/>
-<type fullname="TranPosTest" preserve="all"/>
 <type fullname="TextColor" preserve="all"/>
 <type fullname="UpdateScore" preserve="all"/>
 <type fullname="WaterLerp" preserve="all"/>
