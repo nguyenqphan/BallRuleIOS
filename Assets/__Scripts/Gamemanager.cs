@@ -15,6 +15,7 @@ public class Gamemanager : MonoBehaviour {
 
 	void Awake()
 	{
+		
 //		startOption = GameObject.FindWithTag("UI").GetComponent<StartOptions>();
 //		showPanell = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
 		pause = GameObject.FindWithTag("UI").GetComponent<Pause>();
