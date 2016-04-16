@@ -6,7 +6,7 @@ using System.Collections.Generic;
 //Deactivate attached gameobject after 12 seconds
 public class Deactivator : MonoBehaviour {
 	
-	public delegate void EffectAction(GameObject gameObject);
+	public delegate void EffectAction(Transform deactivateTrans);
 	public static event EffectAction Emissive;
 
 	private float time = 1f;
@@ -15,11 +15,13 @@ public class Deactivator : MonoBehaviour {
 	private EventManager eventManager;
 
 	private bool isFlashing = false;
+	private Transform deactivateTransform;
 
 	void Awake()
 	{
 		flashing = GetComponent<Flashing>();
 		eventManager = GetComponentInChildren<EventManager>();
+		deactivateTransform = GetComponent<Transform>();
 	}
 		
 	// Update is called once per frame
@@ -44,7 +46,7 @@ public class Deactivator : MonoBehaviour {
 				gameObject.SetActive(false);				//set the Cube inactive
 				if(Emissive != null)
 				{
-					Emissive(gameObject);					//Play Cube Deactivation Effect
+					Emissive(deactivateTransform);					//Play Cube Deactivation Effect
 				}
 
 			}

@@ -76,7 +76,6 @@
      <Compile Include="Assets\__Scripts\SetFrameRate.cs" />
      <Compile Include="Assets\__Scripts\SkyboxMaterials.cs" />
      <Compile Include="Assets\__Scripts\SoundBreaking.cs" />
-     <Compile Include="Assets\__Scripts\SpawnerChallenge.cs" />
      <Compile Include="Assets\__Scripts\SpawnerManager.cs" />
      <Compile Include="Assets\__Scripts\TextColor.cs" />
      <Compile Include="Assets\__Scripts\UpdateScore.cs" />

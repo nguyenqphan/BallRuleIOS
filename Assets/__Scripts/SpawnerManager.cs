@@ -172,22 +172,22 @@ public class SpawnerManager : MonoBehaviour {
 		}
 	} 
 
-	public void PlayCubeEffect(GameObject o)
+	public void PlayCubeEffect(Transform deactivatorTrans)
 	{
 		//StopAllCoroutines();
-		StartCoroutine(InstantiateEffect(o));
+		StartCoroutine(InstantiateEffect(deactivatorTrans));
 
 	}
 
 
-	private IEnumerator InstantiateEffect(GameObject o)
+	private IEnumerator InstantiateEffect(Transform deactivatorTrans)
 	{
 		for(int i = 0; i < particleList.Count; i++)
 		{
 			if(!particleList[i].activeInHierarchy)
 			{
-				particleList[i].transform.position = o.transform.position;
-				particleList[i].transform.rotation = o.transform.rotation;
+				particleList[i].transform.position = deactivatorTrans.position;
+				particleList[i].transform.rotation = deactivatorTrans.rotation;
 				particleList[i].SetActive(true);
 				break;
 			}
