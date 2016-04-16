@@ -21,7 +21,7 @@ public class EventManager : MonoBehaviour {
 		cube = GetComponent<Cube>();
 	}
 
-	void OnCollisionEnter(Collision collider)
+	void OnTriggerEnter(Collider collider)
 	{
 //		if (!isCollided)
 //		{
