@@ -7,6 +7,7 @@ public struct MainCubeP{
 	public bool isRotating;
 	public float startTime;
 	public float movingSpeed;
+	public Transform mainCubeTransform;
 }
 
 public class MainCube : MonoBehaviour {
@@ -27,6 +28,11 @@ public class MainCube : MonoBehaviour {
 
 	MainCubeP cubeP;
 
+	void Awake()
+	{
+		cubeP.mainCubeTransform = GetComponent<Transform>();
+	}
+
 	void Start()
 	{
 		cubeP.rotateSpeed = 30f;
@@ -46,7 +52,7 @@ public class MainCube : MonoBehaviour {
 	public IEnumerator StartToRotate(float dirToRotate)
 	{
 		while (cubeP.isRotating) {
-			transform.Rotate (transform.forward * dirToRotate, Time.deltaTime * cubeP.rotateSpeed, Space.World);        	//rotate the cube
+			cubeP.mainCubeTransform.Rotate (cubeP.mainCubeTransform.forward * dirToRotate, Time.deltaTime * cubeP.rotateSpeed, Space.World);        	//rotate the cube
 			cubeP.startTime += Time.deltaTime * cubeP.rotateSpeed;																//keep track of the degree of rotation
 
 			if (cubeP.startTime >= 30) {																					//condition to stop the rotation of the cube
@@ -68,8 +74,8 @@ public class MainCube : MonoBehaviour {
 
 	public IEnumerator StartToMove(Vector3 targetPos)
 	{
-		while (transform.position != targetPos) {
-			transform.position = Vector3.MoveTowards (transform.position, targetPos, cubeP.movingSpeed * Time.deltaTime);	//Moving to the target
+		while (cubeP.mainCubeTransform.position != targetPos) {
+			cubeP.mainCubeTransform.position = Vector3.MoveTowards (cubeP.mainCubeTransform.position, targetPos, cubeP.movingSpeed * Time.deltaTime);	//Moving to the target
 
 			yield return null;	
 		}
