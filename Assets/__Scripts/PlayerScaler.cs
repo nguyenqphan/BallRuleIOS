@@ -10,6 +10,7 @@ public struct ScallerP
 	public float doubleSize;
 	public float oneHalf;
 	public float newScale;
+	public Transform playerTransform;
 }
 
 public class PlayerScaler : MonoBehaviour {
@@ -29,6 +30,7 @@ public class PlayerScaler : MonoBehaviour {
 	{
 		scallerP.showPanels = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
 		scallerP.updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
+		scallerP.playerTransform = GetComponent<Transform>();
 			
 	}
 
@@ -41,7 +43,7 @@ public class PlayerScaler : MonoBehaviour {
 		scallerP.oneHalf = 1.5f;
 		if(GameStateManager.Instance.IsChallenged)
 		{
-			gameObject.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+			scallerP.playerTransform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
 		}
 	}
 
@@ -54,10 +56,10 @@ public class PlayerScaler : MonoBehaviour {
 	IEnumerator ScalePlayer(GameObject other)
 	{
 		scallerP.showPanels.scaleText.SetActive(true);										
-		while(transform.localScale.x < (other.gameObject.CompareTag("DoubleSize") ? scallerP.doubleSize : scallerP.oneHalf ))
+		while(scallerP.playerTransform.localScale.x < (other.gameObject.CompareTag("DoubleSize") ? scallerP.doubleSize : scallerP.oneHalf ))
 		{
-			scallerP.newScale = transform.localScale.x + Time.deltaTime * scallerP.scalingSpeed ;
-			transform.localScale = new Vector3(scallerP.newScale, scallerP.newScale, scallerP.newScale);
+			scallerP.newScale = scallerP.playerTransform.localScale.x + Time.deltaTime * scallerP.scalingSpeed ;
+			scallerP.playerTransform.localScale = new Vector3(scallerP.newScale, scallerP.newScale, scallerP.newScale);
 			yield return new WaitForFixedUpdate();
 		}
 			
@@ -82,10 +84,10 @@ public class PlayerScaler : MonoBehaviour {
 
 	IEnumerator ScaleBack(GameObject other)
 	{
-		while(transform.localScale.x > 1)
+		while(scallerP.playerTransform.localScale.x > 1)
 		{
-			scallerP.newScale = transform.localScale.x - Time.deltaTime * scallerP.scalingSpeed;
-			transform.localScale = new Vector3(scallerP.newScale, scallerP.newScale, scallerP.newScale);
+			scallerP.newScale = scallerP.playerTransform.localScale.x - Time.deltaTime * scallerP.scalingSpeed;
+			scallerP.playerTransform.localScale = new Vector3(scallerP.newScale, scallerP.newScale, scallerP.newScale);
 			yield return null;
 		}
 	}
