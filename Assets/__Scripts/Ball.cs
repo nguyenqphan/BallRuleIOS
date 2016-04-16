@@ -12,13 +12,14 @@ public struct BallP
 	public float scaleSpeed;					//The speed of scaling	
 	public float newScale;						//new scale value
 	public SoundBreaking ballExplodeClip;		//Play this Sound when colliding with Player	
+	public Transform scaleTransform;
 }
 
 public class Ball : MonoBehaviour {
 
 	public delegate void ActionScaling(GameObject gameObject);
 	public static event ActionScaling Scalling;
-	public delegate void ActionExplode(GameObject gameObject);
+	public delegate void ActionExplode(Transform explodeTransform);
 	public static event ActionExplode ExplodeBall;
 
 	BallP ballP;
@@ -26,6 +27,7 @@ public class Ball : MonoBehaviour {
 	void Awake()
 	{
 		ballP.ballExplodeClip = GameObject.FindWithTag("GameManager").GetComponent<SoundBreaking>();
+		ballP.scaleTransform = GetComponent<Transform>();
 	}
 
 	void Start()
@@ -46,7 +48,7 @@ public class Ball : MonoBehaviour {
 			gameObject.SetActive(false);								//Set Ball inactive in the scene
 			if(ExplodeBall!= null)
 			{
-				ExplodeBall(gameObject);								//Play ball exploding effect
+				ExplodeBall(ballP.scaleTransform);								//Play ball exploding effect
 			}
 				
 			if(Scalling != null)
@@ -67,7 +69,7 @@ public class Ball : MonoBehaviour {
 			if(ExplodeBall != null)
 			{
 				gameObject.SetActive(false);
-				ExplodeBall(gameObject);
+				ExplodeBall(ballP.scaleTransform);
 			}
 		}
 	}
@@ -81,9 +83,9 @@ public class Ball : MonoBehaviour {
 	//Move the Ball to a target position
 	private IEnumerator moving(Vector3 targetPos)
 	{
-		while(transform.position != targetPos)
+		while(ballP.scaleTransform.position != targetPos)
 		{
-			transform.position = Vector3.MoveTowards(transform.position, targetPos, ballP.movingSpeed * Time.deltaTime);
+			ballP.scaleTransform.position = Vector3.MoveTowards(ballP.scaleTransform.position, targetPos, ballP.movingSpeed * Time.deltaTime);
 			yield return null;
 		}
 
@@ -94,10 +96,10 @@ public class Ball : MonoBehaviour {
 	private IEnumerator pulse()
 	{
 //		Debug.Log("Start pulsing");
-		ballP.startScale = transform.localScale.x;
+		ballP.startScale = ballP.scaleTransform.localScale.x;
 		while(true)
 		{
-			ballP.newScale = transform.localScale.x + (ballP.isBigger ? 1 : -1) * ballP.scaleSpeed * Time.deltaTime;
+			ballP.newScale = ballP.scaleTransform.localScale.x + (ballP.isBigger ? 1 : -1) * ballP.scaleSpeed * Time.deltaTime;
 
 			if(ballP.newScale > ballP.startScale + ballP.scale)
 			{
@@ -109,7 +111,7 @@ public class Ball : MonoBehaviour {
 				ballP.isBigger = true;
 			}
 				
-			transform.localScale = new Vector3(ballP.newScale, ballP.newScale, ballP.newScale);
+			ballP.scaleTransform.localScale = new Vector3(ballP.newScale, ballP.newScale, ballP.newScale);
 			yield return new WaitForFixedUpdate();
 		}
 	}

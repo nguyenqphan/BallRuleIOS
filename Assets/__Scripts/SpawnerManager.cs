@@ -220,19 +220,19 @@ public class SpawnerManager : MonoBehaviour {
 		yield return new WaitForFixedUpdate();
 	}
 
-	public void PlayExplodeBall(GameObject o)
+	public void PlayExplodeBall(Transform explodeTransform)
 	{
-		StartCoroutine(InstantiateBallExplode(o));
+		StartCoroutine(InstantiateBallExplode(explodeTransform));
 	}
 
-	private IEnumerator InstantiateBallExplode(GameObject o)
+	private IEnumerator InstantiateBallExplode(Transform explodeTransform)
 	{
 		for(int i = 0; i < ballExplodeList.Count; i++)
 		{
 			if(!ballExplodeList[i].activeInHierarchy)
 			{
-				ballExplodeList[i].transform.position = o.transform.position;
-				ballExplodeList[i].transform.rotation = o.transform.rotation;
+				ballExplodeList[i].transform.position = explodeTransform.position;
+				ballExplodeList[i].transform.rotation = explodeTransform.rotation;
 				ballExplodeList[i].SetActive(true);
 				break;
 			}
