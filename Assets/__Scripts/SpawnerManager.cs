@@ -197,20 +197,20 @@ public class SpawnerManager : MonoBehaviour {
 
 	}
 
-	public void PlayerDiamondEmissive(GameObject o)
+	public void PlayerDiamondEmissive(Transform diaTransform)
 	{
-		StartCoroutine(InstantiateDiamondEmissive(o));
+		StartCoroutine(InstantiateDiamondEmissive(diaTransform));
 
 	}
 
-	private IEnumerator InstantiateDiamondEmissive(GameObject o)
+	private IEnumerator InstantiateDiamondEmissive(Transform diaTransform)
 	{
 		for(int i =0; i < diaEmissiveList.Count; i++)
 		{
 			if(!diaEmissiveList[i].activeInHierarchy)
 			{
-				diaEmissiveList[i].transform.position = o.transform.position;
-				diaEmissiveList[i].transform.rotation = o.transform.rotation;
+				diaEmissiveList[i].transform.position = diaTransform.position;
+				diaEmissiveList[i].transform.rotation = diaTransform.rotation;
 				diaEmissiveList[i].SetActive(true);											//Play Particle Effect
 
 				break;
@@ -242,19 +242,19 @@ public class SpawnerManager : MonoBehaviour {
 		yield return new WaitForFixedUpdate();
 	}
 
-	public void PlayDiamondBreaking(GameObject o)
+	public void PlayDiamondBreaking(Transform diaTransform)
 	{
-		StartCoroutine(InstantiateDiamondBreaking(o));
+		StartCoroutine(InstantiateDiamondBreaking(diaTransform));
 	}
 
-	private IEnumerator InstantiateDiamondBreaking(GameObject o)
+	private IEnumerator InstantiateDiamondBreaking(Transform diaTransform)
 	{
 		for(int i = 0; i < diaBreakingList.Count; i++)
 		{
 			if(!diaBreakingList[i].activeInHierarchy)
 			{
-				diaBreakingList[i].transform.position = o.transform.position;
-				diaBreakingList[i].transform.rotation = o.transform.rotation;
+				diaBreakingList[i].transform.position = diaTransform.position;
+				diaBreakingList[i].transform.rotation = diaTransform.rotation;
 				diaBreakingList[i].SetActive(true);
 				break;
 			}

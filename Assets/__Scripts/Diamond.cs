@@ -23,10 +23,10 @@ public class Diamond : MonoBehaviour {
 
 	private DiamondProperty diamondP;
 
-	public delegate void ActionBreaking(GameObject gameObject);
+	public delegate void ActionBreaking(Transform diaTransform);
 	public static event ActionBreaking BreakingDiamond;
 
-	public delegate void EmissiveAction(GameObject gameObject);
+	public delegate void EmissiveAction(Transform diaTransform);
 	public static event EmissiveAction EmissiveDiamond;
 
 	void Awake()
@@ -34,6 +34,7 @@ public class Diamond : MonoBehaviour {
 		diamondP.soundBreakingDiamond = GameObject.FindWithTag("GameManager").GetComponent<SoundBreaking>();
 		diamondP.updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 		diamondP.destroyer = GameObject.FindWithTag("DestroyerBall").GetComponent<Destroyer>();
+		diamondP.transformD = GetComponent<Transform>();
 	}
 		
 
@@ -46,7 +47,6 @@ public class Diamond : MonoBehaviour {
 		diamondP.floatSpeed = 1f;
 		diamondP.movementDistance = 2f;
 		diamondP.isMovingUp = true;
-		diamondP.transformD = gameObject.transform;
 	}
 
 
@@ -65,7 +65,7 @@ public class Diamond : MonoBehaviour {
 			Pickup();
 			if(BreakingDiamond != null)
 			{
-				BreakingDiamond(gameObject);
+				BreakingDiamond(diamondP.transformD);
 			}
 
 		}
@@ -74,7 +74,7 @@ public class Diamond : MonoBehaviour {
 			if(BreakingDiamond != null)
 			{
 				diamondP.soundBreakingDiamond.PlayBreakingDimond();
-				BreakingDiamond(gameObject);
+				BreakingDiamond(diamondP.transformD);
 				gameObject.SetActive(false);
 			}
 		}
@@ -82,7 +82,7 @@ public class Diamond : MonoBehaviour {
 	
 	private void Pickup()
 	{
-		if(gameObject.transform.position.x > -4.5f && gameObject.transform.position.x < 4.5f){
+		if(diamondP.transformD.position.x > -4.5f && diamondP.transformD.position.x < 4.5f){
 			GameStateManager.HighScore = GameStateManager.HighScore+ 2;
 		}else{
 			GameStateManager.HighScore = GameStateManager.HighScore + 4;
@@ -186,7 +186,7 @@ public class Diamond : MonoBehaviour {
 			gameObject.SetActive(false);
 			if(EmissiveDiamond != null)
 			{
-				EmissiveDiamond(gameObject);
+				EmissiveDiamond(diamondP.transformD);
 			}
 
 		}
