@@ -9,8 +9,8 @@ public struct CameraP{
 	public float distanceY;
 	public Vector3 playerStartPos;
 	public float distanceToMove;
-//	public Transform camTransform;
-//	public Transform playerTransform;
+	public Transform camTransform;
+	public Transform playerTransform;
 }
 
 public class CameraTracker : MonoBehaviour {
@@ -43,6 +43,11 @@ public class CameraTracker : MonoBehaviour {
 	}
 
 
+	void Awake()
+	{
+		cameraP.camTransform = GetComponent<Transform>();
+		cameraP.playerTransform = player.GetComponent<Transform>();
+	}
 
 	// Use this for initialization
 	void Start () 
@@ -51,12 +56,12 @@ public class CameraTracker : MonoBehaviour {
 		cameraP.smoothTime = 0.7f;								//Smooth the movement
 
 //		cameraP.playerTransform = player.transform.position;
-		cameraP.playerStartPos = player.transform.position;		// Get the postion of the player when the game just starts
+		cameraP.playerStartPos = cameraP.playerTransform.position;		// Get the postion of the player when the game just starts
 	}
 		
 	void PlayerLand() 
 	{
-		cameraP.playerPosNext = player.transform.position;																						//Store the positionof player when it enters the cube
+		cameraP.playerPosNext = cameraP.playerTransform.position;																						//Store the positionof player when it enters the cube
 		cameraP.distanceY = Vector3.Distance(new Vector3(0f, cameraP.playerStartPos.y, 0f), new Vector3(0f, cameraP.playerPosNext.y, 0f )); 	//Find the y distance that player has moved
 		cameraP.playerStartPos = cameraP.playerPosNext;																							//Reset the position of the player
 		MoveCamera();																															//Move the camera with the y distance
@@ -71,10 +76,10 @@ public class CameraTracker : MonoBehaviour {
 	IEnumerator CameraToMove()
 	{
 		yield return new WaitForSeconds(2f);
-		cameraP.distanceToMove = transform.position.y - cameraP.distanceY;
+		cameraP.distanceToMove = cameraP.camTransform	.position.y - cameraP.distanceY;
 		while(true)
 		{	
-			transform.position = Vector3.SmoothDamp( transform.position, new Vector3(transform.position.x, cameraP.distanceToMove, transform.position.z), ref cameraP.velocity , cameraP.smoothTime);
+			cameraP.camTransform .position = Vector3.SmoothDamp( cameraP.camTransform .position, new Vector3(cameraP.camTransform .position.x, cameraP.distanceToMove, cameraP.camTransform .position.z), ref cameraP.velocity , cameraP.smoothTime);
 
 			yield return null;
 		}
