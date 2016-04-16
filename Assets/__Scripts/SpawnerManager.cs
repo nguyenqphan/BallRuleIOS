@@ -433,7 +433,7 @@ public class SpawnerManager : MonoBehaviour {
 						spawnP.mainCube = cubeList [i].GetComponent<MainCube> ();    	//cube.tag
 						spawnP.cube = cubeList [i].GetComponentInChildren<Cube> ();
 
-						spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
+//						spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
 						//				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
 						spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, randonDegree ());
 						spawnP.mainCube.MoveCube (spawnP.position);
@@ -452,9 +452,9 @@ public class SpawnerManager : MonoBehaviour {
 						spawnP.mainCube = smallCubeList [i].GetComponent<MainCube> ();    	//cube.tag
 						spawnP.cube = smallCubeList [i].GetComponentInChildren<Cube> ();
 
-						spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
+//						spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
 						//				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
-						spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+						spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, randonDegree ());
 						spawnP.mainCube.MoveCube (spawnP.position);
 
 						break;
@@ -473,9 +473,9 @@ public class SpawnerManager : MonoBehaviour {
 					spawnP.mainCube = smallestCubeList [i].GetComponent<MainCube> ();    	//cube.tag
 					spawnP.cube = smallestCubeList [i].GetComponentInChildren<Cube> ();
 
-					spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
+//					spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
 					//				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
-					spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+					spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, randonDegree ());
 					spawnP.mainCube.MoveCube (spawnP.position);
 
 					break;

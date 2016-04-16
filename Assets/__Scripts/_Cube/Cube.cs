@@ -13,10 +13,16 @@ public struct CubeP{
 	public float movementDistance;				//Distance to move back and forth
 	public float floatSpeed;					//The speed of floating cube
 	public bool isOneRound;						//Make sure the cube rorates only one round
+	public Transform cubeTransform;
 }			
 
 public class Cube : MonoBehaviour {
 	CubeP cubeP;
+
+	void Awake()
+	{
+		cubeP.cubeTransform = GetComponent<Transform>();
+	}
 
 	void Start()
 	{
@@ -39,7 +45,7 @@ public class Cube : MonoBehaviour {
 	public IEnumerator StartToRotate(float dirToRotate)
 	{
 		while (cubeP.isRotating) {
-			transform.Rotate (transform.forward * dirToRotate, Time.deltaTime * cubeP.rotateSpeed, Space.World);        	//rotate the cube
+			cubeP.cubeTransform.Rotate (cubeP.cubeTransform.forward * dirToRotate, Time.deltaTime * cubeP.rotateSpeed, Space.World);        	//rotate the cube
 			cubeP.startTime += Time.deltaTime * cubeP.rotateSpeed;															//keep track of the degree of rotation
 
 			if (cubeP.startTime >= 30) {																					//condition to stop the rotation of the cube
@@ -65,27 +71,27 @@ public class Cube : MonoBehaviour {
 	//Make the Cube float up and down for one round
 	private IEnumerator StartPulse()
 	{
-		cubeP.startingY = transform.position.y;																				//Staring y position of the cube.
+		cubeP.startingY = cubeP.cubeTransform.position.y;																				//Staring y position of the cube.
 		while (cubeP.isMovingDown) {																						//keep moving the cube down...
-			cubeP.newY = transform.position.y - cubeP.movementDistance * cubeP.floatSpeed * Time.deltaTime;
+			cubeP.newY = cubeP.cubeTransform.position.y - cubeP.movementDistance * cubeP.floatSpeed * Time.deltaTime;
 
 			if (cubeP.newY < cubeP.startingY  - cubeP. movementDistance) {													//condition to stop moving the cube down
 				cubeP.isMovingDown = false;						
 			} 
 //
-			transform.position = new Vector3 (transform.position.x, cubeP.newY, transform.position.z);						//new position the the cube
+			cubeP.cubeTransform.position = new Vector3 (cubeP.cubeTransform.position.x, cubeP.newY, cubeP.cubeTransform.position.z);						//new position the the cube
 
 			yield return new WaitForFixedUpdate();
 		}
 
 		while (cubeP.isMovingUp) {																							//...moving the cube back up again
-			cubeP.newY = transform.position.y + cubeP.movementDistance * cubeP.floatSpeed * Time.deltaTime;
+			cubeP.newY = cubeP.cubeTransform.position.y + cubeP.movementDistance * cubeP.floatSpeed * Time.deltaTime;
 
 			if (cubeP.newY > cubeP.startingY  + cubeP. movementDistance) {													//condition to stop moving the cube up
 				cubeP.isMovingUp = false;
 			} 
 			//
-			transform.position = new Vector3 (transform.position.x, cubeP.newY, transform.position.z);						//new position for the cube
+			cubeP.cubeTransform.position = new Vector3 (cubeP.cubeTransform.position.x, cubeP.newY, cubeP.cubeTransform.position.z);						//new position for the cube
 
 			yield return new WaitForFixedUpdate();
 		}
