@@ -47,6 +47,18 @@ public class SpawnerManager : MonoBehaviour {
 	public GameObject mallestCube;
 	public GameObject star;
 	public GameObject ballObstacle;
+//
+	private Transform cubeTrans;
+	private Transform cubeParticleTrans;
+	private Transform diamondTrans;
+	private Transform diaEmissiveTrans;
+	private Transform diaBreakingTrans;
+	private Transform ballTrans;
+	private Transform ballExplodeTrans;
+	private Transform smallCubeTrans;
+	private Transform smallestCubeTrans;
+	private Transform starTrans;
+	private Transform ballObstacleTrans;
 
 	private List<GameObject> cubeList;
 	private List<GameObject> particleList;
@@ -59,6 +71,18 @@ public class SpawnerManager : MonoBehaviour {
 	private List<GameObject> smallestCubeList;
 	private List<GameObject> starList;
 	private List<GameObject> ballObstacleList;
+
+	private List<Transform> cubeTransList;
+	private List<Transform> cubeParticleTransList;
+	private List<Transform> diamondTransList;
+	private List<Transform> diaEmissTransList;
+	private List<Transform> diaBreakingTransList;
+	private List<Transform> ballTransList;
+	private List<Transform> ballExplodeTransList;
+	private List<Transform> smallCubeTransList;
+	private List<Transform> smallestCubeTransList;
+	private List<Transform> starTransList;
+	private List<Transform> ballObstacleTransList;
 
 	void OnEnable()
 	{
@@ -111,15 +135,33 @@ public class SpawnerManager : MonoBehaviour {
 		smallestCubeList = new List<GameObject>();
 		starList = new List<GameObject>();
 
+		cubeTransList = new List<Transform>();
+		cubeParticleTransList = new List<Transform>();
+		diamondTransList = new List<Transform>();
+		diaEmissTransList = new List<Transform>();
+		diaBreakingTransList = new List<Transform>();
+		ballTransList = new List<Transform>();
+		ballExplodeTransList = new List<Transform>();
+		smallCubeTransList = new List<Transform>();
+		smallestCubeTransList = new List<Transform>();
+		starTransList = new List<Transform>();
+
+
+
 
 		if(GameStateManager.Instance.IsObstacle)
 		{
 			ballObstacleList = new List<GameObject>();
+			ballObstacleTransList = new List<Transform>();
 			for(int i = 0; i < 6; i++)
 			{
 				GameObject newballObstacle = Instantiate(ballObstacle, spawnP.spawnerTransform.position, Quaternion.identity) as GameObject;
 				newballObstacle.SetActive(false);
 				ballObstacleList.Add(newballObstacle);
+
+
+				ballObstacleTrans = newballObstacle.GetComponent<Transform>();
+				ballObstacleTransList.Add(ballObstacleTrans);
 			}
 		}
 
@@ -141,6 +183,19 @@ public class SpawnerManager : MonoBehaviour {
 			smallestCubeList.Add(newSmallestCube);
 			particleList.Add(newParticle);
 
+
+			cubeTrans = newCube.GetComponent<Transform>();
+			smallCubeTrans = newSmallCube.GetComponent<Transform>();
+			smallestCubeTrans = newSmallestCube.GetComponent<Transform>();
+			cubeParticleTrans = newParticle.GetComponent<Transform>();
+
+			cubeTransList.Add(cubeTrans);
+			smallCubeTransList.Add(smallCubeTrans);
+			smallestCubeTransList.Add(smallestCubeTrans);
+			cubeParticleTransList.Add(cubeParticleTrans);
+
+			Debug.Log(cubeTransList[i]);
+
 		}
 
 		for(int i = 0; i < spawnP.diamondAmount; i++)
@@ -156,6 +211,14 @@ public class SpawnerManager : MonoBehaviour {
 			diamondList.Add(newDiamond);
 			diaEmissiveList.Add(newDiaEmissive);
 			diaBreakingList.Add(newDiaBreaking);
+
+			diamondTrans = newDiamond.GetComponent<Transform>();
+			diaEmissiveTrans = newDiaEmissive.GetComponent<Transform>();
+			diaBreakingTrans = newDiaBreaking.GetComponent<Transform>();
+
+			diamondTransList.Add(diamondTrans);
+			diaEmissTransList.Add(diaEmissiveTrans);
+			diaBreakingTransList.Add(diaBreakingTrans);
 		}
 
 		if (!GameStateManager.Instance.IsChallenged) {
@@ -168,6 +231,12 @@ public class SpawnerManager : MonoBehaviour {
 
 				ballList.Add (newBall);
 				ballExplodeList.Add (newBallExplode);
+
+				ballTrans = newBall.GetComponent<Transform>();
+				ballExplodeTrans = newBallExplode.GetComponent<Transform>();
+
+				ballTransList.Add(ballTrans);
+				ballExplodeTransList.Add(ballExplodeTrans);
 			}
 		}
 	} 
@@ -186,8 +255,11 @@ public class SpawnerManager : MonoBehaviour {
 		{
 			if(!particleList[i].activeInHierarchy)
 			{
-				particleList[i].transform.position = deactivatorTrans.position;
-				particleList[i].transform.rotation = deactivatorTrans.rotation;
+				cubeParticleTransList[i].position = deactivatorTrans.position;
+				cubeParticleTransList[i].rotation = deactivatorTrans.rotation;
+
+//				particleList[i].transform.position = deactivatorTrans.position;
+//				particleList[i].transform.rotation = deactivatorTrans.rotation;
 				particleList[i].SetActive(true);
 				break;
 			}
@@ -209,8 +281,10 @@ public class SpawnerManager : MonoBehaviour {
 		{
 			if(!diaEmissiveList[i].activeInHierarchy)
 			{
-				diaEmissiveList[i].transform.position = diaTransform.position;
-				diaEmissiveList[i].transform.rotation = diaTransform.rotation;
+				diaEmissTransList[i].position = diaTransform.position;
+				diaEmissTransList[i].rotation = diaTransform.rotation;
+//				diaEmissiveList[i].transform.position = diaTransform.position;
+//				diaEmissiveList[i].transform.rotation = diaTransform.rotation;
 				diaEmissiveList[i].SetActive(true);											//Play Particle Effect
 
 				break;
@@ -231,8 +305,10 @@ public class SpawnerManager : MonoBehaviour {
 		{
 			if(!ballExplodeList[i].activeInHierarchy)
 			{
-				ballExplodeList[i].transform.position = explodeTransform.position;
-				ballExplodeList[i].transform.rotation = explodeTransform.rotation;
+				ballExplodeTransList[i].position = explodeTransform.position;
+				ballExplodeTransList[i].rotation = explodeTransform.rotation;
+//				ballExplodeList[i].transform.position = explodeTransform.position;
+//				ballExplodeList[i].transform.rotation = explodeTransform.rotation;
 				ballExplodeList[i].SetActive(true);
 				break;
 			}
@@ -253,8 +329,11 @@ public class SpawnerManager : MonoBehaviour {
 		{
 			if(!diaBreakingList[i].activeInHierarchy)
 			{
-				diaBreakingList[i].transform.position = diaTransform.position;
-				diaBreakingList[i].transform.rotation = diaTransform.rotation;
+				diaBreakingTransList[i].position = diaTransform.position;
+				diaBreakingTransList[i].rotation = diaTransform.rotation;
+
+//				diaBreakingList[i].transform.position = diaTransform.position;
+//				diaBreakingList[i].transform.rotation = diaTransform.rotation;
 				diaBreakingList[i].SetActive(true);
 				break;
 			}
@@ -425,9 +504,11 @@ public class SpawnerManager : MonoBehaviour {
 			if (!spawnP.matchNum) {
 				for (int i = 0; i < cubeList.Count; i++) {
 					if (!cubeList [i].activeInHierarchy) {
-						cubeList [i].transform.position = spawnP.spawnerTransform.position;
-						cubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
+//						cubeList [i].transform.position = spawnP.spawnerTransform.position;
+//						cubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
 
+						cubeTransList[i].position = spawnP.spawnerTransform.position;
+						cubeTransList[i].rotation = spawnP.spawnerTransform.rotation;
 
 						cubeList [i].SetActive (true);
 						spawnP.mainCube = cubeList [i].GetComponent<MainCube> ();    	//cube.tag
@@ -437,16 +518,17 @@ public class SpawnerManager : MonoBehaviour {
 						//				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
 						spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, randonDegree ());
 						spawnP.mainCube.MoveCube (spawnP.position);
-
 						break;
 					}
 				}
 			} else {
 				for (int i = 0; i < smallCubeList.Count; i++) {
 					if (!smallCubeList [i].activeInHierarchy) {
-						smallCubeList [i].transform.position = spawnP.spawnerTransform.position;
-						smallCubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
+//						smallCubeList [i].transform.position = spawnP.spawnerTransform.position;
+//						smallCubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
 
+						smallCubeTransList[i].position = spawnP.spawnerTransform.position;
+						smallCubeTransList[i].rotation = spawnP.spawnerTransform.rotation;
 
 						smallCubeList [i].SetActive (true);
 						spawnP.mainCube = smallCubeList [i].GetComponent<MainCube> ();    	//cube.tag
@@ -465,8 +547,11 @@ public class SpawnerManager : MonoBehaviour {
 		}else{
 			for (int i = 0; i < smallestCubeList.Count; i++) {
 				if (!smallestCubeList [i].activeInHierarchy) {
-					smallestCubeList [i].transform.position = spawnP.spawnerTransform.position;
-					smallestCubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
+//					smallestCubeList [i].transform.position = spawnP.spawnerTransform.position;
+//					smallestCubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
+
+					smallestCubeTransList[i].position = spawnP.spawnerTransform.position;
+					smallestCubeTransList[i].rotation = spawnP.spawnerTransform.rotation;
 
 
 					smallestCubeList [i].SetActive (true);
@@ -492,8 +577,13 @@ public class SpawnerManager : MonoBehaviour {
 		{
 			if(!diamondList[i].activeInHierarchy)
 			{
-				diamondList[i].transform.position = spawnP.spawnerTransform.position;
-				diamondList[i].transform.rotation = Quaternion.Euler(270f, 0f, 0f);
+//				diamondList[i].transform.position = spawnP.spawnerTransform.position;
+//				diamondList[i].transform.rotation = Quaternion.Euler(270f, 0f, 0f);
+
+				diamondTransList[i].position = spawnP.spawnerTransform.position;
+				diamondTransList[i].rotation = Quaternion.Euler(270f, 0f, 0f);
+
+
 				diamondList[i].SetActive(true);
 				spawnP.diamondScript = diamondList[i].GetComponent<Diamond>();
 
@@ -520,8 +610,11 @@ public class SpawnerManager : MonoBehaviour {
 		{
 			if(!diamondList[i].activeInHierarchy)
 			{
-				diamondList[i].transform.position = spawnP.spawnerTransform.position;
-				diamondList[i].transform.rotation = Quaternion.Euler(270f, 0f, 0f);
+//				diamondList[i].transform.position = spawnP.spawnerTransform.position;
+//				diamondList[i].transform.rotation = Quaternion.Euler(270f, 0f, 0f);
+
+				diamondTransList[i].position = spawnP.spawnerTransform.position;
+				diamondTransList[i].rotation = Quaternion.Euler(270f, 0f, 0f);
 				diamondList[i].SetActive(true);
 				spawnP.diamondScript = diamondList[i].GetComponent<Diamond>();
 				if (!spawnP.matchSmallestNum) {
@@ -550,9 +643,15 @@ public class SpawnerManager : MonoBehaviour {
 		{
 			if(!ballList[i].activeInHierarchy)
 			{
-				ballList[i].transform.position = spawnP.spawnerTransform.position;
-				ballList[i].transform.rotation = spawnP.spawnerTransform.rotation;
-				ballList[i].transform.localScale = new Vector3(.5f,.5f,.5f);
+//				ballList[i].transform.position = spawnP.spawnerTransform.position;
+//				ballList[i].transform.rotation = spawnP.spawnerTransform.rotation;
+
+				ballTransList[i].position = spawnP.spawnerTransform.position;
+				ballTransList[i].rotation = spawnP.spawnerTransform.rotation;
+
+//				ballList[i].transform.localScale = new Vector3(.5f,.5f,.5f);
+				ballTransList[i].localScale = new Vector3(.5f,.5f,.5f);
+
 				ballList[i].SetActive(true);
 				spawnP.ballScript = ballList[i].GetComponent<Ball>();
 				spawnP.ballScript.MoveBall(ballPos());
@@ -587,14 +686,20 @@ public class SpawnerManager : MonoBehaviour {
 		for (int i = 0; i < ballObstacleList.Count; i++) {
 			if (!ballObstacleList [i].activeInHierarchy) {
 				if (spawnP.fixedX > 0) {
-					ballObstacleList [i].transform.position = obstacleLeftPos.transform.position;
-					ballObstacleList [i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+//					ballObstacleList [i].transform.position = obstacleLeftPos.transform.position;
+//					ballObstacleList [i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+					ballObstacleTransList[i].position = obstacleLeftPos.transform.position;
+					ballObstacleTransList[i].rotation = Quaternion.Euler (0f, 0f, 0f);
+
 					ballObstacleList [i].SetActive (true);
 					break;
 				}
 				else {
-					ballObstacleList [i].transform.position = obstacleRightPos.transform.position;
-					ballObstacleList [i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+//					ballObstacleList [i].transform.position = obstacleRightPos.transform.position;
+//					ballObstacleList [i].transform.rotation = Quaternion.Euler (0f, 0f, 0f);
+					ballObstacleTransList[i].position = obstacleRightPos.transform.position;
+					ballObstacleTransList[i].rotation = Quaternion.Euler (0f, 0f, 0f);
+
 					ballObstacleList [i].SetActive (true);
 					break;
 				}
