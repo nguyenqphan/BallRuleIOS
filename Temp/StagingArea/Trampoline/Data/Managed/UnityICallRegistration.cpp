@@ -1,4 +1,4 @@
-//Generated on : 4/16/2016 12:47:44 PM
+//Generated on : 4/18/2016 5:02:00 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationClip
@@ -640,14 +640,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_CullingGroup_FinalizerFailure();
 
 	//End Registrations for type : UnityEngine.CullingGroup
-
-	//Start Registrations for type : UnityEngine.Debug
-
-		//System.Void UnityEngine.Debug::INTERNAL_CALL_DrawLine(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Color&,System.Single,System.Boolean)
-		void Register_UnityEngine_Debug_INTERNAL_CALL_DrawLine();
-		Register_UnityEngine_Debug_INTERNAL_CALL_DrawLine();
-
-	//End Registrations for type : UnityEngine.Debug
 
 	//Start Registrations for type : UnityEngine.DebugLogHandler
 

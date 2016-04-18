@@ -24,7 +24,7 @@ public class ParticeDeactivate : MonoBehaviour {
 		if(gameObject.activeInHierarchy)
 		{
 			particleP.startTime += Time.deltaTime * particleP.speedTime;
-			if(particleP.startTime >= 2f)
+			if(particleP.startTime >= 1f)
 			{
 				particleP.startTime = 0;
 				gameObject.SetActive(false);

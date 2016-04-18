@@ -97,7 +97,7 @@ public class ShowPanels : MonoBehaviour {
 		}
 
 		GameStateManager.Instance.Load();
-		Debug.Log(GameStateManager.Instance.NumOfPlay);
+//		Debug.Log(GameStateManager.Instance.NumOfPlay);
 		if(GameStateManager.Instance.NumOfPlay > 40)
 		{
 			askButton.SetActive(false);

@@ -23,8 +23,6 @@ struct Object_t3878351788_marshaled_pinvoke;
 struct Exception_t1967233988;
 
 #include "codegen/il2cpp-codegen.h"
-#include "UnityEngine_UnityEngine_Vector33525329789.h"
-#include "UnityEngine_UnityEngine_Color1588175760.h"
 #include "mscorlib_System_Object837106420.h"
 #include "UnityEngine_UnityEngine_Object3878351788.h"
 #include "mscorlib_System_Exception1967233988.h"
@@ -33,14 +31,6 @@ struct Exception_t1967233988;
 extern "C"  void Debug__cctor_m37515655 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.ILogger UnityEngine.Debug::get_logger()
 extern "C"  Il2CppObject * Debug_get_logger_m275693158 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Debug::DrawLine(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Boolean)
-extern "C"  void Debug_DrawLine_m712997666 (Il2CppObject * __this /* static, unused */, Vector3_t3525329789  ___start, Vector3_t3525329789  ___end, Color_t1588175760  ___color, float ___duration, bool ___depthTest, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Debug::INTERNAL_CALL_DrawLine(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Color&,System.Single,System.Boolean)
-extern "C"  void Debug_INTERNAL_CALL_DrawLine_m4247131229 (Il2CppObject * __this /* static, unused */, Vector3_t3525329789 * ___start, Vector3_t3525329789 * ___end, Color_t1588175760 * ___color, float ___duration, bool ___depthTest, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Debug::DrawRay(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
-extern "C"  void Debug_DrawRay_m1563905767 (Il2CppObject * __this /* static, unused */, Vector3_t3525329789  ___start, Vector3_t3525329789  ___dir, Color_t1588175760  ___color, float ___duration, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Debug::DrawRay(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Boolean)
-extern "C"  void Debug_DrawRay_m3043129782 (Il2CppObject * __this /* static, unused */, Vector3_t3525329789  ___start, Vector3_t3525329789  ___dir, Color_t1588175760  ___color, float ___duration, bool ___depthTest, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::Log(System.Object)
 extern "C"  void Debug_Log_m1731103628 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogError(System.Object)

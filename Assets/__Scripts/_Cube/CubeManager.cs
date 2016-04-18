@@ -83,9 +83,10 @@ public class CubeManager : MonoBehaviour {
 			if(Physics.Raycast(cubeManagerP.ray, out cubeManagerP.hit, 20f, cubeLayerMask))
 			{
 				cubeManagerP.soundCubeClick.PlayCubeClick();
+//				Debug.Log("Play Sound");
 				cubeManagerP.cube = cubeManagerP.hit.collider.GetComponentInChildren<Cube>();					//Get the cube component of the parent
 				//				Debug.Log(cube.transform.position);
-
+//				Debug.Log(cubeManagerP.cube);
 
 				//Rotate the cube based on the returing hit point
 				if(cubeManagerP.hit.point.x < -2.5f)

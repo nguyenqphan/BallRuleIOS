@@ -194,7 +194,7 @@ public class SpawnerManager : MonoBehaviour {
 			smallestCubeTransList.Add(smallestCubeTrans);
 			cubeParticleTransList.Add(cubeParticleTrans);
 
-			Debug.Log(cubeTransList[i]);
+//			Debug.Log(cubeTransList[i]);
 
 		}
 

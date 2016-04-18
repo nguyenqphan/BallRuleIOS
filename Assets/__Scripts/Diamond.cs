@@ -167,10 +167,10 @@ public class Diamond : MonoBehaviour {
 		}
 
 		StartCoroutine(Spin2());
-
-		if (!GameStateManager.Instance.IsChallenged) {
-			StartCoroutine (Float2 ());
-		}
+//
+//		if (!GameStateManager.Instance.IsChallenged) {
+//			StartCoroutine (Float2 ());
+//		}
 	}
 
 	public void SetDiaInactive(GameObject o)

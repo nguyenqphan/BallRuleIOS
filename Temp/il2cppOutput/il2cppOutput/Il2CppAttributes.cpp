@@ -41322,8 +41322,8 @@ void Color32_t4137084207_CustomAttributesCacheGenerator(CustomAttributesCache* c
 		typeCache->attributeTypes[1] = IL2CPPStructAlignmentAttribute_t3787694287_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
 extern TypeInfo* DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
+extern TypeInfo* UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
 extern const uint32_t Quaternion_t1891715979_CustomAttributesCacheGenerator_MetadataUsageId;
 void Quaternion_t1891715979_CustomAttributesCacheGenerator(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -41338,15 +41338,15 @@ void Quaternion_t1891715979_CustomAttributesCacheGenerator(CustomAttributesCache
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			UsedByNativeCodeAttribute_t1800197956 * tmp;
-			tmp = (UsedByNativeCodeAttribute_t1800197956 *)il2cpp_codegen_object_new (UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var);
-			UsedByNativeCodeAttribute__ctor_m3320039756(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			DefaultMemberAttribute_t627281679 * tmp;
 			tmp = (DefaultMemberAttribute_t627281679 *)il2cpp_codegen_object_new (DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var);
 			DefaultMemberAttribute__ctor_m66421301(tmp, il2cpp_codegen_string_new_wrapper("Item"), NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			UsedByNativeCodeAttribute_t1800197956 * tmp;
+			tmp = (UsedByNativeCodeAttribute_t1800197956 *)il2cpp_codegen_object_new (UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var);
+			UsedByNativeCodeAttribute__ctor_m3320039756(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -41354,8 +41354,8 @@ void Quaternion_t1891715979_CustomAttributesCacheGenerator(CustomAttributesCache
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
@@ -41470,8 +41470,8 @@ void Rect_t1525428817_CustomAttributesCacheGenerator(CustomAttributesCache* cach
 		typeCache->attributeTypes[0] = UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
 extern TypeInfo* UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
+extern TypeInfo* DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
 extern const uint32_t Matrix4x4_t277289660_CustomAttributesCacheGenerator_MetadataUsageId;
 void Matrix4x4_t277289660_CustomAttributesCacheGenerator(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -41486,15 +41486,15 @@ void Matrix4x4_t277289660_CustomAttributesCacheGenerator(CustomAttributesCache* 
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			DefaultMemberAttribute_t627281679 * tmp;
-			tmp = (DefaultMemberAttribute_t627281679 *)il2cpp_codegen_object_new (DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var);
-			DefaultMemberAttribute__ctor_m66421301(tmp, il2cpp_codegen_string_new_wrapper("Item"), NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			UsedByNativeCodeAttribute_t1800197956 * tmp;
 			tmp = (UsedByNativeCodeAttribute_t1800197956 *)il2cpp_codegen_object_new (UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var);
 			UsedByNativeCodeAttribute__ctor_m3320039756(tmp, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			DefaultMemberAttribute_t627281679 * tmp;
+			tmp = (DefaultMemberAttribute_t627281679 *)il2cpp_codegen_object_new (DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var);
+			DefaultMemberAttribute__ctor_m66421301(tmp, il2cpp_codegen_string_new_wrapper("Item"), NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -41502,8 +41502,8 @@ void Matrix4x4_t277289660_CustomAttributesCacheGenerator(CustomAttributesCache* 
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
@@ -42810,8 +42810,8 @@ void BitStream_t3159523098_CustomAttributesCacheGenerator_BitStream_Serialize_m2
 		typeCache->attributeTypes[0] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 extern TypeInfo* ObsoleteAttribute_t699313272_il2cpp_TypeInfo_var;
+extern TypeInfo* RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 extern TypeInfo* AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
 extern const uint32_t RPC_t1522967058_CustomAttributesCacheGenerator_MetadataUsageId;
 void RPC_t1522967058_CustomAttributesCacheGenerator(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
@@ -42827,15 +42827,15 @@ void RPC_t1522967058_CustomAttributesCacheGenerator(CustomAttributesCache* cache
 		cache->count = 3;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			RequiredByNativeCodeAttribute_t641452194 * tmp;
-			tmp = (RequiredByNativeCodeAttribute_t641452194 *)il2cpp_codegen_object_new (RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var);
-			RequiredByNativeCodeAttribute__ctor_m940065582(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			ObsoleteAttribute_t699313272 * tmp;
 			tmp = (ObsoleteAttribute_t699313272 *)il2cpp_codegen_object_new (ObsoleteAttribute_t699313272_il2cpp_TypeInfo_var);
 			ObsoleteAttribute__ctor_m4069910548(tmp, il2cpp_codegen_string_new_wrapper("NetworkView RPC functions are deprecated. Refer to the new Multiplayer Networking system."), NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			RequiredByNativeCodeAttribute_t641452194 * tmp;
+			tmp = (RequiredByNativeCodeAttribute_t641452194 *)il2cpp_codegen_object_new (RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var);
+			RequiredByNativeCodeAttribute__ctor_m940065582(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 		{
@@ -42850,8 +42850,8 @@ void RPC_t1522967058_CustomAttributesCacheGenerator(CustomAttributesCache* cache
 	{
 		typeCache->count = 3;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = ObsoleteAttribute_t699313272_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = ObsoleteAttribute_t699313272_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 		typeCache->attributeTypes[2] = AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
 	}
 }
@@ -43331,8 +43331,8 @@ void ResourceRequest_t2256525006_CustomAttributesCacheGenerator(CustomAttributes
 		typeCache->attributeTypes[0] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 extern TypeInfo* TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var;
+extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 extern const uint32_t Resources_t1543782994_CustomAttributesCacheGenerator_Resources_Load_m3601699608_MetadataUsageId;
 void Resources_t1543782994_CustomAttributesCacheGenerator_Resources_Load_m3601699608(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -43347,15 +43347,15 @@ void Resources_t1543782994_CustomAttributesCacheGenerator_Resources_Load_m360169
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			WrapperlessIcall_t4003675496 * tmp;
-			tmp = (WrapperlessIcall_t4003675496 *)il2cpp_codegen_object_new (WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var);
-			WrapperlessIcall__ctor_m1888400594(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			TypeInferenceRuleAttribute_t471424957 * tmp;
 			tmp = (TypeInferenceRuleAttribute_t471424957 *)il2cpp_codegen_object_new (TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var);
 			TypeInferenceRuleAttribute__ctor_m1168575159(tmp, 1, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			WrapperlessIcall_t4003675496 * tmp;
+			tmp = (WrapperlessIcall_t4003675496 *)il2cpp_codegen_object_new (WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var);
+			WrapperlessIcall__ctor_m1888400594(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -43363,8 +43363,8 @@ void Resources_t1543782994_CustomAttributesCacheGenerator_Resources_Load_m360169
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* ObsoleteAttribute_t699313272_il2cpp_TypeInfo_var;
@@ -46343,230 +46343,6 @@ void DebugLogHandler_t931256902_CustomAttributesCacheGenerator_DebugLogHandler_t
 		typeCache->attributeTypes[0] = ParamArrayAttribute_t1656211877_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-extern const uint32_t Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg2_ParameterInfo_MetadataUsageId;
-void Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg2_ParameterInfo(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg2_ParameterInfo_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	if (cache)
-	{
-		cache->count = 1;
-		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
-		{
-			DefaultValueAttribute_t116041064 * tmp;
-			tmp = (DefaultValueAttribute_t116041064 *)il2cpp_codegen_object_new (DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var);
-			DefaultValueAttribute__ctor_m1665393712(tmp, il2cpp_codegen_string_new_wrapper("Color.white"), NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-	}
-	if (typeCache)
-	{
-		typeCache->count = 1;
-		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-	}
-}
-extern TypeInfo* DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-extern const uint32_t Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg3_ParameterInfo_MetadataUsageId;
-void Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg3_ParameterInfo(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg3_ParameterInfo_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	if (cache)
-	{
-		cache->count = 1;
-		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
-		{
-			DefaultValueAttribute_t116041064 * tmp;
-			tmp = (DefaultValueAttribute_t116041064 *)il2cpp_codegen_object_new (DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var);
-			DefaultValueAttribute__ctor_m1665393712(tmp, il2cpp_codegen_string_new_wrapper("0.0f"), NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-	}
-	if (typeCache)
-	{
-		typeCache->count = 1;
-		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-	}
-}
-extern TypeInfo* DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-extern const uint32_t Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg4_ParameterInfo_MetadataUsageId;
-void Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg4_ParameterInfo(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg4_ParameterInfo_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	if (cache)
-	{
-		cache->count = 1;
-		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
-		{
-			DefaultValueAttribute_t116041064 * tmp;
-			tmp = (DefaultValueAttribute_t116041064 *)il2cpp_codegen_object_new (DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var);
-			DefaultValueAttribute__ctor_m1665393712(tmp, il2cpp_codegen_string_new_wrapper("true"), NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-	}
-	if (typeCache)
-	{
-		typeCache->count = 1;
-		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-	}
-}
-extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
-extern const uint32_t Debug_t1588791936_CustomAttributesCacheGenerator_Debug_INTERNAL_CALL_DrawLine_m4247131229_MetadataUsageId;
-void Debug_t1588791936_CustomAttributesCacheGenerator_Debug_INTERNAL_CALL_DrawLine_m4247131229(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Debug_t1588791936_CustomAttributesCacheGenerator_Debug_INTERNAL_CALL_DrawLine_m4247131229_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	if (cache)
-	{
-		cache->count = 1;
-		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
-		{
-			WrapperlessIcall_t4003675496 * tmp;
-			tmp = (WrapperlessIcall_t4003675496 *)il2cpp_codegen_object_new (WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var);
-			WrapperlessIcall__ctor_m1888400594(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-	}
-	if (typeCache)
-	{
-		typeCache->count = 1;
-		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
-	}
-}
-extern TypeInfo* ExcludeFromDocsAttribute_t2739928377_il2cpp_TypeInfo_var;
-extern const uint32_t Debug_t1588791936_CustomAttributesCacheGenerator_Debug_DrawRay_m1563905767_MetadataUsageId;
-void Debug_t1588791936_CustomAttributesCacheGenerator_Debug_DrawRay_m1563905767(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Debug_t1588791936_CustomAttributesCacheGenerator_Debug_DrawRay_m1563905767_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	if (cache)
-	{
-		cache->count = 1;
-		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
-		{
-			ExcludeFromDocsAttribute_t2739928377 * tmp;
-			tmp = (ExcludeFromDocsAttribute_t2739928377 *)il2cpp_codegen_object_new (ExcludeFromDocsAttribute_t2739928377_il2cpp_TypeInfo_var);
-			ExcludeFromDocsAttribute__ctor_m623077387(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-	}
-	if (typeCache)
-	{
-		typeCache->count = 1;
-		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = ExcludeFromDocsAttribute_t2739928377_il2cpp_TypeInfo_var;
-	}
-}
-extern TypeInfo* DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-extern const uint32_t Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg2_ParameterInfo_MetadataUsageId;
-void Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg2_ParameterInfo(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg2_ParameterInfo_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	if (cache)
-	{
-		cache->count = 1;
-		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
-		{
-			DefaultValueAttribute_t116041064 * tmp;
-			tmp = (DefaultValueAttribute_t116041064 *)il2cpp_codegen_object_new (DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var);
-			DefaultValueAttribute__ctor_m1665393712(tmp, il2cpp_codegen_string_new_wrapper("Color.white"), NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-	}
-	if (typeCache)
-	{
-		typeCache->count = 1;
-		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-	}
-}
-extern TypeInfo* DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-extern const uint32_t Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg3_ParameterInfo_MetadataUsageId;
-void Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg3_ParameterInfo(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg3_ParameterInfo_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	if (cache)
-	{
-		cache->count = 1;
-		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
-		{
-			DefaultValueAttribute_t116041064 * tmp;
-			tmp = (DefaultValueAttribute_t116041064 *)il2cpp_codegen_object_new (DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var);
-			DefaultValueAttribute__ctor_m1665393712(tmp, il2cpp_codegen_string_new_wrapper("0.0f"), NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-	}
-	if (typeCache)
-	{
-		typeCache->count = 1;
-		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-	}
-}
-extern TypeInfo* DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-extern const uint32_t Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg4_ParameterInfo_MetadataUsageId;
-void Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg4_ParameterInfo(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg4_ParameterInfo_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	if (cache)
-	{
-		cache->count = 1;
-		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
-		{
-			DefaultValueAttribute_t116041064 * tmp;
-			tmp = (DefaultValueAttribute_t116041064 *)il2cpp_codegen_object_new (DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var);
-			DefaultValueAttribute__ctor_m1665393712(tmp, il2cpp_codegen_string_new_wrapper("true"), NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-	}
-	if (typeCache)
-	{
-		typeCache->count = 1;
-		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = DefaultValueAttribute_t116041064_il2cpp_TypeInfo_var;
-	}
-}
 extern TypeInfo* UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
 extern const uint32_t Display_t564335855_CustomAttributesCacheGenerator_MetadataUsageId;
 void Display_t564335855_CustomAttributesCacheGenerator(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
@@ -47883,8 +47659,8 @@ void Object_t3878351788_CustomAttributesCacheGenerator_Object_DestroyImmediate_m
 		typeCache->attributeTypes[0] = ExcludeFromDocsAttribute_t2739928377_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 extern TypeInfo* TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var;
+extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 extern const uint32_t Object_t3878351788_CustomAttributesCacheGenerator_Object_FindObjectsOfType_m975740280_MetadataUsageId;
 void Object_t3878351788_CustomAttributesCacheGenerator_Object_FindObjectsOfType_m975740280(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -47899,15 +47675,15 @@ void Object_t3878351788_CustomAttributesCacheGenerator_Object_FindObjectsOfType_
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			WrapperlessIcall_t4003675496 * tmp;
-			tmp = (WrapperlessIcall_t4003675496 *)il2cpp_codegen_object_new (WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var);
-			WrapperlessIcall__ctor_m1888400594(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			TypeInferenceRuleAttribute_t471424957 * tmp;
 			tmp = (TypeInferenceRuleAttribute_t471424957 *)il2cpp_codegen_object_new (TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var);
 			TypeInferenceRuleAttribute__ctor_m1168575159(tmp, 2, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			WrapperlessIcall_t4003675496 * tmp;
+			tmp = (WrapperlessIcall_t4003675496 *)il2cpp_codegen_object_new (WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var);
+			WrapperlessIcall__ctor_m1888400594(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -47915,8 +47691,8 @@ void Object_t3878351788_CustomAttributesCacheGenerator_Object_FindObjectsOfType_
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
@@ -48179,8 +47955,8 @@ void Object_t3878351788_CustomAttributesCacheGenerator_Object_FindSceneObjectsOf
 		typeCache->attributeTypes[1] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 extern TypeInfo* ObsoleteAttribute_t699313272_il2cpp_TypeInfo_var;
+extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 extern const uint32_t Object_t3878351788_CustomAttributesCacheGenerator_Object_FindObjectsOfTypeIncludingAssets_m1276784656_MetadataUsageId;
 void Object_t3878351788_CustomAttributesCacheGenerator_Object_FindObjectsOfTypeIncludingAssets_m1276784656(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -48195,15 +47971,15 @@ void Object_t3878351788_CustomAttributesCacheGenerator_Object_FindObjectsOfTypeI
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			WrapperlessIcall_t4003675496 * tmp;
-			tmp = (WrapperlessIcall_t4003675496 *)il2cpp_codegen_object_new (WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var);
-			WrapperlessIcall__ctor_m1888400594(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			ObsoleteAttribute_t699313272 * tmp;
 			tmp = (ObsoleteAttribute_t699313272 *)il2cpp_codegen_object_new (ObsoleteAttribute_t699313272_il2cpp_TypeInfo_var);
 			ObsoleteAttribute__ctor_m4069910548(tmp, il2cpp_codegen_string_new_wrapper("use Resources.FindObjectsOfTypeAll instead."), NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			WrapperlessIcall_t4003675496 * tmp;
+			tmp = (WrapperlessIcall_t4003675496 *)il2cpp_codegen_object_new (WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var);
+			WrapperlessIcall__ctor_m1888400594(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -48211,8 +47987,8 @@ void Object_t3878351788_CustomAttributesCacheGenerator_Object_FindObjectsOfTypeI
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = ObsoleteAttribute_t699313272_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = ObsoleteAttribute_t699313272_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
@@ -49399,8 +49175,8 @@ void GameObject_t4012695102_CustomAttributesCacheGenerator_GameObject_GetCompone
 		typeCache->attributeTypes[0] = SecuritySafeCriticalAttribute_t2130178741_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 extern TypeInfo* TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var;
+extern TypeInfo* WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 extern const uint32_t GameObject_t4012695102_CustomAttributesCacheGenerator_GameObject_GetComponentInChildren_m1490154500_MetadataUsageId;
 void GameObject_t4012695102_CustomAttributesCacheGenerator_GameObject_GetComponentInChildren_m1490154500(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -49415,15 +49191,15 @@ void GameObject_t4012695102_CustomAttributesCacheGenerator_GameObject_GetCompone
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			WrapperlessIcall_t4003675496 * tmp;
-			tmp = (WrapperlessIcall_t4003675496 *)il2cpp_codegen_object_new (WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var);
-			WrapperlessIcall__ctor_m1888400594(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			TypeInferenceRuleAttribute_t471424957 * tmp;
 			tmp = (TypeInferenceRuleAttribute_t471424957 *)il2cpp_codegen_object_new (TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var);
 			TypeInferenceRuleAttribute__ctor_m1168575159(tmp, 0, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			WrapperlessIcall_t4003675496 * tmp;
+			tmp = (WrapperlessIcall_t4003675496 *)il2cpp_codegen_object_new (WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var);
+			WrapperlessIcall__ctor_m1888400594(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -49431,8 +49207,8 @@ void GameObject_t4012695102_CustomAttributesCacheGenerator_GameObject_GetCompone
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = TypeInferenceRuleAttribute_t471424957_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = WrapperlessIcall_t4003675496_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* ExcludeFromDocsAttribute_t2739928377_il2cpp_TypeInfo_var;
@@ -60485,8 +60261,8 @@ void HideInInspector_t1477161181_CustomAttributesCacheGenerator(CustomAttributes
 		typeCache->attributeTypes[0] = UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
 extern TypeInfo* DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
+extern TypeInfo* UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
 extern const uint32_t Color_t1588175760_CustomAttributesCacheGenerator_MetadataUsageId;
 void Color_t1588175760_CustomAttributesCacheGenerator(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -60501,15 +60277,15 @@ void Color_t1588175760_CustomAttributesCacheGenerator(CustomAttributesCache* cac
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			UsedByNativeCodeAttribute_t1800197956 * tmp;
-			tmp = (UsedByNativeCodeAttribute_t1800197956 *)il2cpp_codegen_object_new (UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var);
-			UsedByNativeCodeAttribute__ctor_m3320039756(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			DefaultMemberAttribute_t627281679 * tmp;
 			tmp = (DefaultMemberAttribute_t627281679 *)il2cpp_codegen_object_new (DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var);
 			DefaultMemberAttribute__ctor_m66421301(tmp, il2cpp_codegen_string_new_wrapper("Item"), NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			UsedByNativeCodeAttribute_t1800197956 * tmp;
+			tmp = (UsedByNativeCodeAttribute_t1800197956 *)il2cpp_codegen_object_new (UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var);
+			UsedByNativeCodeAttribute__ctor_m3320039756(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -60517,8 +60293,8 @@ void Color_t1588175760_CustomAttributesCacheGenerator(CustomAttributesCache* cac
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = DefaultMemberAttribute_t627281679_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = UsedByNativeCodeAttribute_t1800197956_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
@@ -61866,8 +61642,8 @@ void StackTraceUtility_t3762183996_CustomAttributesCacheGenerator_StackTraceUtil
 		typeCache->attributeTypes[1] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 extern TypeInfo* SecuritySafeCriticalAttribute_t2130178741_il2cpp_TypeInfo_var;
+extern TypeInfo* RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 extern const uint32_t StackTraceUtility_t3762183996_CustomAttributesCacheGenerator_StackTraceUtility_ExtractStringFromExceptionInternal_m803331050_MetadataUsageId;
 void StackTraceUtility_t3762183996_CustomAttributesCacheGenerator_StackTraceUtility_ExtractStringFromExceptionInternal_m803331050(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -61882,15 +61658,15 @@ void StackTraceUtility_t3762183996_CustomAttributesCacheGenerator_StackTraceUtil
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			RequiredByNativeCodeAttribute_t641452194 * tmp;
-			tmp = (RequiredByNativeCodeAttribute_t641452194 *)il2cpp_codegen_object_new (RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var);
-			RequiredByNativeCodeAttribute__ctor_m940065582(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			SecuritySafeCriticalAttribute_t2130178741 * tmp;
 			tmp = (SecuritySafeCriticalAttribute_t2130178741 *)il2cpp_codegen_object_new (SecuritySafeCriticalAttribute_t2130178741_il2cpp_TypeInfo_var);
 			SecuritySafeCriticalAttribute__ctor_m4074397875(tmp, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			RequiredByNativeCodeAttribute_t641452194 * tmp;
+			tmp = (RequiredByNativeCodeAttribute_t641452194 *)il2cpp_codegen_object_new (RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var);
+			RequiredByNativeCodeAttribute__ctor_m940065582(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -61898,8 +61674,8 @@ void StackTraceUtility_t3762183996_CustomAttributesCacheGenerator_StackTraceUtil
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = SecuritySafeCriticalAttribute_t2130178741_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = SecuritySafeCriticalAttribute_t2130178741_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
@@ -61986,8 +61762,8 @@ void UnityException_t3148635335_CustomAttributesCacheGenerator(CustomAttributesC
 		typeCache->attributeTypes[0] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
 extern TypeInfo* RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
+extern TypeInfo* AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
 extern const uint32_t SharedBetweenAnimatorsAttribute_t3749847808_CustomAttributesCacheGenerator_MetadataUsageId;
 void SharedBetweenAnimatorsAttribute_t3749847808_CustomAttributesCacheGenerator(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -62002,16 +61778,16 @@ void SharedBetweenAnimatorsAttribute_t3749847808_CustomAttributesCacheGenerator(
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
+			RequiredByNativeCodeAttribute_t641452194 * tmp;
+			tmp = (RequiredByNativeCodeAttribute_t641452194 *)il2cpp_codegen_object_new (RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var);
+			RequiredByNativeCodeAttribute__ctor_m940065582(tmp, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
 			AttributeUsageAttribute_t1025395500 * tmp;
 			tmp = (AttributeUsageAttribute_t1025395500 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var);
 			AttributeUsageAttribute__ctor_m3458174515(tmp, 4, NULL);
 			AttributeUsageAttribute_set_AllowMultiple_m3296043115(tmp, false, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
-			RequiredByNativeCodeAttribute_t641452194 * tmp;
-			tmp = (RequiredByNativeCodeAttribute_t641452194 *)il2cpp_codegen_object_new (RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var);
-			RequiredByNativeCodeAttribute__ctor_m940065582(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -62019,8 +61795,8 @@ void SharedBetweenAnimatorsAttribute_t3749847808_CustomAttributesCacheGenerator(
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
@@ -62051,8 +61827,8 @@ void StateMachineBehaviour_t1035456276_CustomAttributesCacheGenerator(CustomAttr
 		typeCache->attributeTypes[0] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
 extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
 extern const uint32_t ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_ObjectArgument_MetadataUsageId;
 void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_ObjectArgument(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -62067,15 +61843,15 @@ void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_ObjectArgument(C
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			SerializeField_t3430139495 * tmp;
-			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
-			SerializeField__ctor_m4068807987(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			FormerlySerializedAsAttribute_t581346955 * tmp;
 			tmp = (FormerlySerializedAsAttribute_t581346955 *)il2cpp_codegen_object_new (FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var);
 			FormerlySerializedAsAttribute__ctor_m2703462003(tmp, il2cpp_codegen_string_new_wrapper("objectArgument"), NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			SerializeField_t3430139495 * tmp;
+			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
+			SerializeField__ctor_m4068807987(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -62083,8 +61859,8 @@ void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_ObjectArgument(C
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
@@ -62159,8 +61935,8 @@ void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_IntArgument(Cust
 		typeCache->attributeTypes[1] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
+extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 extern const uint32_t ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_FloatArgument_MetadataUsageId;
 void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_FloatArgument(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -62175,9 +61951,45 @@ void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_FloatArgument(Cu
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
+			SerializeField_t3430139495 * tmp;
+			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
+			SerializeField__ctor_m4068807987(tmp, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
 			FormerlySerializedAsAttribute_t581346955 * tmp;
 			tmp = (FormerlySerializedAsAttribute_t581346955 *)il2cpp_codegen_object_new (FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var);
 			FormerlySerializedAsAttribute__ctor_m2703462003(tmp, il2cpp_codegen_string_new_wrapper("floatArgument"), NULL);
+			cache->attributes[1] = (Il2CppObject*)tmp;
+		}
+	}
+	if (typeCache)
+	{
+		typeCache->count = 2;
+		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
+		typeCache->attributeTypes[0] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+	}
+}
+extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
+extern const uint32_t ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_StringArgument_MetadataUsageId;
+void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_StringArgument(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_StringArgument_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	if (cache)
+	{
+		cache->count = 2;
+		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
+		{
+			FormerlySerializedAsAttribute_t581346955 * tmp;
+			tmp = (FormerlySerializedAsAttribute_t581346955 *)il2cpp_codegen_object_new (FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var);
+			FormerlySerializedAsAttribute__ctor_m2703462003(tmp, il2cpp_codegen_string_new_wrapper("stringArgument"), NULL);
 			cache->attributes[0] = (Il2CppObject*)tmp;
 		}
 		{
@@ -62193,42 +62005,6 @@ void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_FloatArgument(Cu
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
 		typeCache->attributeTypes[0] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 		typeCache->attributeTypes[1] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
-	}
-}
-extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
-extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
-extern const uint32_t ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_StringArgument_MetadataUsageId;
-void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_StringArgument(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_StringArgument_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	if (cache)
-	{
-		cache->count = 2;
-		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
-		{
-			SerializeField_t3430139495 * tmp;
-			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
-			SerializeField__ctor_m4068807987(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
-			FormerlySerializedAsAttribute_t581346955 * tmp;
-			tmp = (FormerlySerializedAsAttribute_t581346955 *)il2cpp_codegen_object_new (FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var);
-			FormerlySerializedAsAttribute__ctor_m2703462003(tmp, il2cpp_codegen_string_new_wrapper("stringArgument"), NULL);
-			cache->attributes[1] = (Il2CppObject*)tmp;
-		}
-	}
-	if (typeCache)
-	{
-		typeCache->count = 2;
-		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
@@ -62259,8 +62035,8 @@ void ArgumentCache_t2732610389_CustomAttributesCacheGenerator_m_BoolArgument(Cus
 		typeCache->attributeTypes[0] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
 extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
 extern const uint32_t PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_Target_MetadataUsageId;
 void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_Target(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -62275,15 +62051,15 @@ void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_Target(CustomAt
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			SerializeField_t3430139495 * tmp;
-			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
-			SerializeField__ctor_m4068807987(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			FormerlySerializedAsAttribute_t581346955 * tmp;
 			tmp = (FormerlySerializedAsAttribute_t581346955 *)il2cpp_codegen_object_new (FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var);
 			FormerlySerializedAsAttribute__ctor_m2703462003(tmp, il2cpp_codegen_string_new_wrapper("instance"), NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			SerializeField_t3430139495 * tmp;
+			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
+			SerializeField__ctor_m4068807987(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -62291,8 +62067,8 @@ void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_Target(CustomAt
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
@@ -62331,8 +62107,8 @@ void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_MethodName(Cust
 		typeCache->attributeTypes[1] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
 extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
 extern const uint32_t PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_Mode_MetadataUsageId;
 void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_Mode(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -62347,15 +62123,15 @@ void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_Mode(CustomAttr
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			SerializeField_t3430139495 * tmp;
-			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
-			SerializeField__ctor_m4068807987(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			FormerlySerializedAsAttribute_t581346955 * tmp;
 			tmp = (FormerlySerializedAsAttribute_t581346955 *)il2cpp_codegen_object_new (FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var);
 			FormerlySerializedAsAttribute__ctor_m2703462003(tmp, il2cpp_codegen_string_new_wrapper("mode"), NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			SerializeField_t3430139495 * tmp;
+			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
+			SerializeField__ctor_m4068807987(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -62363,8 +62139,8 @@ void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_Mode(CustomAttr
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
@@ -62403,8 +62179,8 @@ void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_Arguments(Custo
 		typeCache->attributeTypes[1] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
 extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
 extern const uint32_t PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_CallState_MetadataUsageId;
 void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_CallState(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -62419,15 +62195,15 @@ void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_CallState(Custo
 		cache->count = 3;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			SerializeField_t3430139495 * tmp;
-			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
-			SerializeField__ctor_m4068807987(tmp, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			FormerlySerializedAsAttribute_t581346955 * tmp;
 			tmp = (FormerlySerializedAsAttribute_t581346955 *)il2cpp_codegen_object_new (FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var);
 			FormerlySerializedAsAttribute__ctor_m2703462003(tmp, il2cpp_codegen_string_new_wrapper("enabled"), NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			SerializeField_t3430139495 * tmp;
+			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
+			SerializeField__ctor_m4068807987(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 		{
@@ -62441,13 +62217,13 @@ void PersistentCall_t4127144549_CustomAttributesCacheGenerator_m_CallState(Custo
 	{
 		typeCache->count = 3;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
 		typeCache->attributeTypes[2] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 extern TypeInfo* SerializeField_t3430139495_il2cpp_TypeInfo_var;
+extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 extern const uint32_t PersistentCallGroup_t3683860090_CustomAttributesCacheGenerator_m_Calls_MetadataUsageId;
 void PersistentCallGroup_t3683860090_CustomAttributesCacheGenerator_m_Calls(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -62462,15 +62238,15 @@ void PersistentCallGroup_t3683860090_CustomAttributesCacheGenerator_m_Calls(Cust
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
-			FormerlySerializedAsAttribute_t581346955 * tmp;
-			tmp = (FormerlySerializedAsAttribute_t581346955 *)il2cpp_codegen_object_new (FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var);
-			FormerlySerializedAsAttribute__ctor_m2703462003(tmp, il2cpp_codegen_string_new_wrapper("m_Listeners"), NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
 			SerializeField_t3430139495 * tmp;
 			tmp = (SerializeField_t3430139495 *)il2cpp_codegen_object_new (SerializeField_t3430139495_il2cpp_TypeInfo_var);
 			SerializeField__ctor_m4068807987(tmp, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
+			FormerlySerializedAsAttribute_t581346955 * tmp;
+			tmp = (FormerlySerializedAsAttribute_t581346955 *)il2cpp_codegen_object_new (FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var);
+			FormerlySerializedAsAttribute__ctor_m2703462003(tmp, il2cpp_codegen_string_new_wrapper("m_Listeners"), NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -62478,8 +62254,8 @@ void PersistentCallGroup_t3683860090_CustomAttributesCacheGenerator_m_Calls(Cust
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = SerializeField_t3430139495_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* FormerlySerializedAsAttribute_t581346955_il2cpp_TypeInfo_var;
@@ -63108,8 +62884,8 @@ void UsedByNativeCodeAttribute_t1800197956_CustomAttributesCacheGenerator(Custom
 		typeCache->attributeTypes[0] = AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
 	}
 }
-extern TypeInfo* AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
 extern TypeInfo* RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
+extern TypeInfo* AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
 extern const uint32_t FormerlySerializedAsAttribute_t581346955_CustomAttributesCacheGenerator_MetadataUsageId;
 void FormerlySerializedAsAttribute_t581346955_CustomAttributesCacheGenerator(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
 {
@@ -63124,17 +62900,17 @@ void FormerlySerializedAsAttribute_t581346955_CustomAttributesCacheGenerator(Cus
 		cache->count = 2;
 		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
 		{
+			RequiredByNativeCodeAttribute_t641452194 * tmp;
+			tmp = (RequiredByNativeCodeAttribute_t641452194 *)il2cpp_codegen_object_new (RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var);
+			RequiredByNativeCodeAttribute__ctor_m940065582(tmp, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+		{
 			AttributeUsageAttribute_t1025395500 * tmp;
 			tmp = (AttributeUsageAttribute_t1025395500 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var);
 			AttributeUsageAttribute__ctor_m3458174515(tmp, 256, NULL);
 			AttributeUsageAttribute_set_AllowMultiple_m3296043115(tmp, true, NULL);
 			AttributeUsageAttribute_set_Inherited_m4032258508(tmp, false, NULL);
-			cache->attributes[0] = (Il2CppObject*)tmp;
-		}
-		{
-			RequiredByNativeCodeAttribute_t641452194 * tmp;
-			tmp = (RequiredByNativeCodeAttribute_t641452194 *)il2cpp_codegen_object_new (RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var);
-			RequiredByNativeCodeAttribute__ctor_m940065582(tmp, NULL);
 			cache->attributes[1] = (Il2CppObject*)tmp;
 		}
 	}
@@ -63142,8 +62918,8 @@ void FormerlySerializedAsAttribute_t581346955_CustomAttributesCacheGenerator(Cus
 	{
 		typeCache->count = 2;
 		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
-		typeCache->attributeTypes[0] = AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
-		typeCache->attributeTypes[1] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[0] = RequiredByNativeCodeAttribute_t641452194_il2cpp_TypeInfo_var;
+		typeCache->attributeTypes[1] = AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
 	}
 }
 extern TypeInfo* AttributeUsageAttribute_t1025395500_il2cpp_TypeInfo_var;
@@ -81489,7 +81265,7 @@ void WaterTile_t2511865071_CustomAttributesCacheGenerator(CustomAttributesCache*
 		typeCache->attributeTypes[0] = ExecuteInEditMode_t2676812948_il2cpp_TypeInfo_var;
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[2728] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[2720] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -83012,14 +82788,6 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[2728] =
 	DebugLogHandler_t931256902_CustomAttributesCacheGenerator_DebugLogHandler_Internal_LogException_m1007136309,
 	DebugLogHandler_t931256902_CustomAttributesCacheGenerator_DebugLogHandler_t931256902_DebugLogHandler_Internal_LogException_m1007136309_Arg1_ParameterInfo,
 	DebugLogHandler_t931256902_CustomAttributesCacheGenerator_DebugLogHandler_t931256902_DebugLogHandler_LogFormat_m1190453926_Arg3_ParameterInfo,
-	Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg2_ParameterInfo,
-	Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg3_ParameterInfo,
-	Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawLine_m712997666_Arg4_ParameterInfo,
-	Debug_t1588791936_CustomAttributesCacheGenerator_Debug_INTERNAL_CALL_DrawLine_m4247131229,
-	Debug_t1588791936_CustomAttributesCacheGenerator_Debug_DrawRay_m1563905767,
-	Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg2_ParameterInfo,
-	Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg3_ParameterInfo,
-	Debug_t1588791936_CustomAttributesCacheGenerator_Debug_t1588791936_Debug_DrawRay_m3043129782_Arg4_ParameterInfo,
 	Display_t564335855_CustomAttributesCacheGenerator,
 	Display_t564335855_CustomAttributesCacheGenerator_Display_RecreateDisplayList_m581883884,
 	Display_t564335855_CustomAttributesCacheGenerator_Display_FireDisplaysUpdated_m3581134697,

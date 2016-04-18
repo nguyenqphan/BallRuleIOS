@@ -10,7 +10,7 @@ public class WaterLerp : MonoBehaviour {
 	void Awake()
 	{
 		render = GetComponent<Renderer>();
-		Debug.Log(render.material.GetColor("_HorizonColor"));
+//		Debug.Log(render.material.GetColor("_HorizonColor"));
 	}
 
 	// Use this for initialization
@@ -26,7 +26,7 @@ public class WaterLerp : MonoBehaviour {
 	void Update () {
 		
 		render.material.shader = Shader.Find("FX/Water");
-		Debug.Log(render.material.GetColor("_HorizonColor"));
+//		Debug.Log(render.material.GetColor("_HorizonColor"));
 //		render.material.SetColor("_HorizonColor", new Color(0.0f, 0.5f, .5f, 0f));
 	//	render.material.shader = Shader.Find("FX/Water");
 

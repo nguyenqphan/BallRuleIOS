@@ -43,9 +43,9 @@ public class CubeController : MonoBehaviour {
 				if(Physics.Raycast(ray, out cubeControllerP.hit, 100, cube.value))				//Check if the Raycast hit any cube in 100 unit from the camera
 				{
 					cubeClickSource.PlayOneShot(cubeClick , 1f);
-					Debug.Log(cube + "is the layermask value");
+//					Debug.Log(cube + "is the layermask value");
 					cubeControllerP.rotating = true;											//set rotating equal true, so that we can rotate the cube
-					Debug.DrawRay(ray.origin, ray.direction * 100, Color.red, 2f);         
+//					Debug.DrawRay(ray.origin, ray.direction * 100, Color.red, 2f);         
 
 					if(cubeControllerP.hit.collider.gameObject.CompareTag("LeftCube"))                           //Check if the hit object is a LeftCube
 					{

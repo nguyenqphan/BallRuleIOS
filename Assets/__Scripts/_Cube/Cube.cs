@@ -36,8 +36,11 @@ public class Cube : MonoBehaviour {
 	//A method to rotate the cube
 	public void RotateCube(float dirToRotate)
 	{
+//		Debug.Log("Rotate");
 		StopAllCoroutines();										//Rotate the cube
-		cubeP.startTime = 0;			 							//set the rotate degree to zero
+		cubeP.isRotating = true;
+		cubeP.startTime = 0;	
+		//set the rotate degree to zero
 		StartCoroutine(StartToRotate(dirToRotate));					//use coroutine to call a function
 	}
 
@@ -55,7 +58,6 @@ public class Cube : MonoBehaviour {
 
 			yield return new WaitForFixedUpdate();								
 		}
-
 		cubeP.isRotating = !cubeP.isRotating;																				//set isRotating = true
 	}
 

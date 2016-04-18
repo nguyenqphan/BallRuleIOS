@@ -137,7 +137,6 @@ UnityEngine.Component::get_transform
 UnityEngine.Coroutine::ReleaseCoroutine
 UnityEngine.CullingGroup::Dispose
 UnityEngine.CullingGroup::FinalizerFailure
-UnityEngine.Debug::INTERNAL_CALL_DrawLine
 UnityEngine.DebugLogHandler::Internal_Log
 UnityEngine.DebugLogHandler::Internal_LogException
 UnityEngine.Event::PopEvent

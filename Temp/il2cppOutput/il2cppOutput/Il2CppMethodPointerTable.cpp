@@ -8071,10 +8071,6 @@ extern "C" void StateChanged_BeginInvoke_m163021837 ();
 extern "C" void StateChanged_EndInvoke_m4182061596 ();
 extern "C" void Debug__cctor_m37515655 ();
 extern "C" void Debug_get_logger_m275693158 ();
-extern "C" void Debug_DrawLine_m712997666 ();
-extern "C" void Debug_INTERNAL_CALL_DrawLine_m4247131229 ();
-extern "C" void Debug_DrawRay_m1563905767 ();
-extern "C" void Debug_DrawRay_m3043129782 ();
 extern "C" void Debug_Log_m1731103628 ();
 extern "C" void Debug_LogError_m4127342994 ();
 extern "C" void Debug_LogError_m214246398 ();
@@ -11640,7 +11636,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[11629] = 
+extern const methodPointerType g_MethodPointers[11625] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -19702,10 +19698,6 @@ extern const methodPointerType g_MethodPointers[11629] =
 	StateChanged_EndInvoke_m4182061596,
 	Debug__cctor_m37515655,
 	Debug_get_logger_m275693158,
-	Debug_DrawLine_m712997666,
-	Debug_INTERNAL_CALL_DrawLine_m4247131229,
-	Debug_DrawRay_m1563905767,
-	Debug_DrawRay_m3043129782,
 	Debug_Log_m1731103628,
 	Debug_LogError_m4127342994,
 	Debug_LogError_m214246398,
