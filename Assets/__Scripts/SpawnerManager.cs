@@ -69,7 +69,7 @@ public class SpawnerManager : MonoBehaviour {
 	private List<GameObject> ballExplodeList;
 	private List<GameObject> smallCubeList;
 	private List<GameObject> smallestCubeList;
-	private List<GameObject> starList;
+//	private List<GameObject> starList;
 	private List<GameObject> ballObstacleList;
 
 	private List<Transform> cubeTransList;
@@ -81,7 +81,7 @@ public class SpawnerManager : MonoBehaviour {
 	private List<Transform> ballExplodeTransList;
 	private List<Transform> smallCubeTransList;
 	private List<Transform> smallestCubeTransList;
-	private List<Transform> starTransList;
+//	private List<Transform> starTransList;
 	private List<Transform> ballObstacleTransList;
 
 	void OnEnable()
@@ -133,7 +133,7 @@ public class SpawnerManager : MonoBehaviour {
 		ballExplodeList = new List<GameObject>();
 		smallCubeList = new List<GameObject>();
 		smallestCubeList = new List<GameObject>();
-		starList = new List<GameObject>();
+//		starList = new List<GameObject>();
 
 		cubeTransList = new List<Transform>();
 		cubeParticleTransList = new List<Transform>();
@@ -144,7 +144,7 @@ public class SpawnerManager : MonoBehaviour {
 		ballExplodeTransList = new List<Transform>();
 		smallCubeTransList = new List<Transform>();
 		smallestCubeTransList = new List<Transform>();
-		starTransList = new List<Transform>();
+//		starTransList = new List<Transform>();
 
 
 
@@ -356,10 +356,10 @@ public class SpawnerManager : MonoBehaviour {
 		spawnP.spawnNumber++;
 
 		//Condition to go check the gravity
-		if(spawnP.spawnNumber % 100 == 0)
-		{
-			ChangeGravity();
-		}
+//		if(spawnP.spawnNumber % 100 == 0)
+//		{
+//			ChangeGravity();
+//		}
 
 		StartCoroutine (InstantiateCube ());	
 	}
@@ -706,34 +706,5 @@ public class SpawnerManager : MonoBehaviour {
 			}
 		}
 	}
-
-	private void ChangeGravity()
-	{
-		Physics.gravity = new Vector3(0f, -15f, 0f);
-
-		//		if(spawnP.spawnNumber % 80 == 0)
-		//		{
-		//			Physics.gravity = new Vector3(0f, -30f, 0f);
-		//			Debug.Log(Physics.gravity);
-		//		}else{
-		//			if(spawnP.spawnNumber % 60 == 0){
-		//				Physics.gravity = new Vector3(0f, -25f, 0f);
-		//				Debug.Log(Physics.gravity);
-		//			}else{
-		//				if(spawnP.spawnNumber % 40 == 0)
-		//				{
-		//					Physics.gravity = new Vector3(0f, -20f, 0f);
-		//					Debug.Log(Physics.gravity);
-		//				}else{
-		//					if(spawnP.spawnNumber % 20 == 0)
-		//					{
-		//						Physics.gravity = new Vector3(0f, -15f, 0f);
-		//						Debug.Log(Physics.gravity);
-		//					}
-		//				}
-		//			}
-		//		}
-	}
-
 
 }

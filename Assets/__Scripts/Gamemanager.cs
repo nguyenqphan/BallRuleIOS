@@ -6,7 +6,7 @@ public class Gamemanager : MonoBehaviour {
 //	private StartOptions startOption;
 //	private ShowPanels showPanell;
 	private Pause pause;							//Store a reference to the Pause class
-	private CubeManager cubeManager;				//Store a reference to the CubeManager class
+//	private CubeManager cubeManager;				//Store a reference to the CubeManager class
 	private PlayMusic playMusic;					//Store a reference to the PlayMusic class
 //	private Destroyer destroyer;
 //	public GameObject challengeLock;
@@ -19,7 +19,7 @@ public class Gamemanager : MonoBehaviour {
 //		startOption = GameObject.FindWithTag("UI").GetComponent<StartOptions>();
 //		showPanell = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
 		pause = GameObject.FindWithTag("UI").GetComponent<Pause>();
-		cubeManager = GetComponent<CubeManager>();
+//		cubeManager = GetComponent<CubeManager>();
 		playMusic = GameObject.FindWithTag("UI").GetComponent<PlayMusic>();
 //		destroyer = GameObject.FindWithTag("DestroyerBall").GetComponent<Destroyer>();
 	}
