@@ -51,6 +51,9 @@ public class StartOptions : MonoBehaviour {
 //		playMusic.FadeDown(0.5f);
 //		playMusic.PlaySelectedMusic(1);
 //		playMusic.FadeUp(0.5f);
+
+		GameStateManager.Instance.IsWatched = false;
+
 		cubeManager.cubeLayerMask.value = 8192;	
 		if(GameStateManager.Instance.IsChallenged)
 		{
@@ -100,7 +103,7 @@ public class StartOptions : MonoBehaviour {
 
 	public void RefleshButtonClicked()
 	{
-
+		GameStateManager.Instance.IsWatched = false;
 
 //		playMusic.FadeDown(0.1f);
 //		playMusic.PlaySelectedMusic(1);

@@ -12,7 +12,7 @@ public class ShowPanels : MonoBehaviour {
 	public GameObject noAdsButton;
 	public GameObject askButton;
 	public GameObject rateButton;
-	public GameObject fBshareButton;
+	public GameObject AdVideoButton;
 	public GameObject scorePanel;
 	public GameObject liveScore;
 	public GameObject scaleText;
@@ -81,7 +81,7 @@ public class ShowPanels : MonoBehaviour {
 			refreshButton.SetActive(true);
 //			noAdsButton.SetActive(true);
 //			askButton.SetActive(false);
-			fBshareButton.SetActive(true);
+//			fBshareButton.SetActive(true);
 			scorePanel.SetActive(true);
 			liveScore.SetActive(false);
 
@@ -91,10 +91,13 @@ public class ShowPanels : MonoBehaviour {
 			refreshButton.SetActive(false);
 //			askButton.SetActive(true);
 //			noAdsButton.SetActive(true);
-			fBshareButton.SetActive(false);
+//			fBshareButton.SetActive(false);
 			scorePanel.SetActive(false);
 			liveScore.SetActive(true);
 		}
+
+		ShowHideAdButton();
+//
 
 		GameStateManager.Instance.Load();
 //		Debug.Log(GameStateManager.Instance.NumOfPlay);
@@ -146,5 +149,17 @@ public class ShowPanels : MonoBehaviour {
 	public void HideInstruction()
 	{
 		instructionPanel.SetActive(false);
+	}
+
+	public void ShowHideAdButton()
+	{
+
+		if(!GameStateManager.Instance.IsWatched)
+		{
+			AdVideoButton.SetActive(true);
+		}
+		else{
+			AdVideoButton.SetActive(false);
+		}
 	}
 }

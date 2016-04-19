@@ -89,15 +89,13 @@ public class Destroyer : MonoBehaviour {
 				UpdateObstacleScore();
 			}
 
+
+
 			GameStateManager.Instance.Save ();
 			updateScore.EndGameScore();
 
 
-			GameStateManager.Instance.NumBerOfGame++;
-			if(GameStateManager.Instance.NumBerOfGame %3 == 0)
-			{
-				unityAdsManager.ShowAds();
-			}
+
 			
 		}
 		else{

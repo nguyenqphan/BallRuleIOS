@@ -55,6 +55,12 @@ public class GameStateManager : MonoBehaviour {
 		set{numOfPlay = value;}
 	}
 
+	private int earnAdsPoint = 0;
+	public int EarnAdsPoint{
+		get{return earnAdsPoint;}
+		set{earnAdsPoint = value;}
+	}
+
 	private int sceneMaterialNum = 0;
 	public int SceneMaterialNum{
 		get{return sceneMaterialNum;}
@@ -137,7 +143,13 @@ public class GameStateManager : MonoBehaviour {
 		
 
 
-	private GameObject cube;
+//	private GameObject cube;
+
+	private bool isWatched = true;
+	public bool IsWatched{
+		get{return isWatched;}
+		set{isWatched = value;}
+	}
 
 	private bool isStarted = false;
 	public bool IsStarted
@@ -205,6 +217,7 @@ public class GameStateManager : MonoBehaviour {
 		data.challengeScore = GameStateManager.Instance.BestChallengeScore;
 		data.obstacleScore = GameStateManager.Instance.BestObstacleScore;
 		data.numberOfPlay = GameStateManager.Instance.NumOfPlay;
+		data.adsPoints = GameStateManager.Instance.EarnAdsPoint;
 
 		bf.Serialize(file, data);
 		file.Close();
@@ -221,6 +234,7 @@ public class GameStateManager : MonoBehaviour {
 			GameStateManager.Instance.BestChallengeScore = data.challengeScore;
 			GameStateManager.Instance.BestObstacleScore = data.obstacleScore;
 			GameStateManager.Instance.NumOfPlay = data.numberOfPlay;
+			GameStateManager.Instance.EarnAdsPoint = data.adsPoints;
 
 			file.Close();
 
@@ -233,6 +247,7 @@ public class GameStateManager : MonoBehaviour {
 		public int playerScore;
 		public int challengeScore;
 		public int obstacleScore;
-		public int numberOfPlay;
+		public int numberOfPlay; 
+		public int adsPoints;
 	}
 }
