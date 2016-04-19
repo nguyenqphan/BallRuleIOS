@@ -13,7 +13,7 @@ public class Destroyer : MonoBehaviour {
 	private UpdateScore updateScore;					//reference to the UpdateScore class
 	private CubeManager cubeManager;					//Reference to the Cubemanager;
 	private bool isTimeRunning;							//If the challenge time is running
-//	private UnityAdsManager unityAdsManager;
+	private UnityAdsManager unityAdsManager;
 
 	void Awake()
 	{
@@ -21,7 +21,7 @@ public class Destroyer : MonoBehaviour {
 		cubeManager = GameObject.FindWithTag("GameManager").GetComponent<CubeManager>();
 		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 		showUI = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
-//		unityAdsManager = GameObject.FindWithTag("GameManager").GetComponent<UnityAdsManager>();
+		unityAdsManager = GameObject.FindWithTag("GameManager").GetComponent<UnityAdsManager>();
 
 
 	}
@@ -89,7 +89,11 @@ public class Destroyer : MonoBehaviour {
 				UpdateObstacleScore();
 			}
 
-
+			GameStateManager.Instance.NumBerOfGame++;
+			if(GameStateManager.Instance.NumBerOfGame % 3 == 0)
+			{
+				unityAdsManager.ShowAds();
+			}
 
 			GameStateManager.Instance.Save ();
 			updateScore.EndGameScore();
