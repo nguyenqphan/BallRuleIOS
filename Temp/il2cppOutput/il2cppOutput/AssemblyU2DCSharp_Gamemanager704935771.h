@@ -12,8 +12,6 @@
 
 // Pause
 struct Pause_t76887510;
-// CubeManager
-struct CubeManager_t4034287000;
 // PlayMusic
 struct PlayMusic_t109867825;
 
@@ -31,10 +29,8 @@ struct  Gamemanager_t704935771  : public MonoBehaviour_t3012272455
 public:
 	// Pause Gamemanager::pause
 	Pause_t76887510 * ___pause_2;
-	// CubeManager Gamemanager::cubeManager
-	CubeManager_t4034287000 * ___cubeManager_3;
 	// PlayMusic Gamemanager::playMusic
-	PlayMusic_t109867825 * ___playMusic_4;
+	PlayMusic_t109867825 * ___playMusic_3;
 
 public:
 	inline static int32_t get_offset_of_pause_2() { return static_cast<int32_t>(offsetof(Gamemanager_t704935771, ___pause_2)); }
@@ -46,22 +42,13 @@ public:
 		Il2CppCodeGenWriteBarrier(&___pause_2, value);
 	}
 
-	inline static int32_t get_offset_of_cubeManager_3() { return static_cast<int32_t>(offsetof(Gamemanager_t704935771, ___cubeManager_3)); }
-	inline CubeManager_t4034287000 * get_cubeManager_3() const { return ___cubeManager_3; }
-	inline CubeManager_t4034287000 ** get_address_of_cubeManager_3() { return &___cubeManager_3; }
-	inline void set_cubeManager_3(CubeManager_t4034287000 * value)
+	inline static int32_t get_offset_of_playMusic_3() { return static_cast<int32_t>(offsetof(Gamemanager_t704935771, ___playMusic_3)); }
+	inline PlayMusic_t109867825 * get_playMusic_3() const { return ___playMusic_3; }
+	inline PlayMusic_t109867825 ** get_address_of_playMusic_3() { return &___playMusic_3; }
+	inline void set_playMusic_3(PlayMusic_t109867825 * value)
 	{
-		___cubeManager_3 = value;
-		Il2CppCodeGenWriteBarrier(&___cubeManager_3, value);
-	}
-
-	inline static int32_t get_offset_of_playMusic_4() { return static_cast<int32_t>(offsetof(Gamemanager_t704935771, ___playMusic_4)); }
-	inline PlayMusic_t109867825 * get_playMusic_4() const { return ___playMusic_4; }
-	inline PlayMusic_t109867825 ** get_address_of_playMusic_4() { return &___playMusic_4; }
-	inline void set_playMusic_4(PlayMusic_t109867825 * value)
-	{
-		___playMusic_4 = value;
-		Il2CppCodeGenWriteBarrier(&___playMusic_4, value);
+		___playMusic_3 = value;
+		Il2CppCodeGenWriteBarrier(&___playMusic_3, value);
 	}
 };
 

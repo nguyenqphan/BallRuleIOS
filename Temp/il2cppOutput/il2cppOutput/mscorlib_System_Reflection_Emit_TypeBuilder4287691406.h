@@ -20,6 +20,8 @@ struct TypeU5BU5D_t3431720054;
 struct MethodBuilderU5BU5D_t3930099966;
 // System.Reflection.Emit.ConstructorBuilder[]
 struct ConstructorBuilderU5BU5D_t281281019;
+// System.Reflection.Emit.PropertyBuilder[]
+struct PropertyBuilderU5BU5D_t2931941570;
 // System.Reflection.Emit.FieldBuilder[]
 struct FieldBuilderU5BU5D_t758429435;
 // System.Reflection.Emit.TypeBuilder[]
@@ -59,30 +61,32 @@ public:
 	MethodBuilderU5BU5D_t3930099966* ___methods_14;
 	// System.Reflection.Emit.ConstructorBuilder[] System.Reflection.Emit.TypeBuilder::ctors
 	ConstructorBuilderU5BU5D_t281281019* ___ctors_15;
+	// System.Reflection.Emit.PropertyBuilder[] System.Reflection.Emit.TypeBuilder::properties
+	PropertyBuilderU5BU5D_t2931941570* ___properties_16;
 	// System.Reflection.Emit.FieldBuilder[] System.Reflection.Emit.TypeBuilder::fields
-	FieldBuilderU5BU5D_t758429435* ___fields_16;
+	FieldBuilderU5BU5D_t758429435* ___fields_17;
 	// System.Reflection.Emit.TypeBuilder[] System.Reflection.Emit.TypeBuilder::subtypes
-	TypeBuilderU5BU5D_t2520789883* ___subtypes_17;
+	TypeBuilderU5BU5D_t2520789883* ___subtypes_18;
 	// System.Reflection.TypeAttributes System.Reflection.Emit.TypeBuilder::attrs
-	int32_t ___attrs_18;
+	int32_t ___attrs_19;
 	// System.Int32 System.Reflection.Emit.TypeBuilder::table_idx
-	int32_t ___table_idx_19;
+	int32_t ___table_idx_20;
 	// System.Reflection.Emit.ModuleBuilder System.Reflection.Emit.TypeBuilder::pmodule
-	ModuleBuilder_t1058295580 * ___pmodule_20;
+	ModuleBuilder_t1058295580 * ___pmodule_21;
 	// System.Int32 System.Reflection.Emit.TypeBuilder::class_size
-	int32_t ___class_size_21;
+	int32_t ___class_size_22;
 	// System.Reflection.Emit.PackingSize System.Reflection.Emit.TypeBuilder::packing_size
-	int32_t ___packing_size_22;
+	int32_t ___packing_size_23;
 	// System.Reflection.Emit.GenericTypeParameterBuilder[] System.Reflection.Emit.TypeBuilder::generic_params
-	GenericTypeParameterBuilderU5BU5D_t685103793* ___generic_params_23;
+	GenericTypeParameterBuilderU5BU5D_t685103793* ___generic_params_24;
 	// System.Type System.Reflection.Emit.TypeBuilder::created
-	Type_t * ___created_24;
+	Type_t * ___created_25;
 	// System.String System.Reflection.Emit.TypeBuilder::fullname
-	String_t* ___fullname_25;
+	String_t* ___fullname_26;
 	// System.Boolean System.Reflection.Emit.TypeBuilder::createTypeCalled
-	bool ___createTypeCalled_26;
+	bool ___createTypeCalled_27;
 	// System.Type System.Reflection.Emit.TypeBuilder::underlying_type
-	Type_t * ___underlying_type_27;
+	Type_t * ___underlying_type_28;
 
 public:
 	inline static int32_t get_offset_of_tname_8() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___tname_8)); }
@@ -156,107 +160,116 @@ public:
 		Il2CppCodeGenWriteBarrier(&___ctors_15, value);
 	}
 
-	inline static int32_t get_offset_of_fields_16() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___fields_16)); }
-	inline FieldBuilderU5BU5D_t758429435* get_fields_16() const { return ___fields_16; }
-	inline FieldBuilderU5BU5D_t758429435** get_address_of_fields_16() { return &___fields_16; }
-	inline void set_fields_16(FieldBuilderU5BU5D_t758429435* value)
+	inline static int32_t get_offset_of_properties_16() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___properties_16)); }
+	inline PropertyBuilderU5BU5D_t2931941570* get_properties_16() const { return ___properties_16; }
+	inline PropertyBuilderU5BU5D_t2931941570** get_address_of_properties_16() { return &___properties_16; }
+	inline void set_properties_16(PropertyBuilderU5BU5D_t2931941570* value)
 	{
-		___fields_16 = value;
-		Il2CppCodeGenWriteBarrier(&___fields_16, value);
+		___properties_16 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_16, value);
 	}
 
-	inline static int32_t get_offset_of_subtypes_17() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___subtypes_17)); }
-	inline TypeBuilderU5BU5D_t2520789883* get_subtypes_17() const { return ___subtypes_17; }
-	inline TypeBuilderU5BU5D_t2520789883** get_address_of_subtypes_17() { return &___subtypes_17; }
-	inline void set_subtypes_17(TypeBuilderU5BU5D_t2520789883* value)
+	inline static int32_t get_offset_of_fields_17() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___fields_17)); }
+	inline FieldBuilderU5BU5D_t758429435* get_fields_17() const { return ___fields_17; }
+	inline FieldBuilderU5BU5D_t758429435** get_address_of_fields_17() { return &___fields_17; }
+	inline void set_fields_17(FieldBuilderU5BU5D_t758429435* value)
 	{
-		___subtypes_17 = value;
-		Il2CppCodeGenWriteBarrier(&___subtypes_17, value);
+		___fields_17 = value;
+		Il2CppCodeGenWriteBarrier(&___fields_17, value);
 	}
 
-	inline static int32_t get_offset_of_attrs_18() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___attrs_18)); }
-	inline int32_t get_attrs_18() const { return ___attrs_18; }
-	inline int32_t* get_address_of_attrs_18() { return &___attrs_18; }
-	inline void set_attrs_18(int32_t value)
+	inline static int32_t get_offset_of_subtypes_18() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___subtypes_18)); }
+	inline TypeBuilderU5BU5D_t2520789883* get_subtypes_18() const { return ___subtypes_18; }
+	inline TypeBuilderU5BU5D_t2520789883** get_address_of_subtypes_18() { return &___subtypes_18; }
+	inline void set_subtypes_18(TypeBuilderU5BU5D_t2520789883* value)
 	{
-		___attrs_18 = value;
+		___subtypes_18 = value;
+		Il2CppCodeGenWriteBarrier(&___subtypes_18, value);
 	}
 
-	inline static int32_t get_offset_of_table_idx_19() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___table_idx_19)); }
-	inline int32_t get_table_idx_19() const { return ___table_idx_19; }
-	inline int32_t* get_address_of_table_idx_19() { return &___table_idx_19; }
-	inline void set_table_idx_19(int32_t value)
+	inline static int32_t get_offset_of_attrs_19() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___attrs_19)); }
+	inline int32_t get_attrs_19() const { return ___attrs_19; }
+	inline int32_t* get_address_of_attrs_19() { return &___attrs_19; }
+	inline void set_attrs_19(int32_t value)
 	{
-		___table_idx_19 = value;
+		___attrs_19 = value;
 	}
 
-	inline static int32_t get_offset_of_pmodule_20() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___pmodule_20)); }
-	inline ModuleBuilder_t1058295580 * get_pmodule_20() const { return ___pmodule_20; }
-	inline ModuleBuilder_t1058295580 ** get_address_of_pmodule_20() { return &___pmodule_20; }
-	inline void set_pmodule_20(ModuleBuilder_t1058295580 * value)
+	inline static int32_t get_offset_of_table_idx_20() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___table_idx_20)); }
+	inline int32_t get_table_idx_20() const { return ___table_idx_20; }
+	inline int32_t* get_address_of_table_idx_20() { return &___table_idx_20; }
+	inline void set_table_idx_20(int32_t value)
 	{
-		___pmodule_20 = value;
-		Il2CppCodeGenWriteBarrier(&___pmodule_20, value);
+		___table_idx_20 = value;
 	}
 
-	inline static int32_t get_offset_of_class_size_21() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___class_size_21)); }
-	inline int32_t get_class_size_21() const { return ___class_size_21; }
-	inline int32_t* get_address_of_class_size_21() { return &___class_size_21; }
-	inline void set_class_size_21(int32_t value)
+	inline static int32_t get_offset_of_pmodule_21() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___pmodule_21)); }
+	inline ModuleBuilder_t1058295580 * get_pmodule_21() const { return ___pmodule_21; }
+	inline ModuleBuilder_t1058295580 ** get_address_of_pmodule_21() { return &___pmodule_21; }
+	inline void set_pmodule_21(ModuleBuilder_t1058295580 * value)
 	{
-		___class_size_21 = value;
+		___pmodule_21 = value;
+		Il2CppCodeGenWriteBarrier(&___pmodule_21, value);
 	}
 
-	inline static int32_t get_offset_of_packing_size_22() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___packing_size_22)); }
-	inline int32_t get_packing_size_22() const { return ___packing_size_22; }
-	inline int32_t* get_address_of_packing_size_22() { return &___packing_size_22; }
-	inline void set_packing_size_22(int32_t value)
+	inline static int32_t get_offset_of_class_size_22() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___class_size_22)); }
+	inline int32_t get_class_size_22() const { return ___class_size_22; }
+	inline int32_t* get_address_of_class_size_22() { return &___class_size_22; }
+	inline void set_class_size_22(int32_t value)
 	{
-		___packing_size_22 = value;
+		___class_size_22 = value;
 	}
 
-	inline static int32_t get_offset_of_generic_params_23() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___generic_params_23)); }
-	inline GenericTypeParameterBuilderU5BU5D_t685103793* get_generic_params_23() const { return ___generic_params_23; }
-	inline GenericTypeParameterBuilderU5BU5D_t685103793** get_address_of_generic_params_23() { return &___generic_params_23; }
-	inline void set_generic_params_23(GenericTypeParameterBuilderU5BU5D_t685103793* value)
+	inline static int32_t get_offset_of_packing_size_23() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___packing_size_23)); }
+	inline int32_t get_packing_size_23() const { return ___packing_size_23; }
+	inline int32_t* get_address_of_packing_size_23() { return &___packing_size_23; }
+	inline void set_packing_size_23(int32_t value)
 	{
-		___generic_params_23 = value;
-		Il2CppCodeGenWriteBarrier(&___generic_params_23, value);
+		___packing_size_23 = value;
 	}
 
-	inline static int32_t get_offset_of_created_24() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___created_24)); }
-	inline Type_t * get_created_24() const { return ___created_24; }
-	inline Type_t ** get_address_of_created_24() { return &___created_24; }
-	inline void set_created_24(Type_t * value)
+	inline static int32_t get_offset_of_generic_params_24() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___generic_params_24)); }
+	inline GenericTypeParameterBuilderU5BU5D_t685103793* get_generic_params_24() const { return ___generic_params_24; }
+	inline GenericTypeParameterBuilderU5BU5D_t685103793** get_address_of_generic_params_24() { return &___generic_params_24; }
+	inline void set_generic_params_24(GenericTypeParameterBuilderU5BU5D_t685103793* value)
 	{
-		___created_24 = value;
-		Il2CppCodeGenWriteBarrier(&___created_24, value);
+		___generic_params_24 = value;
+		Il2CppCodeGenWriteBarrier(&___generic_params_24, value);
 	}
 
-	inline static int32_t get_offset_of_fullname_25() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___fullname_25)); }
-	inline String_t* get_fullname_25() const { return ___fullname_25; }
-	inline String_t** get_address_of_fullname_25() { return &___fullname_25; }
-	inline void set_fullname_25(String_t* value)
+	inline static int32_t get_offset_of_created_25() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___created_25)); }
+	inline Type_t * get_created_25() const { return ___created_25; }
+	inline Type_t ** get_address_of_created_25() { return &___created_25; }
+	inline void set_created_25(Type_t * value)
 	{
-		___fullname_25 = value;
-		Il2CppCodeGenWriteBarrier(&___fullname_25, value);
+		___created_25 = value;
+		Il2CppCodeGenWriteBarrier(&___created_25, value);
 	}
 
-	inline static int32_t get_offset_of_createTypeCalled_26() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___createTypeCalled_26)); }
-	inline bool get_createTypeCalled_26() const { return ___createTypeCalled_26; }
-	inline bool* get_address_of_createTypeCalled_26() { return &___createTypeCalled_26; }
-	inline void set_createTypeCalled_26(bool value)
+	inline static int32_t get_offset_of_fullname_26() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___fullname_26)); }
+	inline String_t* get_fullname_26() const { return ___fullname_26; }
+	inline String_t** get_address_of_fullname_26() { return &___fullname_26; }
+	inline void set_fullname_26(String_t* value)
 	{
-		___createTypeCalled_26 = value;
+		___fullname_26 = value;
+		Il2CppCodeGenWriteBarrier(&___fullname_26, value);
 	}
 
-	inline static int32_t get_offset_of_underlying_type_27() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___underlying_type_27)); }
-	inline Type_t * get_underlying_type_27() const { return ___underlying_type_27; }
-	inline Type_t ** get_address_of_underlying_type_27() { return &___underlying_type_27; }
-	inline void set_underlying_type_27(Type_t * value)
+	inline static int32_t get_offset_of_createTypeCalled_27() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___createTypeCalled_27)); }
+	inline bool get_createTypeCalled_27() const { return ___createTypeCalled_27; }
+	inline bool* get_address_of_createTypeCalled_27() { return &___createTypeCalled_27; }
+	inline void set_createTypeCalled_27(bool value)
 	{
-		___underlying_type_27 = value;
-		Il2CppCodeGenWriteBarrier(&___underlying_type_27, value);
+		___createTypeCalled_27 = value;
+	}
+
+	inline static int32_t get_offset_of_underlying_type_28() { return static_cast<int32_t>(offsetof(TypeBuilder_t4287691406, ___underlying_type_28)); }
+	inline Type_t * get_underlying_type_28() const { return ___underlying_type_28; }
+	inline Type_t ** get_address_of_underlying_type_28() { return &___underlying_type_28; }
+	inline void set_underlying_type_28(Type_t * value)
+	{
+		___underlying_type_28 = value;
+		Il2CppCodeGenWriteBarrier(&___underlying_type_28, value);
 	}
 };
 

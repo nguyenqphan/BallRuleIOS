@@ -1,6 +1,58 @@
-//Generated on : 4/18/2016 5:02:00 PM
+//Generated on : 4/18/2016 9:59:30 PM
 void RegisterAllStrippedInternalCalls()
 {
+	//Start Registrations for type : UnityEngine.Advertisements.UnityAdsInternal
+
+		//System.Boolean UnityEngine.Advertisements.UnityAdsInternal::CanShowAds(System.String)
+		void Register_UnityEngine_Advertisements_UnityAdsInternal_CanShowAds();
+		Register_UnityEngine_Advertisements_UnityAdsInternal_CanShowAds();
+
+		//System.Boolean UnityEngine.Advertisements.UnityAdsInternal::Show(System.String,System.String,System.String)
+		void Register_UnityEngine_Advertisements_UnityAdsInternal_Show();
+		Register_UnityEngine_Advertisements_UnityAdsInternal_Show();
+
+		//System.Void UnityEngine.Advertisements.UnityAdsInternal::Init(System.String,System.Boolean,System.Boolean,System.String)
+		void Register_UnityEngine_Advertisements_UnityAdsInternal_Init();
+		Register_UnityEngine_Advertisements_UnityAdsInternal_Init();
+
+		//System.Void UnityEngine.Advertisements.UnityAdsInternal::RegisterNative()
+		void Register_UnityEngine_Advertisements_UnityAdsInternal_RegisterNative();
+		Register_UnityEngine_Advertisements_UnityAdsInternal_RegisterNative();
+
+		//System.Void UnityEngine.Advertisements.UnityAdsInternal::SetCampaignDataURL(System.String)
+		void Register_UnityEngine_Advertisements_UnityAdsInternal_SetCampaignDataURL();
+		Register_UnityEngine_Advertisements_UnityAdsInternal_SetCampaignDataURL();
+
+		//System.Void UnityEngine.Advertisements.UnityAdsInternal::SetLogLevel(System.Int32)
+		void Register_UnityEngine_Advertisements_UnityAdsInternal_SetLogLevel();
+		Register_UnityEngine_Advertisements_UnityAdsInternal_SetLogLevel();
+
+	//End Registrations for type : UnityEngine.Advertisements.UnityAdsInternal
+
+	//Start Registrations for type : UnityEngine.Advertisements.UnityAdsManager
+
+		//System.Boolean UnityEngine.Advertisements.UnityAdsManager::IsPlatformEnabled(UnityEngine.RuntimePlatform)
+		void Register_UnityEngine_Advertisements_UnityAdsManager_IsPlatformEnabled();
+		Register_UnityEngine_Advertisements_UnityAdsManager_IsPlatformEnabled();
+
+		//System.Boolean UnityEngine.Advertisements.UnityAdsManager::get_enabled()
+		void Register_UnityEngine_Advertisements_UnityAdsManager_get_enabled();
+		Register_UnityEngine_Advertisements_UnityAdsManager_get_enabled();
+
+		//System.Boolean UnityEngine.Advertisements.UnityAdsManager::get_initializeOnStartup()
+		void Register_UnityEngine_Advertisements_UnityAdsManager_get_initializeOnStartup();
+		Register_UnityEngine_Advertisements_UnityAdsManager_get_initializeOnStartup();
+
+		//System.Boolean UnityEngine.Advertisements.UnityAdsManager::get_testMode()
+		void Register_UnityEngine_Advertisements_UnityAdsManager_get_testMode();
+		Register_UnityEngine_Advertisements_UnityAdsManager_get_testMode();
+
+		//System.String UnityEngine.Advertisements.UnityAdsManager::GetGameId(UnityEngine.RuntimePlatform)
+		void Register_UnityEngine_Advertisements_UnityAdsManager_GetGameId();
+		Register_UnityEngine_Advertisements_UnityAdsManager_GetGameId();
+
+	//End Registrations for type : UnityEngine.Advertisements.UnityAdsManager
+
 	//Start Registrations for type : UnityEngine.AnimationClip
 
 		//System.Single UnityEngine.AnimationClip::get_length()
@@ -54,6 +106,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.String UnityEngine.Application::get_persistentDataPath()
 		void Register_UnityEngine_Application_get_persistentDataPath();
 		Register_UnityEngine_Application_get_persistentDataPath();
+
+		//System.String UnityEngine.Application::get_unityVersion()
+		void Register_UnityEngine_Application_get_unityVersion();
+		Register_UnityEngine_Application_get_unityVersion();
 
 		//System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
 		void Register_UnityEngine_Application_set_targetFrameRate();
@@ -641,6 +697,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.CullingGroup
 
+	//Start Registrations for type : UnityEngine.Debug
+
+		//System.Boolean UnityEngine.Debug::get_isDebugBuild()
+		void Register_UnityEngine_Debug_get_isDebugBuild();
+		Register_UnityEngine_Debug_get_isDebugBuild();
+
+	//End Registrations for type : UnityEngine.Debug
+
 	//Start Registrations for type : UnityEngine.DebugLogHandler
 
 		//System.Void UnityEngine.DebugLogHandler::Internal_Log(UnityEngine.LogType,System.String,UnityEngine.Object)
@@ -917,11 +981,39 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Gradient
 
+	//Start Registrations for type : UnityEngine.Graphics
+
+		//System.Void UnityEngine.Graphics::DrawTexture(UnityEngine.InternalDrawTextureArguments&)
+		void Register_UnityEngine_Graphics_DrawTexture();
+		Register_UnityEngine_Graphics_DrawTexture();
+
+	//End Registrations for type : UnityEngine.Graphics
+
 	//Start Registrations for type : UnityEngine.GUI
+
+		//System.Boolean UnityEngine.GUI::INTERNAL_CALL_DoButton(UnityEngine.Rect&,UnityEngine.GUIContent,System.IntPtr)
+		void Register_UnityEngine_GUI_INTERNAL_CALL_DoButton();
+		Register_UnityEngine_GUI_INTERNAL_CALL_DoButton();
+
+		//System.Void UnityEngine.GUI::INTERNAL_CALL_DoModalWindow(System.Int32,UnityEngine.Rect&,UnityEngine.GUI/WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUISkin,UnityEngine.Rect&)
+		void Register_UnityEngine_GUI_INTERNAL_CALL_DoModalWindow();
+		Register_UnityEngine_GUI_INTERNAL_CALL_DoModalWindow();
+
+		//System.Void UnityEngine.GUI::INTERNAL_get_color(UnityEngine.Color&)
+		void Register_UnityEngine_GUI_INTERNAL_get_color();
+		Register_UnityEngine_GUI_INTERNAL_get_color();
 
 		//System.Void UnityEngine.GUI::set_changed(System.Boolean)
 		void Register_UnityEngine_GUI_set_changed();
 		Register_UnityEngine_GUI_set_changed();
+
+		//UnityEngine.Material UnityEngine.GUI::get_blendMaterial()
+		void Register_UnityEngine_GUI_get_blendMaterial();
+		Register_UnityEngine_GUI_get_blendMaterial();
+
+		//UnityEngine.Material UnityEngine.GUI::get_blitMaterial()
+		void Register_UnityEngine_GUI_get_blitMaterial();
+		Register_UnityEngine_GUI_get_blitMaterial();
 
 	//End Registrations for type : UnityEngine.GUI
 
@@ -1815,10 +1907,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Physics_INTERNAL_CALL_Internal_Raycast();
 		Register_UnityEngine_Physics_INTERNAL_CALL_Internal_Raycast();
 
-		//System.Void UnityEngine.Physics::INTERNAL_set_gravity(UnityEngine.Vector3&)
-		void Register_UnityEngine_Physics_INTERNAL_set_gravity();
-		Register_UnityEngine_Physics_INTERNAL_set_gravity();
-
 		//UnityEngine.RaycastHit[] UnityEngine.Physics::INTERNAL_CALL_RaycastAll(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
 		void Register_UnityEngine_Physics_INTERNAL_CALL_RaycastAll();
 		Register_UnityEngine_Physics_INTERNAL_CALL_RaycastAll();
@@ -2379,6 +2467,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Texture2D
 
+		//System.Boolean UnityEngine.Texture2D::LoadImage(System.Byte[],System.Boolean)
+		void Register_UnityEngine_Texture2D_LoadImage();
+		Register_UnityEngine_Texture2D_LoadImage();
+
 		//System.Void UnityEngine.Texture2D::INTERNAL_CALL_GetPixelBilinear(UnityEngine.Texture2D,System.Single,System.Single,UnityEngine.Color&)
 		void Register_UnityEngine_Texture2D_INTERNAL_CALL_GetPixelBilinear();
 		Register_UnityEngine_Texture2D_INTERNAL_CALL_GetPixelBilinear();
@@ -2386,6 +2478,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Texture2D::Internal_Create(UnityEngine.Texture2D,System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean,System.Boolean,System.IntPtr)
 		void Register_UnityEngine_Texture2D_Internal_Create();
 		Register_UnityEngine_Texture2D_Internal_Create();
+
+		//UnityEngine.Texture2D UnityEngine.Texture2D::get_blackTexture()
+		void Register_UnityEngine_Texture2D_get_blackTexture();
+		Register_UnityEngine_Texture2D_get_blackTexture();
 
 		//UnityEngine.Texture2D UnityEngine.Texture2D::get_whiteTexture()
 		void Register_UnityEngine_Texture2D_get_whiteTexture();
@@ -2568,5 +2664,25 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_UnhandledExceptionHandler_NativeUnhandledExceptionHandler();
 
 	//End Registrations for type : UnityEngine.UnhandledExceptionHandler
+
+	//Start Registrations for type : UnityEngine.WWW
+
+		//System.Byte[] UnityEngine.WWW::get_bytes()
+		void Register_UnityEngine_WWW_get_bytes();
+		Register_UnityEngine_WWW_get_bytes();
+
+		//System.String UnityEngine.WWW::get_error()
+		void Register_UnityEngine_WWW_get_error();
+		Register_UnityEngine_WWW_get_error();
+
+		//System.Void UnityEngine.WWW::DestroyWWW(System.Boolean)
+		void Register_UnityEngine_WWW_DestroyWWW();
+		Register_UnityEngine_WWW_DestroyWWW();
+
+		//System.Void UnityEngine.WWW::InitWWW(System.String,System.Byte[],System.String[])
+		void Register_UnityEngine_WWW_InitWWW();
+		Register_UnityEngine_WWW_InitWWW();
+
+	//End Registrations for type : UnityEngine.WWW
 
 }

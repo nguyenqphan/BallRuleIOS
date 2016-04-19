@@ -209,6 +209,9 @@ extern "C" void U24ArrayTypeU241024_t335950519_marshal_pinvoke_cleanup ();
 extern "C" void U24ArrayTypeU24120_t2366141819_marshal_pinvoke ();
 extern "C" void U24ArrayTypeU24120_t2366141819_marshal_pinvoke_back ();
 extern "C" void U24ArrayTypeU24120_t2366141819_marshal_pinvoke_cleanup ();
+extern "C" void U24ArrayTypeU24136_t2366141856_marshal_pinvoke ();
+extern "C" void U24ArrayTypeU24136_t2366141856_marshal_pinvoke_back ();
+extern "C" void U24ArrayTypeU24136_t2366141856_marshal_pinvoke_cleanup ();
 extern "C" void U24ArrayTypeU24256_t2366142880_marshal_pinvoke ();
 extern "C" void U24ArrayTypeU24256_t2366142880_marshal_pinvoke_back ();
 extern "C" void U24ArrayTypeU24256_t2366142880_marshal_pinvoke_cleanup ();
@@ -377,7 +380,7 @@ extern "C" void ColorBlock_t2245020947_marshal_pinvoke_cleanup ();
 extern "C" void ParticleP_t203653738_marshal_pinvoke ();
 extern "C" void ParticleP_t203653738_marshal_pinvoke_back ();
 extern "C" void ParticleP_t203653738_marshal_pinvoke_cleanup ();
-extern const Il2CppMarshalingFunctions g_MarshalingFunctions[123] = 
+extern const Il2CppMarshalingFunctions g_MarshalingFunctions[124] = 
 {
 	{ U24ArrayTypeU241024_t335950518_marshal_pinvoke, U24ArrayTypeU241024_t335950518_marshal_pinvoke_back, U24ArrayTypeU241024_t335950518_marshal_pinvoke_cleanup },
 	{ U24ArrayTypeU2412_t214874486_marshal_pinvoke, U24ArrayTypeU2412_t214874486_marshal_pinvoke_back, U24ArrayTypeU2412_t214874486_marshal_pinvoke_cleanup },
@@ -445,6 +448,7 @@ extern const Il2CppMarshalingFunctions g_MarshalingFunctions[123] =
 	{ UriScheme_t3266528785_marshal_pinvoke, UriScheme_t3266528785_marshal_pinvoke_back, UriScheme_t3266528785_marshal_pinvoke_cleanup },
 	{ U24ArrayTypeU241024_t335950519_marshal_pinvoke, U24ArrayTypeU241024_t335950519_marshal_pinvoke_back, U24ArrayTypeU241024_t335950519_marshal_pinvoke_cleanup },
 	{ U24ArrayTypeU24120_t2366141819_marshal_pinvoke, U24ArrayTypeU24120_t2366141819_marshal_pinvoke_back, U24ArrayTypeU24120_t2366141819_marshal_pinvoke_cleanup },
+	{ U24ArrayTypeU24136_t2366141856_marshal_pinvoke, U24ArrayTypeU24136_t2366141856_marshal_pinvoke_back, U24ArrayTypeU24136_t2366141856_marshal_pinvoke_cleanup },
 	{ U24ArrayTypeU24256_t2366142880_marshal_pinvoke, U24ArrayTypeU24256_t2366142880_marshal_pinvoke_back, U24ArrayTypeU24256_t2366142880_marshal_pinvoke_cleanup },
 	{ AnimationCurve_t3342907448_marshal_pinvoke, AnimationCurve_t3342907448_marshal_pinvoke_back, AnimationCurve_t3342907448_marshal_pinvoke_cleanup },
 	{ AnimatorClipInfo_t4255364242_marshal_pinvoke, AnimatorClipInfo_t4255364242_marshal_pinvoke_back, AnimatorClipInfo_t4255364242_marshal_pinvoke_cleanup },

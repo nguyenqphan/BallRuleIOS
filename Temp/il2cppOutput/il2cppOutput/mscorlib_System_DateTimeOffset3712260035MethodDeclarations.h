@@ -58,6 +58,8 @@ extern "C"  int32_t DateTimeOffset_GetHashCode_m1972583858 (DateTimeOffset_t3712
 extern "C"  String_t* DateTimeOffset_ToString_m983707174 (DateTimeOffset_t3712260035 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeOffset::ToString(System.String,System.IFormatProvider)
 extern "C"  String_t* DateTimeOffset_ToString_m4001156824 (DateTimeOffset_t3712260035 * __this, String_t* ___format, Il2CppObject * ___formatProvider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.DateTimeOffset System.DateTimeOffset::ToUniversalTime()
+extern "C"  DateTimeOffset_t3712260035  DateTimeOffset_ToUniversalTime_m2509789832 (DateTimeOffset_t3712260035 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.DateTimeOffset::get_DateTime()
 extern "C"  DateTime_t339033936  DateTimeOffset_get_DateTime_m2501837032 (DateTimeOffset_t3712260035 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeSpan System.DateTimeOffset::get_Offset()

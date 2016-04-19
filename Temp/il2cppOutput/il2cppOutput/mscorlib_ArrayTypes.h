@@ -105,6 +105,10 @@ struct _MethodInfo_t3831964880;
 struct MethodBase_t3461000640;
 // System.Runtime.InteropServices._MethodBase
 struct _MethodBase_t3831744243;
+// System.Reflection.PropertyInfo
+struct PropertyInfo_t;
+// System.Runtime.InteropServices._PropertyInfo
+struct _PropertyInfo_t2964464644;
 // System.Reflection.ConstructorInfo
 struct ConstructorInfo_t3542137334;
 // System.Runtime.InteropServices._ConstructorInfo
@@ -167,14 +171,14 @@ struct _MethodBuilder_t4088777533;
 struct ConstructorBuilder_t1859087886;
 // System.Runtime.InteropServices._ConstructorBuilder
 struct _ConstructorBuilder_t3050391266;
+// System.Reflection.Emit.PropertyBuilder
+struct PropertyBuilder_t356853651;
+// System.Runtime.InteropServices._PropertyBuilder
+struct _PropertyBuilder_t3207466889;
 // System.Reflection.Emit.FieldBuilder
 struct FieldBuilder_t2184649998;
 // System.Runtime.InteropServices._FieldBuilder
 struct _FieldBuilder_t4187887906;
-// System.Reflection.PropertyInfo
-struct PropertyInfo_t;
-// System.Runtime.InteropServices._PropertyInfo
-struct _PropertyInfo_t2964464644;
 // System.Runtime.Remoting.Contexts.IContextProperty
 struct IContextProperty_t1838133337;
 // System.Runtime.Remoting.Messaging.Header
@@ -215,6 +219,10 @@ struct ByteU5BU5D_t58506160;
 struct X509Certificate_t3432067208;
 // System.Runtime.Serialization.IDeserializationCallback
 struct IDeserializationCallback_t3135514852;
+// System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
+struct IDictionary_2_t3083487430;
+// System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>
+struct IDictionary_2_t301019319;
 // System.Attribute
 struct Attribute_t498693649;
 // System.Runtime.InteropServices._Attribute
@@ -269,6 +277,7 @@ struct List_1_t3057020574;
 #include "mscorlib_System_Reflection_FieldInfo1164929782.h"
 #include "mscorlib_System_Reflection_MethodInfo3461221277.h"
 #include "mscorlib_System_Reflection_MethodBase3461000640.h"
+#include "mscorlib_System_Reflection_PropertyInfo1490548369.h"
 #include "mscorlib_System_Reflection_ConstructorInfo3542137334.h"
 #include "mscorlib_System_IntPtr676692020.h"
 #include "mscorlib_Mono_Globalization_Unicode_CodePointIndexe476453423.h"
@@ -301,8 +310,8 @@ struct List_1_t3057020574;
 #include "mscorlib_System_Reflection_Emit_TypeBuilder4287691406.h"
 #include "mscorlib_System_Reflection_Emit_MethodBuilder765486855.h"
 #include "mscorlib_System_Reflection_Emit_ConstructorBuilder1859087886.h"
+#include "mscorlib_System_Reflection_Emit_PropertyBuilder356853651.h"
 #include "mscorlib_System_Reflection_Emit_FieldBuilder2184649998.h"
-#include "mscorlib_System_Reflection_PropertyInfo1490548369.h"
 #include "mscorlib_System_Reflection_CustomAttributeTypedArgu560415562.h"
 #include "mscorlib_System_Reflection_CustomAttributeNamedArgu318735129.h"
 #include "mscorlib_System_Resources_ResourceReader_ResourceI4074584572.h"
@@ -324,6 +333,14 @@ struct List_1_t3057020574;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_816448501.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_23632373593.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_22133154421.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21963335622.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21493839180.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21379061348.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_389599147.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21902098332.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21396352941.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21782622924.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_22908852126.h"
 #include "mscorlib_System_Attribute498693649.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen1916216126.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen1634065389.h"
@@ -1267,6 +1284,36 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
+// System.Reflection.PropertyInfo[]
+struct PropertyInfoU5BU5D_t1348579340  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) PropertyInfo_t * m_Items[1];
+
+public:
+	inline PropertyInfo_t * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline PropertyInfo_t ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, PropertyInfo_t * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Runtime.InteropServices._PropertyInfo[]
+struct _PropertyInfoU5BU5D_t2132236141  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Il2CppObject * m_Items[1];
+
+public:
+	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // System.Reflection.ConstructorInfo[]
 struct ConstructorInfoU5BU5D_t3572023667  : public Il2CppArray
 {
@@ -1928,6 +1975,36 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
+// System.Reflection.Emit.PropertyBuilder[]
+struct PropertyBuilderU5BU5D_t2931941570  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) PropertyBuilder_t356853651 * m_Items[1];
+
+public:
+	inline PropertyBuilder_t356853651 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline PropertyBuilder_t356853651 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, PropertyBuilder_t356853651 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Runtime.InteropServices._PropertyBuilder[]
+struct _PropertyBuilderU5BU5D_t3657825332  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Il2CppObject * m_Items[1];
+
+public:
+	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // System.Reflection.Emit.FieldBuilder[]
 struct FieldBuilderU5BU5D_t758429435  : public Il2CppArray
 {
@@ -1945,36 +2022,6 @@ public:
 };
 // System.Runtime.InteropServices._FieldBuilder[]
 struct _FieldBuilderU5BU5D_t3646620695  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Il2CppObject * m_Items[1];
-
-public:
-	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// System.Reflection.PropertyInfo[]
-struct PropertyInfoU5BU5D_t1348579340  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) PropertyInfo_t * m_Items[1];
-
-public:
-	inline PropertyInfo_t * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline PropertyInfo_t ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, PropertyInfo_t * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// System.Runtime.InteropServices._PropertyInfo[]
-struct _PropertyInfoU5BU5D_t2132236141  : public Il2CppArray
 {
 public:
 	ALIGN_TYPE (8) Il2CppObject * m_Items[1];
@@ -2495,6 +2542,148 @@ public:
 	inline KeyValuePair_2_t2133154421  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline KeyValuePair_2_t2133154421 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t2133154421  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[]
+struct KeyValuePair_2U5BU5D_t2880731747  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) KeyValuePair_2_t1963335622  m_Items[1];
+
+public:
+	inline KeyValuePair_2_t1963335622  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline KeyValuePair_2_t1963335622 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t1963335622  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>[]
+struct KeyValuePair_2U5BU5D_t680974341  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) KeyValuePair_2_t1493839180  m_Items[1];
+
+public:
+	inline KeyValuePair_2_t1493839180  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline KeyValuePair_2_t1493839180 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t1493839180  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>[]
+struct KeyValuePair_2U5BU5D_t4122597261  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) KeyValuePair_2_t1379061348  m_Items[1];
+
+public:
+	inline KeyValuePair_2_t1379061348  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline KeyValuePair_2_t1379061348 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t1379061348  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>[]
+struct IDictionary_2U5BU5D_t4118121827  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Il2CppObject* m_Items[1];
+
+public:
+	inline Il2CppObject* GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Il2CppObject** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Il2CppObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>[]
+struct KeyValuePair_2U5BU5D_t1375853898  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) KeyValuePair_2_t389599147  m_Items[1];
+
+public:
+	inline KeyValuePair_2_t389599147  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline KeyValuePair_2_t389599147 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t389599147  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>[]
+struct IDictionary_2U5BU5D_t2430499470  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Il2CppObject* m_Items[1];
+
+public:
+	inline Il2CppObject* GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Il2CppObject** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Il2CppObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>[]
+struct KeyValuePair_2U5BU5D_t3983198837  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) KeyValuePair_2_t1902098332  m_Items[1];
+
+public:
+	inline KeyValuePair_2_t1902098332  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline KeyValuePair_2_t1902098332 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t1902098332  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>[]
+struct KeyValuePair_2U5BU5D_t4231719680  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) KeyValuePair_2_t1396352941  m_Items[1];
+
+public:
+	inline KeyValuePair_2_t1396352941  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline KeyValuePair_2_t1396352941 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t1396352941  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>[]
+struct KeyValuePair_2U5BU5D_t3969856645  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) KeyValuePair_2_t1782622924  m_Items[1];
+
+public:
+	inline KeyValuePair_2_t1782622924  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline KeyValuePair_2_t1782622924 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t1782622924  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>[]
+struct KeyValuePair_2U5BU5D_t2544097323  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) KeyValuePair_2_t2908852126  m_Items[1];
+
+public:
+	inline KeyValuePair_2_t2908852126  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline KeyValuePair_2_t2908852126 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t2908852126  value)
 	{
 		m_Items[index] = value;
 	}

@@ -2022,7 +2022,7 @@ extern "C"  float MobileInput_GetAxis_m3249261398 (MobileInput_t3367880121 * __t
 		Dictionary_2_t2313350812 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0018;
@@ -2038,7 +2038,7 @@ IL_0018:
 		Dictionary_2_t2313350812 * L_4 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_5 = ___name;
 		NullCheck(L_4);
-		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
+		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
 		NullCheck(L_6);
 		float L_7 = VirtualAxis_get_GetValue_m4233693050(L_6, /*hidden argument*/NULL);
 		return L_7;
@@ -2051,7 +2051,7 @@ extern "C"  void MobileInput_SetButtonDown_m1970065684 (MobileInput_t3367880121 
 		Dictionary_2_t2426271597 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0018;
@@ -2067,7 +2067,7 @@ IL_0018:
 		Dictionary_2_t2426271597 * L_4 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_5 = ___name;
 		NullCheck(L_4);
-		VirtualButton_t788573693 * L_6 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_4, L_5);
+		VirtualButton_t788573693 * L_6 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_4, L_5);
 		NullCheck(L_6);
 		VirtualButton_Pressed_m2399410089(L_6, /*hidden argument*/NULL);
 		return;
@@ -2080,7 +2080,7 @@ extern "C"  void MobileInput_SetButtonUp_m1103505211 (MobileInput_t3367880121 * 
 		Dictionary_2_t2426271597 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0018;
@@ -2096,7 +2096,7 @@ IL_0018:
 		Dictionary_2_t2426271597 * L_4 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_5 = ___name;
 		NullCheck(L_4);
-		VirtualButton_t788573693 * L_6 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_4, L_5);
+		VirtualButton_t788573693 * L_6 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_4, L_5);
 		NullCheck(L_6);
 		VirtualButton_Released_m2268626104(L_6, /*hidden argument*/NULL);
 		return;
@@ -2109,7 +2109,7 @@ extern "C"  void MobileInput_SetAxisPositive_m3611545806 (MobileInput_t336788012
 		Dictionary_2_t2313350812 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0018;
@@ -2125,7 +2125,7 @@ IL_0018:
 		Dictionary_2_t2313350812 * L_4 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_5 = ___name;
 		NullCheck(L_4);
-		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
+		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
 		NullCheck(L_6);
 		VirtualAxis_Update_m3291609368(L_6, (1.0f), /*hidden argument*/NULL);
 		return;
@@ -2138,7 +2138,7 @@ extern "C"  void MobileInput_SetAxisNegative_m762126098 (MobileInput_t3367880121
 		Dictionary_2_t2313350812 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0018;
@@ -2154,7 +2154,7 @@ IL_0018:
 		Dictionary_2_t2313350812 * L_4 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_5 = ___name;
 		NullCheck(L_4);
-		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
+		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
 		NullCheck(L_6);
 		VirtualAxis_Update_m3291609368(L_6, (-1.0f), /*hidden argument*/NULL);
 		return;
@@ -2167,7 +2167,7 @@ extern "C"  void MobileInput_SetAxisZero_m2458037055 (MobileInput_t3367880121 * 
 		Dictionary_2_t2313350812 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0018;
@@ -2183,7 +2183,7 @@ IL_0018:
 		Dictionary_2_t2313350812 * L_4 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_5 = ___name;
 		NullCheck(L_4);
-		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
+		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
 		NullCheck(L_6);
 		VirtualAxis_Update_m3291609368(L_6, (0.0f), /*hidden argument*/NULL);
 		return;
@@ -2196,7 +2196,7 @@ extern "C"  void MobileInput_SetAxis_m2966985900 (MobileInput_t3367880121 * __th
 		Dictionary_2_t2313350812 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0018;
@@ -2212,7 +2212,7 @@ IL_0018:
 		Dictionary_2_t2313350812 * L_4 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualAxes_0();
 		String_t* L_5 = ___name;
 		NullCheck(L_4);
-		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
+		VirtualAxis_t675652908 * L_6 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_4, L_5);
 		float L_7 = ___value;
 		NullCheck(L_6);
 		VirtualAxis_Update_m3291609368(L_6, L_7, /*hidden argument*/NULL);
@@ -2226,7 +2226,7 @@ extern "C"  bool MobileInput_GetButtonDown_m2977611396 (MobileInput_t3367880121 
 		Dictionary_2_t2426271597 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_0023;
@@ -2236,7 +2236,7 @@ extern "C"  bool MobileInput_GetButtonDown_m2977611396 (MobileInput_t3367880121 
 		Dictionary_2_t2426271597 * L_3 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_4 = ___name;
 		NullCheck(L_3);
-		VirtualButton_t788573693 * L_5 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_3, L_4);
+		VirtualButton_t788573693 * L_5 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_3, L_4);
 		NullCheck(L_5);
 		bool L_6 = VirtualButton_get_GetButtonDown_m360947436(L_5, /*hidden argument*/NULL);
 		return L_6;
@@ -2249,7 +2249,7 @@ IL_0023:
 		Dictionary_2_t2426271597 * L_8 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_9 = ___name;
 		NullCheck(L_8);
-		VirtualButton_t788573693 * L_10 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_8, L_9);
+		VirtualButton_t788573693 * L_10 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_8, L_9);
 		NullCheck(L_10);
 		bool L_11 = VirtualButton_get_GetButtonDown_m360947436(L_10, /*hidden argument*/NULL);
 		return L_11;
@@ -2262,7 +2262,7 @@ extern "C"  bool MobileInput_GetButtonUp_m1984999595 (MobileInput_t3367880121 * 
 		Dictionary_2_t2426271597 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_0023;
@@ -2272,7 +2272,7 @@ extern "C"  bool MobileInput_GetButtonUp_m1984999595 (MobileInput_t3367880121 * 
 		Dictionary_2_t2426271597 * L_3 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_4 = ___name;
 		NullCheck(L_3);
-		VirtualButton_t788573693 * L_5 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_3, L_4);
+		VirtualButton_t788573693 * L_5 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_3, L_4);
 		NullCheck(L_5);
 		bool L_6 = VirtualButton_get_GetButtonUp_m854510821(L_5, /*hidden argument*/NULL);
 		return L_6;
@@ -2285,7 +2285,7 @@ IL_0023:
 		Dictionary_2_t2426271597 * L_8 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_9 = ___name;
 		NullCheck(L_8);
-		VirtualButton_t788573693 * L_10 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_8, L_9);
+		VirtualButton_t788573693 * L_10 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_8, L_9);
 		NullCheck(L_10);
 		bool L_11 = VirtualButton_get_GetButtonUp_m854510821(L_10, /*hidden argument*/NULL);
 		return L_11;
@@ -2298,7 +2298,7 @@ extern "C"  bool MobileInput_GetButton_m185200134 (MobileInput_t3367880121 * __t
 		Dictionary_2_t2426271597 * L_0 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_0023;
@@ -2308,7 +2308,7 @@ extern "C"  bool MobileInput_GetButton_m185200134 (MobileInput_t3367880121 * __t
 		Dictionary_2_t2426271597 * L_3 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_4 = ___name;
 		NullCheck(L_3);
-		VirtualButton_t788573693 * L_5 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_3, L_4);
+		VirtualButton_t788573693 * L_5 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_3, L_4);
 		NullCheck(L_5);
 		bool L_6 = VirtualButton_get_GetButton_m3607587626(L_5, /*hidden argument*/NULL);
 		return L_6;
@@ -2321,7 +2321,7 @@ IL_0023:
 		Dictionary_2_t2426271597 * L_8 = ((VirtualInput_t2483683151 *)__this)->get_m_VirtualButtons_1();
 		String_t* L_9 = ___name;
 		NullCheck(L_8);
-		VirtualButton_t788573693 * L_10 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_8, L_9);
+		VirtualButton_t788573693 * L_10 = VirtFuncInvoker1< VirtualButton_t788573693 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Item(!0) */, L_8, L_9);
 		NullCheck(L_10);
 		bool L_11 = VirtualButton_get_GetButton_m3607587626(L_10, /*hidden argument*/NULL);
 		return L_11;
@@ -3244,7 +3244,7 @@ extern "C"  bool VirtualInput_AxisExists_m4150986167 (VirtualInput_t2483683151 *
 		Dictionary_2_t2313350812 * L_0 = __this->get_m_VirtualAxes_0();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -3255,7 +3255,7 @@ extern "C"  bool VirtualInput_ButtonExists_m3945423366 (VirtualInput_t2483683151
 		Dictionary_2_t2426271597 * L_0 = __this->get_m_VirtualButtons_1();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -3279,7 +3279,7 @@ extern "C"  void VirtualInput_RegisterVirtualAxis_m483799532 (VirtualInput_t2483
 		NullCheck(L_1);
 		String_t* L_2 = VirtualAxis_get_name_m3633965441(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		bool L_3 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_2);
+		bool L_3 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_2);
 		if (!L_3)
 		{
 			goto IL_0035;
@@ -3304,7 +3304,7 @@ IL_0035:
 		String_t* L_9 = VirtualAxis_get_name_m3633965441(L_8, /*hidden argument*/NULL);
 		VirtualAxis_t675652908 * L_10 = ___axis;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, VirtualAxis_t675652908 * >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::Add(!0,!1) */, L_7, L_9, L_10);
+		VirtActionInvoker2< String_t*, VirtualAxis_t675652908 * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::Add(!0,!1) */, L_7, L_9, L_10);
 		VirtualAxis_t675652908 * L_11 = ___axis;
 		NullCheck(L_11);
 		bool L_12 = VirtualAxis_get_matchWithInputManager_m3123879777(L_11, /*hidden argument*/NULL);
@@ -3347,7 +3347,7 @@ extern "C"  void VirtualInput_RegisterVirtualButton_m2830656844 (VirtualInput_t2
 		NullCheck(L_1);
 		String_t* L_2 = VirtualButton_get_name_m3914658002(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		bool L_3 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_2);
+		bool L_3 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_2);
 		if (!L_3)
 		{
 			goto IL_0035;
@@ -3372,7 +3372,7 @@ IL_0035:
 		String_t* L_9 = VirtualButton_get_name_m3914658002(L_8, /*hidden argument*/NULL);
 		VirtualButton_t788573693 * L_10 = ___button;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, VirtualButton_t788573693 * >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::Add(!0,!1) */, L_7, L_9, L_10);
+		VirtActionInvoker2< String_t*, VirtualButton_t788573693 * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::Add(!0,!1) */, L_7, L_9, L_10);
 		VirtualButton_t788573693 * L_11 = ___button;
 		NullCheck(L_11);
 		bool L_12 = VirtualButton_get_matchWithInputManager_m733886064(L_11, /*hidden argument*/NULL);
@@ -3402,7 +3402,7 @@ extern "C"  void VirtualInput_UnRegisterVirtualAxis_m3996469114 (VirtualInput_t2
 		Dictionary_2_t2313350812 * L_0 = __this->get_m_VirtualAxes_0();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_001e;
@@ -3412,7 +3412,7 @@ extern "C"  void VirtualInput_UnRegisterVirtualAxis_m3996469114 (VirtualInput_t2
 		Dictionary_2_t2313350812 * L_3 = __this->get_m_VirtualAxes_0();
 		String_t* L_4 = ___name;
 		NullCheck(L_3);
-		VirtFuncInvoker1< bool, String_t* >::Invoke(31 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::Remove(!0) */, L_3, L_4);
+		VirtFuncInvoker1< bool, String_t* >::Invoke(33 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::Remove(!0) */, L_3, L_4);
 	}
 
 IL_001e:
@@ -3427,7 +3427,7 @@ extern "C"  void VirtualInput_UnRegisterVirtualButton_m2596263241 (VirtualInput_
 		Dictionary_2_t2426271597 * L_0 = __this->get_m_VirtualButtons_1();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ContainsKey(!0) */, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_001e;
@@ -3437,7 +3437,7 @@ extern "C"  void VirtualInput_UnRegisterVirtualButton_m2596263241 (VirtualInput_
 		Dictionary_2_t2426271597 * L_3 = __this->get_m_VirtualButtons_1();
 		String_t* L_4 = ___name;
 		NullCheck(L_3);
-		VirtFuncInvoker1< bool, String_t* >::Invoke(31 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::Remove(!0) */, L_3, L_4);
+		VirtFuncInvoker1< bool, String_t* >::Invoke(33 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::Remove(!0) */, L_3, L_4);
 	}
 
 IL_001e:
@@ -3453,7 +3453,7 @@ extern "C"  VirtualAxis_t675652908 * VirtualInput_VirtualAxisReference_m10316924
 		Dictionary_2_t2313350812 * L_0 = __this->get_m_VirtualAxes_0();
 		String_t* L_1 = ___name;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::ContainsKey(!0) */, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_0022;
@@ -3463,7 +3463,7 @@ extern "C"  VirtualAxis_t675652908 * VirtualInput_VirtualAxisReference_m10316924
 		Dictionary_2_t2313350812 * L_3 = __this->get_m_VirtualAxes_0();
 		String_t* L_4 = ___name;
 		NullCheck(L_3);
-		VirtualAxis_t675652908 * L_5 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_3, L_4);
+		VirtualAxis_t675652908 * L_5 = VirtFuncInvoker1< VirtualAxis_t675652908 *, String_t* >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Item(!0) */, L_3, L_4);
 		G_B3_0 = L_5;
 		goto IL_0023;
 	}
@@ -3930,7 +3930,7 @@ IL_0016:
 		Dictionary_2_t3645233297 * L_2 = __this->get_m_HelperCameras_10();
 		Camera_t3533968274 * L_3 = ___currentCam;
 		NullCheck(L_2);
-		bool L_4 = VirtFuncInvoker1< bool, Camera_t3533968274 * >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Camera,System.Boolean>::ContainsKey(!0) */, L_2, L_3);
+		bool L_4 = VirtFuncInvoker1< bool, Camera_t3533968274 * >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Camera,System.Boolean>::ContainsKey(!0) */, L_2, L_3);
 		if (L_4)
 		{
 			goto IL_0034;
@@ -3940,7 +3940,7 @@ IL_0016:
 		Dictionary_2_t3645233297 * L_5 = __this->get_m_HelperCameras_10();
 		Camera_t3533968274 * L_6 = ___currentCam;
 		NullCheck(L_5);
-		VirtActionInvoker2< Camera_t3533968274 *, bool >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Camera,System.Boolean>::Add(!0,!1) */, L_5, L_6, (bool)0);
+		VirtActionInvoker2< Camera_t3533968274 *, bool >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Camera,System.Boolean>::Add(!0,!1) */, L_5, L_6, (bool)0);
 	}
 
 IL_0034:
@@ -3948,7 +3948,7 @@ IL_0034:
 		Dictionary_2_t3645233297 * L_7 = __this->get_m_HelperCameras_10();
 		Camera_t3533968274 * L_8 = ___currentCam;
 		NullCheck(L_7);
-		bool L_9 = VirtFuncInvoker1< bool, Camera_t3533968274 * >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<UnityEngine.Camera,System.Boolean>::get_Item(!0) */, L_7, L_8);
+		bool L_9 = VirtFuncInvoker1< bool, Camera_t3533968274 * >::Invoke(20 /* !1 System.Collections.Generic.Dictionary`2<UnityEngine.Camera,System.Boolean>::get_Item(!0) */, L_7, L_8);
 		if (!L_9)
 		{
 			goto IL_0046;
@@ -3981,7 +3981,7 @@ IL_0063:
 		Dictionary_2_t3645233297 * L_16 = __this->get_m_HelperCameras_10();
 		Camera_t3533968274 * L_17 = ___currentCam;
 		NullCheck(L_16);
-		VirtActionInvoker2< Camera_t3533968274 *, bool >::Invoke(26 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Camera,System.Boolean>::set_Item(!0,!1) */, L_16, L_17, (bool)1);
+		VirtActionInvoker2< Camera_t3533968274 *, bool >::Invoke(21 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Camera,System.Boolean>::set_Item(!0,!1) */, L_16, L_17, (bool)1);
 		return;
 	}
 }
@@ -5612,7 +5612,7 @@ IL_00ae:
 		Camera_t3533968274 * L_23 = ___currentCamera;
 		Camera_t3533968274 ** L_24 = ___reflectionCamera;
 		NullCheck(L_22);
-		VirtFuncInvoker2< bool, Camera_t3533968274 *, Camera_t3533968274 ** >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera>::TryGetValue(!0,!1&) */, L_22, L_23, L_24);
+		VirtFuncInvoker2< bool, Camera_t3533968274 *, Camera_t3533968274 ** >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera>::TryGetValue(!0,!1&) */, L_22, L_23, L_24);
 		Camera_t3533968274 ** L_25 = ___reflectionCamera;
 		bool L_26 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, (*((Camera_t3533968274 **)L_25)), /*hidden argument*/NULL);
 		if (L_26)
@@ -5704,7 +5704,7 @@ IL_00ae:
 		Camera_t3533968274 * L_60 = ___currentCamera;
 		Camera_t3533968274 ** L_61 = ___reflectionCamera;
 		NullCheck(L_59);
-		VirtActionInvoker2< Camera_t3533968274 *, Camera_t3533968274 * >::Invoke(26 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera>::set_Item(!0,!1) */, L_59, L_60, (*((Camera_t3533968274 **)L_61)));
+		VirtActionInvoker2< Camera_t3533968274 *, Camera_t3533968274 * >::Invoke(21 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera>::set_Item(!0,!1) */, L_59, L_60, (*((Camera_t3533968274 **)L_61)));
 	}
 
 IL_0186:
@@ -5777,7 +5777,7 @@ IL_0227:
 		Camera_t3533968274 * L_82 = ___currentCamera;
 		Camera_t3533968274 ** L_83 = ___refractionCamera;
 		NullCheck(L_81);
-		VirtFuncInvoker2< bool, Camera_t3533968274 *, Camera_t3533968274 ** >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera>::TryGetValue(!0,!1&) */, L_81, L_82, L_83);
+		VirtFuncInvoker2< bool, Camera_t3533968274 *, Camera_t3533968274 ** >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera>::TryGetValue(!0,!1&) */, L_81, L_82, L_83);
 		Camera_t3533968274 ** L_84 = ___refractionCamera;
 		bool L_85 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, (*((Camera_t3533968274 **)L_84)), /*hidden argument*/NULL);
 		if (L_85)
@@ -5869,7 +5869,7 @@ IL_0227:
 		Camera_t3533968274 * L_119 = ___currentCamera;
 		Camera_t3533968274 ** L_120 = ___refractionCamera;
 		NullCheck(L_118);
-		VirtActionInvoker2< Camera_t3533968274 *, Camera_t3533968274 * >::Invoke(26 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera>::set_Item(!0,!1) */, L_118, L_119, (*((Camera_t3533968274 **)L_120)));
+		VirtActionInvoker2< Camera_t3533968274 *, Camera_t3533968274 * >::Invoke(21 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera>::set_Item(!0,!1) */, L_118, L_119, (*((Camera_t3533968274 **)L_120)));
 	}
 
 IL_02ff:

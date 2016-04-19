@@ -50,6 +50,10 @@ struct LayoutCache_t3653031512;
 struct GUILayoutEntry_t1011928986;
 // UnityEngine.GUIStyle
 struct GUIStyle_t1006925219;
+// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
+struct ConstructorDelegate_t4072949631;
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate
+struct GetDelegate_t270123739;
 // UnityEngine.DisallowMultipleComponent
 struct DisallowMultipleComponent_t3647875775;
 // UnityEngine.ExecuteInEditMode
@@ -111,6 +115,8 @@ struct MonoBehaviour_t3012272455;
 #include "UnityEngine_UnityEngine_GUILayoutUtility_LayoutCac3653031512.h"
 #include "UnityEngine_UnityEngine_GUILayoutEntry1011928986.h"
 #include "UnityEngine_UnityEngine_GUIStyle1006925219.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_4072949631.h"
+#include "UnityEngine_SimpleJson_Reflection_ReflectionUtils_G270123739.h"
 #include "UnityEngine_UnityEngine_DisallowMultipleComponent3647875775.h"
 #include "UnityEngine_UnityEngine_ExecuteInEditMode2676812948.h"
 #include "UnityEngine_UnityEngine_RequireComponent3196495237.h"
@@ -633,6 +639,36 @@ public:
 	inline GUIStyle_t1006925219 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline GUIStyle_t1006925219 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, GUIStyle_t1006925219 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate[]
+struct ConstructorDelegateU5BU5D_t2569897894  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) ConstructorDelegate_t4072949631 * m_Items[1];
+
+public:
+	inline ConstructorDelegate_t4072949631 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline ConstructorDelegate_t4072949631 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, ConstructorDelegate_t4072949631 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// SimpleJson.Reflection.ReflectionUtils/GetDelegate[]
+struct GetDelegateU5BU5D_t1362511706  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) GetDelegate_t270123739 * m_Items[1];
+
+public:
+	inline GetDelegate_t270123739 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline GetDelegate_t270123739 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, GetDelegate_t270123739 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

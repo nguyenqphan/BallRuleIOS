@@ -12,8 +12,6 @@
 
 // ShowPanels
 struct ShowPanels_t2673010796;
-// StartOptions
-struct StartOptions_t3075365884;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455.h"
 
@@ -31,8 +29,6 @@ public:
 	ShowPanels_t2673010796 * ___showPanels_2;
 	// System.Boolean Pause::isPaused
 	bool ___isPaused_3;
-	// StartOptions Pause::startScript
-	StartOptions_t3075365884 * ___startScript_4;
 
 public:
 	inline static int32_t get_offset_of_showPanels_2() { return static_cast<int32_t>(offsetof(Pause_t76887510, ___showPanels_2)); }
@@ -50,15 +46,6 @@ public:
 	inline void set_isPaused_3(bool value)
 	{
 		___isPaused_3 = value;
-	}
-
-	inline static int32_t get_offset_of_startScript_4() { return static_cast<int32_t>(offsetof(Pause_t76887510, ___startScript_4)); }
-	inline StartOptions_t3075365884 * get_startScript_4() const { return ___startScript_4; }
-	inline StartOptions_t3075365884 ** get_address_of_startScript_4() { return &___startScript_4; }
-	inline void set_startScript_4(StartOptions_t3075365884 * value)
-	{
-		___startScript_4 = value;
-		Il2CppCodeGenWriteBarrier(&___startScript_4, value);
 	}
 };
 

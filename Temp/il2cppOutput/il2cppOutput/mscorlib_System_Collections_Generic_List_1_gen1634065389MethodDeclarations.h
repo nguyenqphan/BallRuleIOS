@@ -41,8 +41,8 @@ struct Comparison_1_t3540781296;
 #include "mscorlib_System_Collections_Generic_List_1_Enumera4014815677.h"
 
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
-extern "C"  void List_1__ctor_m3048469268_gshared (List_1_t1634065389 * __this, const MethodInfo* method);
-#define List_1__ctor_m3048469268(__this, method) ((  void (*) (List_1_t1634065389 *, const MethodInfo*))List_1__ctor_m3048469268_gshared)(__this, method)
+extern "C"  void List_1__ctor_m3099765286_gshared (List_1_t1634065389 * __this, const MethodInfo* method);
+#define List_1__ctor_m3099765286(__this, method) ((  void (*) (List_1_t1634065389 *, const MethodInfo*))List_1__ctor_m3099765286_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor(System.Int32)
 extern "C"  void List_1__ctor_m3643386469_gshared (List_1_t1634065389 * __this, int32_t ___capacity, const MethodInfo* method);
 #define List_1__ctor_m3643386469(__this, ___capacity, method) ((  void (*) (List_1_t1634065389 *, int32_t, const MethodInfo*))List_1__ctor_m3643386469_gshared)(__this, ___capacity, method)

@@ -41,6 +41,6 @@
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Camera,System.Boolean>::CopyTo(TValue[],System.Int32)
 #define ValueCollection_CopyTo_m1082676234(__this, ___array, ___index, method) ((  void (*) (ValueCollection_t1272403095 *, BooleanU5BU5D_t3804927312*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m2147895796_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Camera,System.Boolean>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m4104610989(__this, method) ((  Enumerator_t3412261239  (*) (ValueCollection_t1272403095 *, const MethodInfo*))ValueCollection_GetEnumerator_m387880093_gshared)(__this, method)
+#define ValueCollection_GetEnumerator_m4104610989(__this, method) ((  Enumerator_t3412261240  (*) (ValueCollection_t1272403095 *, const MethodInfo*))ValueCollection_GetEnumerator_m387880093_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Camera,System.Boolean>::get_Count()
 #define ValueCollection_get_Count_m653902864(__this, method) ((  int32_t (*) (ValueCollection_t1272403095 *, const MethodInfo*))ValueCollection_get_Count_m971561266_gshared)(__this, method)

@@ -41,6 +41,6 @@
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::CopyTo(TValue[],System.Int32)
 #define ValueCollection_CopyTo_m2016999438(__this, ___array, ___index, method) ((  void (*) (ValueCollection_t4235487906 *, VirtualAxisU5BU5D_t2735875237*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m1735386657_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m2591027447(__this, method) ((  Enumerator_t2080378754  (*) (ValueCollection_t4235487906 *, const MethodInfo*))ValueCollection_GetEnumerator_m1204216004_gshared)(__this, method)
+#define ValueCollection_GetEnumerator_m2591027447(__this, method) ((  Enumerator_t2080378755  (*) (ValueCollection_t4235487906 *, const MethodInfo*))ValueCollection_GetEnumerator_m1204216004_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::get_Count()
 #define ValueCollection_get_Count_m3586683084(__this, method) ((  int32_t (*) (ValueCollection_t4235487906 *, const MethodInfo*))ValueCollection_get_Count_m2709231847_gshared)(__this, method)

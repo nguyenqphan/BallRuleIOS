@@ -24,6 +24,8 @@ struct TextColor_t940396054;
 struct UpdateScore_t1082839849;
 // CubeManager
 struct CubeManager_t4034287000;
+// UnityAdsManager
+struct UnityAdsManager_t3288720914;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455.h"
 
@@ -65,6 +67,8 @@ public:
 	UpdateScore_t1082839849 * ___updateScore_14;
 	// CubeManager StartOptions::cubeManager
 	CubeManager_t4034287000 * ___cubeManager_15;
+	// UnityAdsManager StartOptions::unityAdsManager
+	UnityAdsManager_t3288720914 * ___unityAdsManager_16;
 
 public:
 	inline static int32_t get_offset_of_sceneToStart_2() { return static_cast<int32_t>(offsetof(StartOptions_t3075365884, ___sceneToStart_2)); }
@@ -186,6 +190,15 @@ public:
 	{
 		___cubeManager_15 = value;
 		Il2CppCodeGenWriteBarrier(&___cubeManager_15, value);
+	}
+
+	inline static int32_t get_offset_of_unityAdsManager_16() { return static_cast<int32_t>(offsetof(StartOptions_t3075365884, ___unityAdsManager_16)); }
+	inline UnityAdsManager_t3288720914 * get_unityAdsManager_16() const { return ___unityAdsManager_16; }
+	inline UnityAdsManager_t3288720914 ** get_address_of_unityAdsManager_16() { return &___unityAdsManager_16; }
+	inline void set_unityAdsManager_16(UnityAdsManager_t3288720914 * value)
+	{
+		___unityAdsManager_16 = value;
+		Il2CppCodeGenWriteBarrier(&___unityAdsManager_16, value);
 	}
 };
 

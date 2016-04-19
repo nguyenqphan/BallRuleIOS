@@ -5675,7 +5675,7 @@ extern "C"  bool PointerInputModule_GetPointerData_m1554981113 (PointerInputModu
 		int32_t L_1 = ___id;
 		PointerEventData_t3205101634 ** L_2 = ___data;
 		NullCheck(L_0);
-		bool L_3 = VirtFuncInvoker2< bool, int32_t, PointerEventData_t3205101634 ** >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::TryGetValue(!0,!1&) */, L_0, L_1, L_2);
+		bool L_3 = VirtFuncInvoker2< bool, int32_t, PointerEventData_t3205101634 ** >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::TryGetValue(!0,!1&) */, L_0, L_1, L_2);
 		if (L_3)
 		{
 			goto IL_003e;
@@ -5705,7 +5705,7 @@ extern "C"  bool PointerInputModule_GetPointerData_m1554981113 (PointerInputModu
 		int32_t L_12 = ___id;
 		PointerEventData_t3205101634 ** L_13 = ___data;
 		NullCheck(L_11);
-		VirtActionInvoker2< int32_t, PointerEventData_t3205101634 * >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::Add(!0,!1) */, L_11, L_12, (*((PointerEventData_t3205101634 **)L_13)));
+		VirtActionInvoker2< int32_t, PointerEventData_t3205101634 * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::Add(!0,!1) */, L_11, L_12, (*((PointerEventData_t3205101634 **)L_13)));
 		return (bool)1;
 	}
 
@@ -5723,7 +5723,7 @@ extern "C"  void PointerInputModule_RemovePointerData_m3101459861 (PointerInputM
 		NullCheck(L_1);
 		int32_t L_2 = PointerEventData_get_pointerId_m315063471(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtFuncInvoker1< bool, int32_t >::Invoke(31 /* System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::Remove(!0) */, L_0, L_2);
+		VirtFuncInvoker1< bool, int32_t >::Invoke(33 /* System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::Remove(!0) */, L_0, L_2);
 		return;
 	}
 }
@@ -19188,7 +19188,7 @@ IL_0012:
 		NullCheck(L_4);
 		Font_t1525081276 * L_5 = Text_get_font_m2437753165(L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtFuncInvoker2< bool, Font_t1525081276 *, List_1_t4083417167 ** >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::TryGetValue(!0,!1&) */, L_3, L_5, (&V_0));
+		VirtFuncInvoker2< bool, Font_t1525081276 *, List_1_t4083417167 ** >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::TryGetValue(!0,!1&) */, L_3, L_5, (&V_0));
 		List_1_t4083417167 * L_6 = V_0;
 		if (L_6)
 		{
@@ -19225,7 +19225,7 @@ IL_004b:
 		Font_t1525081276 * L_14 = Text_get_font_m2437753165(L_13, /*hidden argument*/NULL);
 		List_1_t4083417167 * L_15 = V_0;
 		NullCheck(L_12);
-		VirtActionInvoker2< Font_t1525081276 *, List_1_t4083417167 * >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Add(!0,!1) */, L_12, L_14, L_15);
+		VirtActionInvoker2< Font_t1525081276 *, List_1_t4083417167 * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Add(!0,!1) */, L_12, L_14, L_15);
 	}
 
 IL_0062:
@@ -19269,7 +19269,7 @@ extern "C"  void FontUpdateTracker_RebuildForFont_m4050910816 (Il2CppObject * __
 		Dictionary_2_t1956621361 * L_0 = ((FontUpdateTracker_t738866185_StaticFields*)FontUpdateTracker_t738866185_il2cpp_TypeInfo_var->static_fields)->get_m_Tracked_0();
 		Font_t1525081276 * L_1 = ___f;
 		NullCheck(L_0);
-		VirtFuncInvoker2< bool, Font_t1525081276 *, List_1_t4083417167 ** >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::TryGetValue(!0,!1&) */, L_0, L_1, (&V_0));
+		VirtFuncInvoker2< bool, Font_t1525081276 *, List_1_t4083417167 ** >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::TryGetValue(!0,!1&) */, L_0, L_1, (&V_0));
 		List_1_t4083417167 * L_2 = V_0;
 		if (L_2)
 		{
@@ -19350,7 +19350,7 @@ IL_0012:
 		NullCheck(L_4);
 		Font_t1525081276 * L_5 = Text_get_font_m2437753165(L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtFuncInvoker2< bool, Font_t1525081276 *, List_1_t4083417167 ** >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::TryGetValue(!0,!1&) */, L_3, L_5, (&V_0));
+		VirtFuncInvoker2< bool, Font_t1525081276 *, List_1_t4083417167 ** >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::TryGetValue(!0,!1&) */, L_3, L_5, (&V_0));
 		List_1_t4083417167 * L_6 = V_0;
 		if (L_6)
 		{
@@ -19382,7 +19382,7 @@ IL_002c:
 		NullCheck(L_12);
 		Font_t1525081276 * L_13 = Text_get_font_m2437753165(L_12, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		VirtFuncInvoker1< bool, Font_t1525081276 * >::Invoke(31 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Remove(!0) */, L_11, L_13);
+		VirtFuncInvoker1< bool, Font_t1525081276 * >::Invoke(33 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Remove(!0) */, L_11, L_13);
 		Dictionary_2_t1956621361 * L_14 = ((FontUpdateTracker_t738866185_StaticFields*)FontUpdateTracker_t738866185_il2cpp_TypeInfo_var->static_fields)->get_m_Tracked_0();
 		NullCheck(L_14);
 		int32_t L_15 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::get_Count() */, L_14);
@@ -22517,7 +22517,7 @@ IL_000d:
 		Dictionary_2_t3781205267 * L_3 = L_2->get_m_Graphics_1();
 		Canvas_t3534013893 * L_4 = ___c;
 		NullCheck(L_3);
-		VirtFuncInvoker2< bool, Canvas_t3534013893 *, IndexedSet_1_t159628414 ** >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::TryGetValue(!0,!1&) */, L_3, L_4, (&V_0));
+		VirtFuncInvoker2< bool, Canvas_t3534013893 *, IndexedSet_1_t159628414 ** >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::TryGetValue(!0,!1&) */, L_3, L_4, (&V_0));
 		IndexedSet_1_t159628414 * L_5 = V_0;
 		if (!L_5)
 		{
@@ -22548,7 +22548,7 @@ IL_002f:
 		Canvas_t3534013893 * L_13 = ___c;
 		IndexedSet_1_t159628414 * L_14 = V_0;
 		NullCheck(L_12);
-		VirtActionInvoker2< Canvas_t3534013893 *, IndexedSet_1_t159628414 * >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::Add(!0,!1) */, L_12, L_13, L_14);
+		VirtActionInvoker2< Canvas_t3534013893 *, IndexedSet_1_t159628414 * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::Add(!0,!1) */, L_12, L_13, L_14);
 		return;
 	}
 }
@@ -22584,7 +22584,7 @@ IL_000d:
 		Dictionary_2_t3781205267 * L_3 = L_2->get_m_Graphics_1();
 		Canvas_t3534013893 * L_4 = ___c;
 		NullCheck(L_3);
-		bool L_5 = VirtFuncInvoker2< bool, Canvas_t3534013893 *, IndexedSet_1_t159628414 ** >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::TryGetValue(!0,!1&) */, L_3, L_4, (&V_0));
+		bool L_5 = VirtFuncInvoker2< bool, Canvas_t3534013893 *, IndexedSet_1_t159628414 ** >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::TryGetValue(!0,!1&) */, L_3, L_4, (&V_0));
 		if (!L_5)
 		{
 			goto IL_002c;
@@ -22621,7 +22621,7 @@ extern "C"  Il2CppObject* GraphicRegistry_GetGraphicsForCanvas_m2740028912 (Il2C
 		Dictionary_2_t3781205267 * L_1 = L_0->get_m_Graphics_1();
 		Canvas_t3534013893 * L_2 = ___canvas;
 		NullCheck(L_1);
-		bool L_3 = VirtFuncInvoker2< bool, Canvas_t3534013893 *, IndexedSet_1_t159628414 ** >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::TryGetValue(!0,!1&) */, L_1, L_2, (&V_0));
+		bool L_3 = VirtFuncInvoker2< bool, Canvas_t3534013893 *, IndexedSet_1_t159628414 ** >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::TryGetValue(!0,!1&) */, L_1, L_2, (&V_0));
 		if (!L_3)
 		{
 			goto IL_0019;
@@ -32029,7 +32029,7 @@ IL_0066:
 		V_4 = L_14;
 		Dictionary_2_t190145395 * L_15 = V_4;
 		NullCheck(L_15);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_15, _stringLiteral287963877, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_15, _stringLiteral287963877, 0);
 		Dictionary_2_t190145395 * L_16 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(InputField_t2345609593_il2cpp_TypeInfo_var);
 		((InputField_t2345609593_StaticFields*)InputField_t2345609593_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map0_63(L_16);
@@ -32041,7 +32041,7 @@ IL_009e:
 		Dictionary_2_t190145395 * L_17 = ((InputField_t2345609593_StaticFields*)InputField_t2345609593_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map0_63();
 		String_t* L_18 = V_3;
 		NullCheck(L_17);
-		bool L_19 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_17, L_18, (&V_5));
+		bool L_19 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_17, L_18, (&V_5));
 		if (!L_19)
 		{
 			goto IL_00c9;

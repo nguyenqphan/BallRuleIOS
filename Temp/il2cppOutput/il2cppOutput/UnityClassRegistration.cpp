@@ -30,6 +30,9 @@ void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_UI();
 	RegisterModule_UI();
 
+	void RegisterModule_UnityAds();
+	RegisterModule_UnityAds();
+
 	void RegisterModule_IMGUI();
 	RegisterModule_IMGUI();
 
@@ -37,7 +40,7 @@ void RegisterStaticallyLinkedModulesGranular()
 
 void RegisterAllClasses()
 {
-	//Total: 82 classes
+	//Total: 83 classes
 	//0. QualitySettings
 	void RegisterClass_QualitySettings();
 	RegisterClass_QualitySettings();
@@ -362,7 +365,11 @@ void RegisterAllClasses()
 	void RegisterClass_AudioMixerGroup();
 	RegisterClass_AudioMixerGroup();
 
-	//81. RuntimeInitializeOnLoadManager
+	//81. UnityAdsSettings
+	void RegisterClass_UnityAdsSettings();
+	RegisterClass_UnityAdsSettings();
+
+	//82. RuntimeInitializeOnLoadManager
 	void RegisterClass_RuntimeInitializeOnLoadManager();
 	RegisterClass_RuntimeInitializeOnLoadManager();
 

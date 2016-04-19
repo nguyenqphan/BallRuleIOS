@@ -24,6 +24,7 @@ public class StartOptions : MonoBehaviour {
 	private TextColor textColor;
 	private UpdateScore updateScore;
 	private CubeManager cubeManager;
+	private UnityAdsManager unityAdsManager;
 
 	void Awake()
 	{
@@ -38,6 +39,8 @@ public class StartOptions : MonoBehaviour {
 		updateScore = GetComponent<UpdateScore>();
 
 		cubeManager = GameObject.FindWithTag("GameManager").GetComponent<CubeManager>();
+
+		unityAdsManager = GameObject.FindWithTag("GameManager").GetComponent<UnityAdsManager>();
 
 	}
 
@@ -97,12 +100,19 @@ public class StartOptions : MonoBehaviour {
 
 	public void RefleshButtonClicked()
 	{
+
+
 //		playMusic.FadeDown(0.1f);
 //		playMusic.PlaySelectedMusic(1);
 //		playMusic.FadeUp(0.1f);
 //		GameStateManager.Instance.Load();
 		cubeManager.cubeLayerMask.value = 8192;	
-		GameStateManager.Instance.NumBerOfGame++;
+//		GameStateManager.Instance.NumBerOfGame++;
+//		if(GameStateManager.Instance.NumBerOfGame %3 == 0)
+//		{
+//			unityAdsManager.ShowAds();
+//		}
+
 		if(GameStateManager.Instance.IsChallenged)
 		{
 			GameStateManager.Instance.IsOutOfTime = false;

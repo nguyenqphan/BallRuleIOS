@@ -44,6 +44,8 @@ struct FieldInfoU5BU5D_t1144794227;
 struct MethodInfo_t;
 // System.Reflection.MethodInfo[]
 struct MethodInfoU5BU5D_t1668237648;
+// System.Reflection.PropertyInfo[]
+struct PropertyInfoU5BU5D_t1348579340;
 // System.Reflection.PropertyInfo
 struct PropertyInfo_t;
 // System.Object
@@ -112,6 +114,8 @@ extern "C"  TypeU5BU5D_t3431720054* EnumBuilder_GetInterfaces_m4245642789 (EnumB
 extern "C"  MethodInfo_t * EnumBuilder_GetMethodImpl_m133610325 (EnumBuilder_t3949082343 * __this, String_t* ___name, int32_t ___bindingAttr, Binder_t4180926488 * ___binder, int32_t ___callConvention, TypeU5BU5D_t3431720054* ___types, ParameterModifierU5BU5D_t3379147067* ___modifiers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo[] System.Reflection.Emit.EnumBuilder::GetMethods(System.Reflection.BindingFlags)
 extern "C"  MethodInfoU5BU5D_t1668237648* EnumBuilder_GetMethods_m2248069569 (EnumBuilder_t3949082343 * __this, int32_t ___bindingAttr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.PropertyInfo[] System.Reflection.Emit.EnumBuilder::GetProperties(System.Reflection.BindingFlags)
+extern "C"  PropertyInfoU5BU5D_t1348579340* EnumBuilder_GetProperties_m2915149454 (EnumBuilder_t3949082343 * __this, int32_t ___bindingAttr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.PropertyInfo System.Reflection.Emit.EnumBuilder::GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
 extern "C"  PropertyInfo_t * EnumBuilder_GetPropertyImpl_m457098616 (EnumBuilder_t3949082343 * __this, String_t* ___name, int32_t ___bindingAttr, Binder_t4180926488 * ___binder, Type_t * ___returnType, TypeU5BU5D_t3431720054* ___types, ParameterModifierU5BU5D_t3379147067* ___modifiers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.EnumBuilder::HasElementTypeImpl()

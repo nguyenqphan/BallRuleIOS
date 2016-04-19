@@ -100,32 +100,28 @@ public:
 	List_1_t514686775 * ___smallCubeList_34;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::smallestCubeList
 	List_1_t514686775 * ___smallestCubeList_35;
-	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::starList
-	List_1_t514686775 * ___starList_36;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> SpawnerManager::ballObstacleList
-	List_1_t514686775 * ___ballObstacleList_37;
+	List_1_t514686775 * ___ballObstacleList_36;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::cubeTransList
-	List_1_t1081512082 * ___cubeTransList_38;
+	List_1_t1081512082 * ___cubeTransList_37;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::cubeParticleTransList
-	List_1_t1081512082 * ___cubeParticleTransList_39;
+	List_1_t1081512082 * ___cubeParticleTransList_38;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::diamondTransList
-	List_1_t1081512082 * ___diamondTransList_40;
+	List_1_t1081512082 * ___diamondTransList_39;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::diaEmissTransList
-	List_1_t1081512082 * ___diaEmissTransList_41;
+	List_1_t1081512082 * ___diaEmissTransList_40;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::diaBreakingTransList
-	List_1_t1081512082 * ___diaBreakingTransList_42;
+	List_1_t1081512082 * ___diaBreakingTransList_41;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::ballTransList
-	List_1_t1081512082 * ___ballTransList_43;
+	List_1_t1081512082 * ___ballTransList_42;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::ballExplodeTransList
-	List_1_t1081512082 * ___ballExplodeTransList_44;
+	List_1_t1081512082 * ___ballExplodeTransList_43;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::smallCubeTransList
-	List_1_t1081512082 * ___smallCubeTransList_45;
+	List_1_t1081512082 * ___smallCubeTransList_44;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::smallestCubeTransList
-	List_1_t1081512082 * ___smallestCubeTransList_46;
-	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::starTransList
-	List_1_t1081512082 * ___starTransList_47;
+	List_1_t1081512082 * ___smallestCubeTransList_45;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> SpawnerManager::ballObstacleTransList
-	List_1_t1081512082 * ___ballObstacleTransList_48;
+	List_1_t1081512082 * ___ballObstacleTransList_46;
 
 public:
 	inline static int32_t get_offset_of_spawnP_2() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___spawnP_2)); }
@@ -433,121 +429,103 @@ public:
 		Il2CppCodeGenWriteBarrier(&___smallestCubeList_35, value);
 	}
 
-	inline static int32_t get_offset_of_starList_36() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___starList_36)); }
-	inline List_1_t514686775 * get_starList_36() const { return ___starList_36; }
-	inline List_1_t514686775 ** get_address_of_starList_36() { return &___starList_36; }
-	inline void set_starList_36(List_1_t514686775 * value)
+	inline static int32_t get_offset_of_ballObstacleList_36() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___ballObstacleList_36)); }
+	inline List_1_t514686775 * get_ballObstacleList_36() const { return ___ballObstacleList_36; }
+	inline List_1_t514686775 ** get_address_of_ballObstacleList_36() { return &___ballObstacleList_36; }
+	inline void set_ballObstacleList_36(List_1_t514686775 * value)
 	{
-		___starList_36 = value;
-		Il2CppCodeGenWriteBarrier(&___starList_36, value);
+		___ballObstacleList_36 = value;
+		Il2CppCodeGenWriteBarrier(&___ballObstacleList_36, value);
 	}
 
-	inline static int32_t get_offset_of_ballObstacleList_37() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___ballObstacleList_37)); }
-	inline List_1_t514686775 * get_ballObstacleList_37() const { return ___ballObstacleList_37; }
-	inline List_1_t514686775 ** get_address_of_ballObstacleList_37() { return &___ballObstacleList_37; }
-	inline void set_ballObstacleList_37(List_1_t514686775 * value)
+	inline static int32_t get_offset_of_cubeTransList_37() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___cubeTransList_37)); }
+	inline List_1_t1081512082 * get_cubeTransList_37() const { return ___cubeTransList_37; }
+	inline List_1_t1081512082 ** get_address_of_cubeTransList_37() { return &___cubeTransList_37; }
+	inline void set_cubeTransList_37(List_1_t1081512082 * value)
 	{
-		___ballObstacleList_37 = value;
-		Il2CppCodeGenWriteBarrier(&___ballObstacleList_37, value);
+		___cubeTransList_37 = value;
+		Il2CppCodeGenWriteBarrier(&___cubeTransList_37, value);
 	}
 
-	inline static int32_t get_offset_of_cubeTransList_38() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___cubeTransList_38)); }
-	inline List_1_t1081512082 * get_cubeTransList_38() const { return ___cubeTransList_38; }
-	inline List_1_t1081512082 ** get_address_of_cubeTransList_38() { return &___cubeTransList_38; }
-	inline void set_cubeTransList_38(List_1_t1081512082 * value)
+	inline static int32_t get_offset_of_cubeParticleTransList_38() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___cubeParticleTransList_38)); }
+	inline List_1_t1081512082 * get_cubeParticleTransList_38() const { return ___cubeParticleTransList_38; }
+	inline List_1_t1081512082 ** get_address_of_cubeParticleTransList_38() { return &___cubeParticleTransList_38; }
+	inline void set_cubeParticleTransList_38(List_1_t1081512082 * value)
 	{
-		___cubeTransList_38 = value;
-		Il2CppCodeGenWriteBarrier(&___cubeTransList_38, value);
+		___cubeParticleTransList_38 = value;
+		Il2CppCodeGenWriteBarrier(&___cubeParticleTransList_38, value);
 	}
 
-	inline static int32_t get_offset_of_cubeParticleTransList_39() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___cubeParticleTransList_39)); }
-	inline List_1_t1081512082 * get_cubeParticleTransList_39() const { return ___cubeParticleTransList_39; }
-	inline List_1_t1081512082 ** get_address_of_cubeParticleTransList_39() { return &___cubeParticleTransList_39; }
-	inline void set_cubeParticleTransList_39(List_1_t1081512082 * value)
+	inline static int32_t get_offset_of_diamondTransList_39() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___diamondTransList_39)); }
+	inline List_1_t1081512082 * get_diamondTransList_39() const { return ___diamondTransList_39; }
+	inline List_1_t1081512082 ** get_address_of_diamondTransList_39() { return &___diamondTransList_39; }
+	inline void set_diamondTransList_39(List_1_t1081512082 * value)
 	{
-		___cubeParticleTransList_39 = value;
-		Il2CppCodeGenWriteBarrier(&___cubeParticleTransList_39, value);
+		___diamondTransList_39 = value;
+		Il2CppCodeGenWriteBarrier(&___diamondTransList_39, value);
 	}
 
-	inline static int32_t get_offset_of_diamondTransList_40() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___diamondTransList_40)); }
-	inline List_1_t1081512082 * get_diamondTransList_40() const { return ___diamondTransList_40; }
-	inline List_1_t1081512082 ** get_address_of_diamondTransList_40() { return &___diamondTransList_40; }
-	inline void set_diamondTransList_40(List_1_t1081512082 * value)
+	inline static int32_t get_offset_of_diaEmissTransList_40() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___diaEmissTransList_40)); }
+	inline List_1_t1081512082 * get_diaEmissTransList_40() const { return ___diaEmissTransList_40; }
+	inline List_1_t1081512082 ** get_address_of_diaEmissTransList_40() { return &___diaEmissTransList_40; }
+	inline void set_diaEmissTransList_40(List_1_t1081512082 * value)
 	{
-		___diamondTransList_40 = value;
-		Il2CppCodeGenWriteBarrier(&___diamondTransList_40, value);
+		___diaEmissTransList_40 = value;
+		Il2CppCodeGenWriteBarrier(&___diaEmissTransList_40, value);
 	}
 
-	inline static int32_t get_offset_of_diaEmissTransList_41() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___diaEmissTransList_41)); }
-	inline List_1_t1081512082 * get_diaEmissTransList_41() const { return ___diaEmissTransList_41; }
-	inline List_1_t1081512082 ** get_address_of_diaEmissTransList_41() { return &___diaEmissTransList_41; }
-	inline void set_diaEmissTransList_41(List_1_t1081512082 * value)
+	inline static int32_t get_offset_of_diaBreakingTransList_41() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___diaBreakingTransList_41)); }
+	inline List_1_t1081512082 * get_diaBreakingTransList_41() const { return ___diaBreakingTransList_41; }
+	inline List_1_t1081512082 ** get_address_of_diaBreakingTransList_41() { return &___diaBreakingTransList_41; }
+	inline void set_diaBreakingTransList_41(List_1_t1081512082 * value)
 	{
-		___diaEmissTransList_41 = value;
-		Il2CppCodeGenWriteBarrier(&___diaEmissTransList_41, value);
+		___diaBreakingTransList_41 = value;
+		Il2CppCodeGenWriteBarrier(&___diaBreakingTransList_41, value);
 	}
 
-	inline static int32_t get_offset_of_diaBreakingTransList_42() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___diaBreakingTransList_42)); }
-	inline List_1_t1081512082 * get_diaBreakingTransList_42() const { return ___diaBreakingTransList_42; }
-	inline List_1_t1081512082 ** get_address_of_diaBreakingTransList_42() { return &___diaBreakingTransList_42; }
-	inline void set_diaBreakingTransList_42(List_1_t1081512082 * value)
+	inline static int32_t get_offset_of_ballTransList_42() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___ballTransList_42)); }
+	inline List_1_t1081512082 * get_ballTransList_42() const { return ___ballTransList_42; }
+	inline List_1_t1081512082 ** get_address_of_ballTransList_42() { return &___ballTransList_42; }
+	inline void set_ballTransList_42(List_1_t1081512082 * value)
 	{
-		___diaBreakingTransList_42 = value;
-		Il2CppCodeGenWriteBarrier(&___diaBreakingTransList_42, value);
+		___ballTransList_42 = value;
+		Il2CppCodeGenWriteBarrier(&___ballTransList_42, value);
 	}
 
-	inline static int32_t get_offset_of_ballTransList_43() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___ballTransList_43)); }
-	inline List_1_t1081512082 * get_ballTransList_43() const { return ___ballTransList_43; }
-	inline List_1_t1081512082 ** get_address_of_ballTransList_43() { return &___ballTransList_43; }
-	inline void set_ballTransList_43(List_1_t1081512082 * value)
+	inline static int32_t get_offset_of_ballExplodeTransList_43() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___ballExplodeTransList_43)); }
+	inline List_1_t1081512082 * get_ballExplodeTransList_43() const { return ___ballExplodeTransList_43; }
+	inline List_1_t1081512082 ** get_address_of_ballExplodeTransList_43() { return &___ballExplodeTransList_43; }
+	inline void set_ballExplodeTransList_43(List_1_t1081512082 * value)
 	{
-		___ballTransList_43 = value;
-		Il2CppCodeGenWriteBarrier(&___ballTransList_43, value);
+		___ballExplodeTransList_43 = value;
+		Il2CppCodeGenWriteBarrier(&___ballExplodeTransList_43, value);
 	}
 
-	inline static int32_t get_offset_of_ballExplodeTransList_44() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___ballExplodeTransList_44)); }
-	inline List_1_t1081512082 * get_ballExplodeTransList_44() const { return ___ballExplodeTransList_44; }
-	inline List_1_t1081512082 ** get_address_of_ballExplodeTransList_44() { return &___ballExplodeTransList_44; }
-	inline void set_ballExplodeTransList_44(List_1_t1081512082 * value)
+	inline static int32_t get_offset_of_smallCubeTransList_44() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___smallCubeTransList_44)); }
+	inline List_1_t1081512082 * get_smallCubeTransList_44() const { return ___smallCubeTransList_44; }
+	inline List_1_t1081512082 ** get_address_of_smallCubeTransList_44() { return &___smallCubeTransList_44; }
+	inline void set_smallCubeTransList_44(List_1_t1081512082 * value)
 	{
-		___ballExplodeTransList_44 = value;
-		Il2CppCodeGenWriteBarrier(&___ballExplodeTransList_44, value);
+		___smallCubeTransList_44 = value;
+		Il2CppCodeGenWriteBarrier(&___smallCubeTransList_44, value);
 	}
 
-	inline static int32_t get_offset_of_smallCubeTransList_45() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___smallCubeTransList_45)); }
-	inline List_1_t1081512082 * get_smallCubeTransList_45() const { return ___smallCubeTransList_45; }
-	inline List_1_t1081512082 ** get_address_of_smallCubeTransList_45() { return &___smallCubeTransList_45; }
-	inline void set_smallCubeTransList_45(List_1_t1081512082 * value)
+	inline static int32_t get_offset_of_smallestCubeTransList_45() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___smallestCubeTransList_45)); }
+	inline List_1_t1081512082 * get_smallestCubeTransList_45() const { return ___smallestCubeTransList_45; }
+	inline List_1_t1081512082 ** get_address_of_smallestCubeTransList_45() { return &___smallestCubeTransList_45; }
+	inline void set_smallestCubeTransList_45(List_1_t1081512082 * value)
 	{
-		___smallCubeTransList_45 = value;
-		Il2CppCodeGenWriteBarrier(&___smallCubeTransList_45, value);
+		___smallestCubeTransList_45 = value;
+		Il2CppCodeGenWriteBarrier(&___smallestCubeTransList_45, value);
 	}
 
-	inline static int32_t get_offset_of_smallestCubeTransList_46() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___smallestCubeTransList_46)); }
-	inline List_1_t1081512082 * get_smallestCubeTransList_46() const { return ___smallestCubeTransList_46; }
-	inline List_1_t1081512082 ** get_address_of_smallestCubeTransList_46() { return &___smallestCubeTransList_46; }
-	inline void set_smallestCubeTransList_46(List_1_t1081512082 * value)
+	inline static int32_t get_offset_of_ballObstacleTransList_46() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___ballObstacleTransList_46)); }
+	inline List_1_t1081512082 * get_ballObstacleTransList_46() const { return ___ballObstacleTransList_46; }
+	inline List_1_t1081512082 ** get_address_of_ballObstacleTransList_46() { return &___ballObstacleTransList_46; }
+	inline void set_ballObstacleTransList_46(List_1_t1081512082 * value)
 	{
-		___smallestCubeTransList_46 = value;
-		Il2CppCodeGenWriteBarrier(&___smallestCubeTransList_46, value);
-	}
-
-	inline static int32_t get_offset_of_starTransList_47() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___starTransList_47)); }
-	inline List_1_t1081512082 * get_starTransList_47() const { return ___starTransList_47; }
-	inline List_1_t1081512082 ** get_address_of_starTransList_47() { return &___starTransList_47; }
-	inline void set_starTransList_47(List_1_t1081512082 * value)
-	{
-		___starTransList_47 = value;
-		Il2CppCodeGenWriteBarrier(&___starTransList_47, value);
-	}
-
-	inline static int32_t get_offset_of_ballObstacleTransList_48() { return static_cast<int32_t>(offsetof(SpawnerManager_t45089093, ___ballObstacleTransList_48)); }
-	inline List_1_t1081512082 * get_ballObstacleTransList_48() const { return ___ballObstacleTransList_48; }
-	inline List_1_t1081512082 ** get_address_of_ballObstacleTransList_48() { return &___ballObstacleTransList_48; }
-	inline void set_ballObstacleTransList_48(List_1_t1081512082 * value)
-	{
-		___ballObstacleTransList_48 = value;
-		Il2CppCodeGenWriteBarrier(&___ballObstacleTransList_48, value);
+		___ballObstacleTransList_46 = value;
+		Il2CppCodeGenWriteBarrier(&___ballObstacleTransList_46, value);
 	}
 };
 

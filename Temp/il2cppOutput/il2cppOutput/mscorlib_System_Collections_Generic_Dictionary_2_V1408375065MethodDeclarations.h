@@ -41,6 +41,6 @@
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::CopyTo(TValue[],System.Int32)
 #define ValueCollection_CopyTo_m2470528859(__this, ___array, ___index, method) ((  void (*) (ValueCollection_t1408375065 *, IndexedSet_1U5BU5D_t1543896011*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m1735386657_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m794492420(__this, method) ((  Enumerator_t3548233209  (*) (ValueCollection_t1408375065 *, const MethodInfo*))ValueCollection_GetEnumerator_m1204216004_gshared)(__this, method)
+#define ValueCollection_GetEnumerator_m794492420(__this, method) ((  Enumerator_t3548233210  (*) (ValueCollection_t1408375065 *, const MethodInfo*))ValueCollection_GetEnumerator_m1204216004_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::get_Count()
 #define ValueCollection_get_Count_m3555902809(__this, method) ((  int32_t (*) (ValueCollection_t1408375065 *, const MethodInfo*))ValueCollection_get_Count_m2709231847_gshared)(__this, method)

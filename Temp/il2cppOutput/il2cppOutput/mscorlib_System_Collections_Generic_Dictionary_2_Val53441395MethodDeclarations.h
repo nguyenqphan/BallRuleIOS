@@ -41,6 +41,6 @@
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::CopyTo(TValue[],System.Int32)
 #define ValueCollection_CopyTo_m913529375(__this, ___array, ___index, method) ((  void (*) (ValueCollection_t53441395 *, VirtualButtonU5BU5D_t952168816*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m1735386657_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m2329633800(__this, method) ((  Enumerator_t2193299539  (*) (ValueCollection_t53441395 *, const MethodInfo*))ValueCollection_GetEnumerator_m1204216004_gshared)(__this, method)
+#define ValueCollection_GetEnumerator_m2329633800(__this, method) ((  Enumerator_t2193299540  (*) (ValueCollection_t53441395 *, const MethodInfo*))ValueCollection_GetEnumerator_m1204216004_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Count()
 #define ValueCollection_get_Count_m1042566685(__this, method) ((  int32_t (*) (ValueCollection_t53441395 *, const MethodInfo*))ValueCollection_get_Count_m2709231847_gshared)(__this, method)

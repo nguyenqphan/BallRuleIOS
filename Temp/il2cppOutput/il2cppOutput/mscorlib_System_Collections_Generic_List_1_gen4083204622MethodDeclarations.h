@@ -17,7 +17,7 @@
 #include "mscorlib_System_Collections_Generic_List_1_gen1634065389MethodDeclarations.h"
 
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.Mask>::.ctor()
-#define List_1__ctor_m1056952933(__this, method) ((  void (*) (List_1_t4083204622 *, const MethodInfo*))List_1__ctor_m3048469268_gshared)(__this, method)
+#define List_1__ctor_m1056952933(__this, method) ((  void (*) (List_1_t4083204622 *, const MethodInfo*))List_1__ctor_m3099765286_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.Mask>::.ctor(System.Int32)
 #define List_1__ctor_m1679038518(__this, ___capacity, method) ((  void (*) (List_1_t4083204622 *, int32_t, const MethodInfo*))List_1__ctor_m3643386469_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.Mask>::.cctor()

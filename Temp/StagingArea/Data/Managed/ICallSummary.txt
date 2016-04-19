@@ -1,3 +1,14 @@
+UnityEngine.Advertisements.UnityAdsInternal::CanShowAds
+UnityEngine.Advertisements.UnityAdsInternal::Show
+UnityEngine.Advertisements.UnityAdsInternal::Init
+UnityEngine.Advertisements.UnityAdsInternal::RegisterNative
+UnityEngine.Advertisements.UnityAdsInternal::SetCampaignDataURL
+UnityEngine.Advertisements.UnityAdsInternal::SetLogLevel
+UnityEngine.Advertisements.UnityAdsManager::IsPlatformEnabled
+UnityEngine.Advertisements.UnityAdsManager::get_enabled
+UnityEngine.Advertisements.UnityAdsManager::get_initializeOnStartup
+UnityEngine.Advertisements.UnityAdsManager::get_testMode
+UnityEngine.Advertisements.UnityAdsManager::GetGameId
 UnityEngine.AnimationClip::get_length
 UnityEngine.AnimationCurve::Cleanup
 UnityEngine.AnimationCurve::Init
@@ -8,6 +19,7 @@ UnityEngine.Animator::get_runtimeAnimatorController
 UnityEngine.Application::get_isEditor
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::get_persistentDataPath
+UnityEngine.Application::get_unityVersion
 UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
 UnityEngine.AssetBundleCreateRequest::DisableCompatibilityChecks
@@ -137,6 +149,7 @@ UnityEngine.Component::get_transform
 UnityEngine.Coroutine::ReleaseCoroutine
 UnityEngine.CullingGroup::Dispose
 UnityEngine.CullingGroup::FinalizerFailure
+UnityEngine.Debug::get_isDebugBuild
 UnityEngine.DebugLogHandler::Internal_Log
 UnityEngine.DebugLogHandler::Internal_LogException
 UnityEngine.Event::PopEvent
@@ -199,7 +212,13 @@ UnityEngine.GL::get_invertCulling
 UnityEngine.GL::set_invertCulling
 UnityEngine.Gradient::Cleanup
 UnityEngine.Gradient::Init
+UnityEngine.Graphics::DrawTexture
+UnityEngine.GUI::INTERNAL_CALL_DoButton
+UnityEngine.GUI::INTERNAL_CALL_DoModalWindow
+UnityEngine.GUI::INTERNAL_get_color
 UnityEngine.GUI::set_changed
+UnityEngine.GUI::get_blendMaterial
+UnityEngine.GUI::get_blitMaterial
 UnityEngine.GUILayer::INTERNAL_CALL_HitTest
 UnityEngine.GUILayoutUtility::INTERNAL_CALL_Internal_GetWindowRect
 UnityEngine.GUILayoutUtility::INTERNAL_CALL_Internal_MoveWindow
@@ -401,7 +420,6 @@ UnityEngine.Object::FindObjectsOfType
 UnityEngine.Object::FindObjectsOfTypeIncludingAssets
 UnityEngine.Object::FindSceneObjectsOfType
 UnityEngine.Physics::INTERNAL_CALL_Internal_Raycast
-UnityEngine.Physics::INTERNAL_set_gravity
 UnityEngine.Physics::INTERNAL_CALL_RaycastAll
 UnityEngine.Physics2D::INTERNAL_CALL_Internal_Raycast
 UnityEngine.Physics2D::INTERNAL_CALL_GetRayIntersectionAll
@@ -517,8 +535,10 @@ UnityEngine.TextGenerator::INTERNAL_get_rectExtents
 UnityEngine.TextGenerator::Init
 UnityEngine.Texture::Internal_GetHeight
 UnityEngine.Texture::Internal_GetWidth
+UnityEngine.Texture2D::LoadImage
 UnityEngine.Texture2D::INTERNAL_CALL_GetPixelBilinear
 UnityEngine.Texture2D::Internal_Create
+UnityEngine.Texture2D::get_blackTexture
 UnityEngine.Texture2D::get_whiteTexture
 UnityEngine.Time::get_frameCount
 UnityEngine.Time::get_deltaTime
@@ -560,3 +580,7 @@ UnityEngine.Transform::set_parentInternal
 UnityEngine.Transform::GetChild
 UnityEngine.Transform::get_parentInternal
 UnityEngine.UnhandledExceptionHandler::NativeUnhandledExceptionHandler
+UnityEngine.WWW::get_bytes
+UnityEngine.WWW::get_error
+UnityEngine.WWW::DestroyWWW
+UnityEngine.WWW::InitWWW

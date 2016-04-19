@@ -21,10 +21,6 @@ struct RaycastHitU5BU5D_t1365728750;
 #include "UnityEngine_UnityEngine_QueryTriggerInteraction4085533775.h"
 #include "UnityEngine_UnityEngine_Ray1522967639.h"
 
-// System.Void UnityEngine.Physics::set_gravity(UnityEngine.Vector3)
-extern "C"  void Physics_set_gravity_m2814881048 (Il2CppObject * __this /* static, unused */, Vector3_t3525329789  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Physics::INTERNAL_set_gravity(UnityEngine.Vector3&)
-extern "C"  void Physics_INTERNAL_set_gravity_m2886173364 (Il2CppObject * __this /* static, unused */, Vector3_t3525329789 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.RaycastHit&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
 extern "C"  bool Physics_Raycast_m1758069759 (Il2CppObject * __this /* static, unused */, Vector3_t3525329789  ___origin, Vector3_t3525329789  ___direction, RaycastHit_t46221527 * ___hitInfo, float ___maxDistance, int32_t ___layerMask, int32_t ___queryTriggerInteraction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single,System.Int32)

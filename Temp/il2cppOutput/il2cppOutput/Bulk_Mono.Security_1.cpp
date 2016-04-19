@@ -1660,13 +1660,13 @@ IL_01c9:
 		V_23 = L_81;
 		Dictionary_2_t190145395 * L_82 = V_23;
 		NullCheck(L_82);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_82, _stringLiteral2198968553, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_82, _stringLiteral2198968553, 0);
 		Dictionary_2_t190145395 * L_83 = V_23;
 		NullCheck(L_83);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_83, _stringLiteral2198968558, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_83, _stringLiteral2198968558, 1);
 		Dictionary_2_t190145395 * L_84 = V_23;
 		NullCheck(L_84);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_84, _stringLiteral2198968555, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_84, _stringLiteral2198968555, 2);
 		Dictionary_2_t190145395 * L_85 = V_23;
 		IL2CPP_RUNTIME_CLASS_INIT(PKCS12_t2950126080_il2cpp_TypeInfo_var);
 		((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map5_12(L_85);
@@ -1678,7 +1678,7 @@ IL_0229:
 		Dictionary_2_t190145395 * L_86 = ((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map5_12();
 		String_t* L_87 = V_22;
 		NullCheck(L_86);
-		bool L_88 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_86, L_87, (&V_24));
+		bool L_88 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_86, L_87, (&V_24));
 		if (!L_88)
 		{
 			goto IL_0303;
@@ -2694,40 +2694,40 @@ extern "C"  SymmetricAlgorithm_t839208017 * PKCS12_GetSymmetricAlgorithm_m252745
 		V_6 = L_10;
 		Dictionary_2_t190145395 * L_11 = V_6;
 		NullCheck(L_11);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, _stringLiteral2198966631, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, _stringLiteral2198966631, 0);
 		Dictionary_2_t190145395 * L_12 = V_6;
 		NullCheck(L_12);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, _stringLiteral2198966633, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, _stringLiteral2198966633, 1);
 		Dictionary_2_t190145395 * L_13 = V_6;
 		NullCheck(L_13);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_13, _stringLiteral2198966634, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_13, _stringLiteral2198966634, 2);
 		Dictionary_2_t190145395 * L_14 = V_6;
 		NullCheck(L_14);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_14, _stringLiteral2198966636, 3);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_14, _stringLiteral2198966636, 3);
 		Dictionary_2_t190145395 * L_15 = V_6;
 		NullCheck(L_15);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_15, _stringLiteral3743456169, 4);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_15, _stringLiteral3743456169, 4);
 		Dictionary_2_t190145395 * L_16 = V_6;
 		NullCheck(L_16);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_16, _stringLiteral3743456170, 5);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_16, _stringLiteral3743456170, 5);
 		Dictionary_2_t190145395 * L_17 = V_6;
 		NullCheck(L_17);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_17, _stringLiteral2462842200, 6);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_17, _stringLiteral2462842200, 6);
 		Dictionary_2_t190145395 * L_18 = V_6;
 		NullCheck(L_18);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_18, _stringLiteral2462842201, 7);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_18, _stringLiteral2462842201, 7);
 		Dictionary_2_t190145395 * L_19 = V_6;
 		NullCheck(L_19);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_19, _stringLiteral2462842202, 8);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_19, _stringLiteral2462842202, 8);
 		Dictionary_2_t190145395 * L_20 = V_6;
 		NullCheck(L_20);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_20, _stringLiteral2462842203, ((int32_t)9));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_20, _stringLiteral2462842203, ((int32_t)9));
 		Dictionary_2_t190145395 * L_21 = V_6;
 		NullCheck(L_21);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_21, _stringLiteral2462842204, ((int32_t)10));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_21, _stringLiteral2462842204, ((int32_t)10));
 		Dictionary_2_t190145395 * L_22 = V_6;
 		NullCheck(L_22);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_22, _stringLiteral2462842205, ((int32_t)11));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_22, _stringLiteral2462842205, ((int32_t)11));
 		Dictionary_2_t190145395 * L_23 = V_6;
 		IL2CPP_RUNTIME_CLASS_INIT(PKCS12_t2950126080_il2cpp_TypeInfo_var);
 		((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map6_13(L_23);
@@ -2739,7 +2739,7 @@ IL_00e9:
 		Dictionary_2_t190145395 * L_24 = ((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map6_13();
 		String_t* L_25 = V_5;
 		NullCheck(L_24);
-		bool L_26 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_24, L_25, (&V_7));
+		bool L_26 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_24, L_25, (&V_7));
 		if (!L_26)
 		{
 			goto IL_025a;
@@ -3540,22 +3540,22 @@ IL_0037:
 		V_17 = L_15;
 		Dictionary_2_t190145395 * L_16 = V_17;
 		NullCheck(L_16);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_16, _stringLiteral3902436161, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_16, _stringLiteral3902436161, 0);
 		Dictionary_2_t190145395 * L_17 = V_17;
 		NullCheck(L_17);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_17, _stringLiteral3902436162, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_17, _stringLiteral3902436162, 1);
 		Dictionary_2_t190145395 * L_18 = V_17;
 		NullCheck(L_18);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_18, _stringLiteral3902436163, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_18, _stringLiteral3902436163, 2);
 		Dictionary_2_t190145395 * L_19 = V_17;
 		NullCheck(L_19);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_19, _stringLiteral3902436164, 3);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_19, _stringLiteral3902436164, 3);
 		Dictionary_2_t190145395 * L_20 = V_17;
 		NullCheck(L_20);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_20, _stringLiteral3902436165, 4);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_20, _stringLiteral3902436165, 4);
 		Dictionary_2_t190145395 * L_21 = V_17;
 		NullCheck(L_21);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_21, _stringLiteral3902436166, 5);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_21, _stringLiteral3902436166, 5);
 		Dictionary_2_t190145395 * L_22 = V_17;
 		IL2CPP_RUNTIME_CLASS_INIT(PKCS12_t2950126080_il2cpp_TypeInfo_var);
 		((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map7_14(L_22);
@@ -3567,7 +3567,7 @@ IL_00b7:
 		Dictionary_2_t190145395 * L_23 = ((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map7_14();
 		String_t* L_24 = V_16;
 		NullCheck(L_23);
-		bool L_25 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_23, L_24, (&V_18));
+		bool L_25 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_23, L_24, (&V_18));
 		if (!L_25)
 		{
 			goto IL_01cd;
@@ -3839,10 +3839,10 @@ IL_026f:
 		V_17 = L_93;
 		Dictionary_2_t190145395 * L_94 = V_17;
 		NullCheck(L_94);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_94, _stringLiteral3743575364, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_94, _stringLiteral3743575364, 0);
 		Dictionary_2_t190145395 * L_95 = V_17;
 		NullCheck(L_95);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_95, _stringLiteral3743575365, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_95, _stringLiteral3743575365, 1);
 		Dictionary_2_t190145395 * L_96 = V_17;
 		IL2CPP_RUNTIME_CLASS_INIT(PKCS12_t2950126080_il2cpp_TypeInfo_var);
 		((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map8_15(L_96);
@@ -3854,7 +3854,7 @@ IL_02b8:
 		Dictionary_2_t190145395 * L_97 = ((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map8_15();
 		String_t* L_98 = V_16;
 		NullCheck(L_97);
-		bool L_99 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_97, L_98, (&V_18));
+		bool L_99 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_97, L_98, (&V_18));
 		if (!L_99)
 		{
 			goto IL_031a;
@@ -4111,10 +4111,10 @@ IL_0080:
 		V_20 = L_26;
 		Dictionary_2_t190145395 * L_27 = V_20;
 		NullCheck(L_27);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_27, _stringLiteral3743575364, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_27, _stringLiteral3743575364, 0);
 		Dictionary_2_t190145395 * L_28 = V_20;
 		NullCheck(L_28);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_28, _stringLiteral3743575365, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_28, _stringLiteral3743575365, 1);
 		Dictionary_2_t190145395 * L_29 = V_20;
 		IL2CPP_RUNTIME_CLASS_INIT(PKCS12_t2950126080_il2cpp_TypeInfo_var);
 		((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24mapC_16(L_29);
@@ -4126,7 +4126,7 @@ IL_00cc:
 		Dictionary_2_t190145395 * L_30 = ((PKCS12_t2950126080_StaticFields*)PKCS12_t2950126080_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24mapC_16();
 		String_t* L_31 = V_19;
 		NullCheck(L_30);
-		bool L_32 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_30, L_31, (&V_21));
+		bool L_32 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_30, L_31, (&V_21));
 		if (!L_32)
 		{
 			goto IL_0260;
@@ -8941,22 +8941,22 @@ extern "C"  ByteU5BU5D_t58506160* X509Certificate_get_Hash_m2925829113 (X509Cert
 		V_3 = L_4;
 		Dictionary_2_t190145395 * L_5 = V_3;
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral2198962788, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral2198962788, 0);
 		Dictionary_2_t190145395 * L_6 = V_3;
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral2198962790, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral2198962790, 1);
 		Dictionary_2_t190145395 * L_7 = V_3;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2198962791, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2198962791, 2);
 		Dictionary_2_t190145395 * L_8 = V_3;
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral3986536017, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral3986536017, 2);
 		Dictionary_2_t190145395 * L_9 = V_3;
 		NullCheck(L_9);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, _stringLiteral3392410245, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, _stringLiteral3392410245, 2);
 		Dictionary_2_t190145395 * L_10 = V_3;
 		NullCheck(L_10);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, _stringLiteral3743337006, 3);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, _stringLiteral3743337006, 3);
 		Dictionary_2_t190145395 * L_11 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(X509Certificate_t273828613_il2cpp_TypeInfo_var);
 		((X509Certificate_t273828613_StaticFields*)X509Certificate_t273828613_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24mapF_23(L_11);
@@ -8968,7 +8968,7 @@ IL_0079:
 		Dictionary_2_t190145395 * L_12 = ((X509Certificate_t273828613_StaticFields*)X509Certificate_t273828613_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24mapF_23();
 		String_t* L_13 = V_2;
 		NullCheck(L_12);
-		bool L_14 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_12, L_13, (&V_4));
+		bool L_14 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_12, L_13, (&V_4));
 		if (!L_14)
 		{
 			goto IL_00d3;
@@ -9419,22 +9419,22 @@ IL_000d:
 		V_9 = L_4;
 		Dictionary_2_t190145395 * L_5 = V_9;
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral2198962788, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral2198962788, 0);
 		Dictionary_2_t190145395 * L_6 = V_9;
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral2198962790, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral2198962790, 0);
 		Dictionary_2_t190145395 * L_7 = V_9;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2198962791, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2198962791, 0);
 		Dictionary_2_t190145395 * L_8 = V_9;
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral3986536017, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral3986536017, 0);
 		Dictionary_2_t190145395 * L_9 = V_9;
 		NullCheck(L_9);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, _stringLiteral3743337006, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, _stringLiteral3743337006, 0);
 		Dictionary_2_t190145395 * L_10 = V_9;
 		NullCheck(L_10);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, _stringLiteral3392410245, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, _stringLiteral3392410245, 1);
 		Dictionary_2_t190145395 * L_11 = V_9;
 		IL2CPP_RUNTIME_CLASS_INIT(X509Certificate_t273828613_il2cpp_TypeInfo_var);
 		((X509Certificate_t273828613_StaticFields*)X509Certificate_t273828613_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map10_24(L_11);
@@ -9446,7 +9446,7 @@ IL_0083:
 		Dictionary_2_t190145395 * L_12 = ((X509Certificate_t273828613_StaticFields*)X509Certificate_t273828613_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map10_24();
 		String_t* L_13 = V_8;
 		NullCheck(L_12);
-		bool L_14 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_12, L_13, (&V_10));
+		bool L_14 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_12, L_13, (&V_10));
 		if (!L_14)
 		{
 			goto IL_015a;
@@ -9751,19 +9751,19 @@ extern "C"  bool X509Certificate_VerifySignature_m120874446 (X509Certificate_t27
 		V_2 = L_5;
 		Dictionary_2_t190145395 * L_6 = V_2;
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral2198962788, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral2198962788, 0);
 		Dictionary_2_t190145395 * L_7 = V_2;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2198962790, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2198962790, 1);
 		Dictionary_2_t190145395 * L_8 = V_2;
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral2198962791, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral2198962791, 2);
 		Dictionary_2_t190145395 * L_9 = V_2;
 		NullCheck(L_9);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, _stringLiteral3986536017, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, _stringLiteral3986536017, 2);
 		Dictionary_2_t190145395 * L_10 = V_2;
 		NullCheck(L_10);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, _stringLiteral3743337006, 3);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, _stringLiteral3743337006, 3);
 		Dictionary_2_t190145395 * L_11 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(X509Certificate_t273828613_il2cpp_TypeInfo_var);
 		((X509Certificate_t273828613_StaticFields*)X509Certificate_t273828613_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map11_25(L_11);
@@ -9775,7 +9775,7 @@ IL_0067:
 		Dictionary_2_t190145395 * L_12 = ((X509Certificate_t273828613_StaticFields*)X509Certificate_t273828613_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map11_25();
 		String_t* L_13 = V_1;
 		NullCheck(L_12);
-		bool L_14 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_12, L_13, (&V_3));
+		bool L_14 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_12, L_13, (&V_3));
 		if (!L_14)
 		{
 			goto IL_00d4;
@@ -12229,16 +12229,16 @@ extern "C"  String_t* X509Crl_GetHashName_m3316681040 (X509Crl_t2942805322 * __t
 		V_1 = L_3;
 		Dictionary_2_t190145395 * L_4 = V_1;
 		NullCheck(L_4);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, _stringLiteral2198962788, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, _stringLiteral2198962788, 0);
 		Dictionary_2_t190145395 * L_5 = V_1;
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral2198962790, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral2198962790, 1);
 		Dictionary_2_t190145395 * L_6 = V_1;
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral3392410245, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral3392410245, 2);
 		Dictionary_2_t190145395 * L_7 = V_1;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2198962791, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2198962791, 2);
 		Dictionary_2_t190145395 * L_8 = V_1;
 		((X509Crl_t2942805322_StaticFields*)X509Crl_t2942805322_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map13_10(L_8);
 	}
@@ -12248,7 +12248,7 @@ IL_0054:
 		Dictionary_2_t190145395 * L_9 = ((X509Crl_t2942805322_StaticFields*)X509Crl_t2942805322_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map13_10();
 		String_t* L_10 = V_0;
 		NullCheck(L_9);
-		bool L_11 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_9, L_10, (&V_2));
+		bool L_11 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(34 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_9, L_10, (&V_2));
 		if (!L_11)
 		{
 			goto IL_008f;

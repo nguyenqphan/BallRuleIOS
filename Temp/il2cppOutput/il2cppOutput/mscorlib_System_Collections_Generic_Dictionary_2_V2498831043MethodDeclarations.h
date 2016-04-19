@@ -41,6 +41,6 @@
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.ICanvasElement,System.Int32>::CopyTo(TValue[],System.Int32)
 #define ValueCollection_CopyTo_m3217177178(__this, ___array, ___index, method) ((  void (*) (ValueCollection_t2498831043 *, Int32U5BU5D_t1809983122*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m3524503962_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.ICanvasElement,System.Int32>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m1989196355(__this, method) ((  Enumerator_t343721891  (*) (ValueCollection_t2498831043 *, const MethodInfo*))ValueCollection_GetEnumerator_m3215728515_gshared)(__this, method)
+#define ValueCollection_GetEnumerator_m1989196355(__this, method) ((  Enumerator_t343721892  (*) (ValueCollection_t2498831043 *, const MethodInfo*))ValueCollection_GetEnumerator_m3215728515_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.ICanvasElement,System.Int32>::get_Count()
 #define ValueCollection_get_Count_m1429018136(__this, method) ((  int32_t (*) (ValueCollection_t2498831043 *, const MethodInfo*))ValueCollection_get_Count_m3355151704_gshared)(__this, method)

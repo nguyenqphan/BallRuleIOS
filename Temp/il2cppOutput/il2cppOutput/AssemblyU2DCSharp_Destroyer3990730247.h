@@ -18,6 +18,8 @@ struct SoundBreaking_t2714241170;
 struct UpdateScore_t1082839849;
 // CubeManager
 struct CubeManager_t4034287000;
+// UnityAdsManager
+struct UnityAdsManager_t3288720914;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455.h"
 
@@ -41,6 +43,8 @@ public:
 	CubeManager_t4034287000 * ___cubeManager_5;
 	// System.Boolean Destroyer::isTimeRunning
 	bool ___isTimeRunning_6;
+	// UnityAdsManager Destroyer::unityAdsManager
+	UnityAdsManager_t3288720914 * ___unityAdsManager_7;
 
 public:
 	inline static int32_t get_offset_of_showUI_2() { return static_cast<int32_t>(offsetof(Destroyer_t3990730247, ___showUI_2)); }
@@ -85,6 +89,15 @@ public:
 	inline void set_isTimeRunning_6(bool value)
 	{
 		___isTimeRunning_6 = value;
+	}
+
+	inline static int32_t get_offset_of_unityAdsManager_7() { return static_cast<int32_t>(offsetof(Destroyer_t3990730247, ___unityAdsManager_7)); }
+	inline UnityAdsManager_t3288720914 * get_unityAdsManager_7() const { return ___unityAdsManager_7; }
+	inline UnityAdsManager_t3288720914 ** get_address_of_unityAdsManager_7() { return &___unityAdsManager_7; }
+	inline void set_unityAdsManager_7(UnityAdsManager_t3288720914 * value)
+	{
+		___unityAdsManager_7 = value;
+		Il2CppCodeGenWriteBarrier(&___unityAdsManager_7, value);
 	}
 };
 
