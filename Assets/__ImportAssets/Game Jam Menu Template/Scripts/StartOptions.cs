@@ -24,7 +24,7 @@ public class StartOptions : MonoBehaviour {
 	private TextColor textColor;
 	private UpdateScore updateScore;
 	private CubeManager cubeManager;
-	private UnityAdsManager unityAdsManager;
+//	private UnityAdsManager unityAdsManager;
 
 	void Awake()
 	{
@@ -40,7 +40,7 @@ public class StartOptions : MonoBehaviour {
 
 		cubeManager = GameObject.FindWithTag("GameManager").GetComponent<CubeManager>();
 
-		unityAdsManager = GameObject.FindWithTag("GameManager").GetComponent<UnityAdsManager>();
+//		unityAdsManager = GameObject.FindWithTag("GameManager").GetComponent<UnityAdsManager>();
 
 	}
 

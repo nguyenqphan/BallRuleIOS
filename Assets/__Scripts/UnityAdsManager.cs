@@ -46,7 +46,7 @@ public class UnityAdsManager : MonoBehaviour {
 		case ShowResult.Finished:
 			GameStateManager.Instance.Load();
 			GameStateManager.Instance.EarnAdsPoint++;
-			Debug.Log(GameStateManager.Instance.EarnAdsPoint);
+//			Debug.Log(GameStateManager.Instance.EarnAdsPoint);
 			GameStateManager.Instance.Save();
 			break;
 		case ShowResult.Failed:

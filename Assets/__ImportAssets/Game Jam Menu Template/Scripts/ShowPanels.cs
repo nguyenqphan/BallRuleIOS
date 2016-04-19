@@ -90,7 +90,7 @@ public class ShowPanels : MonoBehaviour {
 			startButton.SetActive(true);
 			refreshButton.SetActive(false);
 //			askButton.SetActive(true);
-//			noAdsButton.SetActive(true);
+//			noAdsButton.SetActive(true);x
 //			fBshareButton.SetActive(false);
 			scorePanel.SetActive(false);
 			liveScore.SetActive(true);
