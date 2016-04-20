@@ -1846,9 +1846,6 @@ extern "C" void FlagsAttribute__ctor_m4285382720 ();
 extern "C" void FormatException__ctor_m2563336121 ();
 extern "C" void FormatException__ctor_m27151337 ();
 extern "C" void FormatException__ctor_m173965690 ();
-extern "C" void GC_get_MaxGeneration_m589573414 ();
-extern "C" void GC_InternalCollect_m3176899477 ();
-extern "C" void GC_Collect_m1459080321 ();
 extern "C" void GC_SuppressFinalize_m1160635446 ();
 extern "C" void Calendar__ctor_m2652724106 ();
 extern "C" void Calendar_Clone_m1933662586 ();
@@ -11201,6 +11198,7 @@ extern "C" void ShowOptions__ctor_m3301059642 ();
 extern "C" void ShowOptions_get_resultCallback_m2703960527 ();
 extern "C" void ShowOptions_set_resultCallback_m2662556856 ();
 extern "C" void ShowOptions_get_gamerSid_m4250760004 ();
+extern "C" void ShowOptions_set_gamerSid_m3140541965 ();
 extern "C" void UnityAdsEditor__ctor_m3976139971 ();
 extern "C" void UnityAdsEditor_RegisterNative_m4194002087 ();
 extern "C" void UnityAdsEditor_Init_m1629594092 ();
@@ -11584,7 +11582,6 @@ extern "C" void SetAudioLevels_SetMusicLevel_m1177989140 ();
 extern "C" void SetAudioLevels_SetSfxLevel_m1396505780 ();
 extern "C" void SetFrameRate__ctor_m3708441904 ();
 extern "C" void SetFrameRate_Awake_m3946047123 ();
-extern "C" void SetFrameRate_Update_m724444125 ();
 extern "C" void ShowPanels__ctor_m3057215919 ();
 extern "C" void ShowPanels_Awake_m3294821138 ();
 extern "C" void ShowPanels_Start_m2004353711 ();
@@ -11752,7 +11749,6 @@ extern "C" void ButtonHandler_SetUpState_m3577420483 ();
 extern "C" void ButtonHandler_SetAxisPositiveState_m1092740292 ();
 extern "C" void ButtonHandler_SetAxisNeutralState_m654904448 ();
 extern "C" void ButtonHandler_SetAxisNegativeState_m1326429960 ();
-extern "C" void ButtonHandler_Update_m1312936280 ();
 extern "C" void CrossPlatformInputManager__cctor_m1515549878 ();
 extern "C" void CrossPlatformInputManager_SwitchActiveInputMethod_m569229656 ();
 extern "C" void CrossPlatformInputManager_AxisExists_m1301237884 ();
@@ -11801,7 +11797,6 @@ extern "C" void VirtualButton_get_GetButton_m3607587626 ();
 extern "C" void VirtualButton_get_GetButtonDown_m360947436 ();
 extern "C" void VirtualButton_get_GetButtonUp_m854510821 ();
 extern "C" void InputAxisScrollbar__ctor_m3484082366 ();
-extern "C" void InputAxisScrollbar_Update_m2359233039 ();
 extern "C" void InputAxisScrollbar_HandleInput_m4224508621 ();
 extern "C" void Joystick__ctor_m2405037053 ();
 extern "C" void Joystick_OnEnable_m1885992553 ();
@@ -11914,7 +11909,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[11903] = 
+extern const methodPointerType g_MethodPointers[11898] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -13751,9 +13746,6 @@ extern const methodPointerType g_MethodPointers[11903] =
 	FormatException__ctor_m2563336121,
 	FormatException__ctor_m27151337,
 	FormatException__ctor_m173965690,
-	GC_get_MaxGeneration_m589573414,
-	GC_InternalCollect_m3176899477,
-	GC_Collect_m1459080321,
 	GC_SuppressFinalize_m1160635446,
 	Calendar__ctor_m2652724106,
 	Calendar_Clone_m1933662586,
@@ -23106,6 +23098,7 @@ extern const methodPointerType g_MethodPointers[11903] =
 	ShowOptions_get_resultCallback_m2703960527,
 	ShowOptions_set_resultCallback_m2662556856,
 	ShowOptions_get_gamerSid_m4250760004,
+	ShowOptions_set_gamerSid_m3140541965,
 	UnityAdsEditor__ctor_m3976139971,
 	UnityAdsEditor_RegisterNative_m4194002087,
 	UnityAdsEditor_Init_m1629594092,
@@ -23489,7 +23482,6 @@ extern const methodPointerType g_MethodPointers[11903] =
 	SetAudioLevels_SetSfxLevel_m1396505780,
 	SetFrameRate__ctor_m3708441904,
 	SetFrameRate_Awake_m3946047123,
-	SetFrameRate_Update_m724444125,
 	ShowPanels__ctor_m3057215919,
 	ShowPanels_Awake_m3294821138,
 	ShowPanels_Start_m2004353711,
@@ -23657,7 +23649,6 @@ extern const methodPointerType g_MethodPointers[11903] =
 	ButtonHandler_SetAxisPositiveState_m1092740292,
 	ButtonHandler_SetAxisNeutralState_m654904448,
 	ButtonHandler_SetAxisNegativeState_m1326429960,
-	ButtonHandler_Update_m1312936280,
 	CrossPlatformInputManager__cctor_m1515549878,
 	CrossPlatformInputManager_SwitchActiveInputMethod_m569229656,
 	CrossPlatformInputManager_AxisExists_m1301237884,
@@ -23706,7 +23697,6 @@ extern const methodPointerType g_MethodPointers[11903] =
 	VirtualButton_get_GetButtonDown_m360947436,
 	VirtualButton_get_GetButtonUp_m854510821,
 	InputAxisScrollbar__ctor_m3484082366,
-	InputAxisScrollbar_Update_m2359233039,
 	InputAxisScrollbar_HandleInput_m4224508621,
 	Joystick__ctor_m2405037053,
 	Joystick_OnEnable_m1885992553,

@@ -428,7 +428,6 @@ struct U3CdeactivateWeatherDetectorU3Ec__Iterator17_t3524863491;
 #include "UnityEngine_UnityEngine_Audio_AudioMixer2872434200.h"
 #include "AssemblyU2DCSharp_SetFrameRate2248765899.h"
 #include "AssemblyU2DCSharp_SetFrameRate2248765899MethodDeclarations.h"
-#include "mscorlib_System_GC2776609905MethodDeclarations.h"
 #include "AssemblyU2DCSharp_SkyboxMaterials3915907618.h"
 #include "AssemblyU2DCSharp_SkyboxMaterials3915907618MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Skybox4001624439.h"
@@ -5083,7 +5082,7 @@ extern "C"  bool U3CmovingU3Ec__Iterator9_MoveNext_m2229083160 (U3CmovingU3Ec__I
 		}
 	}
 	{
-		goto IL_00e7;
+		goto IL_0105;
 	}
 
 IL_0021:
@@ -5114,7 +5113,7 @@ IL_0026:
 		WaitForFixedUpdate__ctor_m2916734308(L_13, /*hidden argument*/NULL);
 		__this->set_U24current_2(L_13);
 		__this->set_U24PC_1(1);
-		goto IL_00e9;
+		goto IL_0107;
 	}
 
 IL_007e:
@@ -5136,46 +5135,68 @@ IL_007e:
 		GameStateManager_t648042254 * L_19 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_19);
 		bool L_20 = GameStateManager_get_IsChallenged_m3135670911(L_19, /*hidden argument*/NULL);
-		if (L_20)
+		if (!L_20)
 		{
-			goto IL_00c9;
+			goto IL_00bc;
 		}
 	}
 	{
-		Diamond_t3319707956 * L_21 = __this->get_U3CU3Ef__this_4();
-		Diamond_t3319707956 * L_22 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_22);
-		Il2CppObject * L_23 = Diamond_Spin2_m329623629(L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_21 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		MonoBehaviour_StartCoroutine_m2135303124(L_21, L_23, /*hidden argument*/NULL);
-		goto IL_00e0;
+		bool L_22 = GameStateManager_get_IsStarted_m545514757(L_21, /*hidden argument*/NULL);
+		if (L_22)
+		{
+			goto IL_00d8;
+		}
 	}
 
-IL_00c9:
+IL_00bc:
 	{
+		Diamond_t3319707956 * L_23 = __this->get_U3CU3Ef__this_4();
 		Diamond_t3319707956 * L_24 = __this->get_U3CU3Ef__this_4();
-		Diamond_t3319707956 * L_25 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_25);
-		Il2CppObject * L_26 = Diamond_Spin_m1119011367(L_25, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		MonoBehaviour_StartCoroutine_m2135303124(L_24, L_26, /*hidden argument*/NULL);
+		Il2CppObject * L_25 = Diamond_Spin2_m329623629(L_24, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		MonoBehaviour_StartCoroutine_m2135303124(L_23, L_25, /*hidden argument*/NULL);
+		goto IL_00fe;
 	}
 
-IL_00e0:
+IL_00d8:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_26 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		bool L_27 = GameStateManager_get_IsStarted_m545514757(L_26, /*hidden argument*/NULL);
+		if (!L_27)
+		{
+			goto IL_00fe;
+		}
+	}
+	{
+		Diamond_t3319707956 * L_28 = __this->get_U3CU3Ef__this_4();
+		Diamond_t3319707956 * L_29 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_29);
+		Il2CppObject * L_30 = Diamond_Spin_m1119011367(L_29, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		MonoBehaviour_StartCoroutine_m2135303124(L_28, L_30, /*hidden argument*/NULL);
+	}
+
+IL_00fe:
 	{
 		__this->set_U24PC_1((-1));
 	}
 
-IL_00e7:
+IL_0105:
 	{
 		return (bool)0;
 	}
 
-IL_00e9:
+IL_0107:
 	{
 		return (bool)1;
 	}
-	// Dead block : IL_00eb: ldloc.1
+	// Dead block : IL_0109: ldloc.1
 }
 // System.Void Diamond/<moving>c__Iterator9::Dispose()
 extern "C"  void U3CmovingU3Ec__Iterator9_Dispose_m2587310209 (U3CmovingU3Ec__Iterator9_t3965976892 * __this, const MethodInfo* method)
@@ -9163,25 +9184,6 @@ extern "C"  void SetFrameRate_Awake_m3946047123 (SetFrameRate_t2248765899 * __th
 		return;
 	}
 }
-// System.Void SetFrameRate::Update()
-extern "C"  void SetFrameRate_Update_m724444125 (SetFrameRate_t2248765899 * __this, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = Time_get_frameCount_m3434184975(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (((int32_t)((int32_t)L_0%(int32_t)((int32_t)30))))
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		GC_Collect_m1459080321(NULL /*static, unused*/, /*hidden argument*/NULL);
-	}
-
-IL_0012:
-	{
-		return;
-	}
-}
 // System.Void ShowPanels::.ctor()
 extern "C"  void ShowPanels__ctor_m3057215919 (ShowPanels_t2673010796 * __this, const MethodInfo* method)
 {
@@ -12235,14 +12237,16 @@ extern "C"  bool U3CInstantiateDiamondU3Ec__Iterator14_MoveNext_m1130126707 (U3C
 	}
 	uint32_t V_0 = 0;
 	bool V_1 = false;
-	Transform_t284553113 * G_B6_0 = NULL;
+	Transform_t284553113 * G_B7_0 = NULL;
 	Transform_t284553113 * G_B5_0 = NULL;
-	float G_B7_0 = 0.0f;
-	Transform_t284553113 * G_B7_1 = NULL;
+	Transform_t284553113 * G_B6_0 = NULL;
+	float G_B8_0 = 0.0f;
+	Transform_t284553113 * G_B8_1 = NULL;
+	Transform_t284553113 * G_B24_0 = NULL;
 	Transform_t284553113 * G_B22_0 = NULL;
-	Transform_t284553113 * G_B21_0 = NULL;
-	float G_B23_0 = 0.0f;
-	Transform_t284553113 * G_B23_1 = NULL;
+	Transform_t284553113 * G_B23_0 = NULL;
+	float G_B25_0 = 0.0f;
+	Transform_t284553113 * G_B25_1 = NULL;
 	{
 		int32_t L_0 = __this->get_U24PC_2();
 		V_0 = L_0;
@@ -12254,25 +12258,25 @@ extern "C"  bool U3CInstantiateDiamondU3Ec__Iterator14_MoveNext_m1130126707 (U3C
 		}
 		if (L_1 == 1)
 		{
-			goto IL_021d;
+			goto IL_022c;
 		}
 		if (L_1 == 2)
 		{
-			goto IL_0234;
+			goto IL_0243;
 		}
 		if (L_1 == 3)
 		{
-			goto IL_0423;
+			goto IL_0441;
 		}
 	}
 	{
-		goto IL_042a;
+		goto IL_0448;
 	}
 
 IL_0029:
 	{
 		__this->set_U3CiU3E__0_0(0);
-		goto IL_01e6;
+		goto IL_01f5;
 	}
 
 IL_0035:
@@ -12287,7 +12291,7 @@ IL_0035:
 		bool L_6 = GameObject_get_activeInHierarchy_m612450965(L_5, /*hidden argument*/NULL);
 		if (L_6)
 		{
-			goto IL_01d8;
+			goto IL_01e7;
 		}
 	}
 	{
@@ -12318,379 +12322,403 @@ IL_0035:
 		G_B5_0 = L_18;
 		if (!L_20)
 		{
-			G_B6_0 = L_18;
-			goto IL_00b4;
+			G_B7_0 = L_18;
+			goto IL_00c3;
 		}
 	}
 	{
-		G_B7_0 = (0.0f);
-		G_B7_1 = G_B5_0;
-		goto IL_00b9;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_21 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		bool L_22 = GameStateManager_get_IsStarted_m545514757(L_21, /*hidden argument*/NULL);
+		G_B6_0 = G_B5_0;
+		if (!L_22)
+		{
+			G_B7_0 = G_B5_0;
+			goto IL_00c3;
+		}
+	}
+	{
+		G_B8_0 = (0.0f);
+		G_B8_1 = G_B6_0;
+		goto IL_00c8;
 	}
 
-IL_00b4:
+IL_00c3:
 	{
-		G_B7_0 = (270.0f);
-		G_B7_1 = G_B6_0;
+		G_B8_0 = (270.0f);
+		G_B8_1 = G_B7_0;
 	}
 
-IL_00b9:
+IL_00c8:
 	{
-		Quaternion_t1891715979  L_21 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, G_B7_0, (0.0f), (0.0f), /*hidden argument*/NULL);
-		NullCheck(G_B7_1);
-		Transform_set_rotation_m1525803229(G_B7_1, L_21, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_22 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_22);
-		List_1_t514686775 * L_23 = L_22->get_diamondList_29();
-		int32_t L_24 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_23);
-		GameObject_t4012695102 * L_25 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_23, L_24);
+		Quaternion_t1891715979  L_23 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, G_B8_0, (0.0f), (0.0f), /*hidden argument*/NULL);
+		NullCheck(G_B8_1);
+		Transform_set_rotation_m1525803229(G_B8_1, L_23, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_24 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_24);
+		List_1_t514686775 * L_25 = L_24->get_diamondList_29();
+		int32_t L_26 = __this->get_U3CiU3E__0_0();
 		NullCheck(L_25);
-		GameObject_SetActive_m3538205401(L_25, (bool)1, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_26 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_26);
-		SpawnerP_t2130838536 * L_27 = L_26->get_address_of_spawnP_2();
+		GameObject_t4012695102 * L_27 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_25, L_26);
+		NullCheck(L_27);
+		GameObject_SetActive_m3538205401(L_27, (bool)1, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_28 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_28);
-		List_1_t514686775 * L_29 = L_28->get_diamondList_29();
-		int32_t L_30 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_29);
-		GameObject_t4012695102 * L_31 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_29, L_30);
+		SpawnerP_t2130838536 * L_29 = L_28->get_address_of_spawnP_2();
+		SpawnerManager_t45089093 * L_30 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_30);
+		List_1_t514686775 * L_31 = L_30->get_diamondList_29();
+		int32_t L_32 = __this->get_U3CiU3E__0_0();
 		NullCheck(L_31);
-		Diamond_t3319707956 * L_32 = GameObject_GetComponent_TisDiamond_t3319707956_m178647341(L_31, /*hidden argument*/GameObject_GetComponent_TisDiamond_t3319707956_m178647341_MethodInfo_var);
-		L_27->set_diamondScript_15(L_32);
-		SpawnerManager_t45089093 * L_33 = __this->get_U3CU3Ef__this_4();
+		GameObject_t4012695102 * L_33 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_31, L_32);
 		NullCheck(L_33);
-		SpawnerP_t2130838536 * L_34 = L_33->get_address_of_spawnP_2();
-		bool L_35 = L_34->get_matchSmallestNum_1();
-		if (L_35)
+		Diamond_t3319707956 * L_34 = GameObject_GetComponent_TisDiamond_t3319707956_m178647341(L_33, /*hidden argument*/GameObject_GetComponent_TisDiamond_t3319707956_m178647341_MethodInfo_var);
+		L_29->set_diamondScript_15(L_34);
+		SpawnerManager_t45089093 * L_35 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_35);
+		SpawnerP_t2130838536 * L_36 = L_35->get_address_of_spawnP_2();
+		bool L_37 = L_36->get_matchSmallestNum_1();
+		if (L_37)
 		{
-			goto IL_0188;
+			goto IL_0197;
 		}
 	}
 	{
-		SpawnerManager_t45089093 * L_36 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_36);
-		SpawnerP_t2130838536 * L_37 = L_36->get_address_of_spawnP_2();
-		bool L_38 = L_37->get_matchNum_12();
-		if (L_38)
+		SpawnerManager_t45089093 * L_38 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_38);
+		SpawnerP_t2130838536 * L_39 = L_38->get_address_of_spawnP_2();
+		bool L_40 = L_39->get_matchNum_12();
+		if (L_40)
 		{
-			goto IL_0163;
+			goto IL_0172;
 		}
 	}
 	{
-		SpawnerManager_t45089093 * L_39 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_39);
-		SpawnerP_t2130838536 * L_40 = L_39->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_41 = L_40->get_diamondScript_15();
-		SpawnerManager_t45089093 * L_42 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_42);
-		Vector3_t3525329789  L_43 = SpawnerManager_diamondPos_m1260455560(L_42, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_41 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_41);
-		Diamond_MoveDiamond_m1216732801(L_41, L_43, /*hidden argument*/NULL);
-		goto IL_0183;
-	}
-
-IL_0163:
-	{
+		SpawnerP_t2130838536 * L_42 = L_41->get_address_of_spawnP_2();
+		Diamond_t3319707956 * L_43 = L_42->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_44 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_44);
-		SpawnerP_t2130838536 * L_45 = L_44->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_46 = L_45->get_diamondScript_15();
-		SpawnerManager_t45089093 * L_47 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_47);
-		Vector3_t3525329789  L_48 = SpawnerManager_diamondPos3_m419427277(L_47, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_45 = SpawnerManager_diamondPos_m1260455560(L_44, /*hidden argument*/NULL);
+		NullCheck(L_43);
+		Diamond_MoveDiamond_m1216732801(L_43, L_45, /*hidden argument*/NULL);
+		goto IL_0192;
+	}
+
+IL_0172:
+	{
+		SpawnerManager_t45089093 * L_46 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_46);
-		Diamond_MoveDiamond_m1216732801(L_46, L_48, /*hidden argument*/NULL);
-	}
-
-IL_0183:
-	{
-		goto IL_01a8;
-	}
-
-IL_0188:
-	{
+		SpawnerP_t2130838536 * L_47 = L_46->get_address_of_spawnP_2();
+		Diamond_t3319707956 * L_48 = L_47->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_49 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_49);
-		SpawnerP_t2130838536 * L_50 = L_49->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_51 = L_50->get_diamondScript_15();
-		SpawnerManager_t45089093 * L_52 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_52);
-		Vector3_t3525329789  L_53 = SpawnerManager_diamondPos5_m419429199(L_52, /*hidden argument*/NULL);
-		NullCheck(L_51);
-		Diamond_MoveDiamond_m1216732801(L_51, L_53, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_50 = SpawnerManager_diamondPos3_m419427277(L_49, /*hidden argument*/NULL);
+		NullCheck(L_48);
+		Diamond_MoveDiamond_m1216732801(L_48, L_50, /*hidden argument*/NULL);
 	}
 
-IL_01a8:
+IL_0192:
 	{
+		goto IL_01b7;
+	}
+
+IL_0197:
+	{
+		SpawnerManager_t45089093 * L_51 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_51);
+		SpawnerP_t2130838536 * L_52 = L_51->get_address_of_spawnP_2();
+		Diamond_t3319707956 * L_53 = L_52->get_diamondScript_15();
 		SpawnerManager_t45089093 * L_54 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_54);
-		SpawnerP_t2130838536 * L_55 = L_54->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_56 = L_55->get_diamondScript_15();
-		SpawnerManager_t45089093 * L_57 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_57);
-		List_1_t514686775 * L_58 = L_57->get_diamondList_29();
-		int32_t L_59 = __this->get_U3CiU3E__0_0();
-		NullCheck(L_58);
-		GameObject_t4012695102 * L_60 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_58, L_59);
+		Vector3_t3525329789  L_55 = SpawnerManager_diamondPos5_m419429199(L_54, /*hidden argument*/NULL);
+		NullCheck(L_53);
+		Diamond_MoveDiamond_m1216732801(L_53, L_55, /*hidden argument*/NULL);
+	}
+
+IL_01b7:
+	{
+		SpawnerManager_t45089093 * L_56 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_56);
-		Diamond_SetDiaInactive_m144819882(L_56, L_60, /*hidden argument*/NULL);
-		goto IL_0201;
-	}
-
-IL_01d8:
-	{
+		SpawnerP_t2130838536 * L_57 = L_56->get_address_of_spawnP_2();
+		Diamond_t3319707956 * L_58 = L_57->get_diamondScript_15();
+		SpawnerManager_t45089093 * L_59 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_59);
+		List_1_t514686775 * L_60 = L_59->get_diamondList_29();
 		int32_t L_61 = __this->get_U3CiU3E__0_0();
-		__this->set_U3CiU3E__0_0(((int32_t)((int32_t)L_61+(int32_t)1)));
+		NullCheck(L_60);
+		GameObject_t4012695102 * L_62 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_60, L_61);
+		NullCheck(L_58);
+		Diamond_SetDiaInactive_m144819882(L_58, L_62, /*hidden argument*/NULL);
+		goto IL_0210;
 	}
 
-IL_01e6:
+IL_01e7:
 	{
-		int32_t L_62 = __this->get_U3CiU3E__0_0();
-		SpawnerManager_t45089093 * L_63 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_63);
-		List_1_t514686775 * L_64 = L_63->get_diamondList_29();
-		NullCheck(L_64);
-		int32_t L_65 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_64);
-		if ((((int32_t)L_62) < ((int32_t)L_65)))
+		int32_t L_63 = __this->get_U3CiU3E__0_0();
+		__this->set_U3CiU3E__0_0(((int32_t)((int32_t)L_63+(int32_t)1)));
+	}
+
+IL_01f5:
+	{
+		int32_t L_64 = __this->get_U3CiU3E__0_0();
+		SpawnerManager_t45089093 * L_65 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_65);
+		List_1_t514686775 * L_66 = L_65->get_diamondList_29();
+		NullCheck(L_66);
+		int32_t L_67 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_66);
+		if ((((int32_t)L_64) < ((int32_t)L_67)))
 		{
 			goto IL_0035;
 		}
 	}
 
-IL_0201:
+IL_0210:
 	{
-		WaitForSeconds_t1291133240 * L_66 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m3184996201(L_66, (0.5f), /*hidden argument*/NULL);
-		__this->set_U24current_3(L_66);
+		WaitForSeconds_t1291133240 * L_68 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_68, (0.5f), /*hidden argument*/NULL);
+		__this->set_U24current_3(L_68);
 		__this->set_U24PC_2(1);
-		goto IL_042c;
+		goto IL_044a;
 	}
 
-IL_021d:
+IL_022c:
 	{
-		WaitForFixedUpdate_t896427542 * L_67 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
-		WaitForFixedUpdate__ctor_m2916734308(L_67, /*hidden argument*/NULL);
-		__this->set_U24current_3(L_67);
+		WaitForFixedUpdate_t896427542 * L_69 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
+		WaitForFixedUpdate__ctor_m2916734308(L_69, /*hidden argument*/NULL);
+		__this->set_U24current_3(L_69);
 		__this->set_U24PC_2(2);
-		goto IL_042c;
+		goto IL_044a;
 	}
 
-IL_0234:
+IL_0243:
 	{
 		__this->set_U3CiU3E__1_1(0);
-		goto IL_03f1;
+		goto IL_040f;
 	}
 
-IL_0240:
+IL_024f:
 	{
-		SpawnerManager_t45089093 * L_68 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_68);
-		List_1_t514686775 * L_69 = L_68->get_diamondList_29();
-		int32_t L_70 = __this->get_U3CiU3E__1_1();
-		NullCheck(L_69);
-		GameObject_t4012695102 * L_71 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_69, L_70);
+		SpawnerManager_t45089093 * L_70 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_70);
+		List_1_t514686775 * L_71 = L_70->get_diamondList_29();
+		int32_t L_72 = __this->get_U3CiU3E__1_1();
 		NullCheck(L_71);
-		bool L_72 = GameObject_get_activeInHierarchy_m612450965(L_71, /*hidden argument*/NULL);
-		if (L_72)
-		{
-			goto IL_03e3;
-		}
-	}
-	{
-		SpawnerManager_t45089093 * L_73 = __this->get_U3CU3Ef__this_4();
+		GameObject_t4012695102 * L_73 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_71, L_72);
 		NullCheck(L_73);
-		List_1_t1081512082 * L_74 = L_73->get_diamondTransList_39();
-		int32_t L_75 = __this->get_U3CiU3E__1_1();
-		NullCheck(L_74);
-		Transform_t284553113 * L_76 = VirtFuncInvoker1< Transform_t284553113 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Transform>::get_Item(System.Int32) */, L_74, L_75);
-		SpawnerManager_t45089093 * L_77 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_77);
-		SpawnerP_t2130838536 * L_78 = L_77->get_address_of_spawnP_2();
-		Transform_t284553113 * L_79 = L_78->get_spawnerTransform_18();
-		NullCheck(L_79);
-		Vector3_t3525329789  L_80 = Transform_get_position_m2211398607(L_79, /*hidden argument*/NULL);
-		NullCheck(L_76);
-		Transform_set_position_m3111394108(L_76, L_80, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_81 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_81);
-		List_1_t1081512082 * L_82 = L_81->get_diamondTransList_39();
-		int32_t L_83 = __this->get_U3CiU3E__1_1();
-		NullCheck(L_82);
-		Transform_t284553113 * L_84 = VirtFuncInvoker1< Transform_t284553113 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Transform>::get_Item(System.Int32) */, L_82, L_83);
-		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_85 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_85);
-		bool L_86 = GameStateManager_get_IsChallenged_m3135670911(L_85, /*hidden argument*/NULL);
-		G_B21_0 = L_84;
-		if (!L_86)
+		bool L_74 = GameObject_get_activeInHierarchy_m612450965(L_73, /*hidden argument*/NULL);
+		if (L_74)
 		{
-			G_B22_0 = L_84;
-			goto IL_02bf;
+			goto IL_0401;
 		}
 	}
 	{
-		G_B23_0 = (0.0f);
-		G_B23_1 = G_B21_0;
-		goto IL_02c4;
+		SpawnerManager_t45089093 * L_75 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_75);
+		List_1_t1081512082 * L_76 = L_75->get_diamondTransList_39();
+		int32_t L_77 = __this->get_U3CiU3E__1_1();
+		NullCheck(L_76);
+		Transform_t284553113 * L_78 = VirtFuncInvoker1< Transform_t284553113 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Transform>::get_Item(System.Int32) */, L_76, L_77);
+		SpawnerManager_t45089093 * L_79 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_79);
+		SpawnerP_t2130838536 * L_80 = L_79->get_address_of_spawnP_2();
+		Transform_t284553113 * L_81 = L_80->get_spawnerTransform_18();
+		NullCheck(L_81);
+		Vector3_t3525329789  L_82 = Transform_get_position_m2211398607(L_81, /*hidden argument*/NULL);
+		NullCheck(L_78);
+		Transform_set_position_m3111394108(L_78, L_82, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_83 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_83);
+		List_1_t1081512082 * L_84 = L_83->get_diamondTransList_39();
+		int32_t L_85 = __this->get_U3CiU3E__1_1();
+		NullCheck(L_84);
+		Transform_t284553113 * L_86 = VirtFuncInvoker1< Transform_t284553113 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Transform>::get_Item(System.Int32) */, L_84, L_85);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_87 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_87);
+		bool L_88 = GameStateManager_get_IsChallenged_m3135670911(L_87, /*hidden argument*/NULL);
+		G_B22_0 = L_86;
+		if (!L_88)
+		{
+			G_B24_0 = L_86;
+			goto IL_02dd;
+		}
 	}
-
-IL_02bf:
 	{
-		G_B23_0 = (270.0f);
-		G_B23_1 = G_B22_0;
-	}
-
-IL_02c4:
-	{
-		Quaternion_t1891715979  L_87 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, G_B23_0, (0.0f), (0.0f), /*hidden argument*/NULL);
-		NullCheck(G_B23_1);
-		Transform_set_rotation_m1525803229(G_B23_1, L_87, /*hidden argument*/NULL);
-		SpawnerManager_t45089093 * L_88 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_88);
-		List_1_t514686775 * L_89 = L_88->get_diamondList_29();
-		int32_t L_90 = __this->get_U3CiU3E__1_1();
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_89 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_89);
-		GameObject_t4012695102 * L_91 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_89, L_90);
-		NullCheck(L_91);
-		GameObject_SetActive_m3538205401(L_91, (bool)1, /*hidden argument*/NULL);
+		bool L_90 = GameStateManager_get_IsStarted_m545514757(L_89, /*hidden argument*/NULL);
+		G_B23_0 = G_B22_0;
+		if (!L_90)
+		{
+			G_B24_0 = G_B22_0;
+			goto IL_02dd;
+		}
+	}
+	{
+		G_B25_0 = (0.0f);
+		G_B25_1 = G_B23_0;
+		goto IL_02e2;
+	}
+
+IL_02dd:
+	{
+		G_B25_0 = (270.0f);
+		G_B25_1 = G_B24_0;
+	}
+
+IL_02e2:
+	{
+		Quaternion_t1891715979  L_91 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, G_B25_0, (0.0f), (0.0f), /*hidden argument*/NULL);
+		NullCheck(G_B25_1);
+		Transform_set_rotation_m1525803229(G_B25_1, L_91, /*hidden argument*/NULL);
 		SpawnerManager_t45089093 * L_92 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_92);
-		SpawnerP_t2130838536 * L_93 = L_92->get_address_of_spawnP_2();
-		SpawnerManager_t45089093 * L_94 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_94);
-		List_1_t514686775 * L_95 = L_94->get_diamondList_29();
-		int32_t L_96 = __this->get_U3CiU3E__1_1();
+		List_1_t514686775 * L_93 = L_92->get_diamondList_29();
+		int32_t L_94 = __this->get_U3CiU3E__1_1();
+		NullCheck(L_93);
+		GameObject_t4012695102 * L_95 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_93, L_94);
 		NullCheck(L_95);
-		GameObject_t4012695102 * L_97 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_95, L_96);
-		NullCheck(L_97);
-		Diamond_t3319707956 * L_98 = GameObject_GetComponent_TisDiamond_t3319707956_m178647341(L_97, /*hidden argument*/GameObject_GetComponent_TisDiamond_t3319707956_m178647341_MethodInfo_var);
-		L_93->set_diamondScript_15(L_98);
-		SpawnerManager_t45089093 * L_99 = __this->get_U3CU3Ef__this_4();
+		GameObject_SetActive_m3538205401(L_95, (bool)1, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_96 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_96);
+		SpawnerP_t2130838536 * L_97 = L_96->get_address_of_spawnP_2();
+		SpawnerManager_t45089093 * L_98 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_98);
+		List_1_t514686775 * L_99 = L_98->get_diamondList_29();
+		int32_t L_100 = __this->get_U3CiU3E__1_1();
 		NullCheck(L_99);
-		SpawnerP_t2130838536 * L_100 = L_99->get_address_of_spawnP_2();
-		bool L_101 = L_100->get_matchSmallestNum_1();
-		if (L_101)
+		GameObject_t4012695102 * L_101 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_99, L_100);
+		NullCheck(L_101);
+		Diamond_t3319707956 * L_102 = GameObject_GetComponent_TisDiamond_t3319707956_m178647341(L_101, /*hidden argument*/GameObject_GetComponent_TisDiamond_t3319707956_m178647341_MethodInfo_var);
+		L_97->set_diamondScript_15(L_102);
+		SpawnerManager_t45089093 * L_103 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_103);
+		SpawnerP_t2130838536 * L_104 = L_103->get_address_of_spawnP_2();
+		bool L_105 = L_104->get_matchSmallestNum_1();
+		if (L_105)
 		{
-			goto IL_0393;
+			goto IL_03b1;
 		}
 	}
 	{
-		SpawnerManager_t45089093 * L_102 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_102);
-		SpawnerP_t2130838536 * L_103 = L_102->get_address_of_spawnP_2();
-		bool L_104 = L_103->get_matchNum_12();
-		if (L_104)
+		SpawnerManager_t45089093 * L_106 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_106);
+		SpawnerP_t2130838536 * L_107 = L_106->get_address_of_spawnP_2();
+		bool L_108 = L_107->get_matchNum_12();
+		if (L_108)
 		{
-			goto IL_036e;
+			goto IL_038c;
 		}
 	}
 	{
-		SpawnerManager_t45089093 * L_105 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_105);
-		SpawnerP_t2130838536 * L_106 = L_105->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_107 = L_106->get_diamondScript_15();
-		SpawnerManager_t45089093 * L_108 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_108);
-		Vector3_t3525329789  L_109 = SpawnerManager_diamondPos2_m419426316(L_108, /*hidden argument*/NULL);
-		NullCheck(L_107);
-		Diamond_MoveDiamond_m1216732801(L_107, L_109, /*hidden argument*/NULL);
-		goto IL_038e;
-	}
-
-IL_036e:
-	{
-		SpawnerManager_t45089093 * L_110 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_110);
-		SpawnerP_t2130838536 * L_111 = L_110->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_112 = L_111->get_diamondScript_15();
-		SpawnerManager_t45089093 * L_113 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_113);
-		Vector3_t3525329789  L_114 = SpawnerManager_diamondPos4_m419428238(L_113, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_109 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_109);
+		SpawnerP_t2130838536 * L_110 = L_109->get_address_of_spawnP_2();
+		Diamond_t3319707956 * L_111 = L_110->get_diamondScript_15();
+		SpawnerManager_t45089093 * L_112 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_112);
-		Diamond_MoveDiamond_m1216732801(L_112, L_114, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_113 = SpawnerManager_diamondPos2_m419426316(L_112, /*hidden argument*/NULL);
+		NullCheck(L_111);
+		Diamond_MoveDiamond_m1216732801(L_111, L_113, /*hidden argument*/NULL);
+		goto IL_03ac;
 	}
 
-IL_038e:
+IL_038c:
 	{
-		goto IL_03b3;
-	}
-
-IL_0393:
-	{
-		SpawnerManager_t45089093 * L_115 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_115);
-		SpawnerP_t2130838536 * L_116 = L_115->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_117 = L_116->get_diamondScript_15();
-		SpawnerManager_t45089093 * L_118 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_118);
-		Vector3_t3525329789  L_119 = SpawnerManager_diamondPos6_m419430160(L_118, /*hidden argument*/NULL);
+		SpawnerManager_t45089093 * L_114 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_114);
+		SpawnerP_t2130838536 * L_115 = L_114->get_address_of_spawnP_2();
+		Diamond_t3319707956 * L_116 = L_115->get_diamondScript_15();
+		SpawnerManager_t45089093 * L_117 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_117);
-		Diamond_MoveDiamond_m1216732801(L_117, L_119, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_118 = SpawnerManager_diamondPos4_m419428238(L_117, /*hidden argument*/NULL);
+		NullCheck(L_116);
+		Diamond_MoveDiamond_m1216732801(L_116, L_118, /*hidden argument*/NULL);
 	}
 
-IL_03b3:
+IL_03ac:
 	{
-		SpawnerManager_t45089093 * L_120 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_120);
-		SpawnerP_t2130838536 * L_121 = L_120->get_address_of_spawnP_2();
-		Diamond_t3319707956 * L_122 = L_121->get_diamondScript_15();
-		SpawnerManager_t45089093 * L_123 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_123);
-		List_1_t514686775 * L_124 = L_123->get_diamondList_29();
-		int32_t L_125 = __this->get_U3CiU3E__1_1();
-		NullCheck(L_124);
-		GameObject_t4012695102 * L_126 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_124, L_125);
+		goto IL_03d1;
+	}
+
+IL_03b1:
+	{
+		SpawnerManager_t45089093 * L_119 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_119);
+		SpawnerP_t2130838536 * L_120 = L_119->get_address_of_spawnP_2();
+		Diamond_t3319707956 * L_121 = L_120->get_diamondScript_15();
+		SpawnerManager_t45089093 * L_122 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_122);
-		Diamond_SetDiaInactive_m144819882(L_122, L_126, /*hidden argument*/NULL);
-		goto IL_040c;
+		Vector3_t3525329789  L_123 = SpawnerManager_diamondPos6_m419430160(L_122, /*hidden argument*/NULL);
+		NullCheck(L_121);
+		Diamond_MoveDiamond_m1216732801(L_121, L_123, /*hidden argument*/NULL);
 	}
 
-IL_03e3:
+IL_03d1:
 	{
-		int32_t L_127 = __this->get_U3CiU3E__1_1();
-		__this->set_U3CiU3E__1_1(((int32_t)((int32_t)L_127+(int32_t)1)));
+		SpawnerManager_t45089093 * L_124 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_124);
+		SpawnerP_t2130838536 * L_125 = L_124->get_address_of_spawnP_2();
+		Diamond_t3319707956 * L_126 = L_125->get_diamondScript_15();
+		SpawnerManager_t45089093 * L_127 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_127);
+		List_1_t514686775 * L_128 = L_127->get_diamondList_29();
+		int32_t L_129 = __this->get_U3CiU3E__1_1();
+		NullCheck(L_128);
+		GameObject_t4012695102 * L_130 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_128, L_129);
+		NullCheck(L_126);
+		Diamond_SetDiaInactive_m144819882(L_126, L_130, /*hidden argument*/NULL);
+		goto IL_042a;
 	}
 
-IL_03f1:
+IL_0401:
 	{
-		int32_t L_128 = __this->get_U3CiU3E__1_1();
-		SpawnerManager_t45089093 * L_129 = __this->get_U3CU3Ef__this_4();
-		NullCheck(L_129);
-		List_1_t514686775 * L_130 = L_129->get_diamondList_29();
-		NullCheck(L_130);
-		int32_t L_131 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_130);
-		if ((((int32_t)L_128) < ((int32_t)L_131)))
+		int32_t L_131 = __this->get_U3CiU3E__1_1();
+		__this->set_U3CiU3E__1_1(((int32_t)((int32_t)L_131+(int32_t)1)));
+	}
+
+IL_040f:
+	{
+		int32_t L_132 = __this->get_U3CiU3E__1_1();
+		SpawnerManager_t45089093 * L_133 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_133);
+		List_1_t514686775 * L_134 = L_133->get_diamondList_29();
+		NullCheck(L_134);
+		int32_t L_135 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_134);
+		if ((((int32_t)L_132) < ((int32_t)L_135)))
 		{
-			goto IL_0240;
+			goto IL_024f;
 		}
-	}
-
-IL_040c:
-	{
-		WaitForFixedUpdate_t896427542 * L_132 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
-		WaitForFixedUpdate__ctor_m2916734308(L_132, /*hidden argument*/NULL);
-		__this->set_U24current_3(L_132);
-		__this->set_U24PC_2(3);
-		goto IL_042c;
-	}
-
-IL_0423:
-	{
-		__this->set_U24PC_2((-1));
 	}
 
 IL_042a:
 	{
+		WaitForFixedUpdate_t896427542 * L_136 = (WaitForFixedUpdate_t896427542 *)il2cpp_codegen_object_new(WaitForFixedUpdate_t896427542_il2cpp_TypeInfo_var);
+		WaitForFixedUpdate__ctor_m2916734308(L_136, /*hidden argument*/NULL);
+		__this->set_U24current_3(L_136);
+		__this->set_U24PC_2(3);
+		goto IL_044a;
+	}
+
+IL_0441:
+	{
+		__this->set_U24PC_2((-1));
+	}
+
+IL_0448:
+	{
 		return (bool)0;
 	}
 
-IL_042c:
+IL_044a:
 	{
 		return (bool)1;
 	}
-	// Dead block : IL_042e: ldloc.1
+	// Dead block : IL_044c: ldloc.1
 }
 // System.Void SpawnerManager/<InstantiateDiamond>c__Iterator14::Dispose()
 extern "C"  void U3CInstantiateDiamondU3Ec__Iterator14_Dispose_m2771140038 (U3CInstantiateDiamondU3Ec__Iterator14_t2257946972 * __this, const MethodInfo* method)
@@ -13420,7 +13448,6 @@ extern "C"  void StartOptions_StartButtonClicked_m1487358680 (StartOptions_t3075
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		GC_Collect_m1459080321(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
 		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
@@ -13434,7 +13461,7 @@ extern "C"  void StartOptions_StartButtonClicked_m1487358680 (StartOptions_t3075
 		bool L_4 = GameStateManager_get_IsChallenged_m3135670911(L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
-			goto IL_0062;
+			goto IL_005d;
 		}
 	}
 	{
@@ -13454,7 +13481,7 @@ extern "C"  void StartOptions_StartButtonClicked_m1487358680 (StartOptions_t3075
 		GameObject_SetActive_m3538205401(L_9, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_0062:
+IL_005d:
 	{
 		ShowPanels_t2673010796 * L_10 = __this->get_showPanels_12();
 		NullCheck(L_10);
@@ -13480,7 +13507,7 @@ IL_0062:
 		bool L_17 = __this->get_changeMusicOnStart_4();
 		if (!L_17)
 		{
-			goto IL_00c9;
+			goto IL_00c4;
 		}
 	}
 	{
@@ -13492,12 +13519,12 @@ IL_0062:
 		PlayMusic_FadeDown_m3546672323(L_18, L_20, /*hidden argument*/NULL);
 	}
 
-IL_00c9:
+IL_00c4:
 	{
 		bool L_21 = __this->get_changeScenes_3();
 		if (!L_21)
 		{
-			goto IL_0105;
+			goto IL_0100;
 		}
 	}
 	{
@@ -13508,15 +13535,15 @@ IL_00c9:
 		Animator_t792326996 * L_24 = __this->get_animColorFade_6();
 		NullCheck(L_24);
 		Animator_SetTrigger_m514363822(L_24, _stringLiteral3135100, /*hidden argument*/NULL);
-		goto IL_010b;
+		goto IL_0106;
 	}
 
-IL_0105:
+IL_0100:
 	{
 		StartOptions_StartGameInScene_m4117274840(__this, /*hidden argument*/NULL);
 	}
 
-IL_010b:
+IL_0106:
 	{
 		return;
 	}

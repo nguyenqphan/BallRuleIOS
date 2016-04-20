@@ -47,7 +47,7 @@ public class StartOptions : MonoBehaviour {
 
 	public void StartButtonClicked()
 	{
-		System.GC.Collect();
+//		System.GC.Collect();
 //		playMusic.FadeDown(0.5f);
 //		playMusic.PlaySelectedMusic(1);
 //		playMusic.FadeUp(0.5f);

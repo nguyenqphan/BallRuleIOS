@@ -31,5 +31,3 @@ extern "C"  void ButtonHandler_SetAxisPositiveState_m1092740292 (ButtonHandler_t
 extern "C"  void ButtonHandler_SetAxisNeutralState_m654904448 (ButtonHandler_t1459654472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetAxisNegativeState()
 extern "C"  void ButtonHandler_SetAxisNegativeState_m1326429960 (ButtonHandler_t1459654472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::Update()
-extern "C"  void ButtonHandler_Update_m1312936280 (ButtonHandler_t1459654472 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

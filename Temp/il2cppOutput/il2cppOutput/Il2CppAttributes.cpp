@@ -77667,6 +77667,34 @@ void ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_get_game
 		typeCache->attributeTypes[0] = CompilerGeneratedAttribute_t853953138_il2cpp_TypeInfo_var;
 	}
 }
+extern TypeInfo* CompilerGeneratedAttribute_t853953138_il2cpp_TypeInfo_var;
+extern const uint32_t ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_set_gamerSid_m3140541965_MetadataUsageId;
+void ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_set_gamerSid_m3140541965(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_set_gamerSid_m3140541965_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	if (cache)
+	{
+		cache->count = 1;
+		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
+		{
+			CompilerGeneratedAttribute_t853953138 * tmp;
+			tmp = (CompilerGeneratedAttribute_t853953138 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t853953138_il2cpp_TypeInfo_var);
+			CompilerGeneratedAttribute__ctor_m2546676106(tmp, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+	}
+	if (typeCache)
+	{
+		typeCache->count = 1;
+		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
+		typeCache->attributeTypes[0] = CompilerGeneratedAttribute_t853953138_il2cpp_TypeInfo_var;
+	}
+}
 extern TypeInfo* DebuggerHiddenAttribute_t2476753104_il2cpp_TypeInfo_var;
 extern const uint32_t UnityAdsEditor_t3418119343_CustomAttributesCacheGenerator_UnityAdsEditor_GetAdPlan_m2752032585_MetadataUsageId;
 void UnityAdsEditor_t3418119343_CustomAttributesCacheGenerator_UnityAdsEditor_GetAdPlan_m2752032585(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
@@ -83791,7 +83819,7 @@ void WaterTile_t2511865071_CustomAttributesCacheGenerator(CustomAttributesCache*
 		typeCache->attributeTypes[0] = ExecuteInEditMode_t2676812948_il2cpp_TypeInfo_var;
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[2803] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[2804] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -86379,6 +86407,7 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[2803] =
 	ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_get_resultCallback_m2703960527,
 	ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_set_resultCallback_m2662556856,
 	ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_get_gamerSid_m4250760004,
+	ShowOptions_t4067882760_CustomAttributesCacheGenerator_ShowOptions_set_gamerSid_m3140541965,
 	UnityAdsEditor_t3418119343_CustomAttributesCacheGenerator_UnityAdsEditor_GetAdPlan_m2752032585,
 	U3CGetAdPlanU3Ec__Iterator0_t3216485943_CustomAttributesCacheGenerator,
 	U3CGetAdPlanU3Ec__Iterator0_t3216485943_CustomAttributesCacheGenerator_U3CGetAdPlanU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2234575127,

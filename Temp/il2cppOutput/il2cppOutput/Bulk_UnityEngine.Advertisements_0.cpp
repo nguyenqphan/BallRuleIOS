@@ -1126,6 +1126,15 @@ extern "C"  String_t* ShowOptions_get_gamerSid_m4250760004 (ShowOptions_t4067882
 		return L_0;
 	}
 }
+// System.Void UnityEngine.Advertisements.ShowOptions::set_gamerSid(System.String)
+extern "C"  void ShowOptions_set_gamerSid_m3140541965 (ShowOptions_t4067882760 * __this, String_t* ___value, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value;
+		__this->set_U3CgamerSidU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
 // System.Void UnityEngine.Advertisements.UnityAdsEditor::.ctor()
 extern Il2CppCodeGenString* _stringLiteral1134170141;
 extern const uint32_t UnityAdsEditor__ctor_m3976139971_MetadataUsageId;

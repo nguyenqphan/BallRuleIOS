@@ -50790,29 +50790,6 @@ extern "C"  void FormatException__ctor_m173965690 (FormatException_t2404802957 *
 		return;
 	}
 }
-// System.Int32 System.GC::get_MaxGeneration()
-extern "C"  int32_t GC_get_MaxGeneration_m589573414 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	using namespace il2cpp::icalls;
-	typedef int32_t (*GC_get_MaxGeneration_m589573414_ftn) ();
-	return  ((GC_get_MaxGeneration_m589573414_ftn)mscorlib::System::GC::get_MaxGeneration) ();
-}
-// System.Void System.GC::InternalCollect(System.Int32)
-extern "C"  void GC_InternalCollect_m3176899477 (Il2CppObject * __this /* static, unused */, int32_t ___generation, const MethodInfo* method)
-{
-	using namespace il2cpp::icalls;
-	typedef void (*GC_InternalCollect_m3176899477_ftn) (int32_t);
-	 ((GC_InternalCollect_m3176899477_ftn)mscorlib::System::GC::InternalCollect) (___generation);
-}
-// System.Void System.GC::Collect()
-extern "C"  void GC_Collect_m1459080321 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = GC_get_MaxGeneration_m589573414(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GC_InternalCollect_m3176899477(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
 // System.Void System.GC::SuppressFinalize(System.Object)
 extern "C"  void GC_SuppressFinalize_m1160635446 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___obj, const MethodInfo* method)
 {

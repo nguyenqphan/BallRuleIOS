@@ -62,6 +62,10 @@
 <assembly fullname="Assembly-UnityScript">
 <type fullname="ScrollUV" preserve="all"/>
 </assembly>
+<assembly fullname="UnityEngine.Advertisements">
+<type fullname="UnityEngine.Advertisements.Advertisement" preserve="all"/>
+<type fullname="UnityEngine.Advertisements.UnityAdsEditorPlaceholder" preserve="all"/>
+</assembly>
 <assembly fullname="UnityEngine.UI">
 <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all"/>
 <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all"/>
@@ -104,9 +108,5 @@
 <type fullname="UnityEngine.UI.Outline" preserve="all"/>
 <type fullname="UnityEngine.UI.PositionAsUV1" preserve="all"/>
 <type fullname="UnityEngine.UI.Shadow" preserve="all"/>
-</assembly>
-<assembly fullname="UnityEngine.Advertisements">
-<type fullname="UnityEngine.Advertisements.Advertisement" preserve="all"/>
-<type fullname="UnityEngine.Advertisements.UnityAdsEditorPlaceholder" preserve="all"/>
 </assembly>
 </linker>

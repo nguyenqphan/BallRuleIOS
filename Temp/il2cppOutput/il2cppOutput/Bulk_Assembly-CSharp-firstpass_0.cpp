@@ -615,13 +615,6 @@ extern "C"  void ButtonHandler_SetAxisNegativeState_m1326429960 (ButtonHandler_t
 		return;
 	}
 }
-// System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::Update()
-extern "C"  void ButtonHandler_Update_m1312936280 (ButtonHandler_t1459654472 * __this, const MethodInfo* method)
-{
-	{
-		return;
-	}
-}
 // System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::.cctor()
 extern TypeInfo* MobileInput_t3367880121_il2cpp_TypeInfo_var;
 extern TypeInfo* CrossPlatformInputManager_t1689305222_il2cpp_TypeInfo_var;
@@ -1409,13 +1402,6 @@ extern "C"  void InputAxisScrollbar__ctor_m3484082366 (InputAxisScrollbar_t21889
 {
 	{
 		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar::Update()
-extern "C"  void InputAxisScrollbar_Update_m2359233039 (InputAxisScrollbar_t218891179 * __this, const MethodInfo* method)
-{
-	{
 		return;
 	}
 }

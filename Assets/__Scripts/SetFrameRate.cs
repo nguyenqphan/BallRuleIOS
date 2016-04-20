@@ -10,13 +10,13 @@ public class SetFrameRate : MonoBehaviour {
 	
 	}
 
-	void Update()
-	{
-		if (Time.frameCount % 30 == 0)
-		{
-			System.GC.Collect();
-		}
-	}
+//	void Update()
+//	{
+//		if (Time.frameCount % 30 == 0)
+//		{
+//			System.GC.Collect();
+//		}
+//	}
 
 //
 //	float deltaTime = 0.0f;
