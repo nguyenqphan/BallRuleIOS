@@ -94,11 +94,12 @@ public class Destroyer : MonoBehaviour {
 			{
 				unityAdsManager.ShowAds();
 			}
+		
 
 			GameStateManager.Instance.Save ();
 			updateScore.EndGameScore();
 
-
+		
 
 			
 		}
@@ -135,5 +136,5 @@ public class Destroyer : MonoBehaviour {
 		StopCoroutine("TimerChallengeCounter");
 		StartCoroutine("TimerChallengeCounter");
 	}
-
+		
 }

@@ -584,7 +584,7 @@ public class SpawnerManager : MonoBehaviour {
 //				diamondList[i].transform.rotation = Quaternion.Euler(270f, 0f, 0f);
 
 				diamondTransList[i].position = spawnP.spawnerTransform.position;
-				diamondTransList[i].rotation = Quaternion.Euler(GameStateManager.Instance.IsChallenged? 0f : 270f, 0f, 0f);
+				diamondTransList[i].rotation = Quaternion.Euler(GameStateManager.Instance.IsChallenged && GameStateManager.Instance.IsStarted? 0f : 270f, 0f, 0f);
 
 
 				diamondList[i].SetActive(true);
@@ -617,7 +617,7 @@ public class SpawnerManager : MonoBehaviour {
 //				diamondList[i].transform.rotation = Quaternion.Euler(270f, 0f, 0f);
 
 				diamondTransList[i].position = spawnP.spawnerTransform.position;
-				diamondTransList[i].rotation = Quaternion.Euler(GameStateManager.Instance.IsChallenged? 0f : 270f, 0f, 0f);
+				diamondTransList[i].rotation = Quaternion.Euler(GameStateManager.Instance.IsChallenged && GameStateManager.Instance.IsStarted? 0f : 270f, 0f, 0f);
 				diamondList[i].SetActive(true);
 				spawnP.diamondScript = diamondList[i].GetComponent<Diamond>();
 				if (!spawnP.matchSmallestNum) {

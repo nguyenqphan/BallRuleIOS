@@ -20,7 +20,6 @@ struct Action_1_t1848942914;
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_String968488902.h"
 
 // System.Void UnityEngine.Advertisements.ShowOptions::.ctor()
 extern "C"  void ShowOptions__ctor_m3301059642 (ShowOptions_t4067882760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -30,5 +29,3 @@ extern "C"  Action_1_t1848942914 * ShowOptions_get_resultCallback_m2703960527 (S
 extern "C"  void ShowOptions_set_resultCallback_m2662556856 (ShowOptions_t4067882760 * __this, Action_1_t1848942914 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Advertisements.ShowOptions::get_gamerSid()
 extern "C"  String_t* ShowOptions_get_gamerSid_m4250760004 (ShowOptions_t4067882760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Advertisements.ShowOptions::set_gamerSid(System.String)
-extern "C"  void ShowOptions_set_gamerSid_m3140541965 (ShowOptions_t4067882760 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

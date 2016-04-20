@@ -11201,7 +11201,6 @@ extern "C" void ShowOptions__ctor_m3301059642 ();
 extern "C" void ShowOptions_get_resultCallback_m2703960527 ();
 extern "C" void ShowOptions_set_resultCallback_m2662556856 ();
 extern "C" void ShowOptions_get_gamerSid_m4250760004 ();
-extern "C" void ShowOptions_set_gamerSid_m3140541965 ();
 extern "C" void UnityAdsEditor__ctor_m3976139971 ();
 extern "C" void UnityAdsEditor_RegisterNative_m4194002087 ();
 extern "C" void UnityAdsEditor_Init_m1629594092 ();
@@ -11915,7 +11914,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[11904] = 
+extern const methodPointerType g_MethodPointers[11903] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -23107,7 +23106,6 @@ extern const methodPointerType g_MethodPointers[11904] =
 	ShowOptions_get_resultCallback_m2703960527,
 	ShowOptions_set_resultCallback_m2662556856,
 	ShowOptions_get_gamerSid_m4250760004,
-	ShowOptions_set_gamerSid_m3140541965,
 	UnityAdsEditor__ctor_m3976139971,
 	UnityAdsEditor_RegisterNative_m4194002087,
 	UnityAdsEditor_Init_m1629594092,
