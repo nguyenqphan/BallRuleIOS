@@ -50,9 +50,6 @@ public class UnityAdsManager : MonoBehaviour {
 			GameStateManager.Instance.Save();
 			break;
 		case ShowResult.Failed:
-			GameStateManager.Instance.Load();
-			GameStateManager.Instance.EarnAdsPoint++;
-			GameStateManager.Instance.Save();
 			break;
 		}
 	}

@@ -99,7 +99,7 @@ public class Diamond : MonoBehaviour {
 	{
 		while(diamondP.isSpinning)
 		{
-			transform.Rotate (transform.forward, 360 * .5f * Time.deltaTime, Space.World);
+			transform.Rotate (transform.up, 360 * .5f * Time.deltaTime, Space.World);
 			yield return new WaitForFixedUpdate();
 		}
 	}
@@ -107,7 +107,7 @@ public class Diamond : MonoBehaviour {
 	{
 		while(diamondP.isSpinning)
 		{
-			diamondP.transformD.Rotate (transform.forward, 360 * .5f * Time.deltaTime, Space.World);
+			diamondP.transformD.Rotate  (transform.forward, 360 * .5f * Time.deltaTime, Space.World);
 			yield return new WaitForFixedUpdate();
 		}
 	}
@@ -166,7 +166,11 @@ public class Diamond : MonoBehaviour {
 			yield return new WaitForFixedUpdate();
 		}
 
-		StartCoroutine(Spin2());
+		if (!GameStateManager.Instance.IsChallenged) {
+			StartCoroutine (Spin2 ());
+		}else{
+			StartCoroutine(Spin());
+		}
 //
 //		if (!GameStateManager.Instance.IsChallenged) {
 //			StartCoroutine (Float2 ());
