@@ -9,7 +9,6 @@ UnityEngine.Advertisements.UnityAdsManager::get_enabled
 UnityEngine.Advertisements.UnityAdsManager::get_initializeOnStartup
 UnityEngine.Advertisements.UnityAdsManager::get_testMode
 UnityEngine.Advertisements.UnityAdsManager::GetGameId
-UnityEngine.AnimationClip::get_length
 UnityEngine.AnimationCurve::Cleanup
 UnityEngine.AnimationCurve::Init
 UnityEngine.Animator::StringToHash

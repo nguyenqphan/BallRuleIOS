@@ -7860,7 +7860,6 @@ extern "C" void UnityAdsManager_IsPlatformEnabled_m1689539463 ();
 extern "C" void UnityAdsManager_get_initializeOnStartup_m1939376472 ();
 extern "C" void UnityAdsManager_get_testMode_m1798784717 ();
 extern "C" void UnityAdsManager_GetGameId_m1608054597 ();
-extern "C" void AnimationClip_get_length_m4218495554 ();
 extern "C" void AnimationCurve__ctor_m2436282331 ();
 extern "C" void AnimationCurve__ctor_m4037844610 ();
 extern "C" void AnimationCurve_Cleanup_m386995588 ();
@@ -11909,7 +11908,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[11898] = 
+extern const methodPointerType g_MethodPointers[11897] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -19760,7 +19759,6 @@ extern const methodPointerType g_MethodPointers[11898] =
 	UnityAdsManager_get_initializeOnStartup_m1939376472,
 	UnityAdsManager_get_testMode_m1798784717,
 	UnityAdsManager_GetGameId_m1608054597,
-	AnimationClip_get_length_m4218495554,
 	AnimationCurve__ctor_m2436282331,
 	AnimationCurve__ctor_m4037844610,
 	AnimationCurve_Cleanup_m386995588,

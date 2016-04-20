@@ -461,10 +461,6 @@ struct U3CdeactivateWeatherDetectorU3Ec__Iterator17_t3524863491;
 #include "AssemblyU2DCSharp_StartOptions3075365884MethodDeclarations.h"
 #include "AssemblyU2DCSharp_TextColor940396054.h"
 #include "AssemblyU2DCSharp_TextColor940396054MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_AnimationClip57566497MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Animator792326996MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_AnimationClip57566497.h"
-#include "UnityEngine_UnityEngine_Animator792326996.h"
 #include "UnityEngine_UI_UnityEngine_UI_Graphic933884113MethodDeclarations.h"
 #include "UnityEngine_UI_UnityEngine_UI_Text3286458198.h"
 #include "UnityEngine_Advertisements_UnityEngine_Advertiseme3932222508MethodDeclarations.h"
@@ -13397,7 +13393,7 @@ extern "C"  void StartOptions__ctor_m3149615647 (StartOptions_t3075365884 * __th
 	{
 		__this->set_sceneToStart_2(1);
 		__this->set_inMainMenu_5((bool)1);
-		__this->set_fastFadeIn_11((0.01f));
+		__this->set_fastFadeIn_7((0.01f));
 		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -13420,24 +13416,23 @@ extern "C"  void StartOptions_Awake_m3387220866 (StartOptions_t3075365884 * __th
 	}
 	{
 		ShowPanels_t2673010796 * L_0 = Component_GetComponent_TisShowPanels_t2673010796_m873919769(__this, /*hidden argument*/Component_GetComponent_TisShowPanels_t2673010796_m873919769_MethodInfo_var);
-		__this->set_showPanels_12(L_0);
+		__this->set_showPanels_8(L_0);
 		PlayMusic_t109867825 * L_1 = Component_GetComponent_TisPlayMusic_t109867825_m1070991592(__this, /*hidden argument*/Component_GetComponent_TisPlayMusic_t109867825_m1070991592_MethodInfo_var);
-		__this->set_playMusic_10(L_1);
+		__this->set_playMusic_6(L_1);
 		TextColor_t940396054 * L_2 = Component_GetComponent_TisTextColor_t940396054_m30869475(__this, /*hidden argument*/Component_GetComponent_TisTextColor_t940396054_m30869475_MethodInfo_var);
-		__this->set_textColor_13(L_2);
+		__this->set_textColor_9(L_2);
 		UpdateScore_t1082839849 * L_3 = Component_GetComponent_TisUpdateScore_t1082839849_m3092115312(__this, /*hidden argument*/Component_GetComponent_TisUpdateScore_t1082839849_m3092115312_MethodInfo_var);
-		__this->set_updateScore_14(L_3);
+		__this->set_updateScore_10(L_3);
 		GameObject_t4012695102 * L_4 = GameObject_FindWithTag_m3162815092(NULL /*static, unused*/, _stringLiteral2369589051, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		CubeManager_t4034287000 * L_5 = GameObject_GetComponent_TisCubeManager_t4034287000_m3818973513(L_4, /*hidden argument*/GameObject_GetComponent_TisCubeManager_t4034287000_m3818973513_MethodInfo_var);
-		__this->set_cubeManager_15(L_5);
+		__this->set_cubeManager_11(L_5);
 		return;
 	}
 }
 // System.Void StartOptions::StartButtonClicked()
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2705440124;
-extern Il2CppCodeGenString* _stringLiteral3135100;
 extern const uint32_t StartOptions_StartButtonClicked_m1487358680_MetadataUsageId;
 extern "C"  void StartOptions_StartButtonClicked_m1487358680 (StartOptions_t3075365884 * __this, const MethodInfo* method)
 {
@@ -13452,7 +13447,7 @@ extern "C"  void StartOptions_StartButtonClicked_m1487358680 (StartOptions_t3075
 		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		GameStateManager_set_IsWatched_m1498619945(L_0, (bool)0, /*hidden argument*/NULL);
-		CubeManager_t4034287000 * L_1 = __this->get_cubeManager_15();
+		CubeManager_t4034287000 * L_1 = __this->get_cubeManager_11();
 		NullCheck(L_1);
 		LayerMask_t1862190090 * L_2 = L_1->get_address_of_cubeLayerMask_3();
 		LayerMask_set_value_m3553706239(L_2, ((int32_t)8192), /*hidden argument*/NULL);
@@ -13469,12 +13464,12 @@ extern "C"  void StartOptions_StartButtonClicked_m1487358680 (StartOptions_t3075
 		GameStateManager_t648042254 * L_5 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		GameStateManager_set_ChallengeTimer_m1343732871(L_5, ((int32_t)15), /*hidden argument*/NULL);
-		ShowPanels_t2673010796 * L_6 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_6 = __this->get_showPanels_8();
 		NullCheck(L_6);
 		GameObject_t4012695102 * L_7 = L_6->get_outOfTimeText_17();
 		NullCheck(L_7);
 		GameObject_SetActive_m3538205401(L_7, (bool)0, /*hidden argument*/NULL);
-		ShowPanels_t2673010796 * L_8 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_8 = __this->get_showPanels_8();
 		NullCheck(L_8);
 		GameObject_t4012695102 * L_9 = L_8->get_liveChallengeTime_16();
 		NullCheck(L_9);
@@ -13483,7 +13478,7 @@ extern "C"  void StartOptions_StartButtonClicked_m1487358680 (StartOptions_t3075
 
 IL_005d:
 	{
-		ShowPanels_t2673010796 * L_10 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_10 = __this->get_showPanels_8();
 		NullCheck(L_10);
 		GameObject_t4012695102 * L_11 = L_10->get_gameTitleText_15();
 		NullCheck(L_11);
@@ -13498,52 +13493,38 @@ IL_005d:
 		GameStateManager_t648042254 * L_14 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		GameStateManager_Restart_m3827787834(L_14, /*hidden argument*/NULL);
-		UpdateScore_t1082839849 * L_15 = __this->get_updateScore_14();
+		UpdateScore_t1082839849 * L_15 = __this->get_updateScore_10();
 		NullCheck(L_15);
 		UpdateScore_ChangeLiveScore_m1203193462(L_15, /*hidden argument*/NULL);
-		TextColor_t940396054 * L_16 = __this->get_textColor_13();
+		TextColor_t940396054 * L_16 = __this->get_textColor_9();
 		NullCheck(L_16);
 		TextColor_ChooseTextColor_m2437960914(L_16, /*hidden argument*/NULL);
 		bool L_17 = __this->get_changeMusicOnStart_4();
 		if (!L_17)
 		{
-			goto IL_00c4;
+			goto IL_00ae;
 		}
 	}
-	{
-		PlayMusic_t109867825 * L_18 = __this->get_playMusic_10();
-		AnimationClip_t57566497 * L_19 = __this->get_fadeColorAnimationClip_8();
-		NullCheck(L_19);
-		float L_20 = AnimationClip_get_length_m4218495554(L_19, /*hidden argument*/NULL);
-		NullCheck(L_18);
-		PlayMusic_FadeDown_m3546672323(L_18, L_20, /*hidden argument*/NULL);
-	}
 
-IL_00c4:
+IL_00ae:
 	{
-		bool L_21 = __this->get_changeScenes_3();
-		if (!L_21)
+		bool L_18 = __this->get_changeScenes_3();
+		if (!L_18)
 		{
-			goto IL_0100;
+			goto IL_00ce;
 		}
 	}
 	{
-		AnimationClip_t57566497 * L_22 = __this->get_fadeColorAnimationClip_8();
-		NullCheck(L_22);
-		float L_23 = AnimationClip_get_length_m4218495554(L_22, /*hidden argument*/NULL);
-		MonoBehaviour_Invoke_m2825545578(__this, _stringLiteral2705440124, ((float)((float)L_23*(float)(0.5f))), /*hidden argument*/NULL);
-		Animator_t792326996 * L_24 = __this->get_animColorFade_6();
-		NullCheck(L_24);
-		Animator_SetTrigger_m514363822(L_24, _stringLiteral3135100, /*hidden argument*/NULL);
-		goto IL_0106;
+		MonoBehaviour_Invoke_m2825545578(__this, _stringLiteral2705440124, (0.5f), /*hidden argument*/NULL);
+		goto IL_00d4;
 	}
 
-IL_0100:
+IL_00ce:
 	{
 		StartOptions_StartGameInScene_m4117274840(__this, /*hidden argument*/NULL);
 	}
 
-IL_0106:
+IL_00d4:
 	{
 		return;
 	}
@@ -13564,7 +13545,7 @@ extern "C"  void StartOptions_RefleshButtonClicked_m2548469689 (StartOptions_t30
 		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		GameStateManager_set_IsWatched_m1498619945(L_0, (bool)0, /*hidden argument*/NULL);
-		CubeManager_t4034287000 * L_1 = __this->get_cubeManager_15();
+		CubeManager_t4034287000 * L_1 = __this->get_cubeManager_11();
 		NullCheck(L_1);
 		LayerMask_t1862190090 * L_2 = L_1->get_address_of_cubeLayerMask_3();
 		LayerMask_set_value_m3553706239(L_2, ((int32_t)8192), /*hidden argument*/NULL);
@@ -13584,15 +13565,15 @@ extern "C"  void StartOptions_RefleshButtonClicked_m2548469689 (StartOptions_t30
 		GameStateManager_t648042254 * L_6 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		GameStateManager_set_ChallengeTimer_m1343732871(L_6, ((int32_t)15), /*hidden argument*/NULL);
-		ShowPanels_t2673010796 * L_7 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_7 = __this->get_showPanels_8();
 		NullCheck(L_7);
 		GameObject_t4012695102 * L_8 = L_7->get_liveChallengeTime_16();
 		NullCheck(L_8);
 		GameObject_SetActive_m3538205401(L_8, (bool)1, /*hidden argument*/NULL);
-		UpdateScore_t1082839849 * L_9 = __this->get_updateScore_14();
+		UpdateScore_t1082839849 * L_9 = __this->get_updateScore_10();
 		NullCheck(L_9);
 		UpdateScore_TimerChallenge_m2979733632(L_9, /*hidden argument*/NULL);
-		ShowPanels_t2673010796 * L_10 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_10 = __this->get_showPanels_8();
 		NullCheck(L_10);
 		GameObject_t4012695102 * L_11 = L_10->get_outOfTimeText_17();
 		NullCheck(L_11);
@@ -13601,7 +13582,7 @@ extern "C"  void StartOptions_RefleshButtonClicked_m2548469689 (StartOptions_t30
 
 IL_0073:
 	{
-		ShowPanels_t2673010796 * L_12 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_12 = __this->get_showPanels_8();
 		NullCheck(L_12);
 		GameObject_t4012695102 * L_13 = L_12->get_outOfTimeText_17();
 		NullCheck(L_13);
@@ -13656,15 +13637,15 @@ IL_00bc:
 
 IL_00d7:
 	{
-		TextColor_t940396054 * L_24 = __this->get_textColor_13();
+		TextColor_t940396054 * L_24 = __this->get_textColor_9();
 		NullCheck(L_24);
 		TextColor_ChooseTextColor_m2437960914(L_24, /*hidden argument*/NULL);
-		ShowPanels_t2673010796 * L_25 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_25 = __this->get_showPanels_8();
 		NullCheck(L_25);
 		GameObject_t4012695102 * L_26 = L_25->get_liveScore_13();
 		NullCheck(L_26);
 		GameObject_SetActive_m3538205401(L_26, (bool)1, /*hidden argument*/NULL);
-		ShowPanels_t2673010796 * L_27 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_27 = __this->get_showPanels_8();
 		NullCheck(L_27);
 		GameObject_t4012695102 * L_28 = L_27->get_scaleText_14();
 		NullCheck(L_28);
@@ -13679,13 +13660,13 @@ IL_00d7:
 		GameStateManager_t648042254 * L_31 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_31);
 		GameStateManager_Restart_m3827787834(L_31, /*hidden argument*/NULL);
-		UpdateScore_t1082839849 * L_32 = __this->get_updateScore_14();
+		UpdateScore_t1082839849 * L_32 = __this->get_updateScore_10();
 		NullCheck(L_32);
 		UpdateScore_ChangeLiveScore_m1203193462(L_32, /*hidden argument*/NULL);
 		GameStateManager_t648042254 * L_33 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_33);
 		GameStateManager_set_BallTimer_m633825381(L_33, ((int32_t)20), /*hidden argument*/NULL);
-		UpdateScore_t1082839849 * L_34 = __this->get_updateScore_14();
+		UpdateScore_t1082839849 * L_34 = __this->get_updateScore_10();
 		NullCheck(L_34);
 		UpdateScore_LiveTime_m762218939(L_34, /*hidden argument*/NULL);
 		StartOptions_LoadDelayed_m1323317465(__this, /*hidden argument*/NULL);
@@ -13713,7 +13694,7 @@ extern "C"  void StartOptions_LoadDelayed_m1323317465 (StartOptions_t3075365884 
 {
 	{
 		__this->set_inMainMenu_5((bool)0);
-		ShowPanels_t2673010796 * L_0 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_0 = __this->get_showPanels_8();
 		NullCheck(L_0);
 		ShowPanels_HideMenu_m562684214(L_0, /*hidden argument*/NULL);
 		int32_t L_1 = __this->get_sceneToStart_2();
@@ -13725,18 +13706,14 @@ extern "C"  void StartOptions_LoadDelayed_m1323317465 (StartOptions_t3075365884 
 extern "C"  void StartOptions_HideDelayed_m430032893 (StartOptions_t3075365884 * __this, const MethodInfo* method)
 {
 	{
-		ShowPanels_t2673010796 * L_0 = __this->get_showPanels_12();
+		ShowPanels_t2673010796 * L_0 = __this->get_showPanels_8();
 		NullCheck(L_0);
 		ShowPanels_HideMenu_m562684214(L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void StartOptions::StartGameInScene()
-extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral824256473;
-extern Il2CppCodeGenString* _stringLiteral3135100;
 extern Il2CppCodeGenString* _stringLiteral3097806240;
-extern Il2CppCodeGenString* _stringLiteral3156053475;
 extern const uint32_t StartOptions_StartGameInScene_m4117274840_MetadataUsageId;
 extern "C"  void StartOptions_StartGameInScene_m4117274840 (StartOptions_t3075365884 * __this, const MethodInfo* method)
 {
@@ -13751,27 +13728,13 @@ extern "C"  void StartOptions_StartGameInScene_m4117274840 (StartOptions_t307536
 		bool L_0 = __this->get_changeMusicOnStart_4();
 		if (!L_0)
 		{
-			goto IL_0028;
+			goto IL_0012;
 		}
 	}
-	{
-		AnimationClip_t57566497 * L_1 = __this->get_fadeAlphaAnimationClip_9();
-		NullCheck(L_1);
-		float L_2 = AnimationClip_get_length_m4218495554(L_1, /*hidden argument*/NULL);
-		MonoBehaviour_Invoke_m2825545578(__this, _stringLiteral824256473, L_2, /*hidden argument*/NULL);
-	}
 
-IL_0028:
+IL_0012:
 	{
-		Animator_t792326996 * L_3 = __this->get_animMenuAlpha_7();
-		NullCheck(L_3);
-		Animator_SetTrigger_m514363822(L_3, _stringLiteral3135100, /*hidden argument*/NULL);
-		AnimationClip_t57566497 * L_4 = __this->get_fadeAlphaAnimationClip_9();
-		NullCheck(L_4);
-		float L_5 = AnimationClip_get_length_m4218495554(L_4, /*hidden argument*/NULL);
-		MonoBehaviour_Invoke_m2825545578(__this, _stringLiteral3097806240, L_5, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3156053475, /*hidden argument*/NULL);
+		MonoBehaviour_Invoke_m2825545578(__this, _stringLiteral3097806240, (0.5f), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -13779,11 +13742,11 @@ IL_0028:
 extern "C"  void StartOptions_PlayNewMusic_m1499160766 (StartOptions_t3075365884 * __this, const MethodInfo* method)
 {
 	{
-		PlayMusic_t109867825 * L_0 = __this->get_playMusic_10();
-		float L_1 = __this->get_fastFadeIn_11();
+		PlayMusic_t109867825 * L_0 = __this->get_playMusic_6();
+		float L_1 = __this->get_fastFadeIn_7();
 		NullCheck(L_0);
 		PlayMusic_FadeUp_m2252721258(L_0, L_1, /*hidden argument*/NULL);
-		PlayMusic_t109867825 * L_2 = __this->get_playMusic_10();
+		PlayMusic_t109867825 * L_2 = __this->get_playMusic_6();
 		NullCheck(L_2);
 		PlayMusic_PlaySelectedMusic_m1352809535(L_2, 1, /*hidden argument*/NULL);
 		return;

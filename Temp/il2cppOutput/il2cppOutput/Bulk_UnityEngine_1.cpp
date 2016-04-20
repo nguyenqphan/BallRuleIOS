@@ -13,12 +13,6 @@
 #include <limits>
 #include <assert.h>
 
-// System.Action`1<UnityEngine.Font>
-struct Action_1_t1673533981;
-// UnityEngine.Font
-struct Font_t1525081276;
-// UnityEngine.Material
-struct Material_t1886596500;
 // UnityEngine.Font/FontTextureRebuildCallback
 struct FontTextureRebuildCallback_t401089076;
 // System.Object
@@ -54,6 +48,8 @@ struct Texture_t1769722184;
 struct WindowFunction_t999919624;
 // UnityEngine.GUIStyle
 struct GUIStyle_t1006925219;
+// UnityEngine.Material
+struct Material_t1886596500;
 // UnityEngine.GUIContent
 struct GUIContent_t2432841515;
 // UnityEngine.GUI/ScrollViewState
@@ -78,6 +74,8 @@ struct LayoutCache_t3653031512;
 struct GUIScrollGroup_t1067753444;
 // UnityEngine.GUISettings
 struct GUISettings_t1668697771;
+// UnityEngine.Font
+struct Font_t1525081276;
 // UnityEngine.GUIStyle[]
 struct GUIStyleU5BU5D_t3748644978;
 // System.Collections.IEnumerator
@@ -203,21 +201,11 @@ struct ResourceRequest_t2256525006;
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array2840145358.h"
-#include "UnityEngine_UnityEngine_Font1525081276.h"
-#include "UnityEngine_UnityEngine_Font1525081276MethodDeclarations.h"
-#include "mscorlib_System_Void2779279689.h"
-#include "mscorlib_System_Action_1_gen1673533981.h"
-#include "mscorlib_System_Delegate3660574010MethodDeclarations.h"
-#include "mscorlib_System_Delegate3660574010.h"
-#include "UnityEngine_UnityEngine_Material1886596500.h"
-#include "mscorlib_System_Boolean211005341.h"
-#include "mscorlib_System_Char2778706699.h"
-#include "mscorlib_System_Action_1_gen1673533981MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Font_FontTextureRebuildCall401089076MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Font_FontTextureRebuildCall401089076.h"
-#include "mscorlib_System_Int322847414787.h"
+#include "UnityEngine_UnityEngine_Font_FontTextureRebuildCall401089076MethodDeclarations.h"
 #include "mscorlib_System_Object837106420.h"
 #include "mscorlib_System_IntPtr676692020.h"
+#include "mscorlib_System_Void2779279689.h"
 #include "mscorlib_System_AsyncCallback1363551830.h"
 #include "UnityEngine_UnityEngine_FontStyle1975910095.h"
 #include "UnityEngine_UnityEngine_FontStyle1975910095MethodDeclarations.h"
@@ -227,7 +215,9 @@ struct ResourceRequest_t2256525006;
 #include "UnityEngine_UnityEngine_Object3878351788MethodDeclarations.h"
 #include "mscorlib_ArrayTypes.h"
 #include "mscorlib_System_Type2779229935.h"
+#include "mscorlib_System_Int322847414787.h"
 #include "UnityEngine_UnityEngine_Component2126946602.h"
+#include "mscorlib_System_Boolean211005341.h"
 #include "UnityEngine_ArrayTypes.h"
 #include "UnityEngine_UnityEngine_Transform284553113.h"
 #include "UnityEngine_UnityEngine_SendMessageOptions2623293100.h"
@@ -258,6 +248,7 @@ struct ResourceRequest_t2256525006;
 #include "UnityEngine_UnityEngine_Debug1588791936MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Rect1525428817MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Color324137084207MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Material1886596500.h"
 #include "UnityEngine_UnityEngine_Event1590224583.h"
 #include "UnityEngine_UnityEngine_EventType3558284577.h"
 #include "UnityEngine_UnityEngine_Texture1769722184MethodDeclarations.h"
@@ -309,6 +300,7 @@ struct ResourceRequest_t2256525006;
 #include "UnityEngine_UnityEngine_GUISettings1668697771MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Color1588175760MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_ScriptableObject184905905MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Font1525081276.h"
 #include "mscorlib_System_StringComparer4058118931MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g2644623123MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_GUIStyleState47287592MethodDeclarations.h"
@@ -433,8 +425,6 @@ struct ResourceRequest_t2256525006;
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Behaviour3120504042MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Coroutine2246592261.h"
-#include "UnityEngine_UnityEngine_Motion3833401379.h"
-#include "UnityEngine_UnityEngine_Motion3833401379MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_NetworkMessageInfo2574344884.h"
 #include "UnityEngine_UnityEngine_NetworkMessageInfo2574344884MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_NetworkPlayer1281137372.h"
@@ -483,6 +473,8 @@ struct ResourceRequest_t2256525006;
 #include "UnityEngine_UnityEngine_RectTransform3317474837.h"
 #include "UnityEngine_UnityEngine_RectTransform3317474837MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RectTransform_ReapplyDrive3247703954.h"
+#include "mscorlib_System_Delegate3660574010MethodDeclarations.h"
+#include "mscorlib_System_Delegate3660574010.h"
 #include "UnityEngine_UnityEngine_RectTransform_ReapplyDrive3247703954MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Transform284553113MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RectTransform_Edge2154973.h"
@@ -517,140 +509,14 @@ struct ResourceRequest_t2256525006;
 #include "UnityEngine_UnityEngine_AsyncOperation3374395064MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Resources1543782994MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Resources1543782994.h"
+#include "UnityEngine_UnityEngine_Rigidbody1972007546MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rigidbody2D3632243084MethodDeclarations.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.Font::add_textureRebuilt(System.Action`1<UnityEngine.Font>)
-extern TypeInfo* Font_t1525081276_il2cpp_TypeInfo_var;
-extern TypeInfo* Action_1_t1673533981_il2cpp_TypeInfo_var;
-extern const uint32_t Font_add_textureRebuilt_m3323945916_MetadataUsageId;
-extern "C"  void Font_add_textureRebuilt_m3323945916 (Il2CppObject * __this /* static, unused */, Action_1_t1673533981 * ___value, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Font_add_textureRebuilt_m3323945916_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		Action_1_t1673533981 * L_0 = ((Font_t1525081276_StaticFields*)Font_t1525081276_il2cpp_TypeInfo_var->static_fields)->get_textureRebuilt_2();
-		Action_1_t1673533981 * L_1 = ___value;
-		Delegate_t3660574010 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		((Font_t1525081276_StaticFields*)Font_t1525081276_il2cpp_TypeInfo_var->static_fields)->set_textureRebuilt_2(((Action_1_t1673533981 *)CastclassSealed(L_2, Action_1_t1673533981_il2cpp_TypeInfo_var)));
-		return;
-	}
-}
-// System.Void UnityEngine.Font::remove_textureRebuilt(System.Action`1<UnityEngine.Font>)
-extern TypeInfo* Font_t1525081276_il2cpp_TypeInfo_var;
-extern TypeInfo* Action_1_t1673533981_il2cpp_TypeInfo_var;
-extern const uint32_t Font_remove_textureRebuilt_m2804643593_MetadataUsageId;
-extern "C"  void Font_remove_textureRebuilt_m2804643593 (Il2CppObject * __this /* static, unused */, Action_1_t1673533981 * ___value, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Font_remove_textureRebuilt_m2804643593_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		Action_1_t1673533981 * L_0 = ((Font_t1525081276_StaticFields*)Font_t1525081276_il2cpp_TypeInfo_var->static_fields)->get_textureRebuilt_2();
-		Action_1_t1673533981 * L_1 = ___value;
-		Delegate_t3660574010 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		((Font_t1525081276_StaticFields*)Font_t1525081276_il2cpp_TypeInfo_var->static_fields)->set_textureRebuilt_2(((Action_1_t1673533981 *)CastclassSealed(L_2, Action_1_t1673533981_il2cpp_TypeInfo_var)));
-		return;
-	}
-}
-// UnityEngine.Material UnityEngine.Font::get_material()
-extern "C"  Material_t1886596500 * Font_get_material_m2407307367 (Font_t1525081276 * __this, const MethodInfo* method)
-{
-	typedef Material_t1886596500 * (*Font_get_material_m2407307367_ftn) (Font_t1525081276 *);
-	static Font_get_material_m2407307367_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Font_get_material_m2407307367_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::get_material()");
-	return _il2cpp_icall_func(__this);
-}
-// System.Boolean UnityEngine.Font::HasCharacter(System.Char)
-extern "C"  bool Font_HasCharacter_m2480770466 (Font_t1525081276 * __this, uint16_t ___c, const MethodInfo* method)
-{
-	typedef bool (*Font_HasCharacter_m2480770466_ftn) (Font_t1525081276 *, uint16_t);
-	static Font_HasCharacter_m2480770466_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Font_HasCharacter_m2480770466_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::HasCharacter(System.Char)");
-	return _il2cpp_icall_func(__this, ___c);
-}
-// System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font)
-extern TypeInfo* Font_t1525081276_il2cpp_TypeInfo_var;
-extern const MethodInfo* Action_1_Invoke_m2936931053_MethodInfo_var;
-extern const uint32_t Font_InvokeTextureRebuilt_Internal_m1357223658_MetadataUsageId;
-extern "C"  void Font_InvokeTextureRebuilt_Internal_m1357223658 (Il2CppObject * __this /* static, unused */, Font_t1525081276 * ___font, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (Font_InvokeTextureRebuilt_Internal_m1357223658_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	Action_1_t1673533981 * V_0 = NULL;
-	{
-		Action_1_t1673533981 * L_0 = ((Font_t1525081276_StaticFields*)Font_t1525081276_il2cpp_TypeInfo_var->static_fields)->get_textureRebuilt_2();
-		V_0 = L_0;
-		Action_1_t1673533981 * L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		Action_1_t1673533981 * L_2 = V_0;
-		Font_t1525081276 * L_3 = ___font;
-		NullCheck(L_2);
-		Action_1_Invoke_m2936931053(L_2, L_3, /*hidden argument*/Action_1_Invoke_m2936931053_MethodInfo_var);
-	}
-
-IL_0013:
-	{
-		Font_t1525081276 * L_4 = ___font;
-		NullCheck(L_4);
-		FontTextureRebuildCallback_t401089076 * L_5 = L_4->get_m_FontTextureRebuildCallback_3();
-		if (!L_5)
-		{
-			goto IL_0029;
-		}
-	}
-	{
-		Font_t1525081276 * L_6 = ___font;
-		NullCheck(L_6);
-		FontTextureRebuildCallback_t401089076 * L_7 = L_6->get_m_FontTextureRebuildCallback_3();
-		NullCheck(L_7);
-		FontTextureRebuildCallback_Invoke_m3507488951(L_7, /*hidden argument*/NULL);
-	}
-
-IL_0029:
-	{
-		return;
-	}
-}
-// System.Boolean UnityEngine.Font::get_dynamic()
-extern "C"  bool Font_get_dynamic_m3880144684 (Font_t1525081276 * __this, const MethodInfo* method)
-{
-	typedef bool (*Font_get_dynamic_m3880144684_ftn) (Font_t1525081276 *);
-	static Font_get_dynamic_m3880144684_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Font_get_dynamic_m3880144684_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::get_dynamic()");
-	return _il2cpp_icall_func(__this);
-}
-// System.Int32 UnityEngine.Font::get_fontSize()
-extern "C"  int32_t Font_get_fontSize_m3025810271 (Font_t1525081276 * __this, const MethodInfo* method)
-{
-	typedef int32_t (*Font_get_fontSize_m3025810271_ftn) (Font_t1525081276 *);
-	static Font_get_fontSize_m3025810271_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Font_get_fontSize_m3025810271_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::get_fontSize()");
-	return _il2cpp_icall_func(__this);
-}
 // System.Void UnityEngine.Font/FontTextureRebuildCallback::.ctor(System.Object,System.IntPtr)
 extern "C"  void FontTextureRebuildCallback__ctor_m2909762077 (FontTextureRebuildCallback_t401089076 * __this, Il2CppObject * ___object, IntPtr_t ___method, const MethodInfo* method)
 {

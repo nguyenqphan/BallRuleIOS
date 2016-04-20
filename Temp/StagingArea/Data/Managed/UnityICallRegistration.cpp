@@ -1,4 +1,4 @@
-//Generated on : 4/20/2016 5:13:57 PM
+//Generated on : 4/20/2016 5:53:14 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.Advertisements.UnityAdsInternal
@@ -52,14 +52,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Advertisements_UnityAdsManager_GetGameId();
 
 	//End Registrations for type : UnityEngine.Advertisements.UnityAdsManager
-
-	//Start Registrations for type : UnityEngine.AnimationClip
-
-		//System.Single UnityEngine.AnimationClip::get_length()
-		void Register_UnityEngine_AnimationClip_get_length();
-		Register_UnityEngine_AnimationClip_get_length();
-
-	//End Registrations for type : UnityEngine.AnimationClip
 
 	//Start Registrations for type : UnityEngine.AnimationCurve
 

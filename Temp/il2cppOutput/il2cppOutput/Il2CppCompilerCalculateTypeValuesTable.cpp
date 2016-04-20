@@ -1536,7 +1536,6 @@
 #include "UnityEngine_UnityEngine_Time1525492538.h"
 #include "UnityEngine_UnityEngine_Random3963434288.h"
 #include "UnityEngine_UnityEngine_YieldInstruction3557331758.h"
-#include "UnityEngine_UnityEngine_Motion3833401379.h"
 #include "UnityEngine_UnityEngine_iOS_ADBannerView_BannerWas1325188367.h"
 #include "UnityEngine_UnityEngine_iOS_ADBannerView_BannerWasLo69910023.h"
 #include "UnityEngine_UnityEngine_iOS_ADBannerView_BannerFai2071786927.h"
@@ -1556,7 +1555,6 @@
 #include "UnityEngine_UnityEngine_AudioSource3628549054.h"
 #include "UnityEngine_UnityEngine_Audio_AudioMixer2872434200.h"
 #include "UnityEngine_UnityEngine_Audio_AudioMixerSnapshot3013571836.h"
-#include "UnityEngine_UnityEngine_AnimationClip57566497.h"
 #include "UnityEngine_UnityEngine_AnimationState3357637594.h"
 #include "UnityEngine_UnityEngine_Animator792326996.h"
 #include "UnityEngine_UnityEngine_RuntimeAnimatorController3860414472.h"
@@ -1657,7 +1655,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7309] = 
+extern const int32_t g_FieldOffsetTable[7305] = 
 {
 	0,
 	0,
@@ -8458,16 +8456,12 @@ extern const int32_t g_FieldOffsetTable[7309] =
 	StartOptions_t3075365884::get_offset_of_changeScenes_3(),
 	StartOptions_t3075365884::get_offset_of_changeMusicOnStart_4(),
 	StartOptions_t3075365884::get_offset_of_inMainMenu_5(),
-	StartOptions_t3075365884::get_offset_of_animColorFade_6(),
-	StartOptions_t3075365884::get_offset_of_animMenuAlpha_7(),
-	StartOptions_t3075365884::get_offset_of_fadeColorAnimationClip_8(),
-	StartOptions_t3075365884::get_offset_of_fadeAlphaAnimationClip_9(),
-	StartOptions_t3075365884::get_offset_of_playMusic_10(),
-	StartOptions_t3075365884::get_offset_of_fastFadeIn_11(),
-	StartOptions_t3075365884::get_offset_of_showPanels_12(),
-	StartOptions_t3075365884::get_offset_of_textColor_13(),
-	StartOptions_t3075365884::get_offset_of_updateScore_14(),
-	StartOptions_t3075365884::get_offset_of_cubeManager_15(),
+	StartOptions_t3075365884::get_offset_of_playMusic_6(),
+	StartOptions_t3075365884::get_offset_of_fastFadeIn_7(),
+	StartOptions_t3075365884::get_offset_of_showPanels_8(),
+	StartOptions_t3075365884::get_offset_of_textColor_9(),
+	StartOptions_t3075365884::get_offset_of_updateScore_10(),
+	StartOptions_t3075365884::get_offset_of_cubeManager_11(),
 	BallP_t63949329::get_offset_of_movingSpeed_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	BallP_t63949329::get_offset_of_scale_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	BallP_t63949329::get_offset_of_startScale_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -8972,7 +8966,7 @@ extern const int32_t g_FieldOffsetTable[7309] =
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1859] = 
+extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1857] = 
 {
 	sizeof (U3CModuleU3E_t86524790), -1, 0, 0,
 	sizeof (Il2CppObject), -1, 0, 0,
@@ -10297,7 +10291,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1859] =
 	sizeof (Time_t1525492538), -1, 0, 0,
 	sizeof (Random_t3963434288), -1, 0, 0,
 	sizeof (YieldInstruction_t3557331758), sizeof(YieldInstruction_t3557331758_marshaled_pinvoke), 0, 0,
-	sizeof (Motion_t3833401379), -1, 0, 0,
 	sizeof (ADBannerView_t2458921414), -1, sizeof(ADBannerView_t2458921414_StaticFields), 0,
 	sizeof (BannerWasClickedDelegate_t1325188367), sizeof(methodPointerType), 0, 0,
 	sizeof (BannerWasLoadedDelegate_t69910023), sizeof(methodPointerType), 0, 0,
@@ -10340,7 +10333,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1859] =
 	sizeof (AudioMixerSnapshot_t3013571836), -1, 0, 0,
 	sizeof (AnimationEventSource_t2022798750)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0,
 	sizeof (AnimationEvent_t3344771555), -1, 0, 0,
-	sizeof (AnimationClip_t57566497), -1, 0, 0,
 	sizeof (AnimationState_t3357637594), -1, 0, 0,
 	sizeof (AnimatorClipInfo_t4255364242)+ sizeof (Il2CppObject), sizeof(AnimatorClipInfo_t4255364242_marshaled_pinvoke), 0, 0,
 	sizeof (AnimatorStateInfo_t4162640357)+ sizeof (Il2CppObject), sizeof(AnimatorStateInfo_t4162640357_marshaled_pinvoke), 0, 0,

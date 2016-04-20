@@ -12,10 +12,10 @@ public class StartOptions : MonoBehaviour {
 
 
 	[HideInInspector] public bool inMainMenu = true;					//If true, pause button disabled in main menu (Cancel in input manager, default escape key)
-	[HideInInspector] public Animator animColorFade; 					//Reference to animator which will fade to and from black when starting game.
-	[HideInInspector] public Animator animMenuAlpha;					//Reference to animator that will fade out alpha of MenuPanel canvas group
-	 public AnimationClip fadeColorAnimationClip;		//Animation clip fading to color (black default) when changing scenes
-	[HideInInspector] public AnimationClip fadeAlphaAnimationClip;		//Animation clip fading out UI elements alpha
+//	[HideInInspector] public Animator animColorFade; 					//Reference to animator which will fade to and from black when starting game.
+//	[HideInInspector] public Animator animMenuAlpha;					//Reference to animator that will fade out alpha of MenuPanel canvas group
+//	 public AnimationClip fadeColorAnimationClip;		//Animation clip fading to color (black default) when changing scenes
+//	[HideInInspector] public AnimationClip fadeAlphaAnimationClip;		//Animation clip fading out UI elements alpha
 
 
 	private PlayMusic playMusic;										//Reference to PlayMusic script
@@ -79,17 +79,17 @@ public class StartOptions : MonoBehaviour {
 		//To change fade time, change length of animation "FadeToColor"
 		if (changeMusicOnStart) 
 		{
-			playMusic.FadeDown(fadeColorAnimationClip.length);
+//			playMusic.FadeDown(fadeColorAnimationClip.length);
 		}
 
 		//If changeScenes is true, start fading and change scenes halfway through animation when screen is blocked by FadeImage
 		if (changeScenes) 
 		{
 			//Use invoke to delay calling of LoadDelayed by half the length of fadeColorAnimationClip
-			Invoke ("LoadDelayed", fadeColorAnimationClip.length * .5f);
+			Invoke ("LoadDelayed", 0.5f);
 
 			//Set the trigger of Animator animColorFade to start transition to the FadeToOpaque state.
-			animColorFade.SetTrigger ("fade");
+//			animColorFade.SetTrigger ("fade");
 		} 
 
 		//If changeScenes is false, call StartGameInScene
@@ -201,12 +201,12 @@ public class StartOptions : MonoBehaviour {
 		if (changeMusicOnStart) 
 		{
 			//Wait until game has started, then play new music
-			Invoke ("PlayNewMusic", fadeAlphaAnimationClip.length);
+//			Invoke ("PlayNewMusic", fadeAlphaAnimationClip.length);
 		}
 		//Set trigger for animator to start animation fading out Menu UI
-		animMenuAlpha.SetTrigger ("fade");
-		Invoke("HideDelayed", fadeAlphaAnimationClip.length);
-		Debug.Log ("Game started in same scene! Put your game starting stuff here.");
+//		animMenuAlpha.SetTrigger ("fade");
+		Invoke("HideDelayed", 0.5f);
+//		Debug.Log ("Game started in same scene! Put your game starting stuff here.");
 	}
 
 
