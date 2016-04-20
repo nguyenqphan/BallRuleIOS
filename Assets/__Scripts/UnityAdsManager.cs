@@ -5,15 +5,32 @@ using UnityEngine.Advertisements;
 public class UnityAdsManager : MonoBehaviour {
 
 	[HideInInspector]
-	public string gameID = "1060473";
+	public string gameID = null;
 	ShowPanels showPanels;
+
+	[SerializeField] string iosGameId = "1060473";
+	[SerializeField] string androidGameId = "1060172";
+	[SerializeField] bool enableTestMode = true;
 
 	// Use this for initialization
 	void Awake () {
 		showPanels = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
-		Advertisement.Initialize(gameID, true);
+//		Advertisement.Initialize(gameID, true);
 	}
 
+	void Start()
+	{
+		string gameId = null;
+
+		#if UNITY_IOS // If build platform is set to iOS...
+		gameId = iosGameId;
+		#elif UNITY_ANDROID // Else if build platform is set to Android...
+		gameId = androidGameId;
+		#endif
+
+		Advertisement.Initialize(gameId, enableTestMode);
+	}
+	
 
 	public void ShowAds()
 	{
