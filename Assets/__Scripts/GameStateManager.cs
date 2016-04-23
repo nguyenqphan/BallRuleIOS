@@ -172,6 +172,12 @@ public class GameStateManager : MonoBehaviour {
 		set{isObstacle = value;}
 	}
 
+	private bool isPurchased = false;
+	public bool IsPurchased{
+		get{return isPurchased;}
+		set{isPurchased = value;}
+	}
+
 	private bool isOutOfTime = false;
 	public bool IsOutOfTime{
 		get{return isOutOfTime;}
@@ -218,6 +224,7 @@ public class GameStateManager : MonoBehaviour {
 		data.obstacleScore = GameStateManager.Instance.BestObstacleScore;
 		data.numberOfPlay = GameStateManager.Instance.NumOfPlay;
 		data.adsPoints = GameStateManager.Instance.EarnAdsPoint;
+		data.isPaid = GameStateManager.Instance.IsPurchased;
 
 		bf.Serialize(file, data);
 		file.Close();
@@ -235,6 +242,7 @@ public class GameStateManager : MonoBehaviour {
 			GameStateManager.Instance.BestObstacleScore = data.obstacleScore;
 			GameStateManager.Instance.NumOfPlay = data.numberOfPlay;
 			GameStateManager.Instance.EarnAdsPoint = data.adsPoints;
+			GameStateManager.Instance.IsPurchased = data.isPaid;
 
 			file.Close();
 
@@ -249,5 +257,6 @@ public class GameStateManager : MonoBehaviour {
 		public int obstacleScore;
 		public int numberOfPlay; 
 		public int adsPoints;
+		public bool isPaid;
 	}
 }

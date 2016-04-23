@@ -7,7 +7,6 @@ public class SetFrameRate : MonoBehaviour {
 		Application.targetFrameRate = 30;
 		useGUILayout = false;
 	
-	
 	}
 
 //	void Update()

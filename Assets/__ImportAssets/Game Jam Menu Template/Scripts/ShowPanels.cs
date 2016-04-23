@@ -102,10 +102,19 @@ public class ShowPanels : MonoBehaviour {
 		GameStateManager.Instance.Load();
 //		Debug.Log(GameStateManager.Instance.NumOfPlay);
 		if(GameStateManager.Instance.NumOfPlay > 40)
-		{
-			askButton.SetActive(false);
+		{	
+//			GameStateManager.Instance.IsPurchased = false;
+			if(GameStateManager.Instance.IsPurchased)
+			{
+				askButton.SetActive(true);
+			}else{
+				askButton.SetActive(false);
+			}
 			rateButton.SetActive(true);
 		}
+
+
+
 	}
 
 	//Call this function to deactivate and hide the main menu panel during the main menu
