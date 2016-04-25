@@ -1,0 +1,43 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="SetAudioLevels">
+			<method name="SetSfxLevel"/>
+			<method name="SetSfxLevel"/>
+			<method name="SetMusicLevel"/>
+			<method name="SetMusicLevel"/>
+		</type>
+		<type fullname="Gamemanager">
+			<method name="UniversalMode"/>
+			<method name="ObstacleMode"/>
+			<method name="ChallengeMode"/>
+		</type>
+		<type fullname="ShowPanels">
+			<method name="ShowInstruction"/>
+			<method name="ShowOptionsPanel"/>
+			<method name="HideInstruction"/>
+			<method name="HideOptionsPanel"/>
+		</type>
+		<type fullname="UnityAdsManager">
+			<method name="ShowRewardAds"/>
+		</type>
+		<type fullname="GameCenterAPI">
+			<method name="GCReportScore"/>
+			<method name="GClogin"/>
+		</type>
+		<type fullname="QuitApplication">
+			<method name="Quit"/>
+			<method name="Quit"/>
+		</type>
+		<type fullname="Pause">
+			<method name="UnPause"/>
+			<method name="UnPause"/>
+		</type>
+		<type fullname="StartOptions">
+			<method name="StartButtonClicked"/>
+			<method name="RefleshButtonClicked"/>
+		</type>
+		<type fullname="Purchaser">
+			<method name="BuyNonConsumable"/>
+		</type>
+	</assembly>
+</linker>

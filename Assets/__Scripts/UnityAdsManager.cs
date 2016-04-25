@@ -2,7 +2,10 @@
 using System.Collections;
 using UnityEngine.Advertisements;
 
+
 public class UnityAdsManager : MonoBehaviour {
+
+	private GameCenterAPI gameCenterAPI;
 
 	[HideInInspector]
 	public string gameID = null;
@@ -15,6 +18,8 @@ public class UnityAdsManager : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
 		showPanels = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
+		gameCenterAPI = GameObject.FindWithTag("GameManager").GetComponent<GameCenterAPI>();
+
 //		Advertisement.Initialize(gameID, true);
 	}
 
@@ -65,6 +70,8 @@ public class UnityAdsManager : MonoBehaviour {
 			GameStateManager.Instance.EarnAdsPoint++;
 //			Debug.Log(GameStateManager.Instance.EarnAdsPoint);
 			GameStateManager.Instance.Save();
+			gameCenterAPI.GCReportSupporterScore();
+
 			break;
 		case ShowResult.Failed:
 			break;

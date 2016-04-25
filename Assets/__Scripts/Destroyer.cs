@@ -14,6 +14,7 @@ public class Destroyer : MonoBehaviour {
 	private CubeManager cubeManager;					//Reference to the Cubemanager;
 	private bool isTimeRunning;							//If the challenge time is running
 	private UnityAdsManager unityAdsManager;
+	private GameCenterAPI gameCenterAPI;
 
 	void Awake()
 	{
@@ -22,6 +23,7 @@ public class Destroyer : MonoBehaviour {
 		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 		showUI = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
 		unityAdsManager = GameObject.FindWithTag("GameManager").GetComponent<UnityAdsManager>();
+		gameCenterAPI = GameObject.FindWithTag("GameManager").GetComponent<GameCenterAPI>();
 
 
 	}
@@ -40,6 +42,7 @@ public class Destroyer : MonoBehaviour {
 	{
 		if (GameStateManager.Instance.BestChallengeScore < GameStateManager.HighScore) {
 			GameStateManager.Instance.BestChallengeScore = GameStateManager.HighScore;
+			gameCenterAPI.GCReportScore();
 		}
 	}
 
@@ -48,6 +51,7 @@ public class Destroyer : MonoBehaviour {
 		if (GameStateManager.Instance.BestScore < GameStateManager.HighScore) 			
 		{
 			GameStateManager.Instance.BestScore = GameStateManager.HighScore;
+			gameCenterAPI.GCReportScore();
 		}
 	}
 
@@ -56,6 +60,7 @@ public class Destroyer : MonoBehaviour {
 		if(GameStateManager.Instance.BestObstacleScore < GameStateManager.HighScore)
 		{
 			GameStateManager.Instance.BestObstacleScore = GameStateManager.HighScore;
+			gameCenterAPI.GCReportScore();
 		}
 	}
 		
