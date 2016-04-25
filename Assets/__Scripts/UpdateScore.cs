@@ -30,6 +30,7 @@ public class UpdateScore : MonoBehaviour {
 	public void ChangeLiveScore()
 	{
 		liveScoreLable.text = GameStateManager.HighScore.ToString(); 
+		GameCenterAPI.GCReportAchievement();
 	}
 
 	public void EndGameScore()

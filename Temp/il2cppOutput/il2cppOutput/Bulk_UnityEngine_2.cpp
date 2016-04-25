@@ -8343,14 +8343,6 @@ extern "C"  bool LocalUser_get_authenticated_m3657159816 (LocalUser_t2259562908 
 		return L_0;
 	}
 }
-// System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::get_underage()
-extern "C"  bool LocalUser_get_underage_m4245226576 (LocalUser_t2259562908 * __this, const MethodInfo* method)
-{
-	{
-		bool L_0 = __this->get_m_Underage_7();
-		return L_0;
-	}
-}
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::.ctor(System.String,System.Int64)
 extern TypeInfo* DateTime_t339033936_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;

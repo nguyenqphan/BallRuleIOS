@@ -115,7 +115,7 @@ extern "C"  void GameStateManager_Restart_m3827787834 (GameStateManager_t6480422
 extern "C"  void GameStateManager_Save_m2100463252 (GameStateManager_t648042254 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameStateManager::Load()
 extern "C"  void GameStateManager_Load_m1912361917 (GameStateManager_t648042254 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// GameStateManager GameStateManager::<init>m__8()
-extern "C"  GameStateManager_t648042254 * GameStateManager_U3CinitU3Em__8_m636916963 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// GameStateManager GameStateManager::<final>m__9()
-extern "C"  GameStateManager_t648042254 * GameStateManager_U3CfinalU3Em__9_m1775342668 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// GameStateManager GameStateManager::<init>m__9()
+extern "C"  GameStateManager_t648042254 * GameStateManager_U3CinitU3Em__9_m636917924 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// GameStateManager GameStateManager::<final>m__A()
+extern "C"  GameStateManager_t648042254 * GameStateManager_U3CfinalU3Em__A_m1775350356 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

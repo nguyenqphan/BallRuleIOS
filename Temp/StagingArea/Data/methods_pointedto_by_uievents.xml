@@ -21,8 +21,8 @@
 			<method name="ShowRewardAds"/>
 		</type>
 		<type fullname="GameCenterAPI">
-			<method name="GCReportScore"/>
-			<method name="GClogin"/>
+			<method name="GCShowAchievement"/>
+			<method name="GCShowLeaderBoard"/>
 		</type>
 		<type fullname="QuitApplication">
 			<method name="Quit"/>

@@ -1777,7 +1777,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7748] = 
+extern const int32_t g_FieldOffsetTable[7749] = 
 {
 	0,
 	0,
@@ -9113,6 +9113,7 @@ extern const int32_t g_FieldOffsetTable[7748] =
 	0,
 	GameCenterAPI_t660842899_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_2(),
 	GameCenterAPI_t660842899_StaticFields::get_offset_of_U3CU3Ef__amU24cache1_3(),
+	GameCenterAPI_t660842899_StaticFields::get_offset_of_U3CU3Ef__amU24cache2_4(),
 	GameStateManager_t648042254_StaticFields::get_offset_of_instance_2(),
 	GameStateManager_t648042254_StaticFields::get_offset_of_init_3(),
 	GameStateManager_t648042254_StaticFields::get_offset_of_final_4(),

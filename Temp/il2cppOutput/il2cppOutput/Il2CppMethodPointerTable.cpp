@@ -9720,7 +9720,6 @@ extern "C" void LocalUser_SetFriends_m3475409220 ();
 extern "C" void LocalUser_SetAuthenticated_m653377406 ();
 extern "C" void LocalUser_SetUnderage_m2968368872 ();
 extern "C" void LocalUser_get_authenticated_m3657159816 ();
-extern "C" void LocalUser_get_underage_m4245226576 ();
 extern "C" void Score__ctor_m113497156 ();
 extern "C" void Score__ctor_m3768037481 ();
 extern "C" void Score_ToString_m3380639973 ();
@@ -12236,12 +12235,15 @@ extern "C" void U3CFlashingCubeU3Ec__Iterator1A_Reset_m3107619839 ();
 extern "C" void GameCenterAPI__ctor_m546360632 ();
 extern "C" void GameCenterAPI_Start_m3788465720 ();
 extern "C" void GameCenterAPI_UniversalLBCallback_m2255223027 ();
-extern "C" void GameCenterAPI_GClogin_m376263171 ();
 extern "C" void GameCenterAPI_GCShowLeaderBoard_m499222938 ();
+extern "C" void GameCenterAPI_GCShowAchievement_m2117661932 ();
 extern "C" void GameCenterAPI_GCReportScore_m584082488 ();
 extern "C" void GameCenterAPI_GCReportSupporterScore_m4252146482 ();
+extern "C" void GameCenterAPI_GCReportAchievement_m2795164117 ();
+extern "C" void GameCenterAPI_CallbackAchievement_m4146857527 ();
 extern "C" void GameCenterAPI_U3CStartU3Em__6_m957424622 ();
-extern "C" void GameCenterAPI_U3CGCloginU3Em__7_m4050049732 ();
+extern "C" void GameCenterAPI_U3CGCShowLeaderBoardU3Em__7_m3015808589 ();
+extern "C" void GameCenterAPI_U3CGCShowAchievementU3Em__8_m553964476 ();
 extern "C" void Gamemanager__ctor_m660085360 ();
 extern "C" void Gamemanager_Awake_m897690579 ();
 extern "C" void Gamemanager_UniversalMode_m2621883804 ();
@@ -12295,8 +12297,8 @@ extern "C" void GameStateManager_StartGame_m3277387231 ();
 extern "C" void GameStateManager_Restart_m3827787834 ();
 extern "C" void GameStateManager_Save_m2100463252 ();
 extern "C" void GameStateManager_Load_m1912361917 ();
-extern "C" void GameStateManager_U3CinitU3Em__8_m636916963 ();
-extern "C" void GameStateManager_U3CfinalU3Em__9_m1775342668 ();
+extern "C" void GameStateManager_U3CinitU3Em__9_m636917924 ();
+extern "C" void GameStateManager_U3CfinalU3Em__A_m1775350356 ();
 extern "C" void InstanceStep__ctor_m1886435673 ();
 extern "C" void InstanceStep_Invoke_m955855268 ();
 extern "C" void InstanceStep_BeginInvoke_m3001398840 ();
@@ -12391,7 +12393,7 @@ extern "C" void Purchaser_OnInitialized_m1003936036 ();
 extern "C" void Purchaser_OnInitializeFailed_m1812547681 ();
 extern "C" void Purchaser_ProcessPurchase_m1990665364 ();
 extern "C" void Purchaser_OnPurchaseFailed_m3761700001 ();
-extern "C" void Purchaser_U3CRestorePurchasesU3Em__A_m2567749011 ();
+extern "C" void Purchaser_U3CRestorePurchasesU3Em__B_m3921058708 ();
 extern "C" void QuitApplication__ctor_m3343120682 ();
 extern "C" void QuitApplication_Quit_m2927276393 ();
 extern "C" void SetAudioLevels__ctor_m145923256 ();
@@ -12746,7 +12748,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[12735] = 
+extern const methodPointerType g_MethodPointers[12737] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -22457,7 +22459,6 @@ extern const methodPointerType g_MethodPointers[12735] =
 	LocalUser_SetAuthenticated_m653377406,
 	LocalUser_SetUnderage_m2968368872,
 	LocalUser_get_authenticated_m3657159816,
-	LocalUser_get_underage_m4245226576,
 	Score__ctor_m113497156,
 	Score__ctor_m3768037481,
 	Score_ToString_m3380639973,
@@ -24973,12 +24974,15 @@ extern const methodPointerType g_MethodPointers[12735] =
 	GameCenterAPI__ctor_m546360632,
 	GameCenterAPI_Start_m3788465720,
 	GameCenterAPI_UniversalLBCallback_m2255223027,
-	GameCenterAPI_GClogin_m376263171,
 	GameCenterAPI_GCShowLeaderBoard_m499222938,
+	GameCenterAPI_GCShowAchievement_m2117661932,
 	GameCenterAPI_GCReportScore_m584082488,
 	GameCenterAPI_GCReportSupporterScore_m4252146482,
+	GameCenterAPI_GCReportAchievement_m2795164117,
+	GameCenterAPI_CallbackAchievement_m4146857527,
 	GameCenterAPI_U3CStartU3Em__6_m957424622,
-	GameCenterAPI_U3CGCloginU3Em__7_m4050049732,
+	GameCenterAPI_U3CGCShowLeaderBoardU3Em__7_m3015808589,
+	GameCenterAPI_U3CGCShowAchievementU3Em__8_m553964476,
 	Gamemanager__ctor_m660085360,
 	Gamemanager_Awake_m897690579,
 	Gamemanager_UniversalMode_m2621883804,
@@ -25032,8 +25036,8 @@ extern const methodPointerType g_MethodPointers[12735] =
 	GameStateManager_Restart_m3827787834,
 	GameStateManager_Save_m2100463252,
 	GameStateManager_Load_m1912361917,
-	GameStateManager_U3CinitU3Em__8_m636916963,
-	GameStateManager_U3CfinalU3Em__9_m1775342668,
+	GameStateManager_U3CinitU3Em__9_m636917924,
+	GameStateManager_U3CfinalU3Em__A_m1775350356,
 	InstanceStep__ctor_m1886435673,
 	InstanceStep_Invoke_m955855268,
 	InstanceStep_BeginInvoke_m3001398840,
@@ -25128,7 +25132,7 @@ extern const methodPointerType g_MethodPointers[12735] =
 	Purchaser_OnInitializeFailed_m1812547681,
 	Purchaser_ProcessPurchase_m1990665364,
 	Purchaser_OnPurchaseFailed_m3761700001,
-	Purchaser_U3CRestorePurchasesU3Em__A_m2567749011,
+	Purchaser_U3CRestorePurchasesU3Em__B_m3921058708,
 	QuitApplication__ctor_m3343120682,
 	QuitApplication_Quit_m2927276393,
 	SetAudioLevels__ctor_m145923256,

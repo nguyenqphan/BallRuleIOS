@@ -36,6 +36,8 @@ public:
 	Action_1_t359458046 * ___U3CU3Ef__amU24cache0_2;
 	// System.Action`1<System.Boolean> GameCenterAPI::<>f__am$cache1
 	Action_1_t359458046 * ___U3CU3Ef__amU24cache1_3;
+	// System.Action`1<System.Boolean> GameCenterAPI::<>f__am$cache2
+	Action_1_t359458046 * ___U3CU3Ef__amU24cache2_4;
 
 public:
 	inline static int32_t get_offset_of_U3CU3Ef__amU24cache0_2() { return static_cast<int32_t>(offsetof(GameCenterAPI_t660842899_StaticFields, ___U3CU3Ef__amU24cache0_2)); }
@@ -54,6 +56,15 @@ public:
 	{
 		___U3CU3Ef__amU24cache1_3 = value;
 		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__amU24cache1_3, value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__amU24cache2_4() { return static_cast<int32_t>(offsetof(GameCenterAPI_t660842899_StaticFields, ___U3CU3Ef__amU24cache2_4)); }
+	inline Action_1_t359458046 * get_U3CU3Ef__amU24cache2_4() const { return ___U3CU3Ef__amU24cache2_4; }
+	inline Action_1_t359458046 ** get_address_of_U3CU3Ef__amU24cache2_4() { return &___U3CU3Ef__amU24cache2_4; }
+	inline void set_U3CU3Ef__amU24cache2_4(Action_1_t359458046 * value)
+	{
+		___U3CU3Ef__amU24cache2_4 = value;
+		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__amU24cache2_4, value);
 	}
 };
 

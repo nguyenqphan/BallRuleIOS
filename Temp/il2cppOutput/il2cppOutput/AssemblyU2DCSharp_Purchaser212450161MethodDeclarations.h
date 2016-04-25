@@ -61,5 +61,5 @@ extern "C"  void Purchaser_OnInitializeFailed_m1812547681 (Purchaser_t212450161 
 extern "C"  int32_t Purchaser_ProcessPurchase_m1990665364 (Purchaser_t212450161 * __this, PurchaseEventArgs_t3858045197 * ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Purchaser::OnPurchaseFailed(UnityEngine.Purchasing.Product,UnityEngine.Purchasing.PurchaseFailureReason)
 extern "C"  void Purchaser_OnPurchaseFailed_m3761700001 (Purchaser_t212450161 * __this, Product_t16267110 * ___product, int32_t ___failureReason, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void Purchaser::<RestorePurchases>m__A(System.Boolean)
-extern "C"  void Purchaser_U3CRestorePurchasesU3Em__A_m2567749011 (Il2CppObject * __this /* static, unused */, bool ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Purchaser::<RestorePurchases>m__B(System.Boolean)
+extern "C"  void Purchaser_U3CRestorePurchasesU3Em__B_m3921058708 (Il2CppObject * __this /* static, unused */, bool ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

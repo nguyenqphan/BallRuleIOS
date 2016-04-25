@@ -33,5 +33,3 @@ extern "C"  void LocalUser_SetAuthenticated_m653377406 (LocalUser_t2259562908 * 
 extern "C"  void LocalUser_SetUnderage_m2968368872 (LocalUser_t2259562908 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::get_authenticated()
 extern "C"  bool LocalUser_get_authenticated_m3657159816 (LocalUser_t2259562908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::get_underage()
-extern "C"  bool LocalUser_get_underage_m4245226576 (LocalUser_t2259562908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
