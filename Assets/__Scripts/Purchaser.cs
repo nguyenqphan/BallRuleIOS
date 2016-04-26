@@ -22,7 +22,7 @@ using UnityEngine.Purchasing;
 		private static string kProductIDSubscription =  "subscription";                                                   // General handle for the subscription product.
 
 		private static string kProductNameAppleConsumable =    "com.unity3d.test.services.purchasing.consumable";             // Apple App Store identifier for the consumable product.
-		private static string kProductNameAppleNonConsumable = "com.unity3d.test.services.purchasing.nonconsumable";      // Apple App Store identifier for the non-consumable product.
+		private static string kProductNameAppleNonConsumable = "removeads_ios";      // Apple App Store identifier for the non-consumable product.
 		private static string kProductNameAppleSubscription =  "com.unity3d.test.services.purchasing.subscription";       // Apple App Store identifier for the subscription product.
 
 		private static string kProductNameGooglePlayConsumable =    "com.unity3d.test.services.purchasing.consumable";        // Google Play Store identifier for the consumable product.

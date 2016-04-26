@@ -9636,7 +9636,7 @@ extern Il2CppCodeGenString* _stringLiteral4128595555;
 extern Il2CppCodeGenString* _stringLiteral3266161904;
 extern Il2CppCodeGenString* _stringLiteral341203229;
 extern Il2CppCodeGenString* _stringLiteral336420362;
-extern Il2CppCodeGenString* _stringLiteral1099773929;
+extern Il2CppCodeGenString* _stringLiteral2691404538;
 extern Il2CppCodeGenString* _stringLiteral2488077060;
 extern Il2CppCodeGenString* _stringLiteral1282376108;
 extern const uint32_t Purchaser__cctor_m3732555219_MetadataUsageId;
@@ -9653,7 +9653,7 @@ extern "C"  void Purchaser__cctor_m3732555219 (Il2CppObject * __this /* static, 
 		((Purchaser_t212450161_StaticFields*)Purchaser_t212450161_il2cpp_TypeInfo_var->static_fields)->set_kProductIDNonConsumable_6(_stringLiteral3266161904);
 		((Purchaser_t212450161_StaticFields*)Purchaser_t212450161_il2cpp_TypeInfo_var->static_fields)->set_kProductIDSubscription_7(_stringLiteral341203229);
 		((Purchaser_t212450161_StaticFields*)Purchaser_t212450161_il2cpp_TypeInfo_var->static_fields)->set_kProductNameAppleConsumable_8(_stringLiteral336420362);
-		((Purchaser_t212450161_StaticFields*)Purchaser_t212450161_il2cpp_TypeInfo_var->static_fields)->set_kProductNameAppleNonConsumable_9(_stringLiteral1099773929);
+		((Purchaser_t212450161_StaticFields*)Purchaser_t212450161_il2cpp_TypeInfo_var->static_fields)->set_kProductNameAppleNonConsumable_9(_stringLiteral2691404538);
 		((Purchaser_t212450161_StaticFields*)Purchaser_t212450161_il2cpp_TypeInfo_var->static_fields)->set_kProductNameAppleSubscription_10(_stringLiteral2488077060);
 		((Purchaser_t212450161_StaticFields*)Purchaser_t212450161_il2cpp_TypeInfo_var->static_fields)->set_kProductNameGooglePlayConsumable_11(_stringLiteral336420362);
 		((Purchaser_t212450161_StaticFields*)Purchaser_t212450161_il2cpp_TypeInfo_var->static_fields)->set_kProductNameGooglePlayNonConsumable_12(_stringLiteral1282376108);
