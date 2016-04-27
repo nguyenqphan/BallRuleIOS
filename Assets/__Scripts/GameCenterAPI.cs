@@ -1,39 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SocialPlatforms;
+#if UNITY_IPHONE
 using UnityEngine.SocialPlatforms.GameCenter;
+#endif
+#if UNITY_ANDROID
+using GooglePlayGames;
+#endif
+
+
 public class GameCenterAPI : MonoBehaviour {
+
+	void Awake()
+	{
+		PlayGamesPlatform.Activate();
+	}
 
 	void Start()
 	{
-
-	
-//		ILeaderboard  gcUniversalLB = Social.CreateLeaderboard();
-////		ILeaderboard gcChallengeLB = Social.CreateLeaderboard();
-//		ILeaderboard gcObstaclesLB = Social.CreateLeaderboard();
-////		ILeaderboard gcSupportersLB = Social.CreateLeaderboard();
-////
-//		gcUniversalLB.id = "universal_leaderboard";
-////		gcChallengeLB.id = "obstacles_leaderboard";
-//		gcObstaclesLB.id = "obstacles_leaderboard";
-////		gcSupportersLB.id = "supporters_leaderboard";
-//
-//		Social.ReportScore(5, "universal_leaderboard", UniversalLBCallback);
-
 		Social.localUser.Authenticate (success => {
-//			if (success) {
-//				Debug.Log ("Authentication successful");
-//				string userInfo = "Username: " + Social.localUser.userName + 
-//					"\nUser ID: " + Social.localUser.id + 
-//					"\nIsUnderage: " + Social.localUser.underage;
-//				Debug.Log (userInfo);
-//			}
-//			else
-//				Debug.Log ("Authentication failed");
 		});
-
-
-
 	}
 
 	void UniversalLBCallback(bool success)
@@ -62,6 +48,7 @@ public class GameCenterAPI : MonoBehaviour {
 
 	public void GCReportScore()
 	{
+		#if UNITY_IPHONE
 		if(GameStateManager.Instance.IsChallenged)
 		{
 			Social.ReportScore(GameStateManager.Instance.BestChallengeScore, "challenge_leaderboard", UniversalLBCallback);
@@ -71,33 +58,68 @@ public class GameCenterAPI : MonoBehaviour {
 			Social.ReportScore(GameStateManager.Instance.BestScore, "universal_leaderboard", UniversalLBCallback);
 
 		}
+		#endif
+		#if UNITY_ANDROID
+		if(GameStateManager.Instance.IsChallenged)
+		{
+			Social.ReportScore(GameStateManager.Instance.BestChallengeScore, GPSBallRule.leaderboard_challenge, UniversalLBCallback);
+		}else if(GameStateManager.Instance.IsObstacle){
+			Social.ReportScore(GameStateManager.Instance.BestObstacleScore, GPSBallRule.leaderboard_obstacles, UniversalLBCallback);
+		} else{
+			Social.ReportScore(GameStateManager.Instance.BestScore, GPSBallRule.leaderboard_universal, UniversalLBCallback);
+
+		}
+		#endif
 	}
 		
 	public void GCReportSupporterScore()
 	{
+		#if UNITY_IPHONE
 		Social.ReportScore(GameStateManager.Instance.EarnAdsPoint, "supporters_leaderboard", UniversalLBCallback);
+		#endif
 
+		#if UNITY_ANDROID
+		Social.ReportScore(GameStateManager.Instance.EarnAdsPoint, GPSBallRule.leaderboard_supporters, UniversalLBCallback);
+		#endif
 //		GameCenterPlatform.ShowLeaderboardUI("supporters_leaderboard", TimeScope.AllTime);
 	}
 
 	public static void GCReportAchievement()
 	{
+		#if UNITY_IPHONE
+		if (GameStateManager.HighScore > 99) {
+			if (!GameStateManager.Instance.IsChallenged) {
+				Social.ReportProgress ("advance_achievement", 100.0d, CallbackAchievement);
+			} else {
+				Social.ReportProgress ("expert_achivement", 100.0d, CallbackAchievement);
+			}
+		} else if (GameStateManager.HighScore > 59) {
+			Social.ReportProgress ("proficient_achivement", 100.0d, CallbackAchievement);
+		} else if (GameStateManager.HighScore > 39) {
+			Social.ReportProgress ("intermediate_achievement", 100.0d, CallbackAchievement);
+		} else if (GameStateManager.HighScore > 19) {
+			Social.ReportProgress ("newbie_achievement", 100.0d, CallbackAchievement);
+		}
+		#endif
+
+		#if UNITY_ANDROID
 		if(GameStateManager.HighScore  > 99)
 		{
 			if (!GameStateManager.Instance.IsChallenged) {
-				Social.ReportProgress ("advance_achievement", 100.0d, CallbackAchievement);
+				Social.ReportProgress (GPSBallRule.achievement_advance, 100.0d, CallbackAchievement);
 			}
 			else 
 			{
-				Social.ReportProgress("expert_achivement", 100.0d, CallbackAchievement);
+				Social.ReportProgress(GPSBallRule.achievement_expert, 100.0d, CallbackAchievement);
 			}
 		}else if(GameStateManager.HighScore > 59) {
-			Social.ReportProgress("proficient_achivement", 100.0d, CallbackAchievement);
+			Social.ReportProgress(GPSBallRule.achievement_proficient, 100.0d, CallbackAchievement);
 		}else if(GameStateManager.HighScore > 39){
-			Social.ReportProgress("intermediate_achievement", 100.0d, CallbackAchievement);
+			Social.ReportProgress(GPSBallRule.achievement_intermediate, 100.0d, CallbackAchievement);
 		}else if(GameStateManager.HighScore > 19){
-			Social.ReportProgress("newbie_achievement", 100.0d, CallbackAchievement);
+			Social.ReportProgress(GPSBallRule.achievement_newbie, 100.0d, CallbackAchievement);
 		}
+		#endif
 	}
 
 	public static void CallbackAchievement(bool success)
