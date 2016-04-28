@@ -13,7 +13,9 @@ public class GameCenterAPI : MonoBehaviour {
 
 	void Awake()
 	{
-		PlayGamesPlatform.Activate();
+		#if UNITY_ANDROID
+		PlayGamesPlatform.Activate ();
+		#endif
 	}
 
 	void Start()

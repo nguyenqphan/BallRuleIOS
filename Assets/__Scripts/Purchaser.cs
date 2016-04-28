@@ -26,7 +26,7 @@ using UnityEngine.Purchasing;
 		private static string kProductNameAppleSubscription =  "com.unity3d.test.services.purchasing.subscription";       // Apple App Store identifier for the subscription product.
 
 		private static string kProductNameGooglePlayConsumable =    "com.unity3d.test.services.purchasing.consumable";        // Google Play Store identifier for the consumable product.
-	private static string kProductNameGooglePlayNonConsumable = "removeads_google";     // Google Play Store identifier for the non-consumable product.
+		private static string kProductNameGooglePlayNonConsumable = "removeads_google";     // Google Play Store identifier for the non-consumable product.
 		private static string kProductNameGooglePlaySubscription =  "com.unity3d.test.services.purchasing.subscription";  // Google Play Store identifier for the subscription product.
 
 //	void Awake()
