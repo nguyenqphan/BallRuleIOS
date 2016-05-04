@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: a8c20f4b028714b57bec1d2c3a3af437
-timeCreated: 1462369431
+guid: 103a7b010a10c48fcb835ea0a6345fdb
+timeCreated: 1462373745
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName: {}
@@ -48,19 +48,14 @@ TextureImporter:
   alphaIsTransparency: 0
   textureType: 5
   buildTargetSettings:
-  - buildTarget: Standalone
-    maxTextureSize: 2048
-    textureFormat: 3
-    compressionQuality: 50
-    allowsAlphaSplitting: 0
   - buildTarget: Android
     maxTextureSize: 2048
     textureFormat: 3
     compressionQuality: 50
     allowsAlphaSplitting: 0
-  - buildTarget: iPhone
+  - buildTarget: Standalone
     maxTextureSize: 2048
-    textureFormat: 3
+    textureFormat: 10
     compressionQuality: 50
     allowsAlphaSplitting: 0
   spriteSheet:
