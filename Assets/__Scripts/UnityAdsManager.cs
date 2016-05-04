@@ -13,7 +13,7 @@ public class UnityAdsManager : MonoBehaviour {
 
 	[SerializeField] string iosGameId = "1060473";
 	[SerializeField] string androidGameId = "1060172";
-	[SerializeField] bool enableTestMode = true;
+	[SerializeField] bool enableTestMode = false;
 
 	// Use this for initialization
 	void Awake () {

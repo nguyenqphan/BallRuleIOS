@@ -57,7 +57,7 @@ public class StartOptions : MonoBehaviour {
 		cubeManager.cubeLayerMask.value = 8192;	
 		if(GameStateManager.Instance.IsChallenged)
 		{
-			GameStateManager.Instance.ChallengeTimer = 15;
+			GameStateManager.Instance.ChallengeTimer = 10;
 			showPanels.outOfTimeText.SetActive(false);
 		
 			showPanels.liveChallengeTime.SetActive(true);
@@ -119,7 +119,7 @@ public class StartOptions : MonoBehaviour {
 		if(GameStateManager.Instance.IsChallenged)
 		{
 			GameStateManager.Instance.IsOutOfTime = false;
-			GameStateManager.Instance.ChallengeTimer = 15;
+			GameStateManager.Instance.ChallengeTimer = 10;
 			showPanels.liveChallengeTime.SetActive(true);
 			updateScore.TimerChallenge();
 			showPanels.outOfTimeText.SetActive(false);

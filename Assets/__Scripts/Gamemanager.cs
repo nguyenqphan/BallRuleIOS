@@ -50,7 +50,7 @@ public class Gamemanager : MonoBehaviour {
 	{
 
 		//The condition to enable challenge mode
-		if (GameStateManager.Instance.BestScore > 10) {
+		if (GameStateManager.Instance.BestScore > 59) {
 			GameStateManager.Instance.IsChallenged = true;			//set the challenge mode to true
 			GameStateManager.Instance.IsObstacle = false;			//set the obstacle mode to false
 			playMusic.FadeDown (1f);
@@ -65,7 +65,7 @@ public class Gamemanager : MonoBehaviour {
 	public void ObstacleMode()
 	{
 		//Condition to enable Obstacle Mode 
-		if (GameStateManager.Instance.BestChallengeScore > 10) {
+		if (GameStateManager.Instance.BestChallengeScore > 99) {
 			GameStateManager.Instance.IsObstacle = true;			//set the obstacle mode to true
 			GameStateManager.Instance.IsChallenged = false;			//set the challenge mode to false
 			playMusic.FadeDown (1f);

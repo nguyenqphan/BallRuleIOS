@@ -49,11 +49,11 @@ public class ShowPanels : MonoBehaviour {
 	public void ShowOptionsPanel()
 	{
 		GameStateManager.Instance.Load();
-		if(GameStateManager.Instance.BestScore > 10)
+		if(GameStateManager.Instance.BestScore > 59)
 		{
 			HideChallLockImage();
 		}
-		if(GameStateManager.Instance.BestChallengeScore > 10)
+		if(GameStateManager.Instance.BestChallengeScore > 99)
 		{
 			HideObsLockImage();
 		}
