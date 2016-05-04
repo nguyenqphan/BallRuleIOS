@@ -1,27 +1,6 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GPSBallRuleIOS.cs">
-    <Files>
-      <File FileName="Assets/__Scripts/GameCenterAPI.cs" Line="18" Column="9" NotebookId="1" />
-      <File FileName="Assets/__Scripts/Purchaser.cs" Line="29" Column="3" NotebookId="1" />
-      <File FileName="Assets/__ImportAssets/Game Jam Menu Template/Scripts/ShowPanels.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/__Scripts/Destroyer.cs" Line="54" Column="18" NotebookId="1" />
-      <File FileName="Assets/__Scripts/GameStateManager.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/__Scripts/UnityAdsManager.cs" Line="64" Column="30" NotebookId="1" />
-      <File FileName="Assets/__Scripts/EventManager.cs" Line="31" Column="1" NotebookId="1" />
-      <File FileName="Assets/__Scripts/Gamemanager.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/__Scripts/GPSBallRule.cs" Line="25" Column="1" NotebookId="1" />
-      <File FileName="Assets/GPSBallRule.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/GPSBallRuleIOS.cs" Line="37" Column="2" NotebookId="1" />
-    </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="644" Y="23" Width="1036" Height="905">
-        <Files>
-          <File FileName="Assets/__Scripts/GPSManager.cs" Line="27" Column="46" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
