@@ -37,7 +37,7 @@ public class PlayerScaler : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		scallerP.ballTime = 30;
+		scallerP.ballTime = 15;
 		scallerP.scalingSpeed = 1f;
 		scallerP.doubleSize = 2f;
 		scallerP.oneHalf = 1.5f;

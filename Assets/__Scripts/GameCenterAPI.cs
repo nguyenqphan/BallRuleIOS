@@ -1,12 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SocialPlatforms;
-#if UNITY_IPHONE
 using UnityEngine.SocialPlatforms.GameCenter;
-#endif
-#if UNITY_ANDROID
 using GooglePlayGames;
-#endif
 
 
 public class GameCenterAPI : MonoBehaviour {
@@ -15,7 +11,10 @@ public class GameCenterAPI : MonoBehaviour {
 	{
 		#if UNITY_ANDROID
 		PlayGamesPlatform.Activate ();
+
 		#endif
+
+
 	}
 
 	void Start()

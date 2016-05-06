@@ -147,7 +147,7 @@ public class StartOptions : MonoBehaviour {
 		GameStateManager.Instance.StartGame();
 		GameStateManager.Instance.Restart();
 		updateScore.ChangeLiveScore();
-		GameStateManager.Instance.BallTimer = 20;
+		GameStateManager.Instance.BallTimer = 15;
 		updateScore.LiveTime();
 
 //		GameStateManager.Instance.TestIndex++;
