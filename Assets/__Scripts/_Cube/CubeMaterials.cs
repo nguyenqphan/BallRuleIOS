@@ -5,10 +5,10 @@ using System.Collections;
 //In charge the materials of the cubes
 public class CubeMaterials : MonoBehaviour {
 
-	private int matIndex = 0;								
-	public Material[] cubeMats;
+	private int matIndex = 0;										//the index of the cube material						
+	public Material[] cubeMats;										//an array of index materials
 
-	private Renderer renderMaterial;
+	private Renderer renderMaterial;								
 
 
 	void Awake()
@@ -22,7 +22,7 @@ public class CubeMaterials : MonoBehaviour {
 
 		//if Challenge mode is enableb, change the material set.
 		if(GameStateManager.Instance.IsChallenged){
-			matIndex = 6;
+			matIndex = 6;											//start 
 		}
 		else{
 			matIndex = 0;
