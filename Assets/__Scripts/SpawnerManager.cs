@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿	using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -454,8 +454,13 @@ public class SpawnerManager : MonoBehaviour {
 	}
 
 	float randonDegree()
-	{
-		return Random.Range(-40f, 40f);;
+	{	
+		
+		if (GameStateManager.Instance.IsChallenged || GameStateManager.Instance.IsObstacle || GameStateManager.HighScore > 59) {
+			return Random.Range (-40f, 40f);
+		}else{
+			return 0f;
+		}
 	}
 
 	int RandomIncrease()
@@ -503,69 +508,91 @@ public class SpawnerManager : MonoBehaviour {
 
 		yield return new WaitForSeconds(3f);
 
-		if (!spawnP.matchSmallestNum) {
-			if (!spawnP.matchNum) {
-				for (int i = 0; i < cubeList.Count; i++) {
-					if (!cubeList [i].activeInHierarchy) {
-//						cubeList [i].transform.position = spawnP.spawnerTransform.position;
-//						cubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
-
-						cubeTransList[i].position = spawnP.spawnerTransform.position;
-						cubeTransList[i].rotation = spawnP.spawnerTransform.rotation;
-
-						cubeList [i].SetActive (true);
-						spawnP.mainCube = cubeList [i].GetComponent<MainCube> ();    	//cube.tag
-						spawnP.cube = cubeList [i].GetComponentInChildren<Cube> ();
-
-//						spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
-						//				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
-						spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, randonDegree ());
-						spawnP.mainCube.MoveCube (spawnP.position);
-						break;
+		if (GameStateManager.Instance.IsChallenged || GameStateManager.Instance.IsObstacle || GameStateManager.HighScore > 59) {
+			if (!spawnP.matchSmallestNum) {
+				if (!spawnP.matchNum) {
+					for (int i = 0; i < cubeList.Count; i++) {
+						if (!cubeList [i].activeInHierarchy) {
+							//						cubeList [i].transform.position = spawnP.spawnerTransform.position;
+							//						cubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
+			
+							cubeTransList [i].position = spawnP.spawnerTransform.position;
+							cubeTransList [i].rotation = spawnP.spawnerTransform.rotation;
+			
+							cubeList [i].SetActive (true);
+							spawnP.mainCube = cubeList [i].GetComponent<MainCube> ();    	//cube.tag
+							spawnP.cube = cubeList [i].GetComponentInChildren<Cube> ();
+			
+							//						spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
+							//				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
+							spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, randonDegree ());
+							spawnP.mainCube.MoveCube (spawnP.position);
+							break;
+						}
 					}
+				} else {
+					for (int i = 0; i < smallCubeList.Count; i++) {
+						if (!smallCubeList [i].activeInHierarchy) {
+							//						smallCubeList [i].transform.position = spawnP.spawnerTransform.position;
+							//						smallCubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
+			
+							smallCubeTransList [i].position = spawnP.spawnerTransform.position;
+							smallCubeTransList [i].rotation = spawnP.spawnerTransform.rotation;
+			
+							smallCubeList [i].SetActive (true);
+							spawnP.mainCube = smallCubeList [i].GetComponent<MainCube> ();    	//cube.tag
+							spawnP.cube = smallCubeList [i].GetComponentInChildren<Cube> ();
+			
+							//						spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
+							//				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
+							spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, randonDegree ());
+							spawnP.mainCube.MoveCube (spawnP.position);
+			
+							break;
+						}
+					}
+			
 				}
 			} else {
-				for (int i = 0; i < smallCubeList.Count; i++) {
-					if (!smallCubeList [i].activeInHierarchy) {
-//						smallCubeList [i].transform.position = spawnP.spawnerTransform.position;
-//						smallCubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
-
-						smallCubeTransList[i].position = spawnP.spawnerTransform.position;
-						smallCubeTransList[i].rotation = spawnP.spawnerTransform.rotation;
-
-						smallCubeList [i].SetActive (true);
-						spawnP.mainCube = smallCubeList [i].GetComponent<MainCube> ();    	//cube.tag
-						spawnP.cube = smallCubeList [i].GetComponentInChildren<Cube> ();
-
-//						spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
+				for (int i = 0; i < smallestCubeList.Count; i++) {
+					if (!smallestCubeList [i].activeInHierarchy) {
+						//					smallestCubeList [i].transform.position = spawnP.spawnerTransform.position;
+						//					smallestCubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
+			
+						smallestCubeTransList [i].position = spawnP.spawnerTransform.position;
+						smallestCubeTransList [i].rotation = spawnP.spawnerTransform.rotation;
+			
+			
+						smallestCubeList [i].SetActive (true);
+						spawnP.mainCube = smallestCubeList [i].GetComponent<MainCube> ();    	//cube.tag
+						spawnP.cube = smallestCubeList [i].GetComponentInChildren<Cube> ();
+			
+						//					spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
 						//				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
 						spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, randonDegree ());
 						spawnP.mainCube.MoveCube (spawnP.position);
-
+			
 						break;
 					}
 				}
-
 			}
 		}else{
-			for (int i = 0; i < smallestCubeList.Count; i++) {
-				if (!smallestCubeList [i].activeInHierarchy) {
-//					smallestCubeList [i].transform.position = spawnP.spawnerTransform.position;
-//					smallestCubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
+			for (int i = 0; i < cubeList.Count; i++) {
+				if (!cubeList [i].activeInHierarchy) {
+					//						cubeList [i].transform.position = spawnP.spawnerTransform.position;
+					//						cubeList [i].transform.rotation = spawnP.spawnerTransform.rotation;
 
-					smallestCubeTransList[i].position = spawnP.spawnerTransform.position;
-					smallestCubeTransList[i].rotation = spawnP.spawnerTransform.rotation;
+					cubeTransList [i].position = spawnP.spawnerTransform.position;
+					cubeTransList [i].rotation = spawnP.spawnerTransform.rotation;
 
+					cubeList [i].SetActive (true);
+					spawnP.mainCube = cubeList [i].GetComponent<MainCube> ();    	//cube.tag
+					spawnP.cube = cubeList [i].GetComponentInChildren<Cube> ();
 
-					smallestCubeList [i].SetActive (true);
-					spawnP.mainCube = smallestCubeList [i].GetComponent<MainCube> ();    	//cube.tag
-					spawnP.cube = smallestCubeList [i].GetComponentInChildren<Cube> ();
-
-//					spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
+					//						spawnP.cube.gameObject.transform.position = spawnP.spawnerTransform.position;
 					//				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
 					spawnP.cube.gameObject.transform.rotation = Quaternion.Euler (0f, 0f, randonDegree ());
 					spawnP.mainCube.MoveCube (spawnP.position);
-
 					break;
 				}
 			}
@@ -590,15 +617,19 @@ public class SpawnerManager : MonoBehaviour {
 				diamondList[i].SetActive(true);
 				spawnP.diamondScript = diamondList[i].GetComponent<Diamond>();
 
-				if (!spawnP.matchSmallestNum) {
-					if (!spawnP.matchNum) {
-						spawnP.diamondScript.MoveDiamond (diamondPos ());
+				if (GameStateManager.Instance.IsChallenged || GameStateManager.Instance.IsObstacle || GameStateManager.HighScore > 59) {
+					if (!spawnP.matchSmallestNum) {
+						if (!spawnP.matchNum) {
+							spawnP.diamondScript.MoveDiamond (diamondPos ());
+						} else {
+							spawnP.diamondScript.MoveDiamond (diamondPos3 ());
+						}
+					
 					} else {
-						spawnP.diamondScript.MoveDiamond (diamondPos3 ());
+						spawnP.diamondScript.MoveDiamond (diamondPos5 ());
 					}
-
 				}else{
-					spawnP.diamondScript.MoveDiamond (diamondPos5());
+					spawnP.diamondScript.MoveDiamond (diamondPos ());
 				}
 
 				spawnP.diamondScript.SetDiaInactive (diamondList [i]);
@@ -620,15 +651,18 @@ public class SpawnerManager : MonoBehaviour {
 				diamondTransList[i].rotation = Quaternion.Euler(GameStateManager.Instance.IsChallenged && GameStateManager.Instance.IsStarted? 0f : 270f, 0f, 0f);
 				diamondList[i].SetActive(true);
 				spawnP.diamondScript = diamondList[i].GetComponent<Diamond>();
-				if (!spawnP.matchSmallestNum) {
-					if (!spawnP.matchNum) {
-						spawnP.diamondScript.MoveDiamond (diamondPos2 ());
+				if (GameStateManager.Instance.IsChallenged || GameStateManager.Instance.IsObstacle || GameStateManager.HighScore > 59) {
+					if (!spawnP.matchSmallestNum) {
+						if (!spawnP.matchNum) {
+							spawnP.diamondScript.MoveDiamond (diamondPos2 ());
+						} else {
+							spawnP.diamondScript.MoveDiamond (diamondPos4 ());
+						}
 					} else {
-						spawnP.diamondScript.MoveDiamond (diamondPos4 ());
+						spawnP.diamondScript.MoveDiamond (diamondPos6 ());
 					}
-				}
-				else{
-					spawnP.diamondScript.MoveDiamond (diamondPos6 ());
+				}else{
+					spawnP.diamondScript.MoveDiamond (diamondPos2 ());
 				}
 				spawnP.diamondScript.SetDiaInactive(diamondList[i]);
 				break;

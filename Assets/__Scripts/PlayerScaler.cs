@@ -43,7 +43,7 @@ public class PlayerScaler : MonoBehaviour {
 		scallerP.oneHalf = 1.5f;
 		if(GameStateManager.Instance.IsChallenged)
 		{
-			scallerP.playerTransform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+			scallerP.playerTransform.localScale = new Vector3(1.7f, 1.7f, 1.7f);
 		}
 	}
 

@@ -9,7 +9,8 @@ public class EventManager : MonoBehaviour {
 
 	private SoundBreaking soundDropBall;
 	private UpdateScore updateScore;
-	private Cube cube;
+
+	private MainCube mainCube;
 
 	[HideInInspector]
 	public bool isCollided = false; 
@@ -18,7 +19,11 @@ public class EventManager : MonoBehaviour {
 	{
 		soundDropBall = GameObject.FindWithTag("GameManager").GetComponent<SoundBreaking>();
 		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
-		cube = GetComponent<Cube>();
+		mainCube = GetComponentInParent<MainCube>();
+
+//		Debug.Log(cube);
+//		Debug.Log(mainCube);
+
 	}
 
 	void OnCollisionEnter(Collision collider)
@@ -29,7 +34,7 @@ public class EventManager : MonoBehaviour {
 				soundDropBall.PlayDropBall ();
 				GameStateManager.HighScore++;
 				updateScore.ChangeLiveScore ();
-				cube.PulseCube();
+			mainCube.PulseCube();
 
 				if (OnCamMove != null) {
 					OnCamMove ();
